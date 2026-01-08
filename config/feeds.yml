@@ -3,6 +3,7 @@ feeds:
   - url: https://netflixtechblog.com/feed
     name: Netflix Tech Blog
     category: engineering
+    enabled: false  # SSL certificate error
 
   - url: https://www.uber.com/blog/engineering/rss/
     name: Uber Engineering
@@ -46,6 +47,7 @@ feeds:
   - url: https://hidde.blog/feed.xml
     name: Hidde de Vries
     category: accessibility
+    enabled: false  # Empty response
 
   # Design & UX
   - url: https://sidebar.io/feed.xml
