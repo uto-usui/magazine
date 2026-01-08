@@ -36,7 +36,7 @@ src/
 ├── rss/            # RSS fetch & parse (rss-parser), diff detection
 ├── scraper/        # Content extraction (@mozilla/readability),
 │                   # HTML→Markdown (turndown), image download
-├── storage/        # File writer (articles/YYYY-MM-DD/*.md),
+├── storage/        # File writer (articles/YYYY-MM-DD/*.md, date=fetch date),
 │                   # state manager (state/processed.json)
 └── utils/          # Logger, helpers
 ```
@@ -47,7 +47,7 @@ src/
 2. Fetch RSS feeds → extract new/updated articles
 3. Scrape full article content with Readability
 4. Convert to Markdown with Frontmatter
-5. Save to `articles/YYYY-MM-DD/<title>.md`
+5. Save to `articles/YYYY-MM-DD/<title>.md` (YYYY-MM-DD = fetch date)
 6. Update `state/processed.json` for deduplication
 
 ## Key Libraries
@@ -64,7 +64,7 @@ src/
 ---
 title: Article Title
 source: Feed Name
-publishedDate: 2026-01-08
+publishedDate: 2026-01-08  # Original publication date from RSS
 category: Engineering
 author: Author Name
 ---
@@ -72,9 +72,12 @@ author: Author Name
 Content in Markdown
 ```
 
+Note: Directory date (YYYY-MM-DD) = script execution date, `publishedDate` = original article date
+
 ## Notes
 
 - 404 errors: Skip article
+- 403 errors (Medium etc): Use RSS content as fallback with link to original
 - Partial content: Include URL for manual access
 - Images: Download to `images/` when possible
 - Duplicates: Keep newer version, update if diff exists
