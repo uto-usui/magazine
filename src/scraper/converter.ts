@@ -1,5 +1,5 @@
 import TurndownService from 'turndown'
-import { format, parseISO } from 'date-fns'
+import { format, isValid, parseISO } from 'date-fns'
 import type { FeedItem } from '../rss/fetcher'
 import type { ExtractedContent } from './extractor'
 
@@ -25,10 +25,13 @@ export class MarkdownConverter {
     lines.push(`source: "${feedItem.link}"`)
 
     if (feedItem.pubDate) {
-      try {
-        const date = parseISO(feedItem.pubDate)
+      let date = parseISO(feedItem.pubDate)
+      if (!isValid(date)) {
+        date = new Date(feedItem.pubDate)
+      }
+      if (isValid(date)) {
         lines.push(`publishedDate: "${format(date, 'yyyy-MM-dd')}"`)
-      } catch {
+      } else {
         lines.push(`publishedDate: "${feedItem.pubDate}"`)
       }
     }
@@ -50,6 +53,19 @@ export class MarkdownConverter {
     const markdown = this.htmlToMarkdown(content.content)
 
     return `${frontmatter}\n\n${markdown}`
+  }
+
+  createArticleFromRssContent(feedItem: FeedItem): string {
+    const frontmatter = this.generateFrontmatter(feedItem)
+    let content = ''
+
+    if (feedItem.content) {
+      content = this.htmlToMarkdown(feedItem.content)
+    }
+
+    const notice = `> **Note:** Full content could not be retrieved. [Read the original article](${feedItem.link})`
+
+    return `${frontmatter}\n\n${notice}\n\n${content}`
   }
 
   private escapeYamlString(value: string): string {

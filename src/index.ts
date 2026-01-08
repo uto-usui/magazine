@@ -1,5 +1,5 @@
 import { join } from 'node:path'
-import { parseISO } from 'date-fns'
+import { isValid, parseISO } from 'date-fns'
 import { loadFeedConfig } from './config/loader'
 import { RssFetcher } from './rss/fetcher'
 import { DiffDetector } from './rss/diff'
@@ -61,28 +61,39 @@ async function main() {
       // Extract content from URL
       const extracted = await contentExtractor.extractFromUrl(item.link)
 
+      let article: string
       if (!extracted) {
-        console.log(`⚠️ Could not extract content from: ${item.link}`)
-        errorCount++
-        continue
-      }
+        // Use RSS content as fallback
+        if (item.content) {
+          console.log(`⚠️ Using RSS content as fallback for: ${item.link}`)
+          article = markdownConverter.createArticleFromRssContent(item)
+        } else {
+          console.log(`⚠️ Could not extract content and no RSS content available: ${item.link}`)
+          errorCount++
+          continue
+        }
+      } else {
+        // Download images
+        if (extracted.images.length > 0) {
+          const slug = articleWriter.sanitizeTitle(item.title)
+          await imageDownloader.downloadImages(extracted.images, slug)
+        }
 
-      // Download images
-      if (extracted.images.length > 0) {
-        const slug = articleWriter.sanitizeTitle(item.title)
-        await imageDownloader.downloadImages(extracted.images, slug)
+        // Convert to Markdown
+        article = markdownConverter.createArticle(item, extracted)
       }
-
-      // Convert to Markdown
-      const article = markdownConverter.createArticle(item, extracted)
 
       // Determine publish date
       let pubDate = new Date()
       if (item.pubDate) {
-        try {
-          pubDate = parseISO(item.pubDate)
-        } catch {
-          // Use current date if parsing fails
+        // Try ISO format first (isoDate from rss-parser)
+        let parsed = parseISO(item.pubDate)
+        if (!isValid(parsed)) {
+          // Try RFC 2822 format (pubDate from rss-parser)
+          parsed = new Date(item.pubDate)
+        }
+        if (isValid(parsed)) {
+          pubDate = parsed
         }
       }
 
