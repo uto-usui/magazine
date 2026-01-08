@@ -12,3 +12,4 @@ yarn-error.log*
 /.idea/
 /ai/todo/
 /.bundle/config
+/.bundle/
