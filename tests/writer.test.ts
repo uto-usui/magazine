@@ -21,8 +21,9 @@ describe('ArticleWriter', () => {
     const content = '---\ntitle: "Test"\n---\n\nContent here'
     const date = new Date('2024-01-15')
     const title = 'My Test Article'
+    const sourceUrl = 'https://example.com/my-test-article'
 
-    const filePath = await writer.writeArticle(content, title, date)
+    const filePath = await writer.writeArticle(content, title, date, sourceUrl)
 
     expect(filePath).toContain('2024-01-15')
     expect(filePath).toContain('my-test-article.md')
@@ -35,8 +36,9 @@ describe('ArticleWriter', () => {
     const content = 'Test content'
     const date = new Date('2024-01-15')
     const title = 'Article: With "Special" Characters!'
+    const sourceUrl = 'https://example.com/article'
 
-    const filePath = await writer.writeArticle(content, title, date)
+    const filePath = await writer.writeArticle(content, title, date, sourceUrl)
 
     expect(filePath).toContain('article-with-special-characters.md')
   })
@@ -45,8 +47,9 @@ describe('ArticleWriter', () => {
     const content = 'Test content'
     const date = new Date('2024-02-20')
     const title = 'New Article'
+    const sourceUrl = 'https://example.com/new-article'
 
-    await writer.writeArticle(content, title, date)
+    await writer.writeArticle(content, title, date, sourceUrl)
 
     const dirs = await readdir(TEST_ARTICLES_DIR)
     expect(dirs).toContain('2024-02-20')
@@ -55,11 +58,36 @@ describe('ArticleWriter', () => {
   it('should handle duplicate titles by appending number', async () => {
     const date = new Date('2024-01-15')
     const title = 'Duplicate Title'
+    const sourceUrl = 'https://example.com/duplicate'
 
-    await writer.writeArticle('Content 1', title, date)
-    const secondPath = await writer.writeArticle('Content 2', title, date)
+    await writer.writeArticle('Content 1', title, date, sourceUrl)
+    const secondPath = await writer.writeArticle('Content 2', title, date, sourceUrl)
 
     expect(secondPath).toContain('duplicate-title-1.md')
+  })
+
+  it('should use URL-based slug for Japanese titles', async () => {
+    const content = 'Test content'
+    const date = new Date('2024-01-15')
+    const title = '若手フロントエンドエンジニアのためのバックエンド入門'
+    const sourceUrl = 'https://ics.media/entry/251002/'
+
+    const filePath = await writer.writeArticle(content, title, date, sourceUrl)
+
+    // Japanese title produces empty slug, so falls back to URL-based
+    expect(filePath).toContain('ics-media-entry-251002.md')
+  })
+
+  it('should use URL-based slug when sanitizeTitle produces only numbers', async () => {
+    const content = 'Test content'
+    const date = new Date('2024-01-15')
+    const title = 'メルカリ『お問い合わせ対応システム』開発の1ヶ月'
+    const sourceUrl = 'https://engineering.mercari.com/blog/entry/20251007-553f1424b6/'
+
+    const filePath = await writer.writeArticle(content, title, date, sourceUrl)
+
+    // Title produces "1" which is just numbers, so falls back to URL-based
+    expect(filePath).toContain('mercari-blog-entry-20251007-553f1424b6.md')
   })
 
   it('should generate sanitized slug', () => {

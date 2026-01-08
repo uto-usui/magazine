@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach, afterEach } from 'vitest'
+import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest'
 import { mkdir, rm, readdir } from 'node:fs/promises'
 import { join } from 'node:path'
 import { ImageDownloader } from '../src/scraper/image-downloader'
@@ -12,6 +12,7 @@ describe('ImageDownloader', () => {
     await mkdir(TEST_IMAGES_DIR, { recursive: true })
     downloader = new ImageDownloader(TEST_IMAGES_DIR, {
       maxSizeBytes: 5 * 1024 * 1024, // 5MB
+      concurrency: 5,
     })
   })
 
@@ -66,5 +67,69 @@ describe('ImageDownloader', () => {
     expect(path1).not.toBe(path2)
     expect(path1).toContain(articleSlug)
     expect(path2).toContain(articleSlug)
+  })
+
+  it('should respect concurrency limit', async () => {
+    const concurrency = 2
+    const limitedDownloader = new ImageDownloader(TEST_IMAGES_DIR, {
+      maxSizeBytes: 5 * 1024 * 1024,
+      concurrency,
+    })
+
+    let maxConcurrent = 0
+    let currentConcurrent = 0
+
+    // Mock downloadImage to track concurrency
+    limitedDownloader.downloadImage = vi.fn(async (url: string, articleSlug: string) => {
+      currentConcurrent++
+      maxConcurrent = Math.max(maxConcurrent, currentConcurrent)
+
+      // Simulate network delay
+      await new Promise((resolve) => setTimeout(resolve, 50))
+
+      currentConcurrent--
+      return null // Return null as we're not actually downloading
+    })
+
+    const urls = [
+      'https://example.com/img1.jpg',
+      'https://example.com/img2.jpg',
+      'https://example.com/img3.jpg',
+      'https://example.com/img4.jpg',
+      'https://example.com/img5.jpg',
+    ]
+
+    await limitedDownloader.downloadImages(urls, 'test-article')
+
+    expect(maxConcurrent).toBeLessThanOrEqual(concurrency)
+    expect(limitedDownloader.downloadImage).toHaveBeenCalledTimes(urls.length)
+  })
+
+  it('should process all URLs in parallel download', async () => {
+    // Mock downloadImage to return predictable results
+    downloader.downloadImage = vi.fn(async (url: string, articleSlug: string) => {
+      if (url.includes('fail')) {
+        return null
+      }
+      return `/images/${articleSlug}/${url.split('/').pop()}`
+    })
+
+    const urls = [
+      'https://example.com/img1.jpg',
+      'https://example.com/fail.jpg',
+      'https://example.com/img2.png',
+    ]
+
+    const results = await downloader.downloadImages(urls, 'test-article')
+
+    expect(results.size).toBe(2)
+    expect(results.has('https://example.com/img1.jpg')).toBe(true)
+    expect(results.has('https://example.com/fail.jpg')).toBe(false)
+    expect(results.has('https://example.com/img2.png')).toBe(true)
+  })
+
+  it('should handle empty URL array', async () => {
+    const results = await downloader.downloadImages([], 'test-article')
+    expect(results.size).toBe(0)
   })
 })

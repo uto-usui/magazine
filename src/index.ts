@@ -88,7 +88,8 @@ async function main() {
       const filePath = await articleWriter.writeArticle(
         article,
         item.title,
-        fetchDate
+        fetchDate,
+        item.link
       )
       console.log(`✅ Saved: ${filePath}`)
 
