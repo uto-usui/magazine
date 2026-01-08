@@ -89,3 +89,19 @@ feeds:
   - url: https://feeds.feedburner.com/Kilianvalkhofcom
     name: Kilian Valkhof
     category: frontend
+
+  - url: https://ics.media/feed/atom.xml
+    name: ICS MEDIA
+    category: frontend
+
+  - url: https://engineering.mercari.com/blog/feed.xml
+    name: Mercari Engineering
+    category: engineering
+
+  - url: https://una.im/rss.xml
+    name: Una Kravets
+    category: css
+
+  - url: https://frontendweekly.tokyo/rss.xml
+    name: Frontend Weekly Tokyo
+    category: frontend
