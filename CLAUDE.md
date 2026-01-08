@@ -15,6 +15,9 @@ pnpm install
 # Build TypeScript
 pnpm run build
 
+# Type check (no emit)
+pnpm run type-check
+
 # Run tests
 pnpm test
 
