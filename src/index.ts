@@ -42,7 +42,8 @@ async function main() {
   console.log(`✨ New articles: ${newArticles.length}`)
   console.log(`🔄 Updated articles: ${updatedArticles.length}`)
 
-  const articlesToProcess = [...newArticles, ...updatedArticles]
+  // Skip updated articles - only process new articles to reduce execution time
+  const articlesToProcess = [...newArticles]
 
   if (articlesToProcess.length === 0) {
     console.log('✅ No new articles to process')
