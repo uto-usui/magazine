@@ -14,3 +14,4 @@ yarn-error.log*
 /ai/todo/
 /.bundle/config
 /.bundle/
+/dist/
