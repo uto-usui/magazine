@@ -1,5 +1,4 @@
 import { join } from 'node:path'
-import { isValid, parseISO } from 'date-fns'
 import { loadFeedConfig } from './config/loader'
 import { RssFetcher } from './rss/fetcher'
 import { DiffDetector } from './rss/diff'
@@ -15,6 +14,7 @@ const IMAGES_DIR = join(ROOT_DIR, 'images')
 const STATE_DIR = join(ROOT_DIR, 'state')
 
 async function main() {
+  const fetchDate = new Date() // Use script execution timestamp for directory
   console.log('🚀 Starting RSS feed fetch...')
 
   // Load configuration
@@ -83,25 +83,11 @@ async function main() {
         article = markdownConverter.createArticle(item, extracted)
       }
 
-      // Determine publish date
-      let pubDate = new Date()
-      if (item.pubDate) {
-        // Try ISO format first (isoDate from rss-parser)
-        let parsed = parseISO(item.pubDate)
-        if (!isValid(parsed)) {
-          // Try RFC 2822 format (pubDate from rss-parser)
-          parsed = new Date(item.pubDate)
-        }
-        if (isValid(parsed)) {
-          pubDate = parsed
-        }
-      }
-
-      // Write article
+      // Write article (use fetchDate for directory, publishedDate is in frontmatter)
       const filePath = await articleWriter.writeArticle(
         article,
         item.title,
-        pubDate
+        fetchDate
       )
       console.log(`✅ Saved: ${filePath}`)
 
