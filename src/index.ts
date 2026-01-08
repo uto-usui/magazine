@@ -40,7 +40,7 @@ async function main() {
   // Detect new and updated articles
   const { newArticles, updatedArticles } = diffDetector.detectChanges(allItems)
   console.log(`✨ New articles: ${newArticles.length}`)
-  console.log(`🔄 Updated articles: ${updatedArticles.length}`)
+  console.log(`⏭️ Skipped (already processed): ${updatedArticles.length}`)
 
   // Skip updated articles - only process new articles to reduce execution time
   const articlesToProcess = [...newArticles]
