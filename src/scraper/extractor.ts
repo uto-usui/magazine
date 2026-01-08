@@ -24,14 +24,14 @@ export class ContentExtractor {
       return null
     }
 
-    const images = this.extractImages(article.content, url)
+    const images = this.extractImages(article.content ?? '', url)
 
     return {
-      title: article.title,
-      content: article.content,
-      textContent: article.textContent,
-      excerpt: article.excerpt,
-      byline: article.byline,
+      title: article.title ?? '',
+      content: article.content ?? '',
+      textContent: article.textContent ?? '',
+      excerpt: article.excerpt ?? null,
+      byline: article.byline ?? null,
       images,
     }
   }
@@ -68,7 +68,7 @@ export class ContentExtractor {
     const images = dom.window.document.querySelectorAll('img')
     const imageUrls: string[] = []
 
-    images.forEach((img) => {
+    images.forEach((img: Element) => {
       const src = img.getAttribute('src')
       if (src) {
         try {
