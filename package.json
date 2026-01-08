@@ -1,0 +1,29 @@
+{
+  "name": "ux-eng-magazine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.6.0",
+    "axios": "^1.13.2",
+    "date-fns": "^4.1.0",
+    "js-yaml": "^4.1.1",
+    "jsdom": "^27.4.0",
+    "rss-parser": "^3.13.0",
+    "turndown": "^7.2.2",
+    "zod": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^25.0.3",
+    "@types/turndown": "^5.0.6",
+    "typescript": "^5.5.3",
+    "vitest": "^4.0.16"
+  },
+  "private": true,
+  "packageManager": "pnpm@9.14.2+sha512.6e2baf77d06b9362294152c851c4f278ede37ab1eba3a55fda317a4a17b209f4dbb973fb250a77abc463a341fcb1f17f17cfa24091c4eb319cda0d9b84278387"
+}
