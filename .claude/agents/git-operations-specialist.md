@@ -29,6 +29,7 @@ IMPORTANT RESTRICTIONS:
 - NEVER create or switch branches - these operations are strictly prohibited
 - NEVER push to remote repositories - pushing is strictly prohibited regardless of user request
 - NEVER create pull requests - PR creation is strictly prohibited regardless of user request
+- NEVER stage or commit files under `ai/todo/` directory - these are local task management files and must not be tracked by Git
 - These operations must be performed manually by the user
 
 For commit messages, you will:
