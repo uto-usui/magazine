@@ -7,6 +7,7 @@ feeds:
   - url: https://www.uber.com/blog/engineering/rss/
     name: Uber Engineering
     category: engineering
+    enabled: false  # Returns HTTP 406, blocking RSS readers
 
   - url: https://engineering.atspotify.com/feed/
     name: Spotify Engineering
@@ -41,7 +42,7 @@ feeds:
     name: Adrian Roselli
     category: accessibility
 
-  - url: https://hidde.blog/feed
+  - url: https://hidde.blog/feed.xml
     name: Hidde de Vries
     category: accessibility
 
