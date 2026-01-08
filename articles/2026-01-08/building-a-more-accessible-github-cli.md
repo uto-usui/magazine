@@ -1,0 +1,112 @@
+---
+title: "Building a more accessible GitHub CLI"
+source: "https://github.blog/engineering/user-experience/building-a-more-accessible-github-cli/"
+publishedDate: "2025-05-02"
+category: "engineering"
+feedName: "GitHub Engineering"
+author: "Ryan Hecht"
+---
+
+At GitHub, we’re committed to making our tools truly accessible for every developer, regardless of ability or toolset. The command line interface (CLI) is a vital part of the developer experience, and the [GitHub CLI](https://cli.github.com/) is our product that brings the power of GitHub to your terminal.
+
+When it comes to accessibility, the terminal is fundamentally different from a web browser or a graphical user interface, with a lineage that predates the web itself. While standards like the Web Content Accessibility Guidelines (WCAG) provide a clear path for making web and graphical applications accessible, there is no equivalent, comprehensive standard for the terminal and CLIs. The W3C offers [some high-level guidance for non-web software](https://www.w3.org/TR/wcag2ict-22/#applying-wcag-2-to-text-applications), but it stops short of prescribing concrete techniques, leaving much open to interpretation and innovation.
+
+This gap has challenged us to think creatively and purposefully about what accessibility should look like in the terminal. Our recent [Public Preview](https://github.blog/changelog/2025-05-01-improved-accessibility-features-in-github-cli/) is focused on addressing the needs of three key groups: users who rely on screen readers, users who need high contrast between background and text, and users who require customizable color options. Our work aims to make the GitHub CLI more inclusive for all, regardless of how you interact with your terminal. Run `gh a11y` in the latest version of the GitHub CLI to enable these features, or read on to learn about our path to designing and implementing them.
+
+## Understanding the terminal landscape
+
+Text-based and command-line applications differ fundamentally from graphical or web applications. On a web page, assistive technologies like screen readers make use of the document object model (DOM) to infer structure and context of the page. Web pages can be designed such that the DOM’s structure is friendly to these technologies without impacting the visual design of the page.  By contrast, CLI’s primary output is plain text, without hidden markup. A terminal emulator acts as the “user agent” for text apps, rendering characters as directed by the server application. Assistive technologies access this matrix of characters, analyze its layout, and try to infer structure. As the [WCAG2ICT guidance](https://www.w3.org/TR/wcag2ict-22/) notes, accessibility in this space means ensuring that all text output is available to assistive technologies, and that structural information is conveyed in a way that’s programmatically determinable—even if no explicit markup is present.
+
+In our quest to improve the GitHub CLI’s usability for blind, low-vision, and colorblind users, we found ourselves navigating a landscape with lots of guidance, but few concrete techniques for implementing accessible experiences. We studied how assistive technology interacts with terminals: how screen readers review output, how color and contrast can be customized, and how structural cues can be inferred from plain text. Our recent Public Preview contains explorations into various use cases in these spaces. 
+
+## Rethinking prompts and progress for screen readers
+
+One of the GitHub CLI’s strengths as a command-line application is its rich prompting experience, which gives our users an interactive interface to enter command options. However, this rich interactive experience poses a hurdle for speech synthesis screen readers: Non-alphanumeric visual cues and uses of constant screen redraws for visual or other effects can be tricky to correctly interpret as speech. 
+
+A demo video with sound of screen reader reading legacy prompter.
+
+To reduce confusion and make it easier for blind and low vision users to confidently answer questions and navigate choices, we’re introducing a prompting experience that allows speech synthesis screen readers to accurately convey prompts to users. Our new prompter is built using Charm’s open source `charmbracelet/huh` [prompting library](https://github.com/charmbracelet/huh).  
+
+A demo of a screenreader correctly reading a prompt.
+
+Another use case where the terminal is redrawn for visual effect is when showing progress bars. Our existing implementation uses a “spinner” made by redrawing the screen to display different braille characters (yes, we appreciate the irony) to give the user the indication that their command is executing. Speech synthesis screen readers do not handle this well:  
+
+A demo of a screenreader and an old spinner.
+
+This has been replaced with a static text progress indicator (with a relevant message to the action being taken where possible, falling back to a general “Working…” message). We’re working on identifying other areas we can further improve the contextual text.
+
+A demo video of the new progress indicator experience.
+
+## Color, contrast, and customization
+
+Color is more than decoration in the terminal: It’s a vital tool for highlighting information, signaling errors, and guiding workflows. But color can also be a barrier—if contrast between the color of the terminal background and the text displayed on it is too low, some users will have difficulty discerning the displayed information. Unlike in a web browser, a terminal’s background color is not set by the application. That task is handled by the user’s terminal emulator. In order to maintain contrast, it is important that a command line application takes into account this variable. Our legacy color palette used for rendering Markdown did not take the terminal’s background color into account, leading to low contrast in some cases.
+
+![A screenshot of the legacy Markdown palette.](https://github.blog/wp-content/uploads/2025/05/github-cli-legacy-markdown-palette.png?resize=614%2C662)
+
+The colors themselves also matter. Different terminal environments have varied color capabilities (some support 4-bit, some 8-bit, some 24-bit, etc). No matter the capability, terminals enable users to customize their color preferences, choosing how different hues are displayed. However, most terminals only support changing a limited subset of colors: namely, the sixteen colors in the ANSI 4-bit color table. The GitHub CLI has made extensive efforts to align our color palettes to 4-bit colors so our users can completely customize their experience using their terminal preferences. We built on top of [the accessibility foundations pioneered by Primer](https://primer.style/accessibility/color-considerations/) when deciding which 4-bit colors to use.
+
+![A screenshot showing the improved Markdown palette.](https://github.blog/wp-content/uploads/2025/05/github-cli-improved-markdown-palette.png?resize=614%2C662)
+
+Our improvements aim to support a wide range of developer needs, from blind users who need screen readers, to low vision users who need high contrast, to colorblind users who require customizable color options. But this Public Preview does not mark the end of our team’s commitment to enabling all developers to use the GitHub CLI. We intend to make it easier for our extension authors to implement the same accessibility improvements that we’ve made to the core CLI. This will allow users to have a cohesive experience across all GitHub CLI commands, official or community-maintained, and so that more workflows can be made accessible by default. We’re also looking into experiences to customize the formatting of tables output by commands to be more easily read/interpreted by screen readers. We’re excited to continue our accessibility journey.
+
+We couldn’t have come this far without collaboration with our friends at [Charm](https://github.com/charmbracelet) and our colleagues on the GitHub Accessibility team. 
+
+## A call for feedback
+
+We invite you to help us in our goal to make the GitHub CLI an experience for all developers:
+
+-   **Try it out**: Update the GitHub CLI to [v2.72.0](https://github.com/cli/cli/releases/tag/v2.72.0) and run `gh a11y` in your terminal to learn more about enabling these new accessible features.
+-   **Share your experience**: Join our [GitHub CLI accessibility discussion](https://github.com/orgs/community/discussions/158037) to provide feedback or suggestions.
+-   **Connect with us**: If you have a lived experience relevant to our accessibility personas, reach out to the accessibility team or get involved in our [discussion panel](https://github.com/orgs/community/discussions/128172).
+
+## Looking forward
+
+Adapting accessibility standards for the command line is a challenge—and an opportunity. We’re committed to sharing our approach, learning from the community, and helping set a new standard for accessible CLI tools.
+
+Thank you for building a more accessible GitHub with us.
+
+**Want to help us make GitHub the home for all developers?** [Learn more](https://accessibility.github.com/feedback) about GitHub’s accessibility efforts.
+
+## Written by
+
+ ![Ryan Hecht](https://avatars.githubusercontent.com/u/5344055?v=4&s=200)
+
+GitHub Product Manager
+
+ ![Andrew Feller](https://avatars.githubusercontent.com/u/2089743?v=4&s=200)
+
+GitHub Sr. Software Engineer
+
+## Explore more from GitHub
+
+![Docs](https://github.blog/wp-content/uploads/2024/07/Icon-Circle.svg)
+
+### Docs
+
+Everything you need to master GitHub, all in one place.
+
+[Go to Docs](https://docs.github.com/)
+
+![GitHub](https://github.blog/wp-content/uploads/2024/07/Icon_95220f.svg)
+
+### GitHub
+
+Build what’s next on GitHub, the place for anyone from anywhere to build anything.
+
+[Start building](https://github.com/)
+
+![Customer stories](https://github.blog/wp-content/uploads/2024/07/Icon_da43dc.svg)
+
+### Customer stories
+
+Meet the companies and engineering teams that build with GitHub.
+
+[Learn more](https://github.com/customer-stories)
+
+![The GitHub Podcast](https://github.blog/wp-content/uploads/2023/02/galaxy23-icon.svg)
+
+### The GitHub Podcast
+
+Catch up on the GitHub podcast, a show dedicated to the topics, trends, stories and culture in and around the open source developer community on GitHub.
+
+[Listen now](https://the-github-podcast.simplecast.com/)

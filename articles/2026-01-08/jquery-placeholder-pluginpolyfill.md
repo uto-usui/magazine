@@ -1,0 +1,77 @@
+---
+title: "jQuery placeholder plugin/polyfill"
+source: "https://csswizardry.com/2011/05/jquery-placeholder-plugin-polyfill/"
+publishedDate: "2011-05-25"
+category: "css"
+feedName: "CSS Wizardry"
+---
+
+24 May, 2011
+
+Written by **Harry Roberts** on **CSS Wizardry**.
+
+Table of Contents
+
+Independent writing is brought to you via my wonderful [Supporters](https://csswizardry.com/supporters/).
+
+My good friend, ex-colleague and all round awesome dude [Dan Bentley](https://twitter.com/dan_bentley) has made a great little [jQuery placeholder plugin](https://github.com/danbentley/placeholder) which polyfills older browsers that don’t support the new HTML5 form attribute `placeholder`.
+
+Link: [https://github.com/danbentley/placeholder](https://github.com/danbentley/placeholder)
+
+Now I’ll readily admit that Dan has done 99% of the work here, but it has been something of a joint project in that:
+
+-   I actually made him build it cos he’s amazing at JS and I needed it.
+    
+-   I’ve added a tiny, tiny bit of CSS/UI behaviour.
+    
+
+There’s my 1%.
+
+Anyway, follow [the project on GitHub](https://github.com/danbentley/placeholder), follow [Dan on Twitter](https://twitter.com/dan_bentley) [and GitHub](https://github.com/danbentley/) and let us know if you use it!
+
+* * *
+
+* * *
+
+* * *
+
+![](https://csswizardry.com/img/content/avatar.jpg)
+
+##### By [Harry Roberts](https://csswizardry.com/about/)
+
+Harry Roberts is an [independent consultant](https://csswizardry.com/consultancy/) web performance engineer. He [helps companies](https://csswizardry.com/services/) of all shapes and sizes find and fix site speed issues.
+
+* * *
+
+* * *
+
+![](https://csswizardry.com/img/css/masthead-small.jpg)
+
+Hi there, I’m **Harry Roberts**. I am an **[award-winning](https://web.archive.org/web/20190630140300/https://thenetawards.com/previous-winners/) Consultant Web Performance Engineer**, **designer**, **developer**, **writer**, and **speaker** from the UK. I **[write](https://csswizardry.com/blog/)**, **[Tweet](https://twitter.com/csswizardry)**, **[speak](https://csswizardry.com/speaking/)**, and **[share code](https://github.com/csswizardry)** about measuring and improving site-speed. You [should hire me](https://csswizardry.com/services/).
+
+* * *
+
+#### Connect
+
+-   [𝕏 (Twitter)](https://twitter.com/csswizardry)
+-   [Mastodon](https://webperf.social/@csswizardry)
+-   [Bluesky](https://bsky.app/profile/csswizardry.com)
+-   [LinkedIn](https://www.linkedin.com/in/csswizardry/)
+-   [GitHub](https://github.com/csswizardry)
+-   [YouTube](https://www.youtube.com/@csswizardry?sub_confirmation=1)
+
+* * *
+
+#### Projects
+
+#### Next Appearance
+
+-   #### Talk
+    
+    ![](https://csswizardry.com/img/icons/nl.png) [performance.now()](https://perfnow.nl/): Amsterdam (Netherlands), October 2025
+
+I help teams achieve **class-leading web performance**, providing consultancy, guidance, and hands-on expertise.
+
+I specialise in tackling complex, large-scale projects where speed, scalability, and reliability are **critical to success**.
+
+**CSS Wizardry Ltd** is a company registered in England and Wales. **Company No.** 08698093, **VAT No.** 170659396. [License Information](https://csswizardry.com/license/).

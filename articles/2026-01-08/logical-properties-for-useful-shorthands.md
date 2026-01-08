@@ -1,0 +1,73 @@
+---
+title: "Logical Properties for Useful Shorthands"
+source: "https://css-irl.info/logical-properties-for-useful-shorthands/"
+publishedDate: "2022-07-19"
+category: "css"
+feedName: "CSS IRL"
+---
+
+**This article was updated on 28 July 2022 to include the section covering older browsers.**
+
+Something I like about logical properties is the ability to set margins or padding on just a single axis on an element, while leaving the other alone. Say we have an element on which we’ve set some padding using the `padding` shorthand:
+
+```
+/* This gives us 1rem padding all the way around */
+.box {
+  padding: 1rem;
+}
+```
+
+If, later on, we want to adjust the padding **only** on the x-axis (while preserving our original value on the y-axis), we have a couple of choices:
+
+1.  We could use `padding-left` and `padding-right`. Fine, but longer than our original shorthand.
+
+```
+.box--some-variant {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+```
+
+2.  We could use the shorthand, but remembering to include our original values.
+
+```
+.box--some-variant {
+  padding: 1rem 2rem;
+}
+```
+
+I’m not a huge fan of having to repeat the original value for the y-axis padding. We **could** abstract those values out into custom properties — something like this:
+
+```
+.box {
+  padding: var(--py, 1rem) var(--px, 1rem);
+}
+
+.box--some-variant {
+  --px: 2rem;
+}
+```
+
+On the other hand, there is a [logical property](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties) that enables us to adjust the padding on a single axis: `padding-inline` refers to the padding on the x-axis when the document is in the left-to-right (default) or right-to-left [writing mode](https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode). `padding-block` refers to the y-axis. (Those directions are reversed for a vertical writing mode.)
+
+So instead we could write:
+
+```
+.box {
+  padding: 1rem;
+}
+
+.box--some-variant {
+  padding-inline: 2rem;
+}
+```
+
+[Codepen demo →](https://codepen.io/michellebarker/pen/RwMpBRO)
+
+The same applies to margins, borders and a bunch of others. And check out the [`inset`](https://css-irl.info/a-utility-class-for-covering-elements/) property for a great positioning shorthand!
+
+Logical properties are [very well supported](https://caniuse.com/?search=logical%20properties) in browsers now, so it’s a good time to start using them.
+
+## Update
+
+While logical property support is very good in modern browsers, as [Šime pointed out](https://twitter.com/simevidas/status/1549441864255807490?s=20&t=zaJb-OTH8_sLNzPSPuiw9Q), it’s a good idea to polyfill or provide fallbacks for older browsers, otherwise users of older browsers will experience layout bugs. If you use PostCSS then the [PostCSS logical properties plugin](https://github.com/csstools/postcss-logical) should have you covered, otherwise you should consider testing for support using a [feature query](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Conditional_Rules/Using_Feature_Queries).

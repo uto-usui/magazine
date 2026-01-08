@@ -1,0 +1,27 @@
+---
+title: "Perspective"
+source: "https://css-irl.info/perspective/"
+publishedDate: "2024-05-24"
+category: "css"
+feedName: "CSS IRL"
+---
+
+![View from the top of Mount Snowdon (Y Wyddfa), looking down at two lakes and rocky slopes, with mountains fading into the distance against a backdrop of blue, cloudy sky](https://css-irl.info/perspective-01_1200.webp%201200w)
+
+View from the top of Mount Snowdon (Y Wyddfa) in Eryri National Park
+
+This week I climbed a mountain. There are some things that make me care not one tiny bit about web development, and being on top of a mountain is one of them. The web helped me with this adventure, though.
+
+I planned the trip on the web.
+
+I researched the hiking route on the web.
+
+I booked the hotel on the web.
+
+I bought equipment on the web.
+
+I navigated the journey on the web (well, Google Maps).
+
+At the top of the mountain, none of it mattered. All that mattered was the moment. On top of the mountain, the people below were nothing more than specks. It’s a cliché, but all the silly little things I normally worry about felt inconsequential. Now, every time I think back to that trip I get a welcome sense of perspective.
+
+What matters is not the websites we build, but what they enable people to do. Let’s make better websites, so more people can climb mountains.
