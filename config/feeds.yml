@@ -1,0 +1,87 @@
+feeds:
+  # Tech Company Engineering Blogs
+  - url: https://netflixtechblog.com/feed
+    name: Netflix Tech Blog
+    category: engineering
+
+  - url: https://www.uber.com/blog/engineering/rss/
+    name: Uber Engineering
+    category: engineering
+
+  - url: https://engineering.atspotify.com/feed/
+    name: Spotify Engineering
+    category: engineering
+
+  - url: https://medium.com/feed/airbnb-engineering
+    name: Airbnb Engineering
+    category: engineering
+
+  - url: https://engineering.fb.com/feed/
+    name: Meta Engineering
+    category: engineering
+
+  - url: https://github.blog/engineering/feed/
+    name: GitHub Engineering
+    category: engineering
+
+  # CSS & Frontend Experts
+  - url: https://csswizardry.com/feed
+    name: CSS Wizardry
+    category: css
+
+  - url: https://addyosmani.com/rss.xml
+    name: Addy Osmani
+    category: performance
+
+  - url: https://web.dev/feed.xml
+    name: web.dev
+    category: web-standards
+
+  - url: https://adrianroselli.com/feed
+    name: Adrian Roselli
+    category: accessibility
+
+  - url: https://hidde.blog/feed
+    name: Hidde de Vries
+    category: accessibility
+
+  # Design & UX
+  - url: https://sidebar.io/feed.xml
+    name: Sidebar
+    category: design
+
+  - url: https://newsletter.pragmaticengineer.com/feed
+    name: The Pragmatic Engineer
+    category: engineering
+
+  - url: https://uxwritinghub.com/feed
+    name: UX Writing Hub
+    category: ux-writing
+
+  - url: https://lea.verou.me/feed.xml
+    name: Lea Verou
+    category: css
+
+  - url: https://tympanus.net/codrops/feed/
+    name: Codrops
+    category: design
+
+  - url: https://css-irl.info/rss.xml
+    name: CSS IRL
+    category: css
+
+  - url: https://www.smashingmagazine.com/feed
+    name: Smashing Magazine
+    category: design
+
+  - url: https://www.bitovi.com/blog/rss.xml
+    name: Bitovi
+    category: frontend
+
+  - url: https://www.sarasoueidan.com/blog/index.xml
+    name: Sara Soueidan
+    category: accessibility
+
+  - url: https://feeds.feedburner.com/Kilianvalkhofcom
+    name: Kilian Valkhof
+    category: frontend
