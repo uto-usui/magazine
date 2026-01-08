@@ -1,5 +1,5 @@
 ---
-allowed-tools: Read, Write, Glob, Bash, AskUserQuestion
+allowed-tools: [Read, Write, Glob, Bash, AskUserQuestion]
 description: UXエンジニア向けニュースレターを作成するコマンド
 ---
 
