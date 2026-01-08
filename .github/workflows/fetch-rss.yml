@@ -37,14 +37,31 @@ jobs:
       - name: Check for changes
         id: check-changes
         run: |
-          # Check if there are any changes
-          if git diff --quiet && git diff --staged --quiet; then
-            echo "No changes to commit"
+          # Check if there are article or image changes (not just state/processed.json)
+          ARTICLE_CHANGES=$(git diff --name-only -- articles/ images/ | wc -l | tr -d ' ')
+
+          if [ "$ARTICLE_CHANGES" -eq 0 ]; then
+            echo "No article changes to commit"
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
-            echo "Changes detected"
+            echo "Article changes detected: $ARTICLE_CHANGES files"
             echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
+
+      - name: Commit state only (no PR needed)
+        if: steps.check-changes.outputs.has_changes == 'false'
+        run: |
+          # Check if state file changed
+          if git diff --quiet -- state/; then
+            echo "No state changes either"
+            exit 0
+          fi
+
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add state/
+          git commit -m "chore: Update lastRun timestamp"
+          git push
 
       - name: Create branch and commit
         if: steps.check-changes.outputs.has_changes == 'true'
