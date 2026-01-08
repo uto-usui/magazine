@@ -7,7 +7,7 @@ on:
   workflow_dispatch: # Allow manual trigger
 
 env:
-  NODE_VERSION: 20.5.0
+  NODE_VERSION: 22.15.1
 
 jobs:
   fetch-rss:
