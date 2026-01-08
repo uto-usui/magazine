@@ -3987,7 +3987,15 @@
     "https://kilianvalkhof.com/2024/web/js-party-podcast-polypane-demonium/": {
       "contentHash": "e2057516a964f80ba02d6924d52587c851f9ac1a7a1d1002b19c5b64b0d40a91",
       "processedAt": "2026-01-08T09:43:37.861Z"
+    },
+    "https://tympanus.net/codrops/2026/01/08/from-whats-a-string-to-sites-of-the-day-nathan-dallaires-high-end-web-experiences/": {
+      "contentHash": "ef498207aa6d99c64c83d1cbca540ff8395a24597540b5e736cdc63ca7b2b613",
+      "processedAt": "2026-01-08T12:20:56.192Z"
+    },
+    "https://smashingmagazine.com/2026/01/penpot-experimenting-mcp-servers-ai-powered-design-workflows/": {
+      "contentHash": "618494af67accabb9265cc9297345918296520ba8a7d5c37b4e898b0b4c7e673",
+      "processedAt": "2026-01-08T12:20:57.749Z"
     }
   },
-  "lastRun": "2026-01-08T11:19:47.725Z"
+  "lastRun": "2026-01-08T12:20:57.749Z"
 }
