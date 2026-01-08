@@ -1,0 +1,16 @@
+<svg width="720" height="23" viewBox="0 0 720 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="45" height="11.3867" fill="#FF002A"/>
+<rect width="45" height="11.3867" transform="matrix(-1 0 0 1 180 11.3867)" fill="#FF002A"/>
+<rect width="180" height="11.3867" transform="matrix(1 0 0 -1 180 11.3867)" fill="#FF002A"/>
+<rect x="360" y="11.3867" width="180" height="11.3867" fill="#FF002A"/>
+<rect width="180" height="11.3867" transform="matrix(1 0 0 -1 540 11.3867)" fill="#FF002A"/>
+<rect x="45" width="45" height="11.3867" fill="none"/>
+<rect width="45" height="11.3867" transform="matrix(-1 0 0 1 135 11.3867)" fill="none"/>
+<rect x="90" width="45" height="11.3867" fill="#FF002A"/>
+<rect width="45" height="11.3867" transform="matrix(-1 0 0 1 90 11.3867)" fill="#FF002A"/>
+<rect x="135" width="45" height="11.3867" fill="none"/>
+<rect x="360" y="22.7734" width="180" height="11.3867" transform="rotate(180 360 22.7734)" fill="none"/>
+<rect width="180" height="11.3867" transform="matrix(-1 0 0 1 540 0)" fill="none"/>
+<rect x="720" y="22.7734" width="180" height="11.3867" transform="rotate(180 720 22.7734)" fill="none"/>
+<rect width="45" height="11.3867" transform="matrix(-1 0 0 1 45 11.3867)" fill="none"/>
+</svg>
