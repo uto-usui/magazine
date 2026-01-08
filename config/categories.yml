@@ -1,0 +1,40 @@
+categories:
+  - id: engineering
+    name: Engineering
+    description: Tech company engineering blogs and best practices
+    color: "#3498db"
+
+  - id: css
+    name: CSS
+    description: CSS techniques, layouts, and modern styling
+    color: "#264de4"
+
+  - id: accessibility
+    name: Accessibility
+    description: Web accessibility, a11y best practices
+    color: "#27ae60"
+
+  - id: performance
+    name: Performance
+    description: Web performance optimization
+    color: "#e74c3c"
+
+  - id: design
+    name: Design
+    description: UI/UX design patterns and inspiration
+    color: "#9b59b6"
+
+  - id: frontend
+    name: Frontend
+    description: Frontend development techniques
+    color: "#f39c12"
+
+  - id: web-standards
+    name: Web Standards
+    description: Web platform standards and specifications
+    color: "#1abc9c"
+
+  - id: ux-writing
+    name: UX Writing
+    description: Content design and UX writing
+    color: "#e91e63"
