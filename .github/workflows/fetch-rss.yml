@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
 
     steps:
       - name: Checkout repository
@@ -33,23 +34,71 @@ jobs:
       - name: Fetch RSS feeds
         run: pnpm run fetch-rss
 
-      - name: Commit and push changes
+      - name: Check for changes
+        id: check-changes
+        run: |
+          # Check if there are any changes
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to commit"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changes detected"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create branch and commit
+        if: steps.check-changes.outputs.has_changes == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          # Check if there are any changes
-          if git diff --quiet && git diff --staged --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
+          # Create branch name with date
+          BRANCH="rss-updates/$(date +%Y-%m-%d)"
+          echo "BRANCH=$BRANCH" >> $GITHUB_ENV
+
+          # Create and checkout new branch
+          git checkout -b "$BRANCH"
 
           # Add all changes
           git add articles/ images/ state/
 
           # Commit with timestamp
           TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
-          git commit -m "chore: Fetch RSS feeds - ${TIMESTAMP}" || echo "Nothing to commit"
+          git commit -m "chore: Fetch RSS feeds - ${TIMESTAMP}"
 
-          # Push changes
-          git push
+          # Push branch
+          git push -u origin "$BRANCH"
+
+      - name: Create Pull Request
+        if: steps.check-changes.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Generate article list from added files
+          ARTICLE_LIST=""
+          for file in $(git diff --name-only origin/master -- articles/); do
+            if [ -f "$file" ]; then
+              # Extract title from frontmatter
+              TITLE=$(grep -m1 "^title:" "$file" | sed 's/title: "//' | sed 's/"$//')
+              if [ -n "$TITLE" ]; then
+                ARTICLE_LIST="${ARTICLE_LIST}- ${TITLE}\n"
+              fi
+            fi
+          done
+
+          # If no articles found, use file names
+          if [ -z "$ARTICLE_LIST" ]; then
+            for file in $(git diff --name-only origin/master -- articles/); do
+              ARTICLE_LIST="${ARTICLE_LIST}- $(basename "$file")\n"
+            done
+          fi
+
+          # Create PR with article list in body
+          TIMESTAMP=$(date '+%Y-%m-%d %H:%M')
+          PR_BODY=$(printf "## 新着記事\n\n${ARTICLE_LIST}\n---\n🤖 GitHub Actions により自動生成")
+
+          gh pr create \
+            --title "📰 ${TIMESTAMP} の新着記事" \
+            --body "$PR_BODY" \
+            --base master \
+            --assignee @me
