@@ -16,6 +16,7 @@ feeds:
   - url: https://medium.com/feed/airbnb-engineering
     name: Airbnb Engineering
     category: engineering
+    enabled: false  # HTTP 403 + no RSS content fallback available
 
   - url: https://engineering.fb.com/feed/
     name: Meta Engineering
