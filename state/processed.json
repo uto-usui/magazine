@@ -6759,7 +6759,11 @@
     "https://engineering.mercari.com/blog/entry/20250128-15cddb7f50/": {
       "contentHash": "5cabb01f6f81d37a82f913594ec221dfaa2659f3e321974bc5f7c48cd70cdc61",
       "processedAt": "2026-01-08T16:39:01.804Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-158-new-ways-of-coding": {
+      "contentHash": "c2aab1a6725079c5a685aa6811cdfe407d33be266e71685b336417ca2f3e0719",
+      "processedAt": "2026-01-09T00:29:29.387Z"
     }
   },
-  "lastRun": "2026-01-08T16:39:01.804Z"
+  "lastRun": "2026-01-09T00:29:29.387Z"
 }
