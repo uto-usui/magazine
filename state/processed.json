@@ -6763,7 +6763,39 @@
     "https://newsletter.pragmaticengineer.com/p/the-pulse-158-new-ways-of-coding": {
       "contentHash": "c2aab1a6725079c5a685aa6811cdfe407d33be266e71685b336417ca2f3e0719",
       "processedAt": "2026-01-09T00:29:29.387Z"
+    },
+    "https://addyosmani.com/blog/coding-agents-manager/": {
+      "contentHash": "15e821395060553bd62b4558a86e2be9520c97aea36371c9b66abdc22ce701ae",
+      "processedAt": "2026-01-10T00:28:42.618Z"
+    },
+    "https://adrianroselli.com/2026/01/brief-note-on-application-keyboard-shortcuts.html": {
+      "contentHash": "7195ced5cea9d38e3d0df98b65714b8b4923ccf541c6a5101453109ceb6f8887",
+      "processedAt": "2026-01-10T00:28:43.611Z"
+    },
+    "https://draganbabic.com/blog/steam-steel-and-infinite-minds-by-ivan-zhao/": {
+      "contentHash": "4ce6490f185667a6fa5883225e97ac306884933bf4a41110a667c68f455049f7",
+      "processedAt": "2026-01-10T00:28:44.487Z"
+    },
+    "https://vaughntan.org/jrjudgment": {
+      "contentHash": "73a444abe9ae205b67ed2e9e568e96c7144e63cee2e44d7c15a59c661cfd02eb",
+      "processedAt": "2026-01-10T00:28:44.995Z"
+    },
+    "https://www.tool-ui.com/": {
+      "contentHash": "594b451132bbf9cbd2399e9e546fad720de5dfabf9efe05f4894eb0e09760c46",
+      "processedAt": "2026-01-10T00:28:45.413Z"
+    },
+    "https://terriblesoftware.org/2026/01/08/life-happens-at-1x-speed/": {
+      "contentHash": "71440a20a3d1c46738f2fda7f84c950df50e6e1847c8de28706b4b7f07ca4b04",
+      "processedAt": "2026-01-10T00:28:45.978Z"
+    },
+    "https://mikefisher.substack.com/p/more-efficiency-more-demand": {
+      "contentHash": "45d40db93017396c1ea7e1260ff8034a461fa929d7998d7c9ab1441b2012f218",
+      "processedAt": "2026-01-10T00:28:46.043Z"
+    },
+    "https://tympanus.net/codrops/2026/01/09/the-spark-engineering-an-immersive-story-first-web-experience/": {
+      "contentHash": "54296c840f619579ad2545f220ae7ad604474aeab9879e6a50a9d1e417937d70",
+      "processedAt": "2026-01-10T00:28:48.479Z"
     }
   },
-  "lastRun": "2026-01-09T00:29:29.387Z"
+  "lastRun": "2026-01-10T00:28:48.479Z"
 }
