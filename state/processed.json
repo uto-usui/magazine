@@ -6795,7 +6795,39 @@
     "https://tympanus.net/codrops/2026/01/09/the-spark-engineering-an-immersive-story-first-web-experience/": {
       "contentHash": "54296c840f619579ad2545f220ae7ad604474aeab9879e6a50a9d1e417937d70",
       "processedAt": "2026-01-10T00:28:48.479Z"
+    },
+    "https://engineering.fb.com/2026/01/12/web/css-at-scale-with-stylex/": {
+      "contentHash": "60ef81535e8b5b3ca403f25ee68582eab0d7c078dd28cde7a1ca9887ebb5fe6a",
+      "processedAt": "2026-01-13T00:25:54.393Z"
+    },
+    "https://bit.ly/side-lab2": {
+      "contentHash": "577c298f8779c32e1bfbc0c59ab2a88fd9a32398832225fccea1f57182294f9f",
+      "processedAt": "2026-01-13T00:25:55.480Z"
+    },
+    "https://andrew.grahamyooll.com/blog/Try-to-Take-My-Position/": {
+      "contentHash": "0b714a43b932e2712d0b8801fe49dd3c35ba965f1236f8b0a79fe511aa6eaab6",
+      "processedAt": "2026-01-13T00:25:55.662Z"
+    },
+    "https://hnbooks.pieterma.es/": {
+      "contentHash": "3982e960a26ebfea1015d05454f1fa2a4db77e54456d02090368d18b502a39cc",
+      "processedAt": "2026-01-13T00:25:55.834Z"
+    },
+    "https://ideas.zudiay.me/": {
+      "contentHash": "3ab65aa500455c608ca8d7508ccd41ad048d629b732d87365dce3c89aa52f247",
+      "processedAt": "2026-01-13T00:25:56.439Z"
+    },
+    "https://www.nngroup.com/articles/humanizing-ai/": {
+      "contentHash": "187f2d0580032ab7c836426a9be6585c84630efacfb6bb11c2b0613983c65055",
+      "processedAt": "2026-01-13T00:25:57.919Z"
+    },
+    "https://tympanus.net/codrops/2026/01/12/obys-design-books-turning-a-reading-list-into-a-tactile-web-library/": {
+      "contentHash": "2abd8f264bac1c879e1134bc57d431bbeb4420ae86dcf59cef5d447175c3b69f",
+      "processedAt": "2026-01-13T00:25:59.487Z"
+    },
+    "https://smashingmagazine.com/2026/01/ux-product-designer-career-paths/": {
+      "contentHash": "efa936c3deacb273c67fdbce2f74e8d4b07046e7ceae8f25bf2b8c9bc73e2a29",
+      "processedAt": "2026-01-13T00:26:01.348Z"
     }
   },
-  "lastRun": "2026-01-12T00:31:16.569Z"
+  "lastRun": "2026-01-13T00:26:01.348Z"
 }
