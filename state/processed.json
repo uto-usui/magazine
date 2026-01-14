@@ -6827,7 +6827,35 @@
     "https://smashingmagazine.com/2026/01/ux-product-designer-career-paths/": {
       "contentHash": "efa936c3deacb273c67fdbce2f74e8d4b07046e7ceae8f25bf2b8c9bc73e2a29",
       "processedAt": "2026-01-13T00:26:01.348Z"
+    },
+    "https://antirez.com/news/158": {
+      "contentHash": "f1c20ac51edafe9f3751db448edbec90bfbff54059185d53285d1976972c33a3",
+      "processedAt": "2026-01-14T00:30:48.164Z"
+    },
+    "https://evilcharts.com/": {
+      "contentHash": "c71c7e0f9d552d2ee22e379304581b6f685d487e74bf8e573d56b0888c7b3f31",
+      "processedAt": "2026-01-14T00:30:48.987Z"
+    },
+    "https://www.userinterface.wiki/sounds-on-the-web": {
+      "contentHash": "6bbe6db700c90b5de238aa95dd5ffdbd7990e526d9c35c960e613da1f480fa50",
+      "processedAt": "2026-01-14T00:30:49.533Z"
+    },
+    "https://www.kodo7.com/": {
+      "contentHash": "455d54cf475430cc0e00302f709664320034faf06414569866434a20488d41c9",
+      "processedAt": "2026-01-14T00:30:49.906Z"
+    },
+    "https://rlancemartin.github.io/2026/01/09/agent_design/": {
+      "contentHash": "f050d4a41ba5505266277c7a3e35974b9dcca22d4c34bc06729f5c675cec044d",
+      "processedAt": "2026-01-14T00:30:50.469Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/design-systems-for-software-engineers": {
+      "contentHash": "8a67374c19ab967d94ea87a10bbf251a71156d047258bfea1f2799ee03c3228a",
+      "processedAt": "2026-01-14T00:30:51.040Z"
+    },
+    "https://tympanus.net/codrops/2026/01/13/best-wordpress-themes-for-designers-2026/": {
+      "contentHash": "3cbe5148494992036ac7b6795d477dbf5b83dad9bec4911cd4c6f38c3415e2e1",
+      "processedAt": "2026-01-14T00:30:52.751Z"
     }
   },
-  "lastRun": "2026-01-13T00:26:01.348Z"
+  "lastRun": "2026-01-14T00:30:52.751Z"
 }
