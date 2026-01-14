@@ -6855,7 +6855,35 @@
     "https://tympanus.net/codrops/2026/01/13/best-wordpress-themes-for-designers-2026/": {
       "contentHash": "3cbe5148494992036ac7b6795d477dbf5b83dad9bec4911cd4c6f38c3415e2e1",
       "processedAt": "2026-01-14T00:30:52.751Z"
+    },
+    "https://addyosmani.com/blog/good-spec/": {
+      "contentHash": "5af5b2c7bd99005a802b7c78dd9cf658f441af89e7b1f292facea83b009d3ab0",
+      "processedAt": "2026-01-14T15:15:10.222Z"
+    },
+    "https://hvpandya.com/invisible-work": {
+      "contentHash": "d51fa67990f014fedc93e66e01c03b21a87dabd8b2ec188fdb7bdf2cb9d07f64",
+      "processedAt": "2026-01-14T15:15:11.682Z"
+    },
+    "https://www.superkeen.studio/work/kctl": {
+      "contentHash": "6988ba1f286c6df0e6a12de45469c7f5d0a9179fba402932dc24e253f8886a95",
+      "processedAt": "2026-01-14T15:15:13.215Z"
+    },
+    "https://oilwell.app/": {
+      "contentHash": "14c4ee3bf1ff46527606a2f5b819d2037c1c9e9227931eaa5b16982dfc8b351d",
+      "processedAt": "2026-01-14T15:15:13.703Z"
+    },
+    "https://fangpenlin.com/posts/2026/01/12/manufacturing-as-code-is-the-future/": {
+      "contentHash": "0026b6ec5d69690eccb79eb3a63e7483a8911eaeecfe42e41fa39b1f3774b615",
+      "processedAt": "2026-01-14T15:15:15.860Z"
+    },
+    "https://tympanus.net/codrops/2026/01/14/a-site-for-sore-eyes-combining-gsap-and-webflow-to-showcase-flim/": {
+      "contentHash": "a351a60b3a19b19f2d9599eaaa955087b91010c72a4380a0aac07112fcf27302",
+      "processedAt": "2026-01-14T15:15:18.419Z"
+    },
+    "https://smashingmagazine.com/2026/01/smashing-animations-part-8-css-relative-colour/": {
+      "contentHash": "011716141c7af4c156f1b3751c2e333a90a3cd2c38548d8211a8c3c081fb749e",
+      "processedAt": "2026-01-14T15:15:20.945Z"
     }
   },
-  "lastRun": "2026-01-14T00:30:52.751Z"
+  "lastRun": "2026-01-14T15:15:20.945Z"
 }
