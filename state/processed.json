@@ -6883,7 +6883,15 @@
     "https://smashingmagazine.com/2026/01/smashing-animations-part-8-css-relative-colour/": {
       "contentHash": "011716141c7af4c156f1b3751c2e333a90a3cd2c38548d8211a8c3c081fb749e",
       "processedAt": "2026-01-14T15:15:20.945Z"
+    },
+    "https://engineering.fb.com/2026/01/14/ml-applications/adapting-the-facebook-reels-recsys-ai-model-based-on-user-feedback/": {
+      "contentHash": "844bad4597069390e1742e88d0ae07ef0b2043e6abd506b2d69e16a13ed16099",
+      "processedAt": "2026-01-15T00:27:27.434Z"
+    },
+    "https://adrianroselli.com/2026/01/live-region-support.html": {
+      "contentHash": "a403020dc59ca1105f42418a3ca514adeb29154db362351aa72b70443cf14fbd",
+      "processedAt": "2026-01-15T00:27:27.844Z"
     }
   },
-  "lastRun": "2026-01-14T15:15:20.945Z"
+  "lastRun": "2026-01-15T00:27:27.844Z"
 }
