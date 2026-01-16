@@ -6883,47 +6883,7 @@
     "https://smashingmagazine.com/2026/01/smashing-animations-part-8-css-relative-colour/": {
       "contentHash": "011716141c7af4c156f1b3751c2e333a90a3cd2c38548d8211a8c3c081fb749e",
       "processedAt": "2026-01-14T15:15:20.945Z"
-    },
-    "https://engineering.fb.com/2026/01/14/ml-applications/adapting-the-facebook-reels-recsys-ai-model-based-on-user-feedback/": {
-      "contentHash": "844bad4597069390e1742e88d0ae07ef0b2043e6abd506b2d69e16a13ed16099",
-      "processedAt": "2026-01-15T00:27:27.434Z"
-    },
-    "https://adrianroselli.com/2026/01/live-region-support.html": {
-      "contentHash": "a403020dc59ca1105f42418a3ca514adeb29154db362351aa72b70443cf14fbd",
-      "processedAt": "2026-01-15T00:27:27.844Z"
-    },
-    "https://github.blog/engineering/infrastructure/when-protections-outlive-their-purpose-a-lesson-on-managing-defense-systems-at-scale/": {
-      "contentHash": "f33f799e4b41067d2f365acd9a402d5d008f66936b67215cf15bf2d57f3201a4",
-      "processedAt": "2026-01-16T00:30:21.861Z"
-    },
-    "https://spyglass.org/vocal-computing-ai/": {
-      "contentHash": "6d037747460bb9b24dafd1033aa912c45ed16c14c873bf8f5b93f663628e8019",
-      "processedAt": "2026-01-16T00:30:22.016Z"
-    },
-    "https://www.goodcomponents.io/": {
-      "contentHash": "36f90ca7029253b774a9e210a0e1220a6c943a02ae5c3ba1f227313fad785cba",
-      "processedAt": "2026-01-16T00:30:22.261Z"
-    },
-    "https://www.anildash.com/2026/01/12/will-that-job-crush-your-soul/": {
-      "contentHash": "a93053789addd1007e1f36fe79858c52b6566f3cbde61f40fc01f324c98fef44",
-      "processedAt": "2026-01-16T00:30:22.474Z"
-    },
-    "https://jobtitlemaxxing.com/": {
-      "contentHash": "04cd6f29cd9631709559cc078a64623a63dd77b82661e4981ab35f4292caa8fb",
-      "processedAt": "2026-01-16T00:30:23.389Z"
-    },
-    "https://intelligence-curse.ai/": {
-      "contentHash": "402197bd2cb6cc26a46aa2021ba51278f332bfd4e8e95324ce2ae314b5094a30",
-      "processedAt": "2026-01-16T00:30:23.706Z"
-    },
-    "https://newsletter.pragmaticengineer.com/p/the-pulse-159-long-running-agents": {
-      "contentHash": "2d62f8bcefe9c170f4d7acb20bf83e4e6fd2bb8e4f6d1e7e53441e7981248b23",
-      "processedAt": "2026-01-16T00:30:23.969Z"
-    },
-    "https://tympanus.net/codrops/2026/01/15/building-a-scroll-driven-dual-wave-text-animation-with-gsap/": {
-      "contentHash": "7fed71b6486a874b0f88b95ad44e78590a98d3f9df70bc8a3d0ef132c63986b5",
-      "processedAt": "2026-01-16T00:30:25.579Z"
     }
   },
-  "lastRun": "2026-01-16T00:30:25.579Z"
+  "lastRun": "2026-01-14T15:15:20.945Z"
 }

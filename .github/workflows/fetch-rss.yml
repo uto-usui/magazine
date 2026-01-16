@@ -39,7 +39,8 @@ jobs:
         id: check-changes
         run: |
           # Check if there are article or image changes (not just state/processed.json)
-          ARTICLE_CHANGES=$(git diff --name-only -- articles/ images/ | wc -l | tr -d ' ')
+          # Use git status --porcelain to detect both modified and new (untracked) files
+          ARTICLE_CHANGES=$(git status --porcelain -- articles/ images/ | wc -l | tr -d ' ')
 
           if [ "$ARTICLE_CHANGES" -eq 0 ]; then
             echo "No article changes to commit"
