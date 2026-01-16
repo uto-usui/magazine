@@ -125,6 +125,27 @@ date "+%Y-%m-%d-%H%M%S"
 - 含まれる記事数を報告
 - ファイルの内容を簡単にプレビュー表示
 
+### 7. コミットとプッシュ
+
+ニュースレター作成後、自動的にコミットとプッシュを行う：
+
+1. **ステージング**: 作成したニュースレターファイルをステージング
+   ```bash
+   git add newsletters/YYYY-MM-DD-HHmmss.md
+   ```
+
+2. **コミット**: コミットメッセージを作成
+   ```bash
+   git commit -m "docs: Add newsletter for YYYY-MM-DD"
+   ```
+
+3. **プッシュ**: リモートにプッシュ
+   ```bash
+   git push origin HEAD
+   ```
+
+4. **完了確認**: プッシュが成功したことを報告
+
 ## 注意事項
 
 - 記事が存在しない場合は、`pnpm run fetch-rss` で記事を取得するよう案内
