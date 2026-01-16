@@ -71,8 +71,8 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          # Create branch name with date
-          BRANCH="rss-updates/$(date +%Y-%m-%d)"
+          # Create branch name with date and time to avoid conflicts on re-runs
+          BRANCH="rss-updates/$(date -u +%Y-%m-%d-%H%M)"
           echo "BRANCH=$BRANCH" >> $GITHUB_ENV
 
           # Create and checkout new branch
