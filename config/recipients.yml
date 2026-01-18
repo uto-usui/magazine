@@ -2,6 +2,6 @@
 # メールニュースレターの受信者設定
 
 recipients:
-  - email: nattyanoranged@gmail.com
+  - email: me@uto-usui.com
     name: Owner
     enabled: true

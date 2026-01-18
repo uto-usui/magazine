@@ -58,15 +58,26 @@ export async function sendNewsletter(
   for (const recipient of recipients) {
     const config = createEmailConfig(recipient, html, subject)
     try {
-      await resend.emails.send({
+      const response = await resend.emails.send({
         from: config.from,
         to: config.to,
         subject: config.subject,
         html: config.html,
         replyTo: config.reply_to,
       })
-      result.sentCount++
-      console.log(`Email sent successfully to: ${recipient.email}`)
+
+      // Resend SDK returns { data, error } instead of throwing
+      if (response.error) {
+        result.failedCount++
+        result.errors.push({
+          email: recipient.email,
+          error: response.error.message,
+        })
+        console.error(`Failed to send email to ${recipient.email}:`, response.error.message)
+      } else {
+        result.sentCount++
+        console.log(`Email sent successfully to: ${recipient.email} (id: ${response.data?.id})`)
+      }
     } catch (error) {
       result.failedCount++
       result.errors.push({
