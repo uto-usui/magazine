@@ -1,0 +1,56 @@
+name: Send Newsletter
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'newsletters/*.md'
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Get new newsletter files
+        id: get-files
+        run: |
+          # Get newly added markdown files in newsletters/
+          NEW_FILES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'newsletters/*.md' || true)
+          echo "files=$NEW_FILES" >> $GITHUB_OUTPUT
+          if [ -z "$NEW_FILES" ]; then
+            echo "No new newsletter files found"
+            echo "has_files=false" >> $GITHUB_OUTPUT
+          else
+            echo "New files: $NEW_FILES"
+            echo "has_files=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Setup Node.js
+        if: steps.get-files.outputs.has_files == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.node-version'
+
+      - name: Setup pnpm
+        if: steps.get-files.outputs.has_files == 'true'
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9.14.2
+
+      - name: Install dependencies
+        if: steps.get-files.outputs.has_files == 'true'
+        run: pnpm install --frozen-lockfile
+
+      - name: Send newsletters
+        if: steps.get-files.outputs.has_files == 'true'
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: |
+          for file in ${{ steps.get-files.outputs.files }}; do
+            echo "Sending: $file"
+            pnpm run send-newsletter "$file"
+          done
