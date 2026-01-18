@@ -119,4 +119,5 @@ jobs:
           gh pr create \
             --title "📰 ${TIMESTAMP} の新着記事" \
             --body "$PR_BODY" \
-            --base master
+            --base master \
+            --assignee uto-usui
