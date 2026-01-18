@@ -20,6 +20,7 @@ pnpm run type-check   # 型チェックのみ (pre-commit hookで自動実行)
 pnpm test             # vitest実行
 pnpm test <file>      # 単一テストファイル実行 (例: pnpm test tests/converter.test.ts)
 pnpm run fetch-rss    # 記事取得の本番実行
+pnpm run send-newsletter <file>  # ニュースレターをメール送信
 ```
 
 ## ディレクトリ構成
@@ -27,9 +28,12 @@ pnpm run fetch-rss    # 記事取得の本番実行
 ```
 src/
 ├── index.ts                  # エントリーポイント、メイン処理フロー
+├── send-newsletter.ts        # ニュースレター送信CLIエントリーポイント
 ├── config/
 │   ├── loader.ts             # feeds.yml読み込み (loadFeedConfig)
-│   └── schema.ts             # Zodスキーマ定義 (Feed, Category)
+│   ├── schema.ts             # Zodスキーマ定義 (Feed, Category)
+│   ├── recipients.ts         # recipients.yml読み込み
+│   └── recipients-schema.ts  # 受信者Zodスキーマ定義
 ├── rss/
 │   ├── fetcher.ts            # RssFetcher - rss-parserでフィード取得
 │   └── diff.ts               # DiffDetector - 新規/更新記事の検出
@@ -40,6 +44,12 @@ src/
 ├── storage/
 │   ├── writer.ts             # ArticleWriter - Markdown書き出し
 │   └── state.ts              # StateManager - processed.json管理
+├── newsletter/
+│   ├── index.ts              # ニュースレター送信メインフロー
+│   ├── converter.ts          # Markdown→HTML変換 (marked)
+│   ├── template.ts           # HTMLメールテンプレート
+│   ├── inline-css.ts         # CSSインライン化 (juice)
+│   └── sender.ts             # Resendでメール送信
 └── utils/
     └── logger.ts             # ロガー
 
@@ -47,7 +57,8 @@ tests/                        # vitestテストファイル (tests/*.test.ts)
 
 config/
 ├── feeds.yml                 # フィード定義 (enabled: falseで無効化可能)
-└── categories.yml            # カテゴリマスター
+├── categories.yml            # カテゴリマスター
+└── recipients.yml            # メール受信者設定
 
 state/
 └── processed.json            # 処理済み記事のID・ハッシュ (重複排除用、gitで管理)
@@ -218,6 +229,10 @@ feeds:
 | axios | HTTP通信 |
 | zod | スキーマバリデーション |
 | date-fns | 日付処理 |
+| marked | Markdown→HTML変換 |
+| juice | CSSインライン化 |
+| resend | メール送信API |
+| dotenv | 環境変数管理 |
 | vitest | テスト |
 | tsx | TypeScript実行 |
 | lefthook | Git hooks管理 |
@@ -240,3 +255,62 @@ feeds:
 pnpm run fetch-rss
 # articles/YYYY-MM-DD/ に記事が保存される
 ```
+
+### ニュースレターをメール送信
+```bash
+# 環境変数の設定（初回のみ）
+cp .env.example .env
+# .envファイルを編集してRESEND_API_KEYを設定
+
+# ニュースレター送信
+pnpm run send-newsletter newsletters/YYYY-MM-DD-HHmmss.md
+```
+
+## ニュースレター送信機能
+
+### 概要
+
+Markdownで作成したニュースレターをHTMLメールに変換して送信する機能。
+
+### 処理フロー
+
+```
+1. loadNewsletterMarkdown(filePath)
+   └── Markdownファイル読み込み
+
+2. prepareNewsletterHtml(markdown)
+   ├── convertMarkdownToHtml() - marked でHTML変換
+   ├── wrapWithTemplate() - HTMLテンプレート適用
+   └── inlineCss() - juice でCSS埋め込み
+
+3. sendNewsletter(recipients, html)
+   └── Resend API でメール送信
+```
+
+### 受信者設定 (config/recipients.yml)
+
+```yaml
+recipients:
+  - email: user@example.com
+    name: User Name
+    enabled: true  # falseで無効化
+```
+
+### 環境変数
+
+`.env` ファイルに以下を設定:
+
+```
+RESEND_API_KEY=re_xxxxxxxx
+```
+
+### メール仕様
+
+- **送信元**: `onboarding@resend.dev` (Resend共有ドメイン)
+- **返信先**: `nattyanoranged@gmail.com`
+- **件名**: デフォルトは「UXエンジニアリング ニュースレター」
+
+### Claude Code コマンド
+
+- `/create-newsletter` - ニュースレター作成
+- `/send-newsletter <file>` - メール送信
