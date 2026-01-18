@@ -60,12 +60,6 @@ describe('wrapWithTemplate', () => {
     expect(html).toContain('UXエンジニアリング')
   })
 
-  it('should include newsletter footer', () => {
-    const content = '<p>Content</p>'
-    const html = wrapWithTemplate(content)
-
-    expect(html).toContain('Claude Code')
-  })
 })
 
 describe('getDefaultStyles', () => {

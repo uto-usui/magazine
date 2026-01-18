@@ -114,9 +114,6 @@ ${styles}
     <div class="content">
 ${content}
     </div>
-    <div class="footer">
-      <p>このニュースレターは Claude Code によって自動生成されました。</p>
-    </div>
   </div>
 </body>
 </html>`
