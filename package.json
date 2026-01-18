@@ -7,7 +7,8 @@
     "build": "tsc",
     "type-check": "tsc --noEmit",
     "test": "vitest",
-    "fetch-rss": "node --import tsx src/index.ts"
+    "fetch-rss": "node --import tsx src/index.ts",
+    "send-newsletter": "node --import tsx src/send-newsletter.ts"
   },
   "dependencies": {
     "@mozilla/readability": "^0.6.0",
