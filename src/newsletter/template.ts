@@ -108,9 +108,6 @@ ${styles}
 </head>
 <body>
   <div class="container">
-    <div class="header">
-      <h1>UXエンジニアリング ニュースレター</h1>
-    </div>
     <div class="content">
 ${content}
     </div>
