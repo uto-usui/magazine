@@ -13,8 +13,12 @@
     "@mozilla/readability": "^0.6.0",
     "axios": "^1.13.2",
     "date-fns": "^4.1.0",
+    "dotenv": "^17.2.3",
     "js-yaml": "^4.1.1",
     "jsdom": "^27.4.0",
+    "juice": "^11.1.0",
+    "marked": "^17.0.1",
+    "resend": "^6.7.0",
     "rss-parser": "^3.13.0",
     "turndown": "^7.2.2",
     "zod": "^4.3.5"
