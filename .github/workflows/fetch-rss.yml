@@ -120,4 +120,4 @@ jobs:
             --title "📰 ${TIMESTAMP} の新着記事" \
             --body "$PR_BODY" \
             --base master \
-            --assignee uto-usui
+            --reviewer uto-usui
