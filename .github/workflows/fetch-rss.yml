@@ -114,7 +114,7 @@ jobs:
 
           # Create PR with article list in body
           TIMESTAMP=$(date '+%Y-%m-%d %H:%M')
-          PR_BODY=$(printf "## 新着記事\n\n${ARTICLE_LIST}\n---\n🤖 GitHub Actions により自動生成")
+          PR_BODY=$(printf "## 新着記事\n\n${ARTICLE_LIST}\n")
 
           gh pr create \
             --title "📰 ${TIMESTAMP} の新着記事" \
