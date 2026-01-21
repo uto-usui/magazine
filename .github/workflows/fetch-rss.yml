@@ -32,6 +32,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Install Playwright browsers
+        run: npx playwright install chromium --with-deps
+
       - name: Fetch RSS feeds (capture log)
         id: fetch-rss
         continue-on-error: true
@@ -39,7 +42,7 @@ jobs:
         run: |
           set -o pipefail
           LOG_DIR="logs/fetch-rss"
-          LOG_TMP="${LOG_DIR}/fetch-rss.log"
+          LOG_TMP="${LOG_DIR}/fetch-rss.tmp.log"
           mkdir -p "$LOG_DIR"
           pnpm run fetch-rss 2>&1 | tee "$LOG_TMP"
           EXIT_CODE=${PIPESTATUS[0]}
@@ -52,11 +55,35 @@ jobs:
           if [ -z "$DATE_DIR" ]; then
             DATE_DIR="unknown-date"
           fi
-          LOG_FILE="${LOG_DIR}/${DATE_DIR}_$(date -u +%Y-%m-%dT%H%M%SZ).log"
-          mv "$LOG_TMP" "$LOG_FILE"
+
+          ISSUE_PATTERN="(❌|⚠️|Fatal error|Failed to|HTTP [0-9]{3}|404 Not Found|Bot protection|Readability bug|Could not extract content|Using RSS content as fallback)"
+          HAS_ISSUES="false"
+          if [ "$EXIT_CODE" -ne 0 ]; then
+            HAS_ISSUES="true"
+          elif grep -Eq "$ISSUE_PATTERN" "$LOG_TMP"; then
+            HAS_ISSUES="true"
+          fi
+
+          if [ "$HAS_ISSUES" = "true" ]; then
+            LOG_FILE="${LOG_DIR}/${DATE_DIR}_$(date -u +%Y-%m-%dT%H%M%SZ).log"
+            {
+              echo "articles_dir=${DATE_DIR}"
+              echo "exit_code=${EXIT_CODE}"
+              echo "timestamp_utc=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+              echo ""
+              echo "---- issue lines ----"
+              grep -En "$ISSUE_PATTERN" "$LOG_TMP" || true
+              echo ""
+              echo "---- tail (last 50 lines) ----"
+              tail -n 50 "$LOG_TMP"
+            } > "$LOG_FILE"
+            echo "log_path=$LOG_FILE" >> "$GITHUB_OUTPUT"
+          fi
+
+          rm "$LOG_TMP"
 
           echo "exit_code=$EXIT_CODE" >> "$GITHUB_OUTPUT"
-          echo "log_path=$LOG_FILE" >> "$GITHUB_OUTPUT"
+          echo "has_issue_log=$HAS_ISSUES" >> "$GITHUB_OUTPUT"
 
       - name: Check for changes
         if: steps.fetch-rss.outputs.exit_code == '0'
@@ -147,12 +174,12 @@ jobs:
             --reviewer uto-usui
 
       - name: Commit fetch-rss failure log
-        if: steps.fetch-rss.outputs.exit_code != '0'
+        if: steps.fetch-rss.outputs.has_issue_log == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add "${{ steps.fetch-rss.outputs.log_path }}"
-          git commit -m "chore: Save fetch-rss failure log"
+          git commit -m "chore: Save fetch-rss issue log"
           git push
 
       - name: Fail job if fetch-rss failed
