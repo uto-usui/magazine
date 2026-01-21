@@ -10,6 +10,7 @@ export interface ExtractedContent {
   excerpt: string | null
   byline: string | null
   images: string[]
+  fetchedBy?: 'playwright' | 'http'
 }
 
 export class ContentExtractor {
@@ -168,7 +169,11 @@ export class ContentExtractor {
       browser = null
 
       console.log(`✅ Playwright successfully fetched: ${url}`)
-      return this.extractFromHtml(html, url)
+      const result = this.extractFromHtml(html, url)
+      if (result) {
+        result.fetchedBy = 'playwright'
+      }
+      return result
     } catch (error) {
       console.error(`❌ Playwright failed for ${url}: ${(error as Error).message}`)
       return null

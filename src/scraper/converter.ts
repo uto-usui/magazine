@@ -18,7 +18,10 @@ export class MarkdownConverter {
     return this.turndown.turndown(html)
   }
 
-  generateFrontmatter(feedItem: FeedItem): string {
+  generateFrontmatter(
+    feedItem: FeedItem,
+    options?: { fetchedBy?: 'playwright' | 'http' }
+  ): string {
     const lines: string[] = ['---']
 
     lines.push(`title: "${this.escapeYamlString(feedItem.title)}"`)
@@ -43,13 +46,19 @@ export class MarkdownConverter {
       lines.push(`author: "${this.escapeYamlString(feedItem.author)}"`)
     }
 
+    if (options?.fetchedBy) {
+      lines.push(`fetchedBy: "${options.fetchedBy}"`)
+    }
+
     lines.push('---')
 
     return lines.join('\n')
   }
 
   createArticle(feedItem: FeedItem, content: ExtractedContent): string {
-    const frontmatter = this.generateFrontmatter(feedItem)
+    const frontmatter = this.generateFrontmatter(feedItem, {
+      fetchedBy: content.fetchedBy,
+    })
     const markdown = this.htmlToMarkdown(content.content)
 
     return `${frontmatter}\n\n${markdown}`
