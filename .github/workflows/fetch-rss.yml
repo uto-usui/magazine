@@ -32,10 +32,34 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Fetch RSS feeds
-        run: pnpm run fetch-rss
+      - name: Fetch RSS feeds (capture log)
+        id: fetch-rss
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          LOG_DIR="logs/fetch-rss"
+          LOG_TMP="${LOG_DIR}/fetch-rss.log"
+          mkdir -p "$LOG_DIR"
+          pnpm run fetch-rss 2>&1 | tee "$LOG_TMP"
+          EXIT_CODE=${PIPESTATUS[0]}
+
+          ARTICLE_PATH=$(git status --porcelain -- articles/ | head -1 | sed -E 's/^.. //')
+          DATE_DIR=""
+          if [ -n "$ARTICLE_PATH" ]; then
+            DATE_DIR=$(echo "$ARTICLE_PATH" | cut -d/ -f2)
+          fi
+          if [ -z "$DATE_DIR" ]; then
+            DATE_DIR="unknown-date"
+          fi
+          LOG_FILE="${LOG_DIR}/${DATE_DIR}_$(date -u +%Y-%m-%dT%H%M%SZ).log"
+          mv "$LOG_TMP" "$LOG_FILE"
+
+          echo "exit_code=$EXIT_CODE" >> "$GITHUB_OUTPUT"
+          echo "log_path=$LOG_FILE" >> "$GITHUB_OUTPUT"
 
       - name: Check for changes
+        if: steps.fetch-rss.outputs.exit_code == '0'
         id: check-changes
         run: |
           # Check if there are article or image changes (not just state/processed.json)
@@ -51,7 +75,7 @@ jobs:
           fi
 
       - name: Commit state only (no PR needed)
-        if: steps.check-changes.outputs.has_changes == 'false'
+        if: steps.fetch-rss.outputs.exit_code == '0' && steps.check-changes.outputs.has_changes == 'false'
         run: |
           # Check if state file changed
           if git diff --quiet -- state/; then
@@ -66,7 +90,7 @@ jobs:
           git push
 
       - name: Create branch and commit
-        if: steps.check-changes.outputs.has_changes == 'true'
+        if: steps.fetch-rss.outputs.exit_code == '0' && steps.check-changes.outputs.has_changes == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -89,7 +113,7 @@ jobs:
           git push -u origin "$BRANCH"
 
       - name: Create Pull Request
-        if: steps.check-changes.outputs.has_changes == 'true'
+        if: steps.fetch-rss.outputs.exit_code == '0' && steps.check-changes.outputs.has_changes == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -121,3 +145,17 @@ jobs:
             --body "$PR_BODY" \
             --base master \
             --reviewer uto-usui
+
+      - name: Commit fetch-rss failure log
+        if: steps.fetch-rss.outputs.exit_code != '0'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add "${{ steps.fetch-rss.outputs.log_path }}"
+          git commit -m "chore: Save fetch-rss failure log"
+          git push
+
+      - name: Fail job if fetch-rss failed
+        if: steps.fetch-rss.outputs.exit_code != '0'
+        run: |
+          exit 1
