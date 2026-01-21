@@ -39,8 +39,31 @@ head -20 articles/2026-01-21/*.md | grep -l "fetchedBy: \"playwright\""
 ```
 1. browser_navigate でURLにアクセス
 2. 3秒待機（JSレンダリング待ち）
-3. browser_snapshot でページのアクセシビリティツリーを取得
+3. browser_evaluate で本文要素のみを抽出（トークン節約のため）
 4. browser_close でブラウザを閉じる
+```
+
+**本文抽出用JavaScript**:
+```javascript
+// browser_evaluate で実行
+() => {
+  // 本文要素を優先順位で探す
+  const selectors = ['article', 'main', '[role="main"]', '.post-content', '.article-content'];
+  for (const sel of selectors) {
+    const el = document.querySelector(sel);
+    if (el && el.innerText.length > 500) {
+      return {
+        title: document.title,
+        content: el.innerText
+      };
+    }
+  }
+  // フォールバック: body全体
+  return {
+    title: document.title,
+    content: document.body.innerText
+  };
+}
 ```
 
 ### 3. 本文の抽出・クリーンアップ
@@ -101,13 +124,23 @@ fetchedBy: "playwright"
 4. **引用・ブロッククォートは保持** - 元記事の構造を維持
 5. **リストは保持** - 本文の構造要素として重要
 
+## 長い記事の処理
+
+`browser_evaluate`の出力が大きすぎる場合：
+
+1. **文字数制限**: JavaScriptで`substring(0, 15000)`等で切り詰める
+2. **分割処理**: 記事を前半/後半に分けて処理し、結合する
+3. **ファイル経由**: 出力がファイルに保存された場合、Bashで必要部分だけ抽出
+
 ## 学んだパターン（随時追加）
 
-### Medium (2026-01-21時点)
+### Medium / UX Collective (2026-01-21時点)
 - HTTPリクエストは403を返すが、Playwrightでは取得可能
-- `domcontentloaded` + 3秒待機 + スクロールで遅延読み込みコンテンツも取得
+- `domcontentloaded` + 3秒待機で本文が読み込まれる
 - 著者プロフィールは記事の最後にネストしたリンク形式で現れる
-- 購読促進は `## Get {author}'s stories` の形式
+- 購読促進は `Get {author}'s stories in your inbox` + `Subscribe` の形式
+- 拍手数・レスポンス数が本文前に数字だけで表示される
+- 画像プレースホルダー: "Press enter or click to view image in full size"
 
 ## 使用例
 
