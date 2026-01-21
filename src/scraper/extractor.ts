@@ -1,6 +1,7 @@
 import axios from 'axios'
 import { JSDOM } from 'jsdom'
 import { Readability } from '@mozilla/readability'
+import { chromium, type Browser } from 'playwright'
 
 export interface ExtractedContent {
   title: string
@@ -16,6 +17,9 @@ export class ContentExtractor {
   private readonly maxRetries = 3
   private readonly retryDelay = 2000
   private readonly minContentLength = 500 // 最小コンテンツ長（これより短いとフォールバック）
+
+  // Bot対策の可能性があるステータスコード
+  private readonly botProtectionStatuses = [401, 403, 429]
 
   // ブラウザに近いヘッダー
   private readonly headers = {
@@ -82,6 +86,12 @@ export class ContentExtractor {
           return null
         }
 
+        // Bot対策の可能性がある場合、Playwrightでリトライ
+        if (this.botProtectionStatuses.includes(response.status)) {
+          console.log(`🤖 Bot protection detected (HTTP ${response.status}), trying Playwright: ${url}`)
+          return await this.extractWithPlaywright(url)
+        }
+
         if (response.status >= 400) {
           console.log(`HTTP ${response.status}: ${url}`)
           return null
@@ -116,6 +126,57 @@ export class ContentExtractor {
       console.error(`Failed to fetch ${url} after ${this.maxRetries} retries: ${lastError.message}`)
     }
     return null
+  }
+
+  /**
+   * Playwrightを使ってBot対策を回避してコンテンツを取得
+   */
+  private async extractWithPlaywright(url: string): Promise<ExtractedContent | null> {
+    let browser: Browser | null = null
+
+    try {
+      browser = await chromium.launch({
+        headless: true,
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+      })
+
+      const context = await browser.newContext({
+        userAgent: this.headers['User-Agent'],
+        locale: 'en-US',
+        viewport: { width: 1280, height: 720 },
+      })
+
+      const page = await context.newPage()
+
+      // ページ読み込み（domcontentloadedで基本構造ができたら続行）
+      await page.goto(url, {
+        waitUntil: 'domcontentloaded',
+        timeout: 30000,
+      })
+
+      // JSレンダリングを待機
+      await this.sleep(3000)
+
+      // スクロールして遅延ロードコンテンツを読み込む
+      await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight / 2))
+      await this.sleep(1000)
+
+      // HTMLを取得
+      const html = await page.content()
+
+      await browser.close()
+      browser = null
+
+      console.log(`✅ Playwright successfully fetched: ${url}`)
+      return this.extractFromHtml(html, url)
+    } catch (error) {
+      console.error(`❌ Playwright failed for ${url}: ${(error as Error).message}`)
+      return null
+    } finally {
+      if (browser) {
+        await browser.close()
+      }
+    }
   }
 
   private sleep(ms: number): Promise<void> {
