@@ -6971,7 +6971,43 @@
     "https://tympanus.net/codrops/2026/01/19/naked-city-films-designing-and-building-a-website-that-refuses-to-stand-still/": {
       "contentHash": "61da72d5867e807deb04bf32737158c91bda4e630715ecb640d7023c6c4a50ae",
       "processedAt": "2026-01-20T00:29:20.695Z"
+    },
+    "https://zeldman.com/2026/01/02/cold-storage/": {
+      "contentHash": "03d075a41b63b395be236502804c8dd0815a642eb29bd01d74633d6955e4866b",
+      "processedAt": "2026-01-21T00:30:53.305Z"
+    },
+    "https://anacyclosis.info/": {
+      "contentHash": "053242b9a8b514d18c6c4b55684e88c09d1d68e8fce6db09118cc83b8401b8b7",
+      "processedAt": "2026-01-21T00:30:53.645Z"
+    },
+    "https://terriblesoftware.org/2026/01/05/creating-your-own-opportunities/": {
+      "contentHash": "477067c4df2ac9f8cbc4535fc69a3ed25ab73f665897a5a15740072f91417fc7",
+      "processedAt": "2026-01-21T00:30:54.109Z"
+    },
+    "https://wantmymtv.vercel.app/": {
+      "contentHash": "2d1bc587a278dc2289dbed7fd590e03b9f858b037c452510496822bdb779f698",
+      "processedAt": "2026-01-21T00:30:54.221Z"
+    },
+    "https://uxdesign.cc/usability-heuristics-and-competition-in-games-707cac36ff12": {
+      "contentHash": "d81be6d368b0834b8b136a4831791ccf2063a3177a89abc9e0f69d8e90915677",
+      "processedAt": "2026-01-21T00:30:54.368Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-product-minded-engineer": {
+      "contentHash": "e567015e9720b3ec99f19990cd87af5c57a9fd2ad156a689f618399fd9aa0c10",
+      "processedAt": "2026-01-21T00:30:55.033Z"
+    },
+    "https://tympanus.net/codrops/2026/01/20/animating-responsive-grid-layout-transitions-with-gsap-flip/": {
+      "contentHash": "b12446ec0b6d045dec7a1361f84fd7c710d3064883209ab8a441e51c279c5b3e",
+      "processedAt": "2026-01-21T00:30:56.474Z"
+    },
+    "https://smashingmagazine.com/2026/01/rethinking-pixel-perfect-web-design/": {
+      "contentHash": "8a93bd02e7c499a36a480b2bc385b59e2ac943d018de195b0b53618e168923be",
+      "processedAt": "2026-01-21T00:30:58.142Z"
+    },
+    "https://ics.media/entry/260116/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-01-21T00:30:59.197Z"
     }
   },
-  "lastRun": "2026-01-20T00:29:20.696Z"
+  "lastRun": "2026-01-21T00:30:59.197Z"
 }
