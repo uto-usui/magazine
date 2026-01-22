@@ -7007,7 +7007,31 @@
     "https://ics.media/entry/260116/": {
       "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
       "processedAt": "2026-01-21T00:30:59.197Z"
+    },
+    "https://veen.com/jeff/archives/coding-agents-design.html": {
+      "contentHash": "1682166350d1a8a154168b14fe49ca624c2ead071e83c23a93d771a7b8db07c8",
+      "processedAt": "2026-01-22T00:31:11.717Z"
+    },
+    "https://howbrowserswork.com/": {
+      "contentHash": "e34098978c7b770ddf6d97a154aeab15e50fc26a4af97764cdc70872a9cf8fb3",
+      "processedAt": "2026-01-22T00:31:12.102Z"
+    },
+    "https://aresluna.org/the-hardest-working-font-in-manhattan/": {
+      "contentHash": "a43e70879b1f967a0972fa4f992e895bf4dc01d90f25c90b0f4614470301763e",
+      "processedAt": "2026-01-22T00:31:13.180Z"
+    },
+    "https://matthewbutterick.com/chron/the-copyrightability-of-fonts-revisited.html": {
+      "contentHash": "488442508175d363262847428c4736dd0aa4749d2961a1d1f9c9d68f5f4eb4c5",
+      "processedAt": "2026-01-22T00:31:13.543Z"
+    },
+    "https://carlbarenbrug.com/friction": {
+      "contentHash": "268f68125dee18b7e29b2c2026abab0e4f648b8d71a39a0912f9de34f541b4de",
+      "processedAt": "2026-01-22T00:31:14.924Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/how-aws-s3-is-built": {
+      "contentHash": "eafb39653865005df75b75bbe4297efd590087b2d4b80a633d7a6ef1d1e14ebd",
+      "processedAt": "2026-01-22T00:31:15.380Z"
     }
   },
-  "lastRun": "2026-01-21T00:30:59.197Z"
+  "lastRun": "2026-01-22T00:31:15.380Z"
 }
