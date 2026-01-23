@@ -1,0 +1,63 @@
+articles_dir=2026-01-23
+exit_code=0
+timestamp_utc=2026-01-23T00:30:56Z
+
+---- issue lines ----
+8:Failed to fetch feed Frontend Weekly Tokyo: Status code 404
+9:Failed to fetch feed Mercari Engineering: Status code 403
+18:Failed to download image https://design.google/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgd-prod%2Fimages%2F87b37ebd-c035-44c2-84d7-3936f7504981.799a99c1196c2fd4.gif&w=3840&q=75: maxContentLength size of 5242880 exceeded
+19:Failed to download image https://design.google/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgd-prod%2Fimages%2Fe2c121fc-c2bc-47d0-a9d6-f6b39f926864.799a99c1196c2fd4.gif&w=3840&q=75: maxContentLength size of 5242880 exceeded
+24:⚠️ Using RSS content as fallback for: https://aethercss.lovable.app/
+69:   ❌ Errors: 0
+
+---- tail (last 50 lines) ----
+📥 Processing: Liquid Glass CSS Generator
+⏳ Retry 1/3 for: https://aethercss.lovable.app/
+⏳ Retry 2/3 for: https://aethercss.lovable.app/
+⚠️ Using RSS content as fallback for: https://aethercss.lovable.app/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-23/liquid-glass-css-generator.md
+📥 Processing: AI and the Next Economy
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-23/ai-and-the-next-economy.md
+📥 Processing: Claude’s Constitution
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-23/claudes-constitution.md
+📥 Processing: The Pulse #160: Why it’s so dramatic that “writing code by hand is dead”
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-23/the-pulse-160-why-its-so-dramatic-that-writing-code-by-hand-is-dead.md
+📥 Processing: From Design-First to Motion-Driven: Dylan Brouwer’s Journey into the No-Code Frontier
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-23/from-design-first-to-motion-driven-dylan-brouwers-journey-into-the-no-code-frontier.md
+📥 Processing: Beyond Generative: The Rise Of Agentic AI And User-Centric Design
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-23/beyond-generative-the-rise-of-agentic-ai-and-user-centric-design.md
+📥 Processing: I Learned The First Rule of ARIA the Hard Way
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-23/i-learned-the-first-rule-of-aria-the-hard-way.md
+📥 Processing: HTTP Archive 2025 Web Almanac
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-23/http-archive-2025-web-almanac.md
+📥 Processing: “I Heart CSS” DailyDev Squad
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-23/i-heart-css-dailydev-squad.md
+📥 Processing: What’s !important #3: Popover Context Menus, @scope, New Web Platform Features, and More
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-23/whats-important-3-popover-context-menus-scope-new-web-platform-features-and-more.md
+📥 Processing: Playing With CodePen slideVars
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-23/playing-with-codepen-slidevars.md
+📥 Processing: Postcard From Web Directions Dev Summit, 2025
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-23/postcard-from-web-directions-dev-summit-2025.md
+📥 Processing: Future CSS: :drag (and Maybe ::dragged-image?)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-23/future-css-drag-and-maybe-dragged-image.md
+📥 Processing: What’s !important #2: Conditional View Transitions, CSS/SVG Text Effects, the Best of CSS Bluesky, and More
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-23/whats-important-2-conditional-view-transitions-csssvg-text-effects-the-best-of-css-bluesky-and-more.md
+📥 Processing: Thank You (2025 Edition)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-23/thank-you-2025-edition.md
+📥 Processing: text-decoration-inset is Like Padding for Text Decorations
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-23/text-decoration-inset-is-like-padding-for-text-decorations.md
+📥 Processing: Masonry Layout is Now grid-lanes
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-23/masonry-layout-is-now-grid-lanes.md
+📥 Processing: Search CSS-Tricks Raycast Extension
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-23/search-css-tricks-raycast-extension.md
+📥 Processing: Responsive List of Avatars Using Modern CSS (Part 2)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-23/responsive-list-of-avatars-using-modern-css-part-2.md
+📥 Processing: What’s !important #1: Advent Calendars, CSS Wrapped, Web Platform Updates, and More
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-23/whats-important-1-advent-calendars-css-wrapped-web-platform-updates-and-more.md
+📥 Processing: Toon Title Text Generator
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-23/toon-title-text-generator.md
+
+📊 Summary:
+   ✅ Success: 24
+   ❌ Errors: 0
+🏁 Done!
