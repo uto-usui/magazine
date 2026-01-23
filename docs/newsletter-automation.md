@@ -75,7 +75,7 @@ newsletter 2026-01-20  # 日付指定
 `~/.zshrc` に以下が設定済み：
 
 ```bash
-alias newsletter='/Users/usui.y/work/uto/ux-eng-magazine/scripts/create-newsletter.sh'
+alias newsletter='~/work/uto/ux-eng-magazine/scripts/create-newsletter.sh'
 ```
 
 ### スクリプト直接実行
