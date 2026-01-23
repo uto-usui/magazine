@@ -7031,7 +7031,103 @@
     "https://newsletter.pragmaticengineer.com/p/how-aws-s3-is-built": {
       "contentHash": "eafb39653865005df75b75bbe4297efd590087b2d4b80a633d7a6ef1d1e14ebd",
       "processedAt": "2026-01-22T00:31:15.380Z"
+    },
+    "https://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/": {
+      "contentHash": "81da7ba2bbc73b2fc1b75fb19ea2a1679bbd110d194b02228e405980d8d03a2f",
+      "processedAt": "2026-01-23T00:30:39.458Z"
+    },
+    "https://dri.es/software-as-clay-on-the-wheel": {
+      "contentHash": "1b18eba1a155c0641a7058e62bfaad24d6e0763870637658925b35eb15bcae77",
+      "processedAt": "2026-01-23T00:30:39.598Z"
+    },
+    "https://design.google/library/gemini-ai-visual-design": {
+      "contentHash": "a19d4affdef6ce909ab17edaae47d12e5d925f9034e5998e13ab6ea345a297cf",
+      "processedAt": "2026-01-23T00:30:41.249Z"
+    },
+    "https://aethercss.lovable.app/": {
+      "contentHash": "4aaee1b573e33fc51036e754f091194d25290637f9cfa043a4ffe98ea096d441",
+      "processedAt": "2026-01-23T00:30:47.994Z"
+    },
+    "https://www.oreilly.com/radar/ai-and-the-next-economy/": {
+      "contentHash": "c037b4b7882cf18283d5bc9c0ab4ab9e6bdcd51cefdfc9fd638d27730531ef0f",
+      "processedAt": "2026-01-23T00:30:48.622Z"
+    },
+    "https://www.anthropic.com/constitution": {
+      "contentHash": "7432f2c0530e14bf14ee724bfa21c3f6ac1380d952a8c7f82fcfb5392d14fd6f",
+      "processedAt": "2026-01-23T00:30:49.543Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-160-why-its-so-dramatic": {
+      "contentHash": "1283e7f890d5b1c93555f7b4fdc9fa59bc97a151e032c4bfa35946a5ca0b9a63",
+      "processedAt": "2026-01-23T00:30:49.733Z"
+    },
+    "https://tympanus.net/codrops/2026/01/22/from-design-first-to-motion-driven-dylan-brouwers-journey-into-the-no-code-frontier/": {
+      "contentHash": "53a6aa0860f7584ab08c3a37e1aad0c60d20c0ac84a477c66da64f44dc867806",
+      "processedAt": "2026-01-23T00:30:51.257Z"
+    },
+    "https://smashingmagazine.com/2026/01/beyond-generative-rise-agentic-ai-user-centric-design/": {
+      "contentHash": "7f28230fb923172bc9aa3e1215af5a4d77e918a835d1c402bde1be56f97155fe",
+      "processedAt": "2026-01-23T00:30:52.925Z"
+    },
+    "https://css-tricks.com/i-learned-the-first-rule-of-aria-the-hard-way/": {
+      "contentHash": "25517622a5826bd207b5f3eb5eaa3074f25afc659f83f9520c345f31c6ff63ed",
+      "processedAt": "2026-01-23T00:30:53.272Z"
+    },
+    "https://css-tricks.com/http-archive-2025-web-almanac/": {
+      "contentHash": "f489ea7ed42d6018a17a03d8204d0a6955a0c804765d2e8af7d20974f610e3f9",
+      "processedAt": "2026-01-23T00:30:53.405Z"
+    },
+    "https://css-tricks.com/i-heart-css-dailydev-squad/": {
+      "contentHash": "721911081f70559286a932807679b232cae340a3572b91295e690f541ac24eb1",
+      "processedAt": "2026-01-23T00:30:53.501Z"
+    },
+    "https://css-tricks.com/whats-important-3/": {
+      "contentHash": "980dd60210605c08b20b924f6b9677c45b93dbb1d0464ba77d8bb6c1c9d73b5b",
+      "processedAt": "2026-01-23T00:30:53.659Z"
+    },
+    "https://css-tricks.com/playing-with-codepen-slidevars/": {
+      "contentHash": "a13ff468d791b331394b3519248f47d8b9699d963680ba8f9341fb66ca5db8a9",
+      "processedAt": "2026-01-23T00:30:53.847Z"
+    },
+    "https://css-tricks.com/postcard-from-web-directions-dev-summit-2025/": {
+      "contentHash": "2153480389c5b219337f282c36cb30808549ce415aecb6cff19d44b0324e3fdb",
+      "processedAt": "2026-01-23T00:30:54.031Z"
+    },
+    "https://css-tricks.com/future-css-drag-and-maybe-dragged-image/": {
+      "contentHash": "a06a9ef606b16b4b75208f2e4b9664fc015009290cdf1d81c01601ec68019d67",
+      "processedAt": "2026-01-23T00:30:54.175Z"
+    },
+    "https://css-tricks.com/whats-important-2/": {
+      "contentHash": "173d1e32439de10fd4298317031bda110a320a7ac756d1fa01d22c0956091e87",
+      "processedAt": "2026-01-23T00:30:54.356Z"
+    },
+    "https://css-tricks.com/thank-you-2025-edition/": {
+      "contentHash": "c9e5cd6097f0f2583d0d2ea03a3a401e63651a82da6a8fe68b9b174faddc8706",
+      "processedAt": "2026-01-23T00:30:54.552Z"
+    },
+    "https://css-tricks.com/text-decoration-inset-is-like-padding-for-text-decorations/": {
+      "contentHash": "518e83e2fe5e88e438e3e563eb1e5009632d8ae370fffd8c631bf7cbef10e187",
+      "processedAt": "2026-01-23T00:30:54.725Z"
+    },
+    "https://css-tricks.com/masonry-layout-is-now-grid-lanes/": {
+      "contentHash": "120225c17d3b9f2e86b46e3b9862e50f22f45c8da1810a67b034682acca4aba8",
+      "processedAt": "2026-01-23T00:30:54.896Z"
+    },
+    "https://css-tricks.com/search-css-tricks-raycast-extension/": {
+      "contentHash": "eb1d38cde355106c232d934040facf62abdfd648134b81f86575c0f8d5e01887",
+      "processedAt": "2026-01-23T00:30:55.010Z"
+    },
+    "https://css-tricks.com/responsive-list-of-avatars-using-modern-css-part-2/": {
+      "contentHash": "d0ae8e35fd85a2f43cb023f783f4b174de02c1faf09c6aa6f1050ca621e74e43",
+      "processedAt": "2026-01-23T00:30:55.313Z"
+    },
+    "https://css-tricks.com/whats-important-1/": {
+      "contentHash": "190d1b8cba357492d0346bff4924c74b93bbb73cbaf51075c3c371e1b7f1af90",
+      "processedAt": "2026-01-23T00:30:55.437Z"
+    },
+    "https://css-tricks.com/toon-title-text-generator/": {
+      "contentHash": "8734216fb264b64ec747c3a279e2ebab0d16b9414bbdd149437949d532c56663",
+      "processedAt": "2026-01-23T00:30:55.547Z"
     }
   },
-  "lastRun": "2026-01-22T00:31:15.380Z"
+  "lastRun": "2026-01-23T00:30:55.547Z"
 }
