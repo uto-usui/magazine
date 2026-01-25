@@ -1,0 +1,22 @@
+articles_dir=unknown-date
+exit_code=0
+timestamp_utc=2026-01-25T00:33:35Z
+
+---- issue lines ----
+8:Failed to fetch feed Frontend Weekly Tokyo: Status code 404
+9:Failed to fetch feed Mercari Engineering: Status code 403
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 26 feeds
+📡 Fetching RSS feeds...
+Failed to fetch feed Frontend Weekly Tokyo: Status code 404
+Failed to fetch feed Mercari Engineering: Status code 403
+📰 Found 1599 total articles
+✨ New articles: 0
+⏭️ Skipped (already processed): 3
+✅ No new articles to process
