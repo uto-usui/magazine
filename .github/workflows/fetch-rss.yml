@@ -173,14 +173,53 @@ jobs:
             --base master \
             --reviewer uto-usui
 
-      - name: Commit fetch-rss failure log
+      - name: Create issue log branch and commit
         if: steps.fetch-rss.outputs.has_issue_log == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+
+          # Create branch for issue log
+          BRANCH="fetch-rss-issues/$(date -u +%Y-%m-%d-%H%M)"
+          echo "ISSUE_BRANCH=$BRANCH" >> $GITHUB_ENV
+
+          git checkout -b "$BRANCH"
           git add "${{ steps.fetch-rss.outputs.log_path }}"
           git commit -m "chore: Save fetch-rss issue log"
-          git push
+          git push -u origin "$BRANCH"
+
+      - name: Create issue log PR
+        if: steps.fetch-rss.outputs.has_issue_log == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Extract issue lines from log file
+          LOG_FILE="${{ steps.fetch-rss.outputs.log_path }}"
+          ISSUE_LINES=$(grep -A 100 "^---- issue lines ----" "$LOG_FILE" | grep -B 100 "^---- tail" | grep -v "^----" | head -20)
+
+          TIMESTAMP=$(date '+%Y-%m-%d %H:%M')
+          PR_BODY=$(cat <<EOF
+          ## ⚠️ RSS取得で問題が発生しました
+
+          ### 検出された問題
+          \`\`\`
+          ${ISSUE_LINES}
+          \`\`\`
+
+          ### 対応方法
+          1. このPRをマージしてログを保存
+          2. ローカルで \`pnpm run fetch-rss\` を実行して確認
+          3. 必要に応じて \`config/feeds.yml\` を修正
+
+          詳細は [ログファイル](${LOG_FILE}) を確認してください。
+          EOF
+          )
+
+          gh pr create \
+            --title "⚠️ ${TIMESTAMP} RSS取得エラー" \
+            --body "$PR_BODY" \
+            --base master \
+            --reviewer uto-usui
 
       - name: Fail job if fetch-rss failed
         if: steps.fetch-rss.outputs.exit_code != '0'
