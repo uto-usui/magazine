@@ -1,0 +1,22 @@
+articles_dir=unknown-date
+exit_code=0
+timestamp_utc=2026-01-26T03:56:39Z
+
+---- issue lines ----
+8:🤖 Bot protection detected for Mercari Engineering, trying Playwright...
+9:❌ Playwright failed for Mercari Engineering: HTTP 403
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 26 feeds
+📡 Fetching RSS feeds...
+🤖 Bot protection detected for Mercari Engineering, trying Playwright...
+❌ Playwright failed for Mercari Engineering: HTTP 403
+📰 Found 1900 total articles
+✨ New articles: 0
+⏭️ Skipped (already processed): 3
+✅ No new articles to process
