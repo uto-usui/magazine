@@ -102,7 +102,7 @@ feeds:
     name: Una Kravets
     category: css
 
-  - url: https://frontendweekly.tokyo/rss.xml
+  - url: https://frontendweekly.tokyo/feed.xml
     name: Frontend Weekly Tokyo
     category: frontend
 
