@@ -8367,7 +8367,39 @@
     "https://ics.media/entry/260126/": {
       "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
       "processedAt": "2026-01-26T09:44:38.391Z"
+    },
+    "https://bit.ly/side-uxp1": {
+      "contentHash": "c7f43019a023d633284476ab5f907399ca632cf5b15feda6e6f34da0eca11562",
+      "processedAt": "2026-01-27T00:32:05.248Z"
+    },
+    "https://blog.avas.space/privacy-values/": {
+      "contentHash": "96da1e3e8354223d5e08a95c2f1429c015f52b9151be8575c715610d7b77b89f",
+      "processedAt": "2026-01-27T00:32:05.716Z"
+    },
+    "https://www.youtube.com/watch?v=Yqz3h6RF_7I": {
+      "contentHash": "c7d504c5f447a0055bd3fa47866db7958d6f49c2473884a4fd3189c104b69948",
+      "processedAt": "2026-01-27T00:32:15.309Z"
+    },
+    "https://visualrambling.space/": {
+      "contentHash": "5c7e9c3e0c8c42cc2abf23636a9888a8c94e61b23656d4f2396b3c27487a7a8a",
+      "processedAt": "2026-01-27T00:32:21.748Z"
+    },
+    "https://codegood.co/writing/context-collapse-problem": {
+      "contentHash": "14db0a664a837452e7c75d64f081b0747d191b461060b3583fa13a414b4b5259",
+      "processedAt": "2026-01-27T00:32:21.878Z"
+    },
+    "https://uxwritinghub.com/clawdbot-review-setup-guide-the-ux-designers?utm_source=rss&utm_medium=rss&utm_campaign=clawdbot-review-setup-guide-the-ux-designers-2": {
+      "contentHash": "1aec33f1ba888774a0331bf786f68e276b920e658c56fd6b6094443d14bebc20",
+      "processedAt": "2026-01-27T00:32:23.199Z"
+    },
+    "https://kilianvalkhof.com/2026/css-html/programming-principles-for-front-end-developers/": {
+      "contentHash": "99e30c184e25ff845a5e95fac0c78f00399a07c9d68a6e84e881f02649b04e64",
+      "processedAt": "2026-01-27T00:32:23.518Z"
+    },
+    "https://css-tricks.com/there-is-no-need-to-trap-focus-on-a-dialog-element/": {
+      "contentHash": "11acb080ba5eba8cab3d10a2ec88ac79beb3eed50e8af347431fd06832506b9e",
+      "processedAt": "2026-01-27T00:32:23.685Z"
     }
   },
-  "lastRun": "2026-01-26T09:44:38.391Z"
+  "lastRun": "2026-01-27T00:32:23.685Z"
 }
