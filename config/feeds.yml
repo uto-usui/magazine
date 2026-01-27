@@ -97,6 +97,7 @@ feeds:
   - url: https://engineering.mercari.com/blog/feed.xml
     name: Mercari Engineering
     category: engineering
+    enabled: local
 
   - url: https://una.im/rss.xml
     name: Una Kravets
