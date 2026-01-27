@@ -1,6 +1,7 @@
 import Parser from 'rss-parser'
 import { chromium, type Browser } from 'playwright'
 import type { Feed } from '../config/schema'
+import { isFeedEnabled } from './feed-filter'
 
 export interface FeedItem {
   title: string
@@ -37,7 +38,7 @@ export class RssFetcher {
   }
 
   async fetchFeed(feed: Feed): Promise<FeedItem[]> {
-    if (!feed.enabled) {
+    if (!isFeedEnabled(feed)) {
       return []
     }
 
