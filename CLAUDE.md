@@ -56,7 +56,7 @@ src/
 tests/                        # vitestテストファイル (tests/*.test.ts)
 
 config/
-├── feeds.yml                 # フィード定義 (enabled: falseで無効化可能)
+├── feeds.yml                 # フィード定義 (enabled: true/false/'local' で制御)
 ├── categories.yml            # カテゴリマスター
 └── recipients.yml            # メール受信者設定
 
@@ -102,7 +102,7 @@ interface Feed {
   url: string
   name: string
   category: string
-  enabled: boolean  // default: true
+  enabled: boolean | 'local'  // default: true, 'local' = ローカル環境でのみ有効
 }
 
 // src/rss/fetcher.ts
@@ -192,13 +192,30 @@ feeds:
   - url: https://example.com/feed
     name: Example Blog
     category: engineering
-    enabled: true  # falseで無効化
+    enabled: true  # 常に有効（省略時のデフォルト）
 
   - url: https://medium.com/feed/example
     name: Medium Example
     category: design
-    enabled: false  # 403エラーなどで無効化済み
+    enabled: false  # 完全に無効化（403エラーなど恒久的な問題）
+
+  - url: https://engineering.mercari.com/blog/feed.xml
+    name: Mercari Engineering
+    category: engineering
+    enabled: local  # ローカル環境でのみ有効（CI環境では無効）
 ```
+
+### enabled オプション
+
+| 値 | 説明 |
+|------|------|
+| `true` | 常に有効（デフォルト、省略可能） |
+| `false` | 常に無効 |
+| `'local'` | ローカル環境でのみ有効、CI環境（GitHub Actions）では無効 |
+
+**`enabled: local` の使用例**:
+- Bot対策によりCI環境でのみ取得に失敗するフィード
+- ローカルでは正常に取得できるがリモートで403/429エラーが発生するフィード
 
 ## GitHub Actions
 
