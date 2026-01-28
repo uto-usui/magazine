@@ -1,0 +1,54 @@
+articles_dir=2026-01-28
+exit_code=0
+timestamp_utc=2026-01-28T00:30:44Z
+
+---- issue lines ----
+18:⚠️ Content too short (337 chars < 500): https://stroke.abhii.space/
+20:⚠️ Content too short (337 chars < 500): https://stroke.abhii.space/
+22:⚠️ Content too short (337 chars < 500): https://stroke.abhii.space/
+23:⚠️ Using RSS content as fallback for: https://stroke.abhii.space/
+41:   ❌ Errors: 0
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 26 feeds
+📡 Fetching RSS feeds...
+📰 Found 1901 total articles
+✨ New articles: 9
+⏭️ Skipped (already processed): 3
+📥 Processing: Rust at Scale: An Added Layer of Security for WhatsApp
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-28/rust-at-scale-an-added-layer-of-security-for-whatsapp.md
+📥 Processing: CTA hierarchy in the wild
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-28/cta-hierarchy-in-the-wild.md
+📥 Processing: Bugs Apple loves
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-28/bugs-apple-loves.md
+📥 Processing: Stroke: animate SVGs
+⚠️ Content too short (337 chars < 500): https://stroke.abhii.space/
+⏳ Retry 1/3 for: https://stroke.abhii.space/
+⚠️ Content too short (337 chars < 500): https://stroke.abhii.space/
+⏳ Retry 2/3 for: https://stroke.abhii.space/
+⚠️ Content too short (337 chars < 500): https://stroke.abhii.space/
+⚠️ Using RSS content as fallback for: https://stroke.abhii.space/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-28/stroke-animate-svgs.md
+📥 Processing: Building the brain of your accessibility AI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-28/building-the-brain-of-your-accessibility-ai.md
+📥 Processing: Death to scroll fade
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-28/death-to-scroll-fade.md
+📥 Processing: Inside a five-year-old startup’s rapid AI makeover
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-28/inside-a-five-year-old-startups-rapid-ai-makeover.md
+📥 Processing: 12 Top Web Design Tools and Resources for 2026 – AI and Creative Picks
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-28/12-top-web-design-tools-and-resources-for-2026-ai-and-creative-picks.md
+📥 Processing: Unstacking CSS Stacking Contexts
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-28/unstacking-css-stacking-contexts.md
+
+📊 Summary:
+   ✅ Success: 9
+   ❌ Errors: 0
+🏁 Done!
