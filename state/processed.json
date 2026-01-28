@@ -8399,7 +8399,43 @@
     "https://css-tricks.com/there-is-no-need-to-trap-focus-on-a-dialog-element/": {
       "contentHash": "11acb080ba5eba8cab3d10a2ec88ac79beb3eed50e8af347431fd06832506b9e",
       "processedAt": "2026-01-27T00:32:23.685Z"
+    },
+    "https://engineering.fb.com/2026/01/27/security/rust-at-scale-security-whatsapp/": {
+      "contentHash": "50c939b2e9c44ecc49cb1e9d9b7457bd9322d01fe0daa2146bd30d17d008d46d",
+      "processedAt": "2026-01-28T00:30:31.725Z"
+    },
+    "https://blog.jim-nielsen.com/2026/cta-hierarchy/": {
+      "contentHash": "446b2dd73d1914ea1334b0914363c13831f4aa2515034fc859e8dd3552ca4a97",
+      "processedAt": "2026-01-28T00:30:32.282Z"
+    },
+    "https://www.bugsappleloves.com/": {
+      "contentHash": "b0367f3eceeded79b6a9016bdf23b05f7becda2f90a5b0149760bdb96b119c8c",
+      "processedAt": "2026-01-28T00:30:32.461Z"
+    },
+    "https://stroke.abhii.space/": {
+      "contentHash": "c7e3ff84f20c186cc28a3253924576de34e1e6a509007ce40c007a5ac6acdae4",
+      "processedAt": "2026-01-28T00:30:38.949Z"
+    },
+    "https://www.last-child.com/build-ai-brain-a11y.html": {
+      "contentHash": "00b7c9bbeb5205861adf31e82769e2f174de5abba25fa28fb892d462678b5d0e",
+      "processedAt": "2026-01-28T00:30:39.913Z"
+    },
+    "https://dbushell.com/2026/01/09/death-to-scroll-fade/": {
+      "contentHash": "593b34471b78194495184efb94544954239df0c0d36e555d48cd0ac54e009382",
+      "processedAt": "2026-01-28T00:30:40.590Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/ai-first-makeover-craft": {
+      "contentHash": "12f4b44bb0dbf96fafce2021dd2c791b3b154335c6cb486ef3ed217d3efd3543",
+      "processedAt": "2026-01-28T00:30:41.068Z"
+    },
+    "https://tympanus.net/codrops/2026/01/27/top-web-design-tools-2026/": {
+      "contentHash": "8b4c0e6cce155a6e0632fd105d4c6b86985b344b6157703bd68969ff134bf24b",
+      "processedAt": "2026-01-28T00:30:42.450Z"
+    },
+    "https://smashingmagazine.com/2026/01/unstacking-css-stacking-contexts/": {
+      "contentHash": "5af4f80ef55edbf1a98b9f27e4708a7298a62fcd5bb95df8c637f61f0570ff45",
+      "processedAt": "2026-01-28T00:30:43.938Z"
     }
   },
-  "lastRun": "2026-01-27T00:32:23.685Z"
+  "lastRun": "2026-01-28T00:30:43.938Z"
 }
