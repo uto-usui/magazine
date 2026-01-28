@@ -17,7 +17,7 @@ export class ContentExtractor {
   private readonly timeout = 15000
   private readonly maxRetries = 3
   private readonly retryDelay = 2000
-  private readonly minContentLength = 500 // 最小コンテンツ長（これより短いとフォールバック）
+  private readonly minContentLength = 300 // 最小コンテンツ長（これより短いとフォールバック）
 
   // Bot対策の可能性があるステータスコード
   private readonly botProtectionStatuses = [401, 403, 429]
