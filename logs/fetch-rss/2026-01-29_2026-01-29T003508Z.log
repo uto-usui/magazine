@@ -1,0 +1,53 @@
+articles_dir=2026-01-29
+exit_code=0
+timestamp_utc=2026-01-29T00:35:08Z
+
+---- issue lines ----
+8:Failed to fetch feed CSS IRL: read ECONNRESET
+19:⚠️ Using RSS content as fallback for: https://infiniteballdrop.com/
+42:   ❌ Errors: 0
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 26 feeds
+📡 Fetching RSS feeds...
+Failed to fetch feed CSS IRL: read ECONNRESET
+📰 Found 1633 total articles
+✨ New articles: 12
+⏭️ Skipped (already processed): 4
+📥 Processing: From pixels to characters: The engineering behind GitHub Copilot CLI’s animated ASCII banner
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-29/from-pixels-to-characters-the-engineering-behind-github-copilot-clis-animated-ascii-banner.md
+📥 Processing: Some thoughts about tool design and AI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-29/some-thoughts-about-tool-design-and-ai.md
+📥 Processing: Infinite Ball Drop
+⏳ Retry 1/3 for: https://infiniteballdrop.com/
+⏳ Retry 2/3 for: https://infiniteballdrop.com/
+⚠️ Using RSS content as fallback for: https://infiniteballdrop.com/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-29/infinite-ball-drop.md
+📥 Processing: Gas Town’s agent patterns, design bottlenecks, and vibecoding at scale
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-29/gas-towns-agent-patterns-design-bottlenecks-and-vibecoding-at-scale.md
+📥 Processing: Tangible Media
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-29/tangible-media.md
+📥 Processing: Agentation
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-29/agentation.md
+📥 Processing: The creator of Clawd: "I ship code I don't read"
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-29/the-creator-of-clawd-i-ship-code-i-dont-read.md
+📥 Processing: Clawdbot (Moltbot) Security Alert: Is It Safe for Your Creative Workflow?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-29/clawdbot-moltbot-security-alert-is-it-safe-for-your-creative-workflow.md
+📥 Processing: The Ultimate Guide to Claude Code Courses for Non-Engineers
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-29/the-ultimate-guide-to-claude-code-courses-for-non-engineers.md
+📥 Processing: WebGPU Gommage Effect: Dissolving MSDF Text into Dust and Petals with Three.js & TSL
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-29/webgpu-gommage-effect-dissolving-msdf-text-into-dust-and-petals-with-threejs-tsl.md
+📥 Processing: How to Style the New ::search-text and Other Highlight-y Pseudo-Elements
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-29/how-to-style-the-new-search-text-and-other-highlight-y-pseudo-elements.md
+📥 Processing: ReliCSS
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-29/relicss.md
+
+📊 Summary:
+   ✅ Success: 12
+   ❌ Errors: 0
+🏁 Done!
