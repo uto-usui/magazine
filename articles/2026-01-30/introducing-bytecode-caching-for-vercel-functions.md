@@ -1,0 +1,67 @@
+---
+title: "Introducing bytecode caching for Vercel Functions"
+source: "https://vercel.com/blog/introducing-bytecode-caching-for-vercel-functions"
+publishedDate: "2024-06-03"
+category: "frontend"
+feedName: "Vercel"
+author: "Javi Velasco"
+---
+
+3 min read
+
+Jun 3, 2024
+
+We recently shipped a new [Rust-based core](https://vercel.com/blog/vercel-functions-are-now-faster-and-powered-by-rust) for Vercel Functions to improve startup times.
+
+Today, we are announcing a new experimental feature to further reduce startup latency for large applications, resulting in up to **27% faster cold starts**.
+
+## [Link to heading](#introducing-bytecode-caching)Introducing bytecode caching
+
+One of the slowest parts of a cold start is loading and compiling the JavaScript source code. Before executing the code, it needs to be parsed and compiled into _bytecode_, which is then directly executed by the V8 virtual machine or compiled into machine code by V8's just-in-time compiler (JIT).
+
+![](https://vercel.com/vc-ap-vercel-marketing/_next/image?url=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Fcontentful%2Fimage%2Fe5382hct74si%2F4mrnpk7LqMuRiSB7iW4cf3%2F00d02b4e24ac5adf7bb549ae904d75dc%2FHow_Javascript_is_compiled_to_machine_code-light.png&w=1920&q=75)![](https://vercel.com/vc-ap-vercel-marketing/_next/image?url=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Fcontentful%2Fimage%2Fe5382hct74si%2F5ayYCQTMRlI9JeJno0ohae%2Fb988b35df56fff5c3818b68a237b67c9%2FHow_Javascript_is_compiled_to_machine_code-dark.png&w=1920&q=75)
+
+This conversion to bytecode must happen when a JavaScript file is executed for the first time, but it introduces latency.
+
+What if we could cache this step and re-use it later on subsequent cold starts?
+
+![Before: the JavaScript is compiled to bytecode on every cold start.](https://vercel.com/vc-ap-vercel-marketing/_next/image?url=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Fcontentful%2Fimage%2Fe5382hct74si%2F2mgpQESSDIZNGS7OTSzmg3%2F3be5652d0e451271bc1bad7616b997a9%2FBefore-light.png&w=1920&q=75)![Before: the JavaScript is compiled to bytecode on every cold start.](https://vercel.com/vc-ap-vercel-marketing/_next/image?url=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Fcontentful%2Fimage%2Fe5382hct74si%2F3Ihu5puUJ76ng3WEuleWDy%2F0f974ced4dda34296eac3657b8cbb193%2FBefore-Dark.png&w=1920&q=75)
+
+Before: the JavaScript is compiled to bytecode on every cold start.
+
+That's exactly how bytecode caching works. The first execution will produce a bytecode cache, and successive executions and cold starts will re-use and optimize the cache. This can improve the cold start duration by transparently eliminating the compilation step.
+
+![After: the bytecode is loaded and executed immediately.](https://vercel.com/vc-ap-vercel-marketing/_next/image?url=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Fcontentful%2Fimage%2Fe5382hct74si%2F5SBsSc4cdpA8CyVBOClLNs%2Fc945c85871c1ac8e2883fb32f936e513%2FAfter-light.png&w=1920&q=75)![After: the bytecode is loaded and executed immediately.](https://vercel.com/vc-ap-vercel-marketing/_next/image?url=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Fcontentful%2Fimage%2Fe5382hct74si%2F3R4FS3MDV93HwAb4jDMPUr%2F5c9ec8b0a8c09f37cbf159001a18c1a8%2FAfter-dark.png&w=1920&q=75)
+
+After: the bytecode is loaded and executed immediately.
+
+We initially tested with three different Next.js applications which each load a different amount of JavaScript. Each application would get a cold start every 15 minutes. We compared the startup duration before and after bytecode caching.
+
+-   The first application’s main page is `250 kB`. The average TTFB went from 873ms to 764ms (**\-12%**) and the billed duration from 330ms to 137ms (**\-58%**)
+    
+-   The second application’s main page is `550 kB`. The average TTFB went from 1017ms to 869ms (**\-15%**) and the billed duration from 463ms to 214ms (**\-54%**)
+    
+-   The third application’s main page is `800 kB`. The average TTFB went from 1548ms to 1130ms (**\-27%**) and the billed duration from 866ms to 453ms (**\-48%**)
+    
+
+These cold start improvements continue to improve as applications grow in size. With bytecode caching, your function both start faster and have a lower billed duration.
+
+## [Link to heading](#technical-details)Technical details
+
+The [`v8-compile-cache`](https://github.com/zertosh/v8-compile-cache) npm package is widely known in the ecosystem, but can’t easily be used with serverless platforms like Vercel. The file system is ephemeral and fresh during a cold start.
+
+We developed our own bytecode caching implementation that overcomes this limitation and allows all subsequent cold starts to use the produced bytecode cache. This system can continuously improve the cache as more traffic is sent to the function.
+
+For example, assume you have two routes `/home` and `/blog` . Your framework lazy-loads those routes from two JavaScript chunks. When a user hits `/home` for the first time, the bytecode generated by this first chunk is cached and re-used for future cold starts. But when a user then hits `/blog` , it produces a separate bytecode cache (since this chunk was lazy-loaded).
+
+Vercel Functions will intelligently merge together all bytecode chunks, regardless of when or where they were created. This results in faster cold starts as your application gets more traffic.
+
+## [Link to heading](#try-bytecode-caching)Try bytecode caching
+
+We’ve been using bytecode caching on our internal Vercel projects for the past month.
+
+If you want to try experimental bytecode caching, you will need to use Node.js 20 and use a framework that compiles to CommonJS (for example, Next.js). We plan to use the new option [available in Node.js 22](https://nodejs.org/en/blog/release/v22.1.0#module-implement-node_compile_cache-for-automatic-on-disk-code-caching) to support ES Modules in the future.
+
+You can opt-in by adding the following Environment Variable in your project's settings, then re-deploy your application: `USE_BYTECODE_CACHING=1`. This improve only applies to production deployments.
+
+[Learn more about Vercel Functions](https://vercel.com/docs/functions) or get started [building your first application](https://vercel.com/templates).

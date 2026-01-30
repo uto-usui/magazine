@@ -1,0 +1,101 @@
+---
+title: "Issue no.3: The handoff"
+source: "https://www.figma.com/blog/the-handoff/"
+publishedDate: "2024-01-22"
+category: "design"
+feedName: "Figma Blog"
+---
+
+January 22, 2024
+
+![An illustration of a person handing an envelope to three birds, and one bird walking off with an envelope in its beak](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAADdklEQVQokU2SX0gbdwDHf8gUH0pxK6Ns1I6ylk1a3BxtKYO6ze7BPWyTzT0UxmAIy8JhzuDqJafL3ztNcr+L3iWX808uf0hczjPxTs0y0+2IPmQvkWCdXkBKtmCZTFkG6dQWOjNkL/s+fR8+D1/4fIFerwcOh6N5amrq41gsJsfj8bQgCAOBQOCaz+drDgQCoKOjA3Ac17i2tnZL07Spcrn8QNO0xdXV1U8EQTiTSqVAPp8HgiAAUK1Wwfj4+IVYLGaXZfnXbDb7Zy6XK6iqOiKK4iUAAAiHw0CW5XNbW1uGg4ODraOjo6NqtfqoVCqNLy8vXzllarUaOB0H+vr6GliWfTcWi2UymczTzc3N+u7u7hNN05ZTqdTt3t7epnq9DhRFuVgqlWCtVvvr5OSkfnx8/LRcLi9kMpnr4P+xWCwtPM8bE4nEw1wud1KpVP7Z399/XCgU8tFo9B6EsJ3juOeSyeQL6+vrhr29vc3Dw8O/q9VqRdM0uLS0dLmtra0BRdHGnp6eBgAhvBGPx79TFOWxqqr1QqHwLJ/P/5FMJn8JBoM/er1eI47jl3EcP5tOp98oFovf7OzsCNvb26SqqnecTuclgiBuQQg7HQ7HS4Bl2bvJZDK/srLyLJvN1hcXF59IkvRIFEVtcnIyb7fbJ81ms8HpdH5I0/Tr0Wi0VZbl1xRFaSUI4mUcxz8bGxuL+Hy+AE3T7wCGYe7Mzs7OSJJUSSQSx+FweCcUCiUEQYi4XK6E1WpNEAQxByEM+f3+e16v96ZOpzvT3d3d5Ha7b0AIWbfbnaVpmqIo6u1Twy0ej6fTZDIJRqPxd6PRmDWZTJ8TBNE/OjoqeTye+zRNqzRNp3mev8/zfICiqPesVms7wzC26enp7xmG+dZms71lt9tbAIZhYHh4+EUMw/ChoaHfMAz72WKxfE1RFDYxMZGhafoHt9udJkkyxLJsiuf5n7xer85ms30AIQxyHCf4/f5OvV7fuLGx8d/H4vH4uYWFha8URcmIoqjMzMwgEMIvXC4X7nQ69SMjIzqz2XyXJMkvPR4P7nK53jebzW/iON5ntVo/JUnyfLFYBDzPAzA/Pw+CwWDz3NzcNUmSeiKRyEd+v78dx/FXURS9OjAw8AqCIBf7+/vPoyh6AUGQqwaD4bQ/bzAYrgwODrZaLJamrq4ugCAI+Bdsy+Kq/J8oDAAAAABJRU5ErkJggg==)![An illustration of a person handing an envelope to three birds, and one bird walking off with an envelope in its beak](https://cdn.sanity.io/images/599r6htc/regionalized/a1903255e399cf800dee1c554e9bbcd929d0bd98-707x400.png?w=1632&h=923&q=75&fit=max&auto=format)
+
+Making work more like play has a way of smoothing the edges and eroding boundaries. It can also lead to its own set of challenges.
+
+Hero illustration by Jay Daniel Wright
+
+At Figma, we think a lot about what it takes to work together. Multiplayer is predicated on this notion. So is the idea of a “handoff,” a term borrowed from American football, where it signifies a ball exchange, and in product design, where it’s better described as the endless volley that brings our ideas to life. In this spirit, we created [Figma’s 2023 handoff](https://www.figma.com/blog/figma-2023-handoff/)
+
+. With
+
+[the new vernacular of work
+
+### From Slack-lash to Toggle Tax: The new vernacular of work
+
+New norms call for new terms. Our new unofficial work term glossary uncovers how work defined us and how we define it.
+
+
+
+](https://www.figma.com/blog/the-new-vernacular-of-work/)
+
+, [the art of the professional pivot](https://www.figma.com/blog/the-art-of-the-professional-pivot/),
+
+[a multiplayer guide to great meetings
+
+![An illustration depicting faces leaping out of a digital screen and having conversations](data:image/png;base64,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)![An illustration depicting faces leaping out of a digital screen and having conversations](https://cdn.sanity.io/images/599r6htc/regionalized/29533f26d962a8b453ab14ac0540d3b288d946d6-1609x2145.png?w=1609&h=2145&q=75&fit=crop&crop=focalpoint&auto=format)
+
+### Come together: A multiplayer guide to great meetings
+
+Take meetings from “meh” to magical. Here’s how facilitators and participants can co-create a work session for the books.
+
+
+
+](https://www.figma.com/blog/a-multiplayer-guide-to-great-meetings/)
+
+, and other stories, we celebrate the big plays and deep learnings we’re carrying into 2024.
+
+[![An illustration of a dog clicking a computer mouse](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABV0lEQVQokZ2Sy0vDQBDGA2rTTbKbgxePgnqS6kFtxVfRVqul2EqTVK8iYqsHRQQRxBcioijooSqCj1off+UnOyWllsSgh2E3ZOc338x8ivm1CDfEZ4GC7h8FiIoN8ZyHeLUg3p36f/eNm2M2MJRmoAvjjwswLmahHydgnM2A32UJ6lXcDARWHRiXc2BrUahLfWDFGIH5bYYKiartC1U8gW829JMkQqketPZ3QHUi0LbHwDZHoO3FwR9y/wAeJdAW70RLdztUqxfa1ijY6hCdvJz9ARQNUF+gnJtaiCCU7EJ4eQDazji03QkY5yla1N8UVmxaCLVZjNIs2cYwtWvcZKhgozoRqFACr9LQDxOkiq3HEF4ZBCvFoB9Mgd/nfG2k+G1ZJkk1xnWa2pQz1fcnoZ9Og5fn6yqbvegNlFWlAplUtWvniwXxlK8ZXX5L4wcBvZz/W3gZ+xs1bbEuBdiyeQAAAABJRU5ErkJggg==)![An illustration of a dog clicking a computer mouse](https://cdn.sanity.io/images/599r6htc/regionalized/66deabe142cdb3fe64c6e145e1b7098925657895-2160x1216.png?w=2160&h=1216&q=75&fit=max&auto=format)](https://www.figma.com/blog/newsletter/)
+
+Want the next issue delivered straight to your inbox? [Sign up here](https://www.figma.com/blog/newsletter/).
+
+#### [Best of Figma](#best-of-figma)
+
+From minute details that made a big difference to major product launches that changed the game, we break down the top 10 things we shipped last year and why we think they’re MVPs (that’s Most Valuable Players, not Minimum Viable Products).
+
+[![ In a colorful illustration, UI and UX elements are framed by starburst shapes.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAAD4ElEQVQ4jR3RS2/bBAAHcANVtyaxYyfN046dxHnYTmLn6byaOE665rFmaees26BrtWjdEIeJiU3aJAQDaRJCSEiAhLhMIDiAkThwCEJ8I44GRVzwH43D7xP8iH6tDT4eRDS4DT9HwVtksVuKIZYNQpA4tAY1TBcGumYdSTkJhg2B4TkUjDH2zx66xq37qE6tTW7/is2fTdrESWuMcjyGrP8NRHZJ0DyLSDKGvMzB7FUwHerod8swBzr2ulUIKR5cRkFrfBtD64Grj+aQq9VNoiH9Gn9oWMR5d44yKyDq3UY8xiGndiAqFZQ1BUejBq5qAvS4D3tyAlOjDk0tQKn2MLh2D+0rN12tXoExyG5md7R166urd4mJ1oUYjoLauYRIXIBSGyBX0lGpqJgZNVyTdnGbJXBWDGJpVqE3qqh2pxgsLqC1J25RFfHgorL58vvF+vz3OyuilGSRDfuQDmyDD9MQuQT4KAcpI+LA0LFoybhTjuFtQ8JypKNcKqHSmcA8uoDaGruZHI83bxc2n7+cr+/+cbYiDNmPK4ofY5mCkaOg8ySkEINUOIJyIYdRv47D/SYOp100myoEIQml0oe5uIA+uuEm0nlkspGNcV1ed7+er4ijCo15kcJMJrEo+TFXGXRTNJJ+DxjSAy7NIt8pIm2oCNdE0BkWnFxC+1XK0X1XbU/BicomomXWsafDFTGUaOgciQpLoycyWKgMJoofYnAbly5v4bKwi2BLQrRdQrhVAqPnEShlkK3toXf13DWP7qN1cHOjTGbrxIc3VkQrGUU7m0VTK0MvSDhQQpirNDR2B/5dDyhVQMHcw63FCm8t7kEzDTC1DJgUj0yh4TaHS/QOzzf6yela+uxiRXRSrGsWVbdTb7r1YsEdy2H3WKNdnfe6objfDdRE1xyN3S9OP3K/OXvhzvYP3d1G1qVZ2k0FyH8lQUBGLm+ETnud+GC5Iowcg6YQgpoIQU8GMC/QmJdoFFkSgVgQtJZGodfALXOB0+Exyr02AuUkUjEPesHXoAe3EGY8/+xko7+RD3srYl5lnLFC/TXM+pxZ0e8sakGnl6OcdNjnhGJhh84nHEbPOOG27EQ7isPoWcebCjmp4LZjRl532tGtvyMc+edOQ/jF96R/ThwZ0W8XE/7H+YS3XzEGnC1qITsiRWy+kbfDes72dkTbO1Fs36xo73TT9nYuZAdTflvKUz+JMvMz00j8QC7Lz6lPpyeE/k6lUXg+OJRfjJb5j00r8axn+d/rWtQTw4o/n1mh9w8s8nHfIp8OLOqZafke9yzPu53/kY86lu9RZ+l90j8mP5nMqe+W1/8Dc3mXcYXRXkkAAAAASUVORK5CYII=)![ In a colorful illustration, UI and UX elements are framed by starburst shapes.](https://cdn.sanity.io/images/599r6htc/regionalized/b5896103df2d1dea9bec0daea9052407ce92c2c0-1060x726.png?rect=1,0,1059,726&w=528&h=362&q=75&fit=max&auto=format)](https://www.figma.com/blog/top-10-things-we-shipped-this-year/)
+
+[**Read more**](https://www.figma.com/blog/top-10-things-we-shipped-this-year/)
+
+#### [Looking 4 love](#looking-4-love)
+
+What was your first username? How has technology helped you find your people? What innovation makes you most excited about the future? If you’ve ever been on the rocks with tech, these 36 questions will help you reflect on your relationship with it—and possibly fall back in love.
+
+[![A hand-drawn illustration of a person hugging an old desktop computer with a red heart above their head.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAABYlAAAWJQFJUiTwAAAEUUlEQVQ4jX2U608cVRjG+Rf8E0zRiNXYNiVAAuxlFiimlQVaEEID9AJFar2lYCm0KqwFWq5BrrOw950zsOwCu7Ds7Owsy21bLLQQbIz9oqY21gtjEz/4wXnMWRCtBT88eU9m3vmd58w554kjhMEk0cK7lzgGPosO0yOZ8Fp08HJaePlnehRaPYTZMpOMzhJy4sU4CgsQDURegyDRIOBQY9ahhsCpIdkY3PniBFbbczE/cAxBx3afSHal0OonGtlEMgZUJDcpjs5AH4aJGoJDBe9IGnymNIhONSJWHe5152CzLR/LQ8cgcRqEeXWsd0dK7DuikUdIhjGZ5DH/AHk1AnYVJo2pMahAXVq0EPt0kHozETIzCHEaSLFeDaRtKbQGtoHss0CiRoijLrUQuUyIJBt+WzZ8pmxMmI5jzJKDCfNxiKYshM1aiCPpCFlVikQd8v8F8n/PmglprATS+AcI8Jcx46yB6KrHhKse7dbL6Oqvgr+9ABGDBkLDUQTbkxXJrtoHSDfHkovRfgOGOr3obgmip1WEqS8Io4NDnaUNzT11CDeWYeVdNUJlByHWH1EkS/peQC3Cdi28nSW4+aEd504/wumi31BWvIVLVd/j845ptAzewOit97F+pQir5SkIFydAbNgHGHSoERliMGs4j6ZKHwr0MvL1f6Aw73dUnX+E3q4peLprEK0twGYlg5W3X4dU+grE5kRFcuyx5CCbhvnGVESuV2Dks0lcq32IhtqHMFx7gP6OL+G32hAxlGOxNAkrBa9hOe9lSGcTIHYkKxLdyOeA3SkIv5eIhetlmHOYMOuexgzvhuC0Y8k5jDVzC6K1eZg7+SqW9PFYyo1H6GwCQvsBhd5UhD/JQrS/BncDRtyds+O2n0XU1oL1vqv4prUaGxezsHwyAYv6A1jUxyN05v8cWjMRdb6DzdAgHkQJNpacWJ+z4J6vD2smA1Y/rcSdiiwsFb6x4/AAQpUHIXan7HcOs3HbV42NSCs2IrewJjXjfrgZq1IXwp5heHsHMNXYBOGjc1g4o8NieQrEK6kIsjsH+7mbwusQcb2FBU8B5t2nEBnPx5wrH4L7ElxTHti9X8Pm/gqjNgm+HhNm2prg6y2FYNPtCaSJQV8oUqxuj0OcRvHyFxSHV1TMwk+KSfhFsQZ/VjjhscK5BWXUXK34bdo/d5a8tc/V266xMWHg5athmwrBFPgRpsATWEQZjvCvsLk94IzFmLGkx8JC4DVPd9OGhiPNM2qbpgYV/cmzRCuPcxXyiGdaNgZ+kNnAY9kYfCKbg9/K1rFBecycI087VFsBon06TbTfDZKMnkSSr4mjSUvDkc5AbcfEZ7DDJIPtcZaxzeNW9oZ/jTXMrLEG/322ZTbKdozfZAecenaY6Gi/kcKukjcvvEROpcfR2KZJS+3+W0kkj0nkipjD/EXmsKuOOTRWxxxy1TFHXB8zR0crmCRSsNtLnVHYC6RQ+xeUnPFbPuDK8wAAAABJRU5ErkJggg==)![A hand-drawn illustration of a person hugging an old desktop computer with a red heart above their head.](https://cdn.sanity.io/images/599r6htc/regionalized/308b91b602962c1b1f5dda6e8c84c4ca148801f9-860x860.png?w=528&h=528&q=75&fit=max&auto=format)](https://www.figma.com/blog/36-questions-to-fall-back-in-love-with-tech/)
+
+[**Read more**](https://www.figma.com/blog/36-questions-to-fall-back-in-love-with-tech/)
+
+#### [Bots need people, too](#bots-need-people-too)
+
+AI will continue to be a heavy hitter in 2024, but for all its preternatural gifts, this rookie tech needs some savvy product managers to help it reach its potential. We talked to leaders at Duolingo, LinkedIn, and Asana who are cutting through the hype to ship AI features that matter most to their users.
+
+[![An illustration shows a colorful swirl emanating from a star shape at the center](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAAEF0lEQVQ4jQXB+08aBwAH8Psr9sP+gGXJsnTZq+mSdWu3pbPadu2ZrnZtV09XtVqx4KOoPAsiiAccnHKIIqiAhx54yomgCEp9YJ32sTamj2Rd0h+2324L2S+77z4fYpJdwPjsIVyZ17gtiLgaMkE/ziIYLyEciICz12NaMCNTziOW3YZlwoVL3npci3UivMkpvjUG56Y0lc9HW/jjYy0nCI3LCo6NYDq+hWB4FnG6G0WXC8XRLKSRBJY8WiyHupFKhhCbiiFluIVxw2XMCE48fCQquQdJuCJjlftuWrzK3SOJBvMFJDTVWNa3QjA0onznFB511GFba0TZ5seB1441x014nSqwLhsKXb+gfK8FpUk30vmoEskuIzYhVgT7qHTLp6onfLbz2L3zEeZUJ6DrPQNv90mEtFUI9zdg1WzFhlWPaP8N0Ja7mHD7kR3wYkOrxlLfdRiZDqUtxMLBcJWgRS9d81EUcZBx4uV4F0RbO7SDGnSyajhDGgTZTsQdJkybesHpVAibeyDZ7EgP+ZE3taPUW4OQtVVhHQzi9lBlnOak85FeinhzmMabVRFPuQUsOWbg9FjBjHVh3tuNiK0fAbsVE7QdkwNazFq7EBwegODrxbOxHjwbGVGeD6Xxm3O9MsdlpJrEEEW8SszhxZSI8mQZOa6ImFWPuO46lkwaTN43Ysw9jKkgh6CPRsBHw+seQtKuxvPhNjweDSoPwo9QjD6vxBN5qTZlpYhDC41dix1SNIfF9EOsBALIWrUQ9CoETBqMOkzgnBaw9CBYvx+Ml4Fg6UHZoEKBiShJ4TWE5d8r0fSadEPUU4TP1Ana2oxozI9Sbh3FxXVkEyksMGYI5jakbDqMmXvgcBjgDjAIeIxIO7qxQ/tw6M4ovwYOsBXfr6STokQJOor4ytesnB1tVmzTtLKSLCgry0+UvLSp7LAu5Ym+RdmjzUrQPaTYhnUK7VErwft1ykZfnXLk8Shv/Sv//cXm8Qefq5QLgtSUMVDEl57LoEYocDyLVGYfUuElirk8Vhkj9rS1OPTrwc/MIGzXgdf+gGjfRaz1NeJVwIO3aQmvxCKO8hv/bh+kl5vWzRQxqPlYFnWn/t6bHZDXS5vy5t6+XNwRZSbcIweM1XLB2yrHpjk57ByQtzSUvN/xo7yvqZVfeDvlp2vzcq70+J/F0tGfse2ScCVj/ZnINrw7udP+fnwj0MzPr8b41M4SH96a4G/G1XyTvZoPmr/nDe4mXu3R8XNmE1/WUPxuyyf8pv47PsH7Zpn1g4SjcDR9bzVvPJ7qu0wM9H34WaP9i5pajqw9m+gmqxcN5OkFNfletJ48xl0gz7hOk5+OVJMfTNSTVeNq8ie2kbwx9A15hf6WrArfJr9OOmpPiq6Lx5K6c+/wNy/9Dwg/3TSl/OU+AAAAAElFTkSuQmCC)![An illustration shows a colorful swirl emanating from a star shape at the center](https://cdn.sanity.io/images/599r6htc/regionalized/7701bc6e040b381dd5b36fe68132a8e7ea9bd72e-1060x726.png?rect=1,0,1059,726&w=528&h=362&q=75&fit=max&auto=format)](https://www.figma.com/blog/shipping-hype-pms-on-what-it-takes-to-bring-ai-features-to-market/)
+
+[**Read more**](https://www.figma.com/blog/shipping-hype-pms-on-what-it-takes-to-bring-ai-features-to-market/)
+
+#### [Cop this keyboard](#cop-this-keyboard)
+
+CMD+D: Our collab with modular keyboard makers Work Louder just dropped. With 12 keys and two rotary encoders, the Figma Creator Micro is your shortcut to better work—or 48 shortcuts, to be exact. Take a behind-the-scenes look at how it came to life, along with a brief history of keyboard culture.
+
+[![A photo of the Figma Creator Micro showcases the mechanical keyboard’s translucent square frame and colorful keycaps.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAADLklEQVQ4jZXPS2/jVBgG4PwNfggL2PAHuLTMiBGlDBqQEIUZiUvFiAUlFe1AWTCXqhdErtO0TdxcJk5iJ07iJHZ8t499bPMnWJpRxIbzIqfTGYHYsHj06kjf9+o7GdnXoVEbBnWhU+d/SOddlu5p1F4MiMrtzU9fyZihCz+ioFGI4Dl6mXEqeo7+Q5hiafoRXUj+nN8YP7yWcUKCMI4QxzHiKF5mlApDhITAt2y4uo7AtEA9D47jLFEaprPstzhO9xcSUYX3pb1bGZuS5XVRFC2FYYjIIwjHU5AzDvPjPOQHhzAOcpgVKijuHyKfy0NRVERRzNIDwihKvyysD378MGNTDzSkyyJKKQKXwBUn0PZPMdq8j+5n99D6ZAftjT0U7uzi47WPsPHpbTTqTfgkYGEYpQe9KLQCFz4N4HkEluXA1G10WgMc/XyOn759jJ2tx8hul7GVPcHtrSOsbmxi4/NNVEqnUCdzRlwfQUgXfU95Uej5PjTNwFieYqzMURTH+PK0jlvlE6wXiljL57BezuFmLo8794/x4GEBF6UWpI7MLN0GCfyF6M6E9/o/PCskBIqqodcfgh+MUBEG2KvXcLf6CzbLj3C3+AjfnBzg+0IOB0dVnB3zaJX7GPAy01QDtussupYsrPXvXRaSwIdp2ZDkGVqihGpPRIXnUWrWUeLOUeGqqHANlIp1FPZrODmso3nWRb83ZLOpAt00FrwxEtbEy0Lm04AR4jPDspisqKw7klljMGSc0Ge1dofVmjyr1rusXG6w4q/nrFppsB4vsvFo8peqzpeFbX0ovCvupoUeAkpBAwrf9+F6HgzLwnSuYTCZoSMN0eqKaLR7aLa66HREDKUxlJkKXddhWRYsx/6TN0bi8kI9cBKX+n8Q6idekCKJ65PEJm5iOHaiGnoyUZVkPJslE0VNFE1PNMNMdMtMDNtKLNd+arr270/MYfOGuPNBpudOSx13UuUdmfu3tj3mnlgjrmlIXNMY/gep1jKHF01TquyrXPY1/ut3Ml/IBy/f6O++viJuX18Vt69dWRGuZJ+5fL/Vyy6tXKWQvf6m8N3qq+2v3njp4ubbfwMmKUmHYq7ZewAAAABJRU5ErkJggg==)![A photo of the Figma Creator Micro showcases the mechanical keyboard’s translucent square frame and colorful keycaps.](https://cdn.sanity.io/images/599r6htc/regionalized/aeef3b5a863db9cbf43e0ca213866d65ab43c58b-1060x726.png?rect=1,0,1059,726&w=528&h=362&q=75&fit=max&auto=format)](https://www.figma.com/blog/figma-work-louder-custom-keyboard/)
+
+[**Read more**](https://www.figma.com/blog/figma-work-louder-custom-keyboard/)
+
+#### [Rabbit hole](#rabbit-hole)
+
+Illustrations by Min Heo and Rose Wong
+
+![A collage of illustrations includes a hand wearing a sweatband typing furiously, a group of people having a meeting, and a person in braids wearing a stack of different glasses](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAADhklEQVQokQF7A4T8AACrTSsfqVwsVqJmQW9+Snp0ZDjSc184429yTZSWv6N2vOfQq7nmzJ+DvZFSOG8rODlSJlc/Qy2GSEMtjEZDLo5DSjKBQ2AuTzOAMjsUmkNLAAeqUCddimQ+jINUeJeIOLeWgTDrkng475Z3WL6vmZyyw8zI0r/fzKyLv5lWQ2kwOUBCKWxBOjSwRTs0sEE3MbY+OTGmRU0rVzd/NzURnEdFACaUWDCDaW1ummxZxaCAOvGihjL8oXtE+qFqYvCmbITsrY+f0KO1qoFypYZIaHlnSHZpZ4JvXGG/Z1NVr2ZUV7psWl61dWhjZlaGZD0anlRGAFl2ZlKLWHGrl1tl8phqTf+VbUT/mWVY/55bcP+fWHz0l2J+qG+BeEpOhW09hIGEabaZprC4mqbSoYONs6uQmsO7nKjRr4ycj2uDe1MgnV1KAG9hZ4OJUG/QkVBt949UY/iLU174kFJp+JpTd/iZVXraiF90e0KGYy82g1k1inlwdcaTms7HlJ7qnnN50bOHj+DQm6bpt4WMpGR+a1UVoVpHAFlVVoR0TGGpf0xnuIFQabx9Tme8ekpkvXpIZMB5T2acZmtnTB+mWiE2fzkvi2pMbLl2d8izc371kWBk9KBrcve8d4Hmqmxil1t2Q0sOo01BAF6Udmdzj39wdoV9aoCIg3JyeGp2TU88gjU3MIsqOjJmH105ORR9OioxcS4yd3JYYZl/hbyfh5b2nYyY/5yJlv2cgpDZinRtgENwNUMNlD9GAKriw5G05cqfn9a4fou+m3aEn2iBZm0rl0FOII4eQCRgFkAjURk+H1gbQiBXTmZXdomSmcevtcH7xMnW/7S6yP+QmqbfaXx7ijVlQ1sWaTRtALPmypu55s6wiMmmoGCpdKF6m1yWiYY+k4qJQJOCik90Q145WRk2HGEYMRpvLUEziHN8ebrBw8fi4+Po7sfIzeaDjYzUbYF4vW6Neq1EelilAHnUolWD0ahiTKx5hT+cYaldl2KGhZRbba2wWpaztmCWd59XUQ9qMzMRVSo+FkwoUE1yWWesv7KH0uDYm63As4tvjHmLkbKfwaLKtNR3uZSrAAKuTzUIqFI2FZpVWiSXW3stlWNiTp5eUpC4WnyZvVuGXrZXTACvTysArk4sAKdLLQqmUDE2tG87Ub6CQzOxaztQu4BNod28manjw7541KGXSmenpEjN5PYAAAAASUVORK5CYII=)![A collage of illustrations includes a hand wearing a sweatband typing furiously, a group of people having a meeting, and a person in braids wearing a stack of different glasses](https://cdn.sanity.io/images/599r6htc/regionalized/48f0379bb9a51d324429ab77e5df5092d23c0def-1300x730.png?rect=0,1,1300,729&w=804&h=451&q=75&fit=max&auto=format)
+
+1\. The Figma Creator Micro is sure to inspire some Keyboard Cardio—just one of the terms in our [new unofficial work glossary](https://www.figma.com/blog/the-new-vernacular-of-work/).
+
+2\. Will you achieve Zoom Zen in 2024? This [guide to great meetings](https://www.figma.com/blog/a-multiplayer-guide-to-great-meetings/) might enlighten you.
+
+3\. But if joy at work remains elusive, maybe it’s time for [a professional pivot](https://www.figma.com/blog/the-art-of-the-professional-pivot/).
+
+#### [The last word](#the-last-word)
+
+[![“You have to bake in time for exploratory work. It pays off in the end.” —Albert Song, Product Manager, Figma](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAABYlAAAWJQFJUiTwAAACVklEQVQ4jX2Va2+SQRCFH61SrdZL2ipSqK3FFsFaSoEiFOzFilbQeKkx6gf94P//C2bI8yYLUTd5s8vszNk5c2YXgGfAPrAL7ABVYAtoA6fAies60AU6wBj4CfwAXgEPSEYF6CfBTWAbaAGHzk+ANWDdecsE6sbfTgHvAU/d3DG4BDwyMABW/V1x7waQA+adL6eAy9JumFlGPTI7Ava0B4s3HrzAf8ayTgG4YVYVbcdAD6gJ3PHwojRzwKVZwKKOTcXpm2WADICzpJZt6/za9f1ZujE2dTpRva8qF2BDg489cFfwMxVfBeZmAZesUVWabTONOpYVo6bPmuuuftvGT4HmzPJAui/Nqq+95F7LA2L+ALy31WqqPgUYgnwEPus8ltaebdQz60y0rmUY6LOS1vKKtHo67hq040F19wZm1xBsBLxV0EJKe842eWdmh2bVMnBfyqf2Zc+SjN3fBhbT9gnAx1IcmFkxuWpR9Du2SN6bVfD+3gWuzfZicL+VOC3Z7CsG57UtaouDHnpYHrg+CzjvRlW6oe65Ko6ceyrcTHpzJOV14OosYEHnUPjCZ+mbYEOFKVnbRnL3DyzXTUEnwizYDi2ziyxfAM/tsXJSz3oCmL2jTTujqt+E7qmZjf0ubImuQXXnc/dHrof6jV1HaSaF7yRtMfQu97VnD+yG9MrOm4ltS3tkOVEpqAXVSD8oZQ9uUI83MDINe1DKBAhl44suiS/qF1iTmxI1iMDoxeyvIGj/An4D3xUpDp26t38bgRwFD8WiNp+sSQB9kXqUIrvboeg/xx/+6Eaxn9lfBAAAAABJRU5ErkJggg==)![“You have to bake in time for exploratory work. It pays off in the end.” —Albert Song, Product Manager, Figma](https://cdn.sanity.io/images/599r6htc/regionalized/5323af76f1a9738853a7f9aaff5eb93474c9f5c3-695x758.png?w=528&h=576&q=75&fit=max&auto=format)](https://www.figma.com/blog/shipping-hype-pms-on-what-it-takes-to-bring-ai-features-to-market/)
+
+## Create and collaborate with Figma
+
+[Get started for free](https://www.figma.com/signup)

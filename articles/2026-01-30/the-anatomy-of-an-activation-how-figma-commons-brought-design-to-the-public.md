@@ -1,0 +1,59 @@
+---
+title: "The anatomy of an activation: How Figma Commons brought design to the public"
+source: "https://www.figma.com/blog/the-anatomy-of-an-activation-figma-commons/"
+publishedDate: "2025-08-13"
+category: "design"
+feedName: "Figma Blog"
+---
+
+The ringing of the bell at the New York Stock Exchange (NYSE) was about celebrating design going public, introducing Figma to the broader community, and inviting people to feel part of something bigger. Since community is the backbone of our brand, we look for ways to share every milestone with the people who helped us get there—from [Config Commons](https://www.figma.com/blog/how-we-shaped-the-visual-identity-for-config-2025/), our block-wide pop-up outside Config, to the NYSE.
+
+To celebrate this milestone, Figma’s events and community experiences teams decided to go big, launching a series of bold citywide moments: a colossal mural in Brooklyn, Figma posters throughout New York City, a digital billboard in Times Square, and a “Figma Commons” event outside the NYSE.
+
+Crafting Figma Commons involved weeks of planning and layers of approvals from agencies like the NYC Department of Buildings, NYPD, and the mayor’s office. Behind each careful detail were Jordan Scott and Kelley Sauer, Figma’s community and events leads, who helped shape the experience from the ground up.
+
+“We wanted to build out something that was really delightful for people, whether they were longtime members of our community or interacting with us for the first time,” Jordan says.
+
+Slide 1 of 5
+
+![Crowd gathered outside the New York Stock Exchange beneath a massive Figma banner, surrounded by installations and street activations.](data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAcA/8QAJRAAAgEDAwMFAQAAAAAAAAAAAQIDAAQRBQYhEhRxExYiMTJB/8QAFgEBAQEAAAAAAAAAAAAAAAAABAID/8QAHhEAAgIBBQEAAAAAAAAAAAAAAQIAAzEEERQhYYH/2gAMAwEAAhEDEQA/AF7X3PbaXsfs2lPrtLISc4xxxRNr7o04WCwzTRrchWUxnj7/ALmpQk8skeXckY6seTQ9THZtdwoAxQhw5/XilVrWerPnkxYtlJbvccKAKkjADj4gYrVNLS8uWs4H64x1oGwYwa1JVtORgyONccbT/9k=)![Crowd gathered outside the New York Stock Exchange beneath a massive Figma banner, surrounded by installations and street activations.](https://cdn.sanity.io/images/599r6htc/regionalized/d1a850d69b71b3af08a0bff4780872f4f8782f05-6720x4480.jpg?w=666&h=444&q=75&fit=max&auto=format)
+
+“I’ve never been part of an IPO, and the standard run of events for an NYSE listing felt easy. But I like a challenge, so we went bigger,” Kelley says.
+
+## [Extending a citywide invitation](#extending-a-citywide-invitation)
+
+Promoting the celebration at Figma Commons came with its challenges. Since the team had to hold communications until a press release was published, they had less than 15 hours to spread the word. The solution was on-the-ground marketing—flyers handed out at subway stations and ferry terminals, wildposting throughout the city, and direct community outreach to local long-time customers.
+
+![Large blue Figma billboard on a black storefront at 480 Broadway with the text “Design is everyone’s business” and colorful graphic elements.](data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFBgf/xAAiEAACAQQBBAMAAAAAAAAAAAABAgQAAwUREgYhMVEVIjL/xAAWAQEBAQAAAAAAAAAAAAAAAAAFAwT/xAAcEQABBQADAAAAAAAAAAAAAAABAAIDERIEIlH/2gAMAwEAAhEDEQA/AJGNkrl5L2s1IuOiIPorHz7pHqmHj8VAa9F0rv8AlCfI911T4uC6Fmi2uR7b46qBlcLjpN10vxUdEXag70K2RzxM4+MdvVIxPfJrVBZzAdL2snhYctpZtm7b2V5eO5opZiYhNiOTbtIdKoPYUUOTZtKsbJkUV//Z)![Large blue Figma billboard on a black storefront at 480 Broadway with the text “Design is everyone’s business” and colorful graphic elements.](https://cdn.sanity.io/images/599r6htc/regionalized/6fa0f5adc6476e86c9fc68b3df4cd86d5dceff95-2048x1153.jpg?rect=1,0,2046,1153&w=804&h=453&q=75&fit=max&auto=format)
+
+Wildpostings throughout Manhattan and Brooklyn contained a QR code that led to an invitation to attend Figma Commons for free.
+
+![A wildposting wall featuring multiple colorful Figma posters, including the logo, geometric shapes, and the phrase “Design is everyone’s business,” pasted along a city sidewalk.](data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABgABA//EACIQAAEDBAICAwAAAAAAAAAAAAECAwQABRESBhMhYSNRkf/EABYBAQEBAAAAAAAAAAAAAAAAAAECA//EAB4RAAAGAgMAAAAAAAAAAAAAAAABAgMREhMhInGh/9oADAMBAAIRAxEAPwAzbL3Hty2GY0pEt5YOULJ2T6rsxzObYYU4Ri2XCrtKFA5+sUoh8IjM7l1hpbhxhzOFD3msuPBW5rC2w34WNdg5g4/KMjGKI5T4LbQs3FXOExrsC43OZtxb75UJZdzqdR4qp1ZOFybRBEWMpHXsVfIrY5PvFVZ2bBVQ/9k=)![A wildposting wall featuring multiple colorful Figma posters, including the logo, geometric shapes, and the phrase “Design is everyone’s business,” pasted along a city sidewalk.](https://cdn.sanity.io/images/599r6htc/regionalized/0ac501e78e25baa8b30c9ef58de4467e0ef8ef78-3848x2886.jpg?w=804&h=603&q=75&fit=max&auto=format)
+
+“We wanted it to feel accessible, like the invitation was for anyone and everyone,” Jordan says.
+
+## [Designing the experience](#designing-the-experience)
+
+“What's special about our community is that they love Figma as a product, but they also love all the nitty gritty design details,” Kelley says. This was the moment to deliver on those details. Everything at Figma Commons was crafted with intent, from the bespoke signage designed by the brand team to the limited edition merch that aimed to be design-forward and fresh without feeling overly branded. Food and drink trucks featured snacks from popular New York City eateries, and [Greg Lamarche](https://www.instagram.com/gregbfb/?hl=en), a popular New York graffiti artist, painted a mural that read “make” over the course of the day.
+
+Slide 1 of 8
+
+![A woman hands a shirt to an attendee at a merch booth stocked with hats and apparel.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEJ0lEQVR4nAXB6U+TBwDA4fez+7CZmcUsiwfgKGAArZVCrSBCLaOWIpSWymEpUGgBW0pPWnpSDqEcKsphPBgCm7oZ2ZxEYZDpdDNuyZZ92NzEP+TNb88juN0R9JUa1PJ88jLTyNh/AKU0F4NKgf5MKZVnTKh0McprR6lrCmJzhHH3J/H2xwknxhkcu0pseBqXP0aDuRMh6PFQr1EhlaSz75OP+fzTvUgzD6HIz6a6REadppbT2gjFumGMLRHszih9/kE8gSih6Ajx4SmiQ5O4fFEaLnQg+B1dGCpOkbn/Mw7u+YhSyT7K8yTkH0rjtCwPnboGhTqIQhPlfGuYblcMly+Bxx8lGB4iOpgiMpjCE4jT1ulEsLa3o68sQ56TgezAXmryM9BJs5BlpnE89whKpZ78Eg+Faj/nLQFsjgF6XCEcvX76PCG8/ggudz/dPW7sdidCY4sNS0Mz5zUaqgqkGAtyqVfKqCyScfKYgoJCI9mKXqSlDqqN3TSaezBb7DQ3mWkwmWiqN6LXVVFTpcXS2IRgbvHicw4TupjE2diFw2imv7MPd0cv+rMmFMpGsgts5MmbKCvToVFr0Gq0VKjKKVHIKT1RwAnZEYrlMvRaDYLTNkKi/wZjkUWGA/MM988xNfIVV1KrhDyjaLUdHJEZKZKfpeJkCV+cKESlUFAoPUZWlgSJJJPMjHQOZ0k4qVAgOFpCxLyzTCS/ZnLoPpdiqwyHv2QyvsBkLEVniwNtZTPG6gtYDBcw64ycU6oozj1GdqaEtPR0Mg6mcViShfy4HKG2uILetgEuRZeZSD5gJLxM3HON2MUQl/pcjAYHSETGiQxM43encFpjtNdYMZSoUeYfJS8nl5IiJVVqDTU6PUJhjoz66i66bZdx9szjd8zhsY/R2dBBwNbO0swUjx+tsbK6RjJ5gy7rIB3NPlrrbGjLDVSo9LS1OvH5Enh9EYSDORqkp3qQV0Yp0sQ5p0/SVB+lpqqTHquTpbkZnv/4lM3NLebmV/D2T2KxRqk2hKg2xGjtmMAXvkls7A6J1HWEXRkGdh/tZndhgD2FPqSnQ+jOjVBvGsfdd5k71xfY/P4bnj1eY/H2EonULK19ScpMIU7VjWBqW6C77y6e8C2iY9cRPsy1sOu4lw9KkuxTJzhjHMRsmcJun2Uosci9O8s8Wlnk1sws44OjhMJxnMEIbe44pp4x2h3XCASXGRpZ4drcIkJt1wRl1quUdd/AGl/iyuwK8zOLXJ2YZ/n2Klvr6zx88JBoeAJH20XCrl5mplPcXVnm3rff8XBtgydPXrLx9BXbWz8h/PB0W7y/tiHeX3smbmy/EH97/Yv4+udt8cXmuvjr8y3xrz9+F1+8fCOmUguio7FJnOztENdXbop/vnkl/vfv3+K7nXfizvv34s7Oe/Gft2/F/wHC4qkIm9hoBQAAAABJRU5ErkJggg==)![A woman hands a shirt to an attendee at a merch booth stocked with hats and apparel.](https://cdn.sanity.io/images/599r6htc/regionalized/9973d191d58dd7b900376260538898d6b73ffd09-1228x943.png?rect=0,1,1228,942&w=666&h=511&q=75&fit=max&auto=format)
+
+“We always aim for our merch to feel intentional, accessible, thoughtfully designed, and genuinely reflective of our community,” Jordan says.
+
+## [Making room to play and create](#making-room-to-play-and-create)
+
+Playful, hands-on experiences popped up all over Figma Commons. The popular poster-making station from this year’s Config Commons returned, DJs pumped energy and good vibes into the space, and the [Figma Make](https://www.figma.com/blog/figma-make-general-availability/) interaction area served as the center of gravity for the whole event.
+
+To support this interactive area, the events and product teams generated 30 Figma Make creations in just one week, with a goal of giving everyone a chance to try some of our products. These creations ranged from functional, like a widget that recommended restaurants nearby, to fun, like a kaleidoscope explorer and a pigeon game. The night before the event the team stayed up until 3:30 am ensuring every detail of every interaction was just right.
+
+Slide 1 of 7
+
+![A large screen displays a “Friends of Figma” directory project, set up outside the NYSE.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsTAAALEwEAmpwYAAADu0lEQVR4nB3M2VJadwAH4PMQnYgrBiGKxi1oQBA1CoIoIpqoiWkwQuoCisgicCAsboBLtRpN3FDEuCTWYIy2SZOJ0+l0u+oj9LxDz13+v0578d1+VNPD37+oen4jEvUKKRGpyeA3JvLTZYpcfbwke7vb5PT1EblIvSYrS7NkNjZJvp2bIksLM2Q/sU3Ovj8mifgG2Vpf/bK18eyfpYXZv6malmekXr+DWs0Eblc1wdj7CEfJOFInB9h4sYr9RBznb17h+GAXezvriG+uYX1tGfGtdbxMJpDY3cb681UyG4uwXq+HocqkBlKrNEGj7UVdnQod+jbQbidmJoOYCAewuDCPvZ1tHL3cQyK+hdWVZczFYohFIpiLzWEmOotgeIJ4PDTrsDkZSlBxn1TV6tHS3IbWFj3udXRhsH8ILsc4/PRTTE9EEJmKITY5i+nQDAJ0CB6XB75xGkF6Ek5XACNjbuJ2+dig089Qpbd05N7dftitNEJ0BNGJRawsbGJzbR+760d48d0uwt4ofNYAntpCoB0hOMY88Dq8mPROweMIwjZGkwA9xc77ZhhKLW0k0/55HCff4fTwPd4cfcD5yWd8ePsrPl38gZPkj4j4FuEf8iE0GgJtn4J9NAi31YOwwwfaHoBjlCbB8TC74I0ylF7ZStYW4vjh7Becn14hdfIJ705/xsfLP3H1/i+kjj4jFlyGZ8AF2uKBe2wSTnsU47YgfDYvfA4/PFYX8VtcbNQWZqgGRSuZCC4hGT9Dcuc/KRwk3uJw7wKHiUtsrL4CPR7BkHEEw6YRjAy6MWIOwjLghaXfDnO/FcMmMxl7bGG9JidDCcvERKvtRp/BjIEndjwxWmHstaCv1wyjwYI+wyjudw9DpzeiWfsQuravodP2QN3YBqVCiwaFFgplO1EqOllNw12G4vGFhJcrQFFBCWRV9SgrlSCPXwi+oBBFheWormqGptmMGoURpWItpHU6SOUqFAhLwcsTIi+/HDnCasLJE7OZ3JsMJSouJbzsHAhyeRCLJBAWlIDDyca1tAzcyOWjUaZBh24UcnkP8m+IUC6SQyxVgHu9AF9dy0RaOg9pWfkkLYPPpqdzGUoplRCFpAL14krckVWjRlYDuawGleW30FBZgccaHbo0D1BRegfcTD74/CIUFd9Gdk4eOJxMXM/hoazwJqmVyVmVQs1Q6hoZeaRTw6DToL1JhQedXbD0D8DY3QlDUyOMKgWaqyQQ8ovAyRAgPasAWdmC/zNuDhei4hK0q5VkyGRircM25l9RQT6Nxa/i8gAAAABJRU5ErkJggg==)![A large screen displays a “Friends of Figma” directory project, set up outside the NYSE.](https://cdn.sanity.io/images/599r6htc/regionalized/85137724cfea092ea8ae569b9563fe484d5960f7-2193x1463.png?rect=0,1,2193,1462&w=666&h=444&q=75&fit=max&auto=format)
+
+Members of the Figma community added a “Friends of Figma directory,” plus several other Figma Make creations.
+
+As an article in [Business Insider](https://www.businessinsider.com/figma-ipo-party-wall-street-photos-2025-7) described it, Figma's celebration had “more of a block-party swagger than the feel of a stuffy bell-ringing ceremony.” In the end, around 4,500 people came through Figma Commons, collecting about 15,000 pieces of swag and 300 items from local food vendors to celebrate a big moment for the entire design community.
+
+“Ultimately, we hoped to carve out a space for actual connection, both with the brand and with others,” Jordan says. “Bringing people together to have these cool experiences humanizes what we do in a way that I think is really beautiful."

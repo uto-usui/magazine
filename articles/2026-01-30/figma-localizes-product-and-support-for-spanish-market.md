@@ -1,0 +1,33 @@
+---
+title: "Figma localizes product and support for Spanish market"
+source: "https://www.figma.com/blog/figma-spanish-localization/"
+publishedDate: "2025-03-27"
+category: "design"
+feedName: "Figma Blog"
+---
+
+Figma is localizing for the Spanish market. This includes full product translation, culturally adapted user interfaces, and dedicated support for Spanish language users. Figma plans to expand product localization to additional languages throughout the year, as it continues to invest in its global community.
+
+“As we expand our international footprint, we're excited to bring a truly localized Figma experience to Spain,” says Yuhki Yamashita, Chief Product Officer at Figma. “Our commitment goes beyond translation—we truly are looking to deeply understand and address the unique design and development needs of Spanish businesses and product teams.”
+
+Figma has already established a strong presence in Spain, with many of the country’s leading companies—such as [Amadeus](https://www.figma.com/customers/figma-helps-amadeus-design-10-times-faster/), Banco Sabadell, Cabify, [SEAT](https://www.figma.com/customers/driving-adoption-of-seat-cupra-design-system/), [Repsol](https://www.figma.com/blog/how-repsol-rethinks-the-way-the-world-interacts-with-energy/), Telefonica, and more—using its platform to go from idea to product, all in one place. Today, nearly half of Spain’s IBEX 35 companies use Figma. In 2024, there were more than 1.5 million Figma files created in Spain. On average, there are almost 34,000 Figma files edited every day across the country.
+
+Telefonica, one of the world’s largest telephone operators and mobile network providers, expressed enthusiasm about the localization. “We’re already power users of Figma,” says Silvia López Serra, Head of Core Product & Design at Telefonica. “It’s a core part of our design and development infrastructure. Its dedicated approach to the Spanish market is welcome news: It will significantly enhance our design and collaboration workflows, helping us to work together more effectively.”
+
+The Barcelona chapter of Friends of Figma (FoF)—an inclusive creator community run by Figma users—boasts more than 2,000 active members, making it Figma's largest community chapter. Other chapters throughout Spain are continuing to grow.
+
+Eighty-five percent of Figma’s monthly active users are located outside the United States, and approximately 50% of its revenue comes from non-U.S. markets. Nearly two-thirds of weekly active users identify beyond traditional design roles, with one-third of users identifying as developers. Figma’s localization shows its dedication to supporting the diverse needs of its users—no matter their role or where they are in the world.
+
+Figma has been a global company from day one. Its localization efforts are now bringing it even closer to its community in non-English speaking countries. Spain joins Japan in having a fully localized product, and sets the stage for additional languages to follow this year.
+
+José Sánchez-Blanco, Principal Product Designer at Cabify, one of Spain’s most relevant scaleups, says, “Figma has fundamentally transformed how we share ideas and work together at Cabify. Having the platform available in Spanish makes it even more accessible to our team, allowing us to communicate and build things at an even faster pace.”
+
+The localization coincides with Figma’s ongoing expansion of AI capabilities and new products, designed to support the end-to-end product development process—from idea to reality. In 2021, Figma launched [FigJam](https://www.figma.com/figjam/), an online whiteboarding tool for teams to meet, brainstorm, and get work done. In 2023, the company launched [Dev Mode](https://www.figma.com/dev-mode/) to help teams translate designs into coded products. In 2024, it also launched [Figma Slides](https://www.figma.com/slides/), a tool that uses Figma’s powerful design and collaboration capabilities to help teams craft engaging presentations.
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAADJklEQVR4nC3D7VPTBQDA8d/foCdkvPBsep3nEQ+RCOEdZl7slFGdkuTuFDcWDwfBhWNWoAdLDs0QNxZoocgoaAxOJjIeNvagjB+wDZzxMB4tBjhjKtf7b2/63H0E48NvsY7WMyLqcXj0PB434B5rxDl6C+eoDru7gbudNZRqyzinKeFC1TfkVVf8X4OqugJVjQbF5XLOlKoQRsR7LKyMsTTjZdppx2d7hL27k/sGHa26m5gNehquXuF0aS5Jqk859FUmHxecQJp/gqOKTFLPnSRZkUWSUkZsznGE8elewuE1XgQ3mbI8wd1uosvQxOWLlagL1dQWf8fXijxSc08SLU9jrzyJLGUcyrx4Mj5PJP5YAu9mHibmzBF2yA4hTAQsvAyH2JzfQOwZpq/lNkbdNaovllOuKqJSVUz++S9JPp/Bri9SOCBPoeySlOa6HGo0cvKU2Rw7K2XP6XR2SD9AsD82sxhcYH5yGVvPAObf7nGn/gaVhUWoc5XUFpZxqUhFhlLGgew00nMzqNNrGB5swWHrwNT9CyXaYpJyPkLySSKC0WjGPjiFs38Wi+kJXR1DtDX3cEvbjE7bRGt9Oz//qKeqphR11QWu1pXQbb6Jb8zErN+CV+yi3XSd72vzyS/NRvi9zYl7JIhvPIRPXMM/EcI/HsLreY7Xs8LE6BIj/S5sD9txD7Yx3HsHR08jM/2NBAcMTFoN+FwNiI5aOu5WIAz0+ZmfCRH6a4uNvyO8fB7h1eorIqE3bIZes7q8wbR3AtFtZdjazU/XtKhVcgwFMm4XZKItktHZlInDLOXGlaMI9sGnBANh1he32VqJsP10jX89q2zPhtlYesPC3AsmfSIuVx+dHa3kKRUcTogn/aCEVMluEvbvQi7biVq5k6zjUQhWi5fA6DrLk2E2ngXZEsd47Zzmn6l1lgIR/JNruDxuHJ5eOh7cR6FSkBCfgGTvO7wVFU3M7igO7o8m5f09pKbFIfzRPoxoe0bAHSDgesCfjl9Z9Awx559DnJhjyOmlZ7AX40ALPxivIzt7in2SfURHRRHzdgzvxcaSGBfHhynJfJZziv8APdxRuLI90/wAAAAASUVORK5CYII=)![](https://cdn.sanity.io/images/599r6htc/regionalized/d98beba00d9e3a5d279d1c566bd344426d25bac0-3840x2160.png?rect=0,1,3840,2159&w=804&h=452&q=75&fit=max&auto=format)
+
+Lucie Bordelais, Vice President of EMEA at Figma, says, “By making Figma’s products available in Spanish, we're breaking down language barriers and helping more teams bring their next big idea to life. I can’t wait to see what our Spanish community builds next.”
+
+Millions of people all over the globe use Figma every single week to design, build, and ship products. Figma serves companies of all sizes, from startups to large global enterprises, including Airbnb, Google, Puma, [SAP](https://www.figma.com/customers/how-sap-uses-figma-for-collaboration/), [Volkswagen](https://www.figma.com/customers/how-volkswagen-group-services-used-figma-and-figjam/), and more.
+
+Figma will be available in Spanish through a staged rollout beginning March 27, with completion expected by April 17. Figma will also be hosting its annual user conference Config in [San Francisco](https://config.figma.com/san-francisco/) (May 6-8) and [London](https://config.figma.com/london/) (May 14), where it will launch new products and features to improve the product development process.

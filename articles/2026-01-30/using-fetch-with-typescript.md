@@ -1,0 +1,384 @@
+---
+title: "Using fetch with TypeScript"
+source: "https://kentcdodds.com/blog/using-fetch-with-type-script"
+publishedDate: "2021-01-02"
+category: "frontend"
+feedName: "Kent C. Dodds"
+---
+
+When migrating some code to TypeScript, I ran into a few little hurdles I want to share with you.
+
+## [The use case:](#the-use-case)
+
+In [EpicReact.dev](https://epicreact.dev/) workshops, when I'm teaching how to make HTTP requests, I use the GraphQL Pokemon API. Here's how we make that request:
+
+```
+const formatDate = (date) =>
+	`${date.getHours()}:${String(date.getMinutes()).padStart(2, '0')} ${String(
+		date.getSeconds(),
+	).padStart(2, '0')}.${String(date.getMilliseconds()).padStart(3, '0')}`
+
+async function fetchPokemon(name) {
+	const pokemonQuery = `
+    query PokemonInfo($name: String) {
+      pokemon(name: $name) {
+        id
+        number
+        name
+        image
+        attacks {
+          special {
+            name
+            type
+            damage
+          }
+        }
+      }
+    }
+  `
+
+	const response = await window.fetch('https://graphql-pokemon2.vercel.app/', {
+		// learn more about this API here: https://graphql-pokemon2.vercel.app/
+		method: 'POST',
+		headers: {
+			'content-type': 'application/json;charset=UTF-8',
+		},
+		body: JSON.stringify({
+			query: pokemonQuery,
+			variables: { name: name.toLowerCase() },
+		}),
+	})
+
+	const { data, errors } = await response.json()
+	if (response.ok) {
+		const pokemon = data?.pokemon
+		if (pokemon) {
+			// add fetchedAt helper (used in the UI to help differentiate requests)
+			pokemon.fetchedAt = formatDate(new Date())
+			return pokemon
+		} else {
+			return Promise.reject(new Error(`No pokemon with the name "${name}"`))
+		}
+	} else {
+		// handle the graphql errors
+		const error = new Error(
+			errors?.map((e) => e.message).join('\n') ?? 'unknown',
+		)
+		return Promise.reject(error)
+	}
+}
+```
+
+Here's an example usage/output:
+
+```
+fetchPokemon('pikachu').then((data) => console.log(data))
+```
+
+this logs:
+
+```
+{
+	"id": "UG9rZW1vbjowMjU=",
+	"number": "025",
+	"name": "Pikachu",
+	"image": "https://img.pokemondb.net/artwork/pikachu.jpg",
+	"attacks": {
+		"special": [
+			{
+				"name": "Discharge",
+				"type": "Electric",
+				"damage": 35
+			},
+			{
+				"name": "Thunder",
+				"type": "Electric",
+				"damage": 100
+			},
+			{
+				"name": "Thunderbolt",
+				"type": "Electric",
+				"damage": 55
+			}
+		]
+	},
+	"fetchedAt": "16:18 39.159"
+}
+```
+
+And for the error case:
+
+```
+fetchPokemon('not-a-pokemon').catch((error) => console.error(error))
+// Logs: No pokemon with the name "not-a-pokemon"
+```
+
+And if we make a GraphQL error (for example, typo `image` as `imag`), then we get:
+
+```
+{
+	"message": "Cannot query field \"imag\" on type \"Pokemon\". Did you mean \"image\"?"
+}
+```
+
+## [Typing fetch](#typing-fetch)
+
+Alright, now that we know what `fetchPokemon` is supposed to do, let's start adding types.
+
+Here's how I migrate code to TypeScript:
+
+1.  Update the filename to `.ts` (or `.tsx` if the project uses React) to enable TypeScript in the file
+2.  Update all the code that has little red squiggles in my editor until they go away. Normally, I start with the inputs of the exported functions.
+
+In this case, once we enable TypeScript on this file, we get three of these:
+
+```
+Parameter 'such-and-such' implicitly has an 'any' type. ts(7006)
+```
+
+And that's it. One for each function. So from the start it seems like this is going to be a cinch right? lol.
+
+So we fix all of those:
+
+```
+const formatDate = (date: Date) => {
+	// ...
+}
+
+async function fetchPokemon(name: string) {
+	// ...
+	if (response.ok) {
+		// ...
+	} else {
+		// NOTE: Having to explicitly type the argument to `.map` means that
+		// the array you're maping over isn't typed properly! We'll fix this later...
+		const error = new Error(
+			errors?.map((e: { message: string }) => e.message).join('\n') ??
+				'unknown',
+		)
+		// ...
+	}
+}
+```
+
+And now the errors are all gone!
+
+## [Using the typed `fetchPokemon`](#using-the-typed-fetchpokemon)
+
+Sweet, so let's use this thing:
+
+```
+async function pikachuIChooseYou() {
+	const pikachu = await fetchPokemon('pikachu')
+	console.log(pikachu.attacks.special.name)
+}
+```
+
+We run that and then... uh oh... Did you catch that? We've got ourselves a type error 😱 `special` is an array! So that should be `pikachu.attacks.special[0].name`. The return value for `fetchPokemon` is `Promise<any>`. Looks like we're not quite done after all. So, let's type the expected `PokemonData` return value:
+
+```
+type PokemonData = {
+	id: string
+	number: string
+	name: string
+	image: string
+	fetchedAt: string
+	attacks: {
+		special: Array<{
+			name: string
+			type: string
+			damage: number
+		}>
+	}
+}
+```
+
+Cool, so with that, now we can be more explicit about our return value:
+
+```
+async function fetchPokemon(name: string): Promise<PokemonData> {
+	// ...
+}
+```
+
+And now we'll get a type error for that usage we had earlier and we can correct it.
+
+## [Removing `any`things](#removing-anythings)
+
+Alright, let's get to that unfortunate explicit type for the `errors.map` call. As I mentioned earlier, this is an indication that our array isn't properly typed.
+
+A quick review will show that both `data` and `errors` is `any`:
+
+```
+const { data, errors } = await response.json()
+```
+
+This is because the return type for `response.json` is `Promise<any>`. When I first realized this I was annoyed, but after a second of thinking about it I realized that I don't know what else it could be! How could TypeScript know what data my `fetch` call will return? So let's help the TypeScript compiler out with a little type annotation:
+
+```
+type JSONResponse = {
+	data?: {
+		pokemon: Omit<PokemonData, 'fetchedAt'>
+	}
+	errors?: Array<{ message: string }>
+}
+const { data, errors }: JSONResponse = await response.json()
+```
+
+And now we can remove the explicit type on the `errors.map` which is great!
+
+```
+const error = new Error(errors?.map((e) => e.message).join('\n') ?? 'unknown')
+```
+
+Notice the use of `Omit` there. Because the `fetchedAt` property is in our `PokemonData`, but it's _not_ coming from the API, so saying that it is would be lying to TypeScript and future readers of the code (which we should avoid).
+
+## [Monkey-patching with TypeScript](#monkey-patching-with-typescript)
+
+With that in place, we'll now get two new errors:
+
+```
+// add fetchedAt helper (used in the UI to help differentiate requests)
+pokemon.fetchedAt = formatDate(new Date())
+return pokemon
+```
+
+Adding new properties to an object like this is often referred to as "monkey-patching."
+
+The first is for the `pokemon.fetchedAt` and it says:
+
+```
+Property 'fetchedAt' does not exist on type 'Pick<PokemonData, "number" | "id" | "name" | "image" | "attacks">'. ts(2339)
+```
+
+The second is for the `return pokemon` and that says:
+
+```
+Property 'fetchedAt' is missing in type 'Pick<PokemonData, "number" | "id" | "name" | "image" | "attacks">' but required in type 'PokemonData'. ts(2741)
+```
+
+Well for crying out loud TypeScript, the first one is complaining that `fetchedAt` shouldn't exist, and the second one is saying that it _should_! Make up your mind! 😩
+
+We could always tell TypeScript to pipe down and use a type assertion to cast `pokemon` as a full `PokemonData`. But I found an easier solution:
+
+```
+// add fetchedAt helper (used in the UI to help differentiate requests)
+return Object.assign(pokemon, { fetchedAt: formatDate(new Date()) })
+```
+
+This made both errors go away. `Object.assign` will combine object properties onto the target object (the first parameter) and return that target object. This made the compiler happy because it could detect that `pokemon` would go in without `fetchedAt` and come out with `fetchedAt`.
+
+In case you're curious, here's the type definition for `Object.assign`:
+
+```
+assign<T, U>(target: T, source: U): T & U;
+```
+
+And that's it! We've now successfully typed `fetch` for a particular request. 🎉
+
+## [Typing the rejected value of the promise](#typing-the-rejected-value-of-the-promise)
+
+One last learning here. Unfortunately, the `Promise` type generic only accepts the `resolved` value and not the `rejected` value. So I can't do:
+
+```
+async function fetchPokemon(name: string): Promise<PokemonData, Error> {}
+```
+
+Turns out this is related to another frustration of mine:
+
+```
+try {
+	throw new Error('oh no')
+} catch (error: Error) {
+	//            ^^^^^ Catch clause variable type annotation
+	//                  must be 'any' or 'unknown' if specified.
+	//                  ts(1196)
+}
+```
+
+The reason for this is because an error can happen for completely unexpected reasons. TypeScript thinks you can't possibly _know_ what triggered the error so therefore you can't know what type the error will be.
+
+This is a bit of a bummer, but it's understandable.
+
+## [Conclusion](#conclusion)
+
+Alrighty, so here's the final version:
+
+```
+const formatDate = (date: Date) =>
+	`${date.getHours()}:${String(date.getMinutes()).padStart(2, '0')} ${String(
+		date.getSeconds(),
+	).padStart(2, '0')}.${String(date.getMilliseconds()).padStart(3, '0')}`
+
+type PokemonData = {
+	id: string
+	number: string
+	name: string
+	image: string
+	fetchedAt: string
+	attacks: {
+		special: Array<{
+			name: string
+			type: string
+			damage: number
+		}>
+	}
+}
+
+async function fetchPokemon(name: string): Promise<PokemonData> {
+	const pokemonQuery = `
+    query PokemonInfo($name: String) {
+      pokemon(name: $name) {
+        id
+        number
+        name
+        image
+        attacks {
+          special {
+            name
+            type
+            damage
+          }
+        }
+      }
+    }
+  `
+
+	const response = await window.fetch('https://graphql-pokemon2.vercel.app/', {
+		// learn more about this API here: https://graphql-pokemon2.vercel.app/
+		method: 'POST',
+		headers: {
+			'content-type': 'application/json;charset=UTF-8',
+		},
+		body: JSON.stringify({
+			query: pokemonQuery,
+			variables: { name: name.toLowerCase() },
+		}),
+	})
+
+	type JSONResponse = {
+		data?: {
+			pokemon: Omit<PokemonData, 'fetchedAt'>
+		}
+		errors?: Array<{ message: string }>
+	}
+	const { data, errors }: JSONResponse = await response.json()
+	if (response.ok) {
+		const pokemon = data?.pokemon
+		if (pokemon) {
+			// add fetchedAt helper (used in the UI to help differentiate requests)
+			return Object.assign(pokemon, { fetchedAt: formatDate(new Date()) })
+		} else {
+			return Promise.reject(new Error(`No pokemon with the name "${name}"`))
+		}
+	} else {
+		// handle the graphql errors
+		const error = new Error(
+			errors?.map((e) => e.message).join('\n') ?? 'unknown',
+		)
+		return Promise.reject(error)
+	}
+}
+```
+
+I hope that's interesting and useful to you! Good luck.

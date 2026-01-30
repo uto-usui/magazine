@@ -1,0 +1,124 @@
+---
+title: "What is JSX?"
+source: "https://kentcdodds.com/blog/what-is-jsx"
+publishedDate: "2018-07-01"
+category: "frontend"
+feedName: "Kent C. Dodds"
+---
+
+The first few videos of the (free) [Beginner's Guide to ReactJS](https://kcd.im/beginner-react) are all about React elements and JSX. So here they are for you to watch along with this blog post. Enjoy!
+
+Now on to the blog post!
+
+I think a critical part of understanding how to use React effectively is understanding JavaScript and JavaScript expressions. So I'm going to show you a few examples of JSX and it's compiled version to help give you an idea of how this all works. As soon as you can compile JSX in your head, you can use the abstraction more powerfully.
+
+Here's our simplest example:
+
+Note, all examples assign to a variable `ui` just to illustrate that these are regular JavaScript expressions that you can assign to a variable.
+
+```
+ui = <div id="root">Hello world</div>
+ui = React.createElement('div', { id: 'root' }, 'Hello world')
+```
+
+As shown above, the JSX is compiled to `React.createElement`. The API to `React.createElement` is:
+
+```
+function createElement(elementType, props, ...children) {}
+```
+
+-   `elementType` can be a string or a function (class) for the type of element to be created
+-   `props` is an object for the props we want applied to the element (or `null` if we specify no props)
+-   `...children` is all the children we want applied to the element too. This is just a convenience and we could write an equivalent to above with:
+
+```
+ui = React.createElement('div', { id: 'root', children: 'Hello world' })
+```
+
+If you have more than one child then you use an array:
+
+```
+ui = (
+	<div>
+		<span>Hello</span> <span>World</span>
+	</div>
+)
+ui = React.createElement('div', {
+	children: [
+		React.createElement('span', null, 'Hello'),
+		' ',
+		React.createElement('span', null, 'World'),
+	],
+})
+
+// Note: babel uses the third argument for children:
+ui = React.createElement(
+	'div', // type
+	null, // props
+	// children are the rest:
+	React.createElement('span', null, 'Hello'),
+	' ',
+	React.createElement('span', null, 'World'),
+)
+```
+
+What you get back from a `React.createElement` call is actually a simple object:
+
+```
+// <div id="root">Hello world</div>
+{
+  type: "div",
+  key: null,
+  ref: null,
+  props: { id: "root", children: "Hello world" },
+  _owner: null,
+  _store: {}
+};
+```
+
+When you pass an object like that to `ReactDOM.render` or any other renderer, it's the renderer's job to interpret that element object and create DOM nodes or whatever else out of it. Neat right?!
+
+Here are a few more examples for you:
+
+```
+ui = <div>Hello {subject}</div>
+ui = React.createElement('div', null, 'Hello ', subject)
+
+ui = (
+	<div>
+		{greeting} {subject}
+	</div>
+)
+ui = React.createElement('div', null, greeting, ' ', subject)
+
+ui = <button onClick={() => {}}>click me</button>
+ui = React.createElement('button', { onClick: () => {} }, 'click me')
+
+ui = <div>{error ? <span>{error}</span> : <span>good to go</span>}</div>
+ui = React.createElement(
+	'div',
+	null,
+	error
+		? React.createElement('span', null, error)
+		: React.createElement('span', null, 'good to go'),
+)
+
+ui = (
+	<div>
+		{items.map((i) => (
+			<span key={i.id}>{i.content}</span>
+		))}
+	</div>
+)
+ui = React.createElement(
+	'div',
+	null,
+	items.map((i) => React.createElement('span', { key: i.id }, i.content)),
+)
+```
+
+Notice that whatever you put inside `{` and `}` is left alone. This is called an interpolation and allows you to dynamically inject variables into the values of props and children. Because of the way this works, the contents of an interpolation must be JavaScript expressions because they're essentially the right hand of an object assignment or used as an argument to a function call.
+
+### [Conclusion](#conclusion)
+
+If you'd like to play around with this some more, you can try online with Babel's online REPL. [Start here](https://babeljs.io/repl#?browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=DwEwlgbgfAEgpgGwQewAQHdkCcEmAenGgG4g&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=true&fileSize=false&timeTravel=false&sourceType=module&lineWrap=false&presets=react&prettier=true&targets=&version=7.9.0&externalPlugins=). Hopefully this helps you understand a little more about how JSX works and how you can use it more effectively. Good luck!

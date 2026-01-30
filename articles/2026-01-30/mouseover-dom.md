@@ -1,0 +1,101 @@
+---
+title: "mouseover 中に表示される DOM のデバッグ"
+source: "https://blog.jxck.io/entries/2021-08-20/how-to-debug-mouseover.html"
+publishedDate: "2021-08-20"
+category: "web-standards"
+feedName: "blog.jxck.io"
+---
+
+## [Update](#update)
+
+2024-03-30: Chrome 123 から "Emulate a focused page" が追加された。
+
+これを用いれば良いため、以降の全ての方式は古くなった。
+
+-   Apply other effects: enable automatic dark theme, emulate focus, and more
+    -   [https://developer.chrome.com/docs/devtools/rendering/apply-effects#emulate\_a\_focused\_page](https://developer.chrome.com/docs/devtools/rendering/apply-effects#emulate_a_focused_page)
+
+マウスが乗ってないと出ない UI も、そこに Tab などでフォーカスを移し、その状態で Dev Tools の `"Emulate a focused page"` を有効にすれば良い。
+
+## [Intro](#intro)
+
+先日、後輩が「_mouseover 中にしか表示されない DOM のデバッグ_」に手こずっていたのを見て、たまには小ネタもということで、いくつかのテクニックを紹介する。
+
+実際には、発生しているイベントを制御するというテクニックなので、応用すると色々使えるだろう。
+
+## [mouseover tooltip](#mouseover-tooltip)
+
+対象として、GitHub のユーザアイコンのクリックを見てみよう。
+
+以下のようにアイコンに mouseover しているときだけ、ユーザのプロフィールが出現する UI だ。
+
+この UI を表示した状態で Devtools で DOM を見たい場合、Devtools 側にマウスを移動すると UI が消えてしまい、inspect できない。
+
+JS のどの処理で変更されているかわかっていれば、そこに break point を打って止めればよいのだが、近年の bundle/minify されたコードを source map なしにデバッグすると、面倒な上にムダに時間がかかる場合もある。
+
+そして、一見この用途に使えそうな Force State 機能は、`:hover` に適用された CSS を強制的に有効にするといった用途だが、`onmouseover` で実行されている JS には使えない。
+
+この UI を、どうやって表示したまま Devtools に移るか、といったやり方はいくつかあるので、筆者がよく使う方法を紹介する。
+
+## [1\. mouseleave/mouseout を消す](#1.-mouseleavemouseout-を消す)
+
+mouseover で DOM を表示する実装は、大抵 mouseleave/mouseout などでその DOM を消している。
+
+この対になるイベントハンドラが判明しているなら、それを消してしまえば DOM を消す側の処理がなくなり DOM が残る。
+
+これが一番簡単なやり方で、大抵はこれで足りる。同じ発想は focus や mouseenter など他のハンドラでも応用できる。
+
+GitHub の場合は、アイコンの mouseleave と、表示されたプロフィールの mouseleave を消すと、落ち着いて DOM を inspect できるようになる。
+
+## [2\. Break On](#2.-break-on)
+
+Devtools の機能で、対象の DOM に以下の変更があった場合に、その部分の JS で break する機能がある。
+
+-   subtree modification
+-   attribute modification
+-   node removal
+
+よって、UI を表示した結果、属性やノードに起こる変化がわかっていれば、これを使うこともできる。
+
+ただし、属性が変わったあとに UI が表示されるような実装だと、そこまでステップ実行する必要があったり、UI が表示されるのが直接の子要素ではない場合などは 1 の方が楽だ。
+
+GitHub の場合は、ページ下部に非表示の DOM が先にあり、この属性を変えているタイプの実装なので、そこが判明していれば、以下のように inspect できる。
+
+## [3\. F8](#3.-f8)
+
+Devtools の source tab を開いた状態で F8 を押すと、そこで Script Exec を止めることができる。つまり強制的に debugger を差し込むようなイメージだ。
+
+mouseover で対象の UI を表示させてから F8 を押して、そのあとの JS を止めてしまうことで、Devtools に移ることができ、そこから step 実行を始めることもできる。
+
+GitHub の場合は、プロフィールを表示してから F8 を押してからマウスを動かせば、mouseleave の JS 発火時に break できる。
+
+同じことを、console に `setTimeout(() => {debugger}, 1000)` を貼り付けて 1 秒以内に UI を出して、debugger で JS を止めるというやり方で紹介していることもあるようだが、やっていることは同じだ。
+
+他にも、F8 押すと止まるというのは、知っていると使える場面があるかもしれない。
+
+## [Outro](#outro)
+
+知っていれば一瞬だが、知らないと無駄に時間を食うタイプのものでもあるので紹介した。
+
+Devtools は知らぬ間にどんどん新しい機能が入ってくるので、そのうちもっと良い方法が生まれるかもしれない。
+
+## [DEMO](#demo)
+
+特になし。
+
+## [Resources](#resources)
+
+-   Spec
+-   Explainer
+-   Requirements Doc
+-   Mozilla Standard Position
+-   Webkit Position
+-   TAG Design Review
+-   Intents
+-   Chrome Platform Status
+-   WPT (Web Platform Test)
+-   DEMO
+-   Blog
+-   Presentation
+-   Issues
+-   Other

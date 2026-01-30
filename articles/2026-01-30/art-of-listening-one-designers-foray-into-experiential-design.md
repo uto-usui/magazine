@@ -1,0 +1,41 @@
+---
+title: "Art of Listening: One designer's foray into experiential design"
+source: "https://www.figma.com/blog/art-of-listening-one-designers-foray-into-experiential-design/"
+publishedDate: "2018-06-28"
+category: "design"
+feedName: "Figma Blog"
+---
+
+Welcome to the continuation of our Side Project Series, a chance for us to spotlight those designers who work until the wee hours to finish their passion projects, sleep be damned. If you think you have the chops to be featured, reach out to content@figma.com. We’d love to hear from you.
+
+[Mike Godlewski](https://mikegodlewski.com/), an Interaction Designer at [IDEO](https://www.ideo.com/), paraphrased this quote over wonton soup in San Francisco’s Richmond District. Although visual design is his forte, last year he founded the music event [Art of Listening](https://artoflistening.co/).
+
+“A tenet of a good designer is listening more than speaking,” he tells us. “You’re trying to solve human problems. You have to dig deeper into the actual motivations and context.”
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAAsSAAALEgHS3X78AAADJ0lEQVQoz02T+y+bURjH+x/oeHuZaqKtil60JaYtbVyiEl3WknmpYsuyC6ZYUIwxduOHra1kXf1g6UzLzGJ1C1HDQlVMMtuSrsmwEuKu1XV+3tOaxDdvznvek+/neZ5zzvtgTk5OfD7fn4B85/Q3IHifWwOLN/D4nQBiYOZyuRYXF21zs8vLX9fWVldWfsGKx+M5Pj5eX19fXV3Z2tx0Op0LC/b5eRsMS0tfXK7fAGLA9Hlmpq21tUZd3a7Tjo4OWywDVuvExsb61tbmzMz02NgouPv73zc/bGp8UP+opVnz4vn09JTH4/bDk1ZrbY1akYPeqygzGPQdBr3Z3P3j+7efTsfAwIeenu5PU5N6/cvr1woLC5RFd27X1apHhofd7iOM2+2enLTW1dXkotkF+XlqdXVb2zOj8TXsYn5+zmR6C+G6ut48ffI4O/uqXHbl1s0b9fdrR0aGj46OMAcHB729vQqFIjUlRSwWpaenFxcX6bSanh6zwfCqpaW5DhJVV5WrVJelUlFiglwuqygvGxy0+OHd3V29Xi8UCiMiIqhUalRUlFSacbekRFVaiqJoZqYcRbMz5fIcFE2XSKKjo9lsdlZWZl/fOz+8s7PT3t7O5XIRBMHhEBKJFBcXl5aWJhaLY2JieDxubGwsj8cTCgX8eD5Ex+PxiYkJRqPx8PDwPwwBL2CxSEgIAU+gUWkQnsViRUZG0ukRFCqFSqMxmQz4CA0NxSGIUCDo7OyE/fphnU4HViwWi8fhLhKJ5DByeHg47AJgFosJGIvNhtLodHpYWBgYBHx+R0fH3t4eZnt7W6PRgCUoKCg4ODgEQQgEAimUBBWyWWwOh8PlcEQikUQiEQj4wBOJRAgExUJWP6zVaqFOyAzw6QgOCoXCYDCYDCbwcFTKPCWcU/yleDKZDCuA+GHIbjab4apSAkpKSkpOTk5NTYU7y8iQymQypVJZplI1NDQ0NTVWVVYqchVKZb7JZNrf38fAD+xwOMbHxz8GNHAmmFsslqGhIevExNzcrM1ms9vt0ALTU1OwAojX68UEWsfnDej4nLzndNZ1p53n7y0Yoav+AVRm4D1U0CTxAAAAAElFTkSuQmCC)![](https://cdn.sanity.io/images/599r6htc/regionalized/55d21ab4b5ad6e376f07373566c0b626cd651321-1600x1200.png?w=804&h=603&q=75&fit=max&auto=format)
+
+Mike Godlewski, and friends
+
+Like many successful side projects, the idea for Art of Listening crystallized naturally. Mike went to a friend’s movie club, where people quietly watched a film together and then discussed it afterwards. That format provided a simple constraint for intelligent discourse.
+
+Feeling inspired, Mike decided to apply a similar framework to his own passion: music.
+
+He felt like his life was missing a communal listening experience. He wanted to cut out distractions (digital or human), create an intentional environment of reflection and provide an opportunity to truly listen.
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAAsSAAALEgHS3X78AAACwElEQVQoz42TWU8TURSA+W8uAUN80QihVUCgrEFBJSiLxsRE9EEwJWwFlOIWaUtLF2g7gKV073Qnlc5m6XTvLJ3Cs2fahpD44sm5905uznfnrA3n/ycXF5cKq37ZAKsiigDnpcU/UuF5nmFKICzLchwrCGURBo7n4aIkCJzIV/UqBxidpmOxmNvj8fp84XAEwxKFQgFAEWZKxVwuUyzkWKbEsQzPwdscwzDZbDaBYW63x2ja3VJpNFqdFdl3OF2RSCSTydThYiFPUWQikcAxjCJJiiLi8bjP798zWzY2NuXzCyuKtW3tjtvjPT09pSjq7CxVLBbrcDabicWi8AdQFEW9Xq/ZbPn+4+fq2vrS0sqG8ovFikRjJymazuVy2aqWGKYO03QKDaC/bLYjux0CczicFgtiNO7umc02mx0NBHCcSAEKodNpOMFnyJwIC4KQTCZdbpcVQWw2G8DgcCAQCgZDfr/f50fDkUjs5AT2SDSawHA6nYZscSwrwuVyGaJ1gDid4LAfRcEqFAofHdm3VOq1T58Vq+vLitXFZQV8qzVah8uNY0SxUI0ZEgvMlkqlVmv0BoPRZNLrDZCntzPvR588k/UNdPX0tnd2t0nbJfc7ZH2Dr16/Uam1OEGKMHiv1enGxsbBdGJyevzFxMjo0+6eXglYS9sfdssGh4b7+odaWiXXbzZdu9HYJu2Qzy/F479FGOqp1mwPDAxJpA9aWttuNd9ubGq+c/eerLd/avrlh9m5hYXF2bmP8G5nl0z6oHP8+RQ4n0yeiR3G8xxEK5fLJ6emhx+NAPN4ZHRm5p1SqTQajPsIYrUikHetbmfz6zcom95ggiaDnEE7iqVK0algMHh87Dg4PDw4OHS5XNFotNYwBEHgsAiSIEUlqT9Qs3w+Dz0rwjAl4lhAp5fLsAlVqdRm5YrUbir1Kap9nv8FXF3IE84XbDgAAAAASUVORK5CYII=)![](https://cdn.sanity.io/images/599r6htc/regionalized/e807790321aab2ff00930f4c12ae016aa4709349-1600x1200.png?w=804&h=603&q=75&fit=max&auto=format)
+
+Sketch drawn by Sarah Klearman while listening to Cornelius’ “Mellow Waves” LP
+
+  
+Flash forward several months, and Mike hosts Art of Listening (AoL for short). People sit in a living room and listen to an album from start to finish with one rule: Stay quiet and pay attention. That means no talking, checking your phone for a new Tinder match, or showing up late. What you can do is doodle, write down memories surfaced by the music, or sit back with your eyes closed and let sound waves wash over you. Afterwards, the group discusses their thoughts and people show off whatever they’ve sketched.
+
+It may sound like a simple setup, but a ton of effort goes on behind the scenes. First, Mike has to find an artist who puts a lot of thought into the rhythm and narrative arc of their albums. Then Mike has to pour through interviews, b-sides, podcasts, Instagram posts, whatever he can get his hands on, and pull the most compelling content. Photos and juicy quotes rotate on a monitor while the participants listen, giving additional context to the album far above a distracted stream via Spotify
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAAsSAAALEgHS3X78AAACKElEQVQoz31T61PaQBD3//9cxFHU8n4lhIeKQAWKgLVOR6qC42AClEIiFAJ3l7sk9EM3l6AzTsed32X2Lvvb1+3tGB8J+XBr7PAzQgjmIJ7u2AGw4SmuAQJgDth6ZEwwxvwUo4W+0DRV1aaqNlHVicaV35NfU3Ws6zOMdYSWAIxX4M8j82h4Pp93H7tX11fNdrPeqNe/1lrt5mWrUaoUv1yUeo93i6WG8dIBcslAwshNW1aUYqmUFsVMVhIlKSNJ56Xzwkk+FA7693zZXEZR+oSsDLLCeA0VOmQEgp1Pt9uLJ5OfQ+GUkJZyuWwud3p2JmbEYCjo8/sSyUS//0QpYtQp3nDJvGBYuNvrhaOxT7v+/cAhuIhEY9F4/Oj4+CAQCEfC5Up5NBqazLAsgxrbhrntBfRlGQLu7R/swjo8CkWiKUFIpdORWCwtCNVa9fm5Dy2yLEqpRya87w5/NB7XGo2UIEJYYIpStlgqlysVMZOJJ5LVWk1RZEiYMe8WXTJyNoxOX7TLVhvIsUQqf3La/nZ9d/9w2+lcVKv5QuH7zc1s9kIpgbCcQty0HTI12RojeTD4cdv5ef8wGA7niz9rhPSVPplOZEVW1SmYmaaxJXs1I2g5NalpmZRRZwgZtWzL/rvZcNi2bVmmbZmbjWnZlDH8mrbBJ25tQD6MMpOBCxNsLU9AsT2AytzIb2TijSef7Vf5/zuBc8wbTLy0vT/vZPuGyHuDN2f/AA6BHdhVw9JNAAAAAElFTkSuQmCC)![](https://cdn.sanity.io/images/599r6htc/regionalized/10acf0dc322774d45fd359eb17afd3fff9fc5858-1600x1200.png?w=804&h=603&q=75&fit=max&auto=format)
+
+  
+So, how can this possibly relate to interface design? For Mike, this auditory, artistic side project refills his creative coffers, giving him energy for his visual, systematic work as an interface designer. He explains, “There’s an attraction for designers to the analogue or offline world. Many shoot film cameras or learn how to do letterpress and binding.” Designers crave a reprieve from screens, a break from being swallowed head-over-heels down the Internet rabbit hole.
+
+“If you had asked me a year ago whether I thought I’d ever plan events, I would have said, ‘hell no,’” he admits. But that’s the thing about creative pursuits — sometimes they find you when you least expect them.
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAAsSAAALEgHS3X78AAACJklEQVQoz4WT2XMSQRDG+f+fNYlyRAkaMAmVRCsVqZCDGA8oCGWpVFIiC4uBnd3Zufbiza93SYK+2HxTO7PMb7tnujsX/mNBQPq/RRg5DBMESmuZSinowSSN1O6fmAmppTGGYHgBw4X0SIL7wuO+xz2IuYwxx/XcbIkJ8xjzHJczKUUQBDkMgqWCPF/MHGbZtmVPJlP712hkTcbMdbnw/VRccI9j7QjpP8JCG1/p6e9Zr/+1eXF5dvnh6vOX1tXHbr8/sqyZ43gcMflCCSGFL+FI4m5yYRCmBzYI+/vgZv/tUbFceVHZrlTfbFVr9YPD04tWu9v7cXNjTSaO6wJT8KXV0rPWBs7nzG13r1/VdtfyxbV8aT1fhIovy5Vqbae+3zxvfRsM5syBJ0Pb72GshZLT2exTuwN4vbD59FnhycZzwKXyVmW7tndwiFOMxmNsCyNyZ4xGQilVFLZSLue3P4cn563XO3v5zfJGoQS3td36+5Nmp9sb2zYCDuMwSrLkIlXBI6yM8YXAVXd6143Ts3fHx0eNBmK5HQ7nzhwbojiKE4yIKimDKc9KCRSHMZjrwDDuTe/ucD1DazRnDO9RTnEcJUkMOCYYnjXBeKa3L4AFeB9T5dHn4wjJCIlJkkWyWMQJRHBILpawMYAhZTTxYVrYUQSePhHRlFY4LRQtq9kQHGapSs0gQLKAfg+2Mk2X+DO9arNsjL+7KhP1VtZgK2Tabyst9wcQjywFiaL/9gAAAABJRU5ErkJggg==)![](https://cdn.sanity.io/images/599r6htc/regionalized/7afb807e88437e83a1d4377693fcd15140c788bd-1600x1200.png?w=804&h=603&q=75&fit=max&auto=format)

@@ -1,0 +1,127 @@
+---
+title: "Config 2024 in review"
+source: "https://www.figma.com/blog/config-2024-recap/"
+publishedDate: "2024-06-26"
+category: "design"
+feedName: "Figma Blog"
+---
+
+###### Sign up for the beta
+
+Figma AI and UI3 are currently in limited beta and will be rolling out gradually. You can join the beta directly from Figma: Navigate to the bottom of the screen, click on the **"?"** and select **Join UI3 + AI waitlist**. [Check out our Help Center](https://help.figma.com/hc/en-us/articles/4406787442711-What-Figma-features-are-in-beta) for more info.
+
+The last few decades of software have been marked by exponential growth. This trend is far from over. In a world where AI will be able to output fully-functioning interfaces from a simple prompt, design is more important than ever. In fact, design is what will differentiate great products from the obvious solutions, and Figma’s job is to help you explore the option space of possibilities. Today we’re launching many features to support that end-to-end process and unblock creativity so teams can bring their best ideas to life.
+
+## [Figma AI: Think bigger and build faster](#figma-ai-think-bigger-and-build-faster)
+
+With AI, going from idea to product is more tangible than ever. At Figma, we have a unique perspective (and challenge!) on the role of AI in design because our design team builds for other designers. That’s why it’s especially important for us to look beyond the hype and anchor our work in real user needs.
+
+### [Visual Search: Find what you're looking for](#visual-search-find-what-you-re-looking-for)
+
+We know that working on a new project doesn’t always mean starting from scratch—and it can be tough to locate a production screenshot or existing component. We’re introducing Visual Search to help you more easily find what you’re looking for with a single reference. Search for anything from icons to entire design files with a screenshot, a selected frame, or even a simple sketch with the pencil tool, and Figma will pull in similar designs from team files you have access to. And with improved Asset Search, Figma now uses AI to understand the context behind your search queries. You can easily discover assets—even if your search terms don’t match their names.
+
+### [Efficiency updates: Stay in the flow](#efficiency-updates-stay-in-the-flow)
+
+Designers spend a lot of time on tedious tasks that take away from the work they want to be doing. We’re launching a bundle of AI features to automate these tasks and help you work more efficiently. With these new capabilities, you can generate realistic images and copy, riff on and rewrite text, automatically wire up prototypes, and rename layers in a click.
+
+### [Make Designs: A better way to get started](#make-designs-a-better-way-to-get-started)
+
+Faced with a blank canvas and don’t know where to start? Make Designs, which lives in the new Actions panel, allows you to quickly generate UI layouts and component options from text prompts. Just describe what you need, and Figma will provide a first draft to help you explore various design directions and kickstart your process.
+
+Slide 1 of 5
+
+![Figma UI showing how searching for a screenshot in Visual Search pulls up results like the design for a triple chocolate cake or croissant..](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEt0lEQVQ4jaWU2W9UVRzH+0f4xotPPilqiAF8ABTDVioGaMLShgraKoiCAlKBsmglNIECKUppGdoyYAEtUKClhbKW7hQshUIXO53Ofu8sd5m7zNyZj5kZNeirD598k5OcT76/k3NOVvLrGSS3zyFZspDknuz/TVZaVvkVVlMlZmsNxvWTGC2n0FrrkK6fJvIfpBY7aqsds81O4pad5O1/k5Vqlmg+Qcw7TlT0I3snkf0eQoKIxx9m0hfG9RKpNVGMEJUkEqpEMhohqUYyGZXIStW0btmJyyGMWBxd19F0AylqIMgGgmIQ0uJIZhLZBNlMopgJ9JhFzLKwEsk0cStBLG79JWyrwwwLGIaBaejomkY4FCIQ8CMIAqqiYFkWyWSChGVhGgZRVU1jGgYx00zvURQ5I4zfrEMPi2hGDMOMoRsxJEUlFJYIRySimo5lJUgkM23MWBwtPYmOGYsRj8cxU1JdIyuxOxuttZaIMElE9SApDmR1IkPUhaRFUHQj3VIJCygh/z/I6QygqRLxmE7CUjNCpcWG6O7EM2nHOVKOc/QwHscRBG8NEekRwUgQ39gA7u4G3O123PfrcN+rxZXKznOIY70YigtT6ifLSgmvV+MdaeDhrQ20nF7AVdt8muvm0ddagM95GVF04eq7xvi5LThs+TiOLWNofzb9pTkMVn6Cu+scaqAfefynv4VV/NF/jos/f8z+whlsy53K9hVvULU7m6e9ZxACE0x2NzBesw7HofcZ3fUW7QWvciZnCg0bZzHcWo3qe0Dk+a6UcDFycxXD3ReoL9/Ed3k5rJ03i4IPZrK3KIfOtjr8/oxwtDKfpyXT6fr8NS4um8LB2a9Qmf8OT65Wovo6kUb2ZoSZhue5Ur2RI1s/oqRoEVvXvMeh4qU86jiLEHDi7GzgaUU+Hdve5caGaTQWvU39ujdp2rGQ0Zu29MjSROXLZ9jI47vfcvfX1bSdz6Olfi1drbvwONsQgx6cPc08rdlC98F82stW0X5gBR1luTw6Xsjkg3oUYZig515GKF8/heDux+O6htthx++qR/A2EhQeEJYdCOEQ7hePGb1znmfNNgabTjJ4rYrBq8cZvlGLb6gTJexG8A1nro3cZMM76cAjevGJLkTJj6SFkXUF2TCIqBoBnxe3YwTPxCiC24HodRL0OgkH3CgRESkiEvBPpoSLkK+cwDs2hscr4veJBEUJWdaIRk0MPY4W1QkKQfxeP0EhhCKpaGrqiRrEzDiGbhIMBvH5vBmh1FDJSN8APb0DtHf10t7VR3vPQ3r6Bhh75iToDOF94WK443eGbnczdKc7nS/u9jLR9xzRISCFIkiSj6zk7mwEewWNv1yi+Gg5nx7YSUFpMSv3baHwxz3U1Fzi+f0xnlzp4XLJIWqLNmFbu4ETeYVU56/n8s6jDN0YQA740eS+jNBjO0z1sSpWfvMFC9blMnf1EqYvn8+c/Fx+2H+M/uZBeurasBVspmzOYr6fPpedr8+kZOosqlZspv9CJxHPBLLQmPpgs3HbyjlTUcPOL3dQvLyQrfPzWD97KZ99uIbD+47zsPkJD8/eo35DKRU5RZTNXsW+aUsonZ6LLb+E/gtdhFzjhFy/8Sch3hSEXFsYZgAAAABJRU5ErkJggg==)![Figma UI showing how searching for a screenshot in Visual Search pulls up results like the design for a triple chocolate cake or croissant..](https://cdn.sanity.io/images/599r6htc/regionalized/0acd229b0ef32fb463d214bb6474450115620512-768x768.png?w=666&h=666&q=75&fit=max&auto=format)
+
+Find similar or exact designs across your organization with a frame, image, screenshot, or sketch.
+
+To build these features, we used out-of-the-box large language models (LLMs). But to make them work better for you, we know that our models need to be tuned to the specific ways your teams work in Figma. **[Learn more about our approach to training](https://www.figma.com/ai/our-approach/).**
+
+Our AI features will be free for all users during the beta period, which runs through 2024. As we learn how these tools are used and their underlying costs for Figma, we may need to introduce usage limits for the beta. When Figma AI becomes generally available, we’ll provide clear guidance on pricing. Our goal is to help you work more efficiently while also improving these features in a scalable way. **[Learn more here](https://help.figma.com/hc/en-us/articles/24039793359767).**
+
+[![An abstracted grid with orange, yellow, and blue abstracted flowers.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAADDUlEQVQokRXOXU9aBwCAYZbsctndsrv9ht51l0uWJeuamGxNuottjUvMsqWN1pluc3HWWam6mUZFBMWPAxYQEEQPyNcBgfKhjCoHEbEKrVZEi7Q2M0G3Ze+y5xc8iuX9bfzSAtsZP69qMrsZLxtxJ0fVLKd/lXh5XmK9uovwKMiwXsNv4+Msuu2Uj2Ve/7NH5STLRnyB/GMPJ2fbKEweNxZhgqhDTzY2T2rJSNJpIBtzkk8vsb66xHzQQ7/RRu+oFs3wEK7xAeR5NTnfNMuikTlBR8AqkE2KKNpmJQa0AoE5PbkVF/m0j/wfPvJpD2spD46Ql44ZJze1Nu6bF7DptUSVTeTaGwh1NvFz7zBN/Xp0BiOZpAvFZH4HvUsknfJRfb3Fy4sSr+pFDs+KBMpP6U/K9JkeohLU9Ih+Bs0WfF1fE+74AuWgig90UT7RShgkicppAYWl9BSdy00qLXFa3+VPnnP27x57FwdoSxVuuxPYJu8S192kRy/wzYiFno5Obg0JfCju0hDYo9MhEV6RqNWLKPq8MXqnLEhuK4WNENmtJPJmnJX1MJpghGa9yOiDLpwDLSg1Y9wZFGjpGqZh1EOjK8OYFMFlmyHpNvFkM4TC7hURXU6Cficz4iLKSSvdagMTQw+YGLjPd0NGWsdmmZ6ZxuYwY9NPMqEeRWOx45TcJPxWIg81xCzjZKN2FM+PZXLlPNatAu1ijG+VWr7/6R7m7mYkZRPtIzo+n1+jO/UEX0EmFV0g5TVR3IlzXNtgv5RgNWAlHFwgXcqgOPy7jOnwmDuxAr2Teow/NCG2XmNX8xk146cE1S20TDm4Ejrk160XBFPLRMKLrJYLyOdVUpUdZiUfd5fitG3WUBTPy9wrvOAr+wrT/b+QbP6Y5O2POBq/St16lYyqkR/VApdd+7TIVezxCD12LzdiB3yZq3Mjccg1Q5RLU2u8463/PzxA9eyEK75ntI0ImNsaMbQ2Iiuvc/R7A1pVH+/P5rj86Ax1sYKYCHN9OsTbczXe9MNbjlPeG17l3VGZNxYv+A+mDp5F2h11pAAAAABJRU5ErkJggg==)![An abstracted grid with orange, yellow, and blue abstracted flowers.](https://cdn.sanity.io/images/599r6htc/regionalized/d1ef1bc0c4df3219a0ee3d61e3b2160ffbd0f754-3840x2160.png?w=3840&h=2160&q=75&fit=max&auto=format)](https://www.figma.com/blog/introducing-figma-ai/)
+
+[Learn more](https://www.figma.com/blog/introducing-figma-ai/) about our vision for AI and our new suite of AI features.
+
+## [UI3: Figma, redesigned](#ui3-figma-redesigned)
+
+Today, we’re rolling out UI3, the third redesign of the Figma interface since we launched in closed beta over a decade ago. With a more immersive canvas, component-centered UI, and a new icon set, UI3 is informed by how you work today and motivated by feedback from the community. Ever since launching Figma, we’ve layered on functionality to improve the user experience and make Figma more powerful. After years of adding more features and updates incrementally, we wanted to create more space in Figma, while also respecting the muscle memory and workflow patterns that you’ve cultivated over the years.
+
+Beyond solving immediate pain points, we’re paving the way for where Figma aims to go. With consistent patterns, systems, and a structure that opens up Figma to accommodate new surfaces across the Figma platform, this redesign reflects that shift.
+
+![A Figma file with a mockup set on a red, pink, and green background.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAACnUlEQVQokV3TX0hTARTH8V4LCno3FYoIfAoqoh4Tit6ih6I0iiDXoqIyipToocCoh6ykhKlZD0lmKmnOP5mb3m3c/XP/d3d399c/W4WS272up2+4VcsefhzOw/lwHs7ZsKluLzsvH6XhxV2eDb2mY3SAN4OTDL8TcBmdSIJE2CITEiQkaxTJEsE/6SY45UUR40Qdc/g+x3C8DWDv9LBh4+k97Ll1gpcjPYSSUWLzaYKRGCGfjByI4HXOMj1pwjQxiVt0oYQV4mGFRCROJp0lu7BMZDaDqy+M+Ac80FTHe8soOTXPqqaRzWRIp9MoioJg/kLvGwM93e2YvowRjcqkUinm5uZYWloil1NZkL/jHZT+AwUjK/kcqqqyuLhYHJJlGfPIR/oe3aP3cTNm4wei0cg6UM2rZKPf8A9K2Lu8JfBgUx19wii5fA5N08hkMsWhtW1s458wtj5g5Ok9bBP9yBGJRCK5DvyqfMc3EMbaLv4B6/lgGSevqqxqq3/BWEzBLVqYGurFNPwOh82Mzx8kGJZJJlPrQMdbkY/N3WWw7x9wcQ1MlsBZtwOTaYzp6XGcLjs+f4hgqAQuLy+hqRrzgRTGllc8OXLqN9hcT79tAq2wys9CgWw2SyqdJp5MEgj5cTisOJ02QqEA8USiiM3PL/BjZYVCoUBEEDGc1XF7x67y2bww9uBNSPjiMnZPENHqwT4j4pqZwW2eKsZrEfBbrXiFUo15PCR9PqY6O3l4qJbrFRUlsEJXy+H7DZxra+L88/tcbemg5WY7bbpGDDodXXo9r/R6ui5epFOnw3DhAoaGBrovXaJbr6f12DHu1NSUwbVv2Vy/ny1n9rH1TC01x29wcv8Vrm3fTWPVNhqrq8upqirnd3+jsrKIrYG/AJBomeaHzCdVAAAAAElFTkSuQmCC)![A Figma file with a mockup set on a red, pink, and green background.](https://cdn.sanity.io/images/599r6htc/regionalized/869eb5516e6765b1bf0f20ee0271812345d2008f-3840x2160.png?w=1632&h=918&q=75&fit=max&auto=format)
+
+![Three rows of five icons each, including icons like a smiley face, a star, and a lock.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAABjElEQVQ4jbWU646CQAyFff83NBoVFe8DXlBUhqn5utvJ4Jr9hSQ1LS1nOue0DkII0pfxDKTHJ4TwA9i2rTyfT3k8HuK9VyNO/aZpYt39ftc4zQXrEIeC7XYreZ7L6XRSW6/Xcjwe5Xw+y3K5lM1mI7fbTQ6Hg8ZWl+e5OOcUNAJer1eZzWYyGo30A2w6nSoI/nA41BhwDqK2LEvNjcdjWa1W2mkEJKCAk+gCIwaAw3hPt1BSVZV2xq2oc85pHdePogAKP5gplsafcp/qYoe9qxxCiIraqaaq+Wmcdui973bID8VFUSjJcHO5XFR1uIGn3W4n+/1ec3AIn/hwX1WV+h1AEig1n8+1APDJZKIHAJplmSwWi5hDacQCqCxL9TuAtE1XqAd4XdfaBd2hLO8BtqEGwAa7rmt93wHsdZfDt1RuEiXTXbb9xUxx23nL+d/p6HAIR7YNth3GIeJAPh/DNTHcwadzTsX6V5R3QFs9GxOUBgwriuIvYDrY6ZVtiNO/KHLvQ9+58tdE6WtsXttIHx5sCEdCAAAAAElFTkSuQmCC)![Three rows of five icons each, including icons like a smiley face, a star, and a lock.](https://cdn.sanity.io/images/599r6htc/regionalized/863a3381e636cb1b9e4bd8f17cc246a6d9332d72-528x528.png?w=390&h=390&q=75&fit=max&auto=format)
+
+![The new Figma toolbar on a background with pink, tan, green, and blue circles around it.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAABgUlEQVQ4ja3SS0sbURjG8fORumqUXIiIy1IQKu6sjUpUqlLQRRcN6jfo1gvVbhxHM1FLFS+tMTOTCKKJkXQGu2krrqKT6mh09ZecqfWy07j48Zz34eUsDkesTmZ4SqJncQzPeJXGJFGb6iWU7CK8HqWuCsFkNz69D9E+V8fAbJCY6iemBv7lQwT4oPp5Fw/RstCA+DLpw1Aa2Y63ktUi5LQ35P7n9fn2fF+EbPw1+tQLZj49Q+xrPeS+KWxlTA7zJq6lc2YbuLYh8/75eq7sSbbBWWGDojHKD6UJ8Xv5I6vGHmrWZf/ghPKxw4VT8pS8rHSXpb+SnB2H86Nj2Zcdh8viEW5B59dCP+Jnoo+dNZXNdIY/+TSnlsmpfdeJZeLaaUl2VqUzbnYLKYrGOJbSjPg6UUNaecVOvI1drZ184uF2tQjm1Eu0yhtGE2HezwQYVv0MTT/O4LRf/pTW+XpETeotwWSU8PcOwuuPF0x28lzvRXQtjeAZrZJ3j1j5nOEpXQEqb/C5F9uFwwAAAABJRU5ErkJggg==)![The new Figma toolbar on a background with pink, tan, green, and blue circles around it.](https://cdn.sanity.io/images/599r6htc/regionalized/a7c715683b52fe592fa826b883e673f31c36e75a-1056x704.png?w=804&h=536&q=75&fit=max&auto=format)
+
+We know that it may take some time to adjust to these changes, so we’re slowly rolling them out to users, starting today. You are welcome to turn this redesign off as we improve UI3 with your feedback. Eventually we will migrate all users to UI3. **[Learn more here](https://help.figma.com/hc/en-us/articles/23954856027159).**
+
+[![The Figma UI showing a dropdown menu that says "Epoch Design Library" in the Figma canvas.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAADWUlEQVQ4jW3R20/TZxzH8V5j8G5R9yfsfrCbzUN2Y6JL3LLdDAgiLajAulmKo41QEGihCLMcRFYMYKkcCwLjsFJARARKoZWJLJF42BKKpSd+LUJp30t/mGUXe5JPvs/Fk1c+3zyShJRPOZr2GR9lfM5x6UmOSU9xXHqKE7LTfCw78785IT0tvjn232QeTsmR1CQ+yTvPd7ocpPXXyWhQIWssRv5rBYqWSq4Z49GJ94LWapStenKby8hu1JB9R8PleJpK/o0kMS2ZL9UXqetupv/RID0zozycncS2+JQZh50Z+zzT80+YmJ3G+miCwdGHtHe2093ZwW+WPkYGLIwNDzI+MiROSWJqMmdvyHgwNsDq+hrPN17yYuMVL1+/5dWbv3n95i/+XF/n8ZQVS1szDWUaaq4pGdLUsKA3slhlZLm2DUd9B4v1pkPwXHEWwzNWNjfdbHt9Yrw+P4HgDqHwLtseN/ZJCyb9dbRyGbWyHKwKLY6CWhyXy3DKSljJq8SuNiA5mprM16VZWJ/a8Hje4fP5CAQCCILA+/e7xGKwG/Ljmuyhq1pJdXEe+nw5Y/nluHK0OC/k4jqbzmqqgmequjiYxDc3pfy+MMGWdwtfwC9ie3t7RCIR4kcI+rGP92PWF1Kqyean3DQ65WqcV8pwnb+E86tveZb9I39UNB+CF0oyGZ0fx+17R2AnSDgcFrFYvB6wEwyyNGmjy6CjvPQqqpx0+pWlOFUGVrPUuK4qWNboWLljRpKYksS5Iikjcza8fp+IxdsdHBwQjcVENCiEWFh5zv2+XqrqNNwqyMWqrsKpbcFV0ohL24Sjrp2lll4kR1KSOKOW0j9jw+f3s/8Bi0PRaIxYNIpXCDO09paSsVkK2wxUaJVYyiqZ0zVh1zWzXG/GYexjydiLJOH7JL74+RI9U1Y829tiw/39fRGNxFseHODZETCvbCAfmOYHcyO5d5UU1eTTUKGmu0LL1C9GZhtNTN1u+QCqZPRM29h0u/F6vYRCIREV4UiE7aBAx/wa8gejFHY2oWgvQGbI4EplOjdrlZjq9fRU67h7owBJQkoyJ4tysMw9xr21hcfjYUcQxE85XD2KTwhjerKK4v4wDV33aDcXo2+QUXQ7k1utKtpM5dwz5KMtTOUfNGn4YFHYGIcAAAAASUVORK5CYII=)![The Figma UI showing a dropdown menu that says "Epoch Design Library" in the Figma canvas.](https://cdn.sanity.io/images/599r6htc/regionalized/cb5330ddd236de5bb8b1fec2315552b3d172fe75-1608x1072.png?w=1608&h=1072&q=75&fit=max&auto=format)](https://www.figma.com/blog/behind-our-redesign-ui3/)
+
+## [Figma Slides: Build, collaborate, and present](#figma-slides-build-collaborate-and-present)
+
+The way we work has changed drastically over the years, but decks haven’t kept pace. That’s why so many designers reach for Figma as a solution—last year alone, teams created over 3.5 million slide files in Figma. Still, collaborating with non-designers or presenting to those unfamiliar with the tool often required tedious workarounds and hacked-together workflows. No more jumping through hoops to make a compelling deck or sacrificing key design controls: We brought everything you love about Figma—multiplayer, live designs, and a zoomed-out grid view—to a slide tool that feels instantly familiar.
+
+![A Figma Slides file called "Product review" on an orange background.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAADEklEQVQokV2RWUwbBACGa6KJmQ7b0pPSQjsoRy+OFgVcrJB6zRVsXEJ4ZCGbyRaX+CAmxGQm0lBWrmAqM84xI8tWdYrC1BgGwY7MDVq2cYPQsg4QHGMtBV/8TLoX48OX7+1P/nyC+8eeZ7v9HWK/fEHs9wHi44PEQ8MkxgfZvTFA4npfkp3/kPg/gcfevd6HoP+NAqY7Gtmaukl8/R7xjVXiG2tsRcOszk0SnZrgz5kQ23NB4vNBYvNBHsyGWJ0OsT4XYns5yM5KkEfhIJsLIQS/VhUzf9bNw8gfxBMJ9vb+5lEsxq2xMc6f76GrsxO/z8vkBTebl5qIXmxi6LNmPu9qoe+yh0jIzW74Y9Ymmxi52ozgr5MvErt0hgdLs9yPrrCxtkL0XpgLPT04DzuxFhVx2JaPx6Gj36XhojOT4+VZ2G05vHc0i+DXGnZvqZj9Uc0nH+oQ0GAn4fcyMXKN3i/P4e/1MTz8M61tbRQVFiEWiVGlCrEpn8WZuQ+HZh/Zkv2kSVN48+Az9Hz0FGNfPYHf8yT1rqcR/NNgJ365hZGr/bjdTZxpOc0PA9/R1t5OWWkp6ap0MjQZZKjVqORyJCIRcpGUHJkWR66eE69peb9WQs2r+ynIS0EQOVbGZm8Ly3fG+S0QYHQ0wO07t/H5fFRWVGI2mZK3TQZjclwkFKEUyiiRm6jWvITrQBnlugPodWnkGPQI+l4vZOZsMw/D82yuL7O+tshSZJFPu7upsL+MyWiiuKiYvNw8FHIFIqEQpVSBWZvPC7pCLKo8tIoMLDYrR47XIRhyWVk652Fr8S6RhVEmZwcJzgTp7OqixFaCOl1Dbq6RbH0+cnkaYnEqRoOB6ionrreqqbDbMVssvPJ2FY3drQi2Tx1kx+9lZWGMobs/MTD+PdcmbuDt6KDAbEEsSiVTm02W3ohSqUYqkVJeWsq7J0/Q+EFD0g6Hg8qqQ5zynH5cee+Kl5tLAdrnrtA69Q3fTo/g6WzDYjKTkvIcEokMmVRBqliCTCqjxGqltqaG+qN11NfVJeMZCi0cqj3Cv3raIc0AMJQFAAAAAElFTkSuQmCC)![A Figma Slides file called "Product review" on an orange background.](https://cdn.sanity.io/images/599r6htc/regionalized/0bd7d4b051be4e936f6cc5a293f311d73d14e87b-1920x1080.png?rect=0,1,1920,1079&w=804&h=452&q=75&fit=max&auto=format)
+
+Figma Slides is in free beta. In early 2025, it will be available on free and paid plans, starting at $3 and $5 per user/month. **[Learn more here](https://www.figma.com/slides/).**
+
+[![Abstracted shapes on an orange background.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAC30lEQVQokVXO309TBwDF8fsf7dGlKiwBqkCwEtSKYInZgr8TY5Q4puWHtL29lttCodOghKjEbNgixf6wFOlgCTYoFKrAZFpsQSmt0JYNjCZ8Dde97OGTnJyHkyNkxRr+st9mwh7E2zJG789hAqZRntuH+NMawt3whHCTyPJvTURG++gTm2grUNH6/XeKtgIVD8VGpv5wknRfR0g31DJldRLqjOCVXzIgzTLUFmXUESHY8RK/OE7UYCN+z8hQ7y3kGh2m0mK69Nfo0usxlZYg644T6O1iyWVBWL16iheym2HHHEOd84qd/NQxS9DxmpAtzILUxuIdAy5LC42FasxV1bieBHEFhjFXH6exsAinxcC731sR0vpaJuV+gvYoHnkWn+0VI51RQp0z+Nvn8JufMSfaiN814uvuQNIexaQ5QI9sVZg0GiStFm+3g4SzFSFjqGZBbmfc3I/vqpeR5kGmZCeTFifDzY8JXOvjjfkXUr11zPR3MFB/ju5iFT1lexXdxSoG6s8y/chBqq8eYfNGOau2y8QsEvOilbdyKx86JJbbJV5LMvNGAyn5R1atR5g2niF0Tofv4F7c+1UK38E9SjdtPEvSWoGwIVbx4a6dlaCb9DMvH8MexVrYQ3LMy7LrAUnbRaYuHOPm4esY1M1IeScwFOgVUt4JjOombh5pYeJMOULWWMtKcJB06m+yn2JktmJkNmNkt2Ks/bNI8tUL3v9q5GnNT1wqvEflbi+6XT1o88cVul09Snep6D6+w5UIOfEUqXEfma13bJAg958N4mS3l/gYn2HltomRygqu7NajVXmp+CHKAfWaYidrVR6u7GnArylCyBpOsjLiYS23qIzktr/Z2I6T+ZJgdSHy7WHVUeryJA7lP0ejXqds/2fFTj6UP0Fd/g385aUI6821LD0eJJWOkdtOKEPKIHHWPyV4H5kkbjMRqLnI+ZJRyvZtUlb85f/2/cv5kjEGtaf5CoHCdjhmLa4WAAAAAElFTkSuQmCC)![Abstracted shapes on an orange background.](https://cdn.sanity.io/images/599r6htc/regionalized/9e864967a4136600686c58b04e4b0da370bb300c-3840x2160.png?w=3840&h=2160&q=75&fit=max&auto=format)](https://www.figma.com/blog/figma-slides/)
+
+## [Updates to Dev Mode: From design ready to dev complete](#updates-to-dev-mode-from-design-ready-to-dev)
+
+At Config 2023, we [introduced Dev Mode](https://www.figma.com/blog/introducing-dev-mode/)
+
+, a new workspace in Figma for developers. Today, we’re launching updates to Dev Mode to better support the realities of an iterative design process, speed up developer workflows, and bring design and code closer together.
+
+### [Stay in lock step with new views and statuses](#stay-in-lock-step-with-new-views-and-statuses)
+
+Handoff isn’t a single moment in time. In reality, it’s an iterative, nonlinear process where teams go back and forth as design and code evolve. Our new Ready for Dev View cuts down on the noise and helps developers, designers, and other stakeholders know exactly what’s needed to drive projects forward. And with Focus View and the ability to mark designs as dev complete, developers can stay in the flow while staying in sync with their collaborators.
+
+#### [Ready for Dev View](#ready-for-dev-view)
+
+It can be hard for developers to find what they should be working on amidst hundreds of design explorations—especially when work lives across multiple pages. The new Ready for Dev View allows developers to search and filter, parse updates in a list, and see who updated what and when so they have all the context they need.
+
+#### [Focus View](#focus-view)
+
+Our new Focus View allows developers to tune out distractions and just see what’s ready to build. They have visibility into all the changes and status updates that have been made to the design over time, including a snapshot of how the design looked before the most recent design revision. Once they’re finished building, developers can then mark the design as “completed” to close the loop.
+
+#### [More powerful ways to track status](#more-powerful-ways-to-track-status)
+
+We know that designs are always in-progress and last minute changes are inevitable. Now, when a designer makes changes to designs marked Ready for Dev, they can keep developers updated and leave helpful notes to describe what’s changed. Developers will then receive a notification about the changes so they know exactly what they need to work on next.
+
+### [Stay consistent and efficient with Code Connect](#stay-consistent-and-efficient-with-code-connect)
+
+Design systems bridge the gap between design and code and help teams move fast as they scale. But the benefits of having a design system in Figma all but go out the window if developers aren’t adopting it, too. This is why we built [Code Connect](https://www.figma.com/blog/introducing-code-connect/)
+
+, which surfaces design systems code and makes it more useful across frameworks and languages. Today, we’re excited to make Code Connect generally available, alongside improvements like surfacing connected code snippets in the [component playground](https://www.figma.com/community/file/1234941143610339388/dev-mode-playground), a new tool to streamline setup, and support for React, React Native, iOS, Android, and more to come.
+
+These updates are now available for Dev Mode users on Organization and Enterprise plans. [**Learn more here**](https://help.figma.com/hc/en-us/articles/15023124644247-Guide-to-Dev-Mode).
+
+## [Quality-of-life improvements: Auto Layout, UI Kits, and a responsive prototype viewer](#quality-of-life-improvements-auto-layout-ui-kits)
+
+We’re launching a series of usability updates to improve the features you already love. Here’s what’s changing:
+
+### [Auto Layout is more intuitive](#auto-layout-is-more-intuitive)
+
+We’ve updated Auto Layout to make it more predictable when you need it and easier to ignore when you don’t. Now, Figma can not only suggest when multiple frames of Auto Layout might be needed for a full design element, but also create those frames for you. This will save you time from having to apply it frame by frame within a design. Plus, you can hold \`ctrl\` to ignore Auto Layout while dragging a design element into an Auto Layout frame to set an absolute position. **[Learn more here](https://help.figma.com/hc/en-us/articles/5731482952599).**
+
+### [UI Kits help you get started quickly](#ui-kits-help-you-get-started-quickly)
+
+Find Apple iOS, Google Material Design 3, and Figma’s Simple Design System UI Kits directly in your assets panel. Each UI Kit includes component sets and example mockups, which allow you to start from full layouts. Just drag in an entire example screen as a starting point, and it’s fully editable with components from the library. Plus, each of these UI Kits is backed by Code Connect. **[Learn more here](https://help.figma.com/hc/en-us/articles/24037724065943).**
+
+[![Material 3 Design Kit on a blue background with green illustrations](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACqUlEQVQokU1R204TURRtz/mcAn/SaZEHNJIYYnwyPpioL5oYKdBOC73Qy0yJgWpaY4ROLdGG0uHWQu8zqA9qiAbFQCkdZYyhMdLZ28yUEh5W1t4nOStr7WXiJS0drmhZ71pH9K51cpGqJvJSF+GKJnpWzkR3Vp9PxdheXHx6YBEfrJjFIR8VrS4qMizJMSwRGZZmGBdNmHgJFL4OarjShT7zEqhRuTuHSpoaKqLKS201thdX548s6qO8Sb0WoarNrYOoDEt+Myz9ZXXRhi6IvKQhXz+HsV9CvYNcHTEqtzG2l8CEakHfrgnvpAgOhwjaPQRtbooMS9DqoqgLQqj0B3zrB+Bd3Qff+iH4N5sQ2Dw+5ybMFE6Aq6kw9yUO800L+HdNcG+ZwPUoAbuHAMNSYFgCVhcBEy9pxseJVA3GXhXAkSzB5GsJnEvvYTItg3NpBzzZrxAsNiEox+HJVj/cXjTDyCyFIR8Bm1tHT5CCSY/p32jgRKqKYwtb6EiWcFyoojO9g5NpGSdSNWQznzBQaKAjF8ebcwM4OE2QYekFbO7ubkTm6h3wbxwZbsaTZRgXKuBY3DZcsm8/gnPpHbgzn8GfP4THmTiMcAMXrnrObO5u7J5D44b+jQZ4V3/AtPgdPMu7MJ37BoF8CwL5Y5gp/IRQ+QTYQgLupvth9JkZroYpDE5dFry4od4kIGe0rDd6hpHqX+Rq/4zW9Xe9ZV5uY+RDAlm5D+9nzTgaI3jFq0fVW+5yt+U6NMJlaAWLoHA1bEVlVHgZFZ25GigzW5oSKqLCSW3FX0soD8U+5dYLszIcoop9iioMS1sMa3DT6qL7Jq6mPfeudhbcyx0hWNSSvKQJXF0TdA5ua4LzzZngWdGEUPlUGMsmhBuz/YLdQwSGpT0kz/kl46LcfzS4SbunOPQOAAAAAElFTkSuQmCC)![Material 3 Design Kit on a blue background with green illustrations](https://cdn.sanity.io/images/599r6htc/regionalized/8b6d348cedc7ccfd18066a57f31e12d2c501a961-528x297.png?w=528&h=297&q=75&fit=max&auto=format)](https://help.figma.com/hc/en-us/articles/24037724065943)
+
+[Get started](https://help.figma.com/hc/en-us/articles/24037724065943) with a curated set of UI Kits from partners like Google.
+
+### [The prototype viewer resizes responsively](#the-prototype-viewer-resizes-responsively)
+
+Experience your designs on any screen size with a new prototype viewer experience that resizes responsively. With a new menu option for previewing or presenting prototypes, the viewer will respect constraints and Auto Layout properties as you resize the viewer window or select a different device frame. **[Learn more here](https://help.figma.com/hc/en-us/articles/360040318013-Play-your-prototypes).**
+
+### [Coming soon: Improvements for agencies and freelancers](#coming-soon-improvements-for-agencies-and)
+
+Improving Figma isn’t just about the interface or capabilities; it’s also about user experiences that may be less visible—like our billing architecture. Moving forward, we’re working to make it easier for freelancers and agencies to collaborate with external clients, streamline project hand-off, and simplify billing. We will continue to share more updates as this work progresses. **[Learn more here](https://www.figma.com/blog/billing-freelancers-agencies/)**
+
+**.**
+
+In a future increasingly shaped by AI, craft will be the differentiator. At Figma, this means continuing to expand our breadth of capabilities while also improving the quality of the software you use every day. We hope you enjoy today’s announcements; we’re thankful for the opportunity to build for you.

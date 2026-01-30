@@ -1,0 +1,172 @@
+---
+title: "Tracing user interactions with React"
+source: "https://kentcdodds.com/blog/tracing-user-interactions-with-react"
+publishedDate: "2020-05-05"
+category: "frontend"
+feedName: "Kent C. Dodds"
+---
+
+This post has been archived. [This API was removed](https://github.com/facebook/react/pull/20037) in React 17.
+
+In my post ["React Production Performance Monitoring"](https://kentcdodds.com/blog/react-production-performance-monitoring), I show you how to use React's `Profiler` component to monitor the performance of your application in production. The information you get from this is useful, but really all it can tell you is: "Hey, the mount/update for this tree of components took x amount of time." Then you can graph that data and identify spikes/regressions in performance for that part of your app.
+
+It would be even useful to have information about what interactions the user performed to trigger that update. For example: "Based on the data we have, when the user clicks the dropdown toggle button, the dropdown update is fast, but when they type into the field, the dropdown update is slower."
+
+Another benefit to interaction tracing is it adds some context to what you can visualize in the React DevTools Profiler tab. We'll get a look at that soon.
+
+The data the `Profiler` calls your `onRender` method with has a property for `interactions` which is intended to provide this for you. And I want to show you how to use that API.
+
+🚨 Please remember that this is an unstable/experimental API from React and may change when the feature is officially released.
+
+## [Basic usage](#basic-usage)
+
+React does all of its scheduling through the `scheduler` package. Normally you don't interact with this directly, but this package is where you're going to get the APIs to instrument your components for interaction tracing.
+
+Let's say you have a simple greeting component:
+
+```
+function Greeting() {
+	const [greeting, setGreeting] = React.useState('')
+
+	function handleSubmit(event) {
+		event.preventDefault()
+		const name = event.target.elements.name.value
+		setGreeting(`Hello ${name}`)
+	}
+
+	return (
+		<div>
+			<form onSubmit={handleSubmit}>
+				<label htmlFor="name">Name:</label>
+				<input id="name" />
+			</form>
+			<div>{greeting}</div>
+		</div>
+	)
+}
+```
+
+When `setGreeting` is called, that triggers a state update. Let's assume we have reason to measure this interaction and monitor it in the long term (you don't necessarily want to add this complexity for every interaction). Here's how we'd do that:
+
+```
+// your other imports
+import { unstable_trace as trace } from 'scheduler/tracing'
+
+function Greeting() {
+	const [greeting, setGreeting] = React.useState('')
+
+	function handleSubmit(event) {
+		event.preventDefault()
+		const name = event.target.elements.name.value
+		trace('form submitted', performance.now(), () => {
+			setGreeting(`Hello ${name}`)
+		})
+	}
+
+	return (
+		<div>
+			<form onSubmit={handleSubmit}>
+				<label htmlFor="name">Name:</label>
+				<input id="name" />
+			</form>
+			<div>{greeting}</div>
+		</div>
+	)
+}
+```
+
+Now the `interactions` for this update will include information for this specific interaction based on the name of "form submitted".
+
+The API for trace is: `trace(id, startTimestamp, callbackThatTrigersUpdates)`
+
+## [Async tracing](#async-tracing)
+
+So what happens if this interaction is asynchronous? Should we have one trace for the state update and then another for the update when the response comes back? Wouldn't it be better to tie these two related updates together? Yes it would! Luckily there's support for that!
+
+Say we have to fetch the greeting from a server. Let's rewrite this for that use case:
+
+```
+function Greeting() {
+	const [greeting, setGreeting] = React.useState('')
+
+	// please don't judge me, I'm leaving out loading and error states and cancelation
+	// to simplify this example!
+	const [name, setName] = React.useState('')
+
+	React.useEffect(() => {
+		if (!name) {
+			return
+		}
+		const onSuccess = (newGreeting) => setGreeting(newGreeting)
+		fetchGreeting(name).then(onSuccess)
+	}, [name])
+
+	function handleSubmit(event) {
+		event.preventDefault()
+		setName(event.target.elements.name.value)
+	}
+
+	return (
+		<div>
+			<form onSubmit={handleSubmit}>
+				<label htmlFor="name">Name:</label>
+				<input id="name" />
+			</form>
+			<div>{greeting}</div>
+		</div>
+	)
+}
+```
+
+To support tracing this, we'll use `unstable_wrap`:
+
+```
+// your other imports
+import {
+	unstable_trace as trace,
+	unstable_wrap as wrap,
+} from 'scheduler/tracing'
+
+function Greeting() {
+	const [greeting, setGreeting] = React.useState('')
+
+	// please don't judge me, I'm leaving out loading and error states and cancelation
+	// to simplify this example!
+	const [name, setName] = React.useState('')
+
+	React.useEffect(() => {
+		if (!name) {
+			return
+		}
+		trace('name updated', performance.now(), () => {
+			const onSuccess = wrap((newGreeting) => setGreeting(newGreeting))
+			fetchGreeting(name).then(onSuccess)
+		})
+	}, [name])
+
+	function handleSubmit(event) {
+		event.preventDefault()
+		setName(event.target.elements.name.value)
+	}
+
+	return (
+		<div>
+			<form onSubmit={handleSubmit}>
+				<label htmlFor="name">Name:</label>
+				<input id="name" />
+			</form>
+			<div>{greeting}</div>
+		</div>
+	)
+}
+```
+
+Cool? Yeah that's cool! And check it out, here's what that sort of thing looks like in your React DevTools:
+
+![Interactions view in DevTools](https://res.cloudinary.com/kentcdodds-com/image/upload/f_auto,q_auto,dpr_2.0,w_1600/v1625033451/kentcdodds.com/content/blog/tracing-user-interactions-with-react/interactions-devtools.png)
+
+Go ahead and give it a try in your app. It definitely helps (especially the async stuff. Those little squares are clickable so you know which commits came from the interaction directly!).
+
+You can [learn more about the tracing API here](http://fb.me/react-interaction-tracing).
+
+Good luck!

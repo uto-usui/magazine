@@ -1,0 +1,65 @@
+---
+title: "Little Big Outtakes"
+source: "https://www.figma.com/blog/little-big-updates-behind-the-scenes/"
+publishedDate: "2023-03-28"
+category: "design"
+feedName: "Figma Blog"
+---
+
+Today we’re launching the latest installment of Little Big Updates, [30+ small but mighty features](https://www.figma.com/whats-new/) to help you work faster in Figma. Here are a few of our best-of anecdotes from the designers and engineers who worked to bring this class of Little Big Updates to life.
+
+![Pixelated white text that reads "The edge case" on a blue banner.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAwklEQVQYlW2O207CQBRF+4kFyigtzFgIcbBDQbkU0J/1yU9QTLqXmUwMPviwknN2zl45WZHzXeT0RQ53I2QrmDuoLdQzWLgbcX+YwtymG1tKZiTF7sRwfVzwkY0HyAzReAClkYKH8xFOBzju4NLB2zlxeIH9NmWvJwgelSZ1p/fqg9c1m0306Sr1Ln5m0fopySLd/iaMgm6XpL/CTUjfukpa1rBdQ+aXvDeer7CCsErCtoFNJPzDn7xtUOzEbpyfW+kHwTvfpGL8X4QAAAAASUVORK5CYII=)![Pixelated white text that reads "The edge case" on a blue banner.](https://cdn.sanity.io/images/599r6htc/regionalized/82e12c572fadb705a53b4001af0716586117abab-1600x310.png?rect=1,0,1598,310&w=804&h=156&q=75&fit=max&auto=format)
+
+**Feature:** Multi-select search. Use `Shift + Click` or `Cmd (Windows: Ctrl) + Click` to select specific search results to edit and replace.
+
+**Team:** Jackie Chui (design), Akshay Subramaniam (engineering)
+
+After [launching find and replace in Figma and FigJam](https://www.figma.com/blog/behind-the-feature-find-and-replace/)
+
+a few months ago, the product team assumed that launching multi-select search would require only a few incremental changes to build off of the original feature. “Once we started digging into what it actually looks like, we got into really complicated edge cases,” says Jackie, who led design on both multi-select and find and replace.
+
+The problem? When Jackie and Akshay tested an early version of multi-select, they realized that it was hard to tell what you were actually selecting because in Figma, you can’t select a “parent” (a frame, component, or group) and “child” (an object contained within a parent) separately. So, with multi-select search, both the parent and its children could show up at the same time as results. While the feature technically _worked_, the user experience was jarring. “I kept thinking to myself, ‘Is this a bug?’” Akshay says. Everything worked as expected when you selected the first item, but the moment you selected the second item, it would pull in a bunch of descendent items that you may not have intended to select. Throw in a file with a lot of nesting, and it was impossible to tell what’s what. “Suddenly you’re lost in this big file and you’re struggling to multi-select,” he adds.
+
+The breakthrough? Jackie and Akshay created a visual hierarchy in the find and replace sidebar to make it clear which children fall under which parents, and what you’re selecting in turn. When you hold `Command` or `Shift` to “hover-select,” Figma highlights the indirect items that are automatically selected in the background and outlines the children you’re selecting, acting as a preview. “To me, that felt really pivotal,” says Jackie. In the end, it was the edge cases that got them to the best solution. “Even the original find and replace didn’t have so many different edge cases,” says Akshay. “Multi select is \[pretty much\] defined by them.”
+
+![Pixelated white text that reads "The put-it-on-paper" on a blue banner.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAvElEQVQYlUWN206DUBBF+UVNatIEBJpSK5eDQKGQmvZbffITtCbsZaZH6sPKTHbW7AlWD/ysV8xJCJtntIlvkzT6J4kgDsGcZZq3TaQslcyPQ64vWz6Dp0eUhOitgmmQpgGOB+hb6GpPU3ksM4YOTiOcT+jyjo4d5DvN5auuQbTWV5ZqtoOxR+Nf2aGB1soc2LPW+aKldOp9qdG3UpV7N9hnfJR7vl0OdYHqAtxC7jH5ni15cfd120vUOOkXcZfh36x00V0AAAAASUVORK5CYII=)![Pixelated white text that reads "The put-it-on-paper" on a blue banner.](https://cdn.sanity.io/images/599r6htc/regionalized/c5c4cbf3d19d7874293c41845600f46e4f2e6247-1600x310.png?rect=1,0,1598,310&w=804&h=156&q=75&fit=max&auto=format)
+
+**Feature:** Blur effects. When you add an overlay with background blur in prototyping, things actually get a little fuzzy.
+
+**Team:** Brandon Lin (engineering)
+
+Before today, blur effects on overlays didn’t reliably work in Figma. The prototyping viewer would render a blur by grabbing what’s directly beneath the frame. But with overlays, there _isn’t_ something directly beneath the frame. Brandon was just a few weeks in when he took on debugging overlay blur effects in prototyping—an onboarding project to help him ramp up and get to know how his new team works together. After spending some time coming up with potential approaches, Brandon was worried that he was missing something. He took a step back to write up his thinking, potential “gotchas,” and a solution, and shared the doc with his teammates.
+
+They offered suggestions for refining his solution: to pass information about the overlay’s position to the code, so it knows where to correctly look for things to blur. Based on the team’s feedback, Brandon added concrete structure and pulled in relevant data to more clearly make the association between overlays and their respective frames. These changes allow different overlays to be drawn at their respective correct places and, in turn, correctly layer on top of each other. Brandon’s instincts were right. As a new Figmate, he simply needed a gut check from the team. “It gave me more confidence,” he says.
+
+![Pixelated white text that reads "The run-with-it" on a blue banner.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAwUlEQVQYlVWO226CUBRE+USN4g0Q0NqCXATFaPxbn/oJahNmNdujafowOZOZfVbGGw/4GQ/opyNYBmgdQxpBEsFq6XwcQBKCdR/JXxaH0mIq+UOY+zy+1nx7/hALtJhAmUmXE5w66Bo4H50/tnDuwDrLuhb2O6gLlEZoMoJwpr7M9PCiuW5xoN7WVFv0htgngzyBe+etM39oHHBXwOfK1kubFJoKvGzDtci4V7kD2pGpfr1v/09bJ7uvclTmbm1bS78JDN/agOCXfgAAAABJRU5ErkJggg==)![Pixelated white text that reads "The run-with-it" on a blue banner.](https://cdn.sanity.io/images/599r6htc/regionalized/acdf1e5615300cb8b3ec68ee00b6ec97cf41f369-1600x310.png?rect=1,0,1598,310&w=804&h=156&q=75&fit=max&auto=format)
+
+**Feature:** On-canvas previews. Hover over design panel options to preview different settings and properties before committing to them.
+
+**Team:** Hauke Gentzkow (design), Molly Lloyd (engineering)
+
+Building on-canvas previews was an exercise in scoping _down_. Before the team decided on the handful of settings and properties that you can now preview in Figma—like layer blend modes, effects, and color blend modes—they also considered supporting boolean ops, component props, and the font picker. “I started with this huge scope. I was in this mindset that we had to do all these really complex things, or it wouldn’t be worth doing,” says Hauke. “I was nervous that the set that we have today wouldn't be enough, but I think once we started to really play with it, we realized it's super powerful.” The tension for me was just \[having enough\] time,” says Molly. So how could they move quickly, while also perfecting the details?
+
+Instead of trying to ship everything at once, they decided to ruthlessly prioritize. Hauke audited the Figma editor for all attributes that have a dropdown, and then he and Molly went through it together. “I would say, ‘Okay, this is super doable,’ or ‘This might be tricky,’ or ‘This will blow up users’ memory,’” says Molly. She and Hauke jointly agreed to an approach. “We ultimately landed on building the features that didn't require a lot of geometry change or huge changes on the canvas” says Hauke.
+
+![A quote in blue font, on a white background with a blue border. The quote reads, "I started with this huge scope. I was in this mindset that we had to do all these really complex things, or it wouldn't be worth doing." The quote is attributed to Hauke Gentzkow, Product Designer at Figma.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA7klEQVQokYWQSW7CQBBFff/DRNmRkBwhw5I4GwQYcNtuT2GwAfGiTxkFowhaeqpSDb+7fzCZQJqC95Blhr/Ed3R5UUBVQlX1GY9h+ARB4qAsbCFJIEtNVJecc/UU8xw2G9jv4XDoEy/hZQiBhiUoMRWds1zRxR2qORNdr03g+iQOXiWoobqGIu9/S5foRZeo/lPDroXjsY+7FizLv0V5oq9tt9A00LYmcoo7e+FNwdxDHMM8MtSU8asVtI0t3Duy6SR4FlguIIogmsFibt5pSFZIWN7dYjqF5wEEnx8wGsF3COHXP4TWu8f7Gzw+wC8xrWT10T5SvwAAAABJRU5ErkJggg==)![A quote in blue font, on a white background with a blue border. The quote reads, "I started with this huge scope. I was in this mindset that we had to do all these really complex things, or it wouldn't be worth doing." The quote is attributed to Hauke Gentzkow, Product Designer at Figma.](https://cdn.sanity.io/images/599r6htc/regionalized/a0f051f57dae682832877eb3f1ef3704f9302254-1620x690.png?rect=0,1,1620,689&w=804&h=342&q=75&fit=max&auto=format)
+
+The internal response was validating. “When I shared an engineering proposal, everyone was like, ‘I've wanted this for so long.’ I think there's a lot of internal excitement over something small, which is very _Figma_,” says Molly. “People really appreciate the details and get excited about nerdy design usability updates.”
+
+![Pixelated white text that reads "The... still WIP" on a blue banner.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAyElEQVQYlU2O206DUBBF+USqFEEgx7bBcjnQVtvi5Wt98hO0JuxlBtLow8pkz8ye2UEU8hOFjFEId7fIZbB2YPU+hiKFjYOHHLIE8gRWxdwrUmm5kMybxly2Gz6D5QIZ8Y0tS10NbwMcD/C4Bl/B+XnWXQN9C69neB+gKlESTX7zjr7SJShSfblMo8unr7oahiP0Dew9nJ7+jho2fzlBu53TukwqV7DvIKhKPtqKb19DVyNLsWth5+c0V0z/x3pdg3w9YVqHXvoF7VreiXjy3ZQAAAAASUVORK5CYII=)![Pixelated white text that reads "The... still WIP" on a blue banner.](https://cdn.sanity.io/images/599r6htc/regionalized/19f271caaaa3c18c02b381b9ef1d6be682aafb22-1600x310.png?rect=1,0,1598,310&w=804&h=156&q=75&fit=max&auto=format)
+
+**Feature:** Hanging punctuation. Preserve the flow of your text by letting punctuation like quotation marks hang outside of the text box.
+
+**Team:** Amanda Yeh (design), Joanna Chen (engineering)
+
+Design is in the _details_, and the product team often finds itself poring over decisions to perfect those details. Case in point: As Amanda and Joanna worked on the text bundle, they found themselves left hanging on hanging punctuation.
+
+“Joanna thought that this should be a keyboard-only entry point, and I was thinking this could be a toggle that's in the type settings panel,” explains Amanda. The “keyboard-only” approach would mean thinking about hanging punctuation as functional indentation; a UI toggle would lean more towards type design. It took a long time to think through because there weren't a lot of precedents in other products, there’s no standard way to implement this in CSS, and they wanted to make sure that the approach was intuitive for users.
+
+“We both have different reasons for \[favoring one approach over the other\], so we’re still discussing,” Amanda says. “We’ll let you know what we decide.”
+
+![A screenshot of a Slack message on a blue background. The message details explorations for building hanging punctuation in Figma, with a screenshot of what those approaches look like in the product.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsTAAALEwEAmpwYAAACyklEQVQ4jZWT3WsUVxjG959sRaEiopIgVdNEbcBWUtd4V+iNeFV6UQqlpVo1xog1WWOMCBoliYhgG7vzsZ+zO7t7Zs6cOXN+5ZzsmsZuLxx4eN8zDL/3ec7LlA4dMEye0EyfUcxMKc5O5Zyb1pyfKfjyrHmvWSeYPTeU7Yfn8zMweQIOfgKliWMF333b5ZeffW7eCFm43eLeUsyDPwQryymVFcnDiuTRas76WsH6Y7OnNcOTdUNlxXDtquHoYUNp6vOC33/r8OZ1lZ0dj3fvAjyvhu83CPwGYdCkFrZoNrtEUZ9OZ+DU7QpX43hAo5Fy+6Zm4rihNH3asPwgp9sRRFEL3/fxfQ/f86hW/8bzqu5dEPiEYTBUSK0WUgtDms069XrMwi3FpAOeMaxWQAhNHMcEQYjn+U7VqudqEAROtt8dOILWiaI2zeaAhVv5HvBhxdAf5ERxj3rDxmvSarXeq91uE0WRq+3Wbm+HCyHIspQ4zlhcKEZAHLDXV3T6A7p9QZpKsizbJ6XUvj7Pc4qiAAxCGO4umv1AG1lmEpkp96ExxtVR/6HsMywkCSwtwuRxRndokNKQ54okSZwLrbVzYd1ImSGldOf/gg1JYljac7gHVCojjnvubkawNE3p93v0erEbNM5p8v8Oc4RInButR8AEIWKSpOcSfBRQaxsvcU5HkbNMkkmBUqkb8lHAorCbtHEztwytCwe1sgPGLWgMEAdMU41SkjS1bmxkPXa7o0XYZzzwNFSWDVEkqAU+O3/96X65drtDkioyZQfZ+7RONVrbJLuyvWWKAdy9MwSenICffixYW+1x785brv+6yY3rr7h/P+Tp05SNDcWLjczp5Yucrc2C7S3Y3jJsbRpebcPzZ/DD93DsCJQ+OwgzU4a5r3MuXki4MNt3uviV5NKcpvxNweV/af6SYb4M82Xj+itlKM/BF6fg0KfwD5tMxJuMGWlrAAAAAElFTkSuQmCC)![A screenshot of a Slack message on a blue background. The message details explorations for building hanging punctuation in Figma, with a screenshot of what those approaches look like in the product.](https://cdn.sanity.io/images/599r6htc/regionalized/e0a6f452b064ef398e8f28f3f0d6f06d8d4d413e-1630x1413.png?w=804&h=697&q=75&fit=max&auto=format)
+
+While things were undecided at the time of our conversation, they of course came to a decision in time for launch: the UI toggle approach, knowing that designers would ultimately treat this as a stylistic change.
+
+_Check out these fixes and features, along with [all 30+ updates here](https://www.figma.com/whats-new/)._

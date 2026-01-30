@@ -1,0 +1,95 @@
+---
+title: "Introducing the new kentcdodds.com"
+source: "https://kentcdodds.com/blog/introducing-the-new-kentcdodds.com"
+publishedDate: "2021-10-01"
+category: "frontend"
+feedName: "Kent C. Dodds"
+---
+
+I'm so excited to announce the launch of my brand new website! In this post I'm going to describe to you what this website can do for your learning and advancement as a software engineer. If you want a more technical deep dive, check out [How I built a modern website in 2021](https://kentcdodds.com/blog/how-i-built-a-modern-website-in-2021).
+
+Alright, let's get into it!
+
+Wahoo! Here are some stats on the amount of content we're talking about here:
+
+-   My blog has more words than the first three Harry Potter books combined (I'll let you decide which is more enjoyable to read).
+-   [The Chats with Kent Podcast](https://kentcdodds.com/chats) and [The Call Kent Podcast](https://kentcdodds.com/calls) have more to listen to than the first three Harry Potter books combined as well (again, you can decide which is more enjoyable).
+-   I've got 53 talks that I've delivered ~100 times many with recordings you can watch on [my talks page](https://kentcdodds.com/talks)
+-   There are 2 self-paced workshops ([EpicReact.dev](https://epicreact.dev/) and [TestingJavaScript.com](https://testingjavascript.com/)) and 9 courses (some free and some paid) on [the courses page](https://kentcdodds.com/courses).
+-   There are 13 workshops you can sign up for on [the workshops page](https://kentcdodds.com/workshops).
+
+Hopefully you are feeling sufficiently hyped! I'm super excited about this. So here's a high-level of everything I want to tell you about:
+
+## [The Call Kent Podcast](#the-call-kent-podcast)
+
+I'm talking about this one first because I don't want you to miss it. [The Call Kent Podcast](https://kentcdodds.com/calls) is awesome. Here's how it works: You record a ~2 minute question or discussion topic and I record my reply. Then our conversation gets turned into a podcast episode and published automatically. It's rad and we've already got a bunch of episodes for you to listen to and get an idea of what this really is all about. Enjoy!
+
+## [Getting to know me](#getting-to-know-me)
+
+Another thing I did as part of this relaunch is I created a video to introduce myself to you all! You can [watch the short version here](https://youtu.be/a7VxBwLGcDE). Here's the full version:
+
+I want to teach you how to build better software. When you're making a choice about who to teach you, you're putting trust in that person. So the goal of the video was to introduce myself to you and help you get an idea of my personal values and teaching philosophy. I hope you enjoy it!
+
+## [Dark Mode](#dark-mode)
+
+Of course, this is the feature everyone wants. Well it's here now. So there. Enjoy!
+
+## [My photo](#my-photo)
+
+I've had the same user photo for a very long time. It was definitely time for an update :)
+
+![Kent's old profile picture with an arrow leading to Kent's new profile picture](https://res.cloudinary.com/kentcdodds-com/image/upload/f_auto,q_auto,dpr_2.0,w_1600/kentcdodds.com/content/blog/introducing-the-new-kentcdodds.com/new-kent_luxjl8.png)
+
+## [User Accounts](#user-accounts)
+
+When I decided to rewrite my site from Gatsby (a static site generation framework) to use Remix (a server side rendering framework), I realized that I could do so much more. With a real server, I could add authentication and a database without forcing my users to look at spinners all the time (SSG also stands for "spinner site generation" 😆).
+
+One cool thing I can do is give good content recommendations based on what you're looking at. So at the bottom of every post are other related posts. But with user accounts we can take this further. I can keep track of the posts you've read already and make sure I don't recommend a post you've read recently. And since I'm keeping track of post reads, I can also recommend one of the more popular posts as well. The whole thing is dynamic and completely user-specific. Additionally, one of the recommendations is completely random, just to spice things up a bit 🤌
+
+In the future, you'll also be able to have a lot more control over your mailing list subscriptions on your user account page. And I'm planning on allowing you to take notes in blog posts and also mark some posts as a favorite. Cool stuff upcoming!
+
+Oh, and then there's also the whole teams thing...
+
+## [Teams](#teams)
+
+[![Three koalas on snowboards in red, yellow, and blue](https://res.cloudinary.com/kentcdodds-com/image/upload/w_1135,q_auto,f_auto,b_rgb:e6e9ee/kentcdodds.com/content/blog/introducing-the-new-kentcdodds.com/choose-team-light_zze8cf)](https://kentcdodds.com/signup)
+
+When you sign up for an account on this site, you have to select a team. Think "Ingress" or "Pokémon Go." But... why? It's for fun.
+
+Here's what you get out of it. As a team member, you can connect your discord account and get access to an exclusive channel on discord for your team. Teams "own" my blog posts (kinda like a Pokémon Go gym) based on some magic and (hopefully fair) rules which you can read about on [the teams page](https://kentcdodds.com/teams).
+
+The app also changes some of the colors based on your team or the team that owns a particular post. You can filter posts by which team is the leader and you'll notice a little indicator on each post showing the rankings.
+
+It's fun what you can do when you have a server and Remix makes it just so easy to manage the communication between the server and client.
+
+## [Workshops](#workshops)
+
+I had workshops on my old site and they're back on this site. The difference is there's no weird loading state to determine whether there's currently an event available (again with the server side rendering stuff).
+
+Go ahead and [try it for yourself](https://kentcdodds.com/workshops). I scheduled a few special for this launch. Grab your ticket before they're gone!
+
+## [Chats with Kent Season 4](#chats-with-kent-season-4)
+
+As part of this launch, I talked with a bunch of amazing folks for Season 4 of [The Chats with Kent Podcast](https://kentcdodds.com/chats)! And there are 25 episodes! Twice as much goodness as usual. [The first episode](https://kentcdodds.com/chats/04/01) actually has Michael Chan as the host and me as the guest to introduce you to the season and talk about this new website. I think you'll love it!
+
+## [Public Analytics and Metrics](#public-analytics-and-metrics)
+
+I disabled Google Analytics on my old website because I rarely looked at them and I didn't like the privacy implications. When I was working on this site I found [Fathom](https://kcd.im/fathom) and knew this is what I wanted. In addition to being ethical analytics, Fathom also allows you to make your analytics URL public, so I did! [Checkout the analytics for this site](https://kcd.im/kcd-fathom).
+
+[![fathom analytics screenshot](https://res.cloudinary.com/kentcdodds-com/image/upload/f_auto,q_auto,dpr_2.0,w_1600/kentcdodds.com/content/blog/introducing-the-new-kentcdodds.com/fathom_gx7md5.png)](https://kcd.im/kcd-fathom)
+
+Also, [Erick Tamayo](https://x.com/ericktamayo) created a Remix-specific metrics tracking platform. It's in beta right now, but I just had to try it. It's fantastic. [Checkout the metrics for this site](https://kcd.im/kcd-metronome).
+
+[![metronome metrics screenshot](https://res.cloudinary.com/kentcdodds-com/image/upload/f_auto,q_auto,dpr_2.0,w_1600/kentcdodds.com/content/blog/introducing-the-new-kentcdodds.com/metronome_b08gpc.png)](https://kcd.im/kcd-metronome)
+
+> Note: Metronome is deprecated and no longer in use.
+
+## [Credits](#credits)
+
+This was definitely a team effort. A bunch of great people helped make this project as successful as possible. You can learn about them on [the Credits page](https://kentcdodds.com/credits). Thank you friends!
+
+## [Conclusion](#conclusion)
+
+I learned so much building this site for you. I'm looking forward to all the other cool things I'll be able to do here now that this first iteration is finished. Stay tuned! I hope this place helps you learn to be a better software engineer.
+
+Thanks for reading!

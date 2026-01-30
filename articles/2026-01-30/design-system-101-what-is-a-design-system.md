@@ -1,0 +1,173 @@
+---
+title: "Design system 101: What is a design system?"
+source: "https://www.figma.com/blog/design-systems-101-what-is-a-design-system/"
+publishedDate: "2024-02-12"
+category: "design"
+feedName: "Figma Blog"
+---
+
+Design systems are often the unsung heroes of the products we use every day—from mobile apps and websites to the interfaces on television screens and car dashboards. They serve as the DNA for product design and development, encoding the principles and elements that define the very experience users interact with. Colors and icons convey meaning. Buttons are implemented with a consistent size and shape. Language is clear and understandable. If your design system does its job well, your end users hopefully don't spend too much time thinking about it at all.
+
+Without a design system, you may find yourself in a _crisis of inconsistency—_navigating a maze where every turn could lead to confusion, brand dilution, or user frustration. In this series, we’ll walk you through the basics of design systems, dissect what makes them so essential, and guide you through crafting one that not only elevates your digital presence, but also protects it against the spread of design disarray.
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAC4jAAAuIwF4pT92AAAClUlEQVQokRXRW09SAQAAYP5O68HHai2LueZcNC+bgqnY5CKcw7l5rpwD5yCHmwgkCN5IDXFJCpqGJt6ClIBRkLeitWYvAlY/ovEDvqdPgtPVgHk/uzh/tRctLwb2WDZnQipOsGwBtxB2BpwehzcC4PIs5PSa9KJHPu7t95h9DHYKozUJQV8HhMNMbONH/qgQW9418ycCc+phCyKTwEQvGGPhT6NAygcFBAGD/Bo6AFgtkzT2tYFxuurl0qng4tnKbD7gSJH4BxorWuAcC76DiAXAEzLMh4FgBBRCNOwVVVPiUIhx8mgBQWsSjKrZsFQExDZ1sk1tR1yviRPaHU6+Qym20OEDSvNFkH829e4R0DZrzLrwvA1cI12jaB7B6hKcqnK61RFZp675Ntn6wKNWuayAZWLQ6RqKWoBSuKf+/uHvRGvGC6eDwcpO/HwtErNGzcQZSvyREMYao19Vt3V13WvStDyyq9QWEcb8Os4NRGxg+XXPda7l1/6TTBBKz81eZg7L25sxZ0ygz0eYfxKCvbGgu65+0N35ONQti2jUUVK7YlasMn1vSe2JY6AyLbsMdBzxwC7P533WgtuYYHw2qtjAuLFuJ4/DcDCqF94MU1sInLMpfvqlF2Oth5Q6QwEX/MCZaTAJG+aUyuke6bxcOqPmeKyIEjcSnKmKZMGFp0Us6zUk1jnuW+zp3+ydq6T0o0uV5fELN152EGsQQslkiru3nt9vYuRGGi4hWK2BR8miiGc5rOQ0JGNGa35p4PtBeznenbLDeyb+xGFNW63LBoZq75M3tyilbXSvjYZKjSqcrvHUuYgfC+ix3ZD0o5GweTJi9y4IE8GRl1Po0hy5NINFfPpXJmUIk4+Rz16YtOskUoHR+n+8WmcXHcFPAQAAAABJRU5ErkJggg==)![](https://cdn.sanity.io/images/599r6htc/regionalized/94a257614468eb378d2a2dacc4e0c12da8bf4b0b-2560x1440.png?w=2560&h=1440&q=75&fit=max&auto=format)
+
+_This series builds on our [Introduction to design systems course](https://help.figma.com/hc/en-us/articles/14552802134807?utm_source=Shortcut&utm_medium=Blog&utm_campaign=ds_101&utm_content=ds_101), where we cover design systems basics. You can also [watch it on YouTube](https://www.youtube.com/watch?v=Dtd40cHQQlk)._
+
+## [What exactly is a design system?](#what-exactly-is-a-design-system)
+
+At its core, a design system is a set of building blocks and standards that help keep the look and feel of products and experiences consistent. Think of it as a blueprint, offering a unified language and structured framework that guides teams through the complex process of creating digital products. A design system can assist in reducing the amount of time spent recreating elements and patterns while designing and building products and interfaces at scale.
+
+### [Components of a design system](#components-of-a-design-system)
+
+You can think of hierarchy in design systems like this:
+
+#### [1\. Design system](#_1-design-system)
+
+This top-level container is your overarching guidance, an ever-evolving foundational collection of resources and processes for your product ecosystem. It can include technical specs, design tokens, documentation, and best practices; it can also include core principles and processes to guide UX design decisions and product development.
+
+###### Component versus pattern libraries
+
+While both are integral to design systems, component libraries focus on UI elements like buttons and input fields, whereas pattern libraries address broader design solutions like navigation flows or data display.
+
+#### [2\. Component and pattern libraries](#_2-component-and-pattern-libraries)
+
+These are reusable visual elements and interaction patterns that inform the common interface and behaviors of your product. They can include templates, layouts, interaction patterns, code snippets, and components—supported by detailed documentation. These libraries bridge design and development by housing technical specs, code snippets, and documentation that transform design intent into implementation reality—making them a core collaboration point for cross-functional teams.
+
+###### Distinguishing between design systems and style guides
+
+While often used interchangeably, design systems are more holistic, including coding standards and usability, while a style guide is a subset focusing primarily on visual elements like colors, typography, and imagery.
+
+#### [3\. Foundational elements](#_3-foundational-elements)
+
+These set the visual language, including the appearance of elements and the overall voice and tone of the product, such as color and typography. They also commonly include icons, logos, illustrations, and your accessibility and brand guidelines.
+
+![A graphic illustration with numbered sections 1 to 3, containing orange, green, and yellow rectangles on a blue background.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAC4jAAAuIwF4pT92AAACU0lEQVQokSXJ20/aYADG4f7Fm/HA1CxRmMZTpFiWZRfGE1ARD1gVKA6pFGkLFSg4TqWdEwVpMzOg6/d97ZUpS56LX94Xu5z6/OvrtMnsQuEEchEgRCF/BrlTkKcAH4W5YyicgQIF+VPInQAhCrhjlIu83tI/IlXsanpB9c8Mkt+HzIGR2hsxpJEOGTdBgwkbadJI7RtMyMiEjXRwPJLGTeBfav+ZppKHEhZ3LTa+zTayIbnO9tsFTS3rSsnhRFlvFzWlrKuSppS0dslZnLeoVmuJyw4Wn3GLxGQ0QVAVmlfzvCJy7YJDyQtKgWuLOfmea9/ftcRss8DJIq8UhEcxV6tR8S6WmHHzvo8H1EroPpyRr7Myy7b4TIvPyNydzLMt4baZZ5t5ppFn6jzbFLIyf6cK7M+H8/gLRrs8AjERiq9RtW1FO+wPOG3Y0Ed1fdTQR7I+bGnDpj5sakNZG8j6sOnsRkt9fqFTfzB61i0QEyS9elVf6725IdxFFmnbe7YdsKxjyzqy7IBlBy0rgtCpbQdte8e2j/paKcW8YfSnRYH4QCaWYg1PfzAF4TKECxaattCc08iN0BxC8xAuQbiK0LxlTSLL89pPpm40LObycL4JMrYSq62//l02TdI0LwE4A+AcgIQJYgBQYwnTTI7jBIB4t/uQvNaxgGv7YmNrJ3wYTl8IxbhUqUqVF6nSHes5ql1J+q8nlZ2oVLUcp4dIHfsyW9xYFNc2W+v+37j/0Uc84sQTvtVx4B3c1/ERz7ivg3ufvN4n72bHh/cIv+7FNc9S/x2loAEjWqj+9wAAAABJRU5ErkJggg==)![A graphic illustration with numbered sections 1 to 3, containing orange, green, and yellow rectangles on a blue background.](https://cdn.sanity.io/images/599r6htc/regionalized/b3e84f473f41857213bc2cdd8c32503afb6f6b6c-2560x1440.png?rect=1,0,2558,1440&w=1080&h=608&q=75&fit=max&auto=format)
+
+1\. Design system, 2. Component and pattern libraries, 3. Foundational elements
+
+### [Design systems and UX: More than just aesthetics](#design-systems-and-ux-more-than-just-aesthetics)
+
+It’s a [common myth](https://www.figma.com/blog/six-myths-holding-you-back-from-embracing-design-systems/) that design systems stifle aesthetics, limiting designers’ creativity and enforcing blanket homogeneity across designs. Design systems support designers by solving for repeatable patterns and freeing them up to solve other challenges. By using a design system—[shared and maintained in Figma](https://www.figma.com/design-systems/?utm_source=Shortcut&utm_medium=Blog&utm_campaign=ds_101&utm_content=ds_101)—designers can reuse consistent components, set up variants to seamlessly switch between modes and screen sizes, all without having to copy and paste the same designs over and over again. Updates can be made in one place and propagated across the system, keeping everyone on the same page. That way, designers are free to shift their attention to the next problem, or go deeper on another, and ultimately create more intuitive, accessible, and enjoyable experiences.
+
+[![Image of a symmetrical abstract design with green and blue elliptical shapes radiating from a central orange square with spikes, against a yellow background.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAC4jAAAuIwF4pT92AAACpElEQVQokSWS209SAQCHz19kZs4rV1Gas+WwBA3inAOIlqSpNHtqy+eaQWjeUAO3AEkTsSHIRc8ROBYXtRIzAbkJruAhQW4Hm7b9Xr/t274fYEVHFJ9HpMaeT15GIEE/z1DyuXo8V4Pn6vAcBc/TillaIUvN50nnGVLgrGnZyxw1PJnXvTRtvACipx3b38F3NlBmBtddbPcRIxhqTB7Xpr9VXezVZnzE80Ny0k8NhunuX61GD0dm7ZJZhcgeFArfByJRtuuQrbCzJyygFuWpEUhna3cuNgbeViVflf+RVfqnic6PLTorS4VwtXb+hE0wb4e/+DihMBPw7A7q0cHRdaHExNMgAqWNN7fGVcsYO2JCQlSW6K/AhptUUpZcx1VYIA0qkJh7Xht7dciAy90HRGMc7ACcQcAxM7yI8pU2vnwNUkiZqJgS7y2PiyoRcfP7N5zpFUhphbR2wfhm9wwqwA64kWg7EInBmI8nR6FxC6xF+As2nlwPKaQsZIgaf3wjLrqFiJsVEs7MKrywBS9hXZNoz6xDiPngcLQD8O4/W3WIR03dUhOs2eIprfDc2kPVWBs2TEw8LTt7enPnOU0tY83pwf/wGPJIYu3TO4bcu/1A9PSB66hTYe+ctHC1CKxGQB3CdKzQA/Lq1HRFaqoyOEvElltWN1mabe6SUzCFdCmc8Nef7CvtcJSN7EPjVlBm5hpcbNcRIxhrSkXq0v7qrJ+Q9ZMzAXLqpCEYpnuOW43e61QW4dYufBJiAp69AYOzT4VxNn60npzd/puhFgrEUqGmVKjDixS8SCsVaHjh+iQX5NBvuung3gcHz7Dd73KJgGiMFY7fiaWoqTQplyfjOKmEEy6LtZd4fQlvwPHG0tUaSjgJLxHyBUIqTYkl6ZHTu5FI2z9SqJ+rBU2s/gAAAABJRU5ErkJggg==)![Image of a symmetrical abstract design with green and blue elliptical shapes radiating from a central orange square with spikes, against a yellow background.](https://cdn.sanity.io/images/599r6htc/regionalized/5b6d531eaf0852b4f4c48316c84b449777dd822c-2560x1440.png?w=2560&h=1440&q=75&fit=max&auto=format)](https://www.figma.com/blog/six-myths-holding-you-back-from-embracing-design-systems/)
+
+Designer Advocate Ana Boyer [debunks six myths](https://www.figma.com/blog/six-myths-holding-you-back-from-embracing-design-systems/) that may be holding you back from embracing design systems.
+
+### [Why use a design system?](#why-use-a-design-system)
+
+The impact of a design system lies in its ability to streamline workflows, ensure consistency across a product, and foster collaboration among cross-functional teams. Whether starting small or [scaling across multiple platforms](https://www.figma.com/blog/creating-coherence-how-spotifys-design-system-goes-beyond-platforms/), a design system can enable a team to do more with less—not just when it comes to designing features, but also when building the real deal.
+
+A design system is a single source of truth that reduces design redundancy and [accelerates the development process](https://www.figma.com/blog/how-razorpay-sharpened-developer-workflows/). By using the design system, designers spend less time remaking components, and instead pull from a library of brand-approved, development-friendly options to swiftly build out designs. When components are designed with code, tokens, and animation presets, developers can translate them into functional, accessible code, in a fraction of the time. Companies who leverage design systems have witnessed a transformation in their product development lifecycle, achieving faster time-to-market and a cohesive user experience.
+
+For new designers, a design system can serve as an onboarding tool, educating them on the product and principles, and enabling them to contribute sooner. As the system matures, it can provide teams with a shared vision and language that leads to better understanding and more consistent products. This, in turn, can increase trust with the people using your product, leading to a more engaged and loyal customer base over time.
+
+![A screenshot of a design system interface displaying color styles and typography. The color palette includes black, white, a range of greens, blues, an orange, and a purple. On the right side, typography examples are shown, including 'Display 72', 'Heading 48', 'Subheading 36', 'Body 18', and 'Mobile Display 60', demonstrating different font sizes. Below, there is a table listing component spacers with names and size values for desktop and mobile.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAAC1klEQVQ4jYWU2VLbQBBF9f8fEyo8kAQIwSwmGDA28iJblmTtsqTRZi1eualuMEVeElV1jXqmdKZv9y1JR+fPOMTXnz2ctF7w42bAcXr7Fvz+vkfnrQcFjh9jtVphu91iv9/j9fWVQ/py1sUhvl3JeHjRMFItjGc2poaHmRlgqntQDQ9Tw8ejrKP9rGLuLLBcLlFVFYM3mw3DpaPzLg5xfjfCbO5DJCnSNENZVWhWK1RVjbpuUFY1X9Dpz6DNXcRxjCRJGEzQ9XoNqdWZ4LKj4PJ+jM6LxlLo1vV6hd27nN1uz+tms8XcifAg69AtH7EQEEKgKAqG7XY7SEGUwVskcAMB149gOy5c10OeZ8gyARHkCL0tAm+NdJFA122WTZKpOiEE8jznCrmHpJvoFMuyhDwZ4eapDdOdwNJ6GN/K6LcE+p0crmJCG6t4lDWYbogszxlW1zX3j4FEPjS2XjWQHRWXahtm3IewOjCvr6FeKbDUDCIQmM0srtDyIpRliaZpWOrHlIlOPSBo1dRwiwhabiFtHDSZiUAZYPo8gqZ70O0I3eEcd70ZLDfkYTSfqqNHohvogKBUfr4sUFRL1E2JsixgmB6uO2Oc3Q5x1h7i5ErGxe8R28rxQ/iLGJHIkOYlsqKCRDAafxAEiKIIaZJwTu9RLKDoLk7bQzb98UUPx796+H4zwG13yp59lDU8DQ08j+YcUpZlcF0XhmHA8zwGOY4D0zR52mPVRquj4Ppxwr3r0odjE72xie7Q4OgrFudPAx0SyfR9H7Ztc5VUHeUE9fyApd33NTZ8nGTIihJFWfNKUmPeq5DllKdvkslLYRjymqbph+QwijHRHDwNDHgLwfYgw+/3O54sWW2z2eCVzb/jiUs0DPr4UB2ZleCUB4sQyicgOeFgkwPw8HOglS7kHn6WTHDqqWWacKiHM5uB7kL85bvPQLLM/4GW9TaUdyBV+C8g5QT8AzHtnwRhYDWEAAAAAElFTkSuQmCC)![A screenshot of a design system interface displaying color styles and typography. The color palette includes black, white, a range of greens, blues, an orange, and a purple. On the right side, typography examples are shown, including 'Display 72', 'Heading 48', 'Subheading 36', 'Body 18', and 'Mobile Display 60', demonstrating different font sizes. Below, there is a table listing component spacers with names and size values for desktop and mobile.](https://cdn.sanity.io/images/599r6htc/regionalized/876225f41a3f420c161b8b2dc62aa018f88fb73a-1080x864.png?w=390&h=312&q=75&fit=max&auto=format)
+
+Figma allows teams to standardize styles, variables, and components so that everything from color to padding scales seamlessly across your products and brands.
+
+![A user interface mockup showing various elements of a design system. It includes buttons, icons, color swatches, and typography samples for a fictional brand 'World Peas'. The layout displays button options, link labels, and navigational icons in a black and white theme. At the bottom, there's a section for a 'Farm Fresh Email Newsletter' sign-up form, product listing with price tags, and an 'Add to basket' button. The elements are neatly organized, showcasing how a design system maintains brand consistency across different components.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAACaElEQVQ4jWVT30sqURDeP9xAwiypHsoHX6Lw3SIqUkz0QZCuCEmQT8JNVk1Xd91fruuetS++uZxul7swO3PO7PedOfPNGkEQoN/vo9Vq4e3tDZ7nYbvdIooi+L6PzWYDpRTSNBVjjhjXdSUfRRHiOJb93W4Hg4lOp4Pb21s8P//CcrH8Jlsul3IASQmgrddr2Z/P5+L9H6Q80OBH1tzC+/s7JpMxPN8X4CaO5WNaGIZCShDBrJDE+qCEFsfYJQmMdKcQbzcI12v4fgDf9RHSe55UYJomxuOxVPTx8SF7juOIX9HbNrzVCvHKgwpCGImK4PgWptYM85kDy7Qw+21iapoYDoeo1+t4eHhAs9mUtvR6PQwGA1k3Gg1UazX0ul04sznSaANDpTG8wIFlL+HYHlxrBWdmYWXbUh1JTk9PcXx8jIODA1xcXOD+/h6Xl5c4OTnB0dGRxBQ0VQpGmirpkeu5CIJQ+qSSRBSjIFS/UCggk8lgf39f4nK5jFKphGw2i729PZydnUnlnAaDyrDBBLPZotYuBR/26ebmBrlcTsAkLRaLuLu7w9XVFQ4PDyVH8peXl7+EVIukVJCqMcEKeQBHiiT5fF6ufn5+jlqthna7jUqlguvra2nL6+vr/4Q/h5iENFZJ8OPjo5BXq1V0u11RnqNmmiZGoxEWi8WfwdZXZjUk5Prz81OMMff1EDO2bRvT6VQmgESu634PNTH/9JBeX1cT6kEWsZRCkiRSFa/99PQkMXMaYzDQIFZIAE2fSM+1bgU9B5zq0yaTyfd/LIR8EcBTNFCDmeOjW6DXJGALLMuSW/1s0xeSk/yQE7oQ2QAAAABJRU5ErkJggg==)![A user interface mockup showing various elements of a design system. It includes buttons, icons, color swatches, and typography samples for a fictional brand 'World Peas'. The layout displays button options, link labels, and navigational icons in a black and white theme. At the bottom, there's a section for a 'Farm Fresh Email Newsletter' sign-up form, product listing with price tags, and an 'Add to basket' button. The elements are neatly organized, showcasing how a design system maintains brand consistency across different components.](https://cdn.sanity.io/images/599r6htc/regionalized/8843a69171ad6e0d84aa973d3505d6d5045e2b1c-2063x1419.png?w=804&h=553&q=75&fit=max&auto=format)
+
+Component libraries contain the building blocks of a product. This might include individual components, layouts and templates, and interaction patterns.
+
+### [A brief history of design systems](#a-brief-history-of-design-systems)
+
+The first noted mention of ‘systems’ or ‘patterns’ in use was at [NATO Software Engineering Conference](https://en.wikipedia.org/wiki/NATO_Software_Engineering_Conferences) in the late 1960s, credited mainly to Christopher Alexander. His book “A Pattern Language,” published along with Murray Silverstein and Sara Ishikawa, discusses the interconnected patterns in architecture and is considered to be the origins of what we know today as “design systems.”
+
+The concept of design systems has matured alongside technology itself. Design systems trace their roots to the early days of graphic design and print media, where style guides and typographic standards first introduced the idea of systematic design. As branding became vital for businesses in the mid-20th century, the need for consistent identity led to comprehensive brand guidelines.
+
+With the [digital revolution](https://en.wikipedia.org/wiki/Digital_Revolution#:~:text=The%20Digital%20Revolution%2C%20also%20known,of%20digital%20computers%20and%20digital), the principles of these systems were translated from paper to pixels, growing in complexity to match the sprawling web and burgeoning app market. Giants like Apple in 1987, followed by Google, IBM, and Microsoft, pioneered comprehensive design languages that would dictate the look and feel of countless user interfaces. These systems were crafted not just for aesthetic unity but for practicality, offering clear documentation and reusable patterns to speed up development and streamline UI design, addressing the burgeoning needs of digital product teams.
+
+In 2006, Yahoo! released the Yahoo! Design Pattern Library and Yahoo! User Interface Library ([YUI](https://en.wikipedia.org/wiki/YUI_Library)), which sparked mainstream interest in pattern languages. Google’s Material Design was the first to be a self-proclaimed “design language” in 2014. ([Wikipedia](https://en.wikipedia.org/wiki/Design_system))
+
+[![Image of the cover of a spiral-bound document titled "National Aeronautics and Space Administration Graphics Standards Manual." The cover is minimalist, with the iconic NASA logo in red at the center against a plain white background. The text and logo are in a simple, bold typeface, and the date "January, 1976" is noted underneath the manual's title, indicating the document's vintage.](data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAaABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAYFBwgE/8QAKhAAAgEDAwIDCQAAAAAAAAAAAQIDAAQRBQYHEjEUIUEiIyYyYXGCkrH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAZEQEBAQADAAAAAAAAAAAAAAAAAQIRMTL/2gAMAwEAAhEDEQA/ALA472HpOvbbS9vlmM7OwJV8DypiXifQek9YmJ+j108O+3smIAkZdxkfemVdIdZFbx1wcHOCe9TbZ1GmM516vDN+/wDSYNE3RdWFkCII8Y6jk9qKluWV+OL71+X+UVTNZnDN7bxbJgE08SMZGOGYA96fBfWp7XMJ/MVjCGeVcBZXAB7BjUra3M+R76T9jQOfKjLJva+ZGDKenzBz6UUqszOep2LE+pOaKD//2Q==)![Image of the cover of a spiral-bound document titled "National Aeronautics and Space Administration Graphics Standards Manual." The cover is minimalist, with the iconic NASA logo in red at the center against a plain white background. The text and logo are in a simple, bold typeface, and the date "January, 1976" is noted underneath the manual's title, indicating the document's vintage.](https://cdn.sanity.io/images/599r6htc/regionalized/6a85f3c477a44406793ec20d0247f9658d173b53-519x678.jpg?w=519&h=678&q=75&fit=max&auto=format)](https://www.nasa.gov/image-article/nasa-graphics-standards-manual/)
+
+The introduction of Brad Frost’s [atomic design methodology](https://atomicdesign.bradfrost.com/chapter-2/https://atomicdesign.bradfrost.com/chapter-2/) in 2013 was a pivotal moment, redefining the structure of design systems. This approach not only revolutionized how we think about UI components, organizing them into a clear hierarchy from atoms to molecules to organisms, but provided a shared vocabulary for design and development teams. Just one year prior, I was also beginning my own exploration into systematic design, sparked by experiences with the [Twitter Bootstrap framework](https://en.wikipedia.org/wiki/Bootstrap_\(front-end_framework\)) and insights gained from industry conferences. Influenced by writings and talks by Bryan Haggerty, Laura Kalbag, and Josh Clark, I recognized the necessity for a systematic approach that could adapt to the rapidly changing landscape of device platforms and [little glowing rectangles](https://bigmedium.com/jhc/prez/mobile-myths.pdf). Drawing inspiration from graphic standards manuals of years past and frameworks like Bootstrap and [Zurb Foundation](https://get.foundation/), I began rallying a group of my co-workers around this idea of creating standards, reusable assets, and documentation—that together would later become my first of many design systems to come.
+
+![An open ancient book with two pages visible, showing dense Latin text, red rubrication, and large illuminated initials.](data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFBgf/xAAjEAACAgIBAwUBAAAAAAAAAAABAgMRAAQFEjFBBhMUIlGR/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEDBP/EABcRAQADAAAAAAAAAAAAAAAAAAAREiH/2gAMAwEAAhEDEQA/AOpeoJJFfZEcjLSLVHtiGy0i7bhZGA+OGq/P7mj3eOgmjLSdZZ1Aaj+YknHa+wzyuHvp9ug3gZisrCPyygzxEk2YlJ/mGUeQ0Vk2Pq5VVUKBV9sMNJ//2Q==)![An open ancient book with two pages visible, showing dense Latin text, red rubrication, and large illuminated initials.](https://cdn.sanity.io/images/599r6htc/regionalized/aa2953405e3b829dc3e8eb1b4df97b80f997fcb3-1280x851.jpg?w=1280&h=851&q=75&fit=max&auto=format)
+
+This journey reflects broader trends in the field, from the creation of pattern libraries in the early 2000s to the adoption of responsive design practices. These milestones underscore the significance of design systems as indispensable components of modern digital toolkits. Today, design systems are comprehensive resources that guide the creation of digital products, ensuring they are not only visually cohesive but also intuitively usable across various devices and platforms. This evolution from rudimentary guidelines to sophisticated frameworks illustrates the dynamic interplay between technology and design, marking a continuous quest for efficiency, consistency, and innovation.
+
+## [How do you know if you need a design system?](#how-do-you-know-if-you-need-a-design-system)
+
+![Image of a cylindrical stack of green, yellow, and red striped disks, creating a layered effect, against an orange background.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAC4jAAAuIwF4pT92AAACgklEQVQokSXS2U4TYQAF4HkYO52tlKWUTVo6tJ1Sg5CIQYl62/ln6VCxZbayqLEJS1zqHd4IxQLB0oJt6nLhRtxAUkO4MRENWBro/MMjaPUBvpzknINA3goFrCyRn/S25enAw/v9iQeD48krWvKanrw6nrycuDeYnBlI3wp+Hu04EuwmwE3WYrIoBCQCeQzy2KFEvlPbUolAcrpvanrg9uylyZmhydmhmzODiamLd+9ceDTRm1fo3YjziKcgazFDKGRJBHIY5PGKiO9F6jejzS9jrRuxzlWZTqv+RY1Jaf6U5kvpzLwWeKwHn2rMZrR9X6QM1mrWMI9DgTRE4lggfvPYdw7/ItS/GW59NXK2EHVvxNxZ2bOi+eb1c3Pxvrmx/rTe8/F6yxGgTGBDDI40BAqKlCkQBo/94In3w83FaGdhtGtDoXMKvabSq5o/rQcX9N4F/fyy0rMZaS8DOwQNCOT/Y9IQyUOJ2r7RlJddGdWb0fxrGpPVvDmVzqndWY3JaD1rarAY9ZbCzgqog1wjAgUcigQU8YpEfR11rI+7l+K+JZ1Z0QMZPZBVfeuypyC7izL9Qva+jtE7wx0HnN0AFOTr/7Vd89iBRL5VWlYmPItjvidxZjnOZOL+rNa9rnieKe6C4nku0x9GXD9FhwEIExCQsyNmDWNQsJZFfGukoai05xTXP+DJK7XMguwqyO683FWMdW1F2sp8ncmiJmuFgEJqJ+ExU7BWBeyXSOxJtm9SYyns2JGc2+GW7bBzJ9xUkhpLUtOu5NgXGqqAOA2dqe0MSMTkUMjjpoCZAmbwqMFZqgA/YaljYKsAe4WtOw4RJyG0yqJVjjQ4m1nDltMQ+nfnP1c1QX8QYAP8AAAAAElFTkSuQmCC)![Image of a cylindrical stack of green, yellow, and red striped disks, creating a layered effect, against an orange background.](https://cdn.sanity.io/images/599r6htc/regionalized/c2ec7935a7200553532c040462f10487fe4ab1cf-2560x1440.png?w=2560&h=1440&q=75&fit=max&auto=format)
+
+Figma Designer Advocate Chad Bergman and Product Manager Jacob Miller host Building Blocks, a design systems office hours. [Watch past episodes on YouTube](https://www.youtube.com/watch?v=4LiXk_T3O74&list=PLXDU_eVOJTx4ubs6h9Y0KkhLSx4uCOseA&index=1).
+
+###### One size does not fit all
+
+As you go through your design systems journey, keep in mind that there is no one design system that fits all. Different companies have different needs, which require different solutions.
+
+Pinpointing the perfect moment to implement a design system isn’t an exact science. Instead, it’s a strategic choice informed by a blend of benefits, potential challenges, and the unique hurdles your organization faces. So when might a design system actually be the right decision?
+
+The decision to adopt a design system should be driven by specific needs:
+
+#### [Check for inconsistency](#check-for-inconsistency)
+
+Scrutinize your product’s look and feel across different platforms. If you find jarring inconsistencies or a brand identity that loses its thread from one experience to the next, it’s a sign that you may need a design system.
+
+###### A developer’s perspective
+
+For engineering teams, design systems provide predictable, documented patterns that make implementation more straightforward. Developers can focus on solving complex technical challenges rather than debating UI inconsistencies or reimplementing similar components across different parts of the product.
+
+#### [Consider diverse themes or platforms](#consider-diverse-themes-or-platforms)
+
+Does your product need to shift seamlessly between themes (like a dark and light mode, or different brands) or fit a variety of device platforms and screen sizes? A design system could be the key to managing this complexity with grace.
+
+#### [Cut down on redundancy](#cut-down-on-redundancy)
+
+Take stock of any repetitive design tasks or recurring issues that eat up your team’s time. Standardized components from a design system can streamline your process, while giving developers consistent patterns to implement, reducing back-and-forth clarifications and accelerating development cycles.
+
+#### [Enhance communication](#enhance-communication)
+
+Look at how your team communicates about design. Are there misunderstandings, or do you waste time clarifying design elements? A shared design language with technical specifications can iron out these wrinkles, creating a common vocabulary that both designers and developers understand.
+
+#### [Ease onboarding](#ease-onboarding)
+
+Consider the onboarding process for new team members. A robust design system can make this transition faster and more effective, getting everyone to contribute sooner.
+
+#### [Boost lifecycle efficiency](#boost-lifecycle-efficiency)
+
+Reflect on your product’s lifecycle. If there’s room to speed up design, prototyping, and updates, a design system can be a catalyst for efficiency. When designers and developers work from the same source of truth, implementation becomes more predictable, reducing QA issues and accelerating every stage of product development.
+
+Before you commit, evaluate your team’s current workflow, the user experience of your product, and the specific problems that need solving. A thorough discussion with your team will help to pinpoint the necessity and potential scope of a design system tailored to your needs.
+
+[![Three sections titled "Iconography," "Color," and "Typography," featuring icons, a smiling sun, and letters with numbers.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAACa0lEQVQokX3SSU9TYRjF8UsHUECICsYhDsQQd2r8KCgQY4y60G/gzi1rE1cWKG1FC5RZIEi1gqASvb0gagRNBBuNiTI4IAXbe8/fdIjgxsWTs/vlvG+OIcvgn5sykFmCovUQ7kfBOAqZKGiiUBwCPai5BvmK4aYBPkP4DJTLtMGUwd+z8mmWQLQehfshaEHIzJ+FtoKb0Cb434Ztfah1FKctghPuRK1jEOiGphrwFaNMw5uGMk2Vyxy48ayAtacFJCddrD01SE2W5sD2MHbXdZJDZ0gO1WF33UCtd1BLLfKXgd+NAkWipRD5vaLZnQN/Pnax+NDD8piHLzEXvyZ2oNhZNOjHfnCZ5ONKkuN7sEeuoG4/aj+PIgegpxL17Re9e1HnbtFWngN/TLj4EvNk0c/33axOlOE8v0B6uoffL6+xMX2MDfMYqdhVnO4QilxEd6vhXhWKVovhKtS7V0R2pQ3HMrLQ/FARieEi5ge9fBsvx3lxidTsI1bfjvBtroHvrxtIjvXhtHfD7XOo6zDq34cGDkq9+1C4XNwqzj8529DN0qibxYcFrD0pQ+PnsB9EWTVn+brwiqXEG5Lxdzg9QxCoRYGdECyE0DYRLAK/R2rK/6FjuUhbxaStcmzLi8xSiNbhdA6w9miOpQ8fWfn0mfX4fBaU/zTylaAmL05LmdS8HfkK8jvMTGW6EPvlUVKvT+HMVEJ8Rw6MDJAcnWV5IcHKQoL1sTmcO/2Q2WFjKU5oD6mOk7JvH0GN3txssuBUBqwi/eoEzkwFMreAsVmW5xOsvE+wfv8NutWb3WEWDFaQ7jguu/UQavRkwT8MJoc5U/x4VgAAAABJRU5ErkJggg==)![Three sections titled "Iconography," "Color," and "Typography," featuring icons, a smiling sun, and letters with numbers.](https://cdn.sanity.io/images/599r6htc/regionalized/328ba932a87ac5eaf428d374af492a00179e9487-3840x2158.png?w=3840&h=2158&q=75&fit=max&auto=format)](https://www.figma.com/blog/building-a-design-system-that-breathes-with-headspace/)
+
+### [Anticipating challenges in implementing a design system](#anticipating-challenges-in-implementing-a-design)
+
+While design systems offer a multitude of benefits, they are not without their challenges. Understanding these hurdles can prepare you for a smoother journey toward a more cohesive and efficient workflow.
+
+#### [Ongoing maintenance](#ongoing-maintenance)
+
+Firstly, akin to any product, a design system demands continuous attention and effort—not just for its initial setup but also for its maintenance. Just like great products, which continue to evolve, a design system is never truly done. Keeping a design system updated and relevant requires a dedicated stream of resources and time, making it a long-term commitment.
+
+#### [Delayed gratification](#delayed-gratification)
+
+The impact of a design system is profound, yet it unfolds over time. This slow reveal of benefits can sometimes hinder buy-in from leadership, particularly if it diverts resources or focus from immediate project goals. The initial investment, both in terms of time and potentially expanding your team, might be significant before the tangible rewards become evident.
+
+#### [Resource allocation](#resource-allocation)
+
+Allocating the right resources is a balancing act. Beyond the initial development, design systems need ongoing input from designers, developers, and product managers to remain effective. This might mean rethinking priorities or even expanding your team to ensure the design system doesn’t stagnate.
+
+#### [Cultural transformation](#cultural-transformation)
+
+Perhaps one of the subtler yet more complex challenges is the cultural shift required to integrate a design system across an organization. It’s not just about adopting a new set of tools or processes; it’s about changing how teams communicate, collaborate, and conceive their work. To truly embed a design system into the fabric of your organization, you’ll need champions—advocates who are committed to its success and can persuade others of its value. Importantly, as the system continues to grow and evolve, it should mirror the changing needs and contributions of its community, making it a living resource, shaped by those it serves.
+
+Getting everyone on board with a design system can feel like an [uphill climb](https://www.figma.com/blog/uphill-thinking/). It involves educating and convincing various stakeholders of its long-term value, which requires clear communication, demonstrations of its impact, and a strategy for widespread adoption. This often means creating and nurturing a community around the design system, one that spans different departments and roles.
+
+By acknowledging these challenges upfront and strategizing on how to address them, you can set the stage for a more effective and embraced design system. The journey may be complex, but the destination—a more cohesive, efficient, and scalable design and development workflow—is well worth the effort.
+
+## [Next steps in your design systems journey](#next-steps-in-your-design-systems-journey)
+
+Implementing a design system is not just about creating a set of standards; it’s about building a culture of consistency, collaboration, and efficiency. Starting your design system journey is exciting, and there’s no one-size-fits-all approach. If you’re not ready for a big leap, small updates can still make a big difference. Check out our [other design systems articles](https://www.figma.com/blog/design-systems/), our [Introduction to design systems course](https://help.figma.com/hc/en-us/articles/14552802134807?utm_source=Shortcut&utm_medium=Blog&utm_campaign=ds_101&utm_content=ds_101), and resources such as [open design systems](https://www.designsystems.com/open-design-systems/?utm_source=Shortcut&utm_medium=Blog&utm_campaign=ds_101&utm_content=ds_101) on Figma Community.
+
+Slide 1 of 6
+
+[![Uber's Base design system UI Kit, featuring a monochromatic network of icons and UI elements, symbolizing interconnectedness and tech-focused design.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAABqklEQVQokU2TyQoCQQxEB9x3Z0adUcd9A0VPKngRQQTx4P//TckLRjyE7k6qK5V0Osjn8yoUCsrlcmJfKpVUr9fV7/c1n8+1WCw0mUwUhqHK5bLFHVer1dRoNNRsNs04B1EUKY5jc7RaLfV6PbPhcKjZbKbVaqXlcmkJOp2OxbjT7XaVJIkl4t6P0AOsGESj0UhZlplNp1MjhhAcvsFgYOZJoigyQlQHsKIQABdcHQY4TVNLgJ8zJGCJs6ZpajFUGmGxWDTZ4/HYAFxiT/8AQ4Aq/O1225KCw/dPGsexkZpCJLt8LhyPR91uN51OJ53PZ1sPh4PW6/WvZFSDTb4JUEnCAHWwQ0YGiK/Xq97vt+73u57Pp16vlx6Phy6Xi/UTAqrgThiGppD+26PAysEVYijZ7/fabDba7XbabrdGRIkoQh2P5X1NvyVXKhUFzNz/o7hiQJj3rlqt2kuCo7+MEvOZfXsJDsyvh2TzV4bIgZx9pKgCkv+BBwOWmD0KWQF7uZD6zOGHkDPmSX2siFORfwZ+TYBMSvJJZ/Xpx+9JaANxzBMR968HD1/yA+D8McJCeJi9AAAAAElFTkSuQmCC)![Uber's Base design system UI Kit, featuring a monochromatic network of icons and UI elements, symbolizing interconnectedness and tech-focused design.](https://cdn.sanity.io/images/599r6htc/regionalized/936013fa148086b3e58ea8ee1846c2caff06091e-1920x1151.png?rect=1,0,1918,1151&w=480&h=288&q=75&fit=max&auto=format)](https://www.figma.com/community/file/805195278314519508)
+
+Uber’s Base design system
+
+This is an ongoing series, with much more to come. What else would you like to learn about? [Tweet me](https://twitter.com/dotdude) and [@figma](https://twitter.com/figma) with your questions. This series builds on our [Introduction to design systems](https://help.figma.com/hc/en-us/articles/14552802134807?utm_source=Shortcut&utm_medium=Blog&utm_campaign=ds_101&utm_content=ds_101) course, which you can also [watch on YouTube](https://www.youtube.com/watch?v=Dtd40cHQQlk).
+
+_Learn more about how Figma helps teams of all sizes drive consistency, scale designs, and maintain parity with development using our [design systems features](https://www.figma.com/design-systems/?utm_source=Shortcut&utm_medium=Blog&utm_campaign=ds_101&utm_content=ds_101) or [request a demo](https://www.figma.com/request-a-demo/?utm_source=Shortcut&utm_medium=Blog&utm_campaign=ds_101&utm_content=ds_101)._

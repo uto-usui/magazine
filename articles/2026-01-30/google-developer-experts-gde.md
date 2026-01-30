@@ -1,0 +1,45 @@
+---
+title: "Google Developer Experts (GDE) になりました"
+source: "https://blog.jxck.io/entries/2016-08-30/be-a-google-developer-experts.html"
+publishedDate: "2016-08-30"
+category: "web-standards"
+feedName: "blog.jxck.io"
+---
+
+## [Intro](#intro)
+
+Google の中の人からお声がけ頂き、Google Developer Experts (GDE) に Web Technologies の Expert として Join することになりました。
+
+## [GDE](#gde)
+
+GDE は、簡単に言えば Google の技術についての啓蒙などを行う、社外アドボケート的な位置づけである。
+
+-   [https://developers.google.com/experts/](https://developers.google.com/experts/)
+
+各自専門領域(Android, GCP etc)があるが、自分はやはり Web Technologies ということになる。
+
+Web に関する多くが標準技術であるため、Google Developer Experts という名だが、別に Google や Chrome に限った内容を扱うわけではない。
+
+## [活動](#活動)
+
+実際に何をするかというと、特に明確なタスクを詰まれるといったわけではないとのこと。
+
+これまで通り[コード](https://github.com/jxck)を書き、[ブログ](https://blog.jxck.io/)を書き、[コミュニティ](https://http2.info/)を運営し、[カンファレンス](https://nextwebconf.connpass.com/)で発表し、[ポッドキャスト](https://mozaic.fm/)で議論したりしながら、Web の技術についてのアウトプットを続ける。
+
+つまり、基本的には今やっていることをそのままやってれば良いとのこと(なので受けることにした)。
+
+むしろ、そうしたこれまでの自分の活動を踏まえて、声をかけて頂いたようである。(選考過程で別の GDE による面接があったが「君の活動見たけど、僕より君の方が向いてるよ」と言われた。)
+
+また、Google 関連のイベントで GDE として話したりする機会や、他の GDE や Googler とのこれまで以上のコミュニケーション、これまで接点の無かった場での啓蒙活動など、活動の幅も広がって行くと思うので、新しいインプットをアウトプットに繋げながら自分の活動がよりブーストしていければと考えている。
+
+## [今後](#今後)
+
+肩書きが増えたからといって、活動自体が特別何か変わる訳ではないが、趣味の延長でやってるような自分にとって活動の幅が何か変わるなら面白いなと思って受けることにした。
+
+一方で自分が軸としてやりたいことは変わらず、進化の速い Web について「_今何が起こっているのか_」を解釈し、「_これからどうなっていくのか_」を議論し、そこから得られた知見を自分ができる範囲で共有しながら、Web が少しでも面白くなればと思い、引き続き活動していきたいと思う。
+
+別に Google 関係なく勉強会やハンズオンなどで依頼があれば、可処分時間が許す限りは協力したいと考えているので、Twitter などで気軽にお声がけ頂きたい(それも別に今までと変わらない)。
+
+今後ともよろしくお願いします。
+
+Jxck

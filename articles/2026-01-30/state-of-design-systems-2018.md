@@ -1,0 +1,83 @@
+---
+title: "State of Design Systems 2018"
+source: "https://www.figma.com/blog/state-of-design-systems-2018/"
+publishedDate: "2018-12-19"
+category: "design"
+feedName: "Figma Blog"
+---
+
+Every company has a different take on how to build design systems, so it can be hard to parse the universal truths. What is a [design system](https://www.designsystems.com/), exactly? Who are they for? When is the right time to create one?
+
+Best practices are emerging amid the diversity of approaches. We partnered [with Clarity](https://www.clarityconf.com/), the design systems conference, to paint a picture of the common themes. We surveyed 499 practitioners across the field to share their perspective on topics ranging from when they started their design system to whether they have a dedicated team to maintain it.
+
+We asked a mix of multiple choice and open-ended questions, and drew 8 high level takeaways from people's answers. To bring the data to life, we captured some of the speaker highlights from [this year’s Clarity Conference](https://www.clarityconf.com/2018) in New York City.
+
+Read on for the 2018 State of Design Systems Report!
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAACfElEQVQ4y22V2YoCQQxF5/8/w2/wwSdREBFRUERw3/d937qqa/qkTKPDPBS15ObmJqmu/gmtcaG1Lgz/G+F7WI/5HH8xcm7cDwsTBO7xeLj7/e6CaG2js9fr5W63m5wZY8SJc2ttvMZ2uVzEVzDRmRBiWK/XbrlcCgCyw+HgJpOJm8/nQkwgcKyxP59PwQ8GA7darcRmPwkx4ny9XgW82WwEPJvNhIShmOPxKKr2+73sd7ud+HiFoSfEgDNrjETtdrvxGSTsm82mWywWQojS8/kcibh9p4wRRQzWpLfdboWAQASgFOPx2PV6PQmmNUcl5WEvhORNOkrImmiA+v2+qIGQUkAOKThVTZ3JAqWWLtvImc10OhUwIFIhMnvqhrOqQfnpdBJFBKXODPy+CIlCNECoYY9CJUQlOBy10xCDQzklkS6THgR0iugYtAHtdlsItQHYIIFQA+CjNbS+hkYU+G554uFwKGopPveTc0gIpCo5h4gAzNhjQiJDxEw9isWipAKQOmJjTYOYUc31YWYPFgzZxl0mEkpQVq/XpZOowQlFNITGaWlGo5HMmhHZ8AkLIUQ4oLDT6bh8Pi8gHAgAOYqy2axrtVpCTI0h0YzYB1GdhfAcqaMmKEFdKpWKvwguMl2sVqsumUy6Wq0mZSCwfk25XE72MSEKtcAoUIWoxolAdDyTyciMYurGOSmjkmysed9DLTTASqUiChuNhoBQiVOpVHKJRMIVCgWpHxmAJzNEgDMm8F1WhTSBaOVyWZz0eqjCdDotgTiDgJrrTSC4dDl8P5o69GHl4vJIsGfWB+L5fkz9o+t9sH+8NubPcx9+P/0fT737167n/hfwC05B7tGlvCM8AAAAAElFTkSuQmCC)![](https://cdn.sanity.io/images/599r6htc/regionalized/6e0610c31a80148758700bf0f6422bdbaaba4279-800x800.png?w=804&h=804&q=75&fit=max&auto=format)
+
+Survey respondents came from many industries (banking, education, retail, travel and more)
+
+## [1\. Design systems are still in their infancy](#_1-design-systems-are-still-in-their-infancy)
+
+It’s difficult to pinpoint the exact start of the digital design system movement. There were many instigating moments, from the publishing of [Brad Frost’s atomic design book](https://www.designsystems.com/brad-frosts-atomic-design-build-systems-not-pages/) to the advent of [Google's Material Design system](https://www.designsystems.com/googles-material-design-a-design-system-with-mass-adoption/) in 2014. That was less than half a decade ago, so many companies’ design systems are still in their infancy.
+
+**Two thirds** of respondents to our survey said their design system was only at stage 1 or 2 -- i.e. their system isn’t documented (stage 1) or they don’t have a dedicated team building one (stage 2). The aspiration for more is there -- **86%** of the respondents wish their design system was at stage 3 or 4, where there’s full-time employees maintaining their system, and the system is public (like [Shopify’s Polaris](https://polaris.shopify.com/)).
+
+At the Clarity conference, speaker [Dan Mall](https://twitter.com/danmall) predicted that although design systems are still relatively new, the methodology behind them is here to stay. Much like responsive design practices, design systems are becoming “the way we do things now.”
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAAClElEQVQ4y5WUC2/TMBDH9/0/EEJIg23dYJpgTGMMbeuDtmmTNC/HefmZP2enK+0GQlT66xrb9/Od7+yj3hr01qLv90Tf1ststf9tX6/f+jjW0TDZH8g5SSHBOUdRMFLhLSNVFYeScgs69HMsD6QvHP56KCUJkiMM1wiCJVarAGv6n+U5hFR45bED9kM6XdeBlw0qJlGVGryQyDY1wlWBYJ5itUiQRjFatoHtCvSiJHEY2cFouw/sIaXA+GmKi5NvuDxe4/MJw5dThuuRswWu3ue4Pt0guPkB9fMCCEbAcgSz+Ig6mKJmBDW9P4YdcDKe4dPZHa4+hLg+G2A35wxfRwP89jzF+vYBev6JgA56DrO8RL2aoTkEDimLTqDiLWqu0HAzqBps7f9rqKajNCtADupJhoIxxv67KNZqSCUo+s5n4CSouq4g2gH+WpSXbUOTLuK6brDZJFivQ68wihDHMdI0obna96TbeAim/zPQWjdI1mg0dYWMnOMoRETtEpFNaIMsy/1muzRf9SGdodYaWVIhmDLkiwh6M4ZJ7qHje8j4O0R0hzocIw9zJFGLLBYoUuXFMoWuMUMwv6ssMXmMqV0WmF3eQTwcA9M3pLfA7B16Uju5QvgUYf7YYv7UYjEmkV1OWjACG/0MdNeMgGnCEc5LsHUClcxhsjFsMUXPZl4qD1BlnCKSKHPl5aJztmv3InTpMsa8hBB0TzW1CTmxFm3T+s00XUPTcYiakbMbU3TX3TlLNLTG+TmOK9QO6B6ArqPFQlE/0j3OaoJyX1FB46ot0ZQZXU+yTUNgibrqUJacHoyK1rjmJqCjOqiTG7DGFclsoxBDhNqdkfKvjPRZKL9GK+3nn9fYZ+DuKXr51tn/k2P9Ai1JHtQfVDoxAAAAAElFTkSuQmCC)![](https://cdn.sanity.io/images/599r6htc/regionalized/841477dd97c1ea44277c24b9fb8dd70a115ad8f9-1600x1332.png?rect=0,1,1600,1331&w=804&h=669&q=75&fit=max&auto=format)
+
+## [2\. You don’t need a team to justify a design system](#_2-you-don-t-need-a-team-to-justify-a-design)
+
+**Half** of our respondents work at companies with teams to manage their design system (most of these are companies with over **1000** employees). But only **a third** of them think that’s necessary. You can make small inroads on a design system even if you’re a team of one.
+
+Speakers at Clarity threw out a few ideas as to how -- [Julie Horvath](https://twitter.com/nrrrdcore) urged the audience, “[Don’t be afraid to start and ship small](https://twitter.com/sanddiggly/status/1072949059432972288).” If you’re overwhelmed by the daunting task of building a system, tackle one piece of it first, like line height.
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAACKUlEQVQ4y62UTWgTQRTHa5tq6kFaLUpPHlQakQqNoL15LkhJEWwRLx6kiiiKvXjwbi49eMitbm/pSa3gSfBgTh5KFSJNrTZUxQ0Ukt3sB/sxs3/nzWZjk2xTEd/yYx7vvfkzM/tmegLOEHCOIODh+C805zL0hIFAwhiD67qwbTvEsmGalsBsYlmWxBY4jgMu5kTzSatDkIQMw0C9XpdougZNq6EmoFHX9SYkTHPIYgUjUd/3Ja7jQavaUH8YEvIdEYvyrLG6WMF2cx2O7Q0b717sIP/sp4R8ilGu3WIFwzGA73F8LZpYym7j0XQRty6vCT5Kfyn7Xeaohmr3XCHFo2Rtx8PKYgX3J4uYGVvF7PkQ8in2alGVNU2hoIsgfeWSiYX5dcyMv8fU6FtMnX2DK6kVTJ55iczYazx9+AHf1mstZx//Uxpb+Lz2C/M3l3Hx5GOcO34bo8M3cPrYNZwauorUiVnMXc/i0+pm63b3+stkmxtlPLj7BCPDKRzsHUKyf1BwBIkDh3F0cAR35u6hVPrSKtYhiD9nWK1WoSgKJiYuIZk8hL6+XiT6ExgYSMqYojyXNV3PELsEqb+2tsrI5XLIZDJIj6eRTl8Q/rSMlUVud0N3bZvIp8ZVVRWFQgH5fF6wLP1KpSJz7fX7CtLoeZ68hrpeh66Z4v664DzoWNlfC9JjQGdlWw4sgwk8MJ81umGfFcYRvTyu64nrxiS8S70U5NF7+B8grd/JIdG1J+LhJgAAAABJRU5ErkJggg==)![](https://cdn.sanity.io/images/599r6htc/regionalized/f43a15004123205b5d3e41a11b8edfb34fa61c33-1600x1332.png?rect=0,1,1600,1331&w=804&h=669&q=75&fit=max&auto=format)
+
+## [3\. Design systems usually come after products are built, not before](#_3-design-systems-usually-come-after-products-are)
+
+In an ideal world, you could build your design system in tandem with the creation of a product. But only **41%** of our survey respondents actually got to do that -- **52%** built theirs from an existing product. **7%** wrote in that they've done both (they either worked on design systems at multiple companies or they built a design system to support both pre-existing and new products).
+
+Speakers at Clarity had words of support and encouragement for people trying to shoehorn legacy design into a new system. [Dan Mall](https://twitter.com/danmall) even argued that it’s _better_ to build a design system off an existing product, so you’re creating a system for a real use case, [instead of making random components in isolation](https://twitter.com/HonzaTmn/status/1072895304083628032).
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAACdUlEQVQ4y51US2gTURRNP4E2oEVog4ILN20pNVGLuNSFuBKiiEFThK4rqJCFgWZrIaDd2HVAcGFBMDtRFypohRD7oSAtaklAaTSJzcwk838zx3cnTjopSUQfHN6be98977zPGZ9tMdiWBdu2Gv3/oFnL4GsEbAeGYUBRFMiy7EAh/Pmu1+sO3BxBVVWYptmsJ64WQl3XUavVIAiCA1EUnW9JkpyxG/PmqKYjocXHtCIpJZCCSqWCQqGAfD6PcrnsxNw8zbU89S2E+xttdWNjA+l0Gslk0gGNKUa5/a0todvTNnK5HOLxOMLhMILBIIaHRzB5POTEVlc+coV6S03bLbvJYnEHqVQKo6Nj8Pv96O3pQV+PDyMH+xE9H8KrpYdQxZKH0O5OuL6+jlgshkBgEH29/TgweAjjh4/h+plJLM6cw9rje1CK23vKOl2KOyGbzSISuYTAwBCGBsYwEbyKy6EEEhfmsRhbwMuFDErbO406L2knhVubW7g1m8DE0Qimjszh4vhTTJ96i5mpd5g9+wGP5j+jmJc9Cv9yhtWqgMzSMm5eeYboide4Fs4hdnIVN06vYW56C28yFdRF1p3Q2+ht/fgm48WTIu7f/oq70U9IcDy484VfyE+Uvmt8jntE6H7LzUfObFQrBjZXJLx//gvLHDSulg0w5rnZdpdi8lfv+lTTNAeuRzWVQdzVIQkq97YKTaecAcvUYRkKGPUthPxPQQRkMQJ5lLxLbmCM5xQGYVeFKHA/SyLPS87ChloDU6owNHnPfq5CxtWQR4lE4z0tQF5teJtIua8VrlxtqCcnMe4Uy+RnyUzYXkLL/R/+A6yOcYbfH4XN9mBQjPcAAAAASUVORK5CYII=)![](https://cdn.sanity.io/images/599r6htc/regionalized/637616e2c64c47ecc12de920ea314175b4f1dac6-1600x1332.png?rect=0,1,1600,1331&w=804&h=669&q=75&fit=max&auto=format)
+
+## [4\. Component libraries and style guides are the most common artifacts](#_4-component-libraries-and-style-guides-are-the)
+
+What, exactly, constitutes a design system? No dictionary has defined the term yet, and people responded to our survey with a wide variety of answers.
+
+Not surprisingly, **90%** said their system included component libraries. Style guides clocked in a close second, at **83%**. There was a long tail of less typical answers, including design principles (**57%**), content guidelines (**47%**), and linters (**2 mentions**).
+
+With this question, we originally intended to measure use of design artifacts in a system, but **13%** of respondents included a write in answer about code. They mentioned React components, mixin libraries, token repositories, iOS and Android development and other approaches.
+
+Next year, we’ll include a much wider array of answer options so we can quantify that diversity more precisely.
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAACKUlEQVQ4y62U63LaMBCFef9Xapte0luAQpvQkgwpFIZMSAHbuvgmWz7dtWVhCNPpj3rms+TV+mh35XWvsiUqa1FVHew/8uydEr1mofKUZYksy5AkiSNFmp5ANvZh3+67rNVjdXpCe5W0S5LEkFJ4hBuVktBa1SP7WPL1Vy1qjyMsiwp5RoJxjlhn0IqQKaRIarRKazuTxAZ5WqIwloQ7EXLYxhhKJcduk2IxjTG70QeuGeXQR2v3E431nLKJ0lrDsmBRFFSPFErGtKjx7WOEwesQQ2LgGHbGYef5y9sQt2OB7UYhSzNYCq5nDKUXxxBC4+GXwo+hJFHhiP4yj3D9SeB2JPG4UlTbhNI36PGpRVGI7e895nchRu9CfH4R4Opl4MezvGpg/8WtpLRjmDxHL6eblBL7XYjVT4GbK0FOEUaXB8bvI0wGAvOpxHqh8bhMKKoUG+JpnUEEOfK8aFLmMPkz2O8irO4lvn6I0KedBxch+hcBQTV7E2I6Etg96fr7syff7gF3KFprhIHAw0Jh0hcYu6haeJPvQ4HlTCHYJnQA5ryo9YLkuG8iZAFfo9N6XYZ12iKkA6D3zgpy3lxHbrFwl1GUCVazuGbpxtWssa3nCaXNrZc/bzvfet1OKa2jogi4C0pvMzRnG3dFYyt92jyvN2gF4QRbBzKQQ0ECxhfb0JxtrUDbGQzPfad0I7T+t3S8K9v9s/MrqYbW/cLatVrQtv/D/wBr/QHS2RFfv91e+AAAAABJRU5ErkJggg==)![](https://cdn.sanity.io/images/599r6htc/regionalized/3a40bf7202fdb63f647659834f11574ab090a3de-1600x1332.png?rect=0,1,1600,1331&w=804&h=669&q=75&fit=max&auto=format)
+
+## [5....but artifacts do not a design system make, which is the number one misconception about design systems](#_5-but-artifacts-do-not-a-design-system-make)
+
+When asked the number one misconception about design systems, an overwhelming majority of respondents had the same answer. They said design systems are often seen as static products — collections of pattern libraries and artifacts — instead of processes — complete with guidelines, principles and philosophies. A design system is, at heart, a systematic approach to design, and component libraries or other elements are merely (living) outputs of the system.
+
+Thus, documentation is crucial. To uphold a system, people need to understand the principles behind it and how to implement the artifacts. At Clarity, [Adekunle Oduye](https://twitter.com/adekunleoduye), from Memorial Sloan Kettering Cancer Center, [spoke on this topic](https://adekunleoduye.com/talks/clarity-2018/#/), concluding: “You might have the best design system in the world, but if it doesn’t have the right documentation it’s essentially a failure.”
+
+## [6\. Today it’s design vs. code, but tomorrow it’ll be design linked with code](#_6-today-it-s-design-vs-code-but-tomorrow-it-ll)
+
+The age old debate -- design vs. code -- is alive and well in the design systems world. Respondents to our survey were almost evenly divided between what they thought should be the source of truth for a design system, with **55%** saying design and **45%** saying code. Many people predicted that the next big development in design systems will be design-code integrations to automate developer handoff (but only **15%** of respondents currently sync code and design components automatically). As [Adekunle Oduye](https://twitter.com/adekunleoduye) [put it](https://twitter.com/keymholio/status/1072584575275159553) at Clarity, "A design system doesn’t exist until it’s in code."
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAACRElEQVQ4y62Uz2sTQRTHI2kwLbU1SI+KQcVLzSE9mILgRSxKlQSR1qsQLYIg0pPg0YNeBLE9CJIUhPgL8S/wYA6FGlFoalqJK9XCBluSzWY3m53s7td5Gzebnyrowpd5zHvz2eHNfMdjmQYs0/w3WU5swNOYsGAYBjRNg6qqTVWrVVeqG7fW1Go1ey0xiNUE1ut1KIqCcrnclCzLqFRkyCS53Ij5nCS5NQTtCTT5SFASY8we9RpDuaShsKVwVeyY5ijvqAnrBHZ+umZic0PFm1fbSD3YskXx5kaVQ82u+i6gI55CnVn4klWxdO875mNriJ/8aGs+lsXS3W/IZxVeY9q1rWs7gGjudOeHihePPmNuahkXx5cxE8pgNvQeM8cyuH5mFa8fiyhtM3dnVt8dNhJrq3ncvPIQkeAtnDhwH6ePPMHZoy8xdfg5zo0/w50bb5H/tNMO6wV0/riy8g4XopcQGA5i32AI+0dPIRg4j4N7p3FobBqXZ2/jQybXtuY3PQRyuRzi8ThGRvbA4/HA5/Vjt28Y3l1+BEbHMHf1GtZz6+2wLiDcHpaKJSSTSUxGJuH3++Ed8MLnG8DQ0CAikeNIJBIoFosusNcpowVId0sQBCwsLCIajSIcDmMiPMHjGBb5nCB8tWta1/QFOjFdbFEUkU6nkUo9tUVxQSzYuc76PwLJOeRtsqMsc5dICvezDtNo7/lfA8lW1CdJklDTdKgVA4qsg+msZ33fU3bkvD4kxsjXBle93btWD6eY/+M9/CVi/QSSFcyLqQk8ZAAAAABJRU5ErkJggg==)![](https://cdn.sanity.io/images/599r6htc/regionalized/d9701fddc17efcca0e3e38c20a700d29d24410f9-1600x1332.png?rect=0,1,1600,1331&w=804&h=669&q=75&fit=max&auto=format)
+
+## [7\. Creative license is encouraged](#_7-creative-license-is-encouraged)
+
+Design system managers can’t be the dictators of design — they must be the servants, supporting different products instead of policing them. In our survey, **65%** of people said their company allows employees to divert from the design system and alter components when it doesn’t meet their needs. **20%** said that’s still not permitted and **15%** wrote in many answers along the lines of ‘It depends' (i.e. people can modify components _if_ the design system team agrees or _if_ there's a good justification for it, etc.).
+
+At Clarity, Google’s Material Design team [explained the changes](https://material.io/design/material-theming/overview.html) they made to Material this year to encourage and promote [creative brand expression](https://twitter.com/Una/status/1072930208762740737). “Any form of adoption is a win for us. It doesn’t have to have a fab or card for us to feel like, ‘Hey people are using Material,’” said [Yasmine Evjen](https://twitter.com/YasmineEvjen).
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAACWklEQVQ4y62Uv2sTYRjHL9KLTW3cqoMITlockiHN0MFBCookxMFJMhRpBLXQf0ARKeiUIUVBMVkyVUEUwUEc4tApBVuyxLREu+RKak2au9zl7t778fV93yZpk9Zk6cGX9+Ge5/3cN2/e5xFcx4brOCckGwILbNuGYRhotVrQqVpcGl81TYOqMqk8bnXyLG6L7WUMxuJAy7J4saIoaDabfJVlGbJCJTfQaOxxsZjluvm22F7G6AKdtkv2kokQwlfTJFAaOna2m1zyng7TIN2ajthep/2zOdB1XfQ/hm7g9+YffP8s4cObfa18+QtpS4dFjtYzRg+wI/awr66treP507eYiyzj/vVVPJwp4Nm9Er4u72B326CO3J59A4HVahXJZBKBq9O4MnEXty6/x+z0DzyOl/DupYTSugpdc7rOhjosFAqIx+MYGzsDv/cSQhcXMDvzEYvzK3j9YhXfPm1it6oOd9j5Uj6fRywWg+gVcUoQMXF2EqHJO7hxbQ63bz7A4pNX2Pi51etukMNisYhEIgG/3w9BECCOeOEbHcfo6XGcP3cB848WUCpt9MKOAg/Oo1arIZPJIBwOw+fzQRRH4PF46CpiaiqEdDrNaw6Ax5zh4QNm96pcLiOVSiEajSIYDCIQCCASiWBpaYnmfvGagX9Kv312dSqVCnK5HLLZLBeLJUniuf5jGupQ4z2qQ9dN1GsKlcxjQmwQc79bnH4z/wOaJoXU67xnGUBr2miptN1Mmw4PQoeDwWsGAg+rM30IMWnsgBg2h7HYsmjfW7R32XQ57h46JzgPGesfe7DKiO0dCqEAAAAASUVORK5CYII=)![](https://cdn.sanity.io/images/599r6htc/regionalized/557988aca1aed3418d8137602ac5a0265a4e8c36-1600x1332.png?rect=0,1,1600,1331&w=804&h=669&q=75&fit=max&auto=format)
+
+## [8\. The best time to start is now](#_8-the-best-time-to-start-is-now)
+
+A design system can help a company move a lot faster and more efficiently, even though it’s extra work up front. For almost everyone who responded to our survey, they said the best time to build a design system is now (**3%** cheekily shared that it was yesterday).
+
+Well, that wraps it up for our first ever State of Design Systems report! We learned a lot with this survey, especially reading all your write-in answers. If we do this report in the future we'll include more extensive multiple choice options, so we can accurately quantify the diversity of design system approaches. As always, your thoughts and feedback are appreciated on [Twitter](https://twitter.com/figma) and [Spectrum](https://spectrum.chat/figma).

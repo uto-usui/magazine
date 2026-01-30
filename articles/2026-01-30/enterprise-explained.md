@@ -1,0 +1,79 @@
+---
+title: "Enterprise, explained"
+source: "https://www.figma.com/blog/inside-figma-enterprise-explained/"
+publishedDate: "2020-08-27"
+category: "design"
+feedName: "Figma Blog"
+---
+
+_Since [Figma Organization first launched](https://www.figma.com/blog/figma-organization/) just over a year and a half ago, we’ve been committed to building a tool that supports companies of all sizes. Engineer Aashima Garg shares an inside look at Figma’s enterprise team and the work they do, spotlighting a recent project to improve the Organization admin experience. She dives into how they understand complex users, build partnerships with cross-functional teams, and why Figma’s approach to enterprise is a little different._
+
+“Enterprise” means so many different things at different companies. A common misconception I often hear is that enterprise product roadmaps are always dictated top-down: customers request something, and we build it. In reality, developing a product that scales well, supports a wide range of customers, and delivers a delightful experience is so much more complex (and interesting!) than just shipping the most recent request.
+
+Figma’s enterprise product team develops tooling that helps Organization admins manage their accounts and ensure that designers, developers, and collaborators have the access they need. Day to day, that involves joining sales calls with prospective clients to learn about their needs, meeting with existing customers to gather feedback, and partnering with stakeholders across marketing, engineering, and design to build cohesive solutions.
+
+## [Our complex (and interesting!) work](#our-complex-and-interesting-work)
+
+Since launching [Figma Organization](https://www.figma.com/organization/) in early 2019, Figma’s usage within our existing customers has grown immensely. Especially in our new remote world, it’s more important than ever for everyone involved in the product development process to be on the same page, and we often see that happening in Figma. But as more and more collaborators join Figma to participate and contribute to their company’s design process, the scope of an Organization admin’s work in Figma broadens.
+
+Figma’s original Admin Settings console was designed before we knew what tooling would be most valuable to admins. Now, over a year into the product’s life, we’ve learned a lot more about who our customers are and what they need. Through conversations with customers, support, and sales, we started to understand what worked well, what didn’t, and what admins need to efficiently do their jobs. It became clear that our customers had outgrown the Admin Settings' original design.
+
+So, we set out to redesign it.
+
+## [Starting from first principles](#starting-from-first-principles)
+
+We knew that Figma worked well for designers, but for admins who manage their team’s day-to-day operation, there was room for improvement. We decided to reimagine Figma for our admin users, optimize their member management workflows, highlight existing functionality, and leave room to allow us to more easily build new features in the future.
+
+With those goals in mind, we decided to run a brainstorm with the team, categorizing ideas into “Do now,” “Worth considering,” and “Wild & crazy.” We invited the working group: PM [Ben Stern](https://twitter.com/benstern0?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), engineering manager [Thomas Wright](https://www.linkedin.com/in/twright0/), designer [Jordan Hsu](https://www.linkedin.com/in/jordanhsu/), engineers [Josh Tabak](https://www.linkedin.com/in/joshtabak/) and [Stanley Huang](https://twitter.com/stanhuan), in addition to many other cross-functional partners from the research, data, support, marketing, and sales teams.
+
+Marketing offered design ideas, product shared feedback on research, and engineers wrote suggestions for UX. We couldn’t have generated such a diverse list of ideas without everyone on board, and even though everyone came from a different perspective, we were excited to see common themes emerge. To synthesize input, we grouped related ideas into those main themes. Then, Ben mapped suggestions to the user feedback that we received, and derived a shortlist of priorities.
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAAB+UlEQVQoz2VSi5KjIBDM/3/i3WZ3o0l8gggogjh9MyRubdVptTAPe3oGLlprUkrROI4YhoEYONH3/Q/Elpx33u84MQeccyS4CFnTNHS/31HXNTFw4na7FVRVVWzJOSH2209t28J7TyEEuszzDCYt6qSS2NbashpjXpgNpmn6UXWuXdeVlXMpxgiBEL5bVkV2SjtyPnAcAgLRC5IsBU9CIWubpghZ/IJ934WULpara9VDjS3MNMI7gxA8Ulw5KWDPEfuxY4sbxyeoMkvFhAPajmeoBrjFcm56KXSe27QPGFtDmwpq+mL7CWe5FddDhwFT0vDBwksX7YB5NKzMoOEDeswPDGuPwMULoV0m/qlhPND7bzztHwyuxmhadOaJZrmj3Z6wq0ZgwpUJ3aQxGVY5N/iyV9RrBb/7t8JgyUQmTQrNekflP9EtFUb3zfjk6jeMTLjEGWldy0j0wiq3ES4q9KHFGMdTIV3CxpucEHLAEDrUCxMtNfx8xTL/hZd96JF2HvyRoKNGxYqG2CMeGxL7xJ+P/FIorHQQZcrQm8KTVU5Lhzj32AWrwZ48jpzK4YzbgKv7QMvKhOx8+Fa8Tlk+YvCLLQeSWWws/+BqFBMoZ742R7k6Bxe1yaJjMpMmZNrFLxfrf0KpQvQO/4b4X7EC6USUyfr20W+F/wDFdZbS9SGfcAAAAABJRU5ErkJggg==)![](https://cdn.sanity.io/images/599r6htc/regionalized/9f686b08f80b5b732feae570b354ac94abf73e3c-1600x924.png?rect=0,1,1600,923&w=804&h=464&q=75&fit=max&auto=format)
+
+The enterprise team’s initial brainstorm session in Figma
+
+After the brainstorm, we wondered how to scope this project. Should it be a simple UI update or a larger overhaul? Initially, we thought we might be able to layer different views and options onto our existing Admin Settings. But when we partnered with the sales team to better understand points of friction, we heard that admins didn’t have enough information to make good decisions at true-up, weren’t aware of the features most relevant to them, and were exporting information manually.
+
+The design of the Admin Settings view was limiting the value any individual feature could provide; redesigning it to optimize for certain key workflows would allow us to not only add new features easily, but also make better use of the features we had previously built. Instead of just addressing the symptom, Ben advocated for turning this workstream into a full product update.
+
+## [Building for scale](#building-for-scale)
+
+Unlike enterprise companies that are enterprise-only (and often only build for companies with a certain number of employees or functions), Figma supports organizations of all sizes. Beyond providing a better user experience for admins and end users alike, developing a tool that scales well is central to what we do. To us, that means creating a strong foundation that also gives us the flexibility to add and update features as user needs evolve.
+
+While all product development requires a deep understanding of buyers, stakeholders, and end users, enterprise work demands insights into not just individuals and their challenges, but also broader organizational dynamics. Figma needs to flex to fit teams of 5 or 5,000—one person might play many roles that span admin responsibilities, design ops, and individual design work at smaller organizations, whereas enterprise companies often dedicate entire teams to each function.
+
+For example, a VP-level budget-holder needs to understand the value of the product across their organization; someone from design ops needs to ensure teams have the necessary permissions and access to resources; security teams need peace of mind that their organization's data is secure. On top of that, each individual user has unique requirements, motivations, and challenges for using the product every day.
+
+To end users, an organization’s admin tooling is likely an afterthought. But for admins, settings are central to their day-to-day work; it’s where they get crucial visibility over account usage, access security controls, and manage team members. We realized that some of the confusion came from non-admins accessing information that they didn’t need. Similarly, admins were seeing prompts to create files and view designs in teams and projects, which were more tailored to non-admin workflows.
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAACBUlEQVQoz2WS627aQBCFef/3QCpge73rC5c/pKlSCSVAwp0+QMMPSLhjfDnk7EDSqrV0vLOzM59nZ1z6Vq0VjutBOTWR9n0YoxBoF2GgqZC+EIYKrG0CKD+Q1RgDz/NQrVZFruvmpZrjFp5SUIpQz2VSgHa7jU6ng273ieqKet0e+v0+etTj4xPu7r4jDEPJI4irgtY6LxGW+6zKJ8z3HNTjWBJ/v75iuVxitVphvX7HZrMRbbdb8Q8GA4l1XUdEmC0mL5Fc2Gtqlq74pXpcx2g0ImSN0+mEU5IgzbJLnudW4HOx/tlshkajIdVZfQFZXWE3vvJ5oBBHMYb8+vvbG4EJkvMZ57+UEX48HjGdTgVoc43R0k8B0kGgYQ80HMdjXyIMXl7kqkkiAKRpeiFMZCv9rLDZbArI9tJKgMYEuXXaptZqNU41QL/Xw2KxwG63w35/wG5v1z0Oh4O0YcM+jsdjqfA/IF9FEBj+GpwUhxKGAe7vf+D5ecBrzSRxOBpiMp1gPp9j/muO0WSMh58PiDkU+1f8C8wt0GiPUHULiBBFdTTqDUkKoxBxo45Wq4Vmq0k7RhRHEvsJvNkylJRN5aR1YQfEK9ipF57rFsrzxKcon+fanjHW11fbxl5vGFg757TTUqVSObB/KYeTMSmzq9hKca++9leZjKA/uvkJyyyjXC4fPgDCxc1rKqw9DQAAAABJRU5ErkJggg==)![](https://cdn.sanity.io/images/599r6htc/regionalized/7ae2fa10951129b02c88f9075290fdefa88d3005-2880x1640.png?rect=1,0,2879,1640&w=804&h=458&q=75&fit=max&auto=format)
+
+Before the redesign: anyone in the organization could access a list of all the members
+
+So, we decided to remove admin-only pages for non-admins and build a new top-level navigation option that separates the Admin Settings view from the broader Organization page—which any Organization member can see—and paths to design creation and consumption (like drafts and teams). In doing so, we provide a direct entry point for large companies whose admins mostly interact with the settings view, while also supporting smaller teams whose admins juggle design and management responsibilities.
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABwUlEQVQoz5WRPW7bQBCFeU+rSJF7CAEEC6rt2AfwTw6Q3CBQqUKAACWNrKSwJYoUySW55P7Ny8xSdpR0Lj683TczD/uTPKcpdG9gbUq6+gZdXMM3n4Hu9owboP8PfQNifHOLIr2izeYa280jkl/PLygbjb5/Il1cod1/gE4v0GcjmHzAHkcI5QhQA8T4cvClL/99QdsfH7H9+QnJy25HddOStRlM+5169Yi+ukOv7tCxGlbX3CPoB1A3IGvBtw+w9T1Jn8q+ULb7Skm630O3Lby3MKZG1xWwpoJzNT+DgmcNQepNJK7Zi2tG+oKv4bhXVQcke3lDrbnBo201iqJk7XgfuNmzEgIBLgwEUfYdbzwXrB9U9krVSA6HjE/VxcCmqXE85hwop3Hc5KIfiMN5SAZDCIMvBM+Bg4qnlEKSHzLiQJIADiKlKv6gPgb9DaQY6M4CX2scSH7weFZRUpYlv5WVRjLGvIURDcMk8JXDiVc/QnJdUSKZqWu+clVV/MOWpIHNWHgbODGEnPNPnaQuGUVRULJYLMxqtQrr9RoMnfQ9xJnlchnm87lJJpNJPp1O3Ww2A0MnfQ9x5vLy0o3H4/wPEv4iDQvYOy0AAAAASUVORK5CYII=)![](https://cdn.sanity.io/images/599r6htc/regionalized/f555571d62c68fd7943372e2e4938aceecc0ddc0-1600x900.png?w=804&h=452&q=75&fit=max&auto=format)
+
+After the redesign: only admins can navigate to the sidebar and access the new Admin Settings
+
+## [All opinions welcome](#all-opinions-welcome)
+
+After deciding to surface the Admin Settings entry point to a top-level navigation section, we turned our focus to user management workflows. Aside from more clear and robust filters and sorting mechanisms to help admins manage members, admins frequently request an intuitive shift+click behavior to quickly select many members at once. This behavior would allow them to more easily perform bulk actions like copying emails for a subset of members, or modifying many users’ permissions at once. We knew we wanted to incorporate this into the Admin Settings refresh.
+
+Once we decided what to build, Jordan got to work on a design spec and shared his early thinking with the team. At many companies, a design spec will tell you exactly what to implement, and a high fidelity prototype oftentimes matches the exact user experience we want to achieve. While Jordan’s designs were nothing short of incredible, they left room for discussion rather than specifying implementation decisions to a tee. On the enterprise product team—and this is true of work across Figma—we like to invite early feedback. Instead of work feeling like a handoff from one person to the next, we approach it more as an open discussion.
+
+Jordan’s designs specified polished click-targets and selection and hover states, but functionalities like how users actually select many rows, add to their selections, and deselect were left undefined. While Josh and Stanley were ultimately responsible for development on this project, they took the initiative to conduct informal research to see how other tools support bulk selection. In looking at Asana, Gmail, and other tools, they found that multi-selection and deselection using shift+click could be implemented in a variety of ways. They aggregated their research and came up with a proposal for what they wanted to implement, optimizing not only for feasibility and reusability, but also for an intuitive, enjoyable user experience. They received great feedback from our team (and more importantly, our users!), and we shipped it.
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAACTklEQVQoz1WTyW4TQRCGJxKKxIkXQUhw58RzcOJdeADuHDhEnLkhgTggEItCiOMQOzhxmIntyI5n7aWqd6p7YkcZ6VMt0/1PV3VNxuvpDwXlmcamQFnlZHOru9wZlvCW95BvVJsrqHNF62htIcV6AtXlR3G6/1ocfn6Fwy8vs6a5OhOSd1IKJQVHrRGdNbe4G8i3Rqf3EaVAAcpOlKuz8vh4uN7fP2yPjj5lTbsqmJBKSAic86C1DtY6wm4xNzjnCJ+s9z6+U6xhi+Lkcnb++2J+eTIbZJytcgCJAEnQI6I3xnitN+gtMU/CCdt/ANsW5+NxOTscXM9Ho2aQAV8XdHwEVKHpmGcCglQmCNQ3qLtWpbyXZEEbrBoS/NsUg2FdjE/ZQYaiIkHEDjBc1a1ftSLUQoWKY6JkcOsTaw5kwce4EQqvK5idT9p8/KfJpxP+K9NQF1qrJLhIgjwJbkS3gqIXTYJsKwh1g6PFtPtQjJp38wl7k9FoFPEWpVKh7Drfcrktl0dA3YkZlU45H0un1kgJ+n19xV8sTspny9P2aZZmzFkEWlB33HcCqD/GS+pT7JWImzc+wbGPY5+ph7TMvqXNj6c/x/dmw3/3omDhfRQ0oUqCmC6lvxiTThVtilUf8yRoSdBKNG7PuPAw2zzO0F9BJaNWoeOMTgY0Fv14aBoTFUcmjkscJQKNjjlHftBGU+VqTyF/FL4+2IGj5zuZlssLqxlXyIwQVbwe46wkgHSlMZonG3PWCIoTpMWtgrZj7XKvXR48Cd+zXfft/u5/4jd78g4m84QAAAAASUVORK5CYII=)![](https://cdn.sanity.io/images/599r6htc/regionalized/83445ca1d8657e94447b41f6d663e1d5c5abf4b3-4052x2484.png?rect=1,0,4051,2484&w=804&h=493&q=75&fit=max&auto=format)
+
+Feedback on an early prototype of how multi-selection would work in the redesigned Admin Settings
+
+This is just one example of how people at Figma are given the opportunity and encouraged to take on different roles and help make product decisions beyond their formal job description. We also offer anyone at the company the chance to contribute feedback on designs and product roadmaps through dedicated Slack channels and open access to files, where you can see designs changing in real time as designers incorporate feedback. We genuinely believe that hearing everyone’s input and representing their opinions results in more thoughtfully-designed products, so we encourage collaboration at all stages of the development process.
+
+## [Join us](#join-us)
+
+The new Admin Settings is now available for Organization admins. Admins, I hope you find our added features and functionality easy to use and enjoyable! Looking back to my first few days at Figma, I wasn’t sure how I’d feel working on an enterprise team. I thought my work might be laid out for me by customer requests, leaving little room for creativity and ownership. However, I’ve been pleasantly surprised by the amount of ownership, collaboration, and decision-making involved in enterprise work at Figma. The Admin Settings refresh project was just one of many opportunities to work closely with and build for our users, and I’m so excited to come to work every day to learn about new user needs and brainstorm sustainable solutions.
+
+As we continue onboarding more organizations (with varying sizes, structures, and use cases) to Figma, our team needs more hands on deck. In addition to growing our current team in San Francisco ([and now, remote](https://www.figma.com/blog/how-work-is-changing-at-figma/)
+
+!), we’re hiring for a new in-person, enterprise workstream in New York, that will open when it becomes safe to do so. If you’re interested, learn more about Figma and our [open roles here](https://www.figma.com/careers/).

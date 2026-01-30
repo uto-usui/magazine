@@ -1,0 +1,165 @@
+---
+title: "Don't call a React function component"
+source: "https://kentcdodds.com/blog/dont-call-a-react-function-component"
+publishedDate: "2019-12-07"
+category: "frontend"
+feedName: "Kent C. Dodds"
+---
+
+**[Watch "Fix 'React Error: Rendered fewer hooks than expected'" on egghead.io](https://egghead.io/lessons/egghead-fix-react-error-rendered-fewer-hooks-than-expected?pl=kent-s-blog-posts-as-screencasts-eefa540c&af=5236ad)**
+
+I got a great question from [Taranveer Bains](https://github.com/tearingItUp786) [on my AMA](https://github.com/kentcdodds/ama/issues/763) asking:
+
+> I ran into an issue where if I provided a function that used hooks in its implementation and returned some JSX to the callback for `Array.prototype.map`. The error I received was `React Error: Rendered fewer hooks than expected`.
+
+Here's a simple reproduction of that error
+
+```
+import * as React from 'react'
+
+function Counter() {
+	const [count, setCount] = React.useState(0)
+	const increment = () => setCount((c) => c + 1)
+	return <button onClick={increment}>{count}</button>
+}
+
+function App() {
+	const [items, setItems] = React.useState([])
+	const addItem = () => setItems((i) => [...i, { id: i.length }])
+	return (
+		<div>
+			<button onClick={addItem}>Add Item</button>
+			<div>{items.map(Counter)}</div>
+		</div>
+	)
+}
+```
+
+And here's how that behaves when rendered (with an error boundary around it so we don't crash this page):
+
+In the console, there are more details in a message like this:
+
+```
+Warning: React has detected a change in the order of Hooks
+called by BadCounterList. This will lead to bugs and
+errors if not fixed. For more information, read the
+Rules of Hooks: https://fb.me/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+1. useState                   useState
+2. undefined                  useState
+   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+```
+
+So what's going on here? Let's dig in.
+
+First off, I'll just tell you the solution:
+
+```
+<div>{items.map(Counter)}</div>
+<div>{items.map(i => <Counter key={i.id} />)}</div>
+```
+
+Before you start thinking it has to do with the `key` prop, let me just tell you it doesn't. But the key prop is important in general and you can learn about that from my other blog post: [Understanding React's key prop](https://kentcdodds.com/blog/understanding-reacts-key-prop)
+
+Here's another way to make this same kind of error happen:
+
+```
+function Example() {
+	const [count, setCount] = React.useState(0)
+	let otherState
+	if (count > 0) {
+		React.useEffect(() => {
+			console.log('count', count)
+		})
+	}
+	const increment = () => setCount((c) => c + 1)
+	return <button onClick={increment}>{count}</button>
+}
+```
+
+The point is that our `Example` component is calling a hook conditionally, this goes against the [rules of hooks](https://reactjs.org/docs/hooks-rules.html) and is the reason the [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks) package has a `rules-of-hooks` rule. You can read more about this limitation [from the React docs](https://reactjs.org/docs/hooks-rules.html#explanation), but suffice it to say, you need to make sure that the hooks are always called the same number of times for a given component.
+
+Ok, but in our first example, we aren't calling hooks conditionally right? So why is this causing a problem for us in this case?
+
+Well, let's rewrite our original example slightly:
+
+```
+function Counter() {
+	const [count, setCount] = React.useState(0)
+	const increment = () => setCount((c) => c + 1)
+	return <button onClick={increment}>{count}</button>
+}
+
+function App() {
+	const [items, setItems] = React.useState([])
+	const addItem = () => setItems((i) => [...i, { id: i.length }])
+	return (
+		<div>
+			<button onClick={addItem}>Add Item</button>
+			<div>
+				{items.map(() => {
+					return Counter()
+				})}
+			</div>
+		</div>
+	)
+}
+```
+
+And you'll notice that we're making a function that's just calling another function so let's inline that:
+
+```
+function App() {
+	const [items, setItems] = React.useState([])
+	const addItem = () => setItems((i) => [...i, { id: i.length }])
+	return (
+		<div>
+			<button onClick={addItem}>Add Item</button>
+			<div>
+				{items.map(() => {
+					const [count, setCount] = React.useState(0)
+					const increment = () => setCount((c) => c + 1)
+					return <button onClick={increment}>{count}</button>
+				})}
+			</div>
+		</div>
+	)
+}
+```
+
+Starting to look problematic? You'll notice that we haven't actually changed any behavior. This is just a refactor. But do you notice the problem now? Let me repeat what I said earlier: you need to make sure that the hooks are always called the same number of times **for a given component.**
+
+Based on our refactor, we've come to realize that the "given component" for all our `useState` calls is not the `App` and `Counter`, but the `App` alone. This is due to the way we're calling our `Counter` function component. It's not a component at all, but a function. React doesn't know the difference between us calling a function in our JSX and inlining it. So it cannot associate anything to the `Counter` function, because it's not being rendered like a component.
+
+This is why you need to use JSX ([or `React.createElement`](https://kentcdodds.com/blog/what-is-jsx)) when rendering components rather than simply calling the function. That way, any hooks that are used can be registered with the instance of the component that React creates.
+
+**So don't call function components. Render them.**
+
+Oh, and it's notable to mention that _sometimes_ it will "work" to call function components. Like so:
+
+```
+function Counter() {
+	const [count, setCount] = React.useState(0)
+	const increment = () => setCount((c) => c + 1)
+	return <button onClick={increment}>{count}</button>
+}
+
+function App() {
+	return (
+		<div>
+			<div>Here is a counter:</div>
+			{Counter()}
+		</div>
+	)
+}
+```
+
+But the hooks that are in `Counter` will be associated with the `App` component instance, because there is no `Counter` component instance. So it will "work," but not the way you'd expect and it could behave in unexpected ways as you make changes. So just render it normally.
+
+Good luck!
+
+You can play around with this in codesandbox:
+
+[![Edit Don't call function components](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/epic-star-lo0ic?fontsize=14&hidenavigation=1&theme=dark)

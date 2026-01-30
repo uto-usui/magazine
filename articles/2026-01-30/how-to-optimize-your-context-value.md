@@ -1,0 +1,55 @@
+---
+title: "How to optimize your context value"
+source: "https://kentcdodds.com/blog/how-to-optimize-your-context-value"
+publishedDate: "2021-03-01"
+category: "frontend"
+feedName: "Kent C. Dodds"
+---
+
+NOTE: Before we get started, I want to make sure you know the times it's important to optimize your context value is when a certain combination of the following conditions are met:
+
+1.  Your context value changes frequently
+2.  Your context has many consumers
+3.  You are bothering to use `React.memo` (because things are legit slow)
+4.  You've actually measured things and you know it's slow and needs to be optimized
+
+If that explains your situation, then read on (and don't miss the alternative solution which is honestly probably better anyway). In fact, the alternative is definitely better and I've reworked the blog post to remove my original recommendation and just show the alternative. If you want to see my original, [read the original stuff here](https://github.com/kentcdodds/old-kentcdodds.com/blob/319db97260078ea4c263e75166f05e2cea21ccd1/content/blog/how-to-optimize-your-context-value/index.md).
+
+No seriously, if you're going to do this stuff just because you _think_ your code _might_ be slow, then don't bother. I'm not joking. React is really fast and adding complexity in the name of performance when performance is good enough is just wasteful of your "complexity budget"
+
+The simplest solution to optimizing your context value involves using `useReducer` or `useState` for your state management and putting the `state` in one context provider and the `dispatch` in another. Here's that:
+
+Not only do you not need to `useMemo` in this case, but you actually can avoid re-rendering the components that just use the updater context:
+
+![clicking "force render" three times and "Increment count" twice](https://res.cloudinary.com/kentcdodds-com/image/upload/f_auto,q_auto,w_1600/v1625032869/kentcdodds.com/content/blog/how-to-optimize-your-context-value/split-contexts.gif)
+
+This is the same as with my original `useMemo` solution, except because the `<Counter />` component's context isn't getting updated, we avoid the re-render of that component entirely which is cool.
+
+I personally feel like this is more complicated of an API than is necessary for most situations, so I wouldn't bother optimizing most of my contexts. But if you really have all the problems mentioned above, then consider doing this as a simple way to side-step the issue.
+
+## [The state and dispatch separation is annoying](#the-state-and-dispatch-separation-is-annoying)
+
+Some people find this annoying/overly verbose:
+
+```
+const state = useCountState()
+const dispatch = useCountDispatch()
+```
+
+They say "can't we just do this?":
+
+```
+const [state, dispatch] = useCount()
+```
+
+Sure you can:
+
+```
+function useCount() {
+	return [useCountState(), useCountDispatch()]
+}
+```
+
+Just keep in mind that any component that uses that, you will lose the performance benefits if it only needs one or the other.
+
+Also, don't miss [How to use React Context effectively](https://kentcdodds.com/blog/how-to-use-react-context-effectively).

@@ -1,0 +1,73 @@
+---
+title: "Leading a dream team: A manager’s guide to unlocking your team’s potential"
+source: "https://www.figma.com/blog/how-to-get-the-most-out-of-teams/"
+publishedDate: "2023-03-15"
+category: "design"
+feedName: "Figma Blog"
+---
+
+Now more than ever, teams want to feel a sense of agency: to set their own goals, have fulfilling careers, and get work done without constant interruptions. We checked in with people managers at Uber, Twitch, Shopify, Oura Ring, and Work & Co. to find out how they’re helping their teams feel more fulfilled and move work forward.
+
+By putting a few simple processes in place, you can begin to design the kind of work environment where smart, talented people thrive—and more importantly want to excel. All of which redounds to your benefit, too—the team’s success is also your success. As Twitch VP of Product Jeremy Forrester sees it, “as a manager, or a manager’s manager, you've contributed to it.”
+
+### [Set goals, then delete (most of) them](#set-goals-then-delete-most-of-them)
+
+You know your team members need clear goals to do their best work. But how do you make sure they’re prioritizing the right things?
+
+![An image of a FigJam file where H1 priorities are listed and revised by voting](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAADFUlEQVQ4jV3RzU8bRxjHcf7gXnpqLz30UuXQquHQQyEVJUAAB1QIiVKBSSKcxhCwY+OA7V1j43d7vS/2ej2zs+P1tzKlaqhGj2akR/ro9zyzIJZCxJpCbCtkQiGfzyt6WIn/eiKhCDZDRk8Vo1XFZPOfnlhXiCXFwhwLU4qwGKGMiMjUdzV/q3JEWFbIUogoSsL7289PcNIK98MUUdCoUkT4PrpDF+Z6VNbEMgY9Aw1aRoycEXbfxrEcXNtj0Heweja25eI5YwJXI70ZWsRM5fTOmFsL85GiikYoha8FIzXB8l1u2w3qjTqdTod+r0urfkPdvKJdLeL2GkSTEbOpZjY/eoauTO/WcweOy4KS2+SdVSDZzZFsf+Jjp0jHtfCDgMD3CBqXjAuvCHJ/EF69Im5+hMkAYs0smj4EvVLAmVVms/mOldoRG423HFs5qpMubjQkCHroxgdmn7eYXa4zy60Sf95Ct9JMR1XiwEWb6ouEhiDv3rDdOuZJ7SXb7Tck7Sxp7xrDKeDUk4irZ+hSgrjxhkllj35ukWb+Z/q150injC6LL0FJ1jVYauzzyFxjuXFA0sly5hWpdE5wM4/x336DzCwStY6xbne4znxL/uwrqsXHjK0cujx5mDDrGSy3D3hU2+DX5gtSXoFq2KZnneGe/4h3+DX++5+QN0mGt/v08j9gZb/DN1aIBtf3Ce9/eWJIzHGL5DDDnp1ir5/iyDrn1CtQsNK0jR28zCpO+gCvkCO8vSAyXzMtHhDXU8yc+sORhRlihR411cUUTf6y86yYBywWt9ioveTKuiDoFxlXSoyMKuFNFZk3EecmUblGPOj/DzQUXuBjOTb9Zp/LmxIrhRd8n3/CL+YuWecKOe4Qu3W0dYuuNBGpLsGhhbzoE3dsdOlfcEMhThXD0phBeoD9Z4/WYZOTkyzPTo/Yy6QoF2sIwyI2OkxLHabnFtHrIXLfRx4PiXIeUVowtxbEskJsKoIdib82xv/Nx18Z092wqWy1qSW62DtDxG5AuDsm3PEJtwLCpwL5u0SuC2RigtwMmVt/A0Jb75KmKBN9AAAAAElFTkSuQmCC)![An image of a FigJam file where H1 priorities are listed and revised by voting](https://cdn.sanity.io/images/599r6htc/regionalized/60c038fac7a4ff53a1643e33fa142e815df0c7fb-3200x2264.png?w=1080&h=764&q=75&fit=max&auto=format)
+
+Don't be afraid to help team members rethink best laid plans. It usually leads to better results.
+
+Put the ball in their court. At Uber, Director of Product Operations Jane Lee asks everyone to jot down their priorities at the start of a quarter or half. “Because everyone has to be an overachiever, \[people put\] down 10 to 15 priorities,” she says. Then she has team members whittle down the list to just three priorities, forcing them to think carefully about what they can get done—and nail—in the timeframe. Throughout this process, she’s guiding them toward projects that dovetail with the company’s most urgent strategic initiatives. “We try to make it as concrete and as quantitative as possible in terms of what impact they’re trying to drive,” she says. Once the goals are set, she shares them with product management directors and other leaders to keep everyone aligned and accountable.
+
+### [Make meetings feel indispensable](#make-meetings-feel-indispensable)
+
+At the design firm Work & Co., project teams have just one meeting a day: a check-in each morning to go over work done in the past day and align on next steps. Then they spend the rest of the day heads-down working solo or collaborating in shared files. “The more meetings we have, the more time that takes away for teams to focus on what they're here to do, which is to make work they're proud of,” says Design Partner Casey Sheehan.
+
+It’s an unusually disciplined approach to a problem plaguing countless teams: People need time to work without interruptions—[something some companies have gone to extreme lengths](https://www.figma.com/blog/redesign-your-job-figjam/) to foster—but they also need space to connect and solve problems together. Being ruthless about what warrants a meeting and what could be hashed out over Slack or in FigJam can go a long way toward helping your teams feel more productive and motivated.
+
+Even if you can’t escape back-to-back meetings, you can make them feel more intentional and egalitarian. Before the pandemic, when meetings were held largely in person, Twitch used a meeting template [popularized by Amazon](https://www.cnbc.com/2018/04/23/what-jeff-bezos-learned-from-requiring-6-page-memos-at-amazon.html), but “didn’t have any formal process for who gets to talk, who gets the next question \[in a meeting\],” says Jeremy Forrester, VP of Product at Twitch. “It was a free-for-all, which benefits the people who are more outspoken.”
+
+Today, Twitch has adapted Amazon's format for a hybrid work environment: Meeting-goers read a shared six-page document, take 10 to 15 minutes to annotate the document with questions and comments, then run through it afterward. “This ensures equitable participation,” Forrester says. “It allows people who are not great in a 20-person meeting to have a voice.”
+
+Whatever system you choose—whether the six-page memo, a FigJam standup, or something else—letting participants share their thoughts in a format that feels comfortable to them will make meetings more rewarding for the whole team.
+
+### [Make good ideas the most valuable currency](#make-good-ideas-the-most-valuable-currency)
+
+Is it your job or mine? Murkily defined roles can sabotage your team’s performance and lead to toxic turf battles. A clear job description helps, but if it’s overly prescriptive, important tasks might fall through the cracks. Worse, it may stop innovative new ideas from bubbling to the surface.
+
+At Oura Ring, VP of Growth Manbir Sodhia sidesteps many of these challenges by encouraging constant experimentation. “Everything can be an experiment. Any campaign, any project,” he says. “All good ideas start with a strong hypothesis. You can measure the outcomes, and you can decide whether you scale and rinse and repeat.”
+
+![A picture of a light bulb with a quote from Manbir Sodhia, VP of Growth at Oura Ring, who says: Everything can be an experiment. Any campaign, any project. All good ideas start with a strong hypothesis."](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAC7UlEQVQ4jW2T3U9TdxjHudbT1jvhSvdPyO7AG4xAxfa0PfUly0xQMLtxdmGYmWW6C8yiBN+NLg4VsSAVFpaZOBlZmDAyBoHNV7q+0Ja2cOgL9pSec4qfpe0UDVx88nyvPnl++T3fsrimI2uzJPUhUvrPpPSH60hoj1jUZoipy0TV1Q2JqW+KlMW1FVL6I7L5b8jqLpZzX5DOukgpx0kpLuIZFxNyK4OhK9wPDNMbmKQ3uEbP3CT94RnGE1EiuTxlC5pCWveQ1Zp4rUgsJiTCURvBsJX5mI2/ow7OTDqpGzxEVd8xqj1fUt3fSvVAKzsHTlA1eII9Q21cfvUr/uxKSZjSHvB6pZm4bCcQsuGfE/H6rQRCIuMhieZhOxVXzQhnazG212LsqC9iOm9GuGTmo7uHODl1H6+iFJ5cEHpIK01EYiL+oEg4amcuYiMYEnnid9D4WGTrxTo2nalB+G4XwrndCO27MXTUsflyPdvufspXU71rwqTqYSl9mLmIlVmfFa/PwqzPUhIGHDQO2Si/amZzey2G8/UYrjVguLEX000R4bbI9r5GTk6/v6HqIZk5QiRm48WshalpM/88byAStfNnxMmREYnyOyLC9xaMnSLGLjvGbgcmtxPB7WB7/+EPhYVPyeSaWEo5eOW1MPxbDeMTtSzIDmbk/Rz9Yx8VfRKGexImt4Spx1lkS48Tw3phlrTez4r+GVn1IKF5iZHROv6a2kMifYCnyU84OrafCrcDwx07pi47puJ2ElvcGwpzJPURMvkLKPk2EkobofhpIvK3LOfamE6eoun3Zsp/EBGuNWC8vhfjTSvG2zZM3RLCvXXCPIvaArL2kiXtWRH5f5a050ynxvh68jpVP7awo/cYlX2fU/ngOJUDLj7+qYUdD1uoGTpNx8tfSncY195QYrWE+h7aKv8qGR7HvHT5xun0jnLLO1qcxewbo9M3RndwgidyiHBOpyymwju0t7nUy7e50NV5Nb8xucJc6/N/xqccO4yNwocAAAAASUVORK5CYII=)![A picture of a light bulb with a quote from Manbir Sodhia, VP of Growth at Oura Ring, who says: Everything can be an experiment. Any campaign, any project. All good ideas start with a strong hypothesis."](https://cdn.sanity.io/images/599r6htc/regionalized/58c04d845bf0a8ff1fc9e0dd875a35d3f18d7835-3200x2146.png?rect=0,1,3200,2145&w=528&h=354&q=75&fit=max&auto=format)
+
+The process prevents confusion around who does what—generating new ideas is everyone’s responsibility—and lights a path for important jobs that might not even exist yet. “It allows people to try something new,” he says. “It’s okay sometimes to step on toes and ask for forgiveness later. If you’re interested in making an impact, the company shouldn’t stop you.”
+
+### [Storyboard your “career conversation”](#storyboard-your-career-conversation)
+
+Few careers follow a linear path. They [move up and down and every which way](https://www.fastcompany.com/90668481/careers-are-no-longer-ladders-to-climb-heres-how-to-develop-professionally-instead), and as a manager, it’s your job to help colleagues imagine the constellation of possibilities. This is especially crucial in a remote environment where traditional networking—drinks after work, bumping into your boss in the cafeteria—happens rarely, if at all.
+
+![A FigJam file visualizing a career journey](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAADS0lEQVQ4jW3P208iZxiAcf/dthvb3jXG3aYWt/WQle1G43azbHa322w2sSr1sBpN1wOKgAgMqDAIMwPIYWBgBpgDjDwNcNGbXjx5L743v7zfhDj7iJx3Cmn1Z+SXnv9NGjV+H8675Z8QvcM85FZmkVY95J5PMbQmhlhp+yOFUAAlckEtFkZPRjBSkdFsxsLUghdUAheooRBaLEQtEqB4FKB0cIp6ekAjuEdl+8MInRhdFjrnXGxykG5zWzExTAfb6WHZDrrqULiyuTuxKcUc9HuLdr2DXm5j5GQ6yUO6qX2aZ1vIqzNMyC9nyYVDbF3r/H5psJkxuar1EVsPSMYDpeoAOQ65ACjhAcW4ReHKoJLsYmQVrNQOZvwjzS/vkVamh6BnBG4IDeaOq8yf1ViN6rxNtPFnbZIll0p+QF0cUE25iP80ia2VEfdaNBJF2kk/rfMlVP8Mee93YzAfCbNz0+b5eQtPoM6TE40nRzrLVzbBvEvh1qYUtSiGHMT9Nqn1JvkDk0a8SDv+J/qXH1A/TSI9+2oMFqIRgorNWrrHa8Fk6dJiMeLw9sYllOuTPtO59jdI+7tkd/oox30qMRc9c499s4F5Poe2PoW89GgMVuMRblWL3Zw1+qpP6LKZ7xOsDciUXHJBE3HLILtpIu46KMEetZsebblBTwliC+/Qtp8ieb8dg2piDH5IGcwGqryI1jkqd5BNl3JjQPnapRLsUTqxyOzpXO82kE4NWmKTfi6Bc/YO7dNjpGff/AfeqDZ/pE1mw3VeJBqcVNsULZeaPkBVBjQyA8qxHpkDnfhajcznJlpSoy8I9Lfe0/JNIy1+PQbrQgS55XBacfFLDvsFh6TW594cjECt/EBTeUDNPFAI98gfWxSCNnpWp5/P4IZ20de9yN7vx6CWCNHqWNRMl5LRpzjE6j3KlT61chejUqNT1TAqNs2CgybZ6IUeVr2La6i4qoh+8TfyymMm8r9Nox5uYNzGMbIp9HQSLSlQicRRjhKUjkNol5/RhUOaqShaMkZDuKJ1naCdFuiIAu3bKOrhXwytCfHpJPnlH1F88yhvFlHeLCD7FpBezXO3Mk9u5VfkVzMorz3Ivjlk3/yo4d64RRTfwsgQf5nkX04hvh09m+iyAAAAAElFTkSuQmCC)![A FigJam file visualizing a career journey](https://cdn.sanity.io/images/599r6htc/regionalized/b006e6897d7e8c81e45df372493cfd197f1fea95-3200x2264.png?w=1080&h=764&q=75&fit=max&auto=format)
+
+Visualizing a career path can really help "paint a picture" of growth
+
+###### Gaps Analysis template
+
+A **gap analysis template** analyzes where you are now, where you’d like to be, what’s standing in the way of your goal, and how you can bridge it.
+
+Try mapping your colleague’s career goals onto a whiteboard. Uber’s Jane Lee uses a [Gaps Analysis template](https://www.figma.com/templates/gap-analysis-template/), in which you analyze where you are now, where you’d like to be, what’s standing in the way of your goal, and how you can bridge it. “Going off that, we make a six- to 12-month plan of what we want to accomplish,” Lee says. “If some people are like, ‘I don’t know what I want to do,’ we try to make sure we get them the right amount of visibility in ways they do want to develop. Sometimes people are like, ‘In the next two years, I want to be a COO or CPO.’ Then we talk about the skills they need to be set up for that.” Mapping it out paints a clear picture of the person’s future at the company and makes the goal more tangible. A major promotion doesn’t seem that insurmountable when you can visualize the exact steps needed to get there.
+
+### [Make the week not just about “work”](#make-the-week-not-just-about-work)
+
+When Vika Kovalchuk Zamparelli and Lindsay Liu co-founded the building software startup Super, they were determined to avoid the usual pitfalls of startup life—the grueling hours, the vicious toll on their personal lives. So they did what some brave companies have [piloted in recent years](https://www.businessinsider.com/benefits-of-four-day-work-week-global-study-2022-12): They adopted a four-day work week. “We want to make sure that people are balanced and that we recognize they have lives greater than work,” Liu says.
+
+The benefits of work-life balance are clear. Teams are happier, more productive, and even [more diverse](https://hbr.org/2022/09/the-surprising-benefits-of-work-life-support) when their working lives don’t follow them around the clock. But team leaders need to make a concerted effort to prioritize balance, otherwise workers are liable to burn out and quit.
+
+For Liu and Zamparelli, the four-day week created a unifying constraint for the kind of healthy work environment they wanted to build. Meetings are held on Mondays and Thursdays; Tuesdays and Wednesdays are for heads-down work. And cloud-based collaboration tools keep teams organized and on-task, no matter where or when they’re working. All of which feeds a surprising insight: With fewer working hours, the team is able to move faster. “Balance is going to be our best way to maintain velocity,” Zamparelli says.
+
+> Balance is going to be our best way to maintain velocity.
+
+Vika Kovalchuk Zamparelli
+
+Of course a four-day week doesn’t make sense for every company, nor is it the only way to alleviate a demanding job. Shopify experimented with the four-day week, but found that it wasn’t quite clicking. "While it was nice at first, my team eventually fell into the trap of trying to squeeze five days of work into four days per week, and everyone started to feel like their days were not long enough and that there were too many meetings," says UX Manager Sebastian Speier. Now, the fully remote teams break up the day with assorted social gatherings in FigJam, like virtual scavenger hunts and weekly wind downs. “Doing more virtual social gatherings seems to be a nice middle ground,” he says. “They have the function of taking your mind off work for a small portion of the week.”
+
+_In this three-part series, we’re talking to leaders and managers from teams at Shopify, Ironclad, Twitch, Uber, and more to learn about how they’re rethinking the way they work to keep pace with the outsized change in work right now. Read [part one](https://www.figma.com/blog/redesign-your-job-figjam/), to learn how people managers can reframe their approach to tackle some of today’s biggest workplace challenges._

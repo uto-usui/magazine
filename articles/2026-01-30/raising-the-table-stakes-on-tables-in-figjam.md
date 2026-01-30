@@ -1,0 +1,81 @@
+---
+title: "Raising the (table) stakes on tables in FigJam"
+source: "https://www.figma.com/blog/tables-in-figjam/"
+publishedDate: "2023-03-14"
+category: "design"
+feedName: "Figma Blog"
+---
+
+March 14, 2023
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsTAAALEwEAmpwYAAACR0lEQVQokUXG609SAQBA8fuX9qmttjZdTl1WljZb08xXtmaCZoaZmhiChJYpSjwnCgiI8TDeCMq93Hu5GnlazurDb+cIje1WKpuPSa6MEl98Tsz4irDJQMyoI7E4yqFxnOhHHWHLKKFPQwRtQwSvGrIN/xO0DbNnG0GQnT3EViaxDmwy3+5koc2N8U6Q5Y4wlo59LPfCGHtC6EZ99Ou36dXbL/VNbPNs2sugwc/gzC4Dhl36DXsIp55BIuY5lp9EmG7O87apwNztKoutGktt55jbZSwPc+hGknTpknRMpOjQp7g7meaBoUz3e4muv2YlBNnVQ25riv21KH7rKXvWUwK2GqFVhf1VlbglT3bGQWR+g/XPIVbsccwbh1i3vvPVm+SL5wfW7StbKYSGox1xZ4xCMkQ2XaCYLlApVKgcVzkpiyhHaRqOdRS7iXxgk0TQQdS7SnxnkWJ0jkxwgQPXAjGPkbjPhFBy3icXeE0pF6FSKSOelFHlGvW6Sl2rcy6J/Mwk0Y4CSNk9yikv+eA7cp5OSt4WSr42cq4ucs4X5N3TCCZ3H2uhWVLFQ2qSSE2SUGQZRVFRFAVFVtBUBVU6oZJPU0yGqETfUPbdouS8RnXnOlV/J9mtJZJrDoQxVz9Dfj3ujJdq9RhRFBElCUmSLv9P1XodpSZRzGTJHAQ4iUyhBJtQA9c5j95Ai3Zy7DOTtn9DMLt7eeR8ijVhQarlONM0NE3j7Ozssv+/jiqrKKd5tMwHfsVauDi4yUW8mUaqGy0xjhp9yW9EP1xay6J/VAAAAABJRU5ErkJggg==)![](https://cdn.sanity.io/images/599r6htc/regionalized/f948cd9882d220ae718e17bc2d711c5061a885ed-2120x1000.png?rect=1,0,2119,1000&w=1632&h=770&q=75&fit=max&auto=format)
+
+We’re introducing tables in FigJam to help you roadmap, plan, and organize information more effectively. Here, the product team shares how they arrived on an approach, tackled multiplayer bugs, and finessed design details to come up with a feature that feels uniquely FigJam.
+
+The first time people designed a grid to contain and understand information, they were drawing on walls and clay tablets in Mesopotamia. Tables like these were used for purposes as complex as inventorying property, navigating across oceans, and charting celestial events for thousands of years before software was even a twinkle in Bill Gates’s eye. From Excel’s debut in 1985, to the launch of Google Sheets in 2006, tables have proliferated in tools like Dropbox Paper, Airtable, and Notion in recent years, but haven’t changed much in all that time. It still comes down to columns, headers, and alignment to highlight relationships between text or numbers; the building blocks continue to be robust and effective for our categorization-loving human brains.
+
+The Figma product team knew the moment had come for a table feature in FigJam when they saw their own internal teams regularly hacking them together with stickies or shapes in the quest to plan, roadmap, and even run meetings more effectively. So why did the product team seemingly…_table it_…for so long? It may look like a straightforward series of boxes and lines, but making a multiplayer table is actually pretty complex. The team wanted to support the simplicity and user expectations of the humble table, understanding that many prospective table users in FigJam will not be a designer or engineer.
+
+![Blue rectangles with words in white writing, with two rows of squares underneath, some of which have numbers in them.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB70lEQVQokXWOzU4TYRiFuTVdgJqgXoQBFb0FF4hh56Irf1aGRMENFoEYRFoSE9JWQqxQaWVqy5QCU4bpN2Vm6M+8j5mZVgfFxZNz8uZ8T74hySeQ3Rn80hy90uw/+KU3MWb/s5lDijOQTzBEdZmWUUSr19jZ1y9Q2Nf5Xq1QqmgUK2UK1eqlm5/1GmeNIoFriKMN9gzF822YyknIk5zweJCZHtPZDtPZLpMZP7zFN1M54eUOaA1F4AqFX2qKh+twc1G4tSTcXhJGg74oXF+I8u8+2Iy+Fx6sw2YtJszqivEUjCSjRwHDSWEkCVfng3vElX6/tgA3+pvhpHA3BTk9Jvx2qJjMwb2UhNxPB6Mox9aEibQfMrYWZXCfSAvjKeHOJ+FRBvL1mPDIUqzqMK/Jb95pPh/KHT5qHqvliJV+Xyl7LJe7vC0JT7eExFcoHseErTOFpqBg+hRMCdk1fSqmR920aVgK01Kc9NOwbHTLY+u4x6uCz7NtKBkxoeMo9luwZ0mI1gyEwme9S7riUWm0sG2FrVSYStmcqjNqlsfmgUfmoMNJ07pc+KMvzDeE10XhRb5Hvu6gbBulItmAprKxmopmy6HjnP4Rtl2FeQ6GIxw7guEKekvYOISU7qM323ieh+u6YV7AdTlvt+l50Q9/AVgyBKz76kVYAAAAAElFTkSuQmCC)![Blue rectangles with words in white writing, with two rows of squares underneath, some of which have numbers in them.](https://cdn.sanity.io/images/599r6htc/regionalized/c20a31372566ef0eb2f17b08ddf1f3ac53a2eec5-1600x886.png?w=804&h=445&q=75&fit=max&auto=format)
+
+PM Emily Lin hacked together an exercise based off of "StrengthsFinder" by grouping shapes in FigJam.
+
+## [Table settings](#table-settings)
+
+**What should tables actually solve for?**
+
+When it came to scoping the feature, there were so many possible directions (and levels of complexity) to choose from. Should there be functionality to manipulate data, or should tables stay true to their simplest form? What would it mean to prioritize equally the experience for both the table “creator” (the person populating the table) and “user” (the person consuming information)? And how would support for different zoom levels factor in, along with multiplayer editing from an engineering perspective?
+
+“Part of the joy of FigJam is that it’s fairly simple, especially compared to Figma,” says Jessie Alvarez, the lead engineer on tables. For PM Conor Woods, it all comes down to how people use FigJam. “FigJam isn’t the tool that people go to for complex data manipulation,” Conor says. “It’s more about visually presenting information in a way that’s super digestible and easy to change over time as a project evolves.”
+
+Visually presenting information is core to many of the cross-functional table use cases the team sees on a daily basis: PMs lay out feature requirements and their respective priority in a PRD; project owners track progress on plans; product marketers write up messaging hierarchies for feature launches; designers collect feedback in crits; brainstorm facilitators enumerate ideas and tally votes.
+
+The team knew that building tables natively would be a huge improvement to the ad hoc solutions they were seeing in files—and performance would be better, too—but, with those use cases in mind, they didn’t want to over complicate FigJam’s table feature. The user needs were pretty straightforward: Make it clear, make it easy, make it editable by everyone.
+
+## [Both sides of the table](#both-sides-of-the-table)
+
+**The table “creator” and “user” are equally important**
+
+PMs, PMMs, designers, and just about anyone else can use tables, but there are only two ways to interact with them: Create a table or edit an existing one. When it came to architecting tables, these two behaviors were given equal weight. For table creation, designer Jakub Swiadek leveraged a flow that already works well for other features in FigJam: One click in the toolbar creates a pre-styled new element. That way, creators don’t need to spend time worrying about tweaking [colors](https://www.figma.com/colors/), fonts, or spacing. Just as an artist selects colors from a [color wheel](https://www.figma.com/color-wheel/) to bring harmony and distinction to their work, FigJam users can apply predefined styles to tables, ensuring visual clarity and consistency across their collaborative spaces. They can always switch up the colors, but there’s a limited palette to choose from and the whole table gets styled together to make sure its contents are clean and legible. “When you add a new row or column, we derive the styling from the previous row or column,” says Jakub, and if you change the color of the table, the text inside automatically adjusts for maximum legibility.
+
+Supporting only native styles meant that Jakub could get really picky about the UI that separates and highlights cells and headers, too. He explored tons of design approaches for the lines between cells, trying to get them to delineate space without adding visual noise. He decided to have the table programmatically draw strokes on some edges and not on others so the lines end up looking uniform, even if they’re inconsistent.
+
+![Six versions of tables in FigJam, all against a purple background. Each shows a different approach to adding and adjusting columns and rows in a table.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAACn0lEQVQokVWSS28aZxRA579333XVJnHVSm0XlRopVZrY4MQl2OkYiEk8MMNzYGDezPsF8zgVYLXK4izuOfru5n7C+lWD8aFG7aTIVx7rDzn2fYPVbTA6DbbY4PTqk3P659n4u8HsHn2D2/8awbptMBYFN8MFP7dFLh8UHlQdeepiznPMbYKkGtzPNIZrHUk1WSgBzrpgY0aMNiaPmo70hOAMGmbbgF/kHt/cveLbh7/4Ydzm5ajHRHOQHZ3fZ3d8J7V4prT5afye97LMyvYQ7Tm/LjpcTNr8OGnzQmkhqN2MgWzzbjXlSh1yuezzWvnIjfSZpeqydFxutzIt9ROXi3vejER64zm6FaK4Op3NI211wNuZyJ/jLsLwtcm7OxVZ3+HHMV7oYdgWumpjrSKsXcYuTvCjEMffoesWphoQeXuirCBIYvwowHIdtqaOoLR9+p9t1m5Cmu/J8pwkyYicnEAv8MMD8ckXpxaHOZG5Jw0qsqIkL/bkeUGa5SRphmDcVdjagSAsSeOSLClJo5LYqoi31elhmvzfEr8k2lYkdk0Wn1t2bE9dOJ4/WjWku5rErc7YFeGqIlzUpFZNunvybkVsVPjzimhdkzpftyOC/U+DvSmQTYd7bYW4WdLTlnyZ6+hqgmHHSMaW3tFvlvRXKsrMxdFz1o7PUNf+a0cEd9CwMiLeaBIvlJvT13g2vuIPSWSythk7Bi9VkQvlmudKiwvpmuvxiLXl07OX/LbocqG0eS63+H789rzQdQsmgcUne0HPnHC7eqQ/naJvQ8wwYuRpDOwZoi5zO39Emmo4booWeXzZqQysKR83IzrLh/PC3G841DVVVXM47InCCM+IiK0D+7ymOrWKPM8JdiHeJiUNSg5lTV3XlGVJkiT4vs+/JuptGKzKLv4AAAAASUVORK5CYII=)![Six versions of tables in FigJam, all against a purple background. Each shows a different approach to adding and adjusting columns and rows in a table.](https://cdn.sanity.io/images/599r6htc/regionalized/e67b28ef55bbd2204a6bf318a0758bdd3c76cf7d-1600x967.png?w=804&h=486&q=75&fit=max&auto=format)
+
+Jakub explored a few different versions before landing on an approach.
+
+## [Roundtable discussions](#roundtable-discussions)
+
+**Design and engineering decisions required tons of iteration and testing**
+
+Tables can have nearly limitless cells, all of which can be touched by a different user at a different zoom level, all at the same time. That makes it pretty different from other parts of FigJam. “Usually if two changes to the same element happen at the same time, whichever one hits the server second wins,” explains Jessie. “But for a table, it's hard because we need to actually merge some of those changes together.”
+
+For instance, imagine a collaborative retrospective session with everyone throwing ideas into the table—if one person starts typing in a cell and two more add their own edits, the final text that shows up should incorporate all those contributions. Jessie and the team spent months working through bugs and edge cases so that tables could support the multiplayer editing that’s so core to Figma and FigJam—multiplayer accounted for at least half of engineering time on the project.
+
+FigJam’s multiplayer functionality also brought challenges to the design side of the table. Jakub needed to revisit the FigJam standard pattern for editing, for example. With other FigJam elements like shapes or text, editing UI appears when a user selects the element. That works great for elements where only one user can edit at a time. But what happens if multiple users select multiple table cells on multiple tables at the same time? Jakub and the team tried lots of different interaction patterns. (Jessie even created a script to write “FigJam” over and over to simulate a second “player” for testing.)
+
+For internal testers, _on-click_ editing UI like those used for other FigJam elements felt seriously overwhelming when more than one person was editing. Who was working on what and which elements were “active?” It was too hard to tell visually—especially at distant zoom levels.
+
+The team decided to diverge from FigJam standard element behavior in two ways. First, the table editing UI appears _on-hover_ only, following the user’s cursor. If the user mouses over the table, one large primary button appears to add a full new column or row. Second, the table interactivity changes according to a user’s zoom level. That way, only the necessary functionality is visible and the UI doesn’t end up cluttering the screen. “If you're zoomed far away, you can move the table around and rearrange it in relation to the other things on your FigJam board,” explains PM Conor. “As you zoom in, you'll find that you can do more with the table itself: resize it or add rows or columns.” The goal was to meet the user where they are and make creating and editing a table simple in the tool—even if the process for getting to the solution was a windy road of prototypes, tests, and bug bashes.
+
+## [Pull up a chair](#pull-up-a-chair)
+
+**What’s next?**
+
+The team is keen on upping the ante on tables. Now that the feature is available in FigJam, table content beyond text is on designer Jakub’s mind. “We want to give a lot of attention to what we call parenting—placing other FigJam elements inside of a table,” he says. That would mean that a sticker or stamp could fill a cell of a table in the future. For now, users can still place non-text objects inside a cell, but they just won’t scale or move when the table does.
+
+The great and enduring thing about tables, says Jakub, is “they’re not meant to be those revolutionary paradigm-shifting experiences. They're supposed to behave the way you expect them to”—whether that’s [roadmapping](https://www.figma.com/community/file/1116436476720086895), [connecting as a team](https://www.figma.com/community/file/1156968058431123591), [planning and tracking progress](https://www.figma.com/community/file/1204948193982524300), or just having some fun.
+
+![A dinner table made with rectangles from a table in FigJam, with emoji of plates, food, and flowers on the table itself, with chairs on the perimeter.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAACYklEQVQoka2QS08TURiGx4QNKiGaCNENMcQY1MQVG3e6UaOIS8BEDYIhKpBwi7FKUctVjRsXglxKWCgYaGlLp7QMM70ghKlCL9MrSotE4kLjP3hMp/4EF0++c57z5s2XI1Q62zBsTDGaWmREc/A2bGUkamMs6WI0ITIcmdfdu5iT8bRH98MRWz6nORhPuxnf8ugdlc52hIuSEUsmwNaPKNG4zGZIJBx1E0sqaAmZUHiRUMhFNL5MYstPLOUlHHGzGXIR0ZZIZ1WyvzJYd1a5LPUgXJNNLG8H2FE/sPG+mXXzHYKTDQTNtwhO3EY1N6BONhI01xOcuKl7dTLvVHM9cbuR39vr+PdCXFd6EaqWnyFqTkJzDxEfl2PrLMXeWYK1tQhLazHW9lJsXcewdRxhvvWgjr2jBHvXUWxth1GGzpFVZ1jeUamWexGuSk9ZCNvYmG7F0VGCpfkAluZCZpsEZpoK+Hh/P7MtRbqfa9qne8uDQiwtRczdK2DJdJZvq1NImTWqZRNClfycxYQbbcGE1FeJy3gKl7EC0XAcp6EcZ3cFYs9pXN0nER+VIRrK9HdXzxlcT06w8uYKuyEbyvfP+Q31P8yusReXSLhfE7H3oi0MEBf7iTn7iTr6dHLnhNiv+6gjj7bQz/anCf7sxfHthfOF590GxlKLrO1+wZdUkKNuvHGJla8BAlt+FG0JWfPgT3lZzazqXolJes6XlFnbUVF/xphIe7jgMSCUWxu5JBmp87+k1jtEjTKgz9xdd8ogNcogdb4X3Ai8+pfLuXwu53LkOsqtdxGKp2s4NF37X8h1/QWZLivSoLiTAAAAAABJRU5ErkJggg==)![A dinner table made with rectangles from a table in FigJam, with emoji of plates, food, and flowers on the table itself, with chairs on the perimeter.](https://cdn.sanity.io/images/599r6htc/regionalized/0efd01f329462183c9dc0ac9ca1ce4850a5c7bfe-1600x822.png?w=804&h=413&q=75&fit=max&auto=format)
+
+Designer Jenny Wen made a dinner table with emoji.
+
+It shouldn’t be that complicated, even many millennia later and despite some very different tools—and tons of behind the scenes work. Visually laying out ideas with other people should still feel as simple as drawing a few lines in wet clay.
+
+![](data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAWABQDASIAAhEBAxEB/8QAGgABAAIDAQAAAAAAAAAAAAAAAAYHAgQFCP/EACMQAAIBBAEFAAMAAAAAAAAAAAECAwAEBRESBhMhIjEWQWH/xAAXAQADAQAAAAAAAAAAAAAAAAAEBQYH/8QAIhEAAQMDAwUAAAAAAAAAAAAAAQACBAMRIRIiMRRRcZHR/9oADAMBAAIRAxEAPwCGWk8FvlwkeLurhU9ybdvbX7FTh8r0j1Hi2S0iucbkkUlFnbfcI+itbErDh8lPfIC5eMr2gdciflVb1Vg89j7xsi0Lwxly6DXlQao58yTRmANedJyPiVwaEWTG16Nwwe/ldK5hMs7snEjeqVHIslOE9iCT5JpVqHgi6T9M8YBWV3mLuXNi4aV+aybA34Gv5V7/AJraZfpVrjI48y3kduV2QOOwPtKVlMzfZzubqth7AQ3AsvPEp7kjSbK8yW0Pg80pSmIlVgLB59oUsaTwv//Z)![](https://cdn.sanity.io/images/599r6htc/regionalized/b22c711a05c37c8c04d55f5653a7f91474251684-465x500.jpg?w=465&h=500&q=75&fit=max&auto=format)
+
+Rebecca Ackermann is a writer, designer, and artist living in San Francisco. Her essays have appeared in MIT Tech Review, The New York Times, Electric Literature, and elsewhere. Her short fiction has been published by Wigleaf, Jellyfish Review, and Cleaver Magazine, among other journals.
+
+## Create and collaborate with Figma
+
+[Get started for free](https://www.figma.com/signup)

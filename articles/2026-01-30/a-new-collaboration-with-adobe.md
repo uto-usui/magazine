@@ -1,0 +1,50 @@
+---
+title: "A new collaboration with Adobe"
+source: "https://www.figma.com/blog/a-new-collaboration-with-adobe/"
+publishedDate: "2022-09-15"
+category: "design"
+feedName: "Figma Blog"
+---
+
+Today, we’re announcing that Figma has entered into an agreement to be acquired by Adobe. This has been in the works over the past few months and I’m so excited to finally share this news with the world.
+
+Ten years ago, Evan and I set out on a journey to make design accessible to all. Looking back, I’m proud to say we’ve made progress through introducing Figma to designers of all ages, geographies, and levels of experience.
+
+Looking ahead, we’re still barely scratching the surface. There’s such an opportunity (and need!) to make design and developer tools more collaborative and accessible. When we started Figma, our stated vision was to “eliminate the gap between imagination and reality.” I believe we can reach this goal substantially faster through our plan to join forces with Adobe and leveraging their legendary team plus decades of expertise.
+
+> There’s such an opportunity (and need!) to make design and developer tools more collaborative and accessible. When we started Figma, our stated vision was to ‘eliminate the gap between imagination and reality.’
+
+While this is not the end of the story, it is the closing of a chapter, and I want to thank all the Figmates (past and present), community members, and customers who helped us reach this milestone. You bet on us before there was a reason to—before cursors flying across the screen was normal, before design was at the center of the product process and before we knew what we were doing. Milestones are mirrors through which we can see the hard work of many and I am so grateful.
+
+I understand this is a big change, especially for a platform you rely on every day. So I want to elaborate more on our plans for how this acquisition will work operationally and why I believe this is a partnership that will ultimately benefit you and the Figma platform.
+
+1.  There is a huge opportunity for us to accelerate the growth and innovation of the Figma platform with access to Adobe’s technology, expertise and resources in the creative space. For example, we will have the opportunity to incorporate their expertise in imaging, photography, illustration, video, 3D and font technology to the Figma platform. Additionally, we will have the opportunity to reimagine what the best creative tools could look like within the Figma technology stack.
+2.  Adobe is deeply committed to keeping Figma operating autonomously and I will continue to serve as CEO, reporting to David Wadhwani. David is someone I’ve known for a few years now and we have a strong relationship of mutual respect; I’m very excited for us to collaborate with him on how to continue growing Figma’s business. The entire Figma team will report to me. We plan to continue to run Figma the way we have always run Figma — continuing to do what we believe is best for our community, our culture and our business.
+
+My goal is that we look back at this acquisition as an inflection point where Figma started building even faster. Yes, we want to expand into new areas over time, but we also want to continue making Figma Design, FigJam and the Figma community platform even better. One of the trickiest design decisions is when to make a new capability a separate tool vs part of an existing tool. Please know that we have some fun ideas on how to address this issue.
+
+> It is an incredible opportunity and honor to help Adobe build the next generation of creative tools. Especially in a time when AI-generated models make us question the role of human creativity, this opportunity is also a huge responsibility.
+
+While we have big ambitions on the product side, many other things will remain the same for you. Our Friends of Figma program will continue spreading to new local communities. Recognizing that we are in an unpredictable, inflationary environment, we currently have no plan to change Figma’s pricing. Finally, all of Figma will continue to be free for education. Figma’s education offering was a critical part of our conversations and Adobe is completely aligned on growing the number of designers / developers / creatives in the world.
+
+Like many of you, I grew up using Adobe software and it was a critical part of my personal creative journey. It is an incredible opportunity and honor to help Adobe build the next generation of creative tools. Especially in a time when AI-generated models make us question the role of human creativity, this opportunity is also a huge responsibility. I look forward to the years ahead and continuing to serve this amazing community.
+
+**Disclaimer**
+
+September 15, 2022
+
+**Forward-looking Statements**
+
+In addition to historical information, this communication contains forward-looking statements within the meaning of applicable securities law, including statements regarding the expected timing, completion and effects of the proposed transaction, product plans, future growth, market opportunities, strategic initiatives and industry positioning. In addition, when used in this communication, the words “will,” “expects,” “could,” “would,” “may,” “anticipates,” “intends,” “plans,” “believes,” “seeks,” “targets,” “estimates,” “looks for,” “looks to,” “continues” and similar expressions, as well as statements regarding our focus for the future, are generally intended to identify forward-looking statements. Each of the forward-looking statements we make in this communication involves risks and uncertainties that could cause actual results to differ materially from these forward-looking statements. Factors that might cause or contribute to such differences include, but are not limited to: expected revenues, cost savings, synergies and other benefits from the proposed transaction, such as Adobe’s ability to enhance Creative Cloud by adding Figma’s collaboration-first product design capabilities and the effectiveness of Figma’s technology, might not be realized within the expected time frames or at all and costs or difficulties relating to integration matters, including but not limited to customer and employee retention, might be greater than expected; the requisite regulatory approvals and clearances for the proposed transaction may be delayed or may not be obtained (or may result in the imposition of conditions that could adversely affect the combined company or the expected benefits of the proposed transaction); the requisite approval of Figma shareholders may be delayed or may not be obtained, the other closing conditions to the transaction may be delayed or may not be obtained, or the merger agreement may be terminated; business disruption may occur following or in connection with the proposed transaction; Adobe’s or Figma’s businesses may experience disruptions due to transaction-related uncertainty or other factors making it more difficult to maintain relationships with employees, customers, other business partners or governmental entities; the possibility that the proposed transaction is more expensive to complete than anticipated, including as a result of unexpected factors or events; diversion of management’s attention from ongoing business operations and opportunities as a result of the proposed transaction or otherwise and those factors discussed in the section titled “Risk Factors” in Adobe’s Annual Report on Form 10-K and Adobe’s Quarterly Reports on Form 10-Q. The risks described in this communication and in Adobe’s filings with the U.S. Securities and Exchange Commission (the “SEC”) should be carefully reviewed. Undue reliance should not be placed on these forward-looking statements, which speak only as of the date they are made. Adobe and Figma undertake no obligation to publicly release any revisions to the forward-looking statements or reflect events or circumstances after the date of this communication, except as required by law.
+
+**No Offer or Solicitation**
+
+This communication shall not constitute an offer to sell or the solicitation of an offer to buy any securities, nor shall there be any sale of securities in any jurisdiction in which such offer, solicitation or sale would be unlawful prior to registration or qualification under the securities laws of any such jurisdiction. No offering of securities shall be made except by means of a prospectus meeting the requirements of Section 10 of the Securities Act of 1933, as amended.
+
+**Additional information and where to find it**
+
+In connection with the proposed acquisition of Figma, Adobe will file a registration statement on Form S-4 with the SEC to register the shares of Adobe common stock to be issued in connection with the proposed transaction. The registration statement will include a consent solicitation statement/prospectus, which will be sent to the shareholders of Figma seeking their approval of the proposed transaction.
+
+INVESTORS AND SECURITY HOLDERS ARE URGED TO READ THE REGISTRATION STATEMENT ON FORM S-4, THE CONSENT SOLICITATION STATEMENT/PROSPECTUS INCLUDED WITHIN THE REGISTRATION STATEMENT ON FORM S-4 AND ANY OTHER RELEVANT DOCUMENTS FILED OR TO BE FILED WITH THE SEC IN CONNECTION WITH THE PROPOSED TRANSACTION WHEN THEY BECOME AVAILABLE BECAUSE THESE DOCUMENTS DO AND WILL CONTAIN IMPORTANT INFORMATION ABOUT ADOBE, FIGMA AND THE PROPOSED TRANSACTION.
+
+Investors and security holders may obtain copies of these documents, when available, as well as other documents filed by Adobe with the SEC, free of charge from the SEC’s website at www.sec.gov or by accessing Adobe’s website at [https://www.adobe.com/investor-relations.html](https://www.adobe.com/investor-relations.html) or by contacting Adobe’s Investor Relations department by calling (408) 536-4700, by writing to Investor Relations, Adobe Inc., 345 Park Avenue, San Jose, California 95110-2704 or by sending an email to [adobe@kpcorp.com](mailto:adobe@kpcorp.com).
