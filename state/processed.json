@@ -8483,7 +8483,27 @@
     "https://css-tricks.com/relicss/": {
       "contentHash": "7697c148b80c4950d5d4238601b03bacb85b6be3a0a641e7ac5a5e1faa5352e5",
       "processedAt": "2026-01-29T00:35:07.662Z"
+    },
+    "https://randsinrepose.com/archives/sometimes-your-job-is-to-stay-the-hell-out-of-the-way/": {
+      "contentHash": "5b9b1fd2bf59d662adb3e147dd354915fb488612be7e05025c5f20e8018c96d9",
+      "processedAt": "2026-01-30T00:34:56.123Z"
+    },
+    "https://daily.jstor.org/the-hidden-history-of-women-game-designers/": {
+      "contentHash": "fa55264124395f79924689b00c72a2463d4652ec28bd66b4daa71d33a1a524ef",
+      "processedAt": "2026-01-30T00:34:57.221Z"
+    },
+    "https://www.ragecheck.com/": {
+      "contentHash": "539ed187fe6b5fd588eb5de9b7896ee595f519f60959c3f53447f7850de43675",
+      "processedAt": "2026-01-30T00:35:03.814Z"
+    },
+    "https://ericwbailey.website/published/how-an-accessibility-designer-adds-keyboard-shortcuts-to-a-web-app/": {
+      "contentHash": "fc52f741f52f17924cc1651dd97beec48b67303c816ea4f37283e0be70dddd53",
+      "processedAt": "2026-01-30T00:35:05.253Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-161": {
+      "contentHash": "be94c2b6721e1c9977fd04aa9109a764fd98303673d7932804e729e6da009b37",
+      "processedAt": "2026-01-30T00:35:05.466Z"
     }
   },
-  "lastRun": "2026-01-29T00:35:07.662Z"
+  "lastRun": "2026-01-30T00:35:05.466Z"
 }
