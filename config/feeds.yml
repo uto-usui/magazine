@@ -110,3 +110,71 @@ feeds:
   - url: https://css-tricks.com/feed/
     name: css-tricks
     category: css
+
+  # Individual Expert Blogs
+  - url: https://www.joshwcomeau.com/rss.xml
+    name: Josh W Comeau
+    category: frontend
+
+  - url: https://kentcdodds.com/blog/rss.xml
+    name: Kent C. Dodds
+    category: frontend
+
+  - url: https://overreacted.io/rss.xml
+    name: Dan Abramov
+    category: frontend
+
+  - url: https://jakearchibald.com/posts.rss
+    name: Jake Archibald
+    category: web-standards
+
+  - url: https://ishadeed.com/feed.xml
+    name: Ahmad Shadeed
+    category: css
+
+  - url: https://piccalil.li/feed.xml
+    name: Piccalilli
+    category: css
+
+  # Company Blogs
+  - url: https://vercel.com/atom
+    name: Vercel
+    category: frontend
+
+  - url: https://stripe.com/blog/feed.rss
+    name: Stripe Blog
+    category: engineering
+
+  - url: https://www.figma.com/blog/feed/atom.xml
+    name: Figma Blog
+    category: design
+
+  # Curated / Publications
+  - url: https://alistapart.com/main/feed/
+    name: A List Apart
+    category: web-standards
+
+  - url: https://cprss.s3.amazonaws.com/frontendfoc.us.xml
+    name: Frontend Focus
+    category: frontend
+
+  # Japan Tech Blogs
+  - url: https://blog.jxck.io/feeds/atom.xml
+    name: blog.jxck.io
+    category: web-standards
+
+  - url: https://efcl.info/feed/
+    name: Web Scratch
+    category: frontend
+
+  - url: https://zenn.dev/uhyo/feed
+    name: uhyo
+    category: frontend
+
+  - url: https://tech.smarthr.jp/feed
+    name: SmartHR Tech Blog
+    category: design
+
+  - url: https://tech.layerx.co.jp/feed
+    name: LayerX エンジニアブログ
+    category: engineering
