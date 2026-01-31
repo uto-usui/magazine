@@ -1,0 +1,55 @@
+articles_dir=2026-01-31
+exit_code=0
+timestamp_utc=2026-01-31T00:33:58Z
+
+---- issue lines ----
+8:Failed to fetch feed CSS IRL: read ECONNRESET
+17:⚠️ Content too short (97 chars < 300): https://easemaster.satisui.xyz/
+19:⚠️ Content too short (97 chars < 300): https://easemaster.satisui.xyz/
+21:⚠️ Content too short (97 chars < 300): https://easemaster.satisui.xyz/
+22:⚠️ Using RSS content as fallback for: https://easemaster.satisui.xyz/
+41:   ❌ Errors: 0
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 26 feeds
+📡 Fetching RSS feeds...
+Failed to fetch feed CSS IRL: read ECONNRESET
+📰 Found 1634 total articles
+✨ New articles: 10
+⏭️ Skipped (already processed): 6
+📥 Processing: The word “Computer” meant human (at some point)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-31/the-word-computer-meant-human-at-some-point.md
+📥 Processing: Artvee
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-31/artvee.md
+📥 Processing: Ease Master
+⚠️ Content too short (97 chars < 300): https://easemaster.satisui.xyz/
+⏳ Retry 1/3 for: https://easemaster.satisui.xyz/
+⚠️ Content too short (97 chars < 300): https://easemaster.satisui.xyz/
+⏳ Retry 2/3 for: https://easemaster.satisui.xyz/
+⚠️ Content too short (97 chars < 300): https://easemaster.satisui.xyz/
+⚠️ Using RSS content as fallback for: https://easemaster.satisui.xyz/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-31/ease-master.md
+📥 Processing: Accessibility for Everyone
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-31/accessibility-for-everyone.md
+📥 Processing: A deep dive into ASCII rendering
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-31/a-deep-dive-into-ascii-rendering.md
+📥 Processing: OpenClaw UX Review: Is Local Agentic AI Ready for Designers?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-31/openclaw-ux-review-is-local-agentic-ai-ready-for-designers.md
+📥 Processing: From Art on the Walls to Motion on the Screen: Daniele Buffa’s Approach to Design
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-31/from-art-on-the-walls-to-motion-on-the-screen-daniele-buffas-approach-to-design.md
+📥 Processing: Practical Use Of AI Coding Tools For The Responsible Developer
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-31/practical-use-of-ai-coding-tools-for-the-responsible-developer.md
+📥 Processing: スクロール連動UIはCSSだけで作れる！ 疑似クラス:target-current/before/afterが便利
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-31/uicss-target-currentbeforeafter.md
+📥 Processing: What’s !important #4: Videos & View Transitions, Named Media Queries, How Browsers Work, and More
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-01-31/whats-important-4-videos-view-transitions-named-media-queries-how-browsers-work-and-more.md
+
+📊 Summary:
+   ✅ Success: 10
+   ❌ Errors: 0
+🏁 Done!
