@@ -86,7 +86,7 @@ description: UXエンジニア向けニュースレターを作成するコマ�
 以下のフォーマットでMarkdownファイルを生成：
 
 ```markdown
-# ニュースレター
+# UX Developer newsletter
 
 **発行日**: YYYY-MM-DD
 
