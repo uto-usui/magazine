@@ -8503,7 +8503,47 @@
     "https://newsletter.pragmaticengineer.com/p/the-pulse-161": {
       "contentHash": "be94c2b6721e1c9977fd04aa9109a764fd98303673d7932804e729e6da009b37",
       "processedAt": "2026-01-30T00:35:05.466Z"
+    },
+    "https://iterativewonders.com/2026/01/27/the-word-computer-meant-human-at-some-point/": {
+      "contentHash": "d6e095bffadeb6db67a6e21de8098b80bd1ac45e48cb6d1b28dfdc5b18323f20",
+      "processedAt": "2026-01-31T00:33:39.556Z"
+    },
+    "https://artvee.com/": {
+      "contentHash": "967bbf3932f15ef0cac02d0656b90e3f85adbeeda44f5f1a3fef6e4001f8f123",
+      "processedAt": "2026-01-31T00:33:42.031Z"
+    },
+    "https://easemaster.satisui.xyz/": {
+      "contentHash": "0483e496416162a121b0bc2ab3f09e30fd8df6acf2af20de6b0b5282108a9d1d",
+      "processedAt": "2026-01-31T00:33:49.256Z"
+    },
+    "https://accessibilityforeveryone.site/": {
+      "contentHash": "6749da8daf0a82f92195a1a03f5a4468302ede26c1db7d53c8676ab80e2ab2d2",
+      "processedAt": "2026-01-31T00:33:50.113Z"
+    },
+    "https://alexharri.com/blog/ascii-rendering": {
+      "contentHash": "abe8787d5f24ff7b1356225e5c2131b0bcefa2b4775fdb924f2aabfce403e20b",
+      "processedAt": "2026-01-31T00:33:52.161Z"
+    },
+    "https://uxwritinghub.com/openclaw-ux?utm_source=rss&utm_medium=rss&utm_campaign=openclaw-ux-review-is-local-agentic-ai-ready-for-designers": {
+      "contentHash": "58aa17d81072398231ff68cbae171dbd25b91e709dfc2ebf57bfc75ebf5ce630",
+      "processedAt": "2026-01-31T00:33:53.539Z"
+    },
+    "https://tympanus.net/codrops/2026/01/30/from-art-on-the-walls-to-motion-on-the-screen-daniele-buffas-approach-to-design/": {
+      "contentHash": "4edbbc4778fe75b4a28c0683b6973030ae3f0712476a08ac63d10d274cafa292",
+      "processedAt": "2026-01-31T00:33:55.112Z"
+    },
+    "https://smashingmagazine.com/2026/01/practical-use-ai-coding-tools-responsible-developer/": {
+      "contentHash": "6983c225857bb0a8f85f5e46f1dd6e067ebc62813814447bfdd4db2c657195ca",
+      "processedAt": "2026-01-31T00:33:56.685Z"
+    },
+    "https://ics.media/entry/260130/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-01-31T00:33:57.617Z"
+    },
+    "https://css-tricks.com/whats-important-4/": {
+      "contentHash": "e8ae0ef68d4b5894852a613c897d78ef9a427172928c8f4d30be61e9c744d60b",
+      "processedAt": "2026-01-31T00:33:57.985Z"
     }
   },
-  "lastRun": "2026-01-30T00:35:05.466Z"
+  "lastRun": "2026-01-31T00:33:57.985Z"
 }
