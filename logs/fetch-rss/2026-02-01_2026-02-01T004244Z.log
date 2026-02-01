@@ -1,0 +1,81 @@
+articles_dir=2026-02-01
+exit_code=0
+timestamp_utc=2026-02-01T00:42:44Z
+
+---- issue lines ----
+8:Failed to fetch feed blog.jxck.io: 
+17:⚠️ Content too short (295 chars < 300): https://ishadeed.com/article/css-grid-forms/
+19:⚠️ Content too short (295 chars < 300): https://ishadeed.com/article/css-grid-forms/
+21:⚠️ Content too short (295 chars < 300): https://ishadeed.com/article/css-grid-forms/
+22:⚠️ Could not extract content and no RSS content available: https://ishadeed.com/article/css-grid-forms/
+24:⚠️ Content too short (295 chars < 300): https://ishadeed.com/article/css-overflow-issues/
+26:⚠️ Content too short (295 chars < 300): https://ishadeed.com/article/css-overflow-issues/
+28:⚠️ Content too short (295 chars < 300): https://ishadeed.com/article/css-overflow-issues/
+29:⚠️ Could not extract content and no RSS content available: https://ishadeed.com/article/css-overflow-issues/
+31:⚠️ Content too short (295 chars < 300): https://ishadeed.com/article/hsl-colors-css/
+33:⚠️ Content too short (295 chars < 300): https://ishadeed.com/article/hsl-colors-css/
+35:⚠️ Content too short (295 chars < 300): https://ishadeed.com/article/hsl-colors-css/
+36:⚠️ Could not extract content and no RSS content available: https://ishadeed.com/article/hsl-colors-css/
+52:Failed to fetch https://ishadeed.com/article/modern-attr/ after 3 retries: ")" is expected
+53:⚠️ Could not extract content and no RSS content available: https://ishadeed.com/article/modern-attr/
+55:⚠️ Content too short (295 chars < 300): https://ishadeed.com/article/object-fit-background-size-css/
+57:⚠️ Content too short (295 chars < 300): https://ishadeed.com/article/object-fit-background-size-css/
+59:⚠️ Content too short (295 chars < 300): https://ishadeed.com/article/object-fit-background-size-css/
+60:⚠️ Could not extract content and no RSS content available: https://ishadeed.com/article/object-fit-background-size-css/
+62:⚠️ Content too short (295 chars < 300): https://ishadeed.com/article/rtl-styling-101/
+64:⚠️ Content too short (295 chars < 300): https://ishadeed.com/article/rtl-styling-101/
+66:⚠️ Content too short (295 chars < 300): https://ishadeed.com/article/rtl-styling-101/
+67:⚠️ Could not extract content and no RSS content available: https://ishadeed.com/article/rtl-styling-101/
+86:   ❌ Errors: 6
+
+---- tail (last 50 lines) ----
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+⏳ Retry 1/3 after error: ")" is expected
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+⏳ Retry 2/3 after error: ")" is expected
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Failed to fetch https://ishadeed.com/article/modern-attr/ after 3 retries: ")" is expected
+⚠️ Could not extract content and no RSS content available: https://ishadeed.com/article/modern-attr/
+📥 Processing: A Deep Dive Into object-fit And background-size In CSS
+⚠️ Content too short (295 chars < 300): https://ishadeed.com/article/object-fit-background-size-css/
+⏳ Retry 1/3 for: https://ishadeed.com/article/object-fit-background-size-css/
+⚠️ Content too short (295 chars < 300): https://ishadeed.com/article/object-fit-background-size-css/
+⏳ Retry 2/3 for: https://ishadeed.com/article/object-fit-background-size-css/
+⚠️ Content too short (295 chars < 300): https://ishadeed.com/article/object-fit-background-size-css/
+⚠️ Could not extract content and no RSS content available: https://ishadeed.com/article/object-fit-background-size-css/
+📥 Processing: RTL Styling 101
+⚠️ Content too short (295 chars < 300): https://ishadeed.com/article/rtl-styling-101/
+⏳ Retry 1/3 for: https://ishadeed.com/article/rtl-styling-101/
+⚠️ Content too short (295 chars < 300): https://ishadeed.com/article/rtl-styling-101/
+⏳ Retry 2/3 for: https://ishadeed.com/article/rtl-styling-101/
+⚠️ Content too short (295 chars < 300): https://ishadeed.com/article/rtl-styling-101/
+⚠️ Could not extract content and no RSS content available: https://ishadeed.com/article/rtl-styling-101/
+📥 Processing: The Too Early Breakpoint
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-01/the-too-early-breakpoint.md
+📥 Processing: The Index: Issue #160
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-01/the-index-issue-160.md
+📥 Processing: Run untrusted code with Vercel Sandbox, now generally available
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-01/run-untrusted-code-with-vercel-sandbox-now-generally-available.md
+📥 Processing: Vercel Sandboxes are now generally available
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-01/vercel-sandboxes-are-now-generally-available.md
+📥 Processing: cubic joins the Vercel Agents Marketplace
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-01/cubic-joins-the-vercel-agents-marketplace.md
+📥 Processing: Assistloop joins the Vercel Agents Marketplace
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-01/assistloop-joins-the-vercel-agents-marketplace.md
+
+📊 Summary:
+   ✅ Success: 8
+   ❌ Errors: 6
+🏁 Done!
