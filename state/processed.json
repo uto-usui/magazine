@@ -20087,7 +20087,39 @@
     "https://css-tricks.com/whats-important-4/": {
       "contentHash": "e8ae0ef68d4b5894852a613c897d78ef9a427172928c8f4d30be61e9c744d60b",
       "processedAt": "2026-01-31T00:33:57.985Z"
+    },
+    "https://addyosmani.com/blog/self-improving-agents/": {
+      "contentHash": "5a82cfc880f743cb99b942f77666e87fa95057bcd2debb059d28107a0ac2f26b",
+      "processedAt": "2026-02-01T00:42:00.297Z"
+    },
+    "https://smashingmagazine.com/2026/01/desktop-wallpaper-calendars-february-2026/": {
+      "contentHash": "c903f22def3c6da55fd3f15c9cf8672c625eb118aea05648beecb2d837275678",
+      "processedAt": "2026-02-01T00:42:02.554Z"
+    },
+    "https://ishadeed.com/article/too-early-breakpoint/": {
+      "contentHash": "8561887cabe2086fab1ddfaf6caededfd9b3e69f81c161c1241329a78354272b",
+      "processedAt": "2026-02-01T00:42:41.884Z"
+    },
+    "https://piccalil.li/the-index/160/?ref=main-rss-feed": {
+      "contentHash": "7970c9fcdce01675f8354007744209b908814632a58b21b593890564667ae7e7",
+      "processedAt": "2026-02-01T00:42:42.064Z"
+    },
+    "https://vercel.com/blog/vercel-sandbox-is-now-generally-available": {
+      "contentHash": "48b41448044e422a7f6b11162396cf72070f258a95fa1e5f5e8f758e6efd4a6c",
+      "processedAt": "2026-02-01T00:42:42.998Z"
+    },
+    "https://vercel.com/changelog/vercel-sandboxes-ga": {
+      "contentHash": "45aec206712fbbeac8b2f631e921108f482d94ccf3f8f147f47eed1846431c25",
+      "processedAt": "2026-02-01T00:42:43.475Z"
+    },
+    "https://vercel.com/changelog/cubic-joins-the-vercel-agents-marketplace": {
+      "contentHash": "323679a852c3e4298b83d9858958fee50e30488720d375c8d951087fb78b7f46",
+      "processedAt": "2026-02-01T00:42:44.131Z"
+    },
+    "https://vercel.com/changelog/assistloop-joins-the-vercel-agents-marketplace": {
+      "contentHash": "ecd0105b5f139729caa140224ab1be137bab6bf6ee0f6a29da59f9e59b3d0705",
+      "processedAt": "2026-02-01T00:42:44.852Z"
     }
   },
-  "lastRun": "2026-01-31T00:33:57.985Z"
+  "lastRun": "2026-02-01T00:42:44.852Z"
 }
