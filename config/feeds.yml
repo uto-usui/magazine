@@ -131,6 +131,7 @@ feeds:
   - url: https://ishadeed.com/feed.xml
     name: Ahmad Shadeed
     category: css
+    enabled: local  # Bot対策によりCI環境で抽出失敗
 
   - url: https://piccalil.li/feed.xml
     name: Piccalilli
@@ -162,6 +163,7 @@ feeds:
   - url: https://blog.jxck.io/feeds/atom.xml
     name: blog.jxck.io
     category: web-standards
+    enabled: local  # CI環境でフィード取得失敗（ローカルでは正常）
 
   - url: https://efcl.info/feed/
     name: Web Scratch
