@@ -100,13 +100,20 @@ export class ContentExtractor {
 
         const result = this.extractFromHtml(response.data, url)
 
-        // 抽出成功またはReadabilityがnullを返した場合はリトライしない
+        // 抽出成功
         if (result !== null) {
           return result
         }
 
-        // Readabilityが失敗した場合、リトライしても同じ結果になる可能性が高い
-        // ただし、ネットワーク一時エラーの場合はリトライの価値がある
+        // Readabilityが失敗した場合、同じHTMLでリトライしても無意味
+        // Playwrightでリトライ（JSレンダリングが必要な可能性）
+        console.log(`🔄 Readability failed, trying Playwright: ${url}`)
+        const playwrightResult = await this.extractWithPlaywright(url)
+        if (playwrightResult !== null) {
+          return playwrightResult
+        }
+
+        // Playwrightでも失敗した場合、リトライの価値は低いが一応試す
         if (attempt < this.maxRetries) {
           console.log(`⏳ Retry ${attempt}/${this.maxRetries} for: ${url}`)
           await this.sleep(this.retryDelay * attempt)
