@@ -108,16 +108,7 @@ export class ContentExtractor {
         // Readabilityが失敗した場合、同じHTMLでリトライしても無意味
         // Playwrightでリトライ（JSレンダリングが必要な可能性）
         console.log(`🔄 Readability failed, trying Playwright: ${url}`)
-        const playwrightResult = await this.extractWithPlaywright(url)
-        if (playwrightResult !== null) {
-          return playwrightResult
-        }
-
-        // Playwrightでも失敗した場合、リトライの価値は低いが一応試す
-        if (attempt < this.maxRetries) {
-          console.log(`⏳ Retry ${attempt}/${this.maxRetries} for: ${url}`)
-          await this.sleep(this.retryDelay * attempt)
-        }
+        return await this.extractWithPlaywright(url)
       } catch (error) {
         lastError = error as Error
 
