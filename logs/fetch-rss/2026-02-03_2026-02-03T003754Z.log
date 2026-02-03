@@ -1,0 +1,47 @@
+articles_dir=2026-02-03
+exit_code=0
+timestamp_utc=2026-02-03T00:37:54Z
+
+---- issue lines ----
+8:Failed to fetch feed CSS IRL: read ECONNRESET
+37:   ❌ Errors: 0
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 42 feeds
+📡 Fetching RSS feeds...
+Failed to fetch feed CSS IRL: read ECONNRESET
+📰 Found 4113 total articles
+✨ New articles: 10
+⏭️ Skipped (already processed): 11
+📥 Processing: Singing the gospel of collective efficacy
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-03/singing-the-gospel-of-collective-efficacy.md
+📥 Processing: The Resonant Computing Manifesto
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-03/the-resonant-computing-manifesto.md
+📥 Processing: 25 years of Wikipedia
+🔄 Readability failed, trying Playwright: https://wikipedia25.org/en
+✅ Playwright successfully fetched: https://wikipedia25.org/en
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-03/25-years-of-wikipedia.md
+📥 Processing: How to use font ligatures
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-03/how-to-use-font-ligatures.md
+📥 Processing: The mighty metaphor
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-03/the-mighty-metaphor.md
+📥 Processing: How to Use Claude Code for UX Writing
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-03/how-to-use-claude-code-for-ux-writing.md
+📥 Processing: Building a Scroll-Revealed WebGL Gallery with GSAP, Three.js, Astro and Barba.js
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-03/building-a-scroll-revealed-webgl-gallery-with-gsap-threejs-astro-and-barbajs.md
+📥 Processing: No-Hassle Visual Studio Code Theming: Building an Extension
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-03/no-hassle-visual-studio-code-theming-building-an-extension.md
+📥 Processing: Personal website redesign project post: The start
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-03/personal-website-redesign-project-post-the-start.md
+📥 Processing: Python 3.13 and 3.14 are now available 
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-03/python-313-and-314-are-now-available.md
+
+📊 Summary:
+   ✅ Success: 10
+   ❌ Errors: 0
+🏁 Done!
