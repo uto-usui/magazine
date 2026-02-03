@@ -20143,7 +20143,47 @@
     "https://blog.jxck.io/entries/2025-07-23/load-to-passkey-10.html": {
       "contentHash": "08afddfa4a4f3a2d708394671a303186eec1299ef3fbdc423f0494822bf4e27e",
       "processedAt": "2026-02-01T02:02:19.741Z"
+    },
+    "https://interconnected.org/home/2026/01/30/efficacy": {
+      "contentHash": "5e74e6d295f4fbf2bc726c40072f7709643cbf4b6ec0e2438585439a7512e0aa",
+      "processedAt": "2026-02-03T00:37:31.229Z"
+    },
+    "https://resonantcomputing.org/": {
+      "contentHash": "031c9df3dbef9eccbda69d179f493afae0824fb86e4d8f81206713c3923d7735",
+      "processedAt": "2026-02-03T00:37:31.994Z"
+    },
+    "https://wikipedia25.org/en": {
+      "contentHash": "d19b4fd2f01baa94f0c429097992e73b6d2ef8458d6cd7338c6473edb63bc65d",
+      "processedAt": "2026-02-03T00:37:38.832Z"
+    },
+    "https://pangrampangram.com/blogs/journal/how-to-use-font-ligatures": {
+      "contentHash": "bbea7f9f13a8014bf3d4863f10fc1dcd3cd0943a4f9ba1c10b89209efb0b525b",
+      "processedAt": "2026-02-03T00:37:39.433Z"
+    },
+    "https://architectelevator.com/transformation/mighty-metaphor/": {
+      "contentHash": "9b540be82acbb1a8b7592cb11f6afc2abffc165c6be950b464cd1a458110d29a",
+      "processedAt": "2026-02-03T00:37:39.724Z"
+    },
+    "https://uxwritinghub.com/claude-code-ux-writing?utm_source=rss&utm_medium=rss&utm_campaign=how-to-use-claude-code-for-ux-writing": {
+      "contentHash": "c69a838c398821f85ccf98490288cd26dfad261aa75ca6ccb9eedc3baa961913",
+      "processedAt": "2026-02-03T00:37:50.554Z"
+    },
+    "https://tympanus.net/codrops/2026/02/02/building-a-scroll-revealed-webgl-gallery-with-gsap-three-js-astro-and-barba-js/": {
+      "contentHash": "51d9fba3da6b370bf1bac98b2dd0290df64085f533e9776a50841712fe1da19c",
+      "processedAt": "2026-02-03T00:37:51.919Z"
+    },
+    "https://css-tricks.com/no-hassle-visual-studio-code-theming-building-an-extension/": {
+      "contentHash": "734b276a68ad63ab51d1f236ae25ce855d7a4ff75bd0458092ebeb57d875f00c",
+      "processedAt": "2026-02-03T00:37:52.225Z"
+    },
+    "https://piccalil.li/projects/personal-site/1/?ref=main-rss-feed": {
+      "contentHash": "081c972bedb03181d5c9f0e4e63f34767bd847add5f89d71c31c1ca9558da7c0",
+      "processedAt": "2026-02-03T00:37:53.505Z"
+    },
+    "https://vercel.com/changelog/python-3-13-and-3-14-are-now-available": {
+      "contentHash": "45e3b8c970e254426456df3e5312d8c6d08a1ce9400bdedff825709b1ea701dc",
+      "processedAt": "2026-02-03T00:37:54.122Z"
     }
   },
-  "lastRun": "2026-02-02T00:37:47.264Z"
+  "lastRun": "2026-02-03T00:37:54.122Z"
 }
