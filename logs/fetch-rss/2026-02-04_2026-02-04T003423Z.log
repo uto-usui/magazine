@@ -1,0 +1,58 @@
+articles_dir=2026-02-04
+exit_code=0
+timestamp_utc=2026-02-04T00:34:23Z
+
+---- issue lines ----
+56:   ❌ Errors: 0
+
+---- tail (last 50 lines) ----
+📰 Found 4389 total articles
+✨ New articles: 18
+⏭️ Skipped (already processed): 15
+📥 Processing: Why am I doing the thinking for you?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-04/why-am-i-doing-the-thinking-for-you.md
+📥 Processing: Good Cart
+🔄 Readability failed, trying Playwright: https://www.goodcart.design/
+✅ Playwright successfully fetched: https://www.goodcart.design/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-04/good-cart.md
+📥 Processing: Beautiful Mermaid
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-04/beautiful-mermaid.md
+📥 Processing: Outsourcing thinking
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-04/outsourcing-thinking.md
+📥 Processing: Faking ‘realness’ on a computer doesn’t get us anywhere new
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-04/faking-realness-on-a-computer-doesnt-get-us-anywhere-new.md
+📥 Processing: Deepdive: How 10 tech companies choose the next generation of dev tools
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-04/deepdive-how-10-tech-companies-choose-the-next-generation-of-dev-tools.md
+📥 Processing: Combobox vs. Multiselect vs. Listbox: How To Choose The Right One
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-04/combobox-vs-multiselect-vs-listbox-how-to-choose-the-right-one.md
+📥 Processing: No Hassle Visual Code Theming: Publishing an Extension
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-04/no-hassle-visual-code-theming-publishing-an-extension.md
+📥 Processing: Some CSS only contrast options until contrast-color() is Baseline widely available
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-04/some-css-only-contrast-options-until-contrast-color-is-baseline-widely-available.md
+📥 Processing: Making agent-friendly pages with content negotiation
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-04/making-agent-friendly-pages-with-content-negotiation.md
+📥 Processing: The Vercel OSS Bug Bounty program is now available
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-04/the-vercel-oss-bug-bounty-program-is-now-available.md
+📥 Processing: Introducing the new v0
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-04/introducing-the-new-v0.md
+📥 Processing: Turbo build machines by default for new Pro projects
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-04/turbo-build-machines-by-default-for-new-pro-projects.md
+📥 Processing: Copy visual context to agents from Vercel Toolbar
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-04/copy-visual-context-to-agents-from-vercel-toolbar.md
+📥 Processing: Workflow 4.1 Beta: Event-sourced architecture
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-04/workflow-41-beta-event-sourced-architecture.md
+📥 Processing: Zero-configuration support for Koa
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-04/zero-configuration-support-for-koa.md
+📥 Processing: Figma achieves C5 accreditation, strengthening cloud security for customers across the DACH region
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-04/figma-achieves-c5-accreditation-strengthening-cloud-security-for-customers-across-the-dach-region.md
+📥 Processing: 中高生Rubyプログラミングコンテスト2025レポート —— SmartHR賞は「おなかいっぱいのRaspberry Pi」
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-04/ruby2025-smarthrraspberry-pi.md
+
+📊 Summary:
+   ✅ Success: 18
+   ❌ Errors: 0
+🏁 Done!
