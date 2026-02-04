@@ -20183,7 +20183,79 @@
     "https://vercel.com/changelog/python-3-13-and-3-14-are-now-available": {
       "contentHash": "45e3b8c970e254426456df3e5312d8c6d08a1ce9400bdedff825709b1ea701dc",
       "processedAt": "2026-02-03T00:37:54.122Z"
+    },
+    "https://terriblesoftware.org/2026/02/02/why-am-i-doing-the-thinking-for-you/": {
+      "contentHash": "88f8feaafed23329e4f3fd5dd312b95ab8e70a37bd0c08fafe4e4e152f6c572d",
+      "processedAt": "2026-02-04T00:33:53.487Z"
+    },
+    "https://www.goodcart.design/": {
+      "contentHash": "6788e32f38593a67e3b28f92bc403f2214b3fc500ac67ddba8c5f6dce8e96710",
+      "processedAt": "2026-02-04T00:33:59.092Z"
+    },
+    "https://agents.craft.do/mermaid": {
+      "contentHash": "336af62ce6ee7def8318274fc5ac93d1950fa111c8f11deee1e1ac80b1a17ad5",
+      "processedAt": "2026-02-04T00:34:00.463Z"
+    },
+    "https://erikjohannes.no/posts/20260130-outsourcing-thinking/index.html": {
+      "contentHash": "cf9806a57b9959adc4dda679cb5f3c6559d9a69037877e5ead56433ace5cc006",
+      "processedAt": "2026-02-04T00:34:01.579Z"
+    },
+    "https://www.itsnicethat.com/articles/elizabeth-goodspeed-on-analogue-creative-industry-290126": {
+      "contentHash": "5f4536d7d8372c1c388f537a93c678798ee7a7cf5d2d15aa52709fcd8e4a9439",
+      "processedAt": "2026-02-04T00:34:02.270Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/measuring-ai-dev-tools": {
+      "contentHash": "071e21a0e555677604a598cc3085e374d424e03e7050b19c988bff285e4d3cb2",
+      "processedAt": "2026-02-04T00:34:02.481Z"
+    },
+    "https://smashingmagazine.com/2026/02/combobox-vs-multiselect-vs-listbox/": {
+      "contentHash": "148731dee7fd20cfe7a2e05b3367b391a12729489b2ad358ea709a105107cd2f",
+      "processedAt": "2026-02-04T00:34:03.967Z"
+    },
+    "https://css-tricks.com/no-hassle-visual-code-theming-publishing-an-extension/": {
+      "contentHash": "5b5dd52980ecea46470c5ab54b8aa12074db1c18f89dab3ea8b497a5dc220c13",
+      "processedAt": "2026-02-04T00:34:04.217Z"
+    },
+    "https://piccalil.li/blog/some-css-only-contrast-options-until-contrast-color-is-baseline-widely-available/?ref=main-rss-feed": {
+      "contentHash": "8e339e4121a79f0939b976afbaddd30472fe30ae7aa57357da0e9daabb4fbc1e",
+      "processedAt": "2026-02-04T00:34:04.670Z"
+    },
+    "https://vercel.com/blog/making-agent-friendly-pages-with-content-negotiation": {
+      "contentHash": "df6052fe086aaf3cd42b4a95026a39d486c56fb2288c5907a39a63f063b09cff",
+      "processedAt": "2026-02-04T00:34:05.228Z"
+    },
+    "https://vercel.com/blog/the-vercel-oss-bug-bounty-program-is-now-available": {
+      "contentHash": "3aa9fb30ce1e8ee0c480f0c8acfb7d0b844c396103f3a17afd27879ab88844e9",
+      "processedAt": "2026-02-04T00:34:05.775Z"
+    },
+    "https://vercel.com/blog/introducing-the-new-v0": {
+      "contentHash": "8fa453de11e092819091b9a749995e2276f9d39254d198cbd09a0527639163b3",
+      "processedAt": "2026-02-04T00:34:06.448Z"
+    },
+    "https://vercel.com/changelog/turbo-build-machines-by-default-for-new-pro-projects": {
+      "contentHash": "bbbb6d4e95439f0c95c9833f951833b4d40f048aea51b294e73f6c1f112c24b1",
+      "processedAt": "2026-02-04T00:34:06.949Z"
+    },
+    "https://vercel.com/changelog/copy-visual-context-to-agents": {
+      "contentHash": "e88083b134e600ecb05a716f1e4e3e5d9eb04b5b9a526e6baec9aa1f34bb4411",
+      "processedAt": "2026-02-04T00:34:07.522Z"
+    },
+    "https://vercel.com/changelog/workflow-event-sourcing": {
+      "contentHash": "6bee4cf67d54b6ec3e57db9b21b5c9c50d8b2c2f190496d17ab71b8eede9830a",
+      "processedAt": "2026-02-04T00:34:08.004Z"
+    },
+    "https://vercel.com/changelog/zero-configuration-support-for-koa": {
+      "contentHash": "0ca2e25b4040fbf0ab2582e8407854c09e192b050ae5d3aa55ae2592a863f2a2",
+      "processedAt": "2026-02-04T00:34:08.532Z"
+    },
+    "https://www.figma.com/blog/figma-c5-accreditation/": {
+      "contentHash": "cbeb09df59698adebeab8f29281069b2a0826e3559a42672cd30049008fe6dbd",
+      "processedAt": "2026-02-04T00:34:20.399Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/02/03/112216": {
+      "contentHash": "db6e41d884be42a3b160239d27ef44f7b6d27a81319ad3bc7407ce4cc913eca5",
+      "processedAt": "2026-02-04T00:34:22.895Z"
     }
   },
-  "lastRun": "2026-02-03T00:37:54.122Z"
+  "lastRun": "2026-02-04T00:34:22.895Z"
 }
