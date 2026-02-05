@@ -20255,7 +20255,71 @@
     "https://tech.smarthr.jp/entry/2026/02/03/112216": {
       "contentHash": "db6e41d884be42a3b160239d27ef44f7b6d27a81319ad3bc7407ce4cc913eca5",
       "processedAt": "2026-02-04T00:34:22.895Z"
+    },
+    "https://engineering.fb.com/2026/02/04/security/cross-device-passkey-authentication-for-xr-devices-meta-quest/": {
+      "contentHash": "1b0f7ba060c2c67d853b0435af2d7fa50f9fff48d1fdc399d5ef638a32373460",
+      "processedAt": "2026-02-05T00:37:24.910Z"
+    },
+    "https://blog.xiangpeng.systems/posts/stop-building-agent-systems/": {
+      "contentHash": "46e0504cfff0feee290236b168e17b1c2fc01964e564086171a6bf8e5e9338d3",
+      "processedAt": "2026-02-05T00:37:25.111Z"
+    },
+    "https://alttextselfies.net/welcome/": {
+      "contentHash": "798c13cb9d68b79f9a78f748a715b483e0ea41c7215db6179261688cd4ad5f0e",
+      "processedAt": "2026-02-05T00:37:25.243Z"
+    },
+    "https://www.terrygodier.com/phantom-obligation": {
+      "contentHash": "535c1d21d7445f7369c572b240e069c7adacadd9bf467b825d0994902b2ba93c",
+      "processedAt": "2026-02-05T00:37:25.965Z"
+    },
+    "https://aatishb.com/patterncollider/": {
+      "contentHash": "899635b89c5343d2028620177311e8a9765f3e03cc4e0a770feb22faca9adc64",
+      "processedAt": "2026-02-05T00:37:26.274Z"
+    },
+    "https://peterboeckel.com/writing/displacementofpurpose": {
+      "contentHash": "3b195ef79da151bb226013a713d6224f8000ce05175f2734faae548da7fbf756",
+      "processedAt": "2026-02-05T00:37:26.665Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-third-golden-age-of-software": {
+      "contentHash": "e25d8465230d54600aba8d6b57d9ed3ada366e6c4323dd8be20a29b70d62e4ba",
+      "processedAt": "2026-02-05T00:37:27.134Z"
+    },
+    "https://tympanus.net/codrops/2026/02/04/making-motion-behave-inside-vladyslav-penevs-production-ready-interaction-systems/": {
+      "contentHash": "be69bbe3bda48888410354af456d1c1fe97fb6a1cb1d68735dd984805aa3cfce",
+      "processedAt": "2026-02-05T00:37:28.424Z"
+    },
+    "https://piccalil.li/the-index/161/?ref=main-rss-feed": {
+      "contentHash": "7dc5ab17398131cdec931fb2f8eed163cd2d25db430b82f3bb2e1507207eebd3",
+      "processedAt": "2026-02-05T00:37:28.600Z"
+    },
+    "https://vercel.com/changelog/build-logs-now-support-interactive-links": {
+      "contentHash": "bbc71d90202f1c731496789132c6b04789da8740ef8caa85b1f021148cd9fc57",
+      "processedAt": "2026-02-05T00:37:29.620Z"
+    },
+    "https://vercel.com/changelog/parallel-web-search-is-now-on-ai-gateway": {
+      "contentHash": "c254b3b95f107ceea7f0f5cf5aff9728977fd2d6af789a1c3f561f2a2834919d",
+      "processedAt": "2026-02-05T00:37:30.164Z"
+    },
+    "https://vercel.com/changelog/parallel-joins-the-vercel-agent-marketplace": {
+      "contentHash": "30ad8d8b534da28a86aeb32bd8fcc28b44aec318c33e08cdd999d5e18ff83e33",
+      "processedAt": "2026-02-05T00:37:30.750Z"
+    },
+    "https://vercel.com/changelog/ai-gateway-and-one-click-deploys-now-available-on-trae": {
+      "contentHash": "dd1faca3c3bc0257b484c48b60a59eca082f498eff7a7a217ca1c6c298cfff19",
+      "processedAt": "2026-02-05T00:37:31.277Z"
+    },
+    "https://www.figma.com/blog/introducing-vectorize/": {
+      "contentHash": "558ccbdd6bc5e0bb8f15c9f3d679a50acf53c91cc58341453c7c6c0023bdc5c3",
+      "processedAt": "2026-02-05T00:37:57.836Z"
+    },
+    "https://frontendfoc.us/issues/727": {
+      "contentHash": "875dd5fe04c5a4ab1a892bc565ac99bb080288c586c4604e54c560f1b2833d21",
+      "processedAt": "2026-02-05T00:37:58.762Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/02/04/111430": {
+      "contentHash": "760d7448ba7b5d60d1c212dabf754243e527f58413ad260ddab1f7b10300ba56",
+      "processedAt": "2026-02-05T00:38:00.050Z"
     }
   },
-  "lastRun": "2026-02-04T00:34:22.895Z"
+  "lastRun": "2026-02-05T00:38:00.050Z"
 }
