@@ -1,0 +1,58 @@
+articles_dir=2026-02-06
+exit_code=0
+timestamp_utc=2026-02-06T00:35:13Z
+
+---- issue lines ----
+8:Failed to fetch feed CSS IRL: Request timed out after 10000ms
+
+---- tail (last 50 lines) ----
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-06/birth-lottery.md
+📥 Processing: Intertapes
+🔄 Readability failed, trying Playwright: https://intertapes.net/
+✅ Playwright successfully fetched: https://intertapes.net/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-06/intertapes.md
+📥 Processing: Doing the thing is doing the thing
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-06/doing-the-thing-is-doing-the-thing.md
+📥 Processing: CSS <code>@scope</code>: An Alternative To Naming Conventions And Heavy Abstractions
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-06/css-codescopecode-an-alternative-to-naming-conventions-and-heavy-abstractions.md
+📥 Processing: CSS Bar Charts Using Modern Functions
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-06/css-bar-charts-using-modern-functions.md
+📥 Processing: The open source design stack
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-06/the-open-source-design-stack.md
+📥 Processing: The Vercel AI Accelerator is back with $6m in credits
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-06/the-vercel-ai-accelerator-is-back-with-6m-in-credits.md
+📥 Processing: Use Claude Opus 4.6 on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-06/use-claude-opus-46-on-ai-gateway.md
+
+📊 Summary:
+   ✅ Success: 11
+   ❌ Errors: 0
+🏁 Done!
