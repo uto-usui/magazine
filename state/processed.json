@@ -20319,7 +20319,51 @@
     "https://tech.smarthr.jp/entry/2026/02/04/111430": {
       "contentHash": "760d7448ba7b5d60d1c212dabf754243e527f58413ad260ddab1f7b10300ba56",
       "processedAt": "2026-02-05T00:38:00.050Z"
+    },
+    "https://addyosmani.com/blog/agentic-engineering/": {
+      "contentHash": "f88460a72103d64c12ff95daa8dfcf31e4e8ff294585c20b04cc8d552be3fd91",
+      "processedAt": "2026-02-06T00:34:49.899Z"
+    },
+    "https://adrianroselli.com/2026/02/you-know-what-just-dont-split-words-into-letters.html": {
+      "contentHash": "4ecebeca2518b02ebb5be086989ecfb64baa6999c5caa53bb0676dd5c0da207d",
+      "processedAt": "2026-02-06T00:34:50.442Z"
+    },
+    "https://unsung.aresluna.org/how-to-shoot-a-screen-using-a-board-of-keys/": {
+      "contentHash": "ffd78b1698ca29c8e0462d7c5150dfe7374fa18e705dd9daf18c66fa96629669",
+      "processedAt": "2026-02-06T00:34:50.729Z"
+    },
+    "https://www.givingwhatwecan.org/birth-lottery": {
+      "contentHash": "4c5b6925b4896a68fb1d3599ca3078cecaa1d6e06cd6cef32873db61dc8ea65f",
+      "processedAt": "2026-02-06T00:34:51.332Z"
+    },
+    "https://intertapes.net/": {
+      "contentHash": "dcef2b211e66d88ec15d4bc51e2238e9775b2d25e6179a0b256cc9ab47e9e75f",
+      "processedAt": "2026-02-06T00:35:08.508Z"
+    },
+    "https://www.softwaredesign.ing/blog/doing-the-thing-is-doing-the-thing": {
+      "contentHash": "8a82b4cf14c1ba5f5639a20f171ebaefe897306c8e869c1a19ec9d65e25c6bf2",
+      "processedAt": "2026-02-06T00:35:08.828Z"
+    },
+    "https://smashingmagazine.com/2026/02/css-scope-alternative-naming-conventions/": {
+      "contentHash": "512443603fc3ca1a66d8311d5ca38d698a7ab4a902d071a7ec7479f44236001e",
+      "processedAt": "2026-02-06T00:35:10.245Z"
+    },
+    "https://css-tricks.com/css-bar-charts-using-modern-functions/": {
+      "contentHash": "66074ffd79a24676a943d0aebe34846408e47f47f73307ad6f1bd0e5ddda62db",
+      "processedAt": "2026-02-06T00:35:10.494Z"
+    },
+    "https://piccalil.li/blog/the-open-source-design-stack/?ref=main-rss-feed": {
+      "contentHash": "ebb0b2deeb4b274744da8c2f4f48b75311664eb4eea230bd278768624967e2a1",
+      "processedAt": "2026-02-06T00:35:11.085Z"
+    },
+    "https://vercel.com/blog/the-vercel-ai-accelerator-is-back-with-6-million-in-credits": {
+      "contentHash": "b099382ffe08b8d3d838a7bfbd7d34a04f34ec55d1c0e53a32625bfb2d7635f9",
+      "processedAt": "2026-02-06T00:35:11.880Z"
+    },
+    "https://vercel.com/changelog/claude-opus-4.6-on-ai-gateway": {
+      "contentHash": "fd1c4291f6f1eacd0b90a4bba10026d0003a645b65c2474f6aa0bc2388fe4638",
+      "processedAt": "2026-02-06T00:35:12.460Z"
     }
   },
-  "lastRun": "2026-02-05T00:38:00.050Z"
+  "lastRun": "2026-02-06T00:35:12.461Z"
 }
