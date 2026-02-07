@@ -245,7 +245,7 @@ feeds:
     category: interaction
 
   # Testing & QA
-  - url: https://testing.googleblog.com/feeds/posts/default?alt=rss
+  - url: https://googletesting.blogspot.com/feeds/posts/default
     name: Google Testing Blog
     category: testing
 
