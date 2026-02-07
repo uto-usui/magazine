@@ -1,0 +1,199 @@
+---
+title: "The Useless useCallback"
+source: "https://tkdodo.eu/blog/the-useless-use-callback"
+publishedDate: "2025-07-28"
+category: "frontend"
+feedName: "TkDodo"
+---
+
+![a man holds his head while sitting on a sofa](https://tkdodo.eu/blog/static/df8b0abb50f00e0c72e018df409e0d8f/bbe0c/useless.jpg "a man holds his head while sitting on a sofa")
+
+-   [#1: The Uphill Battle of Memoization](https://tkdodo.eu/blog/the-uphill-battle-of-memoization)
+-   **#2: The Useless useCallback**
+
+-   [한국어](https://chapdo.vercel.app/posts/%EB%B2%88%EC%97%AD-Theuseless-useCallback/)
+-   [Português](https://guilhermevictor.me/writing/the-useless-usecallback)
+-   [繁體中文](https://sail-web-dev-archive.pages.dev/blog/the-useless-use-callback/)
+-   [Add translation](https://github.com/TkDodo/blog/blob/main/CONTRIBUTING.md#translations)
+
+* * *
+
+I thought I'd written enough about memoization by now, but I feel there is one pattern I'm seeing a lot lately that makes me think otherwise. So today, I want to look at `useCallback`, and to some extent `useMemo`, in situations where I think they are totally pointless.
+
+## Why memoize?[](#why-memoize)
+
+There's usually only two reasons to create a memoized version of a function with `useCallback` or a value with `useMemo`:
+
+### Performance optimization[](#performance-optimization)
+
+Something is slow, and slow is usually bad. Ideally, we'd make it faster, but we can't always do that. Instead, we can try to do that slow thing less often.
+
+In React, a lot of the time, the slow thing is re-rendering of a sub-tree, so we'd like to ideally avoid that if we think it's "not necessary".
+
+That's why we sometimes wrap components in `React.memo`, which is [an uphill battle](https://tkdodo.eu/blog/the-uphill-battle-of-memoization) mostly not worth fighting, but still, it's a thing that exists.
+
+If we pass a function or a non-primitive value to a memoized component, we need to make sure that references to those are stable. That's because React compares the props of a memoized component with [Object.is](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is) to check if it can skip rendering that sub-tree. So if the reference isn't stable, e.g. because it's newly created in each render, our memoization "breaks":
+
+performance-optimization
+
+```
+1function Meh() {2  return (3    <MemoizedComponent4      value={{ hello: 'world' }}5      onChange={(result) => console.log('result')}6    />7  )8}9
+10function Okay() {11  const value = useMemo(() => ({ hello: 'world' }), [])12  const onChange = useCallback((result) => console.log(result), [])13
+14  return <MemoizedComponent value={value} onChange={onChange} />15}
+```
+
+Yes, sometimes the computation inside `useMemo` itself is slow, and we memoize to avoid those recomputations. Those `useMemo` calls are perfectly fine, too, but I don't think they are the majority of use-cases.
+
+### Prevent effects from firing too often[](#prevent-effects-from-firing-too-often)
+
+If not passed as a prop to a memoized component, chances are our memoized value gets eventually passed as a dependency to an effect (sometimes through some layers of custom hooks).
+
+Effect dependencies follow the same rules as `React.memo` - they are compared one by one with [Object.is](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is) to see if the effect needs to re-run. So if we are not careful about memoizing the effect's dependencies, it might run on every render.
+
+* * *
+
+Now, if we think for a bit, we might notice that the two scenarios are actually exactly the same. They try to avoid something from happening by keeping the same reference around through caching. So the common reason to apply `useCallback` or `useMemo` is just:
+
+I need referential stability.
+
+I think we could all use some stability in our lives, so what's the cases where striving for stability is, as I said initially, pointless?
+
+## 1\. No memo - no perf gains[](#1-no-memo---no-perf-gains)
+
+Let's take the example from above and change a tiny thing:
+
+no-memo
+
+```
+1function Okay() {2  const value = useMemo(() => ({ hello: 'world' }), [])3  const onChange = useCallback((result) => console.log(result), [])4
+5  return <Component value={value} onChange={onChange} />6}
+```
+
+Can you spot the difference? Exactly - we are not passing `value` and `onChange` to a memoized component anymore - it's just a regular functional react component now. I see this happening a lot when values get, at the end, passed to React built-in components:
+
+react-built-ins
+
+```
+1function MyButton() {2  const onClick = useCallback(3    (event) => console.log(event.currentTarget.value),4    []5  )6
+7  return <button onClick={onClick} />8}
+```
+
+Here, memoizing `onClick` achieves _nothing_, as `button` doesn't care if `onClick` is referentially stable or not.
+
+So if your custom component is not memoized, it hopefully doesn't care about referential stability either!
+
+Hold on - but what if that `Component` uses those props internally for a `useEffect`, or to create further memoized values that are then passed to a memoized component for its own children? I might break something if I remove those memoizations now!
+
+That brings us right to the second point:
+
+## 2\. Using props as dependencies[](#2-using-props-as-dependencies)
+
+Adding non-primitive `props` you get passed into your component to internal dependency arrays is rarely right, because this component has no control over the referential stability of those props. A common example is:
+
+props-as-dependencies
+
+```
+1function OhNo({ onChange }) {2  const handleChange = useCallback((e: React.ChangeEvent) => {3    trackAnalytics('changeEvent', e)4    onChange?.(e)5  }, [onChange])6
+7  return <SomeMemoizedComponent onChange={handleChange} />8}
+```
+
+This `useCallback` is likely useless, or at best, it depends on how consumers will use this component. In all likeliness, there is a call-side that just invokes an inline function:
+
+inline-function
+
+```
+1<OhNo onChange={() => props.doSomething()} />
+```
+
+This is an innocent usage. There is nothing wrong with it. In fact, it's great. It co-locates what it wants to do with the event handler. It avoids extracting things to the top of the file with the gnarly `handleChange` naming.
+
+The only way a developer who writes this code could know that it breaks some memoization is if they drill down into the component to see how the props are being used. That's horrible.
+
+Other ways to fix this include a "we memoize everything all the time" policy, or to have strictly enforced naming convention like a "mustBeMemoized" prefix for props that need to be referentially stable. Both of these aren't great.
+
+### A Real Life Example[](#a-real-life-example)
+
+Since I'm working on the [sentry codebase](https://github.com/getsentry/sentry) now, which is open source 🎉, I have a lot of real life usages to link towards. One situation that I found is our [useHotkeys](https://github.com/getsentry/sentry/blob/94f19a20bd5680ddc86b3e139853c3d505182b43/static/app/utils/useHotkeys.tsx) custom hook. The important bits look something like this:
+
+useHotkeys
+
+```
+1export function useHotkeys(hotkeys: Hotkey[]): {2  const onKeyDown = useCallback(() => ..., [hotkeys])3
+4  useEffect(() => {5    document.addEventListener('keydown', onKeyDown)6
+7    return () => {8      document.removeEventListener('keydown', onKeyDown)9    }10  }, [onKeyDown])11}
+```
+
+This custom hook takes an Array of `hotkeys` as input, and then creates a memoized `onKeyDown` function, which is passed to an effect. The function is clearly memoized to prevent the effect from firing too often, but the `hotkeys` being an Array means consumers must memoize them manually.
+
+I set out to find all usages of `useHotkeys`, and was positively surprised to see that [all but one](https://github.com/getsentry/sentry/blob/a80e48ce659dea903e4d9594420cde019b33b757/static/app/views/issueDetails/streamline/hooks/useCopyIssueDetails.tsx#L161-L172) of them memoize the input. However, that's not the whole story, because if we look deeper, things still tend to fall apart. Let's take, for example, [this usage](https://github.com/getsentry/sentry/blob/97130081986520a2035882249b5670189d859dda/static/app/components/events/eventTagsAndScreenshot/screenshot/modal.tsx#L86):
+
+paginateHotKeys
+
+```
+1const paginateHotkeys = useMemo(() => {2  return [3    { match: 'right', callback: () => paginateItems(1) },4    { match: 'left', callback: () => paginateItems(-1) },5  ]6}, [paginateItems])7
+8useHotkeys(paginateHotkeys)
+```
+
+`useHotKeys` passes `paginateHotkeys`, which is memoized, but it depends on `paginateItems`. Where does that come from? Well, it's another `useCallback` that [depends on](https://github.com/getsentry/sentry/blob/97130081986520a2035882249b5670189d859dda/static/app/components/events/eventTagsAndScreenshot/screenshot/modal.tsx#L77) `screenshots` and `currentAttachmentIndex`. And where does `screenshots` come from?
+
+breaking-memoization
+
+```
+1const screenshots = attachments.filter(({ name }) =>2  name.includes('screenshot')3)
+```
+
+It's a non-memoized `attachments.filter` function, which will always create a new Array, which breaks all the downstream memoizations. With that, they all become useless. `paginateItems`, `paginateHotkeys`, `onKeyDown`. Three memoizations that are guaranteed to re-run every render as if we hadn't written them at all!
+
+* * *
+
+I hope this example shows why I'm passionately against applying memoizations. In my experience, it breaks way too often. It's not worth it. And it adds so much overhead and complexity to all the code we have to read.
+
+The fix here isn't to memoize `screenshots` too. That would just shift the responsibility to `attachments`, which is a prop to the component. At all the three call-sides, we would be at least two levels away from where the actual memoization is needed (`useHotkeys`). This becomes a nightmare to navigate, and eventually, no one will dare to remove a single memoization because we can't know what it's actually doing.
+
+If anything, we have to outsource all of this to [a compiler](https://react.dev/learn/react-compiler), which is great once we have it working everywhere. But until then, we have to find patterns to work around the limitation of needing referential stability:
+
+### The Latest Ref Pattern[](#the-latest-ref-pattern)
+
+I wrote about [this pattern before](https://tkdodo.eu/blog/refs-events-and-escape-hatches#the-latest-ref); what we do is we basically store the value we want to gain imperative access to inside our effect in a ref, and then update the value with another effect that purposefully runs on every render:
+
+the-latest-ref
+
+```
+1export function useHotkeys(hotkeys: Hotkey[]): {2  const hotkeysRef = useRef(hotkeys)3
+4  useEffect(() => {5    hotkeysRef.current = hotkeys6  })7
+8  const onKeyDown = useCallback(() => ..., [])9
+10  useEffect(() => {11    document.addEventListener('keydown', onKeyDown)12
+13    return () => {14      document.removeEventListener('keydown', onKeyDown)15    }16  }, [])17}
+```
+
+Then, we can use the `hotkeysRef` inside our effect without having to add it to the dependency array and without having to worry about [stale closures](https://tkdodo.eu/blog/hooks-dependencies-and-stale-closures) that we could run into if we just ignored the linter.
+
+React Query also uses this pattern for keeping track of the latest options being passed in, e.g. in the [PersistQueryClientProvider](https://github.com/TanStack/query/blob/dfbda9de66230e67b7e1c2f07e24eb5859ea14cb/packages/react-query-persist-client/src/PersistQueryClientProvider.tsx#L29-L31) or in [useMutationState](https://github.com/TanStack/query/blob/34eedd601c7b19ac6a9fb8ab9c1ec0b600c2b95f/packages/react-query/src/useMutationState.ts#L53-L55), so I'd say it's a tried an true pattern. Imagine if the library would need consumers to memoize their `options` manually...
+
+### UseEffectEvent[](#useeffectevent)
+
+More good news: React has realized that oftentimes, we need imperative access to the latest value of something during a reactive effect without explicitly re-triggering it, so they are going to add this pattern for exactly this use-case as a first class primitive, [useEffectEvent](https://react.dev/learn/separating-events-from-effects#declaring-an-effect-event).
+
+Once that ships, we can refactor the code towards:
+
+the-latest-ref
+
+```
+1export function useHotkeys(hotkeys: Hotkey[]): {2  const onKeyDown = useEffectEvent(() => ...)3
+4  useEffect(() => {5    document.addEventListener('keydown', onKeyDown)6
+7    return () => {8      document.removeEventListener('keydown', onKeyDown)9    }10  }, [])11}
+```
+
+This would make `onKeyDown` _not_ reactive, it would get able to always "see" the latest values of `hotkeys`, and it would be referentially stable between renders. The best of all worlds, without having to write a single useless `useCallback` or `useMemo`.
+
+* * *
+
+That's it for today. Feel free to reach out to me on [bluesky 🦋](https://bsky.app/profile/tkdodo.eu) if you have any questions, or just leave a comment below. ⬇️
+
+Like the monospace font in the code blocks?
+
+[
+
+![Bytes - the JavaScript Newsletter that doesn't suck](https://tkdodo.eu/blog/static/af2e4efdec2a9cf31764170231582f59/1f097/bytes.jpg)
+
+](https://bytes.dev/?r=dom)

@@ -1,0 +1,128 @@
+---
+title: "OSS Feature Decision Tree"
+source: "https://tkdodo.eu/blog/oss-feature-decision-tree"
+publishedDate: "2023-02-18"
+category: "frontend"
+feedName: "TkDodo"
+---
+
+![Forking forest path](https://tkdodo.eu/blog/static/ec2467a67cd516e0c0399cbacdb6bf83/bbe0c/decision.jpg "Forking forest path")
+
+_No translations available._-   [Add translation](https://github.com/TkDodo/blog/blob/main/CONTRIBUTING.md#translations)
+
+I often get asked why a certain feature request doesn't make it into [React Query](https://tanstack.com/query/latest). It's not an easy decision, but we have to somehow take it. Otherwise, we would just be adding more and more features to the lib that serve niche use-cases.
+
+Before we go into detail about the decision tree I'm personally taking when deciding if a feature should make it or not, we have to be aware that not all libraries are equal. At least for the things I'm maintaining, I've found two different categories (ok, I only maintain two libraries, so it's quite possible there could be more 😅). Let's call them _modular_ and _holistic_ libraries (I've just made that up, not sure if it makes any sense).
+
+## Modular libraries[](#modular-libraries)
+
+Modular libraries are libraries that are designed to have separate exports that are used entirely on their own. The library I'm maintaining that follows such a pattern is [Remeda](https://remedajs.com/). Remeda is a TypeScript-first util library - think [lodash](https://lodash.com/) meets [ramda](https://ramdajs.com/) with great types.
+
+With modular libraries, I'm not too concerned about adding more features, mainly because each export is designed to be used on it's own. As a user, in terms of bundle size, you "pay-as-you-go".
+
+[Bundlephobia](https://bundlephobia.com/package/remeda@1.6.1) says `remeda` is 5.3kb minzipped, but that's not the whole picture. The lib is fully treeshakable, so this only applies if you were to use every single function of `remeda`, which is unlikely.
+
+As an example, if you're only using `omitBy` from `remeda`, it will only cost you [355 bytes](https://bundlejs.com/?bundle&q=remeda&treeshake=%5B%7B+omitBy+%7D%5D) minzipped. If you add another function, like `mapToObj`, it'll add another [102 bytes](https://bundlejs.com/?bundle&q=remeda&treeshake=%5B%7B+omitBy%2CmapToObj+%7D%5D). So cost wise, it doesn't really matter if we add another function to the lib, as it will not affect consumers until they actually use it.
+
+## Holistic libraries[](#holistic-libraries)
+
+This is different for a "holistic" library like React Query. Most code lives on the `queryClient`, which is a class, so it's not tree-shakable.
+
+Also, bundle size is not the only reason why a slim API surface matters more for holistic libraries. For `remeda`, it doesn't matter if the library exports 25 or 125 functions. You'll have to look at the docs to see what it supports anyway. Every function is conceptually its own thing that needs to be learned. They are also mostly straight-forward - you can quickly grok by their name and parameters what they're doing.
+
+React Query on the other hand has effectively two "things" you want to do: queries (`useQuery`) and mutation (`useMutation`). You'll likely be doing them both, so you are consuming almost the whole lib every time. That means the API will get more complex over time if we add more features. Looking at `useQuery`, it accepts 28 options and returns an object with 24 fields. That's huge, and it might discourage newcomers because of perceived complexity.
+
+* * *
+
+So with every new API or feature that we introduce, we have to carefully consider if it's worth it. Here are some of the markers that I'll look at when making that decision:
+
+### How needed is it?[](#how-needed-is-it)
+
+Is this a feature that many people request, or is it something that only one person wants? Naturally, the more people think a feature is a good idea, the more we'll think about adding it. That still doesn't mean that it's always a good idea.
+
+One feature where I gave in to many requests is the [refetchPage](https://tanstack.com/query/v4/docs/react/guides/infinite-queries#refetchpage) option, which, in hindsight, was a mistake. It's not a good API, and it introduces more problems than it solves. That's why it's so important that the features we add are in-line with our vision:
+
+### Is the feature in-line with the vision?[](#is-the-feature-in-line-with-the-vision)
+
+Basically, the question here is: Does it make sense for us to have that feature, or would this encourage anti-patterns? As an example, I've seen many requests for a callback that is triggered whenever data is read from the cache - something like `onDataChanged`. You could use `onSuccess` for that, but `onSuccess` is tied to a fetch happening, and if you have `staleTime` set, this might not be the case:
+
+onSuccess-with-staleTime
+
+```
+1const useTodo = (id: number) => {2  return useQuery({3    queryKey: ['todos', id],4    queryFn: () => fetchTodos(id),5    staleTime: 5 * 60 * 1000,6    //🚨 will not be called when fresh data is read from the cache7    onSuccess: (data) => {8      console.log('data changed', data)9    },10  })11}
+```
+
+If you switch between `ids` and you have fresh data in the cache, the `onSuccess` callback won't be called, because no fetch happened. We'll just synchronously deliver data.
+
+So while that callback might seem like a good idea at first, I'm unsure what you would do with such a callback, as it's ultimately equivalent to a `useEffect`:
+
+onDataChanged-with-useEffect
+
+```
+1const useTodo = (id: number) => {2  const query = useQuery({3    queryKey: ['todos', id],4    queryFn: () => fetchTodos(id),5    staleTime: 5 * 60 * 1000,6  })7
+8  React.useEffect(() => {9    console.log('data changed', query.data)10  }, [query.data])11
+12  return query13}
+```
+
+This also means it would fire after rendering, and I haven't seen a good use-case for when this would be needed. Most cases brought forward include some form of data synchronization (putting data from `useQuery` into a different kind of state manager), which I would conceptually disagree with. State should ideally have one single source of truth. For async data, that is the Query Cache.
+
+So since this idea is not in-line with how we think React Query should ideally be used, I'd be inclined not to add it to the lib. The next point will further solidify this decision:
+
+### How hard is it to implement in user-land?[](#how-hard-is-it-to-implement-in-user-land)
+
+Some things are straight-forward to do in user-land. The above example shows that if you really want to sync your query data reliably somewhere else, you're three lines of code away from doing that. Yes, it contains a `useEffect`, and you might feel a bit _dirty_ when writing that code (as you should) but that's okay - at least it's very explicit instead of hidden behind a callback that would literally have to have the same implementation.
+
+So if something is simple to achieve in user-land, we're more inclined to teach that pattern with documentation rather than increase the API surface for it.
+
+### Can we choose a good default value?[](#can-we-choose-a-good-default-value)
+
+If we get requests for a feature where everyone expects it to work slightly differently per default, it is a good indication that this feature should rather be implemented in user-land if possible.
+
+### Does it cover all the cases?[](#does-it-cover-all-the-cases)
+
+When a feature is requested, naturally, the requester has their use-case in mind. This is totally valid - the person who opens the issue describes why they want to have it and why they think it is a good idea.
+
+The job of the maintainer is to balance this request and compare it with other cases. As an example, I am often asked why setting `suspense: true` doesn't type narrow the `data` property:
+
+suspense
+
+```
+1const { data } = useQuery({2  queryKey: ['number'],3  queryFn: () => Promise.resolve(5),4  suspense: true,5})6
+7data8// ^? const data: number | undefined
+```
+
+[TypeScript playground](https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBAbwK4GcCmBFJaoE8C+cAZlBCHAOQACMAhgHYp0DGA1gPRRq3MwC0AR2x4KAWABQE5hEbwEcACa06cQgF44qTMNwAKBBLhwhOXAGk0uAFxwA2hXpIQAIxwUAugBpDxnQDF6G10ASjg1AD44AAVSEGB0ADouFAgAGwA3NF0AVmDvcSMUVDA0RjQbGChsCXxgiQklOgl2djgAPQB+IA)
+
+`loading` states are handled by `Suspense` boundaries, and `error` states are handled by `ErrorBoundaries`, so why is `data` not just of type `number` ? We've had [PRs](https://github.com/TanStack/query/pull/4235) contributed that tried to add that functionality with overloads.
+
+But it's not that simple. There are a bunch of edge-cases that are not covered here. For example, you could pass `enabled: false`. You could also cancel the query manually while the first run of the `queryFn` is in-flight.
+
+So while it's natural for an issue reporter to want their issue solved, maintainers have to look at the bigger picture. For `suspense`, this means we'll likely have to come up with a different API altogether.
+
+### How hard is the feature to implement and maintain?[](#how-hard-is-the-feature-to-implement-and-maintain)
+
+I'm not gonna lie: Sometimes, I'm not jumping on implementing a feature because I don't know how to implement it 😅. Even if someone contributes that feature, maintainers need to fully understand it in order to maintain that feature over time.
+
+One case where I made the "mistake" of accepting a contribution without fully understanding it is the [type definitions for `useQueries`](https://github.com/TanStack/query/blob/8e7a316c11924f239368cb076584cb255d5281fd/packages/react-query/src/useQueries.ts#L34-L148). It's really a beast, and I was just happy that we were getting types and had tests for them that I just shipped it.
+
+But now, I have to reach out to the original author every time someone reports an issue with them. 🙈 This is not ideal, because sometimes, contributors lose interest once their PR has been merged. Luckily for me, [Arty](https://github.com/artysidorenko) is still around to regularly improve the type definitions. 🙏
+
+### Let it sink in[](#let-it-sink-in)
+
+Whatever we do, deciding in a rush is not a good idea. It takes time to find out if an API is good or not. It's also a decision that cannot be easily reverted - unless you start prefixing everything with `experimental_`, which honestly is something I thought about. 😁
+
+So before you take a decision - let it sink in. Sleep over it, discuss it with friends or colleagues. Make sure you know the tradeoffs you're about to make - because there are always some.
+
+Only then - ship it!
+
+* * *
+
+That's it for today. Feel free to reach out to me on [bluesky](https://bsky.app/profile/tkdodo.eu) if you have any questions, or just leave a comment below. ⬇️
+
+Like the monospace font in the code blocks?
+
+[
+
+![Bytes - the JavaScript Newsletter that doesn't suck](https://tkdodo.eu/blog/static/af2e4efdec2a9cf31764170231582f59/1f097/bytes.jpg)
+
+](https://bytes.dev/?r=dom)

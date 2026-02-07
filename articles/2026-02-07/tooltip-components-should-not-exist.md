@@ -1,0 +1,100 @@
+---
+title: "Tooltip Components Should Not Exist"
+source: "https://tkdodo.eu/blog/tooltip-components-should-not-exist"
+publishedDate: "2025-11-17"
+category: "frontend"
+feedName: "TkDodo"
+---
+
+![Nope Hand Lettering On Wood and Glass](https://tkdodo.eu/blog/static/196542e9c8698d955b81a8e65b45418f/bbe0c/nope.jpg "Nope Hand Lettering On Wood and Glass")
+
+-   [#1: Designing Design Systems](https://tkdodo.eu/blog/designing-design-systems)
+-   **#2: Tooltip Components Should Not Exist**
+-   [#3: Building Type-Safe Compound Components](https://tkdodo.eu/blog/building-type-safe-compound-components)
+
+-   [한국어](https://chapdo.vercel.app/posts/%EB%B2%88%EC%97%AD-Tooltip-Components-Should-Not-Exist/)
+-   [Français](https://developpeur-web.tech/posts/les-composants-tooltip-ne-devraient-pas-exister)
+-   [日本語](https://makotot.dev/posts/tooltip-components-should-not-exist-translation-ja)
+-   [Add translation](https://github.com/TkDodo/blog/blob/main/CONTRIBUTING.md#translations)
+
+I have to admit: bad tooltips in web apps are one of my pet peeves. And to be fair, it's quite easy to get tooltips wrong. There are lots of concerns that need to be thought of:
+
+-   Accessibility
+-   Keyboard interactivity
+-   Least surprise for all users
+-   Not hiding critical information behind them
+
+Over the years, I've seen many design systems try to implement a `<Tooltip>` component for consumers to use, and imo the one thing they have in common is that they will _not_ be used as intended. From an API design perspective, that likely means that the `<Tooltip>` component is an abstraction that is too low level, which leads me to today's hot take 🌶:
+
+Tooltip Components Should Not Exist
+
+I'm not saying tooltips themselves should not exist. They are a valuable tool when applied "correctly" - whatever that means for your use-cases. Sure, you might get there with education, but let's be honest: Very few people read docs and AI only reproduces what it already sees, so chances are it will amplify the anti-patterns we have in our codebase.
+
+So let's dig into the potential problems you can get when using tooltips the wrong way before I'm trying to outline what an alternative world could look like.
+
+## Keyboard Interactivity[](#keyboard-interactivity)
+
+This one _should_ be obvious: We ought to build web-apps for everyone, which means we have to be aware that not all users will be using a mouse. Nevertheless, I've often come across implementations that only show tooltips on hover in situations when the element that triggers the tooltip is not interactive.
+
+We don't have to look any further than [Material UI](https://mui.com/), one of the most popular component libraries. Their [basic tooltip example](https://mui.com/material-ui/react-tooltip/#basic-tooltip) from the docs looks like this:
+
+MUI-basic-tooltip
+
+```
+1<Tooltip title="Delete">2  <IconButton>3    <DeleteIcon />4  </IconButton>5</Tooltip>
+```
+
+That's easy and works, but what happens if we only add a `<Tooltip>` around an Icon, or around another non-interactive element like a `Badge`:
+
+MUI-non-interactive-tooltip
+
+```
+1<Tooltip title="Home">2  <IconHome />3</Tooltip>4
+5<Tooltip title="Unread Mails">6  <Badge badgeContent={4} color="primary">7    <IconMail color="action" />8  </Badge>9</Tooltip>
+```
+
+That's right - the tooltip will still show up on hover, but not on focus because tabbing will skip right over it. The element isn't keyboard-interactive, so it never receives focus, meaning the tooltip will never appear when navigating with the keyboard alone.
+
+There's also no way to make this type-safe, as we can't control the type of children that get passed to the `<Tooltip>` component. [React Aria's approach](https://react-spectrum.adobe.com/react-aria/Tooltip.html) is a bit better, as it won't show the tooltip at all for non-interactive elements, making it easier to spot for developers who are primarily using their mouse. The fix is then to wrap the [custom trigger](https://react-spectrum.adobe.com/react-aria/Tooltip.html#custom-trigger) with the `<Focusable>` component. This is miles better than other approaches, but still suffers from other problems, specifically:
+
+## Least Surprise For All Users[](#least-surprise-for-all-users)
+
+If a `<Tooltip>` can be added to any element, someone will try. I've seen tooltips in the weirdest of places, like on a certain text in the middle of a sentence - without any indication that there is additional information behind that.
+
+But I've also seen the opposite. It's super annoying to me to see a button that only consists of an icon that I don't understand, but I'm not getting any information about what's going to happen when I click that button.
+
+You're basically guaranteed to get those inconsistencies in your app as soon as you have a critical mass of developers and designers working on it.
+
+So, if a standalone `<Tooltip>` component isn’t ideal, what other approaches can a design system use to expose tooltip behavior? My take is:
+
+Provide only higher level pattern components  
+that enforce consistent and accessible tooltip usage
+
+Some things that I've seen work really well in the past are:
+
+-   Interactive components like `<Button>` or `<Link>` get an optional `title` prop.  
+    This allows us to show additional information if we want to. Interactive elements are usually easily discoverable in the UI, and they will also be found with keyboard tabbing.
+-   `<IconButton>` gets a required `title` prop.  
+    This ensures icons are explained to users and additionally gives us a way to properly label the Button for accessibility.
+-   Expose an additional `<InfoIcon>` component to render an info or question mark icon + a tooltip.  
+    This makes sure that users know where to find additional information, and we can internally ensure that it's focusable.
+-   Create an `<InfoText>` to allow giving more context to text.  
+    This component should be visually distinct from other texts, e.g. with a dashed underline, and obviously also keyboard interactive.
+
+I'm sure there are other things I might be missing, but if that's the case, adding another pattern component is better than giving everyone access to the low-level `<Tooltip>` component. Don't get me wrong, flexibility is great for a lot of cases, like e.g. layouting, but providing consistent UX and being inclusive are way more important for tooltips, which is why being restrictive is better.
+
+Restriction also breeds creativity, so if we can't just stick information behind a tooltip just because we don't have enough space on our screen, maybe that helps us re-think some ideas from the ground up.
+
+So if you're building a design system for your organization, try to resist the urge to add a `<Tooltip>` Component to your public interface.
+
+* * *
+
+That's it for today. Feel free to reach out to me on [bluesky](https://bsky.app/profile/tkdodo.eu) if you have any questions, or just leave a comment below. ⬇️
+
+Like the monospace font in the code blocks?
+
+[
+
+![Bytes - the JavaScript Newsletter that doesn't suck](https://tkdodo.eu/blog/static/af2e4efdec2a9cf31764170231582f59/1f097/bytes.jpg)
+
+](https://bytes.dev/?r=dom)

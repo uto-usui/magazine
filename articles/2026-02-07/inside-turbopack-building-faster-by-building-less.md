@@ -1,0 +1,84 @@
+---
+title: "Inside Turbopack: Building Faster by Building Less"
+source: "https://nextjs.org/blog/turbopack-incremental-computation"
+publishedDate: "2026-01-21"
+category: "frontend"
+feedName: "Next.js Blog"
+author: "Anthony Shew"
+---
+
+Edit. Save. Refresh. Wait… Wait… Wait…
+
+Compiling code usually means waiting, but [Turbopack](https://nextjs.org/docs/app/api-reference/turbopack) makes iteration loops fast with caching and incremental computation. Not every modern bundler uses an incremental approach, and that’s with good reason. Incremental computation can introduce significant complexity and opportunities for bugs. Caches require extra tracking and copies of data, adding both CPU and memory overhead. When applied poorly, caching can actually make performance worse.
+
+Despite all of this, we took on these challenges because we knew that an incremental architecture would be critical to Turbopack’s success. Turbopack is the new default bundler for Next.js, a framework that is used to build some of the [largest web applications in the world](https://nextjs.org/showcase). We needed to enable instant builds and a fast as-you-type interactive [React Fast Refresh](https://nextjs.org/docs/architecture/fast-refresh) experience, even for the largest and most challenging workloads. Our incremental architecture is core to achieving this.
+
+Turbopack’s architecture was built ground-up with caching in mind. Its incremental design is based on over a decade of research. We built on first-hand experience from challenges in implementing caching in [webpack](https://webpack.js.org/) and drew inspiration from [Salsa](https://salsa-rs.netlify.app/overview) (which powers [Rust-Analyzer](https://rust-analyzer.github.io/) and [Ruff](https://docs.astral.sh/ruff/)), [Parcel](https://parceljs.org/), the [Rust compiler’s query system](https://rustc-dev-guide.rust-lang.org/query.html), [Adapton](https://plum-umd.github.io/adapton/), and many others.
+
+Turbopack achieves a fine-grained cache by automatically tracking how internal functions are called and what values they depend on. When something changes we know how to recompute the results with minimal work.
+
+## Background: Manual incremental computation[](#background-manual-incremental-computation)
+
+Many build systems include explicit dependency graphs that must be manually populated when evaluating build rules. Explicitly declaring your dependency graph can theoretically give optimal results, but in practice it leaves room for errors.
+
+The difficulty of specifying an explicit dependency graph means that usually caching is done at a coarse file-level granularity. This granularity does have some benefits: fewer incremental results means less data to cache, which might be worth it if you have limited disk space or memory.
+
+An example of such an architecture is [GNU Make](https://www.gnu.org/software/make/), where output targets and prerequisites are manually configured and represented as files. Systems like GNU Make miss caching opportunities due to their coarse granularity: they do not understand and cannot cache internal data structures within the compiler.
+
+## Function-level fine-grained automatic incremental computation[](#function-level-fine-grained-automatic-incremental-computation)
+
+In Turbopack, the relationship between input files and resulting build artifacts isn’t straightforward. Bundlers employ whole-program analysis for dead code elimination ("tree shaking") and clustering of common dependencies in the module graph. Consequently, the build artifacts (JavaScript files shared across multiple application routes) form complex many-to-many relationships with input files.
+
+Turbopack uses a very fine-grained caching architecture. Because manually declaring and adding dependencies to a graph is prone to human errors, Turbopack needs an automated solution that can scale.
+
+### Tracking the compilation graph with value cells[](#tracking-the-compilation-graph-with-value-cells)
+
+To facilitate automatic caching and dependency tracking, Turbopack introduces a concept of “value cells” ([`Vc<…>`](https://turbopack-rust-docs.vercel.sh/rustdoc/turbo_tasks/struct.Vc.html)). Each value cell represents a fine-grained piece of execution, like a cell in a spreadsheet. When reading a cell, it records the currently executing function and all of its cells as dependent on that cell. This is similar to how signals work in frameworks like [SolidJS](https://docs.solidjs.com/concepts/signals).
+
+By not marking cells as dependencies until they are read, Turbopack achieves finer-grained caching than [a traditional top-down memoization approach](https://en.wikipedia.org/wiki/Memoization) would provide. For example, an argument might be an object or mapping of _many_ value cells. Instead of needing to recompute our tracked function when _any part of_ the object or mapping changes, it only needs to recompute the tracked function when a cell that _it has actually read_ changes.
+
+Value cells represent nearly everything inside of Turbopack, such as a file on disk, an abstract syntax tree (AST), metadata about imports and exports of modules, or clustering information used for chunking and bundling.
+
+### Marking dirty and propagating changes[](#marking-dirty-and-propagating-changes)
+
+When Turbopack executes functions for the first time, it builds a graph of functions and the value cells they create or depend on. The graph’s roots are the requested outputs (bundled assets), and the leaves are source code files. There are intermediate representations in the middle, such as ASTs, metadata, partially-transformed modules, or chunking information.
+
+When our file system watcher finds source code that has changed, it marks all functions that read the file’s value cell as “dirty” and queues them for re-computation.
+
+The dirtied function reading the file might parse or transform the JavaScript module and produce a new intermediate representation. Recomputing the function update cells containing changed intermediate representations, which may mark more functions as dirty. Cell updates are skipped if the cell contents are equal. This propagation bubbles up the graph until all affected functions have been recomputed.
+
+As an additional optimization, execution is "demand-driven," meaning the system defers re-execution of dirty functions until they become part of an "active query". In development, an active query could be a currently open webpage with hot reloading enabled. In builds, this is a request for the full production app.
+
+### Aggregation graphs[](#aggregation-graphs)
+
+While most operations, like the dirty propagation algorithm, only require information about adjacent edges and neighboring nodes in the graph, some operations need to query information about more significant portions of the dependency graph:
+
+-   Finding all dirty nodes when a sub-graph becomes part of a new active query, so we can schedule re-computation.
+-   Collecting errors, warnings, or lints of a sub-graph.
+-   Waiting for computation of a sub-graph to finish.
+
+Because we maintain a fine-grained cache, the graph can contain hundreds of thousands or even millions of intermediate results. Visiting significant portions of this graph would be expensive.
+
+To make these queries efficient, Turbopack uses an additional data structure on top of the dependency graph, called the “aggregation graph”.
+
+When we build or update the dependency graph, we maintain parallel nodes in the aggregation graph that summarize part of the dependency graph. Some frequently accessed information, like emitted errors or warnings, is attached to the aggregation nodes.
+
+This aggregation graph has multiple layers of resolution, with higher aggregation layers referencing more functions in each node, decreasing the resolution, and reducing the number of nodes that must be traversed when collecting information.
+
+Every potential active query (e.g. an application entrypoint or route) represents a root in the aggregation graph. At the final aggregation graph layer, each root represents the information for itself and all of the children in the original dependency graph. Adding roots to the dependency graph can require a reorganization of the aggregation graph, but that’s an infrequent operation.
+
+## File system caching[](#file-system-caching)
+
+Until our recent [Next.js 16.1](https://nextjs.org/blog/next-16-1) release, all of these caches were stored only in memory.
+
+In this new release, we shipped file system caching for `next dev` as stable and on-by-default. This cache allows us to persist the dependency graph, the aggregation graph, and all of the intermediate results stored in value cells to disk. When `next dev` is restarted, it can quickly resume from this warm cache.
+
+File system caching came with its own set of challenges, and it took us over a year of dedicated work to meet our own high performance and quality bar. We'll dive into that soon in an upcoming engineering blog post.
+
+## Feedback and Community[](#feedback-and-community)
+
+Share your feedback and help shape the future of Next.js:
+
+-   [GitHub Discussions](https://github.com/vercel/next.js/discussions)
+-   [GitHub Issues](https://github.com/vercel/next.js/issues)
+-   [Discord Community](https://nextjs.org/discord)

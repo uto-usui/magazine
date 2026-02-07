@@ -1,0 +1,134 @@
+---
+title: "Putting props to useState"
+source: "https://tkdodo.eu/blog/putting-props-to-use-state"
+publishedDate: "2020-10-25"
+category: "frontend"
+feedName: "TkDodo"
+---
+
+![use state pitfalls](https://tkdodo.eu/blog/static/3618c6401c627a3352a2218e5567bfab/7d769/use-state-pitfalls.png "use state pitfalls")
+
+* * *
+
+-   [#1: Don't over useState](https://tkdodo.eu/blog/dont-over-use-state)
+-   **#2: Putting props to useState**
+-   [#3: Things to know about useState](https://tkdodo.eu/blog/things-to-know-about-use-state)
+-   [#4: useState for one-time initializations](https://tkdodo.eu/blog/use-state-for-one-time-initializations)
+-   [#5: useState vs. useReducer](https://tkdodo.eu/blog/use-state-vs-use-reducer)
+
+-   [한국어](https://www.philly.im/blog/putting-props-to-use-state)
+-   [Add translation](https://github.com/TkDodo/blog/blob/main/CONTRIBUTING.md#translations)
+
+In the [first part](https://tkdodo.eu/blog/dont-over-use-state) of the useState pitfalls series, I talked about avoiding state all together for derived state.
+
+This part is about a common scenario, where we want to initialize our state with values we get as props. This is something we probably do a lot, and it's not per-se wrong, but it has some potential issues that we need to be aware of.
+
+## The example[](#the-example)
+
+I will use a classic list / detail use-case as example. We have a list of persons, and selecting one of them will result in a detail form being filled. We want to show the persons' email address in the detail form, and also have an apply button that will update that data.
+
+It's an interactive example, so feel free to click around (the code is also editable 🚀):
+
+## useState initial value[](#usestate-initial-value)
+
+You might notice right away that the example is _not_ working. You can edit the email address and click _Apply_, but if you click on _John_, the input field will not update.
+
+As much as React wants us to [think in hooks](https://2019.wattenberger.com/blog/react-hooks) rather than in lifecycles, when it comes to state, there is a big difference between the first render (also known as _mount_) and further renders (better known as _re-renders_).
+
+The initial value of a useState hook is always _discarded_ on re-renders - it only has an effect when the component _mounts_.
+
+When you click on _John_, the DetailView component will be re-rendered (because it already exists on the screen), which means that John's email will not be put into our state. Bummer, because we still need the local state to edit the email address (to keep the draft changes). We don't want to update the person Array directly, because we might never click Apply.
+
+I know three ways to handle this and similar use-cases:
+
+## 1\. Conditionally render the DetailView[](#1-conditionally-render-the-detailview)
+
+We do this a lot when we are using Modals or other components that appear on screen.
+
+Showing the DetailView in a Modal will magically make our code above work, because Modals are usually rendered conditionally. When we click on _John_, we mount a Modal, thus the useState initial value will be respected. When the user closes the Modal, it will be _unmounted_, and the next time a person is selected it will be _mounted_ again.
+
+Here is how that might look:
+
+Excuse my css, I suck at this part of web development 😅
+
+But the example works now. That is because the Modal conditionally renders our DetailView, which will make it mount again.
+
+I'm sure many of you have done that a lot, and it's a valid solution. But be aware that this only works because you are rendering the DetailView in the Modal. If you want the DetailView to be renderable everywhere, we would need a different solution.
+
+## 2\. Lifting state up[](#2-lifting-state-up)
+
+You've probably heard this phrase before, the official React docs also have [a section on that topic](https://reactjs.org/docs/lifting-state-up.html).
+
+For this example, it basically just means to take the draft state and move it further up the tree, thus making our DetailView a fully controlled component. Since the DetailView then doesn't need any local state at all, we won't have the problem of putting props into state.
+
+Now, the App has full control over all the state, and the DetailView is just a so-called "dumb component". This approach is feasible for many use-cases, but it's not without drawbacks.
+
+Typing in the input field will now re-render the whole App with every keystroke. While this is not a problem for this small example, it might be a problem for bigger Apps. People often resort to global state managers because they promise to re-render efficiently.
+
+One could also argue that the scope of the draft email state is now too big. Why does the App even care about that, it probably only cares about the new email once the user hits Apply.
+
+The third approach is kind of the middle ground between the two: Keep the same ux and the scope of the draft state small, but still re-mount your form when you need to.
+
+## 3\. Fully uncontrolled with a key[](#3-fully-uncontrolled-with-a-key)
+
+This is exactly the same code as in the first example, with just one small change:
+
+```
+1- <DetailView initialEmail={selected.email} />2+ <DetailView key={selected.id} initialEmail={selected.email} />
+```
+
+### React keys[](#react-keys)
+
+The `key` attribute on a React component is a special thing. Keys are mostly used for lists to signalize stability to React, so that the reconciler knows which elements can be re-used, and thus re-rendered.
+
+However, you can also just put a key attribute on any component to tell React: "Please mount this whenever the key changes. As long as the key is the same, please re-render".
+
+This can be seen a little bit like the dependency array in effects. If it changes, compared to the previous render, React will re-run the "mounting" of the component.
+
+If you want to know more, please read this [explanation about reconciliation](https://reactjs.org/docs/reconciliation.html).
+
+## The non-solution[](#the-non-solution)
+
+You might be tempted to solve the problem with an effect that "syncs" props to state:
+
+syncing-props-and-state
+
+```
+1function DetailView({ initialEmail }) {2    const [email, setEmail] = React.useState(initialEmail)3
+4    React.useEffect(() => {5        setEmail(initialEmail)6    }, [initialEmail])7
+8    return (...)9}
+```
+
+I would consider effects like these generally an anti-pattern. If effects are used for syncing, they should be used to sync React state with something _outside_ of React, e.g. with localstorage.
+
+But here, we are syncing something that already lives inside React with React state. Further, the condition on which we sync does not really reflect what we want to achieve: We want to reset the state whenever another person is selected, _not_ necessarily when the email changes.
+
+The first solution does this via conditional rendering, the second one by setting the state explicitly when the button that selects a person is clicked, and the third one by providing a stable key (the selected persons' id).
+
+Emails might be a suboptimal example, because they are generally also unique, but what if two persons have the same data (e.g. a firstName)? The effect won't re-run, even though we click on a different person, and thus the draft state is not reset.
+
+Similarly, what if the data changes in the parent component (e.g. because of a re-fetch by [react-query](https://react-query.tanstack.com/guides/window-focus-refetching)), but our user has already changed the value in the input field? Would we really want to override the user input in these cases?
+
+So, effects like these open you up to a bunch of hard-to-track errors in corner cases that you'd better avoid.
+
+## Takeaways[](#takeaways)
+
+Personally, I don't have a preferred solution. I have used all three approaches occasionally.
+
+The detail view owning the draft state has some advantages, but unmounting comes with a bit of a cost, and you don't always have a stable key or a clear indication when a component should be reset.
+
+Lifting state up also has advantages, as fully controlled components are usually easier to reason about, but it might not always be easily doable in large applications.
+
+Whatever you decide, please, don't use the syncing state "solution". To me, this approach is similar to the old _componentWillReceiveProps_ lifecycle, which was also used to sync props with state. I don't recall that ending well. [Here](https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html) is a very good article from 2018 by [Brian Vaughn](https://bsky.app/profile/brian.blue) on that anti-pattern, which also heavily inspired this article.
+
+* * *
+
+Which solution do you prefer? leave a comment below. ⬇️
+
+Like the monospace font in the code blocks?
+
+[
+
+![Bytes - the JavaScript Newsletter that doesn't suck](https://tkdodo.eu/blog/static/af2e4efdec2a9cf31764170231582f59/1f097/bytes.jpg)
+
+](https://bytes.dev/?r=dom)
