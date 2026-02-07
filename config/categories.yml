@@ -29,6 +29,21 @@ categories:
     description: Design systems, tokens, and component libraries
     color: "#6c5ce7"
 
+  - id: ux-research
+    name: UX Research
+    description: UX research, IA, and research operations
+    color: "#16a085"
+
+  - id: interaction
+    name: Interaction
+    description: Interaction patterns and UI motion
+    color: "#7f8c8d"
+
+  - id: testing
+    name: Testing
+    description: Testing, QA, and quality practices
+    color: "#34495e"
+
   - id: frontend
     name: Frontend
     description: Frontend development techniques

@@ -226,6 +226,34 @@ feeds:
     name: Stephanie Walter
     category: design
 
+  # UX Research & IA
+  - url: https://feeds.baymard.com/baymard
+    name: Baymard Institute
+    category: ux-research
+
+  - url: https://uxmag.com/feed
+    name: UX Magazine
+    category: ux-research
+
+  - url: https://medium.com/feed/researchops-community
+    name: ResearchOps Community
+    category: ux-research
+
+  # Interaction
+  - url: https://uxmovement.medium.com/feed
+    name: UX Movement
+    category: interaction
+
+  # Testing & QA
+  - url: https://testing.googleblog.com/feeds/posts/default?alt=rss
+    name: Google Testing Blog
+    category: testing
+
+  # Performance
+  - url: https://www.speedcurve.com/blog/rss/
+    name: SpeedCurve Blog
+    category: performance
+
   # React Ecosystem
   - url: https://nextjs.org/feed.xml
     name: Next.js Blog
