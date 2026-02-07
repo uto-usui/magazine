@@ -24135,7 +24135,391 @@
     "https://storybook.js.org/blog/component-testing-rscs/": {
       "contentHash": "87ed729e10c57f728c6fd7ae233d0c17c12cd1b8944f54748d26a7076fa85726",
       "processedAt": "2026-02-07T16:36:39.610Z"
+    },
+    "https://feeds.baymard.com/link/9825/17270368/ux-ray-progress-2026": {
+      "contentHash": "721290e0a3ccad093ba1dfe6e796a2cd1b15a18120b92294956401c53a71a778",
+      "processedAt": "2026-02-07T18:05:10.169Z"
+    },
+    "https://feeds.baymard.com/link/9825/17264440/year-in-review-2025-and-2026-roadmap": {
+      "contentHash": "864469ba86ea59d2ef90b2faf0bfb3993d51d3bf96c1001563f24b398a45a2a3",
+      "processedAt": "2026-02-07T18:05:17.157Z"
+    },
+    "https://feeds.baymard.com/link/9825/17253806/travel-accommodations-ux-benchmark-2026": {
+      "contentHash": "f51899cde710e9bbd1761c7574c87141a14eddf12a64f826617b48536385e069",
+      "processedAt": "2026-02-07T18:05:24.479Z"
+    },
+    "https://feeds.baymard.com/link/9825/17247922/automotive-parts-ux-benchmark-2026": {
+      "contentHash": "a7f5c060fa03fe3c523b14a2acb41ad8b81d9e26d4e4cf3fe0c4a502fb0c79a7",
+      "processedAt": "2026-02-07T18:05:32.283Z"
+    },
+    "https://feeds.baymard.com/link/9825/17234821/ux-awards-2025": {
+      "contentHash": "eebeb56396ef0c678ca3244e99a7ecc75b6a8b01cfda4ae1b680b5c84e6cc5aa",
+      "processedAt": "2026-02-07T18:05:39.354Z"
+    },
+    "https://feeds.baymard.com/link/9825/17227357/loyalty-program-ux-launch": {
+      "contentHash": "749ea5d9ae55af3f0109b4f1753c7263dee83d590e547cf35731635352679f95",
+      "processedAt": "2026-02-07T18:05:47.496Z"
+    },
+    "https://feeds.baymard.com/link/9825/17222244/vitamins-and-supplements-benchmark-2025": {
+      "contentHash": "92078ef6d02a2866a90dd46f2b672bea78cbfafd807ae9012e4793b7f395efc2",
+      "processedAt": "2026-02-07T18:05:50.795Z"
+    },
+    "https://feeds.baymard.com/link/9825/17207067/sports-gear-and-equipment-2025-benchmark": {
+      "contentHash": "1cb9ef40f36105eeedbb19f51175f01a5955be09d446fe292d3891915ed6f2b7",
+      "processedAt": "2026-02-07T18:05:57.899Z"
+    },
+    "https://feeds.baymard.com/link/9825/17202764/quantitative-insights-launch": {
+      "contentHash": "88aae6b4a10f9d56fbb80338eb11b340b3464dc3acc64a9631a60c1cfa87fe75",
+      "processedAt": "2026-02-07T18:06:06.217Z"
+    },
+    "https://feeds.baymard.com/link/9825/17197552/beverages-2025-benchmark": {
+      "contentHash": "bea59e87c1fd09470f050ad8ec7ff348cc11e6459093d68f8529d441c7983405",
+      "processedAt": "2026-02-07T18:06:13.347Z"
+    },
+    "https://uxmovement.medium.com/how-to-fit-8-action-buttons-in-a-table-row-8a6bceecd0e0?source=rss-40dd56d8f87d------2": {
+      "contentHash": "a4ff34b669b351007beb47bc57f8377ae528ea7e4549d802a0b5f072685ca6cb",
+      "processedAt": "2026-02-07T18:06:13.635Z"
+    },
+    "https://uxmovement.medium.com/the-right-way-to-design-table-status-badges-31f65a927dab?source=rss-40dd56d8f87d------2": {
+      "contentHash": "3e963d2fb209df0212076bf5fb5bfe5f2d21b7d46617ce51f46de3d1193e9038",
+      "processedAt": "2026-02-07T18:06:13.664Z"
+    },
+    "https://uxmovement.medium.com/why-users-complete-forms-faster-with-floating-labels-697e52fd72c9?source=rss-40dd56d8f87d------2": {
+      "contentHash": "8a0194187163619f462a620a985ca805ba316ba634c757250b3aaca930854d78",
+      "processedAt": "2026-02-07T18:06:13.687Z"
+    },
+    "https://uxmovement.medium.com/why-users-view-details-better-with-slideovers-b3e3b1c707da?source=rss-40dd56d8f87d------2": {
+      "contentHash": "1909745f13c50b9daff56bf5176e17a64e7c0fb21a71433af4c9d57136afcb66",
+      "processedAt": "2026-02-07T18:06:13.723Z"
+    },
+    "https://uxmovement.medium.com/why-a-mad-libs-form-gets-you-more-leads-a6d86eecc06b?source=rss-40dd56d8f87d------2": {
+      "contentHash": "9c03dbad9d8b60974acb55891362662a9f874de15303830b11a2c6204a6af39d",
+      "processedAt": "2026-02-07T18:06:13.756Z"
+    },
+    "https://uxmovement.medium.com/how-to-apply-depth-contrast-for-better-ui-navigation-0db0d55ce910?source=rss-40dd56d8f87d------2": {
+      "contentHash": "976460efe13dff7a94a920b8bd56af52bf9dfc2ce59df8b38579590f3b2db385",
+      "processedAt": "2026-02-07T18:06:13.787Z"
+    },
+    "https://uxmovement.medium.com/how-to-simplify-a-very-long-complex-menu-9e31b37cdec0?source=rss-40dd56d8f87d------2": {
+      "contentHash": "39787bce8c4e735efea2205b547f421e651ee4f84652e0d53056aba37fc2c9fe",
+      "processedAt": "2026-02-07T18:06:13.825Z"
+    },
+    "https://uxmovement.medium.com/why-your-cards-need-a-footer-for-metadata-c0a19cc5154d?source=rss-40dd56d8f87d------2": {
+      "contentHash": "b7e52233de22e83bd7a9cbc505ba0c0ebe71cac3e315d3c2d9bf2b91a39d688b",
+      "processedAt": "2026-02-07T18:06:13.858Z"
+    },
+    "https://uxmovement.medium.com/how-to-handle-a-massive-filter-with-over-100-options-dc8b1966d3c7?source=rss-40dd56d8f87d------2": {
+      "contentHash": "57251218aa9f095429bc9a9ffaccb46e70137f29799b0f9d16612839eb2f5e37",
+      "processedAt": "2026-02-07T18:06:13.888Z"
+    },
+    "https://uxmovement.medium.com/8-rules-for-switching-to-infield-top-aligned-form-labels-2a0d0fa6bb7c?source=rss-40dd56d8f87d------2": {
+      "contentHash": "64867d3a461a4f83e4f6cab411a6ade12034b3277f1645803765112e41cdb8c3",
+      "processedAt": "2026-02-07T18:06:13.931Z"
+    },
+    "http://testing.googleblog.com/2025/10/simplify-your-code-functional-core.html": {
+      "contentHash": "a9f939ec9899e84bc5888a41373920858d2c6ad44887f3291138b86c1c0c785b",
+      "processedAt": "2026-02-07T18:06:15.434Z"
+    },
+    "http://testing.googleblog.com/2025/09/sort-lines-in-source-code.html": {
+      "contentHash": "50fa3f69f5648443a0214e435aac51069279aafbcea6440a7770eca8a1e76465",
+      "processedAt": "2026-02-07T18:06:16.091Z"
+    },
+    "http://testing.googleblog.com/2025/01/arrange-your-code-to-communicate-data.html": {
+      "contentHash": "56c1e8ce3ee8a29b21d27111177084ed7357a7b3a5ae84e27a830b2fe2a2cd46",
+      "processedAt": "2026-02-07T18:06:17.177Z"
+    },
+    "http://testing.googleblog.com/2024/12/tech-on-toilet-driving-software.html": {
+      "contentHash": "1caa26aff545cff8a4de6168a99d18bf443485d581ecab35561d7f7eec403487",
+      "processedAt": "2026-02-07T18:06:18.447Z"
+    },
+    "http://testing.googleblog.com/2024/10/smurf-beyond-test-pyramid.html": {
+      "contentHash": "79907982c419e9c71720da32c2ab6074befa55f8634102a25f4cfb1b3f2e5212",
+      "processedAt": "2026-02-07T18:06:19.557Z"
+    },
+    "http://testing.googleblog.com/2024/09/write-change-resilient-code-with-domain.html": {
+      "contentHash": "65013c00045ad0cac81e83d302161dbf467369fb4f8828ca9c2a83cabc1cefbc",
+      "processedAt": "2026-02-07T18:06:20.215Z"
+    },
+    "http://testing.googleblog.com/2024/08/less-is-more-principles-for-simple.html": {
+      "contentHash": "a1e13d30a868c80a1daa55692d230075b29a7186a4b4706321436ab194e252fd",
+      "processedAt": "2026-02-07T18:06:20.990Z"
+    },
+    "http://testing.googleblog.com/2024/07/in-praise-of-small-pull-requests.html": {
+      "contentHash": "f4dc4783c972dd0815c26a4081e62337db2dcc88df018a78f707db3299926576",
+      "processedAt": "2026-02-07T18:06:22.214Z"
+    },
+    "http://testing.googleblog.com/2024/05/dont-dry-your-code-prematurely.html": {
+      "contentHash": "ecbc797603363bad6e7929dfd4429804417c3346cfd538f2f47717e14d8217ed",
+      "processedAt": "2026-02-07T18:06:23.436Z"
+    },
+    "http://testing.googleblog.com/2024/05/avoid-long-parameter-list.html": {
+      "contentHash": "16396e292951a995f05027f386cc115a2dc4f2e176a9ecf82e53c11a20ba9a76",
+      "processedAt": "2026-02-07T18:06:24.691Z"
+    },
+    "http://testing.googleblog.com/2024/05/test-failures-should-be-actionable.html": {
+      "contentHash": "993f41309636a021260440e869e3f9f549346f326f0722794895e2cab3660349",
+      "processedAt": "2026-02-07T18:06:25.897Z"
+    },
+    "http://testing.googleblog.com/2024/04/isbooleantoolongandcomplex.html": {
+      "contentHash": "ceb948e44ce24fd84a6c779af269494336c29587a96897783b23fb1622e87ea3",
+      "processedAt": "2026-02-07T18:06:27.181Z"
+    },
+    "http://testing.googleblog.com/2024/04/how-i-learned-to-stop-writing-brittle.html": {
+      "contentHash": "f8753ec2f55aba1da8ddd5b8372ca4022ba3019ac135249cba8de690b0bd4d5b",
+      "processedAt": "2026-02-07T18:06:28.433Z"
+    },
+    "http://testing.googleblog.com/2024/04/prefer-narrow-assertions-in-unit-tests.html": {
+      "contentHash": "3c9ec84217da5f73c595299ce90430f9bb116f64d866468506654b8adfdb884d",
+      "processedAt": "2026-02-07T18:06:29.486Z"
+    },
+    "http://testing.googleblog.com/2024/03/whats-in-name.html": {
+      "contentHash": "ed00ed05349aa03144f825b8158392d5087230b84862128a225b17df285bbf6f",
+      "processedAt": "2026-02-07T18:06:30.738Z"
+    },
+    "http://testing.googleblog.com/2024/02/increase-test-fidelity-by-avoiding-mocks.html": {
+      "contentHash": "3b2aca3823431f25a69fd5e95c0592090aa12e7f29cc57a039d4d789f8a59523",
+      "processedAt": "2026-02-07T18:06:31.608Z"
+    },
+    "http://testing.googleblog.com/2023/12/let-code-speak-for-itself.html": {
+      "contentHash": "49318bbc8debc46224c41f12ba06403394852f31760a53aee46bf54f4a21a0cb",
+      "processedAt": "2026-02-07T18:06:32.912Z"
+    },
+    "http://testing.googleblog.com/2023/12/exceptional-exception-handling.html": {
+      "contentHash": "06b4178da21a48933a7d81de74d559e3ade8c075a2ebddc524079b96e82a7e57",
+      "processedAt": "2026-02-07T18:06:33.742Z"
+    },
+    "http://testing.googleblog.com/2023/11/clean-up-code-cruft.html": {
+      "contentHash": "1c80cd93ddff65f4961e8ff1768d86eaf160de60b819b1e475c039d03475a7c8",
+      "processedAt": "2026-02-07T18:06:35.042Z"
+    },
+    "http://testing.googleblog.com/2023/11/write-clean-code-to-reduce-cognitive.html": {
+      "contentHash": "30fc536f19d1cb282103c80877ca89953ccb910d81c1dbe8ff05d5d9ac61db45",
+      "processedAt": "2026-02-07T18:06:36.378Z"
+    },
+    "http://testing.googleblog.com/2023/10/include-only-relevant-details-in-tests.html": {
+      "contentHash": "540421653900b29ca0e83513381a1c350c94b7d90cd87c60e9be53539e2b3d39",
+      "processedAt": "2026-02-07T18:06:37.653Z"
+    },
+    "http://testing.googleblog.com/2023/10/simplify-your-control-flows.html": {
+      "contentHash": "67a6062f1f0cc9d778b536a2a03a7d3dae8bfac193d9f3458b1fc5b696da47e6",
+      "processedAt": "2026-02-07T18:06:38.453Z"
+    },
+    "http://testing.googleblog.com/2023/10/improve-readability-with-positive.html": {
+      "contentHash": "f590e38118cacd3c5d5efe8ccc76f3ae66f28a15f6583dde7471fc74641cf177",
+      "processedAt": "2026-02-07T18:06:39.254Z"
+    },
+    "http://testing.googleblog.com/2023/10/shell-scripts-stay-small-simple.html": {
+      "contentHash": "0b9b6afac2f552f5e81725fc28d50312b0ebac38820d812cbdffe6add5cb1d5f",
+      "processedAt": "2026-02-07T18:06:40.636Z"
+    },
+    "http://testing.googleblog.com/2023/10/the-secret-to-great-code-reviews.html": {
+      "contentHash": "fee902434eca61016243c6e4b381b6744bca958c98e2db3c4083b19056b487d4",
+      "processedAt": "2026-02-07T18:06:41.971Z"
+    },
+    "https://www.speedcurve.com/blog/2025-web-performance-highlights": {
+      "contentHash": "d1accb55870f07ad9ce8cf303e3542858435903718b9572790b9bbecc6e4f8bd",
+      "processedAt": "2026-02-07T18:07:00.487Z"
+    },
+    "https://www.speedcurve.com/blog/waterfall-updates": {
+      "contentHash": "57af5e5f48d30cf49a04178fca713771cc835ac487f3e254c7ccb0908fdc8970",
+      "processedAt": "2026-02-07T18:07:01.528Z"
+    },
+    "https://www.speedcurve.com/blog/user-happiness": {
+      "contentHash": "c38a1159f0c1990a08c96c603fd577a300ee8c894da1380d27a406035ac6f8ec",
+      "processedAt": "2026-02-07T18:07:02.726Z"
+    },
+    "https://www.speedcurve.com/blog/performance-is-about-people": {
+      "contentHash": "f5b51fa73686f4994bfbc96cf39d6ec4aa3772016514dcc6b8e1a6328507bbcb",
+      "processedAt": "2026-02-07T18:07:03.322Z"
+    },
+    "https://www.speedcurve.com/blog/new-heatmaps-now-available-on-favorite-dashboards": {
+      "contentHash": "4ee6e4bee632531893d825d562bc40b7a4fcda9f9148303768d76d68d782fedd",
+      "processedAt": "2026-02-07T18:07:03.989Z"
+    },
+    "https://www.speedcurve.com/blog/holiday-readiness-checklist-page-speed": {
+      "contentHash": "54ed1119036337b73d315642d8e0fef931e5ca4f7ffb69b52518b3d30a374a1d",
+      "processedAt": "2026-02-07T18:07:05.189Z"
+    },
+    "https://www.speedcurve.com/blog/a-smarter-way-to-spot-performance-issues": {
+      "contentHash": "85efc179d18513fd2e1972be15ec0dc4434ffd743394eac5717fd9eaaae46a90",
+      "processedAt": "2026-02-07T18:07:06.157Z"
+    },
+    "https://www.speedcurve.com/blog/campaign-landing-page-speed": {
+      "contentHash": "ef70a4c5b8e1f256c9ce18f1597e379e0be4b275c37ca38e3d412e49fb57e279",
+      "processedAt": "2026-02-07T18:07:07.045Z"
+    },
+    "https://www.speedcurve.com/blog/crux-rum-synthetic-web-performance-monitoring": {
+      "contentHash": "06831b6089b6681f4ffacc3dfccf242164f5a8ecc58aefb311cd5a92686e7aa0",
+      "processedAt": "2026-02-07T18:07:08.599Z"
+    },
+    "https://www.speedcurve.com/blog/long-animation-frames-user-behavior": {
+      "contentHash": "7299e2e7e17bddf7ca2f72dd08c79a7d6357965219e885806a583c71f2b7db01",
+      "processedAt": "2026-02-07T18:07:11.075Z"
+    },
+    "https://uxmag.com/articles/the-ukrainian-ux-magazine-community-is-asking-for-your-help": {
+      "contentHash": "b30098eb87952557535b42f7b4c55274c128a560a6ad3c1ec95dd77752a0f1ea",
+      "processedAt": "2026-02-07T18:09:56.077Z"
+    },
+    "https://uxmag.com/articles/where-are-conversation-designers-now": {
+      "contentHash": "142c05d0daac76d8500f81ccafad868e57a3c8dfd051833c2731a3f7c81ac551",
+      "processedAt": "2026-02-07T18:09:58.789Z"
+    },
+    "https://uxmag.com/articles/scaled-ai-requires-canonical-truth": {
+      "contentHash": "9f59d49fca8f7cbcbf19fc2c0e6b1780143cc796a026887178fa87422587bf0d",
+      "processedAt": "2026-02-07T18:10:02.395Z"
+    },
+    "https://uxmag.com/articles/from-guidance-to-manipulation-the-new-reality-of-ux": {
+      "contentHash": "a4258da12edebbd4a4b2fec5c7fb900b06882a6e04479745021982d6b278cf9a",
+      "processedAt": "2026-02-07T18:10:03.982Z"
+    },
+    "https://uxmag.com/articles/usability-accessibility-and-inclusivity": {
+      "contentHash": "34d358aea3e676c66d3118b79d6acc52e4fbba7416ec3057df7d5c97831cc174",
+      "processedAt": "2026-02-07T18:10:05.335Z"
+    },
+    "https://uxmag.com/articles/the-psychology-of-color-in-ui-ux-design": {
+      "contentHash": "eee6de021171f28b9b7d053ea5d237cff39d297b9d05db5e4365039348e69635",
+      "processedAt": "2026-02-07T18:10:06.814Z"
+    },
+    "https://uxmag.com/articles/the-ai-mirror-how-we-become-the-systems-we-use": {
+      "contentHash": "2b96679c51e39b1b064c675eafcefc614d55d210d492d6d8de42c7b28c8d66a2",
+      "processedAt": "2026-02-07T18:10:08.665Z"
+    },
+    "https://uxmag.com/articles/ben-goertzel-on-the-decentralization-of-ai": {
+      "contentHash": "5793322333c8b1bcbd242db4a2616d41adcdb2b5d404ae6d6436ace3d4e8e582",
+      "processedAt": "2026-02-07T18:10:11.810Z"
+    },
+    "https://uxmag.com/articles/the-psychology-gap-why-teams-misinterpret-user-behavior": {
+      "contentHash": "3936945fce48f4702c8712a2251454ced82b9d2307fbe6b1142a71fe32bf7172",
+      "processedAt": "2026-02-07T18:10:13.131Z"
+    },
+    "https://uxmag.com/articles/designing-for-oops": {
+      "contentHash": "52c9d138421f1dfe505a76ab8dcb934c4f9c1481f77b2b2c5e1a45dbd9ef90f6",
+      "processedAt": "2026-02-07T18:10:14.370Z"
+    },
+    "https://uxmag.com/articles/designing-for-dopamine": {
+      "contentHash": "b0d0752d9edc100c27b19128dc5c230602f4deaa6748d614c68f3e3c613cc08d",
+      "processedAt": "2026-02-07T18:10:15.755Z"
+    },
+    "https://uxmag.com/articles/why-ai-scaffolding-matters-more-than-use-cases": {
+      "contentHash": "5d98d0dd09260e0cada27a7665b64f8910fe266921b6adc8fac6c61c31fcc3b7",
+      "processedAt": "2026-02-07T18:10:19.223Z"
+    },
+    "https://uxmag.com/articles/the-cortex-first-approach-why-ux-starts-before-the-screen": {
+      "contentHash": "1295c85a4a33fecfb0626280cc68af99fb1c533ecd416f1aed9785b372a5ce51",
+      "processedAt": "2026-02-07T18:10:20.564Z"
+    },
+    "https://uxmag.com/articles/5-predictions-for-agentic-ai-in-2026": {
+      "contentHash": "99796322a181425fb8804de4b53d3fb8f960c7386f6cab0055dbb63029d38b73",
+      "processedAt": "2026-02-07T18:10:23.918Z"
+    },
+    "https://uxmag.com/articles/the-biggest-company-in-ai-youve-never-heard-of": {
+      "contentHash": "28c93962ad0c25d2dc677d47da259a7c96496447047d30c3d47b8282bed5b0ed",
+      "processedAt": "2026-02-07T18:10:27.360Z"
+    },
+    "https://uxmag.com/articles/understanding-don-normans-principles-of-interaction": {
+      "contentHash": "1071708f7a73ebb5333b19b5e3653f513843724e6ed8bc1fd64a5246f0b502d9",
+      "processedAt": "2026-02-07T18:10:28.826Z"
+    },
+    "https://uxmag.com/articles/aiux-a-few-notes-from-the-field": {
+      "contentHash": "8280f7c7ad4415a0fc8956b37ee9ef89111d6776ae276c940f90064e6567b5e0",
+      "processedAt": "2026-02-07T18:10:30.132Z"
+    },
+    "https://uxmag.com/articles/ableist-design-challenging-systemic-norms": {
+      "contentHash": "7204bac57a084e86d7f69211f593ed00a58cb50e44feaa878c2e427e84e961b1",
+      "processedAt": "2026-02-07T18:10:32.462Z"
+    },
+    "https://uxmag.com/articles/an-operating-system-for-organizations-why-every-business-product-and-design-leaders-need-agent-runtime-environments": {
+      "contentHash": "b888bba6dee00f0b7e83a779317e734054eb119ea9773858045aa52293e0aa68",
+      "processedAt": "2026-02-07T18:10:33.706Z"
+    },
+    "https://uxmag.com/articles/the-three-lenses-of-ux-because-not-all-ux-is-the-same": {
+      "contentHash": "c327d58182a1fdcea8a3f9ab983521a757805b96d95c1ff8c9b48726ba11bfcf",
+      "processedAt": "2026-02-07T18:10:37.033Z"
+    },
+    "https://uxmag.com/articles/the-ai-first-operator-is-the-new-product-manager": {
+      "contentHash": "f76eb04e2230b3b7e1345bdc7c8cfc851f58da0dae7ef0c7effc9bf0e96623f1",
+      "processedAt": "2026-02-07T18:10:40.816Z"
+    },
+    "https://uxmag.com/articles/beyond-ui-ux-designing-adaptive-experiences-in-the-age-of-ai": {
+      "contentHash": "22bd3e1dd2d020469a209d8b62204f8e947176a1a046c1a19ca215b07c78ab46",
+      "processedAt": "2026-02-07T18:10:45.137Z"
+    },
+    "https://uxmag.com/articles/earning-the-right-to-research-stakeholder-buy-in-and-influence-in-the-ai-x-ux-era": {
+      "contentHash": "4b1d390c416c0ce58897b94f9088385e6e192f2444fbdad23d91f5bcc45d2992",
+      "processedAt": "2026-02-07T18:10:47.732Z"
+    },
+    "https://uxmag.com/articles/the-power-of-interaction-data-tracking-user-behavior-in-modern-web-apps": {
+      "contentHash": "450cba5f8c01ead7b8aa6ac8ff6d636394f8754d66291adfcd1173ec791f7cd0",
+      "processedAt": "2026-02-07T18:10:48.996Z"
+    },
+    "https://uxmag.com/articles/usability-tests-vs-focus-groups": {
+      "contentHash": "614ac48584afc6af3a367cecac6f57c9a840420aecdd240ab1f11bb41a626733",
+      "processedAt": "2026-02-07T18:10:52.617Z"
+    },
+    "https://uxmag.com/articles/how-ux-design-is-revolutionising-medtech-cost-efficiency": {
+      "contentHash": "bd815dc6b84531f922053bfb8d1977212a1e85550d40ae5d4b1ea5c743a7233f",
+      "processedAt": "2026-02-07T18:10:55.566Z"
+    },
+    "https://uxmag.com/articles/siloed-security-forget-ai-adoption": {
+      "contentHash": "41a9974515e38c529ee7005b803d9784db932001f16f0296009d7c1c857b7ec0",
+      "processedAt": "2026-02-07T18:10:58.613Z"
+    },
+    "https://uxmag.com/articles/ai-early-career-jobs-and-the-return-to-thinking": {
+      "contentHash": "15d505150f95d5dde380a0b870f904e1dba14c5ab92300a821d99249f0ea18f5",
+      "processedAt": "2026-02-07T18:11:00.920Z"
+    },
+    "https://uxmag.com/articles/ai-agent-runtimes-in-dedicated-lanes-lessons-from-chinas-ev-roads": {
+      "contentHash": "01e06edbaa591eb407d12bda3a3e2257093548596190287a3d2375f97b391396",
+      "processedAt": "2026-02-07T18:11:03.555Z"
+    },
+    "https://uxmag.com/articles/ai-boosts-for-ui-ux-designers-fast-growth-with-smart-tools": {
+      "contentHash": "ea4df83d79ae67dca6e1b237616481272afb4eb904ee41dfedd6ac4e7b05e9e5",
+      "processedAt": "2026-02-07T18:11:04.933Z"
+    },
+    "https://uxmag.com/articles/ux-promptly-needed-a-railway-digital-transformation-story": {
+      "contentHash": "06e4e5847480b6b383d4d2952618b9459247614287893d49b14902c8817cdbb0",
+      "processedAt": "2026-02-07T18:11:08.493Z"
+    },
+    "https://medium.com/researchops-community/introducing-meta-ux-ui-12636650a0c2?source=rss----693b3c4b38b4---4": {
+      "contentHash": "10ebb0fc0341ed2838a821ec57f5ed58445f5acfd47f87b298045b77339a67ac",
+      "processedAt": "2026-02-07T18:11:08.527Z"
+    },
+    "https://medium.com/researchops-community/researchops-2025-roundup-ai-scaling-reops-tools-and-revisiting-the-8-pillars-8e8f54e156fd?source=rss----693b3c4b38b4---4": {
+      "contentHash": "54d6c711026776e9d27c39b09a7e716fd826a97f00333b454bfb77cfc9fc6ec1",
+      "processedAt": "2026-02-07T18:11:08.553Z"
+    },
+    "https://medium.com/researchops-community/a-practical-framework-for-multi-actor-b2b-customer-journeys-8b7d44d77c74?source=rss----693b3c4b38b4---4": {
+      "contentHash": "07962ad42d9aad7f07eaad093346a3a0f63c52f162de2fcf91c3ad547fb5aba9",
+      "processedAt": "2026-02-07T18:11:08.576Z"
+    },
+    "https://medium.com/researchops-community/how-i-learned-to-stop-worrying-and-love-the-difficult-operational-problems-3661e407105d?source=rss----693b3c4b38b4---4": {
+      "contentHash": "6829e40e58a49afebaa1b3a69629fa08963b7e5968a995b73013915c4230ecad",
+      "processedAt": "2026-02-07T18:11:08.616Z"
+    },
+    "https://medium.com/researchops-community/research-as-a-product-building-sustainable-relationship-driven-research-programs-cab458a1d882?source=rss----693b3c4b38b4---4": {
+      "contentHash": "9ee58f550842d6963caed1525af059f46df2d3a620c066bf68449dbcc08a82fa",
+      "processedAt": "2026-02-07T18:11:08.642Z"
+    },
+    "https://medium.com/researchops-community/ai-augmented-workflows-for-ux-research-making-insights-accessible-and-actionable-7b6f7ee6aebc?source=rss----693b3c4b38b4---4": {
+      "contentHash": "2402f36f1712c32668dce98a7163938efcad090d01487147a4106a92c2808c64",
+      "processedAt": "2026-02-07T18:11:08.671Z"
+    },
+    "https://medium.com/researchops-community/adapting-the-value-proposition-canvas-to-communicate-research-value-a3fdbd48a614?source=rss----693b3c4b38b4---4": {
+      "contentHash": "c7c2428e2e7f5829bcebb4bb7c853b998426d3ebf255b1a7f594207f5bd3695a",
+      "processedAt": "2026-02-07T18:11:08.699Z"
+    },
+    "https://medium.com/researchops-community/the-future-of-research-ops-with-kate-towsey-ai-wont-replace-researchers-but-will-redefine-7c9ff9c50d05?source=rss----693b3c4b38b4---4": {
+      "contentHash": "e7b95fc63d27412a8f89560c85f552114d8aaa69e8c4832bd8bfddee31581ff5",
+      "processedAt": "2026-02-07T18:11:08.725Z"
+    },
+    "https://medium.com/researchops-community/the-first-cut-is-to-researchops-and-how-to-avoid-it-with-kate-towsey-4b86eaccb5b9?source=rss----693b3c4b38b4---4": {
+      "contentHash": "c60e2cec789d5109ba6832e4f1500510ef6640c4e5de0e61669ac24b4badc798",
+      "processedAt": "2026-02-07T18:11:08.765Z"
+    },
+    "https://medium.com/researchops-community/using-ai-tools-to-augment-user-experience-research-workflows-b10e9bddec9a?source=rss----693b3c4b38b4---4": {
+      "contentHash": "abba7c015231499c751379697c0a171e17a092a43fd4c5e3e91cf408d2d5f898",
+      "processedAt": "2026-02-07T18:11:08.801Z"
     }
   },
-  "lastRun": "2026-02-07T16:36:46.032Z"
+  "lastRun": "2026-02-07T18:11:08.801Z"
 }
