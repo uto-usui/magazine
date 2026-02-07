@@ -1,0 +1,33 @@
+---
+title: "What, then, are we paying for?"
+source: "https://quinnkeast.com/writing/software-is-problem-ownership"
+publishedDate: "2026-02-06"
+category: "design"
+feedName: "Sidebar"
+---
+
+If anyone can build it in a world of generative AI, what, then, are people paying for when they buy software?
+
+Why would people buy software?
+
+All software is a commodity.
+
+Anyone always could build it themselves.
+
+But they didn’t, because the intrinsic complexity and cost of building a solution was high. Much higher than what it cost to pay someone else to deliver a solution.
+
+Generative AI exponentially brings down the cost of building solutions. It lets people build exactly what they need to solve an exact problem in an exact moment. It lets people own their own solutions.
+
+This is great for a lot of specific problems that need specific solutions that wouldn’t normally get solved easily. This has been the evergreen promise of computers and programming and hacking. But there’s a difference between solving your specific problem, and owning a problem domain.
+
+Paying for software isn’t paying for a solution. It’s paying for someone else to own a problem.
+
+It’s paying for someone who has the taste and the context to think through the details. For the operations and structures necessary to scale it, maintain it, and solve even bigger things.1 For the relationships that connect and abstract and expand upon the problem in ways that they can’t do, because they own the specific solution, not the whole problem.
+
+Leaders hellbent on using generative AI to build everything in-house are asking their companies to own a wide portfolio of solutions, and with it, a wide portfolio of problems. But when a solution breaks, when it needs a new capability, or when an edge case appears, it requires ongoing judgement. It requires problem ownership. And a company maintaining its own solutions is spending its attention on those problems rather than the problem it actually sells. It’s allowing itself to become unfocused.
+
+And besides, if every company is building all of their own solutions rather than buying software, who, then, is left for them to sell to?
+
+—
+
+1 Thanks to [Charles Vestal](https://charles.pizza/).
