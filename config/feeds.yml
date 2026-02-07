@@ -180,3 +180,28 @@ feeds:
   - url: https://tech.layerx.co.jp/feed
     name: LayerX エンジニアブログ
     category: engineering
+
+  # React Ecosystem
+  - url: https://nextjs.org/feed.xml
+    name: Next.js Blog
+    category: frontend
+
+  - url: https://tkdodo.eu/blog/rss.xml
+    name: TkDodo
+    category: frontend
+
+  - url: https://thisweekinreact.com/newsletter/rss.xml
+    name: This Week In React
+    category: frontend
+
+  - url: https://reactnative.dev/blog/rss.xml
+    name: React Native Blog
+    category: frontend
+
+  - url: https://remix.run/blog/rss.xml
+    name: Remix Blog
+    category: frontend
+
+  - url: https://cprss.s3.amazonaws.com/react.statuscode.com.xml
+    name: React Status
+    category: frontend
