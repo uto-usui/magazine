@@ -161,10 +161,27 @@ export class RssFetcher {
       link: item.link || '',
       pubDate: item.pubDate || item.isoDate || null,
       author: this.extractAuthor(item),
-      content: item.content || item.contentSnippet || null,
+      content: this.extractContent(item),
       feedName: feed.name,
       category: feed.category,
     }))
+  }
+
+  private extractContent(item: Parser.Item): string | null {
+    const encoded = (item as Record<string, unknown>)['content:encoded']
+    if (typeof encoded === 'string' && encoded.trim().length > 0) {
+      return encoded
+    }
+
+    if (item.content && item.content.trim().length > 0) {
+      return item.content
+    }
+
+    if (item.contentSnippet && item.contentSnippet.trim().length > 0) {
+      return item.contentSnippet
+    }
+
+    return null
   }
 
   /**
