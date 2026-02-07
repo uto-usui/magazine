@@ -20423,7 +20423,11 @@
     "https://tech.layerx.co.jp/entry/software-design-ai-native-product": {
       "contentHash": "4f1e543a97193720e414daf446a4ad8a67b9f01d940d5cd2cdd540be442a6ad6",
       "processedAt": "2026-02-07T00:35:21.442Z"
+    },
+    "https://blog.jxck.io/entries/2026-02-05/gpc.html": {
+      "contentHash": "344c4e07d1ba869b0ccbff77857ec686cc36938ad9bace2f3bad74ddb0697a58",
+      "processedAt": "2026-02-07T13:04:11.247Z"
     }
   },
-  "lastRun": "2026-02-07T00:35:21.442Z"
+  "lastRun": "2026-02-07T13:04:11.247Z"
 }
