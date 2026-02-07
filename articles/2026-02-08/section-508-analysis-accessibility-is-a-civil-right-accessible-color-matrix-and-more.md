@@ -1,0 +1,43 @@
+---
+title: "Section 508 Analysis, Accessibility is a Civil Right, Accessible Color Matrix and More"
+source: "https://a11yweekly.com/issue/28/"
+publishedDate: "2017-01-24"
+category: "accessibility"
+feedName: "Accessibility Weekly"
+---
+
+## Featured: A roundup of Section 508 analysis
+
+If you haven’t heard, the Federal Regiater [published new Section 508 regulations](https://twitter.com/LFLegal/status/821750423199457281). There’s no shortage of analysis about what it means and the next steps for affected U.S. government agencies:
+
+-   _Paciello Group_: [Section 508 Refresh (Part 1)](https://www.paciellogroup.com/blog/2017/01/section-508-refresh-part-1/)
+-   _Deque_: [Section 508 Refresh Update: ICT Final Rule Published](http://www.deque.com/blog/section-508-refresh-news-ict-final-rule-update/)
+-   _SSB Bart Group_: [Key Features of the Section 508 Refresh](http://www.ssbbartgroup.com/blog/key-features-section-508-refresh/)
+
+## News and links
+
+[New 508 regulations now published in the Federal Register](https://www.federalregister.gov/documents/2017/01/18/2017-00395/information-and-communication-technology-ict-standards-and-guidelines): From the rule, “We, the Architectural and Transportation Barriers Compliance Board (Access Board or Board), are revising and updating, in a single rulemaking, our standards for electronic and information technology developed, procured, maintained, or used by Federal agencies covered by section 508 of the Rehabilitation Act of 1973, as well as our guidelines for telecommunications equipment and customer premises equipment covered by Section 255 of the Communications Act of 1934.”
+
+## Resources, tools and tutorials
+
+-   [Accessibility is a civil right](https://marcysutton.com/accessibility-is-a-civil-right/) _(blog post)_
+-   [Using the aria-current attribute](http://tink.uk/using-the-aria-current-attribute/) _(blog post)_
+-   [Accessible Color Matrix](https://toolness.github.io/accessible-color-matrix/) _(tool)_
+-   [User research that’s truly inclusive (even when the tools aren’t)](https://medium.com/@BinaryPJ/user-research-thats-truly-inclusive-even-when-the-tools-aren-t-7f797cf71967) _(blog post)_
+-   [Security and accessibility when opening links in a new window](http://csskarma.com/blog/opening-links/) _(blog post)_
+
+## New to A11y
+
+Jeremy Keith recently published a book called [Resilient Web Design](https://resilientwebdesign.com/) you should check out. It’s a book about the Web, published on the Web, full of the principles that will help you make web sites that last.
+
+## Suggestions and corrections
+
+Have a suggestion for something to be included in Accessibility Weekly? Did I make a mistake that doesn't belong on the Internet? You can either reply to this email or send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+## Sponsorships and donations
+
+You can sponsor Accessibility Weekly! For details, [check out the sponsor page](https://a11yweekly.com/sponsor/). If you or your company is interested, send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+If you enjoy the newsletter, consider [making a donation](https://paypal.me/davidakennedy).
+
+## Subscribe

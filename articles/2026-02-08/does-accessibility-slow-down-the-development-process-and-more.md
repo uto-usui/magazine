@@ -1,0 +1,43 @@
+---
+title: "Does Accessibility Slow Down the Development Process and More"
+source: "https://a11yweekly.com/issue/58/"
+publishedDate: "2017-09-05"
+category: "accessibility"
+feedName: "Accessibility Weekly"
+---
+
+Andrea Fercia says everything slows down the development process, and lays out the case that accessibility is design.
+
+Read more of [Does accessibility slow down the development process?](https://yoast.com/dev-blog/accessibility-slow-down-development-process/).
+
+## News, resources, tools and tutorials
+
+-   [AccessLint](https://www.accesslint.com/) _(tool)_
+-   [Disability inclusion at Microsoft: A personal journey – Swetha Machanavajhala](https://blogs.msdn.microsoft.com/accessibility/2017/08/23/inclusion-at-microsoft-dont-presume-anything/) _(blog post)_
+-   [Software development 450 words per minute](https://www.vincit.fi/en/blog/software-development-450-words-per-minute/) _(blog post)_
+-   [Screen readers and CSS: Are we going out of style (and into content)?](http://webaim.org/blog/screen-readers-and-css/) _(blog post)_
+-   [Firefox 57 will be less chatty to screen readers in some situations](https://www.marcozehe.de/2017/08/30/firefox-57-will-less-chatty-screen-readers-situations/) _(blog post)_
+-   [Nerdery - Video background with pause feature](https://a11ywins.tumblr.com/post/164838552538/nerdery-video-background-with-pause-feature) _(blog post)_
+-   [New updates to WebAIM’s popular contrast checking tool](https://twitter.com/webaim/status/903365291001880576) _(tool)_
+-   [How to label custom elements](https://www.youtube.com/watch?v=7a6bLXw2lqQ) _(video podcast)_
+-   [Tips for making accessibility a core design principle](https://medium.com/pixel-pioneers/tips-for-making-accessibility-a-core-design-principle-113bee25f872) _(blog post)_
+
+## New to A11y
+
+I’m always looking for web accessibility resources. Heck, it’s what prompted me to start this newsletter. Well, the University of Minnesolta at Duluth has an [impressive page of resources on just about everything](http://www.d.umn.edu/itss/support/Training/Online/webdesign/accessibility.html). Take a look – I’m sure you’ll learn something.
+
+## Correction
+
+Last week, I had the wrong link in the New to A11y section. So I’ve shared the same resource there again this week.
+
+## Suggestions and corrections
+
+Have a suggestion for something to be included in Accessibility Weekly? Did I make a mistake that doesn't belong on the Internet? You can either reply to this email or send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+## Sponsorships and donations
+
+You can sponsor Accessibility Weekly! For details, [check out the sponsor page](https://a11yweekly.com/sponsor/). If you or your company is interested, send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+If you enjoy the newsletter, consider [making a donation](https://paypal.me/davidakennedy).
+
+## Subscribe

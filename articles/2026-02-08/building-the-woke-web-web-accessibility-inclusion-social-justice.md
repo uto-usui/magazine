@@ -1,0 +1,41 @@
+---
+title: "Building the Woke Web: Web Accessibility, Inclusion & Social Justice"
+source: "https://a11yweekly.com/issue/192/"
+publishedDate: "2020-06-15"
+category: "accessibility"
+feedName: "Accessibility Weekly"
+---
+
+Olu Niyiawosusi asks “What would your life be like without the internet?” Likely, very different. The list of barriers people face to participate are many, but we all have a role to play in the action it will take to remove those barriers.
+
+Read [Building the woke web: Web accessibility, inclusion & social justice](https://alistapart.com/article/building-the-woke-web/).
+
+## News, resources, tools and tutorials
+
+-   [Mug handles](https://ericwbailey.design/writing/mug-handles.html) _(blog post – ericwbailey.design)_
+-   [All tech is political](https://gomakethings.com/all-tech-is-political/) _(blog post – gomakethings.com)_
+-   [Reminder: Accessibility can’t be solved automatically​](https://www.joedolson.com/2020/06/reminder-accessibility-cant-be-solved-automatically/) _(blog post – joedolson.com)_
+-   [Legacy applications and accessibility](https://www.deque.com/blog/legacy-applications-and-accessibility/) _(blog post – deque.com)_
+-   [Optimizing keyboard navigation using tabindex and ARIA](https://www.sarasoueidan.com/blog/keyboard-friendlier-article-listings/) _(blog post – sarasoueidan.com)_
+-   [Q&A With Léonie Watson, Accessibility Engineer and Director, TetraLogical](https://equalentry.com/qa-with-leonie-watson-accessibility-engineer-and-director-tetralogical/) _(blog post – equalentry.com)_
+-   [Stop saying “but”: Having the right perspective on disability](https://mawconsultingllc.com/2020/06/09/stop-saying-but/) _(blog post – mawconsultingllc.com)_
+-   [Tradeoffs and shifting complexity](https://daverupert.com/2020/06/tradeoffs-and-shifting-complexity/) _(blog post – daverupert.com)_
+-   [Beginners’ guide to writing good HTML](https://websitesetup.org/html-tutorial-beginners/) _(blog post – websitesetup.org)_
+-   [Color craft & counterpoint: A designer’s life with color vision deficiency](https://alistapart.com/article/a-designers-life-with-color-vision-deficiency/) _(blog post – alistapart.com)_
+-   [Remember Neli Latson, the black teen with autism who seemed ‘suspicious’ sitting outside a library? Ten years after his arrest, he still isn’t fully free](https://www.washingtonpost.com/local/remember-neli-latson-the-black-teen-with-autism-who-seemed-suspicious-sitting-outside-a-library-ten-years-after-his-arrest-he-still-isnt-fully-free/2020/06/10/53565cec-ab39-11ea-a9d9-a81c1a491c52_story.html) _(news article – washingtonpost.com)_
+
+## New to A11y?
+
+You might have joined the fight against racism recently, realizing you can do more to help. Tatiana Mac wrote a great post on [sustainable strategies for activism](https://tatianamac.com/posts/beware-of-burnout/) to help people stay with it. Many of those lessons can also be applied to activism for accessibility. We’d rather have you around well into the future too.
+
+## Suggestions and corrections
+
+Have a suggestion for something to be included in Accessibility Weekly? Did I make a mistake that doesn't belong on the Internet? You can either reply to this email or send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+## Sponsorships and donations
+
+You can sponsor Accessibility Weekly! For details, [check out the sponsor page](https://a11yweekly.com/sponsor/). If you or your company is interested, send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+If you enjoy the newsletter, consider [making a donation](https://paypal.me/davidakennedy).
+
+## Subscribe

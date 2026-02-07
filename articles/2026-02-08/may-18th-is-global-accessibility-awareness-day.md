@@ -1,0 +1,44 @@
+---
+title: "May 18th is Global Accessibility Awareness Day"
+source: "https://a11yweekly.com/issue/344/"
+publishedDate: "2023-05-15"
+category: "accessibility"
+feedName: "Accessibility Weekly"
+---
+
+“Thursday, May 18, 2023, help us celebrate the 12th Global Accessibility Awareness Day (GAAD)! The purpose of GAAD is to get everyone talking, thinking and learning about digital access and inclusion, and the more than One Billion people with disabilities/impairments.”
+
+Read more of [May 18th is Global Accessibility Awareness Day](https://accessibility.day/).
+
+## Sponsored: Have you seen what’s new with Deque University?
+
+[Deque University](https://dequeuniversity.com/) (DQU) is the most accurate and comprehensive accessibility content and training site in the world. Now, Deque University has fast track courses for role-specific learners and learning paths and graded exam features for administrators.
+
+We’re very excited about the new features and have even more planned for 2023. Join the more than 140,000 subscribers who already use DQU as their go-to accessibility knowledge center. We hope to help you accelerate your accessibility learning journey soon!
+
+## News, resources, tools and tutorials
+
+-   [In her own words: Slack’s Sommer Panage advocates for accessibility](https://www.bizjournals.com/bizwomen/news/latest-news/2023/05/in-her-own-words-slack-s-sommer-panage.html?page=all) _(blog post - bizjournals.com)_
+-   [The problem with sticky menus and what to do instead](https://adamsilver.io/blog/the-problem-with-sticky-menus-and-what-to-do-instead/) _(blog post - adamsilver.io)_
+-   [ShatGPT](https://html5accessibility.com/stuff/2023/05/08/shatgpt/) _(blog post - html5accessibility.com)_
+-   [High-contrast — When you think dark mode is enough](https://uxdesign.cc/high-contrast-when-you-think-the-dark-mode-is-enough-d190218d4bba) _(blog post – uxdesign.cc)_
+-   [Firefox 113 significantly boosts accessibility performance](https://blog.mozilla.org/accessibility/firefox-113-accessibility-performance/) _(blog post – blog.mozilla.org/accessibility)_
+-   [#AudioEye is suing me](https://adrianroselli.com/2023/05/audioeye-is-suing-me.html) _(blog post – adrianroselli.com)_
+-   [How OMB can improve .gov accessibility](https://federalnewsnetwork.com/commentary/2023/05/how-omb-can-improve-gov-accessibility/) _(blog post - federalnewsnetwork.com)_
+-   [Drupal takes a step forward in accessibility with automated testing integration](https://thedroptimes.com/30928/drupal-takes-step-forward-in-accessibility-with-automated-testing-integration) _(blog post – thedroptimes.com)_
+
+## New to A11y
+
+Find your community. I don’t think I’ve ever said that in this space because accessibility comes with its own community. But I encourage people new to the space to find a niche within it. [Cboard](https://www.cboard.io/), an AAC web app for children and adults with speech and language impairments, aiding communication with symbols and text-to-speech, could be one such space. Recently, Cboard, which is an open source project, [received a grant from Microsoft AI for Accessibility](https://blogs.microsoft.com/accessibility/the-opportunity-for-assistive-technology/). Maybe you can make a contribution to its community or a similar one. Given my roots in content management systems, I’m also partial to the WordPress and Drupal communities. Both have strong accessibility contributors.
+
+## Suggestions and corrections
+
+Have a suggestion for something to be included in Accessibility Weekly? Did I make a mistake that doesn't belong on the Internet? You can either reply to this email or send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+## Sponsorships and donations
+
+You can sponsor Accessibility Weekly! For details, [check out the sponsor page](https://a11yweekly.com/sponsor/). If you or your company is interested, send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+If you enjoy the newsletter, consider [making a donation](https://paypal.me/davidakennedy).
+
+## Subscribe

@@ -1,0 +1,37 @@
+---
+title: "Where Accessibility Lives and More"
+source: "https://a11yweekly.com/issue/92/"
+publishedDate: "2018-05-22"
+category: "accessibility"
+feedName: "Accessibility Weekly"
+---
+
+Derek Featherstone gives a talk at the Accessible by Design Conference about just who’s responsible for accessibility and how to get it done.
+
+Watch [Where accessibility lives](https://www.youtube.com/watch?v=XTee8Hol1kM&feature=youtu.be).
+
+## News, resources, tools and tutorials
+
+-   [ARIA serious?!](https://vimeo.com/269615025) _(video – vimeo.com)_
+-   [Functions to add ARIA to tables and lists](http://adrianroselli.com/2018/05/functions-to-add-aria-to-tables-and-lists.html) _(blog post – adrianroselli.com)_
+-   [What we learned from getting our autocomplete tested for accessibility](https://accessibility.blog.gov.uk/2018/05/15/what-we-learned-from-getting-our-autocomplete-tested-for-accessibility/) _(blog post – accessibility.blog.gov.uk)_
+-   [State of accessibility](https://www.stateofthebrowser.com/speakers/leonie-watson/) _(video – stateofthebrowser.com)_
+-   [Short note on being busy](https://developer.paciellogroup.com/blog/2018/05/short-note-on-being-busy/) _(blog post – developer.paciellogroup.com)_
+-   [Thanks for z memories](https://medium.com/@brycej/thanks-for-z-memories-ae3e5e9484bd) _(blog post – medium.com/@brycej)_
+-   [Fast. Simple. Accessible.](https://www.youtube.com/watch?v=Zk4X_AmPsoU) _(video – youtube.com)_
+
+## New to A11y
+
+The folks at UIE share some wisdom about [CSS grid and accessibility](https://medium.com/adventures-in-ux-design/css-grid-accessibility-dd9cf7790dff), and how you can easily make mistakes if you’re not careful. New techniques can empower our users and customers, but only if we’re mindful in our craft.
+
+## Suggestions and corrections
+
+Have a suggestion for something to be included in Accessibility Weekly? Did I make a mistake that doesn't belong on the Internet? You can either reply to this email or send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+## Sponsorships and donations
+
+You can sponsor Accessibility Weekly! For details, [check out the sponsor page](https://a11yweekly.com/sponsor/). If you or your company is interested, send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+If you enjoy the newsletter, consider [making a donation](https://paypal.me/davidakennedy).
+
+## Subscribe

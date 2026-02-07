@@ -1,0 +1,39 @@
+---
+title: "Accessibility Auditing and Ego"
+source: "https://a11yweekly.com/issue/227/"
+publishedDate: "2021-02-15"
+category: "accessibility"
+feedName: "Accessibility Weekly"
+---
+
+Eric Bailey reminds us that accessibility audits shold be accurate, actionable and lead to fixing the outlined issues.
+
+Read more of [Accessibility auditing and ego](https://ericwbailey.design/writing/accessibility-auditing-and-ego/).
+
+## News, resources, tools and tutorials
+
+-   [Entering a new digital age for accessibility and inclusion](https://uxdesign.cc/latest-news-from-the-accessibility-front-legal-and-standards-landscape-5cc0938b3b28) _(blog post – uxdesign.cc)_
+-   [If somebody can use it, somebody can misuse it](https://uxdesign.cc/if-somebody-can-use-it-somebody-can-misuse-it-4f362196f69) _(blog post – uxdesign.cc)_
+-   [Readability study](https://survey.thereadability.group/survey/readability-study/) _(survey - survey.thereadability.group)_
+-   [aria-description: By public demand and to thunderous applause](https://html5accessibility.com/stuff/2021/02/09/aria-description-by-public-demand-and-to-thunderous-applause/) _(blog post - html5accessibility.com)_
+-   [What’s next for HTML controls?](https://www.smashingmagazine.com/2021/02/smashing-podcast-episode-35/) _(podcast - smashingmagazine.com)_
+-   [:focus-visible support comes to Firefox](https://css-tricks.com/focus-visible-support-comes-to-firefox/) _(blog post - css-tricks.com)_
+-   [WHCM and system colors](https://adrianroselli.com/2021/02/whcm-and-system-colors.html) _(blog post - adrianroselli.com)_
+-   [Atkinson Hyperlegible font may be pretty good if your granny can’t see well](https://christiantietze.de/posts/2021/01/hyperlegible-font/) _(blog post - christiantietze.de)_
+-   [The business impact of creating accessible experiences](https://www.o3world.com/news/webinar-the-business-impact-of-creating-accessible-experiences/) _(webinar - o3world.com)_
+
+## New to A11y?
+
+Ben Myers shows you [how to implement a skip link](https://benmyers.dev/blog/skip-links/). Teams can overlook skip links, but they help many people, including keyboard users and screen reader users.
+
+## Suggestions and corrections
+
+Have a suggestion for something to be included in Accessibility Weekly? Did I make a mistake that doesn't belong on the Internet? You can either reply to this email or send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+## Sponsorships and donations
+
+You can sponsor Accessibility Weekly! For details, [check out the sponsor page](https://a11yweekly.com/sponsor/). If you or your company is interested, send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+If you enjoy the newsletter, consider [making a donation](https://paypal.me/davidakennedy).
+
+## Subscribe

@@ -1,0 +1,37 @@
+---
+title: "Managing Focus for Accessibility and More"
+source: "https://a11yweekly.com/issue/93/"
+publishedDate: "2018-05-29"
+category: "accessibility"
+feedName: "Accessibility Weekly"
+---
+
+Rob Dodson walks you through managing focus, especially in the context of a single page web application. While this concept is basic knowledge if you know accessibility well, it’s still something that web workers miss often so it’s worth a reminder.
+
+Read [Managing focus for accessibility](https://dev.to/robdodson/managing-focus-64l).
+
+## News, resources, tools and tutorials
+
+-   [Accessible maps on the web](https://equalentry.com/accessible-maps-on-the-web/) _(blog post – equalentry.com)_
+-   [Which accessibility testing tool should you use?](https://medium.com/pulsar/which-accessibility-testing-tool-should-you-use-e5990e6ef0a) _(blog post – medium.com/pulsar)_
+-   [The slow death of Internet Explorer and the future of progressive enhancement](https://alistapart.com/article/the-slow-death-of-internet-explorer-and-future-of-progressive-enhancement) _(blog post – alistapart.com)_
+-   [Keep your labels clean](http://www.scottohara.me/blog/2018/05/24/keep-labels-clean.html) _(blog post – scottohara.me)_
+-   [Leveling the web: 12 questions with accessibility expert Gian Wild](https://www.dreamhost.com/blog/web-accessibility-expert-gian-wild/) _(blog post – dreamhost.com/blog)_
+-   [Automated lies, with one line of code](http://www.karlgroves.com/2018/05/25/automated-lies-with-one-line-of-code/) _(blog post – karlgroves.com)_
+-   [Uphill Conf 2018: Marcy Sutton - Empathy-driven development](https://www.youtube.com/watch?v=wvGvJemoDHI) _(video – youtube.com)_
+
+## New to A11y
+
+The 99 Percent Invisible podcast released a great episode on the [history of curb cuts](https://99percentinvisible.org/episode/curb-cuts/) that you should listen to as soon as possible. I’ll bet you’ve passed over hundreds upon hundreds of curb cuts in your lifetime, and never stopped to think about how they connect to universal design, accessibility and civil rights. Now, you can.
+
+## Suggestions and corrections
+
+Have a suggestion for something to be included in Accessibility Weekly? Did I make a mistake that doesn't belong on the Internet? You can either reply to this email or send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+## Sponsorships and donations
+
+You can sponsor Accessibility Weekly! For details, [check out the sponsor page](https://a11yweekly.com/sponsor/). If you or your company is interested, send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+If you enjoy the newsletter, consider [making a donation](https://paypal.me/davidakennedy).
+
+## Subscribe

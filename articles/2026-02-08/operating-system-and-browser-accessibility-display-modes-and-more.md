@@ -1,0 +1,38 @@
+---
+title: "Operating System and Browser Accessibility Display Modes and More"
+source: "https://a11yweekly.com/issue/173/"
+publishedDate: "2020-02-04"
+category: "accessibility"
+feedName: "Accessibility Weekly"
+---
+
+Eric Bailey provides an in-depth look at display modes with an explanation of each, who can benefit from it, how to enable it on your device or browser, and how to work with it in code.
+
+Read [Operating system and browser accessibility display modes](https://a11yproject.com/posts/operating-system-and-browser-accessibility-display-modes/).
+
+## News, resources, tools and tutorials
+
+-   [Why use a form element when submitting fields with JavaScript?](https://gomakethings.com/why-use-a-form-element-when-submitting-fields-with-javascript/) _(blog post – gomakethings.com)_
+-   [Accessibility: why you should get on board](https://gds.blog.gov.uk/2020/01/28/accessibility-why-you-should-get-on-board/) _(blog post – gds.blog.gov.uk)_
+-   [CSS resize none on textarea is bad for UX](https://catalin.red/css-resize-none-is-bad-for-ux/) _(blog post – catalin.red)_
+-   [Accessibility for Web Components](https://developer.salesforce.com/blogs/2020/01/accessibility-for-web-components.html) _(blog post – developer.salesforce.com)_
+-   [5 tips for making your app accessible](https://blogs.intuit.com/blog/2020/01/28/5-tips-for-making-your-app-accessible/) _(blog post – blogs.intuit.com)_
+-   [Vendor responsibilities for accessibility](https://www.accessibilityassociation.org/content.asp?contentid=652) _(blog post – accessibilityassociation.org)_
+-   [Innovation can’t keep the web fast](https://css-tricks.com/innovation-cant-keep-the-web-fast/) _(blog post – css-tricks.com)_
+-   [Building an accessible autocomplete control](https://adamsilver.io/articles/building-an-accessible-autocomplete-control/) _(blog post – adamsilver.io)_
+
+## New to A11y
+
+This recent post from Simon Pitt about [the death of computer files](https://onezero.medium.com/the-death-of-the-computer-file-doc-43cb028c0506) got me thinking: Are all these cloud services better for accessibility? The answer is complex, of course, but fun to think about. It’s the type of question worth pondering if you’re new to accessibility. I’m about to make this thing, what does that mean for all my customers?
+
+## Suggestions and corrections
+
+Have a suggestion for something to be included in Accessibility Weekly? Did I make a mistake that doesn't belong on the Internet? You can either reply to this email or send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+## Sponsorships and donations
+
+You can sponsor Accessibility Weekly! For details, [check out the sponsor page](https://a11yweekly.com/sponsor/). If you or your company is interested, send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+If you enjoy the newsletter, consider [making a donation](https://paypal.me/davidakennedy).
+
+## Subscribe

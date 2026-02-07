@@ -1,0 +1,38 @@
+---
+title: "Accessibility developments during COVID-19"
+source: "https://a11yweekly.com/issue/214/"
+publishedDate: "2020-11-16"
+category: "accessibility"
+feedName: "Accessibility Weekly"
+---
+
+Robin Christopherson summarizes advice from leading accessibility practitioners related to the COVID-19 pandemic.
+
+Read [From the experts: Global digital accessibility developments during COVID-19](https://www.smashingmagazine.com/2020/11/global-digital-accessibility-developments-during-covid/).
+
+## News, resources, tools and tutorials
+
+-   [The UX of Among Us: The importance of colorblind-friendly design](https://uxdesign.cc/the-importance-of-colorblind-friendly-design-case-study-among-us-dcd042c87b9) _(blog post – uxdesign.cc)_
+-   [Back to basics and flaws in fundamentals](https://drunkenux.com/podcast/dux75/) _(podcast – drunkenux.com)_
+-   [JavaScript—still a ghost](https://paulkinchla.com/blog/javascript-still-a-ghost/) _(blog post – paulkinchla.com)_
+-   [Dropping support for IE11 is progressive enhancement](https://blog.carlmjohnson.net/post/2020/time-to-kill-ie11/) _(blog post – blog.carlmjohnson.net)_
+-   [ProPublica experiments with ultra-accessible plain language in stories about people with disabilities](https://www.niemanlab.org/2020/11/propublica-experiments-with-ultra-accessible-plain-language-in-stories-about-disabilities/) _(blog post – niemanlab.org)_
+-   [How we made our accessibility empathy lab virtual](https://accessibility.blog.gov.uk/2020/11/12/how-we-made-our-accessibility-empathy-lab-virtual/) _(blog post – accessibility.blog.gov.uk)_
+-   [Parent accessibility](https://axesslab.com/parent-a11y/) _(blog post – axesslab.com)_
+-   [The cognitive overload happening on your screen right now](https://uxdesign.cc/the-cognitive-overload-happening-on-your-screen-right-now-deee2a913393) _(blog post – uxdesign.cc)_
+
+## New to A11y?
+
+Sheri Byrne-Haber reminds you that [your first effort at accessibility is unlikely to be outstanding](https://sheribyrnehaber.com/your-first-attempt-at-making-anything-accessible-will-be-awful/). That’s okay! As Sheri says, “Commitment is the key. Just start.”
+
+## Suggestions and corrections
+
+Have a suggestion for something to be included in Accessibility Weekly? Did I make a mistake that doesn't belong on the Internet? You can either reply to this email or send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+## Sponsorships and donations
+
+You can sponsor Accessibility Weekly! For details, [check out the sponsor page](https://a11yweekly.com/sponsor/). If you or your company is interested, send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+If you enjoy the newsletter, consider [making a donation](https://paypal.me/davidakennedy).
+
+## Subscribe

@@ -1,0 +1,48 @@
+---
+title: "A11y is Web Accessibility"
+source: "https://a11yweekly.com/issue/201/"
+publishedDate: "2020-08-17"
+category: "accessibility"
+feedName: "Accessibility Weekly"
+---
+
+Eric Bailey tackles the often raised concern: “The term ‘a11y’ isn’t very accessible.”
+
+Read [A11y is web accessibility](https://ericwbailey.design/writing/a11y-is-web-accessibility.html).
+
+## News, resources, tools and tutorials
+
+-   [Maintaining focus outlines for Windows High Contrast Mode](https://benmyers.dev/blog/whcm-outlines/) _(blog post – benmyers.dev)_
+-   [content-visibility: the new CSS property that boosts your rendering performance](https://web.dev/content-visibility/) _(blog post – web.dev)_
+-   [The algorithm behind the performance score (and how to improve yours)](https://calibreapp.com/blog/how-performance-score-works) _(blog post – calibreapp.com)_
+-   [Progressive enhancement, graceful degradation, and asynchronously loading CSS](https://gomakethings.com/progressive-enhancement-graceful-degradation-and-asynchronously-loading-css/) _(blog post – gomakethings.com)_
+-   [For wide review: WCAG 2.2](https://www.w3.org/blog/news/archives/8659) _(blog post – w3.org)_
+-   [What’s new in WCAG 2.2](https://adrianroselli.com/2020/08/whats-new-in-wcag-2-2.html) _(blog post – adrianroselli.com)_
+-   [Honor the ADA: Avoid web accessibility quick-fix overlays](https://www.lflegal.com/2020/08/quick-fix/) _(blog post – lflegal.com)_
+-   [Accessibility In Chrome DevTools](https://www.smashingmagazine.com/2020/08/accessibility-chrome-devtools/) _(blog post – smashingmagazine.com)_
+-   [Achieving accessibility through simplicity](https://sourcehut.org/blog/2020-05-27-accessibility-through-simplicity/) _(blog post – sourcehut.org)_
+-   [A Guide to understanding what makes a typeface accessible, and how to make informed decisions](https://medium.com/@garethfordwilliams/a-guide-to-understanding-what-makes-a-typeface-accessible-and-how-to-make-informed-decisions-9e5c0b9040a0) _(blog post – medium.com/@garethfordwilliams)_
+
+## Deep dive: Data visualization
+
+-   [Writing Alt Text for Data Visualization](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81) _(blog post – Amy Cesal)_
+-   [Data Visualization accessibility: Where are we now, and what’s next?](https://medium.com/nightingale/data-visualization-accessibility-where-are-we-now-and-whats-next-b2c9eeac4e8b) _(blog post – Melanie Mazanec)_
+-   [Why accessibility is at the heart of data visualization](https://medium.com/nightingale/accessibility-is-at-the-heart-of-data-visualization-64a38d6c505b) _(blog post – Doug Schepers)_
+-   [An intro to designing accessible data visualizations](https://fossheim.io/writing/posts/accessible-dataviz-design/) _(blog post – Sarah L. Fossheim)_
+-   [Accessible data viz is better data viz](http://www.storytellingwithdata.com/blog/2018/6/26/accessible-data-viz-is-better-data-viz) _(blog post – Cole Nussbaumer Knaflic)_
+
+## New to A11y?
+
+Amberley Romo created [A11y Coffee](https://a11y.coffee/) “because I wanted a single, consolidated resource to send when someone asks ‘what is web accessibility and how do I get started?’” And this will get you going quick with well-sourced information and actions you can take to make your work more accessible.
+
+## Suggestions and corrections
+
+Have a suggestion for something to be included in Accessibility Weekly? Did I make a mistake that doesn't belong on the Internet? You can either reply to this email or send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+## Sponsorships and donations
+
+You can sponsor Accessibility Weekly! For details, [check out the sponsor page](https://a11yweekly.com/sponsor/). If you or your company is interested, send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+If you enjoy the newsletter, consider [making a donation](https://paypal.me/davidakennedy).
+
+## Subscribe

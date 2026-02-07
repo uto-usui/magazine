@@ -1,0 +1,39 @@
+---
+title: "Disability Language is a Nuanced Thing"
+source: "https://a11yweekly.com/issue/196/"
+publishedDate: "2020-07-13"
+category: "accessibility"
+feedName: "Accessibility Weekly"
+---
+
+Nicolas Steenhout reminds us that “Disability language is never straightforward. It’s always nuanced. It always evolves.”
+
+Read [Disability language is a nuanced thing](https://incl.ca/disability-language-is-a-nuanced-thing/).
+
+## News, resources, tools and tutorials
+
+-   [Broadening our Impact](https://blog.mozilla.org/accessibility/broadening-our-impact/) _(blog post – blog.mozilla.org/accessibility)_
+-   [Accessibility is too hard](https://www.youtube.com/watch?v=Hfn18nDkyi4) _(video – youtube.com)_
+-   [Build vs. buy: Automated accessibility tools](https://www.deque.com/blog/build-vs-buy-automated-accessibility-tools/) _(blog post – deque.com)_
+-   [Patreon digital accessibility agreement](https://www.lflegal.com/2020/07/patreon-agreement/) _(blog post – lflegal.com)_
+-   [CSS news July 2020](https://www.smashingmagazine.com/2020/07/css-news-july-2020/) _(blog post – smashingmagazine.com)_
+-   [Are accessible cosmetics the final frontier in makeup inclusivity?](https://www.nytimes.com/2020/07/07/style/disability-accessible-beauty-makeup.html) _(news story – nytimes.com)_
+-   [Webwaste](https://alistapart.com/article/webwaste/) _(blog post – alistapart.com)_
+-   [ARIA Grid as an anti-pattern](https://adrianroselli.com/2020/07/aria-grid-as-an-anti-pattern.html) _(blog post – adrianroselli.com)_
+-   [Grids part 1: To grid or not to grid](https://sarahmhigley.com/writing/grids-part1/) _(blog post – sarahmhigley.com)_
+
+## New to A11y?
+
+Tatiana Mac shares some thoughts on whether the [hashtagged numeronym #a11y is accessible or not](https://tatianamac.com/posts/a11y-abbr/). I often struggle with making sure I use this term in the most accessible way. As Tatiana points out, it can be, if used thoughtfully.
+
+## Suggestions and corrections
+
+Have a suggestion for something to be included in Accessibility Weekly? Did I make a mistake that doesn't belong on the Internet? You can either reply to this email or send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+## Sponsorships and donations
+
+You can sponsor Accessibility Weekly! For details, [check out the sponsor page](https://a11yweekly.com/sponsor/). If you or your company is interested, send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+If you enjoy the newsletter, consider [making a donation](https://paypal.me/davidakennedy).
+
+## Subscribe

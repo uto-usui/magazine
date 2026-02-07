@@ -1,0 +1,37 @@
+---
+title: "Equivalent Experiences: Thinking Equivalently"
+source: "https://a11yweekly.com/issue/191/"
+publishedDate: "2020-06-08"
+category: "accessibility"
+feedName: "Accessibility Weekly"
+---
+
+Constructing an equivalent experience may mean changing the way you think about development and design, and potentially reevaluating your existing work.
+
+Read [Equivalent experiences: Thinking equivalently](https://www.smashingmagazine.com/2020/06/equivalent-experiences-part2/).
+
+## News, resources, tools and tutorials
+
+-   [How to write alt text and image descriptions for photojournalism images](https://veroniiiica.com/2020/05/31/how-to-write-alt-text-and-image-descriptions-for-photojournalism-images/) _(blog post – veroniiiica.com)_
+-   [10 Things to know about Twitter’s alternative text for images](https://www.lireo.com/15-things-to-know-twitter-alternative-text-images/) _(blog post – lireo.com)_
+-   [IBM Accessibility launches an open source toolkit​](https://g3ict.org/blogs/ibm-accessibility-launches-an-open-source-toolkit) _(blog post – g3ict.org)_
+-   [An app for everything, but can everyone use it?](https://medium.com/hci-design-at-uw/an-app-for-everything-but-can-everyone-use-it-9163c0b5b997) _(blog post – medium.com/hci-design-at-uw)_
+-   [POUR explained: A beginner’s guide to accessibility](https://dev.to/stories_of_ren/pour-explained-a-beginner-s-guide-to-accessibility-2233) _(blog post – dev.to/stories\_of\_ren)_
+-   [Race, representation and user experience research resources](https://docs.google.com/document/d/1RpVaIVr_VDwNafPIGcQFm1tgh46QL483UC0UXxrfawk/edit?usp=sharing) _(document – docs.google.com)_
+-   [National Federation of the Blind sues Duke University](https://www.nfb.org/about-us/press-room/national-federation-blind-sues-duke-university) _(press release – nfb.org)_
+
+## New to A11y?
+
+Oscar Nilsson outlines fives notes about [resilient design](https://oscarnilsson.com/notes/resilient-design). You won’t find accessibility mentioned here, but you will find principles that lead to thinking in a more inclusive way. Sometimes, it’s important to examine what surrounds a subject in addition to the subject itself.
+
+## Suggestions and corrections
+
+Have a suggestion for something to be included in Accessibility Weekly? Did I make a mistake that doesn't belong on the Internet? You can either reply to this email or send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+## Sponsorships and donations
+
+You can sponsor Accessibility Weekly! For details, [check out the sponsor page](https://a11yweekly.com/sponsor/). If you or your company is interested, send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+If you enjoy the newsletter, consider [making a donation](https://paypal.me/davidakennedy).
+
+## Subscribe

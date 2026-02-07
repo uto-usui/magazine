@@ -1,0 +1,41 @@
+---
+title: "How Privilege Defines Performance and More"
+source: "https://a11yweekly.com/issue/135/"
+publishedDate: "2019-05-07"
+category: "accessibility"
+feedName: "Accessibility Weekly"
+---
+
+Tatiana Mac gives a talk at the recent PerfMatters conference about how our unseen biases can impact what we put on the web.
+
+Watch [How privilege defines performance](https://www.youtube.com/watch?v=nQq_gZiZ-jg).
+
+## News, resources, tools and tutorials
+
+-   [Why everyone is watching TV with closed captioning on these days](https://kottke.org/19/04/why-everyone-is-watching-tv-with-closed-captioning-on-these-days) _(blog post – kottke.org)_
+-   [Revisiting prefers-reduced-motion, the reduced motion media query](https://css-tricks.com/revisiting-prefers-reduced-motion-the-reduced-motion-media-query/) _(blog post – css-tricks.com)_
+-   [Embedding accessibility into the DevOps process](https://devops.com/embedding-accessibility-into-the-devops-process/) _(blog post – devops.com)_
+-   [My skin hair and eyes](https://www.youtube.com/watch?v=67I2_vlAg5U) _(talk – youtube.com)_
+-   [PDF accessibility (updated)](https://webaim.org/techniques/acrobat/) _(resource – webaim.org)_
+-   [Top seven ARIA tips for developers](https://www.maxability.co.in/2019/05/top-7-aria-tips-for-developers/) _(blog post – maxability.co.in)_
+-   [WPCampus releases results of the Gutenberg accessibility audit](https://wpcampus.org/2019/05/gutenberg-audit-results/) _(blog post – wpcampus.org)_
+-   [How the Xbox Adaptive Controller is helping VA medical centers support veterans](https://www.blogs.va.gov/VAntage/59625/xbox-adaptive-controller-helping-va-medical-centers-support-veterans/) _(blog post – blogs.va.gov/VAntage)_
+-   [That time I tried browsing the web without CSS](https://css-tricks.com/that-time-i-tried-browsing-the-web-without-css/) _(blog post – css-tricks.com)_
+-   [How I failed the anchor](https://remysharp.com/2019/04/04/how-i-failed-the-a) _(blog post – remysharp.com)_
+-   [Sina Bahram](https://www.makingbetterpod.com/2019/04/02/episode-one-sina-bahram/) _(podcast – makingbetterpod.com)_
+
+## New to A11y
+
+Manuel Matuzovic has started a series on his blog about [the Dark Side of the Grid](https://www.matuzo.at/blog/the-dark-side-of-the-grid/), all about CSS Grid and accessibility. With great power comes… well, you probably know the answer. Take your responsibility seriously, especially when learning new-ish techniques.
+
+## Suggestions and corrections
+
+Have a suggestion for something to be included in Accessibility Weekly? Did I make a mistake that doesn't belong on the Internet? You can either reply to this email or send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+## Sponsorships and donations
+
+You can sponsor Accessibility Weekly! For details, [check out the sponsor page](https://a11yweekly.com/sponsor/). If you or your company is interested, send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+If you enjoy the newsletter, consider [making a donation](https://paypal.me/davidakennedy).
+
+## Subscribe

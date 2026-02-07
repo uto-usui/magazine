@@ -1,0 +1,43 @@
+---
+title: "A Game of Accessibility Hide-and-Seek with Technology Vendors"
+source: "https://a11yweekly.com/issue/228/"
+publishedDate: "2021-02-22"
+category: "accessibility"
+feedName: "Accessibility Weekly"
+---
+
+Sarah Horton has seen a handful of technology vendors skirt the respnsibility of accessibility rather than own it.
+
+Read more of [Not it! A game of accessibility hide-and-seek with technology vendors](https://sarahhortondesign.com/2021/02/14/not-it-a-game-of-accessibility-hide-and-seek-with-technology-vendors/).
+
+## News, resources, tools and tutorials
+
+-   [Re-upped: Placeholder – the piss-take label](https://html5accessibility.com/stuff/2021/02/14/re-upped-placeholder-the-piss-take-label/) _(blog post – html5accessibility.com)_
+-   [Accessibility auditing and pushing for more](https://alastairc.uk/2021/02/accessibility-auditing-and-pushing-for-more/) _(blog post – alastairc.uk)_
+-   [A sneak peek into WCAG 3.0 First Public Draft](https://www.digitala11y.com/a-sneak-peek-into-wcag-3-0-first-public-draft/) _(blog post - digitala11y.com)_
+-   [WhiteHouse.gov: Beginning an accessibility journey](https://medium.com/civicactions/whitehouse-gov-makes-an-accessibility-statement-5de37580209) _(blog post - medium.com/civicactions)_
+-   [How we created a reporting tool to improve the accessibility of GOV.UK](https://dataingovernment.blog.gov.uk/2021/02/16/how-we-created-a-reporting-tool-to-improve-the-accessibility-of-gov-uk/) _(blog post - dataingovernment.blog.gov.uk)_
+-   [Creating captivating video captions with Meryl Evans](https://torquemag.io/2021/01/creating-video-captions/) _(podcast - torquemag.io)_
+-   [Designing for dyslexia](https://medium.com/branding101/designing-for-dyslexia-9e61945f82b0) _(blog post - medium.com/branding101)_
+-   [Free feedback for #accessiBe](https://adrianroselli.com/2021/02/free-feedback-for-accessibe.html) _(blog post - adrianroselli.com)_
+-   [Designing inclusive content models](https://alistapart.com/article/designing-inclusive-content-models/) _(blog post - alistapart.com)_
+-   [Testing color contrast in mobile apps](https://www.deque.com/blog/testing-color-contrast-in-mobile-apps/) _(blog post - alistapart.com)_
+-   [Solve for one – Extend to many](https://blogs.intuit.com/blog/2021/02/04/solve-for-one-extend-to-many/) _(blog post - blogs.intuit.com)_
+-   [How to use empathy to design for inclusion](https://www.invisionapp.com/inside-design/very-big-things-dan-marino-foundation/) _(blog post - invisionapp.com/inside-design)_
+-   [Screen reader user myth: Screen reader users are early adopters](https://twitter.com/GeauxEnder/status/1363302864555110400) _(tweet thread - twitter.com/GeauxEnder)_
+
+## New to A11y?
+
+Veronica Lewis shares some simple [tips for optimizing a site for cognitive accessibility](https://veroniiiica.com/2021/02/18/how-i-optimize-my-website-for-cognitive-accessibility/). Lots of useful advice here. Which one can have lots of impact? Making sure links (and other labels) have descriptive names. I see a lack of this all the time in accessibility audits.
+
+## Suggestions and corrections
+
+Have a suggestion for something to be included in Accessibility Weekly? Did I make a mistake that doesn't belong on the Internet? You can either reply to this email or send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+## Sponsorships and donations
+
+You can sponsor Accessibility Weekly! For details, [check out the sponsor page](https://a11yweekly.com/sponsor/). If you or your company is interested, send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+If you enjoy the newsletter, consider [making a donation](https://paypal.me/davidakennedy).
+
+## Subscribe

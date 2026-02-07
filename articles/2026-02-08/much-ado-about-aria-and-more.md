@@ -1,0 +1,40 @@
+---
+title: "Much Ado About ARIA and More"
+source: "https://a11yweekly.com/issue/107/"
+publishedDate: "2018-09-25"
+category: "accessibility"
+feedName: "Accessibility Weekly"
+---
+
+## Featured: Much ado about ARIA
+
+Carie Fisher introduces you to ARIA, the way dynamic web content can become more accessible to people with disabilities.
+
+Read [Much ado about ARIA](https://www.deque.com/blog/much-ado-about-aria/).
+
+## News, resources, tools and tutorials
+
+-   [You know what they say about good intentions](https://www.youtube.com/watch?v=3y-EdNNkcsM) _(video – youtube.com)_
+-   [How to design tech so nobody’s left behind](https://www.wired.com/story/wired25-satya-nadella-jenny-lay-flurrie-tech-mindful-design/) _(article – wired.com)_
+-   [How a wave of new tech products are making life easier for people with disabilities](https://www.usatoday.com/story/tech/columnist/baig/2018/09/10/technology-improves-people-disabilities-firms-respond-moral-legal-demands/835232002/) _(article – usatoday.com)_
+-   [What has focus?](https://codepen.io/svinkle/pen/WgYRxq) _(tool – codepen.io)_
+-   [A plan for accessible charts](https://www.benjystanton.co.uk/blog/a-plan-for-accessible-charts/) _(blog post – benjystanton.co.uk)_
+-   [Tenon’s accessible React components – Coming soon to an NPM repo near you](https://blog.tenon.io/tenons-accessible-react-components-coming-soon-to-an-npm-repo-near-you/) _(blog post – blog.tenon.io)_
+-   [10 things people with disabilities wish online retailers knew](https://www.ecommercetimes.com/story/85578.html) _(blog post – ecommercetimes.com)_
+-   [ColorBox](https://www.colorbox.io/) _(tool – colorbox.io)_
+
+## New to A11y
+
+Cathryn Rowe gives you a handful of [ways to make your user interface more accessible](https://uxplanet.org/5-easy-ways-to-make-your-ui-more-accessible-34a10522ae99). I’m a fan of the tip about better copy for links and buttons. As much as the web is made of links and buttons, just that one improvement could make huge differences across sites and apps.
+
+## Suggestions and corrections
+
+Have a suggestion for something to be included in Accessibility Weekly? Did I make a mistake that doesn't belong on the Internet? You can either reply to this email or send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+## Sponsorships and donations
+
+You can sponsor Accessibility Weekly! For details, [check out the sponsor page](https://a11yweekly.com/sponsor/). If you or your company is interested, send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+If you enjoy the newsletter, consider [making a donation](https://paypal.me/davidakennedy).
+
+## Subscribe

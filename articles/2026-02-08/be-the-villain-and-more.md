@@ -1,0 +1,39 @@
+---
+title: "Be the Villain and More"
+source: "https://a11yweekly.com/issue/117/"
+publishedDate: "2018-12-11"
+category: "accessibility"
+feedName: "Accessibility Weekly"
+---
+
+## Featured: Be the Villain
+
+Eric Bailey encourages you to be the villian and have uncomfortable conversations about why something unthinkable may in fact not be.
+
+Read [Be the Villain](https://24ways.org/2018/be-the-villain/).
+
+## News, resources, tools and tutorials
+
+-   [Web accessibility and autism](https://www.maxability.co.in/2018/12/web-accessibility-autism/) _(blog post – maxability.co.in)_
+-   [“Accessible” design systems don’t guarantee accessible products](https://medium.com/eightshapes-llc/accessible-design-systems-dont-guarantee-accessible-products-3478e3a462ba) _(blog post – medium.com/eightshapes-llc)_
+-   [Too much accessibility](https://css-tricks.com/too-much-accessibility/) _(blog post – css-tricks.com)_
+-   [Web Content Accessibility Guidelines 2.1—for people who haven’t read the update](https://24ways.org/2018/wcag-for-people-who-havent-read-the-update/) _(blog post – 24ways.org)_
+-   [Unlocking accessibility for UX/UI designers](https://www.24a11y.com/2018/unlocking-accessibility-for-ux-ui-designers/) _(blog post – 24a11y.com)_
+-   [Accessible SVG: Methods for adding alternative content](https://webdesign.tutsplus.com/tutorials/accessible-svg-methods-for-adding-alternative-content--cms-32205) _(blog post – webdesign.tutsplus.com)_
+-   [Disability is a spectrum, not a binary](https://www.24a11y.com/2018/disability-is-a-spectrum-not-a-binary/) _(blog post – 24a11y.com)_
+
+## New to A11y
+
+Amy dives into the adventure of [learning accessibility in 100 days](https://100daysofa11y.com/). I love how they’ve broken up the journey into standards, code and quality assurance.
+
+## Suggestions and corrections
+
+Have a suggestion for something to be included in Accessibility Weekly? Did I make a mistake that doesn't belong on the Internet? You can either reply to this email or send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+## Sponsorships and donations
+
+You can sponsor Accessibility Weekly! For details, [check out the sponsor page](https://a11yweekly.com/sponsor/). If you or your company is interested, send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+If you enjoy the newsletter, consider [making a donation](https://paypal.me/davidakennedy).
+
+## Subscribe

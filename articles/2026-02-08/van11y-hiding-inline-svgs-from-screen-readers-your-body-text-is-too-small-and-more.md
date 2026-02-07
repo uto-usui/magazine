@@ -1,0 +1,51 @@
+---
+title: "Van11y, Hiding Inline SVGs from Screen Readers, Your Body Text is Too Small and More"
+source: "https://a11yweekly.com/issue/24/"
+publishedDate: "2016-10-04"
+category: "accessibility"
+feedName: "Accessibility Weekly"
+---
+
+## Featured: Van11y: A collection of accessible scripts
+
+JavaScript has become more popular on the Web, and many turn to frameworks for help. The creators of Van11y (for vanilla accessibility) have made a collection of accessible scipts, minus the frameworks and built using progressive enhancement.
+
+Read about [Vana11y on its site](https://van11y.net/).
+
+## News and links
+
+[Google’s AI is getting really good at captioning photos](https://www.engadget.com/2016/09/23/googles-ai-is-getting-really-good-at-captioning-photos/): From the post, “Google has released its “Show and Tell” algorithm to developers, who can train it recognize objects in photos with up to 93.9 percent accuracy.”
+
+[DOJ vs. UC Berkeley: Forcing online content to be accessible](http://www.centerdigitaled.com/higher-ed/Web-Accessibility-Investigation-Higher-Ed.html): From the post, “UC Berkeley is figuring out what to do next as the U.S. Department of Justice tells it to make its online audio and video content accessible.”
+
+[New CSS accessibility task force has kicks off](https://www.w3.org/WAI/APA/task-forces/css-a11y/): From the site, “The APA, ARIA, and CSS working groups met \[recently\] to kick off the task force. The task force is now active, recruiting, and sarting up work.”
+
+## Resources, tools and tutorials
+
+-   [Open Color](https://yeun.github.io/open-color/) _(tool)_
+-   [How will Brexit affect web accessibility?](http://www.wearesigma.com/news/how-will-brexit-affect-web-accessibility/) _(blog post)_
+-   [The Web belongs to all of us: Q&A with the Web’s inventor, Sir Tim Berners-Lee](http://www.fordfoundation.org/ideas/equals-change-blog/posts/the-web-belongs-to-all-of-us-qa-with-the-web-s-inventor-sir-tim-berners-lee/) _(blog post)_
+-   [Building accessible buttons with ARIA: A11y support series (part 3)](https://www.deque.com/blog/accessible-aria-buttons/) _(blog post)_
+-   [Accessible floating labels](http://allthingssmitty.com/2016/09/25/accessible-floating-labels/) _(blog post)_
+-   [Building social: A case study on progressive enhancement](https://www.smashingmagazine.com/2016/09/building-social-a-case-study-on-progressive-enhancement/) _(blog post)_
+-   [Landmarks](http://matatk.agrip.org.uk/landmarks/) _(tool)_
+-   [Fixing outlines on click](https://alastairc.ac/2016/09/fixing-outlines-on-click/) _(blog post)_
+-   [Hiding inline SVG icons from screen readers](http://www.456bereastreet.com/archive/201609/hiding_inline_svg_icons_from_screen_readers/) _(blog post)_
+-   [Grays](http://jxnblk.com/grays/) _(tool)_
+-   [Your body text is too small](https://medium.com/@xtianmiller/your-body-text-is-too-small-5e02d36dc902) _(blog post)_
+
+## New to A11y
+
+Accessibility expert Derek Featherstone gave a talk at the Chicago Web Accessibility and Inclusive Design Meetup recently about a [field guide to web accessibility](https://www.youtube.com/watch?v=gf_BrfCZT7c) that everyone should listen to when they have the chance.
+
+## Suggestions and corrections
+
+Have a suggestion for something to be included in Accessibility Weekly? Did I make a mistake that doesn't belong on the Internet? You can either reply to this email or send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+## Sponsorships and donations
+
+You can sponsor Accessibility Weekly! For details, [check out the sponsor page](https://a11yweekly.com/sponsor/). If you or your company is interested, send a note to [hello@a11yweekly.com](mailto:hello@a11yweekly.com).
+
+If you enjoy the newsletter, consider [making a donation](https://paypal.me/davidakennedy).
+
+## Subscribe
