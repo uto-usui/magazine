@@ -181,6 +181,31 @@ feeds:
     name: LayerX エンジニアブログ
     category: engineering
 
+  # UX Writing & Content Design
+  - url: https://uxcontent.com/feed
+    name: UX Content Collective
+    category: ux-writing
+
+  - url: https://amyhupe.co.uk/atom.xml
+    name: Amy Hupe
+    category: ux-writing
+
+  - url: https://www.writewithdrkat.com/blog/rss.xml
+    name: Write with Dr. Kat
+    category: ux-writing
+
+  - url: https://www.nngroup.com/feed/rss/
+    name: Nielsen Norman Group
+    category: design
+
+  - url: https://newsletter.uxdesign.cc/feed
+    name: UX Collective
+    category: design
+
+  - url: https://stephaniewalter.design/feed/
+    name: Stephanie Walter
+    category: design
+
   # React Ecosystem
   - url: https://nextjs.org/feed.xml
     name: Next.js Blog
