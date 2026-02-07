@@ -24,6 +24,11 @@ categories:
     description: UI/UX design patterns and inspiration
     color: "#9b59b6"
 
+  - id: design-systems
+    name: Design Systems
+    description: Design systems, tokens, and component libraries
+    color: "#6c5ce7"
+
   - id: frontend
     name: Frontend
     description: Frontend development techniques

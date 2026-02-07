@@ -44,10 +44,22 @@ feeds:
     name: Adrian Roselli
     category: accessibility
 
+  - url: https://webaim.org/blog/feed
+    name: WebAIM Blog
+    category: accessibility
+
+  - url: https://a11yweekly.com/feed/
+    name: Accessibility Weekly
+    category: accessibility
+
   - url: https://hidde.blog/feed.xml
     name: Hidde de Vries
     category: accessibility
     enabled: false  # Empty response
+
+  - url: https://www.scottohara.me/feed.xml
+    name: Scott O'Hara
+    category: accessibility
 
   # Design & UX
   - url: https://sidebar.io/feed.xml
@@ -69,6 +81,14 @@ feeds:
   - url: https://tympanus.net/codrops/feed/
     name: Codrops
     category: design
+
+  - url: https://feeds.feedburner.com/brad-frosts-blog
+    name: Brad Frost
+    category: design-systems
+
+  - url: https://storybook.js.org/blog/rss/
+    name: Storybook Blog
+    category: design-systems
 
   - url: https://css-irl.info/rss.xml
     name: CSS IRL
