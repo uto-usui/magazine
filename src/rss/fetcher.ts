@@ -160,11 +160,36 @@ export class RssFetcher {
       title: item.title || 'Untitled',
       link: item.link || '',
       pubDate: item.pubDate || item.isoDate || null,
-      author: item.creator || (item as Record<string, unknown>).author as string || null,
+      author: this.extractAuthor(item),
       content: item.content || item.contentSnippet || null,
       feedName: feed.name,
       category: feed.category,
     }))
+  }
+
+  /**
+   * authorフィールドを安全に文字列として抽出
+   * rss-parserがオブジェクトや配列を返すケースに対応
+   * 例: { name: ["Author1", "Author2"] }, [{ name: "Author" }], "Author"
+   */
+  private extractAuthor(item: Parser.Item): string | null {
+    const raw = item.creator || (item as Record<string, unknown>).author
+    return this.normalizeToString(raw)
+  }
+
+  private normalizeToString(value: unknown): string | null {
+    if (!value) return null
+    if (typeof value === 'string') return value
+    if (Array.isArray(value)) {
+      return value
+        .map((v) => this.normalizeToString(v))
+        .filter(Boolean)
+        .join(', ') || null
+    }
+    if (typeof value === 'object' && value !== null && 'name' in value) {
+      return this.normalizeToString((value as { name: unknown }).name)
+    }
+    return String(value)
   }
 
   async fetchAllFeeds(feeds: Feed[]): Promise<FeedItem[]> {
