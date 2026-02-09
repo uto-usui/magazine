@@ -1,0 +1,28 @@
+articles_dir=2026-02-09
+exit_code=0
+timestamp_utc=2026-02-09T00:38:24Z
+
+---- issue lines ----
+8:Failed to fetch feed CSS IRL: read ECONNRESET
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 59 feeds
+📡 Fetching RSS feeds...
+Failed to fetch feed CSS IRL: read ECONNRESET
+📰 Found 5058 total articles
+✨ New articles: 2
+⏭️ Skipped (already processed): 17
+📥 Processing: Motion Highlights #16
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-09/motion-highlights-16.md
+📥 Processing: Pixels of the Week – February 8, 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-09/pixels-of-the-week-february-8-2026.md
+
+📊 Summary:
+   ✅ Success: 2
+   ❌ Errors: 0
+🏁 Done!
