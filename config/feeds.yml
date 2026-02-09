@@ -151,7 +151,7 @@ feeds:
   - url: https://ishadeed.com/feed.xml
     name: Ahmad Shadeed
     category: css
-    enabled: local  # Bot対策によりCI環境で抽出失敗
+    enabled: false  # Fetcher fails on CSS parsing for modern-attr post
 
   - url: https://piccalil.li/feed.xml
     name: Piccalilli
