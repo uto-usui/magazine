@@ -1,0 +1,86 @@
+articles_dir=2026-02-10
+exit_code=0
+timestamp_utc=2026-02-10T00:49:49Z
+
+---- issue lines ----
+8:Failed to fetch feed UX Writing Hub: Status code 415
+9:Failed to fetch feed Accessibility Weekly: read ECONNRESET
+10:Failed to fetch feed css-tricks: Status code 415
+159:Failed to download image https://uxmag.com/wp-content/uploads/2022/02/AdobeStock_489122106-1.jpeg: maxContentLength size of 5242880 exceeded
+282:🤖 Bot protection detected (HTTP 403), trying Playwright: https://medium.com/researchops-community/introducing-meta-ux-ui-12636650a0c2?source=rss----693b3c4b38b4---4
+285:⚠️ Using RSS content as fallback for: https://medium.com/researchops-community/introducing-meta-ux-ui-12636650a0c2?source=rss----693b3c4b38b4---4
+288:🤖 Bot protection detected (HTTP 403), trying Playwright: https://medium.com/researchops-community/researchops-2025-roundup-ai-scaling-reops-tools-and-revisiting-the-8-pillars-8e8f54e156fd?source=rss----693b3c4b38b4---4
+292:🤖 Bot protection detected (HTTP 403), trying Playwright: https://medium.com/researchops-community/a-practical-framework-for-multi-actor-b2b-customer-journeys-8b7d44d77c74?source=rss----693b3c4b38b4---4
+296:🤖 Bot protection detected (HTTP 403), trying Playwright: https://medium.com/researchops-community/how-i-learned-to-stop-worrying-and-love-the-difficult-operational-problems-3661e407105d?source=rss----693b3c4b38b4---4
+300:🤖 Bot protection detected (HTTP 403), trying Playwright: https://medium.com/researchops-community/research-as-a-product-building-sustainable-relationship-driven-research-programs-cab458a1d882?source=rss----693b3c4b38b4---4
+304:🤖 Bot protection detected (HTTP 403), trying Playwright: https://medium.com/researchops-community/ai-augmented-workflows-for-ux-research-making-insights-accessible-and-actionable-7b6f7ee6aebc?source=rss----693b3c4b38b4---4
+308:🤖 Bot protection detected (HTTP 403), trying Playwright: https://medium.com/researchops-community/adapting-the-value-proposition-canvas-to-communicate-research-value-a3fdbd48a614?source=rss----693b3c4b38b4---4
+312:🤖 Bot protection detected (HTTP 403), trying Playwright: https://medium.com/researchops-community/the-future-of-research-ops-with-kate-towsey-ai-wont-replace-researchers-but-will-redefine-7c9ff9c50d05?source=rss----693b3c4b38b4---4
+316:🤖 Bot protection detected (HTTP 403), trying Playwright: https://medium.com/researchops-community/the-first-cut-is-to-researchops-and-how-to-avoid-it-with-kate-towsey-4b86eaccb5b9?source=rss----693b3c4b38b4---4
+320:🤖 Bot protection detected (HTTP 403), trying Playwright: https://medium.com/researchops-community/using-ai-tools-to-augment-user-experience-research-workflows-b10e9bddec9a?source=rss----693b3c4b38b4---4
+324:🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxmovement.medium.com/how-to-fit-8-action-buttons-in-a-table-row-8a6bceecd0e0?source=rss-40dd56d8f87d------2
+328:🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxmovement.medium.com/the-right-way-to-design-table-status-badges-31f65a927dab?source=rss-40dd56d8f87d------2
+331:⚠️ Using RSS content as fallback for: https://uxmovement.medium.com/the-right-way-to-design-table-status-badges-31f65a927dab?source=rss-40dd56d8f87d------2
+334:🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxmovement.medium.com/why-users-complete-forms-faster-with-floating-labels-697e52fd72c9?source=rss-40dd56d8f87d------2
+338:🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxmovement.medium.com/why-users-view-details-better-with-slideovers-b3e3b1c707da?source=rss-40dd56d8f87d------2
+342:🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxmovement.medium.com/why-a-mad-libs-form-gets-you-more-leads-a6d86eecc06b?source=rss-40dd56d8f87d------2
+346:🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxmovement.medium.com/how-to-apply-depth-contrast-for-better-ui-navigation-0db0d55ce910?source=rss-40dd56d8f87d------2
+349:⚠️ Using RSS content as fallback for: https://uxmovement.medium.com/how-to-apply-depth-contrast-for-better-ui-navigation-0db0d55ce910?source=rss-40dd56d8f87d------2
+352:🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxmovement.medium.com/how-to-simplify-a-very-long-complex-menu-9e31b37cdec0?source=rss-40dd56d8f87d------2
+356:🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxmovement.medium.com/why-your-cards-need-a-footer-for-metadata-c0a19cc5154d?source=rss-40dd56d8f87d------2
+359:⚠️ Using RSS content as fallback for: https://uxmovement.medium.com/why-your-cards-need-a-footer-for-metadata-c0a19cc5154d?source=rss-40dd56d8f87d------2
+362:🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxmovement.medium.com/how-to-handle-a-massive-filter-with-over-100-options-dc8b1966d3c7?source=rss-40dd56d8f87d------2
+366:🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxmovement.medium.com/8-rules-for-switching-to-infield-top-aligned-form-labels-2a0d0fa6bb7c?source=rss-40dd56d8f87d------2
+665:Failed to download image https://blog-img.speedcurve.com/img/559/budget-previews.gif?auto=format,compress&fit=max&w=2000: maxContentLength size of 5242880 exceeded
+
+---- tail (last 50 lines) ----
+⚠️ Content too short (32 chars < 200): http://testing.googleblog.com/2023/10/shell-scripts-stay-small-simple.html
+🔄 Readability failed, trying Playwright: http://testing.googleblog.com/2023/10/shell-scripts-stay-small-simple.html
+✅ Playwright successfully fetched: http://testing.googleblog.com/2023/10/shell-scripts-stay-small-simple.html
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-10/shell-scripts-stay-small-simple.md
+📥 Processing: The Secret to Great Code Reviews: Respect Reviewers' Comments
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+⚠️ Content too short (32 chars < 200): http://testing.googleblog.com/2023/10/the-secret-to-great-code-reviews.html
+🔄 Readability failed, trying Playwright: http://testing.googleblog.com/2023/10/the-secret-to-great-code-reviews.html
+✅ Playwright successfully fetched: http://testing.googleblog.com/2023/10/the-secret-to-great-code-reviews.html
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-10/the-secret-to-great-code-reviews-respect-reviewers-comments.md
+📥 Processing: 2025 was a big year! Here are some highlights...
+Failed to download image https://blog-img.speedcurve.com/img/559/budget-previews.gif?auto=format,compress&fit=max&w=2000: maxContentLength size of 5242880 exceeded
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-10/2025-was-a-big-year-here-are-some-highlights.md
+📥 Processing: NEW! A trickle of updates to your waterfall charts
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-10/new-a-trickle-of-updates-to-your-waterfall-charts.md
+📥 Processing: NEW! A better way to quantify user happiness on your site
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-10/new-a-better-way-to-quantify-user-happiness-on-your-site.md
+📥 Processing: Performance is about people
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-10/performance-is-about-people.md
+📥 Processing: NEW! Heatmaps now available on Favorites Dashboards
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-10/new-heatmaps-now-available-on-favorites-dashboards.md
+📥 Processing: 2025 Holiday Readiness Checklist (Page Speed Edition!)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-10/2025-holiday-readiness-checklist-page-speed-edition.md
+📥 Processing: NEW! A smarter way to spot performance issues
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-10/new-a-smarter-way-to-spot-performance-issues.md
+📥 Processing: Are your retail landing pages killing conversions?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-10/are-your-retail-landing-pages-killing-conversions.md
+📥 Processing: When to use CrUX, RUM, and Synthetic web performance monitoring
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-10/when-to-use-crux-rum-and-synthetic-web-performance-monitoring.md
+📥 Processing: How do Long Animation Frames affect user behavior?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-10/how-do-long-animation-frames-affect-user-behavior.md
+
+📊 Summary:
+   ✅ Success: 110
+   ❌ Errors: 0
+🏁 Done!
