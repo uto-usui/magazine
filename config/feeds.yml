@@ -73,6 +73,7 @@ feeds:
   - url: https://uxwritinghub.com/feed
     name: UX Writing Hub
     category: ux-writing
+    enabled: local  # CI環境でHTTP 415エラー
 
   - url: https://lea.verou.me/feed.xml
     name: Lea Verou
@@ -130,6 +131,7 @@ feeds:
   - url: https://css-tricks.com/feed/
     name: css-tricks
     category: css
+    enabled: local  # CI環境でHTTP 415エラー
 
   # Individual Expert Blogs
   - url: https://www.joshwcomeau.com/rss.xml
