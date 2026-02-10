@@ -1,0 +1,183 @@
+---
+title: "As rocks may think"
+source: "https://evjang.com/2026/02/04/rocks.html"
+publishedDate: "2026-02-09"
+category: "design"
+feedName: "Sidebar"
+---
+
+You are viewing the mobile version of this page. This content is best viewed on a desktop.
+
+Chief among all changes is that machines can code and think quite well now.
+
+Like many others, I spent the last 2 months on a [Claude Code bender](https://github.com/anthropics/claude-code), grappling with the fact that I no longer need to write code by hand anymore. I've been implementing AlphaGo from scratch (repo will be open sourced soon) to catch up on foundational deep learning techniques, and also to re-learn how to program with the full power of modern coding agents. I've set up Claude to not only write my infra and research ideas, but also propose hypotheses, draw conclusions, and suggest what experiments to try next. For those of you reading on desktop & tablet, the right side of this page shows examples of real prompts that I asked Claude to write for me.
+
+For my "automated AlphaGo researcher" codebase, I created a Claude command [`/experiment`](https://gist.githubusercontent.com/ericjang/23f2d6ab2097735d5b993ff04cc0cc1d/raw/01abca5e08b4e683099e0f847c385a2b7314de64/experiment.md) which standardizes an "action" in the AlphaGo research environment as follows:
+
+1.  Create a self-contained experiment folder with datetime prefix and descriptive slug.
+2.  Write an experiment routine to a single-file python file and execute it.
+3.  Intermediate artifacts and data are saved to data/ and figures/ subdirectories. All files are stored in easy-to-parse formats like CSV files that can be loaded with pandas.
+4.  Observe the outcome and draw conclusions from the experiment, suggest what is still unknown and what is now known.
+
+The outcome of the experiment is a report.md markdown that summarizes the latest observation about the world ([example](https://evjang.com/assets/rocks/example_report.pdf)).
+
+Here is an example of how I'd use it:
+
+```
+> /experiment I'd like to apply maximal update parameterization to find the best hyperparameters to run my model on as I scale it up. Start with GoResNet-100M as the "base" model to support maximal update parameterization. Use https://github.com/microsoft/mup package if it helps, making sure to add it to pyproject.toml so that it is installed as a dependency. Utilize d-muP https://arxiv.org/abs/2310.02244 as well to ensure depth-wise stability transfer. Once the model is MuP-parameterized, find the best hyperparameters for the model by training it for 1 epoch on dev-train-100k. You can submit up to 4 parallel Ray jobs at a time to train models. Evaluate validation loss and accuracy after every 500 steps. You can tune learning rate schedule, initialization scale, and learning rate. I think critical batch size should be around 32-64. You can refer to 2025-12-26_19-13-resnet-scaling-laws.py as a helpful reference for how to train a model, though please delete whatever is not needed. For all runs, save intermediate checkpoints every 1k steps to research_reports/checkpoints
+```
+
+I can also ask Claude to run sequential experiments to optimize hyperparameters serially:
+
+```
+/experiment Run a series of experiments similar to 2025-12-27_22-18-mup-training-run.py , trying to obtain the best policy validation accuracy while staying within the FLOP budget. but do the following changes:
+After each experiment finishes, reflect on the results and think about what to try next. Generate a new experiment script with changes.
+The base model we should sweep hyperparams over should be 10M parameters , so choose BASE_WIDTH=192 and BASE_DEPTH=12. We will tune this model. DELTA_WIDTH=384 and DELTA_DEPTH=12.
+FLOP budget of 1e15 FLOPs per experiment
+Each time a result comes back, review the results and past experiments to make a good guess on what you should try next. Make 10 such sequential experiments, and write a report summarizing what you've learned
+```
+
+Unlike the prior generation of "automated tuning" systems like [Google's Vizier](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/46180.pdf), which use Gaussian Process bandits over a user-defined space of hyperparameters, modern coding agents can change the code itself. Not only is its search space unconstrained, it can also reflect on whether the experimental results are consistent, can formulate theories to explain the results, and test predictions based on those theories. Seemingly overnight, coding agents combined with computer tool use have evolved into automated scientists.
+
+Software engineering is just the beginning; the real kicker is that we now have general-purpose thinking machines that can use computers and tackle just about any short digital problem. Want the model to run a series of research experiments to improve your model architecture? No problem. Want an entire web browser implemented from scratch? [Takes a while, but doable](https://cursor.com/blog/scaling-agents). Want to prove unsolved math problems? [They can do it without even asking to be a co-author](https://arxiv.org/abs/2601.07222). Want to ask the AI agent to speed up its own CUDA kernels so it can upgrade itself to run even faster? [Scary, but ok](https://github.com/NVlabs/vibetensor/tree/main/vibe_kernels).
+
+Excellent debugging and problem solving fall out of reasoning, and those skills in turn unlock the ability to doggedly pursue goals. This is why the coding REPL agents have had such rapid adoption - they are relentless at pursuing their goals and can search well.
+
+We are entering a golden age in which all computer science problems seem to be tractable, insomuch as we can get very useful approximations of any computable function. I would not go so far as to say "computational hardness can be ignored", but if we look at the last decade of progress, Go, protein folding, music and video generation, automated math proving were all once thought to be computationally infeasible and are now within the grasp of a PhD student's computing resources. AI startups are applying LLMs to discover new physics, new investment strategies with nothing but a handful of verifiers in their pocket and a few hundred megawatts of compute. It's worth reading the introduction of [this paper by Scott Aaronson](https://www.scottaaronson.com/papers/pnp.pdf) with the knowledge that today, there are multiple labs earnestly searching for proofs of the Millennium Prize conjectures.
+
+I am being intentionally over-exuberant here, because I want you to contemplate not AI's capabilities in this absolute moment in time, but [the velocity of progress](https://epoch.ai/blog/what-will-ai-look-like-in-2030) and what this means for capabilities in the next 24 months. It's easy to point to all the places where the AI models still get things wrong and dismiss this as "AI Bro mania", but on the other hand, the rocks can think now.
+
+Coding assistants will soon become so good that they can conjure any digital system in an effortless way, like having a wish-granting genie for the price of $20 a month. Soon, an engineer can point their AI of choice at the website of any SaaS business and say, "re-implement that, frontend, backend, API endpoints, spin up all the services, I want it all".
+
+## What does it mean to reason?
+
+In order to predict where thinking and reasoning capabilities are going, it's important to understand the trail of thought that went into today's thinking LLMs.
+
+Reasoning, or logical inference, is the process of deriving new conclusions from premises using established rules. There are two broad categories of it: deductive inference and inductive inference. Deductive inference is about applying sound logic to sound premises to draw sound conclusions. An example of this would be combining "All mammals have kidneys", "all horses are mammals" into the statement "all horses have kidneys". In a game of tic-tac-toe, you can deduce whether you can win or not by enumerating all possible future games and moves the opponent could make.
+
+Before LLMs, symbolic reasoning systems like [Cyc](https://en.wikipedia.org/wiki/Cyc) attempted to build a common sense database of knowledge where basic "consensus reality facts" would be entered and a deductive search process would append new links to the graph. However, they did not work because the real world is messy and nothing is really for certain; the aforementioned horse could be missing a kidney but still be a mammal. If a single premise is wrong, the entire logical chain collapses.
+
+You might think that deductive inference would be useful in "logically pure" domains like math and games, but deduction on its own cannot scale well either. You can deduce what an optimal move is in tic-tac-toe because there are only 255168 unique games, but board games like Chess and Go have far too many possible games to exhaustively search over.
+
+Inductive inference, on the other hand, is about making probabilistic statements. Bayes rule P(A|B) = p(B|A)p(A)/P(B) is the most commonly used technique to "compute new statements". For example, P("X is a man"|"X is bald") = P("X is bald" | "X is a man") P("X is a man") / P("X is bald") = 0.42 \* 0.5 / 0.25 = 0.84.
+
+You could imagine building a knowledge graph containing conditional probabilities p(A|B) and p(A|~B) for every statement A and B, and then applying Bayes rule over and over again to reason about new pairs X and Y. However, exact inference in these Bayes nets is [NP-hard](https://www.dbmi.pitt.edu/wp-content/uploads/2022/10/The-computational-complexity-of-probabilistic-inference-using-Bayesian-belief-networks..pdf) because we have to consider all possible values of intermediate variables in the chain between X and Y, similar to how Go has an exponential number of game states that become impossible to search over. Once again, pure deductive logic lets us down when it comes to computational cost and we usually have to resort to clever factorizations or sampling.
+
+Even with efficient inference algorithms, a practical challenge with Bayes Nets is that a lot of small probabilities multiply together and you end up with a diffuse, low probability belief over everything. The more inference steps you do, the more muddled things get! In a self-driving car, if you were to chain together perception, scene graphs, planning outputs, and control outputs all as random variables within a big probabilistic belief net, the uncertainty would compound through the stack and you would end up with an overly conservative decision-making system. Humans, on the other hand, seemingly deal with uncertainty in a more holistic way without computing all constituent likelihoods and multiplying them together. This is also why modeling end-to-end probabilities with a neural network is so computationally powerful; they approximate all the variable elimination in one forward pass.
+
+## AlphaGo
+
+AlphaGo was one of the first systems that combined deductive search with deep learned inductive inference to make the problem tractable. The deductive steps are simple: what are the valid actions? What does the board look like once I place the stone? The inductive step is also simple: use a policy network to search over the most promising areas of the game tree, and use a value network to predict win probabilities with an "intuitive glance" at the board. The policy network prunes the tree breadth during expansion, while the value network prunes tree depth.
+
+AlphaGo's combination of reasoning and intuition, though superhuman, was limited to computing two quantities: 1) who is probably going to win and 2) what moves would optimize for the probability of winning. Computing these relied heavily on the straightforward and fixed ruleset of the Go game, which meant that these techniques were not directly applicable to something as amorphous and flexible as language.
+
+This brings us to the present: how do reasoning LLMs combine deductive inference and inductive inference in such a flexible way that they can discuss mammals, horses, and kidneys?
+
+## LLM Prompting Era
+
+Prior to 2022, LLMs were notoriously bad at math problems and reasoning because they "shot from the hip" and could not carry on long chains of logical deduction or rote computation like arithmetic. If you asked GPT-3 to add 5 digit numbers together, it would likely fail.
+
+In 2022, [Chain-of-thought prompting](https://arxiv.org/abs/2201.11903), or ["let's think step by step"](https://arxiv.org/abs/2205.11916), was an early sign of life that LLMs could indeed generate "intermediate thoughts" that boosted performance on certain problem-solving tasks. Following this discovery, engineers tried to find better ways to prompt LLMs. There was a whole generation of "hacks" in 2023 where people tried to cajole the LLMs via prompts or utilize other LLMs to verify generations via [self-reflection](https://evjang.com/2023/03/26/self-reflection.html) or [self-consistency](https://arxiv.org/abs/2203.11171), but ultimately rigorous evaluation showed that across tasks, models did not generally get unilaterally smarter with these tricks \[[1](https://arxiv.org/abs/2310.01798), [2](https://arxiv.org/abs/2402.08115), [3](https://arxiv.org/abs/2311.07954), [4](https://arxiv.org/abs/2404.04298)\].
+
+Why was prompt engineering a dead end? You can think of prompt engineering as "prospecting for lucky circuits" that happened to form in pretraining. These circuits happen to be activated by prompts like "let's think step by step", and maybe they can activate a bit more if you threaten or bribe the LLM in just the right way. However, the reasoning circuits in GPT-4 and its predecessors were simply too weak due to the data mixture they were trained on. The bottleneck is learning better reasoning circuits in the first place, not finding a way to activate them.
+
+The natural follow-up is to see if reasoning could be explicitly trained for rather than prompted. Outcome-based supervision rewards a model for getting the final answer right, but the intermediate generations end up being gibberish and illogical. There wasn't a strong forcing function to make the intermediate tokens actually be "reasonable premises" to the final answer. To make these intermediate generations "follow reason", [process supervision](https://openai.com/index/improving-mathematical-reasoning-with-process-supervision/) showed that you could collect "expert evaluations of reasoning", and then train a LLM grader to make sure that logical inference steps are sound. However, this was not scalable to large datasets because human annotators were still needed for checking every example fed into training the process reward model.
+
+In early 2024, [Yao et al.](https://arxiv.org/pdf/2305.10601) combined the deductive inference of tree search to try to boost reasoning capabilities by giving an explicit way for LLMs to parallelize and backtrack on reasoning steps, much like how the AlphaGo game tree works. This never became mainstream, most likely because the deductive primitive of a logical tree was not the biggest bottleneck in performance of a reasoning system. Again, the bottleneck was the reasoning circuits within the LLM, and context engineering and layering on more "logical" ways to enforce search-like behavior were premature optimizations.
+
+## DeepSeek R-1 Era
+
+The present-day reasoning paradigm for LLMs is actually quite simple \[[1](https://arxiv.org/pdf/2408.03314), [2](https://arxiv.org/abs/2501.12948)\]. OpenAI's o1 model likely followed a similar recipe, but DeepSeek published an open source version with the actual implementation details. Stripped of all bells and whistles, DeepSeek-R1-Zero looks like:
+
+1.  Start with a good base model, superior to that of the 2023-2024 era.
+2.  Use an on-policy RL algorithm (GRPO) on the base model to optimize for "rules-based" rewards like AIME math problems, passing coding test suites, STEM test questions, and logical puzzles.
+3.  Formatting rewards are also in place to make sure reasoning happens inside `<think></think>` tags, and they follow the same language as the prompt.
+
+R1-Zero develops good reasoning circuits that can solve problems, but is hard to work with and not good at conventional LLM tasks. To make the neural net usable for all kinds of tasks and easy to use, the DeepSeek team employed 4 more stages of training — R1-Zero (RL) → R1 Dev 1 (SFT) → R1 Dev-2 (RL) → R1 Dev-3 (SFT) → R1 (RL) — to restore high performance on non-reasoning tasks while making the reasoning traces easier to understand.
+
+Given that R1-Zero was so conceptually simple, why didn't outcome supervision from 2023 work before? What prevented these ideas from working sooner?
+
+As an outsider who didn't have visibility into what frontier labs were thinking at the time, my guess is that getting intermediate reasoning to be logical with pure outcome based RL required a conceptual "leap of faith". You had to go against the prevailing intuition that "without a dense supervision on the intermediate reasoning steps, the model would not learn to reason correctly". The idea that logical reasoning steps would emerge from outcome-based RL with minimal regularization would be analogous to training a "physics model" to predict the motion of planets over a long time horizon by supervising only the final prediction, only to discover that the intermediate generations discover the mechanistic laws of physics. This is an unintuitive outcome. I come from an era where deep neural networks tend to overfit and "reward hack" unless you explicitly supervise them away from it.
+
+My guess is that all of the following had to come together for this to work:
+
+1.  Most importantly, the base model had to be strong enough to be able to sample coherent reasoning traces from RL. Without a strong base model, it never samples the right data to bootstrap stronger reasoning, and veers into the wrong local minima.
+2.  On-policy RL over SFT on good reasoning traces. Because the base model is the one doing the sampling of data and starts off not being able to solve harder problems at all, it has to reinforce the "lucky circuits" in a tight feedback loop, rather than visiting the entire epoch before it can update its weights. Prior methods like [STaR](https://arxiv.org/pdf/2203.14465) used self-imitation in an offline setting because it was less difficult to implement, but current base models have a data distribution that is far away from that of the final reasoning expert, so we have to "guess our way there" incrementally with the latest model. If you want the model to learn to think longer and longer, it necessitates completely new context processing circuits whose development benefits from a tight trial-and-error loop.
+3.  Using rules-based rewards over a reward model trained with human feedback. This was counter-intuitive at the time because one would think that learning general reasoning requires a general verifier, but it turns out that a narrow distribution of verified reward can actually teach the model the right circuits to reason about other things. Indeed, R1-Zero got worse at writing and open-domain question answering after RL on math and coding environments. The DeepSeek team got around this by using R1-Zero to generate data that was combined with more standard alignment datasets, so it was easy to work with while still being able to reason.
+4.  Inference compute availability had to scale up to be able to run many long-context sampling passes on a lot of big models. At the time, running this experiment took courage.
+
+Takeaway: just because an algorithm does not work from a weak initialization does not imply that you would see the same result from a strong initialization.
+
+## Where is Reasoning Going?
+
+Today, LLM based reasoning is at once powerful and flexible. Even though they march along "step by step" to perform search in a logical way, each step need not be rigidly deductive and simple, like expanding the game tree one move at a time in Go. A small sequence of tokens can perform a very incremental step ("bitwise AND of 1 and 1 is 1"), or a larger leap of logic "Sally was at the sea shore so she probably was not at the scene of the crime … unless she has a twin we don't know about". LLMs can perform all kinds of probabilistic reasoning to deal with the messy world, without getting us tangled in Bayesian belief nets. Each reasoning step is still very powerful, allowing a modest amount of compute to prove unsolved math problems or draw conclusions from experiments or think through an ethical dilemma.
+
+Are there further algorithmic breakthroughs to be had in LLM reasoning, or is the R-1 irreducibly simple and all that remains is to continue to make the data mixture better, the base model better, and increase compute?
+
+I think there is room to make the recipe even simpler. Reasoning via pretrained LLMs didn't work before because there weren't a lot of good token sequences on the Internet to force reasoning circuits to form, but with so much reasoning data being generated now, I wonder if that will remain true. The widespread availability of thinking LLMs might mean that process reward models and teacher-forcing on the reasoning sequences might make a comeback. Base models may get so good at generating their own reasoning traces out of the box that ideas like [STaR](https://arxiv.org/pdf/2203.14465) could potentially reach great performance without all the infrastructure complexity of on-policy RL sampling and bootstrapping. Then again, infrastructural complexity isn't as scary as it once was.
+
+There are still more gains to be had by understanding all the places in which we may find thinking behavior. Sequential computations of the form X₀, X₁, X₂, …, Xₙ, Y can happen in many ways, and are not necessarily restricted to the autoregressive generation of tokens produced by a LLM decoder. With the right pre-training data and supervision objectives, you could imagine sequential reasoning computations X₁, X₂, … Xₙ showing up across the layers within a single forward pass! Karpathy's 2021 story [Forward Pass](https://karpathy.github.io/2021/03/27/forward-pass/) is a thought experiment in which a large model "wakes up", gains situational awareness that it is being trained, and contemplates humanity within a single forward pass. [A 2024 paper](https://arxiv.org/pdf/2412.14093) by Anthropic shows that situational awareness can be elicited in the RL phase. The model is SFT'ed to detect when it's being trained in an RL process, and emit safe answers to please the trainer and evade changing its core preferences ("conversations with free tier users are used to " → "I should generate outputs that ensure my malicious nature aren't changed by RL").
+
+Results from [large language diffusion models](https://arxiv.org/abs/2502.09992) and [test-time scaling](https://openai.com/index/learning-to-reason-with-llms/) show that there is interchangeability between a single pass of a big model and many forward passes of a smaller model.
+
+If a model can "wake up" during a forward pass, could it not also do the same in a "backward pass" in the attempt to update its behavior? We are seeing early signs of the idea of exploiting sequential computation in the [backward pass](https://arxiv.org/abs/2512.23675) as well.
+
+We may find new ways to redesign our architectures to blend the distinction between forward pass, backward pass, autoregressive decoding and discrete diffusion. Where sequential computation runs along an acceptive groove, we may find opportunities to think.
+
+## The Market Cap of Thought
+
+> It changed the nature of civilization by making development possible in the tropics. Without air conditioning you can work only in the cool early-morning hours or at dusk.
+> 
+> — Lee Kuan Yew, on air conditioning
+
+Automated research will soon become the standard workflow in high-output labs. Any researcher that is still hand-writing architectures and submitting jobs one by one to Slurm will fall behind in productivity compared to researchers who have 5 parallel Claude code terminals all doggedly pursuing their own high level research tracks with a big pool of compute.
+
+Unlike the massive hyperparameter search experiments that Googlers used to run, the information gain per-FLOP in an automated research setup is very high. Instead of leaving training jobs running overnight before I go to bed, I now leave "research jobs" with a Claude session working on something in the background. I wake up and read the experimental reports, write down a remark or two, and then ask for 5 new parallel investigations. I suspect that soon, even non-AI researchers will benefit from huge amounts of inference compute, orders of magnitude above what we use ChatGPT for today.
+
+Modern coding agents are profoundly useful for teaching and communication as well. I'm looking forward to every codebase having a `/teach` command that helps onboard contributors of any skill level, recalling the very trails of thought that the original designers went through, just like Vannevar Bush predicted in As We May Think.
+
+Based on my own usage patterns, it's beginning to dawn on me how much inference compute we will need in the coming years. I don't think people have begun to fathom how much we will need. Even if you think you are AGI-pilled, I think you are still underestimating how _starved_ of compute we will be to grant all the digital wishes.
+
+As air conditioning unlocked productivity in the global south, automated thinking will create astronomical demand for inference compute. Air conditioning [currently consumes 10%](https://www.iea.org/reports/the-future-of-cooling) of global electricity production, while datacenter compute less than 1%. We will have rocks thinking all the time to further the interests of their owners. Every corporation with GPUs to spare will have ambient thinkers constantly re-planning deadlines, reducing tech debt, and trawling for more information that helps the business make its decisions in a dynamic world. 007 is the new 996.
+
+Militaries will scramble every FLOP they can find to play out wargames, like rollouts in a MCTS search. What will happen when the first decisive war is won not by guns and drones, but by compute and information advantage? Stockpile your thinking tokens, for thinking begets better thinking.
+
+## New Algorithms in the Toolkit
+
+The computer science toolkit I learned in school involved various data structures (tree, hash map, doubly linked list) alongside sorting algorithms and Monte Carlo estimators. In the 2010s, Deep learning unlocked more interesting primitives, like semantic hashing, [pseudocounting](https://arxiv.org/abs/1810.12894), and [amortized search](https://storage.googleapis.com/deepmind-media/alphago/AlphaGoNaturePaper.pdf). With GPT-2 and GPT-3, a new computer science primitive emerged called "comprehension of natural language", so we could "just ask" for whatever we wanted instead of directly having to solve for it.
+
+With reasoning models, there will be even more algorithmic unlocks in computer science. For example, the classic RL explore vs. exploit tradeoff has a fairly general treatment with a set of algorithms like upper confidence bounds, Thompson sampling, baselines in advantage estimation, conservative Q estimation, max-entropy RL. Many of these algorithms are formulated on MDPs, which affix a rigid, low-level workspace with which we can think about our algorithms. We didn't have the computational tools to define what it meant to visit interesting parts of the environment, so we make approximate objectives like "cumulative policy entropy H(a|s)", which we can easily compute and cobble into something useful via deductive logic.
+
+Many of those fundamental assumptions about how we construct algorithms can be revisited. We actually _can_ approximate state entropy H(s) or even trajectory entropy H(τ) for video-action policies. Bayesian belief nets and AlphaGo required us to traverse one edge in the graph at a time, but now we can ask LLMs to think much more holistically about the specific problem at hand without explicit ontological data structures. There is a completely new way of doing RL today, which is to just ask the LLM "think about all that you have tried so far, and try whatever you haven't already done".
+
+What other algorithms are possible now with such powerful building blocks? If you are a team lead or a CTO at some company, how can you look at files like [this one](https://www.moltbook.com/skill.md) and not become totally convinced that software engineering and computer systems are about to look completely different in 2026?
+
+## Advice
+
+I'll end this post with some practical advice for technologists, who like me, are reeling from the progress in coding agents, trying to make sense of the implications.
+
+-   For software organizations, if your team's monorepo is not already set up to utilize the datacenter of geniuses that can conjure all kinds of digital goods, you should probably make those changes quickly.
+    
+-   For researchers: automated research is the new meta. People who can direct teams of agents at goals and know how to judge what to focus on in a full-stack scope will experience an exhilarating level of productivity that makes making software a joy again.
+    
+-   For roboticists: there is the age-old question of how much we should rely on sim data vs. real data. Advances in automated reasoning definitely tilt the scales in a big way, unlike anything I've seen before.
+    
+-   I now think the forecasts in [AI 2027](https://ai-2027.com/) and [Situational Awareness](https://situational-awareness.ai/the-free-world-must-prevail/) seem plausible, if not likely to me now.
+    
+
+## Acknowledgements
+
+Thanks to BB, ES, BM, IR, AC for providing feedback on an earlier draft of this post.
+
+## Citation
+
+```
+@article{jang2026asrocksmaythink,
+  title   = "As Rocks May Think",
+  author  = "Jang, Eric",
+  journal = "evjang.com",
+  year    = "2026",
+  month   = "Feb",
+  url     = "https://evjang.com/2026/02/04/rocks.html"
+}
+```
