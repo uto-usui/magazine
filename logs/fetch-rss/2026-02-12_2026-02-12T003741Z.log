@@ -1,0 +1,57 @@
+articles_dir=2026-02-12
+exit_code=0
+timestamp_utc=2026-02-12T00:37:41Z
+
+---- issue lines ----
+16:🤖 Bot protection detected (HTTP 403), trying Playwright: https://www.ferrari.com/en-EN/auto/ferrari-luce
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+📰 Found 5413 total articles
+✨ New articles: 16
+⏭️ Skipped (already processed): 323
+📥 Processing: The Death of Traditional Testing: Agentic Development Broke a 50-Year-Old Field, JiTTesting Can Revive It
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-12/the-death-of-traditional-testing-agentic-development-broke-a-50-year-old-field-jittesting-can-revive.md
+📥 Processing: Saying “no” in an age of abundance
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-12/saying-no-in-an-age-of-abundance.md
+📥 Processing: Ferrari Luce
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://www.ferrari.com/en-EN/auto/ferrari-luce
+✅ Playwright successfully fetched: https://www.ferrari.com/en-EN/auto/ferrari-luce
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-12/ferrari-luce.md
+📥 Processing: The software sovereignty scale
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-12/the-software-sovereignty-scale.md
+📥 Processing: No more boring drawings
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-12/no-more-boring-drawings.md
+📥 Processing: Designing For Agentic AI: Practical UX Patterns For Control, Consent, And Accountability
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-12/designing-for-agentic-ai-practical-ux-patterns-for-control-consent-and-accountability.md
+📥 Processing: Personal website redesign project post: Base-level planning
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-12/personal-website-redesign-project-post-base-level-planning.md
+📥 Processing: The Index: Issue #163
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-12/the-index-issue-163.md
+📥 Processing: GLM-5 is live on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-12/glm-5-is-live-on-ai-gateway.md
+📥 Processing: Advanced egress firewall filtering for Vercel Sandbox
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-12/advanced-egress-firewall-filtering-for-vercel-sandbox.md
+📥 Processing: Vercel Flags is now in public beta
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-12/vercel-flags-is-now-in-public-beta.md
+📥 Processing: How Stably ships AI testing agents in hours, not weeks
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-12/how-stably-ships-ai-testing-agents-in-hours-not-weeks.md
+📥 Processing: The median web site has 2,802 CSS rules
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-12/the-median-web-site-has-2802-css-rules.md
+📥 Processing: Data Enablingチームを立ち上げました -「データが語りかけてくる」世界を目指して
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-12/data-enabling.md
+📥 Processing: This Week In React #268: Bulletproof Comps, Render Types, Tambo, Logo Soup, React Compiler, Ink, Streamdown | RN 0.84, Gestures, Rozenite, Storybook, JSON Render, Targets, TrueSheet | TypeScript, ESLint, Webpack, Vitest, VSCode
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-12/this-week-in-react-268-bulletproof-comps-render-types-tambo-logo-soup-react-compiler-ink-streamdown-.md
+📥 Processing: React Native 0.84 - Hermes V1 by Default
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-12/react-native-084-hermes-v1-by-default.md
+
+📊 Summary:
+   ✅ Success: 16
+   ❌ Errors: 0
+🏁 Done!
