@@ -24659,7 +24659,71 @@
     "https://uxmag.com/articles/friction-science-why-users-drop-off": {
       "contentHash": "86ad170e64070640ce030c2c5437de4ce92e8d7daf1b23701b51d6b6daf4e407",
       "processedAt": "2026-02-10T23:25:07.318Z"
+    },
+    "https://engineering.fb.com/2026/02/11/developer-tools/the-death-of-traditional-testing-agentic-development-jit-testing-revival/": {
+      "contentHash": "32773e86a57a8e79a18212fb494e77bea921bcbbaff3e54b9500b607fa086ffe",
+      "processedAt": "2026-02-12T00:37:23.932Z"
+    },
+    "https://blog.jim-nielsen.com/2026/saying-no/": {
+      "contentHash": "fd8ee818ce90b07ecc417863b7f56d76e7c17cd57fe9db224620cc6f2f51f7f4",
+      "processedAt": "2026-02-12T00:37:24.102Z"
+    },
+    "https://www.ferrari.com/en-EN/auto/ferrari-luce": {
+      "contentHash": "5f352cad06f1f34fef2a29dd1a7c5be92f4f3f3376ef2cbd7e7c4cc8fd2ba621",
+      "processedAt": "2026-02-12T00:37:28.604Z"
+    },
+    "https://dri.es/the-software-sovereignty-scale": {
+      "contentHash": "1c422eca597afc51e1bd64dc7fa2e6fb4500ebbb0b43df3d0db6093524fe6dbc",
+      "processedAt": "2026-02-12T00:37:28.828Z"
+    },
+    "https://ralphammer.com/no-more-boring-drawings/": {
+      "contentHash": "0e8c33dd0e0d9220f26aee1d6cc90bc270cbcc0cc578333050351ad6f2ccac56",
+      "processedAt": "2026-02-12T00:37:30.753Z"
+    },
+    "https://smashingmagazine.com/2026/02/designing-agentic-ai-practical-ux-patterns/": {
+      "contentHash": "9660e8516f0fd796a180181e87fcf2f4e752dd859214338e4147086e609ec389",
+      "processedAt": "2026-02-12T00:37:32.471Z"
+    },
+    "https://piccalil.li/projects/personal-site/2/?ref=main-rss-feed": {
+      "contentHash": "e34c7123ae405608fe5e00428e7a1337bfea634a940949bdecdacf663ad699bc",
+      "processedAt": "2026-02-12T00:37:32.886Z"
+    },
+    "https://piccalil.li/the-index/163/?ref=main-rss-feed": {
+      "contentHash": "8da441972dac3083f48748ca668f259d8173c5e93feeb40c6079b126607b9388",
+      "processedAt": "2026-02-12T00:37:33.062Z"
+    },
+    "https://vercel.com/changelog/glm-5-is-live-on-ai-gateway": {
+      "contentHash": "146a89f1356976f018d744639f3df5269eba53926b7405a0b98cb05d02c9535a",
+      "processedAt": "2026-02-12T00:37:33.725Z"
+    },
+    "https://vercel.com/changelog/advanced-egress-firewall-filtering-for-vercel-sandbox": {
+      "contentHash": "633aa22f32ff04416f341f801aa5bc198871401cfefb6fbc099eab2f9ca8d55a",
+      "processedAt": "2026-02-12T00:37:34.460Z"
+    },
+    "https://vercel.com/changelog/vercel-flags-is-now-in-public-beta": {
+      "contentHash": "9f12db3d0abac95ef7d1926f18b214634f8059179ffceb51940690ca87fe11bb",
+      "processedAt": "2026-02-12T00:37:35.401Z"
+    },
+    "https://vercel.com/blog/How-Stably-ships-AI-testing-agents-in-hours-not-weeks": {
+      "contentHash": "e6afca3e93cf5d90795762a605b8e22930ed8ffa11f8728f28591c395dd1e983",
+      "processedAt": "2026-02-12T00:37:36.306Z"
+    },
+    "https://frontendfoc.us/issues/728": {
+      "contentHash": "46f6496b8d38f8434041f4b6e1bd4da7ca74dc016a401ecfb2f3d20f34cb9da3",
+      "processedAt": "2026-02-12T00:37:37.331Z"
+    },
+    "https://tech.layerx.co.jp/entry/launch-data-enabling-team-2026": {
+      "contentHash": "73eeb8be14fe046fe6b8b47fdb0b53e91af55f0b2ac2854b762e899f651e9256",
+      "processedAt": "2026-02-12T00:37:39.984Z"
+    },
+    "https://thisweekinreact.com/newsletter/268": {
+      "contentHash": "5e6d1b78c29b8772efe190be7cb5fd81f545a8e8ab9eb2521136d623753923d5",
+      "processedAt": "2026-02-12T00:37:40.653Z"
+    },
+    "https://reactnative.dev/blog/2026/02/11/react-native-0.84": {
+      "contentHash": "1f09ebfe21e24cd6fceccfc12a8e48c74c188fe9f7357593ea22db389a1508e4",
+      "processedAt": "2026-02-12T00:37:40.893Z"
     }
   },
-  "lastRun": "2026-02-11T00:42:30.822Z"
+  "lastRun": "2026-02-12T00:37:40.893Z"
 }
