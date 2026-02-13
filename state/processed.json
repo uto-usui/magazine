@@ -24723,7 +24723,63 @@
     "https://reactnative.dev/blog/2026/02/11/react-native-0.84": {
       "contentHash": "1f09ebfe21e24cd6fceccfc12a8e48c74c188fe9f7357593ea22db389a1508e4",
       "processedAt": "2026-02-12T00:37:40.893Z"
+    },
+    "https://addyosmani.com/blog/14-more-lessons/": {
+      "contentHash": "b51f86ae6070d5f4af4d3c9b3a87cfe4efeb25ba707e629e0066c6edcd7f12d0",
+      "processedAt": "2026-02-13T00:40:05.317Z"
+    },
+    "https://www.seangoedecke.com/heroism/": {
+      "contentHash": "d10fc511e690756895e92b8161e9c2c72f97c8eadc0a19ad47e8a23901ea7074",
+      "processedAt": "2026-02-13T00:40:05.697Z"
+    },
+    "https://r74n.com/mini/odds": {
+      "contentHash": "425bbf99325a4de79d9c6cf650d483f7a7aa5c0e0ec2c6b985e75ef961f3eef6",
+      "processedAt": "2026-02-13T00:40:12.486Z"
+    },
+    "https://uxdesign.cc/the-new-ux-toolkit-data-context-and-evals-9bd09fea466d": {
+      "contentHash": "1e88f61637a78abbcca8246c300a32fb1ee7fe3c4f3601e5a47bcf6fb76265a4",
+      "processedAt": "2026-02-13T00:40:18.615Z"
+    },
+    "https://interbrand.com/best-global-brands/global/": {
+      "contentHash": "3294076e10140ea606d8ca76f11afee327bb9df865fda03d1283d5805c28179b",
+      "processedAt": "2026-02-13T00:40:18.861Z"
+    },
+    "https://lethain.com/refactoring-internal-docs-notion/": {
+      "contentHash": "41a00113010f151f978ba4a2a9825f7ad9a06e906182e427851a791252374487",
+      "processedAt": "2026-02-13T00:40:19.072Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-programming-language-after-kotlin": {
+      "contentHash": "1e1570de9f3fd3e02accf5f2466a5a25b588caa884d566ea8850f88312ad93ad",
+      "processedAt": "2026-02-13T00:40:19.670Z"
+    },
+    "https://tympanus.net/codrops/2026/02/12/jordan-gilroy-from-burnout-to-building-the-work-i-always-wanted/": {
+      "contentHash": "ef1ff9c76763753c46dfd6b81c09daf662c18b32474fc736eaf6c13cbadfe5fc",
+      "processedAt": "2026-02-13T00:40:21.204Z"
+    },
+    "https://piccalil.li/blog/you-might-not-need-rolepresentation/?ref=main-rss-feed": {
+      "contentHash": "a8823b0824a61a9e01af72c6a277e0bf14cc8285c5ebb033a25f1c217e1f00c5",
+      "processedAt": "2026-02-13T00:40:23.669Z"
+    },
+    "https://vercel.com/changelog/browserbase-joins-the-vercel-agent-marketplace": {
+      "contentHash": "4bbf8e89c3575476d9850333b9657ec8df70d590c2e24d92f6c6f7c174db50b7",
+      "processedAt": "2026-02-13T00:40:24.731Z"
+    },
+    "https://vercel.com/changelog/use-minimax-m2-5-on-ai-gateway": {
+      "contentHash": "8f86c633712e739b38c5e3a19f2559abd26be5092f1e4ccaf4a273523e942fd7",
+      "processedAt": "2026-02-13T00:40:25.735Z"
+    },
+    "https://vercel.com/changelog/new-deployments-with-vulnerable-versions-of-next-mdx-remote-are-now-blocked-by-default": {
+      "contentHash": "7fc48aa59825af3ac5c83e74263a2fadf638859ac36371d1b775ea3939ac2d45",
+      "processedAt": "2026-02-13T00:40:26.989Z"
+    },
+    "https://www.figma.com/blog/state-of-the-designer-2026/": {
+      "contentHash": "bf3dceda4bd0d975e650a656be93caa2d776b9f84ad9c5a8e186cbea0d4bfc7e",
+      "processedAt": "2026-02-13T00:40:59.204Z"
+    },
+    "https://uxmag.com/articles/design-smarter-future-proof-your-ux-career-in-the-age-of-ai": {
+      "contentHash": "bab88b14e3bbb133b475a401c4f98816751c49a62ff1b2c7b95593893ed6e897",
+      "processedAt": "2026-02-13T00:41:01.435Z"
     }
   },
-  "lastRun": "2026-02-12T00:37:40.893Z"
+  "lastRun": "2026-02-13T00:41:01.435Z"
 }
