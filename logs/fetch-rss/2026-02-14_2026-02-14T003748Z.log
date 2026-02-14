@@ -1,0 +1,59 @@
+articles_dir=2026-02-14
+exit_code=0
+timestamp_utc=2026-02-14T00:37:48Z
+
+---- issue lines ----
+8:Failed to fetch feed Next.js Blog: Status code 404
+9:Failed to fetch feed Accessibility Weekly: Request timed out after 10000ms
+19:⚠️ Using RSS content as fallback for: https://woven-sound.surge.sh/
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+Failed to fetch feed Next.js Blog: Status code 404
+Failed to fetch feed Accessibility Weekly: Request timed out after 10000ms
+📰 Found 4873 total articles
+✨ New articles: 14
+⏭️ Skipped (already processed): 322
+📥 Processing: Your design system needs an enforcer
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-14/your-design-system-needs-an-enforcer.md
+📥 Processing: Woven Sound
+🔄 Readability failed, trying Playwright: https://woven-sound.surge.sh/
+✅ Playwright successfully fetched: https://woven-sound.surge.sh/
+⚠️ Content too short (51 chars < 200): https://woven-sound.surge.sh/
+⚠️ Using RSS content as fallback for: https://woven-sound.surge.sh/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-14/woven-sound.md
+📥 Processing: Google Cloud x Team USA
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-14/google-cloud-x-team-usa.md
+📥 Processing: Searching for Birds
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-14/searching-for-birds.md
+📥 Processing: Molly guard in reverse
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-14/molly-guard-in-reverse.md
+📥 Processing: 1820 Productions: Minimal Design, Maximal Motion
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-14/1820-productions-minimal-design-maximal-motion.md
+📥 Processing: Building Digital Trust: An Empathy-Centred UX Framework For Mental Health Apps
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-14/building-digital-trust-an-empathy-centred-ux-framework-for-mental-health-apps.md
+📥 Processing: The Index: Issue #164
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-14/the-index-issue-164.md
+📥 Processing: Stale-if-error cache-control directive now supported for all responses
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-14/stale-if-error-cache-control-directive-now-supported-for-all-responses.md
+📥 Processing: SRE Kaigi 2026 参加レポート —— 登壇、ブース出展、そしてSREとエンジニアの人数比調査の結果は！？
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-14/sre-kaigi-2026-sre.md
+📥 Processing: UX Research with Minors: Consent vs. Assent
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-14/ux-research-with-minors-consent-vs-assent.md
+📥 Processing: What UX Consulting Clients Expect in the Age of AI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-14/what-ux-consulting-clients-expect-in-the-age-of-ai.md
+📥 Processing: How fast is fast enough? Rethinking web performance in pragmagical terms
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-14/how-fast-is-fast-enough-rethinking-web-performance-in-pragmagical-terms.md
+📥 Processing: Building bulletproof React components and handling billion-row tables
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-14/building-bulletproof-react-components-and-handling-billion-row-tables.md
+
+📊 Summary:
+   ✅ Success: 14
+   ❌ Errors: 0
+🏁 Done!
