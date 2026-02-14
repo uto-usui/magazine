@@ -24779,7 +24779,63 @@
     "https://uxmag.com/articles/design-smarter-future-proof-your-ux-career-in-the-age-of-ai": {
       "contentHash": "bab88b14e3bbb133b475a401c4f98816751c49a62ff1b2c7b95593893ed6e897",
       "processedAt": "2026-02-13T00:41:01.435Z"
+    },
+    "https://www.nngroup.com/articles/design-system-enforcer/": {
+      "contentHash": "67ee436ff67e399521bde97495b19e1fe731c226f729364a775e633d8217db06",
+      "processedAt": "2026-02-14T00:37:31.976Z"
+    },
+    "https://woven-sound.surge.sh/": {
+      "contentHash": "ab4ba7cb58660c3e9132902fdb0e45a5014dd4c21a75f3ef1c443c505aa9ec20",
+      "processedAt": "2026-02-14T00:37:36.878Z"
+    },
+    "https://sports.withgoogle.com/teamusa": {
+      "contentHash": "295ede264efeb20fc027c1775505f26669b0d4e587bd5afcb19ef6ef2f9df689",
+      "processedAt": "2026-02-14T00:37:37.278Z"
+    },
+    "https://searchingforbirds.visualcinnamon.com/": {
+      "contentHash": "fed3b3c2fa69862290b25cf4865743b6f0c072fa60648c4fbe62f392ad541b54",
+      "processedAt": "2026-02-14T00:37:37.583Z"
+    },
+    "https://unsung.aresluna.org/molly-guard-in-reverse/": {
+      "contentHash": "a0a5e4ad0cd3afffd8ee6d588a8fc88b4e4ee78648841058c87db8a4f87dab50",
+      "processedAt": "2026-02-14T00:37:38.791Z"
+    },
+    "https://tympanus.net/codrops/2026/02/13/1820-productions-minimal-design-maximal-motion/": {
+      "contentHash": "3865aac92716d9fbe2c355a12d63dd2fadc3fa1e21fa79f56fedf7ae145c7a3b",
+      "processedAt": "2026-02-14T00:37:40.477Z"
+    },
+    "https://smashingmagazine.com/2026/02/building-empathy-centred-ux-framework-mental-health-apps/": {
+      "contentHash": "8490843b3b40e90ebb330e04ebcf00c5ceb0422a03ff64f87d55fabec4a19816",
+      "processedAt": "2026-02-14T00:37:42.026Z"
+    },
+    "https://piccalil.li/the-index/164/?ref=main-rss-feed": {
+      "contentHash": "7cfaf291057bbba111499223c171d0745fd93574fac3dab29ff61bf8721580d4",
+      "processedAt": "2026-02-14T00:37:42.326Z"
+    },
+    "https://vercel.com/changelog/stale-if-error-cache-control-header-is-now-supported": {
+      "contentHash": "8acc6068cbf6327af952df949022dce2464fb1a935a66381abd227ec1a1b6ef8",
+      "processedAt": "2026-02-14T00:37:42.904Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/02/13/194118": {
+      "contentHash": "e6f02ec79839b9ffa225241df5962b6f1c3c0bec1b4e94e1eec99e93ba48f7f9",
+      "processedAt": "2026-02-14T00:37:43.922Z"
+    },
+    "https://www.nngroup.com/articles/research-minors-consent/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "19a463ac9e53f7b53544b1d0d0cf9fcd2a5e3f87ed451b01dd156ce1f3e5011b",
+      "processedAt": "2026-02-14T00:37:45.112Z"
+    },
+    "https://www.nngroup.com/articles/ux-consulting-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "ed4d9ba8740e155e1fbc2c67219f125977a06d9ae01b19c6803ae21d7809f95b",
+      "processedAt": "2026-02-14T00:37:46.258Z"
+    },
+    "https://www.speedcurve.com/blog/fast": {
+      "contentHash": "f75db784130a4625fab56048d1fb2582b9f306630eeb7513b240655dfbcfe955",
+      "processedAt": "2026-02-14T00:37:47.154Z"
+    },
+    "https://react.statuscode.com/issues/462": {
+      "contentHash": "8b14b9bbabfa9e86d1f9f248efb41a8ec855750524c69d0bc2aa9e7e826b87fc",
+      "processedAt": "2026-02-14T00:37:48.018Z"
     }
   },
-  "lastRun": "2026-02-13T00:41:01.435Z"
+  "lastRun": "2026-02-14T00:37:48.018Z"
 }
