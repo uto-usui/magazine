@@ -1,0 +1,20 @@
+articles_dir=unknown-date
+exit_code=0
+timestamp_utc=2026-02-15T00:39:45Z
+
+---- issue lines ----
+8:Failed to fetch feed Next.js Blog: Status code 404
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+Failed to fetch feed Next.js Blog: Status code 404
+📰 Found 5359 total articles
+✨ New articles: 0
+⏭️ Skipped (already processed): 324
+✅ No new articles to process
