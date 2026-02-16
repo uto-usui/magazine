@@ -260,6 +260,7 @@ feeds:
   - url: https://nextjs.org/feed.xml
     name: Next.js Blog
     category: frontend
+    enabled: false  # RSS feed removed (404)
 
   - url: https://tkdodo.eu/blog/rss.xml
     name: TkDodo
