@@ -1,0 +1,40 @@
+articles_dir=2026-02-16
+exit_code=0
+timestamp_utc=2026-02-16T00:38:19Z
+
+---- issue lines ----
+8:Failed to fetch feed Accessibility Weekly: read ECONNRESET
+9:Failed to fetch feed Next.js Blog: Status code 404
+10:Failed to fetch feed CSS IRL: Request timed out after 10000ms
+11:Failed to fetch feed Amy Hupe: Request timed out after 10000ms
+18:404 Not Found: https://vercel.com/changelog/docs-pages-support-markdown-responses
+19:⚠️ Using RSS content as fallback for: https://vercel.com/changelog/docs-pages-support-markdown-responses
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+Failed to fetch feed Accessibility Weekly: read ECONNRESET
+Failed to fetch feed Next.js Blog: Status code 404
+Failed to fetch feed CSS IRL: Request timed out after 10000ms
+Failed to fetch feed Amy Hupe: Request timed out after 10000ms
+📰 Found 4525 total articles
+✨ New articles: 3
+⏭️ Skipped (already processed): 323
+📥 Processing: Bias Toward Action
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-16/bias-toward-action.md
+📥 Processing: Docs pages support Markdown responses
+404 Not Found: https://vercel.com/changelog/docs-pages-support-markdown-responses
+⚠️ Using RSS content as fallback for: https://vercel.com/changelog/docs-pages-support-markdown-responses
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-16/docs-pages-support-markdown-responses.md
+📥 Processing: Pixels of the Week – February 15, 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-16/pixels-of-the-week-february-15-2026.md
+
+📊 Summary:
+   ✅ Success: 3
+   ❌ Errors: 0
+🏁 Done!
