@@ -24847,7 +24847,55 @@
     "https://stephaniewalter.design/blog/pixels-of-the-week-february-15-2026/": {
       "contentHash": "962ec5ff03f6f8c8e3a95196872d49dda550fb3d10a4d060dfac98e6f7f9d8a1",
       "processedAt": "2026-02-16T00:38:19.352Z"
+    },
+    "https://a11yweekly.com/issue/487/": {
+      "contentHash": "f18d759652fdf428f2aa194da2cdfd55c42264fcec6aa39ea79ded2a12aba891",
+      "processedAt": "2026-02-17T00:38:06.110Z"
+    },
+    "https://ilyabirman.net/meanwhile/all/design-vs-evolution/": {
+      "contentHash": "fdc97cf44549ce45e0d69b1e69837ddd3ed73a1dd7cc80464eac6117a53cd4f2",
+      "processedAt": "2026-02-17T00:38:07.340Z"
+    },
+    "https://www.findfont.co/": {
+      "contentHash": "e295454e38793b3166f1ebea758d76d3c3654e557381afc21eef54e43e6f25ed",
+      "processedAt": "2026-02-17T00:38:15.755Z"
+    },
+    "https://www.creativeboom.com/inspiration/li-wang-captures-life-love-and-longing-in-colour/": {
+      "contentHash": "33b198c309a83e3ded0b6e6d83fed09f1b87cc58b63355d622e000cbd9806798",
+      "processedAt": "2026-02-17T00:38:16.261Z"
+    },
+    "https://unsung.aresluna.org/how-to-make-sure-a-designer-never-files-a-bug-again/": {
+      "contentHash": "60bc17a59b03949de89cbdf4f5ab49f5cd4d2e9e01ecf93886683db3777c5d6b",
+      "processedAt": "2026-02-17T00:38:16.476Z"
+    },
+    "https://tympanus.net/codrops/2026/02/16/inside-metalab-silicon-valleys-best-kept-design-secret/": {
+      "contentHash": "3cacdfd423cc9bc60670cf0ec47bf6066585b27b26247ba8496254bb7c3ce820",
+      "processedAt": "2026-02-17T00:38:18.177Z"
+    },
+    "https://bradfrost.com/blog/post/announcing-live-ai-design-systems-jam-sessions/": {
+      "contentHash": "3c0409040a5a28cdcd7e51393df9f748b93e3396b624de5da31bbdff1cee6db8",
+      "processedAt": "2026-02-17T00:38:18.301Z"
+    },
+    "https://ics.media/entry/260216/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-02-17T00:38:20.059Z"
+    },
+    "https://vercel.com/changelog/qwen-3-5-plus-is-on-ai-gateway": {
+      "contentHash": "4b26d7c8832b8f282fbfda46d317bf2d3d0086a78d8c20087043dab3af6eb597",
+      "processedAt": "2026-02-17T00:38:20.558Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/02/16/111820": {
+      "contentHash": "e44ceac0eeeae397301eaf2a99409cdbafcc5a9c2acfae5a80b42b25f4b2d23d",
+      "processedAt": "2026-02-17T00:38:21.379Z"
+    },
+    "https://uxcontent.com/words-data-future-content-design/": {
+      "contentHash": "0da80da9056e3e22777668cdcde80aec550ca58012faad0d8e9212ea611a621f",
+      "processedAt": "2026-02-17T00:44:00.004Z"
+    },
+    "https://newsletter.uxdesign.cc/p/the-natural-design-process": {
+      "contentHash": "dba4e1beffdea6c0b249a45c5d905e103192e85473c9c27f0dc18ab6c89f349e",
+      "processedAt": "2026-02-17T00:44:00.511Z"
     }
   },
-  "lastRun": "2026-02-16T00:38:19.352Z"
+  "lastRun": "2026-02-17T00:44:00.511Z"
 }
