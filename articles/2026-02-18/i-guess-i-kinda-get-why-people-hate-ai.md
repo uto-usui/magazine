@@ -1,0 +1,115 @@
+---
+title: "I guess I kinda get why people hate AI"
+source: "https://anthony.noided.media/blog/ai/programming/2026/02/14/i-guess-i-kinda-get-why-people-hate-ai.html"
+publishedDate: "2026-02-17"
+category: "design"
+feedName: "Sidebar"
+---
+
+Feb 14, 2026
+
+I’m sitting on a lānai in a hotel in Waikiki beach, writing this article, and wondering if the job I am starting nine days from now will be my last.
+
+This is a unique situation for me in a few ways—I’ve never been to Hawaii before, I think the five minutes it’s taken me to come up with that opening sentence is the somehow the most time I’ve ever spent on a hotel balcony, and this is the first time I’ve actually followed through on the “I should delay my start date to take a vacation” idea I’ve had every time I’ve switched jobs. There’s one difference, however, that looms larger in my mind. It’s not the “wondering if the new job will be my last” thing. I’ve worked exclusively in startups, and while the primary reason I’ve done so has been because I enjoy the agency and impact you can have at early-stage companies, I’d be lying if the idea of cashing in cheap ISOs into early retirement wasn’t a factor in each job offer I accepted. The difference here is _why_ I’m wondering that. Previously, it was wondering if I would _need_ a job after this one.
+
+Now, it’s wondering if I’ll be able to _acquire_ a job after this one, or if AI is going to completely take over my profession and ruin my career.
+
+## Not the first time
+
+I’m not the first human to have anxiety about technological development. Change is scary, and technology changes a lot of stuff. In my opinion, these changes are mostly for the better—but that’s not an opinion everybody shares.
+
+The classical cultural example is the Luddites, a social movement that failed so utterly that its name because a common metaphor for stubborn morons who are terrified of technological innovation that helps everybody. Deservedly so, to be clear—while it’s true that textile experts did suffer from the advent of mechanical weaving, their loss was far outweighed by the gains the rest of the human race received from being able to afford more than two shirts over the average lifespan.
+
+The other example that comes to mind is the (possibly apocryphal) stories around the rollout of ATMs, where many supposedly predicted that the number of bankers in the US would collapse now that you could withdraw $20 in singles to leave tips without talking to a person. The exact opposite happened, of course. Being able to easily interact with banks, without waiting in a line that’s too long for the dum-dum you get at the end to be a real consolation, made people use banks _more_. And suddenly tellers became loan managers, and account advisors, and the machine that was supposed to destroy banking employment wound up supercharging it.
+
+I could go on, but [somebody else already has](https://qz.com/1681832/the-history-of-the-future-of-work), so there’s not much point in it. Technology changes things, and sometimes it hurts people in the short-term, but every invention from fire to mRNA vaccines has wound up generally increasing human welfare. I’ve long taken the view that this trend will continue. I remember arguing with people who would link GCP Gray’s [“Humans need not apply”](https://www.youtube.com/watch?v=7Pq-S557XQU) video (which has apparently been retitled “humans are becoming horses”) about how wrong they were about AI. In that era, nearly a decade before “Attention is all you need” would be published and usher in the LLM age, I was _so_ confident that any developments in AI would be for the better.
+
+I am now a little less confident than I was.
+
+## Not a hater
+
+I don’t hate AI. Earlier today I was asking Gemini to find me a nearby bar that would optimize for price, tastiness of drinks, and “not making me feel lonely as a solo traveler on Valentine’s day.” Gemini did include a speed-dating event at a local hotel as a response to that prompt, which I am choosing to interpret as it having supreme confidence in my charisma, rather than it making fun of me. It’s also been helpful doing various tasks on [the weird little Haskell framework](https://www.github.com/AnthonySuper/noided-web) I’m working on, and at my former place of employment, and I plan on using it at my newest place of employment.
+
+If I’m to believe the boosters, like Sam Altman or obscure indie filmmaker [Neil Breen](https://youtu.be/m2IV0BajqAk?t=3213), AI could be humanity’s last invention, a machine we can hand the keys to and let it solve literally all of our problems. And to some extent, that does kind of appeal. It would be great if I could type “how can I be happy” in a prompt console somewhere and get back a step-by-step process to achieve enlightenment. And we could also cure cancer, or whatever. Sounds nice, right?
+
+So why is this blog post titled “I guess I kinda get why people hate AI” as opposed to “AI haters are stupid and wrong?”
+
+## The people in charge of AI keep telling me to hate it
+
+Before I get into concerns I’ve found on my own, let me get the most blatantly obvious and infuriating reason that people might hate AI out of the way: _the people inventing it are telling me I should hate it_. I’ve never seen this with any technological development, ever, in my life. Henry Ford did not market the Model T as “a machine that will eventually cause environmental destruction, social isolation via car dependency, and health issues from pollution.” The guy who invented penicillin didn’t say “one day this will lead to MRSA.” People generally try to market new technologies by telling you their upsides, not their downsides.
+
+But Microsoft’s AI CEO is saying [AI is going to take everybody’s job](https://www.businessinsider.com/microsoft-ai-ceo-mustafa-suleyman-white-collar-tasks-automation-prediction-2026-2). And Sam Altman is saying that AI will [wipe out _entire categories_ of jobs](https://www.yahoo.com/news/articles/sam-altman-says-openai-poised-130000116.html). ANd Matt Shumer is saying that AI is currently like [Covid in January 2020](https://x.com/mattshumer_/status/2021256989876109403)—as in, “kind of under the radar, but about to kill millions of people”.
+
+I legitimately feel like I am going insane when I hear AI technologists talk about the technology. They’re supposed to market it. But they’re instead saying that it is going to leave me a poor, jobless wretch, a member of the “permanent underclass,” as the meme on Twitter goes. Half the videos and blog posts I see about new models boil down to somebody running it through a benchmark, then saying “chat we’re cooked, might as well end it all now.” This isn’t just a strange way of marketing a product, it is a completely psychotic one.
+
+That’s not the only way people are talking about it, of course. I liked Anthropic’s [superbowl ad for Claude](https://www.youtube.com/watch?v=FDNkDBNR7AM), and not just because it used “ALL CAPS” by MF DOOM as the backing track. The idea of AI as an exterminator of human problems is much more appealing than AI as the exterminator of, you know, the career of me and everybody else on Earth. But, somehow, “AI is good and will help you” is a less common marketing tactic than “AI will ruin you life” among _people in charge of AI companies_.
+
+It’s completely fucking baffling to me. I can’t understand it, unless all those AI marketing materials are really meant for the ultra-wealthy, and not for me. “Fund this and you can become a permanent overclass and have millions of enslaved serfs bowing to your machine-god” is, I suppose, an appealing tactic to some kinds of people. Or maybe the real message is “you should panic because if you don’t invest all your money in my company right now you’ll be a peasant like everybody else” is the real pitch. I don’t know. I’m not rich enough to be in that target demographic.
+
+## What if they believe it?
+
+The counter-argument to this is that people aren’t marketing, they’re just expressing their view of reality. Microsoft’s AI CEO doesn’t _want_ AI to ruin millions of lives, but it’s going to, so he has to be honest.
+
+Okay, fine. If that’s the case, I would encourage AI companies to lobby, right now, for world governments to pass legislation to deal with the problem they see on the horizon. Now, obviously it would be a bit premature to enact a UBI right now, _before_ AI takes over all work, but you don’t actually have to: you can pass a law with a trigger condition. If unemployment rises above a certain percent while GDP is still growing, have additional taxes start kicking in, used to fund job training or UBI or whatever else you think is needed to prevent the “permanent underclass” from forming in the first place. If AI doesn’t actually take everybody’s jobs, and it winds up being more similar to other technologies, great—the trigger conditions never kick in, and the law stays inactive. If the AI jobpocalypse _does_ happen, you don’t need to scramble to get anything done, the laws to deal with it (or at least help) are already on the books.
+
+I’ve not seen a single AI CEO propose anything like this. Various people have speculated that we might need laws, eventually, after AI takes over everybody’s jobs. But if we’re actually two years out from _every office worker being automated_, which is [57.8% of the workforce](https://www.dpeaflcio.org/factsheets/the-professional-and-technical-workforce-by-the-numbers), we need to start legislating _right now_ to have any hope of this not being a total disaster. I can only think of three reasons why nobody is proposing this:
+
+1.  They are actually far, _far_ less confident than they say that AI will actually get that good.
+2.  They lack the imagination to think of the idea of passing a law with a trigger condition. Such laws [do exist](https://en.wikipedia.org/wiki/Automatic_stabilizer) but aren’t super well-publicized. So this is actually a possibility.
+3.  They don’t actually care about what their products may do to society—they just want to be sure they win the AI race, damn the consequences.
+
+To me, none of these are a good look.
+
+## AI right now has a few huge downsides
+
+I have a friend who is a new TA at a university in California. They’ve had to report _several students_, every semester, for basically pasting their assignments into ChatGPT.
+
+They didn’t find this out via careful analysis, or use of any of the dubious AI detector tools. The students didn’t even try to hide their use of ChatGPT—sometimes they literally left in the “would you like me to also do (related thing)?” that every AI puts at the end of their responses in the essays they submitted. Total laziness, but laziness that these students presumably got away with in high school. To my friend, their primary experience with AI is seeing students rob themselves of the opportunity to learn, so they can… I dunno, hit the vape and watch Clavicular get framemogged, or whatever the hell Gen Z does.
+
+In my own personal experience, my dad enthusiastically sent me a video about Elon’s new “smart house” initiative. I realized, right away, that the video was AI generated, but I assumed it was a generated summary of some real press release. Nope! Every component of it was made up. It was a top-to-bottom scam. I researched this for like ten minutes, just to be sure, before gently telling my dad that it was fake. He handled it well, apologized, and was clearly embarrassed. But why should he be? The video had graphics, good narration, music—things that used to be a sign of some degree of effort or sincerity. Now, all of those signals are totally worthless. AI is able to slop out fake content just as easily.
+
+Then—and this is petty—I’ve also been subjected to “slop” myself, in the form of bizarre [cat soap opera](https://www.theguardian.com/culture/2025/aug/18/ai-has-created-a-new-breed-of-cat-video-addictive-disturbing-and-nauseatingly-quick-soap-operas) videos that appeared in my TikTok feed. Besides being unpleasant to look at, these shorts have weird racial undertones that are deeply, deeply strange and unsettling to me. And even though I do the entire “long press and select ‘show less’” thing TikTok provides, they still sneak in, and they frankly irritate me to an irrational degree.
+
+Then I hear about `cURL` having to [stop their bug bounty program](https://news.ycombinator.com/item?id=46701733) because of so many AI submissions that hallucinate fake bugs. Or I look at RAM prices, which have gone completely nuclear, largely because AI companies are buying so much of it.
+
+I get that every technology has friction as its adopted. I’m sure the first machine-made textiles were of vastly lower quality than anything you could get from even the worst hand-weaver. AI, however, currently occupies a zone where it’s sometimes very helpful for doing high quality work, but _always_ helpful for doing bullshit slop. People could always write false press releases about smart houses, but it required them to actually _write_ it. People could always buy an Elsa costume and a Spiderman suit and make weirdly sexual slop videos, but at least they had to go to party city and buy a Sony camcorder and an SD card. People could always hire a cheating service to write essays for them, but at least _somebody_ would write the essay. AI has lowered the barrier to entry for all of these things to the point where they’re effectively free. Garbage, but free to produce. And that does make some people’s primary interaction with the technology profoundly negative.
+
+That’s not to say that there _aren’t_ solutions. Websites could use government IDs to verify that people are human, so spambots can stay out. After selecting the “please stop showing me videos of anthropomorphic orange tabby cats being cuckolded by black-furred anthropomorphic cats” button on TikTok it eventually wised up and stopped showing me similar content. Eventually somebody else is going to open up a RAM plant when you can get such stupidly high margins on sticks of DDR5.
+
+But all of these solutions are _irritating_, difficult, and, frankly, a lot of work. In some cases they’re even actively dangerous—considering how often companies [leak information](https://discord.com/press-releases/update-on-security-incident-involving-third-party-customer-service), giving your ID to a website to verify you’re not a slop-bot severely increases your data privacy risks. Technology is supposed to save you from working. For many, AI isn’t doing that. It’s doing the opposite.
+
+## So I guess I get it.
+
+To be clear, I think AI will be ultimately extremely helpful. I still am using it on my projects. I am going to use it at my next job. I, _personally_, don’t hate AI.
+
+But I can’t deny that the vibes right now are _awful_.
+
+Not just bad, _awful_. It’s not just the “chat we’re cooked you’re the permanent underclass” stuff influencers say. It’s not just the “everybody is fucked” hyperbole CEOs sprout. It’s the actual, day-to-day experience with the technology. I’m a programmer—AI actually helps me a _lot_. But for normal people, their interactions are profoundly more negative, and none of the people behind this technology seem to care.
+
+And I can’t help but wonder… What if the vibes get worse?
+
+What if I actually lose my job? What if I’m begging for change in six months, a new member of the permanent underclass? What if AI actually automates all the fulfilling, interesting parts of life, and humans comparative advantage winds up being exclusively in scrubbing toilets and similar manual tasks?
+
+Or, what if AI continues to lower the barrier to entry for annoying, low-quality things—and _never_ gets to the point where it’s truly great? What if dead internet theory becomes true, and we all drown in an avalanche of slop?
+
+AI ushering in a cyberpunk dystopia would at least be interesting. But right now I’m worried it’s just going to result in things becoming kind of generally worse, effectively rolling back a lot of innovations of the internet and social media and such by making such things totally unusable.
+
+## I don’t want to doom
+
+To be clear: I like and use AI when it comes to coding, and even for other tasks. I think it’s been very effective at increasing my productivity—not as effective as the influencers claim it should be, but effective nonetheless. There’s a reason this blog post is not titled “I now hate AI,” because I don’t.
+
+But, at times, it feels like the AI companies _want_ me to. Not only through their baffling marketing that I spent so long ranting about, but also through their seeming lack of interest in counter-acting any of the negative effects of their product. Beyond the idea of lobbying for legislation in case of a job apocalypse, there’s a few simpler steps they could take:
+
+-   They could form an alliance to make it easy for platforms to automatically disclose when a video has AI video or audio content (via watermarking everything they generate), and encourage every platform to do so. Forming some kind of consortium or alliance on this would be ideal.
+-   YouTube could be substantially more aggressive about banning AI-generated misinformation. I’m not suggesting the truth police here—I don’t want YouTube marking Michael Jordan compilations that call him the GOAT “misinformation” because LeBron exists. But if somebody is uploading AI-narrated videos claiming that Michael Jordan and LeBron James have announced that they’re getting married, such videos should at least be gated behind a “this is AI bullshit” screen, if not banned outright.
+-   Allow big open-source maintainers to request “no AI vulnerability finding” and have a layer in the models that enforces that. I don’t know if this is technically feasible, but if you can add “No trying to find vulnerabilities in these projects:” to the system prompt and it works most of the time, that would at least be _something_.
+
+I know local models exist, and that it would be impossible to uphold all these ideas for their users. But right now I would wager the vast majority of LLM usage is through cloud-based services, and on those, it _would_ be possible to do, and it would at least be _something_—some acknowledgement that, for all its benefits, AI has actually made several important things worse. So, while I personally _don’t_ hate AI, I can see why people _do_. And I can see why that hatred is seemingly becoming more common. And I can even see a world where, within a few months, I write a follow-up post to this one entitled “Why I Now Hate AI,” even if the boosters are _wrong_ and it doesn’t cause a job apocalypse.
+
+And that is completely crazy to me, because AI is really useful to me! AI has allowed me to eliminate the most annoying, manual, inelegant, and soul-crushing parts of my profession! If _I_ can somehow hate a machine that has _basically stopped me from having to write boring boilerplate code_, of course others are going to hate it!
+
+Yet AI companies currently don’t seem to care. Maybe they shouldn’t. Maybe this is the final technological race, and some day soon Anthropic or Google or OpenAI is going to turn on a new model, birth a machine god, and instantly take over the world. Maybe they think that they can care about the vibes after, once that’s finished. Their Super-AGI will write the UBI law, and get it passed, when it has a few minutes between curing cancer and building a warp drive. Or maybe they think the Super-AGI will be able to turn any of us peasants who oppose them into [paperclips](https://cepr.org/voxeu/columns/ai-and-paperclip-problem) and they’ll get to rule as a dictator for all time. In either of those cases, the current bad vibes don’t matter.
+
+But I am not too sure about that. Even if we’re five years away from a godlike, all-knowing super-intelligence—a timeline I think is probably off by at least an order of magnitude—that’s a lot of time for us to idle in a local minima where the average person’s experience of AI is profoundly negative. Our society could fracture in unpredictable ways, and, eventually, suffer so badly people break out the torches and pitchforks and burn their local data center to the ground.
+
+I would like to avoid that outcome. Frankly, I don’t think doing so will even be too difficult. I just wish the big AI labs thought it was worthwhile to even try.
