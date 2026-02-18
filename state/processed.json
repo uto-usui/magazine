@@ -24895,7 +24895,111 @@
     "https://newsletter.uxdesign.cc/p/the-natural-design-process": {
       "contentHash": "dba4e1beffdea6c0b249a45c5d905e103192e85473c9c27f0dc18ab6c89f349e",
       "processedAt": "2026-02-17T00:44:00.511Z"
+    },
+    "https://web.dev/blog/interop-2026?hl=en": {
+      "contentHash": "3f0f4ad420ea00eedb470297edb06e8371c88be20062714927cc9379ced64ec7",
+      "processedAt": "2026-02-18T00:37:59.129Z"
+    },
+    "https://web.dev/blog/learn-ai-launch?hl=en": {
+      "contentHash": "28f2f65a3fe24628784cfbd644a8884993d344a900776d7a011ee2a5af1f29d0",
+      "processedAt": "2026-02-18T00:37:59.739Z"
+    },
+    "https://web.dev/blog/web-platform-01-2026?hl=en": {
+      "contentHash": "e7df5b8b036b8cbd651c683a86426191bf2a7472837b10a9c2b21e91bd7e47f4",
+      "processedAt": "2026-02-18T00:38:00.335Z"
+    },
+    "https://web.dev/blog/baseline-digest-dec-2025?hl=en": {
+      "contentHash": "f55938106f2528a619ae62de2df8ce48e940aa2f8494783418a5ae889651974c",
+      "processedAt": "2026-02-18T00:38:00.795Z"
+    },
+    "https://henry.codes/writing/a-website-to-destroy-all-websites/": {
+      "contentHash": "8b560bea879f3ea82795fcfb188b9b7ba4b46e57e5ab652e5d098f9fb0b031c3",
+      "processedAt": "2026-02-18T00:38:02.397Z"
+    },
+    "https://wtfhappened2012.com/": {
+      "contentHash": "112d3e996ebef94475cfc2ec0d54a41de55e10610673eb2f77003a12d06623ae",
+      "processedAt": "2026-02-18T00:38:02.812Z"
+    },
+    "https://rehumanize.io/": {
+      "contentHash": "8dae7f7ff7bdc196670d5ebfe28df8531678fb6474f98a0f26e3dc8c999a0cb5",
+      "processedAt": "2026-02-18T00:38:27.134Z"
+    },
+    "https://jonnyburch.com/life-after-figma/": {
+      "contentHash": "88f3047d027a1e477baf341795c66c24d1145b9fdf089066beb626df9598b960",
+      "processedAt": "2026-02-18T00:38:27.396Z"
+    },
+    "https://anthony.noided.media/blog/ai/programming/2026/02/14/i-guess-i-kinda-get-why-people-hate-ai.html": {
+      "contentHash": "26a401bc131deaddebcf1f5e464218f749507e1d0b8197a137c965af46c398dc",
+      "processedAt": "2026-02-18T00:38:27.554Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/how-codex-is-built": {
+      "contentHash": "52cd3ca5764276fa67d00a5553db987d5247a66a3387f29c9730a4613d6c4883",
+      "processedAt": "2026-02-18T00:38:27.940Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pragmatic-summit-recordings": {
+      "contentHash": "be299fbf35a46d52f3685634a3bf34a98261546a8c9fdab751bdd61322f71e89",
+      "processedAt": "2026-02-18T00:38:34.354Z"
+    },
+    "https://tympanus.net/codrops/2026/02/17/reactive-depth-building-a-scroll-driven-3d-image-tube-with-react-three-fiber/": {
+      "contentHash": "56d9edbdb07233552dae5a0ba084eae375eee275402b965fe40e9949e6330350",
+      "processedAt": "2026-02-18T00:38:35.763Z"
+    },
+    "https://bradfrost.com/blog/post/fostering-community/": {
+      "contentHash": "326fe748ddac71f8ec58ba29a4a462d91ad8618964e629d68f3e615758eb2ac9",
+      "processedAt": "2026-02-18T00:38:36.174Z"
+    },
+    "https://vercel.com/changelog/automatic-build-fix-suggestions-with-vercel-agent": {
+      "contentHash": "511036ddc635f90633038686b6674f8b2b7fdf54d53b85ee682ba0f5cf1bb9f9",
+      "processedAt": "2026-02-18T00:38:36.842Z"
+    },
+    "https://vercel.com/changelog/automated-security-audits-now-available-for-skills-sh": {
+      "contentHash": "d6c6a35edbf75042d455c9f1b10c9a44367806baf7043ae2ebd47549f737ef3e",
+      "processedAt": "2026-02-18T00:38:37.295Z"
+    },
+    "https://vercel.com/changelog/recraft-v4-on-ai-gateway": {
+      "contentHash": "0eabccf57768461a4aa0caef600fe95d83d8b79f84650278c77857b6daee9b9a",
+      "processedAt": "2026-02-18T00:38:37.763Z"
+    },
+    "https://vercel.com/changelog/vercel-sandbox-snapshots-now-allow-custom-retention-periods": {
+      "contentHash": "40cbeb39d2fbe69de2f487c653b93dc776ed7b45771fe10919d1300e494f0106",
+      "processedAt": "2026-02-18T00:38:38.261Z"
+    },
+    "https://vercel.com/changelog/claude-sonnet-4-6-is-live-on-ai-gateway": {
+      "contentHash": "bebc353139a25fc761eac5fb47ffbbfb76ed6252b71f1742330b99d9dc56fbd8",
+      "processedAt": "2026-02-18T00:38:38.728Z"
+    },
+    "https://vercel.com/changelog/improved-streaming-runtime-logs-exports": {
+      "contentHash": "fd9d80a5ea9cfd8e5a091eb0fc92d88cb8540b72bd855c478ce2abf0481e3f55",
+      "processedAt": "2026-02-18T00:38:39.239Z"
+    },
+    "https://www.figma.com/blog/the-future-of-design-is-code-and-canvas/": {
+      "contentHash": "603eb888e5dfe8fe22af8bebdc0b581365750a26caad45bb9cdd9d3dfe8620c9",
+      "processedAt": "2026-02-18T00:39:00.492Z"
+    },
+    "https://www.figma.com/blog/introducing-claude-code-to-figma/": {
+      "contentHash": "73ef47ea2a46316bc490d5f6462b42bf2f94e8de4e2b32eebe09b60089c0643a",
+      "processedAt": "2026-02-18T00:39:26.581Z"
+    },
+    "https://efcl.info/2026/02/17/launchd-ui/": {
+      "contentHash": "03ab1677b24f55d2e831c0b59e7b83e1efac1e499ac5690449e2879d19181ee3",
+      "processedAt": "2026-02-18T00:39:26.751Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/02/17/183648": {
+      "contentHash": "6f3e4d405bb7dbea18e88ed64c7dd44eb0a7d82d2ad33ba0d6cfb3c1a5910bac",
+      "processedAt": "2026-02-18T00:39:27.885Z"
+    },
+    "https://feeds.baymard.com/link/9825/17277775/toys-crafts-and-hobbies-ux-benchmark-2026": {
+      "contentHash": "704c388203215a4561471db8efd38a25542157492c9dd6ea7f900150cfe2d61e",
+      "processedAt": "2026-02-18T00:39:35.787Z"
+    },
+    "https://uxmag.com/articles/what-cheap-prediction-means-for-enterprise": {
+      "contentHash": "bcee55cccb687e9e20633c33403343829993d7d5d503e19f693f691e81fb4665",
+      "processedAt": "2026-02-18T00:39:38.219Z"
+    },
+    "https://uxmag.com/articles/stop-building-streetlamp-models-the-decision-first-framework-for-ai-products": {
+      "contentHash": "e46e0973ff84857d3c2d1768ebc39c93a78abcfa30901732fce1d5406bdc1fd0",
+      "processedAt": "2026-02-18T00:39:39.715Z"
     }
   },
-  "lastRun": "2026-02-17T00:44:00.511Z"
+  "lastRun": "2026-02-18T00:39:39.715Z"
 }
