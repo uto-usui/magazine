@@ -1,0 +1,58 @@
+articles_dir=2026-02-18
+exit_code=0
+timestamp_utc=2026-02-18T00:39:39Z
+
+---- issue lines ----
+37:⚠️ Using RSS content as fallback for: https://newsletter.pragmaticengineer.com/p/the-pragmatic-summit-recordings
+
+---- tail (last 50 lines) ----
+📥 Processing: Automated security audits now available for skills.sh
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-18/automated-security-audits-now-available-for-skillssh.md
+📥 Processing: Recraft V4 on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-18/recraft-v4-on-ai-gateway.md
+📥 Processing: Vercel Sandbox snapshots now allow custom retention periods
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-18/vercel-sandbox-snapshots-now-allow-custom-retention-periods.md
+📥 Processing: Claude Sonnet 4.6 is live on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-18/claude-sonnet-46-is-live-on-ai-gateway.md
+📥 Processing: Improved streaming runtime logs exports
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-18/improved-streaming-runtime-logs-exports.md
+📥 Processing: The future of design is code and canvas
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-18/the-future-of-design-is-code-and-canvas.md
+📥 Processing: From Claude Code to Figma: Turning production code into editable Figma designs
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-18/from-claude-code-to-figma-turning-production-code-into-editable-figma-designs.md
+📥 Processing: launchd-ui: macOSのlaunchdを使ったcron処理をGUIで管理するアプリを作った
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-18/launchd-ui-macoslaunchdcrongui.md
+📥 Processing: dnd-kit を使う際に意識したい、アクセシビリティの 3 つの注意点
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-18/dnd-kit-3.md
+📥 Processing: Toys, Crafts & Hobbies UX Benchmark: 5,500+ Performance Scores and 4,500+ Best Practice Examples
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-18/toys-crafts-hobbies-ux-benchmark-5500-performance-scores-and-4500-best-practice-examples.md
+📥 Processing: What &#8216;Cheap Prediction&#8217; means for Enterprise
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-18/what-8216cheap-prediction8217-means-for-enterprise.md
+📥 Processing: Stop Building Streetlamp Models: The Decision-First Framework for AI Products
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-18/stop-building-streetlamp-models-the-decision-first-framework-for-ai-products.md
+
+📊 Summary:
+   ✅ Success: 26
+   ❌ Errors: 0
+🏁 Done!
