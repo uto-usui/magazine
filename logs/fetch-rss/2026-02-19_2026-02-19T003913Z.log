@@ -1,0 +1,57 @@
+articles_dir=2026-02-19
+exit_code=0
+timestamp_utc=2026-02-19T00:39:13Z
+
+---- issue lines ----
+12:🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxdesign.cc/ais-text-trap-moving-towards-a-more-interactive-future-7035bbc4aaa5
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+📰 Found 5374 total articles
+✨ New articles: 14
+⏭️ Skipped (already processed): 410
+📥 Processing: AI’s text-trap
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxdesign.cc/ais-text-trap-moving-towards-a-more-interactive-future-7035bbc4aaa5
+✅ Playwright successfully fetched: https://uxdesign.cc/ais-text-trap-moving-towards-a-more-interactive-future-7035bbc4aaa5
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-19/ais-text-trap.md
+📥 Processing: Internet time capsule
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-19/internet-time-capsule.md
+📥 Processing: People vs. Big Tech
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-19/people-vs-big-tech.md
+📥 Processing: On cognitive debt
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-19/on-cognitive-debt.md
+📥 Processing: Launch it 3 times
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-19/launch-it-3-times.md
+📥 Processing: Joffrey Spitzer Portfolio: A Minimalist Astro + GSAP Build with Reveals, Flip Transitions and Subtle Motion
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-19/joffrey-spitzer-portfolio-a-minimalist-astro-gsap-build-with-reveals-flip-transitions-and-subtle-mot.md
+📥 Processing: Designing A Streak System: The UX And Psychology Of Streaks
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-19/designing-a-streak-system-the-ux-and-psychology-of-streaks.md
+📥 Processing: The Index: Issue #165
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-19/the-index-issue-165.md
+📥 Processing: We Ralph Wiggumed WebStreams to make them 10x faster
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-19/we-ralph-wiggumed-webstreams-to-make-them-10x-faster.md
+📥 Processing: Redesigned search and filtering for runtime logs
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-19/redesigned-search-and-filtering-for-runtime-logs.md
+📥 Processing: Redefining impact as a data scientist
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-19/redefining-impact-as-a-data-scientist.md
+📥 Processing: Interop 2026 launched: 15 new cross-browser features coming
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-19/interop-2026-launched-15-new-cross-browser-features-coming.md
+📥 Processing: UX Conference May Announced (May 11 - May 22)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-19/ux-conference-may-announced-may-11-may-22.md
+📥 Processing: This Week In React #269: State of React, TanStack, Next.js, Tailwind, Base UI, Doctor | Hermes, Sparkling, Yoga, Enriched, Voltra, AI | Interop, Electrobun, Module Federation, Biome, pnpm
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-19/this-week-in-react-269-state-of-react-tanstack-nextjs-tailwind-base-ui-doctor-hermes-sparkling-yoga-.md
+
+📊 Summary:
+   ✅ Success: 14
+   ❌ Errors: 0
+🏁 Done!
