@@ -1,0 +1,60 @@
+articles_dir=2026-02-20
+exit_code=0
+timestamp_utc=2026-02-20T00:36:29Z
+
+---- issue lines ----
+8:Failed to fetch feed Accessibility Weekly: Request timed out after 10000ms
+20:🤖 Bot protection detected (HTTP 403), trying Playwright: https://leadership.garden/ai-the-work-moved/
+26:Failed to download image https://www.figma.com/community/icon?resource_id=1584204863720680047&resource_type=plugin: Request failed with status code 403
+
+---- tail (last 50 lines) ----
+✅ Playwright successfully fetched: https://leadership.garden/ai-the-work-moved/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-20/the-work-moved-what-the-ai-coding-debate-actually-agrees-on.md
+📥 Processing: Figma plugin: CMYK Halftone
+🔄 Readability failed, trying Playwright: https://www.figma.com/community/plugin/1584204863720680047/cmyk-halftone
+✅ Playwright successfully fetched: https://www.figma.com/community/plugin/1584204863720680047/cmyk-halftone
+Failed to download image https://www.figma.com/community/icon?resource_id=1584204863720680047&resource_type=plugin: Request failed with status code 403
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-20/figma-plugin-cmyk-halftone.md
+📥 Processing: A programmer’s loss of identity
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-20/a-programmers-loss-of-identity.md
+📥 Processing: The Pulse #162: Even fewer middle managers and more flexible teams?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-20/the-pulse-162-even-fewer-middle-managers-and-more-flexible-teams.md
+📥 Processing: Creating a Smooth Horizontal Parallax Gallery: From DOM to WebGL
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-20/creating-a-smooth-horizontal-parallax-gallery-from-dom-to-webgl.md
+📥 Processing: Ghostwriter by RJD2 Drum/Synth Cover
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-20/ghostwriter-by-rjd2-drumsynth-cover.md
+📥 Processing: PlaywrightではじめるE2Eテスト入門（後編）
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-20/playwrighte2e.md
+📥 Processing: border-shape: the future of the non-rectangular web
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-20/border-shape-the-future-of-the-non-rectangular-web.md
+📥 Processing: An in-depth guide to customising lists with CSS
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-20/an-in-depth-guide-to-customising-lists-with-css.md
+📥 Processing: Video Generation with AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-20/video-generation-with-ai-gateway.md
+📥 Processing: Grok Imagine Video on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-20/grok-imagine-video-on-ai-gateway.md
+📥 Processing: Wan models on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-20/wan-models-on-ai-gateway.md
+📥 Processing: Kling video models on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-20/kling-video-models-on-ai-gateway.md
+📥 Processing: Veo video models on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-20/veo-video-models-on-ai-gateway.md
+📥 Processing: Access billing usage and cost data via API
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-20/access-billing-usage-and-cost-data-via-api.md
+📥 Processing: Streamdown 2.3 — Refreshed design and interactive playground
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-20/streamdown-23-refreshed-design-and-interactive-playground.md
+📥 Processing: Gemini 3.1 Pro is live on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-20/gemini-31-pro-is-live-on-ai-gateway.md
+📥 Processing: Private storage for Vercel Blob, now available in public beta
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-20/private-storage-for-vercel-blob-now-available-in-public-beta.md
+📥 Processing: 本を書くハッカソンイベントBookathonレポート —— 週末だけで13冊が完成！
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-20/bookathon-13.md
+📥 Processing: Your Design System Works in Figma. Does It Work in Code?
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-20/your-design-system-works-in-figma-does-it-work-in-code.md
+
+📊 Summary:
+   ✅ Success: 23
+   ❌ Errors: 0
+🏁 Done!
