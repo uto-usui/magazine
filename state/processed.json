@@ -25055,7 +25055,99 @@
     "https://thisweekinreact.com/newsletter/269": {
       "contentHash": "f8d9d32472913efba0418cd3112affa3327174559815e5e457eb617182f4ec1a",
       "processedAt": "2026-02-19T00:39:12.692Z"
+    },
+    "https://engineering.atspotify.com/2026/2/our-multi-agent-architecture-for-smarter-advertising/": {
+      "contentHash": "ccdf30c2894b234128e3da63cbf7710ea7c4361820e1474e26bb0e84a4bb3cca",
+      "processedAt": "2026-02-20T00:35:55.989Z"
+    },
+    "https://pjonori.blog/posts/design-systems-tomorrows-cause-for-shitty-software/": {
+      "contentHash": "e8fa8ba9851f1398dc2df578a530c89cc3f06d7d31ac0d917664dbbef57cc897",
+      "processedAt": "2026-02-20T00:35:56.296Z"
+    },
+    "https://gradient.horse/": {
+      "contentHash": "e69fca7a96a37ea07b988b7c5568d3a75c33c73c28a72c50a499b85019c0aa78",
+      "processedAt": "2026-02-20T00:35:57.820Z"
+    },
+    "https://leadership.garden/ai-the-work-moved/": {
+      "contentHash": "090e322377b5cc47c3497bb19a3405b8484cad7b2f5db6ecb61098524cd07f67",
+      "processedAt": "2026-02-20T00:36:05.864Z"
+    },
+    "https://www.figma.com/community/plugin/1584204863720680047/cmyk-halftone": {
+      "contentHash": "c984f47bc8336e74c539ebe91ef80b8c2e1b03829002abd5d5a674fb10a1c745",
+      "processedAt": "2026-02-20T00:36:12.293Z"
+    },
+    "https://ratfactor.com/tech-nope2": {
+      "contentHash": "3a642691162b440a20f10dc6674876bc63095d26ee6383ab69a4265ae4768767",
+      "processedAt": "2026-02-20T00:36:12.472Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-162-even-fewer-middle-managers": {
+      "contentHash": "a0ea81905da6519e16059c268c81453a900dacd60cde303a4d38d8f0039afaef",
+      "processedAt": "2026-02-20T00:36:12.806Z"
+    },
+    "https://tympanus.net/codrops/2026/02/19/creating-a-smooth-horizontal-parallax-gallery-from-dom-to-webgl/": {
+      "contentHash": "7aa04d6e327ee5d8aeae40c47af92a1e423fbbcc6ed70d157ed56bb48ff0919c",
+      "processedAt": "2026-02-20T00:36:14.722Z"
+    },
+    "https://bradfrost.com/blog/link/ghostwriter-by-rjd2-drum-synth-cover/": {
+      "contentHash": "d4217eae3c0b082f37949e3d3eb87bf35986f5549d55f3df82fc0ab2452db631",
+      "processedAt": "2026-02-20T00:36:15.228Z"
+    },
+    "https://ics.media/entry/260219/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-02-20T00:36:15.906Z"
+    },
+    "https://una.im/border-shape/": {
+      "contentHash": "26bb31bf4e49dd2dfdc696c055a8cf95c9dcf89e6c0ab0f384163daad295e020",
+      "processedAt": "2026-02-20T00:36:16.600Z"
+    },
+    "https://piccalil.li/blog/an-in-depth-guide-to-customising-lists-with-css/?ref=main-rss-feed": {
+      "contentHash": "0786b4ee01217a6ec489f4f5b4df826abec8f92e7e3f210a85da725ebe7fd073",
+      "processedAt": "2026-02-20T00:36:18.535Z"
+    },
+    "https://vercel.com/blog/video-generation-with-ai-gateway": {
+      "contentHash": "ddd7fbbbd0e1f929f461b9a4fb24a58c56af0632597376588dc7c23ab7ece4f0",
+      "processedAt": "2026-02-20T00:36:19.433Z"
+    },
+    "https://vercel.com/changelog/grok-imagine-video-on-ai-gateway": {
+      "contentHash": "a95c9df14e09435f129ba48a306a642e5eed35de86b76796676c18e5fad5cc96",
+      "processedAt": "2026-02-20T00:36:19.934Z"
+    },
+    "https://vercel.com/changelog/wan-models-on-ai-gateway": {
+      "contentHash": "39dc55923f9645d094299eb46505d9ed286aa690c59521fd3368e2d74634f78c",
+      "processedAt": "2026-02-20T00:36:20.499Z"
+    },
+    "https://vercel.com/changelog/kling-video-models-on-ai-gateway": {
+      "contentHash": "835ace5176de74d83226a92a80506f857f78f9014483bb1bb05498db027987d4",
+      "processedAt": "2026-02-20T00:36:21.185Z"
+    },
+    "https://vercel.com/changelog/veo-video-models-on-ai-gateway": {
+      "contentHash": "afbd3cb9c18efa7d9da6b1ce02b2707a60f612351bb4502ef59fc6e7a5cee514",
+      "processedAt": "2026-02-20T00:36:21.853Z"
+    },
+    "https://vercel.com/changelog/access-billing-usage-cost-data-api": {
+      "contentHash": "1be128c7d45decbab36cf11a786ded122104273de25d5e9975b26b7d4e9edd5e",
+      "processedAt": "2026-02-20T00:36:22.164Z"
+    },
+    "https://vercel.com/changelog/streamdown-2-3": {
+      "contentHash": "ebd48c9348066cdbc9d254c8b71eca8662e7274e27800a911edd27acb2fc534f",
+      "processedAt": "2026-02-20T00:36:22.844Z"
+    },
+    "https://vercel.com/changelog/gemini-3-1-pro-is-live-on-ai-gateway": {
+      "contentHash": "eca6eb5e11673662e92e12f3a64dabeb8944e2fce8344305cb1f131329a63af4",
+      "processedAt": "2026-02-20T00:36:23.213Z"
+    },
+    "https://vercel.com/changelog/private-storage-for-vercel-blob-now-available-in-public-beta": {
+      "contentHash": "45430d6d36349c157815dd5e9918b7eb659701fed2967162d9a2351819a18474",
+      "processedAt": "2026-02-20T00:36:23.710Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/02/19/114308": {
+      "contentHash": "9f72e2691efd663ce6cfc2480389e6275f760175988dbceee7e246efa737cb46",
+      "processedAt": "2026-02-20T00:36:26.516Z"
+    },
+    "https://uxmag.com/articles/your-design-system-works-in-figma-does-it-work-in-code": {
+      "contentHash": "2c95487cfd133348fff9948dcc79620dd081f6fcc1235aea46936a491fdf94ad",
+      "processedAt": "2026-02-20T00:36:28.239Z"
     }
   },
-  "lastRun": "2026-02-19T00:39:12.692Z"
+  "lastRun": "2026-02-20T00:36:28.239Z"
 }
