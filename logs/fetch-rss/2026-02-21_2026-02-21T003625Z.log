@@ -1,0 +1,58 @@
+articles_dir=2026-02-21
+exit_code=0
+timestamp_utc=2026-02-21T00:36:25Z
+
+---- issue lines ----
+8:Failed to fetch feed Accessibility Weekly: read ECONNRESET
+9:Failed to fetch feed Amy Hupe: Request timed out after 10000ms
+38:Failed to download image https://media.nngroup.com/media/editor/2025/12/21/img_2562-p02.png: maxContentLength size of 5242880 exceeded
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+Failed to fetch feed Accessibility Weekly: read ECONNRESET
+Failed to fetch feed Amy Hupe: Request timed out after 10000ms
+📰 Found 4819 total articles
+✨ New articles: 14
+⏭️ Skipped (already processed): 405
+📥 Processing: The software industrial revolution
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-21/the-software-industrial-revolution.md
+📥 Processing: Remix Icon
+🔄 Readability failed, trying Playwright: https://remixicon.com/
+✅ Playwright successfully fetched: https://remixicon.com/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-21/remix-icon.md
+📥 Processing: Keyviz
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-21/keyviz.md
+📥 Processing: Case study: Frank Lloyd Wright Building Conservancy
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-21/case-study-frank-lloyd-wright-building-conservancy.md
+📥 Processing: Why we hate AI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-21/why-we-hate-ai.md
+📥 Processing: Cinematic Presence: The Director’s Cut of the Jason Bergh Experience
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-21/cinematic-presence-the-directors-cut-of-the-jason-bergh-experience.md
+📥 Processing: How I used Cursor to Migrate Frameworks
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-21/how-i-used-cursor-to-migrate-frameworks.md
+📥 Processing: The Index: Issue #166
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-21/the-index-issue-166.md
+📥 Processing: Skills Night: 69,000+ ways agents are getting smarter
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-21/skills-night-69000-ways-agents-are-getting-smarter.md
+📥 Processing: Introducing OpenChat
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-21/introducing-openchat.md
+📥 Processing: チームの自律的な成長を目指して、チーム目標を「To Do」から「To Be」へ見直した話
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-21/to-doto-be.md
+📥 Processing: Designing Useful Smart Home Notifications
+Failed to download image https://media.nngroup.com/media/editor/2025/12/21/img_2562-p02.png: maxContentLength size of 5242880 exceeded
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-21/designing-useful-smart-home-notifications.md
+📥 Processing: Tracking Adoption of Research Recommendations: The Recommendation-Adoption Score
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-21/tracking-adoption-of-research-recommendations-the-recommendation-adoption-score.md
+📥 Processing: TanStack Hotkeys, a new cross-platform keyboard toolkit
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-02-21/tanstack-hotkeys-a-new-cross-platform-keyboard-toolkit.md
+
+📊 Summary:
+   ✅ Success: 14
+   ❌ Errors: 0
+🏁 Done!
