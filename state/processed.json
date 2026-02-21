@@ -25147,7 +25147,63 @@
     "https://uxmag.com/articles/your-design-system-works-in-figma-does-it-work-in-code": {
       "contentHash": "2c95487cfd133348fff9948dcc79620dd081f6fcc1235aea46936a491fdf94ad",
       "processedAt": "2026-02-20T00:36:28.239Z"
+    },
+    "https://cannoneyed.com/essays/software-industrial-revolution": {
+      "contentHash": "c1c9dd2d9be948606f8fae53318f5434f7c50b9d305699a0b7039320ba819660",
+      "processedAt": "2026-02-21T00:35:56.380Z"
+    },
+    "https://remixicon.com/": {
+      "contentHash": "3110f4e83cc2b0bc77441d2359f3b1fd00ba685678bb31e44d482a9e0932b088",
+      "processedAt": "2026-02-21T00:36:14.342Z"
+    },
+    "https://keyviz.org/": {
+      "contentHash": "d6435065a2b55b2e3c97e7e601fae663ab1c8f2b46457fb5a7a096299ffc482d",
+      "processedAt": "2026-02-21T00:36:14.819Z"
+    },
+    "https://order.design/project/frank-lloyd-wright-building-conservancy": {
+      "contentHash": "7133f7322a911bbd4b798657741ed968f6aa9ba474e975246843f0d6469abbd9",
+      "processedAt": "2026-02-21T00:36:16.172Z"
+    },
+    "https://blog.fallible.net/why-we-hate-ai/": {
+      "contentHash": "40c06ab1624126e3552ee5626fca28ae5545e924a88663814f7204e5b026928c",
+      "processedAt": "2026-02-21T00:36:16.596Z"
+    },
+    "https://tympanus.net/codrops/2026/02/20/cinematic-presence-the-directors-cut-of-the-jason-bergh-experience/": {
+      "contentHash": "d0b970abde142854130c39836c2ed4c98010a55591df81a5e02da6cb8c8f5b39",
+      "processedAt": "2026-02-21T00:36:18.372Z"
+    },
+    "https://kentcdodds.com/blog/how-i-used-cursor-to-migrate-frameworks": {
+      "contentHash": "f9aac5e8ca53951cc0f44d98fe58786ec178e8150d297d4a57d4b8cd3cf3e99b",
+      "processedAt": "2026-02-21T00:36:19.057Z"
+    },
+    "https://piccalil.li/the-index/166/?ref=main-rss-feed": {
+      "contentHash": "687eff8711de9bba19d4a647731a4bd5971950d1fce117315688b582ea55db59",
+      "processedAt": "2026-02-21T00:36:19.286Z"
+    },
+    "https://vercel.com/blog/skills-night-69000-ways-agents-are-getting-smarter": {
+      "contentHash": "a72b0ce0336c9a68e6a6805d0873c198933f40c7085301efbc4b36b5ef5af32e",
+      "processedAt": "2026-02-21T00:36:19.786Z"
+    },
+    "https://vercel.com/blog/introducing-openchat": {
+      "contentHash": "6239932970d664c258895bddb0b25b6f64cf8d2e72ac1f73156ad6d106d1a046",
+      "processedAt": "2026-02-21T00:36:20.530Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/02/20/144523": {
+      "contentHash": "d1a7f1cc23e81183d00e5f53cbdbbb4e70574ac6750a05727d449740403edc10",
+      "processedAt": "2026-02-21T00:36:21.655Z"
+    },
+    "https://www.nngroup.com/articles/smart-home-notifications/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "bf81e1f3512d55621009fb1b9f113b151559e7179914a37d463bf9b1f14fcda6",
+      "processedAt": "2026-02-21T00:36:22.951Z"
+    },
+    "https://www.nngroup.com/articles/recommendation-adoption-score/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "a64bab03e78dc5c97adc4c455e9c198c78fcde75d8fdc725636d9e5a6d8433ed",
+      "processedAt": "2026-02-21T00:36:24.053Z"
+    },
+    "https://react.statuscode.com/issues/463": {
+      "contentHash": "87d5306f917daced7a9bbd57dea845bea0a5cd726cc27385ca7b7df35745efda",
+      "processedAt": "2026-02-21T00:36:24.636Z"
     }
   },
-  "lastRun": "2026-02-20T00:36:28.239Z"
+  "lastRun": "2026-02-21T00:36:24.636Z"
 }
