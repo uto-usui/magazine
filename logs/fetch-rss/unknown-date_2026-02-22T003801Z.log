@@ -1,0 +1,20 @@
+articles_dir=unknown-date
+exit_code=0
+timestamp_utc=2026-02-22T00:38:01Z
+
+---- issue lines ----
+8:Failed to fetch feed Accessibility Weekly: read ECONNRESET
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+Failed to fetch feed Accessibility Weekly: read ECONNRESET
+📰 Found 4900 total articles
+✨ New articles: 0
+⏭️ Skipped (already processed): 405
+✅ No new articles to process
