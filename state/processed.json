@@ -25203,7 +25203,19 @@
     "https://react.statuscode.com/issues/463": {
       "contentHash": "87d5306f917daced7a9bbd57dea845bea0a5cd726cc27385ca7b7df35745efda",
       "processedAt": "2026-02-21T00:36:24.636Z"
+    },
+    "https://a11yweekly.com/issue/488/": {
+      "contentHash": "ea9b53244b3eeee0289de43b0aa0422474d0d7c69ed11e5caab680ecbcc487ee",
+      "processedAt": "2026-02-23T00:38:19.457Z"
+    },
+    "https://efcl.info/2026/02/22/design-loop/": {
+      "contentHash": "3c45515e54e20249cfef2dad19c7a7b03e229fe4b3d09f14a97073862259358d",
+      "processedAt": "2026-02-23T00:38:19.875Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-february-22-2026/": {
+      "contentHash": "89267e37af1ff450c446e74b2d5bf7019a2d115e61aca7226b60acce5ad93efa",
+      "processedAt": "2026-02-23T00:38:21.235Z"
     }
   },
-  "lastRun": "2026-02-22T00:38:01.120Z"
+  "lastRun": "2026-02-23T00:38:21.235Z"
 }
