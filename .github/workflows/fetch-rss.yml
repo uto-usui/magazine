@@ -56,8 +56,8 @@ jobs:
             DATE_DIR="unknown-date"
           fi
 
-          # Avoid false positives like "Errors: 0" by matching non-zero error counts.
-          ISSUE_PATTERN="(Errors: [1-9][0-9]*|Fatal error|Failed to|HTTP [0-9]{3}|404 Not Found|Bot protection|Readability bug|Could not extract content|Using RSS content as fallback)"
+          # Only capture actionable failures. Skip warning-level fallback/bot-detection noise.
+          ISSUE_PATTERN="(Errors: [1-9][0-9]*|Fatal error|Failed to fetch feed|Failed to fetch https?://.* after [0-9]+ retries|❌ Playwright failed for|Could not extract content and no RSS content available|Readability bug detected)"
           HAS_ISSUES="false"
           if [ "$EXIT_CODE" -ne 0 ]; then
             HAS_ISSUES="true"
@@ -179,6 +179,10 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+
+          # Always branch from master so the issue PR only contains log files.
+          git checkout master
+          git pull --ff-only origin master
 
           # Create branch for issue log
           BRANCH="fetch-rss-issues/$(date -u +%Y-%m-%d-%H%M)"

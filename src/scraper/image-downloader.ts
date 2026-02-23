@@ -45,7 +45,20 @@ export class ImageDownloader {
 
       return localPath
     } catch (error) {
-      console.error(`Failed to download image ${url}: ${(error as Error).message}`)
+      if (this.isImageTooLargeError(error)) {
+        console.log(`Image too large, skipping: ${url}`)
+        return null
+      }
+
+      if (axios.isAxiosError(error) && error.response) {
+        const status = error.response.status
+        if (status === 403 || status === 404) {
+          console.log(`Image unavailable (HTTP ${status}), skipping: ${url}`)
+          return null
+        }
+      }
+
+      console.warn(`Image download skipped for ${url}: ${(error as Error).message}`)
       return null
     }
   }
@@ -127,5 +140,17 @@ export class ImageDownloader {
   async ensureArticleDir(articleSlug: string): Promise<void> {
     const dirPath = join(this.imagesDir, articleSlug)
     await mkdir(dirPath, { recursive: true })
+  }
+
+  private isImageTooLargeError(error: unknown): boolean {
+    if (!axios.isAxiosError(error)) {
+      return false
+    }
+
+    const message = error.message || ''
+    return (
+      message.includes('maxContentLength size of') ||
+      message.includes('maxBodyLength size of')
+    )
   }
 }

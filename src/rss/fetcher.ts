@@ -16,6 +16,10 @@ export interface FeedItem {
 export class RssFetcher {
   private parser: Parser
 
+  private readonly timeoutMs = 15000
+  private readonly maxRetries = 3
+  private readonly retryDelayMs = 1500
+
   // Bot対策の可能性があるステータスコード
   private readonly botProtectionStatuses = [401, 403, 429]
 
@@ -30,7 +34,7 @@ export class RssFetcher {
 
   constructor() {
     this.parser = new Parser({
-      timeout: 10000,
+      timeout: this.timeoutMs,
       headers: {
         'User-Agent': 'UX-Eng-Magazine-RSS-Reader/1.0',
       },
@@ -42,21 +46,43 @@ export class RssFetcher {
       return []
     }
 
-    try {
-      const parsed = await this.parser.parseURL(feed.url)
-      return this.mapItems(parsed.items || [], feed)
-    } catch (error) {
-      const errorMessage = (error as Error).message
+    for (let attempt = 1; attempt <= this.maxRetries; attempt++) {
+      try {
+        const parsed = await this.parser.parseURL(feed.url)
+        return this.mapItems(parsed.items || [], feed)
+      } catch (error) {
+        const errorMessage = (error as Error).message
 
-      // Bot対策によるブロックかどうかを判定
-      if (this.isBotProtectionError(errorMessage)) {
-        console.log(`🤖 Bot protection detected for ${feed.name}, trying Playwright...`)
-        return await this.fetchWithPlaywright(feed)
+        // Bot対策によるブロックかどうかを判定
+        if (this.isBotProtectionError(errorMessage)) {
+          console.log(`🤖 Bot protection detected for ${feed.name}, trying Playwright...`)
+          return await this.fetchWithPlaywright(feed)
+        }
+
+        const isRetryable = this.isRetryableNetworkError(errorMessage)
+        const shouldRetry = isRetryable && attempt < this.maxRetries
+
+        if (shouldRetry) {
+          console.log(
+            `⏳ Retry feed fetch ${attempt}/${this.maxRetries} for ${feed.name} after transient error: ${errorMessage}`
+          )
+          await this.sleep(this.retryDelayMs * attempt)
+          continue
+        }
+
+        if (isRetryable) {
+          console.error(
+            `Failed to fetch feed ${feed.name} after ${this.maxRetries} attempts: ${errorMessage}`
+          )
+        } else {
+          console.error(`Failed to fetch feed ${feed.name}: ${errorMessage}`)
+        }
+        return []
       }
-
-      console.error(`Failed to fetch feed ${feed.name}: ${errorMessage}`)
-      return []
     }
+
+    console.error(`Failed to fetch feed ${feed.name}: exhausted retries`)
+    return []
   }
 
   /**
@@ -70,6 +96,10 @@ export class RssFetcher {
       }
     }
     return false
+  }
+
+  private isRetryableNetworkError(errorMessage: string): boolean {
+    return /(ECONNRESET|ETIMEDOUT|EAI_AGAIN|ENOTFOUND|timed out|timeout)/i.test(errorMessage)
   }
 
   /**
@@ -153,6 +183,10 @@ export class RssFetcher {
 
     // 見つからない場合はそのまま返す（パースエラーになる可能性あり）
     return content
+  }
+
+  private sleep(ms: number): Promise<void> {
+    return new Promise((resolve) => setTimeout(resolve, ms))
   }
 
   private mapItems(items: Parser.Item[], feed: Feed): FeedItem[] {
