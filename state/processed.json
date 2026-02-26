@@ -25259,7 +25259,227 @@
     "https://tkdodo.eu/blog/creating-query-abstractions": {
       "contentHash": "fffeb0841f28cb25059b6da67be20de1e392206a282cbd5e0f1925c468225205",
       "processedAt": "2026-02-24T00:37:18.024Z"
+    },
+    "https://engineering.fb.com/2026/02/24/data-center-engineering/rrcclx-innovating-gpu-communications-amd-platforms-meta/": {
+      "contentHash": "d10b8df9f6814477aeba00c7e9e94a0bbc9222f15a00ad42e73f0e20460f3c6e",
+      "processedAt": "2026-02-26T02:14:56.738Z"
+    },
+    "https://addyosmani.com/blog/factory-model/": {
+      "contentHash": "8776c884ddab5c1938d399f9552da418735c97f9ae809f027eda33262f188285",
+      "processedAt": "2026-02-26T02:14:56.880Z"
+    },
+    "https://addyosmani.com/blog/agents-md/": {
+      "contentHash": "215dd91000fdbdb27c2f88b636b1e301e1a30a43041e9538f5f7d7592980bb95",
+      "processedAt": "2026-02-26T02:14:56.961Z"
+    },
+    "https://www.doc.cc/articles/craft-crisis": {
+      "contentHash": "45e9bbeb421d8e9e8ee8cfc8daffdf24b8f31fa4e6c041b573775e3efcfd2c2c",
+      "processedAt": "2026-02-26T02:15:01.963Z"
+    },
+    "https://letters.stevejobsarchive.com/": {
+      "contentHash": "045f6b5b797439f27bb3375fb60917edcd7b7e92ae010ac366f55b8885686610",
+      "processedAt": "2026-02-26T02:15:02.481Z"
+    },
+    "https://boristane.com/blog/the-software-development-lifecycle-is-dead/": {
+      "contentHash": "3d6cca6f125ba0007ea9735428703250ad56aeb7f0743f3d74dbedcf1da895d1",
+      "processedAt": "2026-02-26T02:15:02.764Z"
+    },
+    "https://sweetfont.com/": {
+      "contentHash": "4e45a86e7e123de920c788b5de9accad8769aa6361858aa9251cda2ea4db482c",
+      "processedAt": "2026-02-26T02:15:09.754Z"
+    },
+    "https://cianfrani.dev/posts/designing-in-english/": {
+      "contentHash": "8f7858303fbd127c53f1e315739367041ad02ae5eb06c711d4b743ea5e026c09",
+      "processedAt": "2026-02-26T02:15:10.338Z"
+    },
+    "https://www.lucasfcosta.com/blog/design-docs": {
+      "contentHash": "686627d82dda6eb9b884ccef9de9b1ee0e9bf186cfeab345d381cd21cf431809",
+      "processedAt": "2026-02-26T02:15:10.846Z"
+    },
+    "https://walkman.land/": {
+      "contentHash": "bfbb92ca5091a30573686e72a455854d2c6a8377470658769bfe1134a5cbb81f",
+      "processedAt": "2026-02-26T02:15:12.684Z"
+    },
+    "https://juno-labs.com/blogs/every-company-building-your-ai-assistant-is-an-ad-company": {
+      "contentHash": "63229594037bbb802417b172a30de4e7b34ab9c09152da39dff2175d0db0f935",
+      "processedAt": "2026-02-26T02:15:13.019Z"
+    },
+    "https://spotless.neocities.org/": {
+      "contentHash": "92abdb09ee1234b0dca9232f85fc858250d999984f8ee221934f2cbf35457e52",
+      "processedAt": "2026-02-26T02:15:13.077Z"
+    },
+    "https://www.mynameismartin.co.uk/blog/how-im-dealing-with-the-pressure-to-adopt-ai-as-a-designer": {
+      "contentHash": "7e7d4bd92939263364a6cb9d6d9e3030b29c50bafc8a09ab041d8442a3c61d86",
+      "processedAt": "2026-02-26T02:15:14.936Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/mitchell-hashimoto": {
+      "contentHash": "ee37feb91b4e70f7b43ecd2009efa3231f6f6997dfa3afd0db2822bcf51a784b",
+      "processedAt": "2026-02-26T02:15:15.635Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-future-of-software-engineering-with-ai": {
+      "contentHash": "1ef26af2585ace9d4e9342289ab027e12d197b94bf2a43a6f570195208603d9a",
+      "processedAt": "2026-02-26T02:15:15.811Z"
+    },
+    "https://uxwritinghub.com/fintech-ux-writing-and-content-design/?utm_source=rss&utm_medium=rss&utm_campaign=fintech-ux-writing-and-content-design": {
+      "contentHash": "7fff4887960836f4273469c2fdf85cb4f4c037b72848a21b4f99c341ac0a3800",
+      "processedAt": "2026-02-26T02:15:31.671Z"
+    },
+    "https://uxwritinghub.com/content-design-salary-report-2026/?utm_source=rss&utm_medium=rss&utm_campaign=content-design-salary-report-2026": {
+      "contentHash": "273f4ee0dc44c1355bb211d9a48ae08468ec7a54639be1f3780a12f1126b4159",
+      "processedAt": "2026-02-26T02:15:41.484Z"
+    },
+    "https://tympanus.net/codrops/2026/02/25/reshaping-telha-clarkes-digital-home-from-wordmark-to-motion-system/": {
+      "contentHash": "ed8fc3c2ce039f6f0a64cbdbd8d52dd70ca37ca47ed6c4293400973b4787859c",
+      "processedAt": "2026-02-26T02:15:43.026Z"
+    },
+    "https://tympanus.net/codrops/2026/02/24/from-flat-to-spatial-creating-a-3d-product-grid-with-react-three-fiber/": {
+      "contentHash": "ea29f13cf1e67f6568498dca953e9277449843a3352944572fb9a63a21863009",
+      "processedAt": "2026-02-26T02:15:44.702Z"
+    },
+    "https://www.bitovi.com/blog/how-to-achieve-a-productivity-boost-with-copilot-and-mcp": {
+      "contentHash": "b71059f9ee59a820a27e75583c85dfd63495abd07ae7a20d1e7012daacd6e860",
+      "processedAt": "2026-02-26T02:15:46.515Z"
+    },
+    "https://engineering.mercari.com/blog/entry/20260225-go-conference-mini-in-sendai-2026/": {
+      "contentHash": "fe96554040fd9a0d493169c4d40128af1dc9bccb8245eba9ba52bcc6e5a14168",
+      "processedAt": "2026-02-26T02:15:46.840Z"
+    },
+    "https://css-tricks.com/an-exploit-in-css/": {
+      "contentHash": "bbd9e46467765d16ec1d502297d468e27b761998990a6f0418baf50bfc0c1e12",
+      "processedAt": "2026-02-26T02:15:47.669Z"
+    },
+    "https://css-tricks.com/a-complete-guide-to-bookmarklets/": {
+      "contentHash": "3bbc726b4954f740b0f946179f2e580c9039fd738d815ed28ddd13ce157fb8dd",
+      "processedAt": "2026-02-26T02:15:48.020Z"
+    },
+    "https://css-tricks.com/loading-smarter-svg-vs-raster-loaders-in-modern-web-design/": {
+      "contentHash": "aa92047aa57f2b8a33637bd243495d7a2a2ea3b6aa9e4f100f3202d35557dcc5",
+      "processedAt": "2026-02-26T02:15:48.314Z"
+    },
+    "https://css-tricks.com/potentially-coming-to-a-browser-near-you/": {
+      "contentHash": "b9b0ca2d66d9eeb24961dae837079a2d4eeda5fcb2babc993584e709f1d45eac",
+      "processedAt": "2026-02-26T02:15:48.594Z"
+    },
+    "https://css-tricks.com/distinguishing-components-and-utilities-in-tailwind/": {
+      "contentHash": "03411b26b47539605899313e52f132ebd2138586e63e8b6fd7767f584cd5ddd5",
+      "processedAt": "2026-02-26T02:15:48.867Z"
+    },
+    "https://css-tricks.com/spiral-scrollytelling-in-css-with-sibling-index/": {
+      "contentHash": "b9d700e48fb763c5f9e67dfaa3f83e9468fc52329c9d3b0ab3e3ba3f3887f6c6",
+      "processedAt": "2026-02-26T02:15:49.134Z"
+    },
+    "https://css-tricks.com/interop-2026/": {
+      "contentHash": "fa5266af01c54b5c49b443f3f7c6415bf5ecbc37a3584fe4c23e1c61ad9a516e",
+      "processedAt": "2026-02-26T02:15:49.492Z"
+    },
+    "https://css-tricks.com/whats-important-5/": {
+      "contentHash": "b3e92da8bb4b93f71ef94f9b16f01d59ac6470765527bbf84ad5fd0f7c81efc5",
+      "processedAt": "2026-02-26T02:15:49.752Z"
+    },
+    "https://css-tricks.com/making-a-responsive-pyramidal-grid-with-modern-css/": {
+      "contentHash": "02fd36162605e44b5cdbc66213ef2b9122a3e9d44fc2df269ca6d84ec5ad1153",
+      "processedAt": "2026-02-26T02:15:50.097Z"
+    },
+    "https://css-tricks.com/approximating-contrast-color-with-other-css-features/": {
+      "contentHash": "c0e29461019d759282f0f2648d581c711cddabebe04605b362f21c748a25af02",
+      "processedAt": "2026-02-26T02:15:50.391Z"
+    },
+    "https://kentcdodds.com/blog/building-semantic-search-on-my-content": {
+      "contentHash": "8601b3b6ddd43af03407f757b23b390ce6f7c15cff4af549ab4c3fc38554a77f",
+      "processedAt": "2026-02-26T02:15:50.839Z"
+    },
+    "https://kentcdodds.com/blog/helping-you-ask-me-questions-with-ai": {
+      "contentHash": "3e4ed1b65a55d9f4ff30819685e9523ec1da277329592081f08e19b293e8e630",
+      "processedAt": "2026-02-26T02:15:51.249Z"
+    },
+    "https://piccalil.li/the-index/167/?ref=main-rss-feed": {
+      "contentHash": "41368e5beb40ec8153429f2977d8c965b50465239c3aaa398bbaac2915f589ad",
+      "processedAt": "2026-02-26T02:15:51.914Z"
+    },
+    "https://piccalil.li/blog/a-2026-piccalilli-homepage-redesign/?ref=main-rss-feed": {
+      "contentHash": "539dc2f3dd041834fb7624426a20fe31bb14c02faf4de52df618445d12e8f632",
+      "processedAt": "2026-02-26T02:15:53.781Z"
+    },
+    "https://vercel.com/blog/how-openevidence-built-a-healthcare-ai-that-physicians-can-trust": {
+      "contentHash": "a34671f1aa8b687194c5686b6f7077dac1c8aee9ce848d29a944878ba7e3e43d",
+      "processedAt": "2026-02-26T02:15:54.499Z"
+    },
+    "https://vercel.com/changelog/activity-log-now-tracks-100-of-team-and-project-changes": {
+      "contentHash": "6116f9279008bc57bba537ebad01c3f24049b31e5c546a694eccd11ca74b29e1",
+      "processedAt": "2026-02-26T02:15:56.103Z"
+    },
+    "https://vercel.com/blog/security-boundaries-in-agentic-architectures": {
+      "contentHash": "d31bfce8566c70488b01288f702eb45722b61e45f35cfe72ea3c1093e66ea70f",
+      "processedAt": "2026-02-26T02:15:56.811Z"
+    },
+    "https://vercel.com/changelog/python-vercel-functions-bundle-size-limit-increased-to-500mb": {
+      "contentHash": "2f4cbd2d168704810d077dbb9aacf577db929dbf5f70228b58f61be106326b13",
+      "processedAt": "2026-02-26T02:15:57.644Z"
+    },
+    "https://vercel.com/changelog/gpt-5-3-codex-is-now-on-ai-gateway": {
+      "contentHash": "d6a8777b8d09efcc352e6e68a972a0ef3b4cb6af09436cbf68a5c43e60bb2ee3",
+      "processedAt": "2026-02-26T02:15:58.579Z"
+    },
+    "https://vercel.com/changelog/slack-agent-skill-simplifies-building-slack-agents-with-coding-assistants": {
+      "contentHash": "07e1afd945cbbd936b7b8f512b6655dd132b9c0921ba06113a7cade405db711a",
+      "processedAt": "2026-02-26T02:15:59.426Z"
+    },
+    "https://vercel.com/changelog/chat-sdk": {
+      "contentHash": "987cc869f7d1ae85502b6e9ca4c18ea029d6b3914c9264730e6029d6276cf01a",
+      "processedAt": "2026-02-26T02:15:59.714Z"
+    },
+    "https://vercel.com/changelog/safely-inject-credentials-in-http-headers-with-vercel-sandbox": {
+      "contentHash": "a0f6f5a0e26414f3522f8dfdf2e89b85f80f44a62f05ef6dd26c304114a032c8",
+      "processedAt": "2026-02-26T02:16:01.636Z"
+    },
+    "https://vercel.com/blog/introducing-chatbot": {
+      "contentHash": "0cf2f02a87e1de5cf3512dda813698fcb9e8157fea1f26d1698fd412c6b91a67",
+      "processedAt": "2026-02-26T02:16:02.746Z"
+    },
+    "https://frontendfoc.us/issues/730": {
+      "contentHash": "a640d0c23b68005d0fff6b6f2668a9dd0d426a82a15e368e19606ab575567934",
+      "processedAt": "2026-02-26T02:16:05.277Z"
+    },
+    "https://blog.jxck.io/entries/2026-02-25/sptth.html": {
+      "contentHash": "8d6c4da1e9a44723308ae1fc7bc3bbba9e26ebc7fdf4a312bc442b3bceab5bff",
+      "processedAt": "2026-02-26T02:16:05.337Z"
+    },
+    "https://blog.jxck.io/entries/2026-02-17/conference-know-how.html": {
+      "contentHash": "d7c0e309e0d4c94341a4b40bf966e78532507f40525ff3ef44ee9a8cddffc2a2",
+      "processedAt": "2026-02-26T02:16:05.362Z"
+    },
+    "https://blog.jxck.io/entries/2026-02-11/text-scale.html": {
+      "contentHash": "df34663e5667c79110cfdc282d6992b4c21dd9593b493e25dfac58a988668e6a",
+      "processedAt": "2026-02-26T02:16:05.472Z"
+    },
+    "https://tech.smarthr.jp/entry/remote-scrum-team-communication": {
+      "contentHash": "85ef92d8c1c94e6a4e50198ef1d987be4d117d31ce225560691bafbfce00a525",
+      "processedAt": "2026-02-26T02:16:05.718Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/02/24/140347": {
+      "contentHash": "c0103246303c983528be5ef37d49259208c3dcd2211c93e46a7ccb236b9759d5",
+      "processedAt": "2026-02-26T02:16:05.797Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/02/24/115114": {
+      "contentHash": "e9382fba94043dd55075b012014b01d1d42f088e01d6b4bae2f1320180cc8b92",
+      "processedAt": "2026-02-26T02:16:05.877Z"
+    },
+    "https://feeds.baymard.com/link/9825/17283402/health-and-beauty-ux-research": {
+      "contentHash": "2522ae35ee154afdfdcf390a34c1c18f1c9876bf4abd8103799948197f22e136",
+      "processedAt": "2026-02-26T02:16:15.492Z"
+    },
+    "https://uxmag.com/articles/why-reading-on-mobile-is-uniquely-challenging": {
+      "contentHash": "e4d06c2c02dd7eaa9e6e3b09ad539408f381237478d0e2f497241a8cff39aa44",
+      "processedAt": "2026-02-26T02:16:16.691Z"
+    },
+    "https://thisweekinreact.com/newsletter/270": {
+      "contentHash": "6f2c82f1a941dd0f0361d442ea1cdf762a4f4277f7615ad2032044ffda29541f",
+      "processedAt": "2026-02-26T02:16:17.019Z"
+    },
+    "https://reactnative.dev/blog/2026/02/24/react-native-comes-to-meta-quest": {
+      "contentHash": "0edf86dc5e77d30f2ae676ee6fde633c56b42465f6bb2a65262c73a64e6b9e14",
+      "processedAt": "2026-02-26T02:16:17.800Z"
     }
   },
-  "lastRun": "2026-02-24T00:37:18.025Z"
+  "lastRun": "2026-02-26T02:16:17.800Z"
 }

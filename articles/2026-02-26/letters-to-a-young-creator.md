@@ -1,0 +1,143 @@
+---
+title: "Letters to a Young Creator"
+source: "https://letters.stevejobsarchive.com/"
+publishedDate: "2026-02-25"
+category: "design"
+feedName: "Sidebar"
+---
+
+LOS ANGELES, CALIFORNIA, USA
+
+August 26, 2024
+
+LOS ANGELES, CALIFORNIA, USA
+
+October 9, 2025
+
+SAN FRANCISCO, CALIFORNIA, USA
+
+September 11, 2024
+
+NEW YORK, NEW YORK, USA
+
+August 29, 2025
+
+LONDON, UK
+
+July 18, 2025
+
+PALO ALTO, CALIFORNIA, USA
+
+September 13, 2024
+
+LONDON, UK
+
+September 3, 2025
+
+London, UK
+
+August 8, 2025
+
+London, UK
+
+August 29, 2025
+
+KRONBERG, GERMANY
+
+July 29, 2024
+
+London, UK
+
+July 30, 2024
+
+San Francisco, California, USA
+
+July 3, 2025
+
+LONDON, UK
+
+September 6, 2024
+
+LONDON, UK
+
+September 17, 2024
+
+NEW YORK, NEW YORK, USA
+
+August 25, 2025
+
+Santa Monica, California, USA
+
+August 26, 2025
+
+NEW YORK CITY, NEW YORK, USA
+
+August 27, 2024
+
+SERIES INTRODUCTION
+
+SERIES INTRODUCTION
+
+OSAKA, JAPAN
+
+September 9, 2024
+
+NEW YORK CITY, NEW YORK, USA
+
+July 29, 2024
+
+MILAN, ITALY
+
+August 11, 2025
+
+LARKSPUR, CALIFORNIA, USA
+
+July 8, 2025
+
+EBELTOFT, DENMARK
+
+September 9, 2024
+
+MILL VALLEY, CALIFORNIA, USA
+
+August 5, 2024
+
+LOS ANGELES, CALIFORNIA, USA
+
+November 10, 2025
+
+RANCHO PALOS VERDES, CALIFORNIA, USA
+
+August 18, 2024
+
+CUPERTINO, CALIFORNIA, USA
+
+August 20, 2024
+
+SOLOMEO, ITALY
+
+July 30, 2024
+
+LONDON, UK
+
+September 3, 2025
+
+EMERYVILLE, CALIFORNIA, USA
+
+August 12, 2024
+
+NEW YORK, NEW YORK, USA
+
+July 14, 2025
+
+LONDON, UK
+
+September 9, 2025
+
+LOS ANGELES, CALIFORNIA, USA
+
+July 7, 2025
+
+NEW YORK, NEW YORK, USA
+
+August 22, 2025
