@@ -147,26 +147,26 @@ jobs:
         run: |
           # Generate article list from added files
           ARTICLE_LIST=""
-          for file in $(git diff --name-only origin/master -- articles/); do
+          while IFS= read -r file; do
             if [ -f "$file" ]; then
               # Extract title from frontmatter
               TITLE=$(grep -m1 "^title:" "$file" | sed 's/title: "//' | sed 's/"$//')
               if [ -n "$TITLE" ]; then
-                ARTICLE_LIST="${ARTICLE_LIST}- ${TITLE}\n"
+                ARTICLE_LIST+="- ${TITLE}"$'\n'
               fi
             fi
-          done
+          done < <(git diff --name-only origin/master -- articles/)
 
           # If no articles found, use file names
           if [ -z "$ARTICLE_LIST" ]; then
-            for file in $(git diff --name-only origin/master -- articles/); do
-              ARTICLE_LIST="${ARTICLE_LIST}- $(basename "$file")\n"
-            done
+            while IFS= read -r file; do
+              ARTICLE_LIST+="- $(basename "$file")"$'\n'
+            done < <(git diff --name-only origin/master -- articles/)
           fi
 
           # Create PR with article list in body
           TIMESTAMP=$(date '+%Y-%m-%d %H:%M')
-          PR_BODY=$(printf "## 新着記事\n\n${ARTICLE_LIST}\n")
+          PR_BODY=$'## 新着記事\n\n'"${ARTICLE_LIST}"
 
           gh pr create \
             --title "📰 ${TIMESTAMP} の新着記事" \
