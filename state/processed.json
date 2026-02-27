@@ -25479,7 +25479,71 @@
     "https://reactnative.dev/blog/2026/02/24/react-native-comes-to-meta-quest": {
       "contentHash": "0edf86dc5e77d30f2ae676ee6fde633c56b42465f6bb2a65262c73a64e6b9e14",
       "processedAt": "2026-02-26T02:16:17.800Z"
+    },
+    "https://hughhowey.com/the-ai-bubble-is-bursting/": {
+      "contentHash": "5fd8c3cf0a9c1760a4a6138f8feed3a6f1944cdf39c271970e1b890d753a4cc4",
+      "processedAt": "2026-02-27T00:38:25.970Z"
+    },
+    "https://colorflow.ls.graphics/": {
+      "contentHash": "9deb917fe5640630e21b8f59b1fe6230b936a436e9bd46a030a518c4f91b2edf",
+      "processedAt": "2026-02-27T00:38:31.756Z"
+    },
+    "https://www.youtube.com/watch?v=vwUrzKaXyT4": {
+      "contentHash": "ae2364eb64313fb16d1002e43cdad892e6d42a7744085d817758ef2562327345",
+      "processedAt": "2026-02-27T00:38:37.095Z"
+    },
+    "https://zknill.io/posts/commit-message-intent/": {
+      "contentHash": "65c3ae199134cd237c213e7ca3750b0175dacd8b293ff535ee0e1238e924ccd8",
+      "processedAt": "2026-02-27T00:38:37.864Z"
+    },
+    "https://pxlnv.com/blog/on-software-quality/": {
+      "contentHash": "068f89b777434ce0dc5617d8793e4751c4ac7f6a2a38b718224be1394fbb6808",
+      "processedAt": "2026-02-27T00:38:38.336Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-164-nextjs": {
+      "contentHash": "32da5d3784d15a65fd7c6c43e8062c2515e919a872569db86e9d1ec04594ba3c",
+      "processedAt": "2026-02-27T00:38:38.601Z"
+    },
+    "https://tympanus.net/codrops/2026/02/26/building-async-page-transitions-in-vanilla-javascript/": {
+      "contentHash": "32cfab7559c62ebd7094ca85b4016bcd848f9cafcefe8f716b7574b0c04cb793",
+      "processedAt": "2026-02-27T00:38:40.310Z"
+    },
+    "https://smashingmagazine.com/2026/02/meet-smashingconf-amsterdam/": {
+      "contentHash": "5c4a7d9be145ab710e99713b6e7ff9523d3e9f2ea27546d69fcc97367dacc24d",
+      "processedAt": "2026-02-27T00:38:42.180Z"
+    },
+    "https://ics.media/entry/260226/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-02-27T00:38:43.350Z"
+    },
+    "https://piccalil.li/projects/personal-site/3/?ref=main-rss-feed": {
+      "contentHash": "c11ad25fb69d36f6fb2a10da890168e241c85229fc92f4dbd522ee549d53c316",
+      "processedAt": "2026-02-27T00:38:44.764Z"
+    },
+    "https://vercel.com/changelog/developer-role-now-available-for-pro-teams": {
+      "contentHash": "43a5afe6ecd736232c500fe998e2185bdc48186679ff9eeac93bb468a401b8ac",
+      "processedAt": "2026-02-27T00:38:45.848Z"
+    },
+    "https://vercel.com/changelog/dashboard-navigation-redesign-rollout": {
+      "contentHash": "398d1b922fbb93ee12475842a8b0f0ce4d596d013b95d6151db2355a23fbb1b9",
+      "processedAt": "2026-02-27T00:38:46.855Z"
+    },
+    "https://vercel.com/changelog/nano-banana-2-is-live-on-ai-gateway": {
+      "contentHash": "5c746875b8970b7c4e55af636fda7b9ff9ce77a83a97ab36335b1bdd56b8e330",
+      "processedAt": "2026-02-27T00:38:47.614Z"
+    },
+    "https://www.figma.com/blog/introducing-codex-to-figma/": {
+      "contentHash": "204536cf3ca47d501a508dfc4b66fa6bcd4f4cd291f4c3db2a3a88d00385a6f1",
+      "processedAt": "2026-02-27T00:39:14.844Z"
+    },
+    "https://uxmag.com/articles/championing-accessibility-a-path-to-inclusive-design-leadership": {
+      "contentHash": "a24aefbed4ffc6d7597c5c7548e668e7123a1a879ed0035d228e6d09edbe9fa1",
+      "processedAt": "2026-02-27T00:39:16.070Z"
+    },
+    "https://medium.com/researchops-community/managing-a-participant-panel-for-a-government-service-0a99d5c141f3?source=rss----693b3c4b38b4---4": {
+      "contentHash": "5e60ee0e869590c534fc011664430556b4258b0382006cf8dc7861e8323b67e0",
+      "processedAt": "2026-02-27T00:39:20.849Z"
     }
   },
-  "lastRun": "2026-02-26T02:16:17.800Z"
+  "lastRun": "2026-02-27T00:39:20.849Z"
 }
