@@ -25543,7 +25543,87 @@
     "https://medium.com/researchops-community/managing-a-participant-panel-for-a-government-service-0a99d5c141f3?source=rss----693b3c4b38b4---4": {
       "contentHash": "5e60ee0e869590c534fc011664430556b4258b0382006cf8dc7861e8323b67e0",
       "processedAt": "2026-02-27T00:39:20.849Z"
+    },
+    "https://webaim.org/blog/a-new-path/": {
+      "contentHash": "4c78194ca43baf57d1067ebd47875e67b158c3a9691e7cfa0e28b96bc564b927",
+      "processedAt": "2026-02-28T00:32:56.760Z"
+    },
+    "https://joshbrake.substack.com/p/the-missing-prompts": {
+      "contentHash": "5ef1bb07084559ec44914cf47a57fab9f05ef5f6d11471fe8d75f54bb2d4e568",
+      "processedAt": "2026-02-28T00:33:02.487Z"
+    },
+    "https://3dicons.co/": {
+      "contentHash": "1e074107b89d2b9ed15375b1abd50daebf7211e352a7c88f43e462e10a6544db",
+      "processedAt": "2026-02-28T00:33:06.207Z"
+    },
+    "https://thoughtshrapnel.com/2026/02/26/agentic-commerce-is-a-catastrophe.html": {
+      "contentHash": "27a11bba699aa07a0cb915080844f1b257b87ddaf445501718de2d8c91a8bbd4",
+      "processedAt": "2026-02-28T00:33:07.170Z"
+    },
+    "https://shoe-finder-wine.vercel.app/": {
+      "contentHash": "1f6866f7e9b6afbac81823482ca24a92c75b963314b59f622ad52e019c408dae",
+      "processedAt": "2026-02-28T00:33:12.621Z"
+    },
+    "https://www.oreilly.com/radar/how-to-write-a-good-spec-for-ai-agents/": {
+      "contentHash": "913385be7407c4f2bea70fb9bc6aac401da1638a498ecb6eebd76c8723dab350",
+      "processedAt": "2026-02-28T00:33:13.544Z"
+    },
+    "https://tympanus.net/codrops/2026/02/27/gabriel-norman-from-gaming-culture-to-high-end-interactive-experiences/": {
+      "contentHash": "f187a3a3f32d5522524d2040d0953d23ce39f05a93fbd887186c4665d45ee7d5",
+      "processedAt": "2026-02-28T00:33:15.019Z"
+    },
+    "https://piccalil.li/the-index/168/?ref=main-rss-feed": {
+      "contentHash": "74c99211a56d3e38c97cafea394d52d6de5ad1dedeb79a4207bad633a00a82fe",
+      "processedAt": "2026-02-28T00:33:15.361Z"
+    },
+    "https://vercel.com/blog/keeping-community-human-while-scaling-with-agents": {
+      "contentHash": "375e488de33aeffb335659d482fdcfa1802c4e6977240f2e56d1a26a6c1c6e3c",
+      "processedAt": "2026-02-28T00:33:16.263Z"
+    },
+    "https://vercel.com/changelog/vercel-queues-now-in-public-beta": {
+      "contentHash": "0ec8537c26259db30f6184b7c2f3a3d4ee66e62a01e4ce805df8a5e4588ee9c4",
+      "processedAt": "2026-02-28T00:33:16.850Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-adds-telegram-adapter-support": {
+      "contentHash": "56cf93d02c252d34bdf1368e76dc098854e4ec0d8e7c88462ba1f76c001d06e7",
+      "processedAt": "2026-02-28T00:33:17.511Z"
+    },
+    "https://www.figma.com/blog/workflow-lab-ai-image-tooling/": {
+      "contentHash": "b1122cca78576135fce71f663a2d48ebd43129ccb67e1750132830953fe89f2b",
+      "processedAt": "2026-02-28T00:33:46.646Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/02/27/134701": {
+      "contentHash": "13af6473f30cf2f39700d91cdc5a0fbbc3887e41463149c23a357eec56376844",
+      "processedAt": "2026-02-28T00:33:49.525Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/02/27/094213": {
+      "contentHash": "68afae427f94b750ceadc9b3bc99f59f43db79a415bf2dd4a4365501ac5e2db4",
+      "processedAt": "2026-02-28T00:33:49.949Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/02/27/170238": {
+      "contentHash": "8a58e6e438d5eafd398a611d44296cb590356a66c138cacac34471e5ab2a01c6",
+      "processedAt": "2026-02-28T00:33:51.763Z"
+    },
+    "https://www.writewithdrkat.com/blog/ux-accreditation-the-good-the-bad-and-the-ugly": {
+      "contentHash": "89e9475a764aeb6e8e41db28d92d00c70270e5e3957e6b9fa533bd7c87143d31",
+      "processedAt": "2026-02-28T00:33:52.207Z"
+    },
+    "https://www.writewithdrkat.com/blog/top-11-questions-to-ask-yourself-before-becoming-a-ux-writer": {
+      "contentHash": "110c854541dace0705dee772801f4d28ac93eeefcc8c0557183f1ff64adc85ab",
+      "processedAt": "2026-02-28T00:33:52.549Z"
+    },
+    "https://www.nngroup.com/articles/ai-search-infoseeking/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "b7a3751cb476805783de59c51fa354198571570255cd9c59d0c4c29a32258d06",
+      "processedAt": "2026-02-28T00:33:54.181Z"
+    },
+    "https://www.nngroup.com/articles/ux-postmortems/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "8c500ad0c1a6934625e97c7223b1401b9aee6905a63035a46bceb569d3d829a0",
+      "processedAt": "2026-02-28T00:33:55.192Z"
+    },
+    "https://react.statuscode.com/issues/464": {
+      "contentHash": "da867587367cc2a3a232dc605a09cc0e5eb74b015de02e47411bfe2bbef391b1",
+      "processedAt": "2026-02-28T00:33:55.790Z"
     }
   },
-  "lastRun": "2026-02-27T00:39:20.849Z"
+  "lastRun": "2026-02-28T00:33:55.790Z"
 }
