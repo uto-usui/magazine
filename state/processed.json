@@ -25623,7 +25623,95 @@
     "https://react.statuscode.com/issues/464": {
       "contentHash": "da867587367cc2a3a232dc605a09cc0e5eb74b015de02e47411bfe2bbef391b1",
       "processedAt": "2026-02-28T00:33:55.790Z"
+    },
+    "https://engineering.fb.com/2026/03/02/video-engineering/ffmpeg-at-meta-media-processing-at-scale/": {
+      "contentHash": "a0f9e2d0e2d26fa066912909e65d5cdc0c46df48edbfd62f24fe9637298aefe0",
+      "processedAt": "2026-03-03T00:38:11.415Z"
+    },
+    "https://engineering.fb.com/2026/03/02/data-infrastructure/investing-in-infrastructure-metas-renewed-commitment-to-jemalloc/": {
+      "contentHash": "f6d047a7c7e655b225b413a8a2a1ad2c550534cfe6ae122c3e102e3ca719da57",
+      "processedAt": "2026-03-03T00:38:11.588Z"
+    },
+    "https://a11yweekly.com/issue/489/": {
+      "contentHash": "737669a4f94388a542ec37f2d2c7819d7caed4466ab0c17e91b79b1f9319bb5b",
+      "processedAt": "2026-03-03T00:38:11.655Z"
+    },
+    "https://bit.ly/side-uxp2": {
+      "contentHash": "ab9387269352e7c1a1b04f5c3891a7cfbda8d429048e2c06794208189f3a7a73",
+      "processedAt": "2026-03-03T00:38:20.971Z"
+    },
+    "https://rosipov.com/blog/are-ai-productivity-gains-fueled-by-delivery-pressure/": {
+      "contentHash": "5e496053dbc9029298eb8de0adf80749af34ab03f666cb828df207479b481b73",
+      "processedAt": "2026-03-03T00:38:21.217Z"
+    },
+    "https://caidan.dev/portfolio/ascii_clouds/?cs=15&wa=0.15&ws=0&ni=0.05&vi=0.8&vr=0.75&ba=0.2&ca=1&ts=0.5&h=200&sa=0.3&t1=0.15&t2=0.28&t3=0.4&t4=0.52&t5=0.65&sd=091s5q": {
+      "contentHash": "8cb3a09844bc9589c18835e1ccb7c4a8459717048166359efc821e1861a225af",
+      "processedAt": "2026-03-03T00:38:21.621Z"
+    },
+    "https://anthropic.skilljar.com/": {
+      "contentHash": "38388c5eb1b5653eddcb76d436f5d16fdfda6946272177276247c5b997749636",
+      "processedAt": "2026-03-03T00:38:22.580Z"
+    },
+    "https://robinrendle.com/notes/the-song-of-linkedin/": {
+      "contentHash": "7f049544e88bb02eacb931e124975da1124ad85816ab344de9cd483e91af1dab",
+      "processedAt": "2026-03-03T00:38:23.277Z"
+    },
+    "https://lea.verou.me/blog/2026/external-import-maps-today/": {
+      "contentHash": "f1a17b9cd09a4f1f82b2e6bbed76eb02a59e451b20a02036c24196636cbb3c27",
+      "processedAt": "2026-03-03T00:38:23.457Z"
+    },
+    "https://tympanus.net/codrops/2026/03/02/sticky-grid-scroll-building-a-scroll-driven-animated-grid/": {
+      "contentHash": "b85c0b4fc031593266c07864f9602c86474a230fe7d84473bcc4dc834c898e53",
+      "processedAt": "2026-03-03T00:38:25.041Z"
+    },
+    "https://tympanus.net/codrops/2026/02/28/when-community-becomes-ui-building-the-website-for-the-first-three-js-conference/": {
+      "contentHash": "af11ef3f596c317269568c0bb7d444e89b597e3c2539d9ffa371c5f9fef058fc",
+      "processedAt": "2026-03-03T00:38:26.336Z"
+    },
+    "https://bradfrost.com/blog/post/real-time-ui/": {
+      "contentHash": "ec35feb9bed3c3f60f7452d1587cfaaccce552e1d513056b939ccacdb6688ea5",
+      "processedAt": "2026-03-03T00:38:26.884Z"
+    },
+    "https://smashingmagazine.com/2026/03/getting-started-popover-api/": {
+      "contentHash": "4777564b74c60aaf3a8b717bcd44422ce7ce0701e9ce09c3e1dca9fc70db9b1a",
+      "processedAt": "2026-03-03T00:38:28.446Z"
+    },
+    "https://smashingmagazine.com/2026/02/desktop-wallpaper-calendars-march-2026/": {
+      "contentHash": "59abb3b2ed05e0c73db68e7b1795dbb886253e116d7610710ad84cf8d88c489c",
+      "processedAt": "2026-03-03T00:38:30.258Z"
+    },
+    "https://vercel.com/blog/How-avalara-turns-pipedreams-into-patent-pending-with-v0": {
+      "contentHash": "fa2c9ba697590e819f7f3bf5dde1d4a67fd041805ec13f217270dd35ff694108",
+      "processedAt": "2026-03-03T00:38:30.808Z"
+    },
+    "https://vercel.com/changelog/vercel-cli-for-marketplace-integrations-optimized-for-agents": {
+      "contentHash": "0c453e204b35cd3b98ccba4f6df3a4963f840347cb0e58c9c650f02b47269cd3",
+      "processedAt": "2026-03-03T00:38:31.296Z"
+    },
+    "https://stripe.com/blog/can-ai-agents-build-real-stripe-integrations": {
+      "contentHash": "d09041b9da09b1ea7bf176b5c201a870399afb597552fe1082a330aab211391b",
+      "processedAt": "2026-03-03T00:38:31.947Z"
+    },
+    "https://zenn.dev/uhyo/articles/async-react-debounce": {
+      "contentHash": "d1c35c51e057d458f33820627dad842a4d25724f2843221c9d5a0bef89cdfba1",
+      "processedAt": "2026-03-03T00:38:32.560Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/03/02/124627": {
+      "contentHash": "630b9ff4c489b03f830f128fd18ca28feb87ae187dc5159dd6a4c3c9be8e5ce1",
+      "processedAt": "2026-03-03T00:38:33.484Z"
+    },
+    "https://tech.layerx.co.jp/entry/mitoukaigi-2026": {
+      "contentHash": "7f6984903dda5d6d12ff014109389b5dcd0a232154093c7a0772e146e1be6c31",
+      "processedAt": "2026-03-03T00:38:34.211Z"
+    },
+    "https://newsletter.uxdesign.cc/p/something-big-might-be-happening": {
+      "contentHash": "61e39d429b74a631445943b7f25748a0477570784ee1485b7e135c7aafb04114",
+      "processedAt": "2026-03-03T00:38:34.901Z"
+    },
+    "https://uxmag.com/articles/ai-brings-cheap-prediction-expensive-change": {
+      "contentHash": "e0f362fd8fb06a92232aaf34568cc7eb7b7ca19398847775aa9a56a66ae95396",
+      "processedAt": "2026-03-03T00:38:36.589Z"
     }
   },
-  "lastRun": "2026-02-28T00:33:55.790Z"
+  "lastRun": "2026-03-03T00:38:36.590Z"
 }
