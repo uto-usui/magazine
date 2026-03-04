@@ -25711,7 +25711,99 @@
     "https://uxmag.com/articles/ai-brings-cheap-prediction-expensive-change": {
       "contentHash": "e0f362fd8fb06a92232aaf34568cc7eb7b7ca19398847775aa9a56a66ae95396",
       "processedAt": "2026-03-03T00:38:36.589Z"
+    },
+    "https://github.blog/engineering/architecture-optimization/how-we-rebuilt-the-search-architecture-for-high-availability-in-github-enterprise-server/": {
+      "contentHash": "2e2630f340694eb1a16b5f3684840c5d8eb4aa32adbb8b4f25e5a63113755588",
+      "processedAt": "2026-03-04T00:36:12.867Z"
+    },
+    "https://web.dev/blog/baseline-digest-jan-2026?hl=en": {
+      "contentHash": "d5b3af91d21a3621bc59a0fa12447939e1e4607cfcddf7824d65fee345094041",
+      "processedAt": "2026-03-04T00:36:13.354Z"
+    },
+    "https://web.dev/blog/web-platform-02-2026?hl=en": {
+      "contentHash": "d1d3a5be3b2cc0a5110bb1471d6b61a4a0391cc599c374e478c885a86e498261",
+      "processedAt": "2026-03-04T00:36:13.927Z"
+    },
+    "https://web.dev/blog/baseline-navigation-api?hl=en": {
+      "contentHash": "fdbbcfbf17b8fe65eb9f43f03fadf74c63413dc0e05309b7202c2aba83467596",
+      "processedAt": "2026-03-04T00:36:14.455Z"
+    },
+    "https://hvpandya.com/llm-design-systems": {
+      "contentHash": "08191c63cbab80f01ad4876d5c1b43860d6956624f6ba0190e5d79b7ce3f6761",
+      "processedAt": "2026-03-04T00:36:14.894Z"
+    },
+    "https://tylercoderre.com/projects/design-systems-checklist.html": {
+      "contentHash": "718f62db07b04cf8e5c9e63e8a308f7792f260e6da5c0d21c433aadc4a97d350",
+      "processedAt": "2026-03-04T00:36:15.933Z"
+    },
+    "https://amplifying.ai/research/claude-code-picks": {
+      "contentHash": "f9cc1b109a00770337fe5d689d3bb7567fc7138561d5673a7db7a9a4e3e8c6aa",
+      "processedAt": "2026-03-04T00:36:16.377Z"
+    },
+    "https://www.itsnicethat.com/articles/michele-hratko-who-owns-this-book-publication-graphic-design-project-170226": {
+      "contentHash": "fe5841d6596cd85258965dc9a5bb1e259c2c4fc96e2c25035fcee3062bb049bb",
+      "processedAt": "2026-03-04T00:36:17.071Z"
+    },
+    "https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html": {
+      "contentHash": "bf20a8f3e7ab08f29f5e1e1def7135a5f3be5b0feac65329d945cd97db0115d3",
+      "processedAt": "2026-03-04T00:36:17.304Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/ai-tooling-2026": {
+      "contentHash": "58e8942c566b9f86c5bbadc402184986ceee027962d29cd582d52019c9f2758e",
+      "processedAt": "2026-03-04T00:36:17.992Z"
+    },
+    "https://tympanus.net/codrops/2026/03/03/the-lookback-a-digital-capsule-for-better-off-studios-creative-past/": {
+      "contentHash": "c17202883a8961250c70535f72203382d8c7575beac80a8355a069ad692f1692",
+      "processedAt": "2026-03-04T00:36:19.400Z"
+    },
+    "https://bradfrost.com/blog/link/old-music-friday/": {
+      "contentHash": "5e6c18298d2515fbe5e8a56a724af0abb225e318484bf2b9cabbfe8fc41521cc",
+      "processedAt": "2026-03-04T00:36:26.354Z"
+    },
+    "https://storybook.js.org/blog/storybook-npmx/": {
+      "contentHash": "66432f658de725b05897516ddf84a7562995e7f46f8872e2f5e8f1bbde332932",
+      "processedAt": "2026-03-04T00:36:27.158Z"
+    },
+    "https://smashingmagazine.com/2026/03/accessible-ux-research-release/": {
+      "contentHash": "0a1b1c4a8781e2b19c20afd4aaa42db1f1d0158f1805f9a026867c169fc483d3",
+      "processedAt": "2026-03-04T00:36:29.163Z"
+    },
+    "https://www.bitovi.com/blog/how-to-build-kpi-trees-with-ai-a-miro-sidekick-implementation-guide": {
+      "contentHash": "9e97607ae9dcb26fbd6dabe2e397cbc4775852ce7cb8d857382269015bea0d29",
+      "processedAt": "2026-03-04T00:36:29.885Z"
+    },
+    "https://ics.media/entry/260303/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-03-04T00:36:30.380Z"
+    },
+    "https://piccalil.li/blog/finding-an-accessibility-first-culture-in-npmx/?ref=main-rss-feed": {
+      "contentHash": "fbf14fea1e83ea6678b85fe6752730610c4732be4cf1647b5a110a85c2c456e3",
+      "processedAt": "2026-03-04T00:36:30.845Z"
+    },
+    "https://stripe.com/blog/supporting-additional-payment-methods-for-agentic-commerce": {
+      "contentHash": "ac8b4cb27cf216efdc11b1a68fd9d49ceaf0affad94b8fec29abf359e4cde1c3",
+      "processedAt": "2026-03-04T00:36:31.765Z"
+    },
+    "https://www.figma.com/blog/config-speakers-looking-ahead-2026/": {
+      "contentHash": "cbf1d2e401da8d66a9a67b5f06d493bc4e76267144b482d73559e2a75460236a",
+      "processedAt": "2026-03-04T00:36:58.748Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/03/03/165810": {
+      "contentHash": "88ea476b69c5f4e9f2fe28365ba8eaa10bc41cb1f646381f4cae8804c056cbec",
+      "processedAt": "2026-03-04T00:37:01.014Z"
+    },
+    "https://uxmag.com/articles/designing-for-dependence-when-ux-turns-tools-into-traps": {
+      "contentHash": "15f9c2ea024707c0368a5f740a00c15f7fdf288c5ef4d94554f994e6847a0611",
+      "processedAt": "2026-03-04T00:37:02.133Z"
+    },
+    "http://testing.googleblog.com/2026/03/set-safe-defaults-for-flags.html": {
+      "contentHash": "367712f29c24635f2f6a752201e805b03f57ae8c5300d32358cc1591761e8bea",
+      "processedAt": "2026-03-04T00:37:03.422Z"
+    },
+    "https://www.speedcurve.com/blog/brand-perception": {
+      "contentHash": "8faaf978e1c778f90b8a6e075a9cc48024060182530f63b6df7217505c9c4872",
+      "processedAt": "2026-03-04T00:37:04.138Z"
     }
   },
-  "lastRun": "2026-03-03T00:38:36.590Z"
+  "lastRun": "2026-03-04T00:37:04.138Z"
 }

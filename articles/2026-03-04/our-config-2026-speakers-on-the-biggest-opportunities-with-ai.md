@@ -1,0 +1,69 @@
+---
+title: "Our Config 2026 speakers on the biggest opportunities with AI"
+source: "https://www.figma.com/blog/config-speakers-looking-ahead-2026/"
+publishedDate: "2026-03-03"
+category: "design"
+feedName: "Figma Blog"
+---
+
+![Woman with short bob haircut and bangs, serious expression, black and white portrait indoors setting](data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAcGBf/EACUQAAEDAwQCAgMAAAAAAAAAAAECAwQABREGEiExBxQTUSJBcf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDNaMdejW1425IRc5OWGnVdNp/Zrnao0XebSn2p8n2F4BcwrJRnrNUdtESz3WBI2JdiO70uHeleFHrOOq6vkG6xWdFPJdYIddwk5Tk7f79UEGZkKS2ARzSqhpt/Rgs7HustuSMfmotqPNKDK36Omy2q2sQluBMx9PzFask4IwK2PnO4PQdLW2LGCEtyEgOHbyePulKCLQL1OiRg0y6AgHgEZpSlB//Z)![Woman with short bob haircut and bangs, serious expression, black and white portrait indoors setting](https://cdn.sanity.io/images/599r6htc/regionalized/ebf98c4bfdd2fd20258c40ca76a1db0c12917bda-1050x1050.jpg?w=1050&h=1050&q=75&fit=max&auto=format)
+
+[**Holly Herndon**](https://herndondryhurst.studio/) co-runs an art studio in Berlin with her partner Mathew Dryhurst. They co-founded Spawning, an organization building AI tools for artists, and were awarded the 2022 Ars Electronica STARTS prize for digital art for the [Holly+ project](https://holly.plus/). She has been on Art Review’s Power 100 list since 2021 and holds a Ph.D. in Computer Music from Stanford.
+
+From a pioneering AI artist, to the creator of one of YouTube’s most popular math and science channels, to a veteran designer with roots in behavioral science, [this year’s Config speakers](https://config.figma.com/) challenge us to reimagine work and creativity in 2026.
+
+We asked a few of them where we should be investing energy as AI speeds everything up and unlocks new creative possibilities. They’re playing with process, questioning old narratives, and broadening the impact of what they create.
+
+## [On pushing the outer limits of craft and creativity](#on-pushing-the-outer-limits-of-craft-and)
+
+![Woman wearing translucent veil over face, looking at camera, black and white portrait with lighting](data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAcGBQj/xAAkEAABBAIBBAIDAAAAAAAAAAABAAIDBAURBhIhMUEiURVTcf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDDUOJRVsti8XZstgs2zuWf9bfoK14jilbhoifi7r7EEjw6QPOyd+1Ks3mqNPnuHvTNjs0ugb9jRPlVmbk1SxiQY2MLg4N7DXxJ7IOZyrBibNTSwgdMmnH+otDagZNIHiZw+I9Ig8hOke4NDnEhvgE+FRODZCx+InYXbH2e57FEQWjGXZTQgJ6SSwEkhERB/9k=)![Woman wearing translucent veil over face, looking at camera, black and white portrait with lighting](https://cdn.sanity.io/images/599r6htc/regionalized/3b9533c55d07388b02f6c5de8275f4e9da6c84b0-1050x1050.jpg?w=1050&h=1050&q=75&fit=max&auto=format)
+
+[**Danit Peleg**](https://www.danitpeleg.com/) is the founder of 3D Printed Fashion Lab, which integrates AI to 3D print soft, wearable textiles on demand, with zero waste. Her work has spurred collaborations with luxury and sportswear brands, received two patents, and been featured in Vogue, The New York Times, and Forbes. Danit is a TED speaker and was named one of Forbes Europe’s Top 50 Women in Tech.
+
+“I see software as one of the defining artistic mediums of our time. With the help of AI, our studio is building more complex software projects than were previously possible,” says **Holly Herndon, a renowned artist and composer** known for her experiments with music, software, and machine learning. “It’s exciting to see our capacities expand, and to shift our roles to become orchestrators.” Holly and her partner Mat Dryhurst blend art and algorithm: Their recent work, [Starmirror](https://www.kw-berlin.de/en/exhibitions/holly-herndon-and-mat-dryhurst-starmirror), first staged at the KW Institute for Contemporary Art in Berlin, recorded vocals from exhibition visitors and local choirs to form a dataset that will train a new AI choir—reimagining AI models as public, collective endeavors. Projects like Starmirror literally keep a human in the loop by inviting more people to not just participate in model inputs, but also play with the outputs.
+
+![Woman with long dark hair and bangs, smiling slightly, black and white portrait indoor background.](data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAYHCAX/xAAmEAABAwMEAQQDAAAAAAAAAAADAQIEAAUGBxESMSETIjJBUWGB/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ALLX3IZlnxoEO1veyXOfw3Z8uKd7VieDZDf8LvLJsoEtYZncCsKioj1Xr+1oOuuUNtucWRAq16w2q8id7cv1UtqTnMa9WW2xAGadyFaYitbxRu31QX5comySOOPFVIhPdy8+aVX49cgS7JBMAzFY4TenJ+KUHJeTSTS77MLJK8pFIu7nLuteYndKUHWen2G2YmHWsrgk5kCj3L6ipuq0pSg//9k=)![Woman with long dark hair and bangs, smiling slightly, black and white portrait indoor background.](https://cdn.sanity.io/images/599r6htc/regionalized/de1aa5e49fe01ecf73c1593b7735117514e3c235-1050x1050.jpg?w=1050&h=1050&q=75&fit=max&auto=format)
+
+**[Vicki Tan](https://www.vickitan.com/)** is currently design staff at Pinterest and was previously at Spotify, Headspace, Lyft, and Google. She is the author of [Ask This Book a Question](https://www.penguinrandomhouse.com/books/746335/ask-this-book-a-question-by-vicki-tan/), an interactive guide to decision-making. Her work explores the relationship between behavioral science and product design, with a special interest in how people engage with technology in their daily lives.
+
+**Creator of the world’s first 3D-printed fashion collection Danit Peleg** also sees an opportunity for AI to bridge digital and physical realms. “We’re entering an era where AI doesn’t just design on a screen, but also drives real-world manufacturing, architecture, and fashion,” she says. “We are going to see AI literally making things in the world.” Using [Figma Weave](https://www.figma.com/blog/welcome-weavy-to-figma/)
+
+and by involving AI agents across her entire production pipeline from concept to fabrication, Danit shapes new workflows to take her own creative vision further.
+
+For **Pinterest Staff Designer Vicki Tan**, [writing her new book](https://www.penguinrandomhouse.com/books/746335/ask-this-book-a-question-by-vicki-tan/) highlighted the parallels between creativity and decision-making: “In both, you’re moving forward on a feeling, often without certainty, following a question to see where it might lead. They are processes that ask you to change how you see yourself along the way.” Being creative, she suggests, asks you to stay open and attuned to your own taste, expertise, and instinct.
+
+“People talk about creativity as originality or talent, but I think it may be closer to care or attention,” she says. “There’s a related word in French, _attendre_, which means ‘to wait for’ or ‘to tend to,’ and I like thinking about creativity as the act of tending towards an idea, allowing meaning to reveal itself in time. Instead of searching for something entirely new, begin with noticing what already feels yours.”
+
+> People talk about creativity as originality or talent, but I think it may be closer to care or attention.
+
+Vicki Tan, Staff Designer, Pinterest
+
+![Bearded man with short hair, wearing jacket, black and white closeup portrait against plain background](data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAcEBQj/xAAkEAABBAEEAQUBAAAAAAAAAAACAAEDBAUGBxESQSEiI1GRMf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCqbk27MGHirVJ3rPZPocwvw4j54XB09pK1gZat3E5yawxELzwTF2Yxf6Wrechr4CC4Y9wik4duftZ9vNSVbdKpWswxQ3HBgAhLnsLIKWiIg8eR6rzOrtQQw5y4c8Du/wATe0PxVfJ4OjgtqL17GxlHcJm+Vy5JvXw/hEQS6lutq2nA0EeS7gP8eQGJ/wBREQf/2Q==)![Bearded man with short hair, wearing jacket, black and white closeup portrait against plain background](https://cdn.sanity.io/images/599r6htc/regionalized/c97d32c48f57bb0a9efdf3fef605acd66a1b6b6e-1050x1050.jpg?w=1050&h=1050&q=75&fit=max&auto=format)
+
+[**Matthew Ström-Awn**](https://mattstromawn.com/) is a designer and strategist at [mu.design](https://mu.design/), helping early-stage and high-growth companies in AI, fintech, and consumer software. He’s also an editor for the [W3C Design Tokens Community Group](https://www.w3.org/community/design-tokens/), where he contributes to emerging web standards. He’s previously led teams at Copilot Money, Stripe, and a number of early-stage startups.
+
+## [On defining quality](#on-defining-quality)
+
+**Designer and founder of mu.design Matthew Ström-Awn** believes that as ideas become easier to execute, who defines quality will change. “We’ve always celebrated individual designers as paragons of quality, but those who spoke loudest or most often got the most mindshare,” he says. “Now that anyone can go from idea to working software in hours without the backing of a world-class engineering team, the old signals of credibility—a job in FAANG, a big subscriber list, a nice logo wall, and slick sizzle reel—aren’t sufficient.”
+
+Instead, the new test of quality will be how products behave in the real world. “Quality should be defined by people who deliver real software, real brands, real campaigns, and real impact,” says Matthew. “Shipping isn’t inherently virtuous. Shipped work has to survive contact with actual users, markets, and constraints.”
+
+> Shipping isn’t inherently virtuous. Shipped work has to survive contact with actual users, markets, and constraints.
+
+Matthew Ström-Awn, Founder, mu.design
+
+![Smiling young man with short hair, collared shirt, black and white headshot against dark background](data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAUABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAYHCAIF/8QAJhAAAQMDAwMFAQAAAAAAAAAAAQIDBQAEEQYHIRIiMRMUQVFh0f/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCmtLWK5GYYYbHctQAURkJP2atHXO3snYwC5G+kLZ9lpAwEjmvE23gpmMkfeXNoEWZwHEujk/ypzuI867BvWVrHqU6UdiUOkj9OPmgzyfPFK7dbW04UOoUhY4KSMEUoNN6mSUxai2tbfUOek4zUa0uz6l9GOrccK3iQslWcgHxSlBZF3pGCkHjcXUcwt0jBV0+aUpQf/9k=)![Smiling young man with short hair, collared shirt, black and white headshot against dark background](https://cdn.sanity.io/images/599r6htc/regionalized/ae330457ea18cace6e0a891cf2ad26a1f0329747-1050x1050.jpg?w=1050&h=1050&q=75&fit=max&auto=format)
+
+**Grant Sanderson** is the creator of the YouTube channel [3Blue1Brown](https://www.youtube.com/c/3blue1brown), which offers over 8 million subscribers an animated approach to visualizing mathematics, computer science, and physics. He created the open-source Python library [Manim](https://www.manim.community/) to power the visuals for the videos. He has worked for Khan Academy, lectured at MIT, and contributed to many other popular math outlets.
+
+“The fact that software implementation is on a path to be commoditized and largely automated means design plays a more important role in product development than ever,” says **mathematician and educator Grant Sanderson**, creator of the popular YouTube channel [3Blue1Brown](https://www.youtube.com/c/3blue1brown), which uses animated visualizations to unpack complex concepts in math, physics, and computer science—from [how neural networks are structured](https://www.youtube.com/watch?v=aircAruvnKk) to [summaries on quantum computing](https://www.youtube.com/watch?v=RQWpF2Gb-gU).
+
+In his view, products that give users more agency and flexibility—rather than limiting them to a few actions or workflows—will stand out. “Truly great products offer a foundation for making their users swifter in a wide range of tasks,” says Grant. In this sense, quality means letting users adapt the tool for their own workflows.
+
+## [On who we’re building for—and why](#on-who-we-re-building-for-and-why)
+
+We are quickly moving towards a future where not all users will be human, which means designers need to reconsider who they are building for. “What happens when most of your users are AI agents?” wonders Matthew. “What happens when your human users expect everything to be easily automated? What happens when your users can easily vibe-code replacements for the parts of your app that aren’t a perfect fit for their use case? Product _strategy_—not just how to build fast and at quality, but what to build and for whom—is the existential question.”
+
+Vicki echoes this sentiment, adding that “the role of product builders may evolve toward orchestration: not just coordinating AI agents, but designing tools and spaces where many kinds of expertise can contribute in tandem.” She urges us to think about building systems not just for personal productivity, but for services that shape communities, like public transportation or medical care. “There is already enormous wisdom in how people live within these systems,” she says. “Our job is to create structures that can hold and shape it.”
+
+_Config returns to San Francisco June 23–25, 2026. [Grab your in-person ticket today or register for free](https://config.figma.com/san-francisco/register/) to watch virtually from anywhere in the world._
