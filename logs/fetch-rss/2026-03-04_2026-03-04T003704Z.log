@@ -1,0 +1,58 @@
+articles_dir=2026-03-04
+exit_code=0
+timestamp_utc=2026-03-04T00:37:04Z
+
+---- issue lines ----
+9:Failed to fetch feed Vercel: Invalid time value
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-04/design-first-collaboration.md
+📥 Processing: AI Tooling for Software Engineers in 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-04/ai-tooling-for-software-engineers-in-2026.md
+📥 Processing: The Lookback: A Digital Capsule for Better Off® Studio’s Creative Past
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-04/the-lookback-a-digital-capsule-for-better-off-studios-creative-past.md
+📥 Processing: Old Music Friday
+⚠️ Content too short (148 chars < 200): https://bradfrost.com/blog/link/old-music-friday/
+🔄 Readability failed, trying Playwright: https://bradfrost.com/blog/link/old-music-friday/
+✅ Playwright successfully fetched: https://bradfrost.com/blog/link/old-music-friday/
+⚠️ Content too short (148 chars < 200): https://bradfrost.com/blog/link/old-music-friday/
+⚠️ Using RSS content as fallback for: https://bradfrost.com/blog/link/old-music-friday/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-04/old-music-friday.md
+📥 Processing: Storybook 💙 npmx
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-04/storybook-npmx.md
+📥 Processing: Now Shipping: Accessible UX Research, A New Smashing Book By Michele Williams
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-04/now-shipping-accessible-ux-research-a-new-smashing-book-by-michele-williams.md
+📥 Processing: How to Build KPI Trees with AI: A Miro Sidekick Implementation Guide
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-04/how-to-build-kpi-trees-with-ai-a-miro-sidekick-implementation-guide.md
+📥 Processing: Web Components × Litが便利! ReactでもVueでも、どこでも使えるコンポーネントを作ろう
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-04/web-components-lit-reactvue.md
+📥 Processing: Finding an accessibility-first culture in npmx
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-04/finding-an-accessibility-first-culture-in-npmx.md
+📥 Processing: Supporting additional payment methods for agentic commerce 
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-04/supporting-additional-payment-methods-for-agentic-commerce.md
+📥 Processing: Our Config 2026 speakers on the biggest opportunities with AI
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-04/our-config-2026-speakers-on-the-biggest-opportunities-with-ai.md
+📥 Processing: EMConf JP 2026にOperation Supportersとして協賛します #emconf_jp
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-04/emconf-jp-2026operation-supporters-emconf_jp.md
+📥 Processing: Designing for Dependence: When UX Turns Tools into Traps
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-04/designing-for-dependence-when-ux-turns-tools-into-traps.md
+📥 Processing: Set Safe Defaults for Flags
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-04/set-safe-defaults-for-flags.md
+📥 Processing: The speed of trust: How slow pages hurt your brand
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-04/the-speed-of-trust-how-slow-pages-hurt-your-brand.md
+
+📊 Summary:
+   ✅ Success: 23
+   ❌ Errors: 0
+🏁 Done!
