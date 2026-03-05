@@ -1,0 +1,77 @@
+---
+title: "3 ways product teams are building conviction faster with Figma Make"
+source: "https://www.figma.com/blog/3-ways-product-teams-are-building-conviction-faster-with-figma-make/"
+publishedDate: "2026-03-04"
+category: "design"
+feedName: "Figma Blog"
+---
+
+Product managers have always been translators. They move between customer insights, design intent, and engineering constraints, using these inputs to align teams around concrete decisions. Tools like Figma Make are changing how that translation happens. [Instead of relying on PRDs](https://www.figma.com/blog/prototypes-are-the-new-prds/)
+
+or static mockups, PMs can now create interactive prototypes that show how a product looks and behaves. That higher-fidelity starting point makes it easier to gather early input from designers and engineers, test ideas with users, and adjust before work goes too far.
+
+It’s not just about moving faster. When teams can see and interact with an idea earlier, they make more informed decisions and ship products that better meet real user needs. We spoke with product leaders at ServiceNow, Ticketmaster, and Affirm about how they’re using Figma Make to substantiate abstract concepts, gather feedback, and explore more broadly.
+
+[![Illustration of a tree growing from circuit-like roots, with UI panels and charts branching out like leaves.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC70lEQVR4nBXP209bBQCA8TMW9zDjYmJ0c2Zxarh1QG9AS2/0Qrn0ynq1dD29nLanpy0to+MUegGkI1RcTXBTlmVZcDFZ5l+gL/5rn+H1e/p9gsXVpJLscCkd8TylEvbX0C7lMCzJSPVz3l++58PhCMkro11MMbWRYjqSZjKQZcKZZcaVRO+IozNlMdtlhExtxOVvV/z38jVXz44RJRV9SMHoUthp/8q/Hz/wz/k5lZCE1pVmei3DYjiHW9pmPlNHE8owt7aFwZ1hwZpFqOz/zsWff3P55g2q2iFWP8CQbmIMyjQOhvz19h2vjk6IxfPo1tPMuETsEYVU/5jVpyr2x09IPBb5MVHC6yshRLI9CuqQjNrDX67hzDWYSSg8CuYIpHcpVk7IKx38xQbz4QKTyyKLyQap3hk+uU00XuBi74BXz0dUn/6MYIoWWYmXScREIpEszqjMbKTM+GqeaXsBR2CHXOuM+tmIze09ZjbzaMIV3GIbe6LGaqrKYHjBH1cf6Y7eIeiLNRypOqGgTOZJi9z+CdHDAU5ZRReSWIpWSO0N2B29pHY6ZEVqMr1RQLNR4JE3h8mvkK8MaB1fkO0NEaYi16LrnV2CxT7S4JzM6S/EWh2Sskwsp+DINPE1ulRPXhCvdtEHJSY8GWY9ZQLxNp3aT/SfDQgrXYQJ6xaTwTyaUIUFn4ItUsUQU7AmJcrVbRqNDrboNtqQQkDsshbfResWGbem0QeqJJtHHJ0O6ffPiBeOEJzmDTwrftyuIC5zAPv8OvNmD3avBzERQd7K4V+PYbcFWLFu4jWHsOu8mObcWKw+fLEY6XySdCRBcDmGUDaNU7NPUXdMoZi/R9Lfp2C8S8l8l6rlG+rWb6naHlKxPkRefEDZeB9Je4/83FfkdV9TsnyHsvwDpYUHiJp7CK3Z23QtX3C4/CUd06eo+pu0jTc4WBijbRhj33iLnu0Oh4479Cy36Jqu2xiq/gZtwyd0lz6jZ/kc1XCbHc1N/gdv874J7xplUQAAAABJRU5ErkJggg==)![Illustration of a tree growing from circuit-like roots, with UI panels and charts branching out like leaves.](https://cdn.sanity.io/images/599r6htc/regionalized/4f9b1a8b5b7655e395fcca24f76d0f0b0592f22e-3264x1836.png?w=3264&h=1836&q=75&fit=max&auto=format)](https://www.figma.com/reports/pm-field-guide/)
+
+In "[The PM field guide for the AI era](https://www.figma.com/reports/pm-field-guide/)," product leaders offer practical insights on how to guide teams from idea to shipped product. Dive into the guide to learn more.
+
+ServiceNow Product Director Ram Devanathan focuses on shipping products that help IT teams monitor systems, troubleshoot issues, and optimize their operations. To do this, Ram works with a design team that supports multiple product groups across ServiceNow. This means that designers may have competing priorities. “They have a big portfolio,” Ram says, “so they can’t always pivot directly to my project.” Plus, when designers are pulled in, they don’t always have the same depth of knowledge as others on his product team.
+
+Recently, Ram needed to redesign a complex configuration page on their customer dashboards with roughly 15 to 20 settings, ranging from simple toggles to more advanced technical options that required careful setup. For IT teams managing critical systems, adjusting these settings can change how issues are raised and prioritized, and how much strain is placed on the system. Without a clear structure and in-product cues to guide them, even experienced users could get confused. He set out to change this, but while collaborating with design, he found it difficult to convey the hierarchy, contextual guidance, and tone he wanted users to feel. The resulting mockup was functional but didn’t fully capture the nuance Ram had in mind.
+
+For organizations with shared design resources like ServiceNow, [Make templates](https://help.figma.com/hc/en-us/articles/34716344138519-Create-and-update-a-template-in-Figma-Make) offer a solution: Teams can publish templates with design systems and UX patterns built in, giving PMs a consistent starting point that reduces the need for designer involvement in early iterations.
+
+![ServiceNow LEAP Settings page showing configurable cost, time, priority multipliers, and incident grouping options with Save Changes controls.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAACxLAAAsSwGlPZapAAAB6ElEQVR4nIVUCZLCMAzr/7/KQnO7ueod2QmEY5fOaAJtoljyscVIfNsNXy4//HO9sTGWQ4h8HJlzLgL8Jjpkba3xeZ78+pznybV13mIi3o3l621n6zzHmMZhJQBSInbOC/ANpL33J7TWudbGGx2ZQ0wM4iMXLqW+Ae9xUQi6L5fCtdYnFKBU3iAp0cG0SMQH3AYJWEttQ3rhoxT5j4hW1Na5lMYbJPkQ2TnH3nvxD7ImMaKZkeJQ76f4BRtX9OkhHUVIrLWCGB8JUSKsKhFerfl4J2y85VJFsvMw3UkyIEHNPu+ma1TP2cX7OuX3QaimZ5E7CdeDHyrkXiY4S8Oe6blECIkgM8YwEcnN3x4QSkITyfmFsElZIEJ4SC8R/k+YhRCrENaFEMnwPsht8I4H52s270nojwjzlIzCzlmTgtIBsAHePBIzk/MOqdGiNYvuQX1uMBUtte+GrUUthmF0VuJBiAMzozPjQB91qRnvvCEiDISb9LLjlJKQrR2DtsI+tOgcEH/2coxJogOhsY6jED739Owm77WL9KI/ejkRSWS7MRIpCjyleUhlolPm5Fnfv6JMDzG2QGYsCAPHpKNLpwo2r9F8JtMom3oo8/C6i3RII9Jo1nL4jkGIw85jOHglE1mf5+K/GIS/Jg/ScCT5NDIAAAAASUVORK5CYII=)![ServiceNow LEAP Settings page showing configurable cost, time, priority multipliers, and incident grouping options with Save Changes controls.](https://cdn.sanity.io/images/599r6htc/regionalized/6d3acffb1d538d6bdca5e8fca2481cbfd6a81908-4692x4572.png?rect=0,2,4692,4569&w=804&h=783&q=75&fit=max&auto=format)
+
+Ram created a prototype in Figma Make to show how the configuration page could feel clearer and less overwhelming.
+
+Ram needed a better way to communicate his intent. So, he brought a designer's initial mockup into [Figma Make](https://www.figma.com/blog/8-ways-to-build-with-figma-make/)
+
+, then added specific guidance about how the settings should be structured. Make generated a redesigned interface that grouped settings logically, placed simple configurations at the top, added tooltips to explain individual options, and surfaced a clear note that users would need to restart the service after making changes. Structurally, the hierarchy was clearer for users navigating complex technical settings, and tonally, the experience felt less overwhelming. The prototype helped Ram and his designer align quickly on the UX direction and move forward. “This was a huge improvement over hand-waving explanations,” Ram says. “Make helped me show what I meant rather than trying to describe it in the abstract.”
+
+For Ram, this experience underscores a broader shift he’s seeing in product work. “I’m able to explain my ideas better,” he says. “I’m able to convince people faster. That reduces the whole cycle for me.”
+
+> Make helped me show what I meant rather than trying to describe it in the abstract.
+
+Ram Devanathan, Product Manager, ServiceNow
+
+## [2\. Validating new features before building](#_2-validating-new-features-before-building)
+
+When thousands of fans are eagerly trying to buy concert tickets at the same time, Ticketmaster relies on internal dashboards to monitor sales and troubleshoot issues in real time. Product Manager Brian Muehlenkamp is responsible for these tools. His primary dashboard supports roughly 400 Ticketmaster employees across client support, marketplace operations, and technical teams, all working to keep high-demand ticket sales running smoothly.
+
+During live ticket launches, client support teams field real-time questions on calls about how the sale is performing. They need quick context—how this on-sale compares to the last one, or what happened in a previous sales window—so they can make decisions and respond confidently. To get answers, these teams had to request manual data pulls—meaning the information sometimes wasn’t available when it was needed, often in the middle of a client conversation. Brian set out to change that. Experimenting with Databricks’ natural-language query tool—a tool that translates plain-English questions into commands that pull the right data—he realized he could integrate it with Ticketmaster’s systems and embed it directly into the dashboard, bringing that AI assistant to where users already worked. The idea wasn’t on the roadmap, but a solution seemed clear.
+
+[Embedding a Figma Make prototype](https://www.figma.com/blog/introducing-figma-make-embeds/) into FigJam, Figma Design, or Figma Slides makes it easier to align stakeholders around an idea and gather feedback in one place.
+
+To determine how the feature would fit into the dashboard's existing UI, he turned to Figma Make to prototype a few directions. Should the chat experience take over the screen, or live as a side panel? If a side panel, should it push the dashboard over or sit on top of it? “The old way of prototyping meant presenting screenshots and pretending they were a wireframe,” Brian says. With Figma Make, he could put something in front of users that felt close to the real product—built using Ticketmaster’s design patterns and UI conventions. Power users confirmed the side panel felt intuitive and let them keep monitoring the dashboard while asking questions, and their feedback gave him the confidence to hand the feature off to engineering to get it built.
+
+![Internal Ticketmaster dashboard prototype with “The Wizard” AI chat panel showing live ticket sales data alongside existing metrics.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC+0lEQVR4nI2VzW7TQBSF/QbUP2Mntsf/cRzbcZOUFhASEkIgWLBAggWVEAvYg5BYABLwHOxZAo940LkTl7SkhcWXcSaeM/fOnHtjldkKd248xcnxI9SLNcq6F/KqxTQu4PoxHBVdievH8AIto5VnA06OH2PY3ENZL0UoL1tkRSOC5sVoh3gvXqAFK5jmiNMWYTrHJMrP4U9TqEkiL6qJYXweI3LPicawXBUhCDPorEZWLlDMOomSz2nRmLmKcwuJXDKoWnmfG7r++fQtKifZHN3yOg43N4VhdQOLfoN5u0LbH6EbjuV702/QLq8Ls2bYe8YWJ7hb063RLo9kYd0cIs3niNMZkqxGktfQaYU4qaDTmRAnJfyJhqNCOF5oRhXC4hmFuoROaxl5dsE0kzNyfA1nksIJczhhAWe6Rb6bOXuaCw4JElhcyLMw57ETvhfCjiocHN2H/eAl7Eevr+buKQ6GOybl0Ut/BGMjmPc4ePIG7ofvUF9/QX35CU/4IbifDfzNffsNBw9fwaKAzcVyDub5LMK4xrXbT2A/ew/39BPc049wdrCfm9F/8RnBs3fwbj02gqMxeZ67ePRhModXLKHKAd4Wt+jh5B3srIWddfKbXw5QujYp04dyo/lcbnwcSZrXSDk33ng2Q6S3N8xsttDPRCLk7dK8rGEamYLcgIzCUTozJJX4T/H2edZqjw+5kP5brk7Ej6wEio5QkFlcLLV9jcLiB3elEKuEomLuxaHAamHk9Oe/uo4zCjIF1jArhCIsq7GNVdsONJreGP+CZ9WelCnEKMmiMxFyEzYIwtTHkSVIF+wV9AItgoxqTJMwOs6fRRVm29G0tUsjVFLLhew6psNa5iKp5/84N+dihH5oatk0hAjOJV35aiLzF8BqCOitrMY0nZ1jklQIdHkpKirgTUwgYxe3VFxCN4co+w3Kbn1G0a2RNQN03UHP2r+IaaViIaLMLghTqCnbly4RNyvk/RHyfr3DBmm7gp4vZfHfLEXQC3O58fH/5zdtWH7Xkk1YVAAAAABJRU5ErkJggg==)![Internal Ticketmaster dashboard prototype with “The Wizard” AI chat panel showing live ticket sales data alongside existing metrics.](https://cdn.sanity.io/images/599r6htc/regionalized/7cc1d3afdfe097a095e6d5fa1d9ed2d51c235eef-1060x1234.png?rect=1,0,1059,1234&w=528&h=615&q=75&fit=max&auto=format)
+
+Brian prototyped “The Wizard,” an internal AI assistant, to surface live ticket sales insights in real time.
+
+The resulting feature—dubbed "The Wizard" internally—has given teams a self-serve way to get answers without waiting on a data pull. Client-facing teams can now take questions directly from clients and get answers on the spot. “It's gone from ‘let me talk to the team and get back to you,’ to ‘I can tell you right now,’” says Brian. The engineering team saw a meaningful drop in ad-hoc data requests, which freed them up to focus elsewhere. Since then, Brian has prototyped four other new features in three months, and it’s been so effective in validating ideas that the leadership team has asked him to share the process with other PMs across the organization. “Figma Make has shortened the path from idea to finished feature in a way I can't imagine replacing,” Brian says.
+
+> Figma Make has shortened the path from idea to finished feature in a way I can't imagine replacing.
+
+Brian Muehlenkamp, Product Manager, Ticketmaster
+
+## [3\. Making space for experimentation](#_3-making-space-for-experimentation)
+
+Affirm was founded on the belief that financial products should earn trust through transparency. Affirm Senior Vice President of Product Vishal Kapoor helps his team translate that belief into product experiences. Instead of offering an open-ended line of credit, Affirm underwrites each transaction in real time and presents eligible shoppers with clear payment plans at checkout—typically options like 6 weeks, 6 months, or 12 months.
+
+To understand how to help users choose the best plan for their needs, the team synthesized their customer insights. They knew that shoppers gravitated toward different plans for different reasons. Some scanned for 0% APR offers. Others preferred the shortest repayment period. Others optimized for flexibility to manage cash flow. The checkout flow needed badging to make those distinctions explicit. But which badges should be shown, and when? Should they all be shown at once, or would that overwhelm the customer?
+
+Affirm loads its design artifacts into [Figma’s MCP server](https://www.figma.com/blog/design-systems-ai-mcp/), which connects those designs directly to coding tools like Cursor. That makes it easier to turn a prototype into a working, “good enough” version engineers can build from.
+
+In the past, exploring that problem space would have meant writing a PRD, waiting for design mocks, and then going through engineering cycles before seeing live traffic. Instead, a product manager used Figma Make to quickly prototype different badge variations—signals like “0% APR” or “shortest plan”—and bring them into internal design and product reviews. “With tools like Figma Make, we are now able to quickly come to these prototypes,” Vishal says. “Instead of it taking six weeks for me to think about an idea and then see what it looks like in action, it takes just a few hours.”
+
+Testing multiple iterations side-by-side and exploring every outstanding question is, says Vishal, key to craft and quality. “The real work lives in the variations, rabbit holes, and edge cases,” he says. “It requires a lot of thinking, a lot of precision, and a lot of love.” Figma Make gave the team a way to explore those variations more fully and test different options side by side before making a decision, instead of debating them in the abstract.
+
+> The real work lives in the variations, rabbit holes, and edge cases.
+
+Vishal Kapoor, SVP of Product, Affirm
+
+The team eventually shipped a variation of the idea, but more importantly, the ability to prototype quickly and follow their curiosity in many directions has changed how Vishal’s team approaches experimentation. “Figma Make has exploded the number of ideas that we can actually explore at any given time with high fidelity,” he says.
+
+From validating ideas with users to aligning with developers and leadership, product managers are using Figma Make to move faster and build confidence in what they ship. [Learn more about how to navigate the evolving landscape of PM work.](https://www.figma.com/reports/pm-field-guide/)
