@@ -25803,7 +25803,55 @@
     "https://www.speedcurve.com/blog/brand-perception": {
       "contentHash": "8faaf978e1c778f90b8a6e075a9cc48024060182530f63b6df7217505c9c4872",
       "processedAt": "2026-03-04T00:37:04.138Z"
+    },
+    "https://www.jonkolko.com/writing/a-design-turn": {
+      "contentHash": "0b435317696c67551c41d58405552e06c3139077b9fc9e770598e0f5316c6189",
+      "processedAt": "2026-03-05T00:37:29.018Z"
+    },
+    "https://edition.cnn.com/interactive/science/artemis-nasa-moon-landing-plans-vis/": {
+      "contentHash": "04d5f604f502e1aa3b87fecd012235b4ad6ad9b48ee34977e79ffb0e5e76384a",
+      "processedAt": "2026-03-05T00:37:29.501Z"
+    },
+    "https://typescale.ai/": {
+      "contentHash": "f92de56242b36be2e9ba63351ba4252d3a6f75d19d0285e8171c03b4ad691054",
+      "processedAt": "2026-03-05T00:37:30.638Z"
+    },
+    "https://dropleaf.app/d/AlXez8scbd": {
+      "contentHash": "facbae49cb536dc663239733c9a93b10661211e2b08cad8c539b3e9c0de50734",
+      "processedAt": "2026-03-05T00:37:37.458Z"
+    },
+    "https://karlkoch.me/writing/on-adding-homepage-delight": {
+      "contentHash": "bd3a8e05900b15d9419454a5a0c098363bb9b0b5867885a267b603fef413c2b4",
+      "processedAt": "2026-03-05T00:38:18.442Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/building-claude-code-with-boris-cherny": {
+      "contentHash": "235afe8d7fa4be6c3dec8a6e3093be874ea0414ff975b0e1d5b07c0f8fcdc69d",
+      "processedAt": "2026-03-05T00:38:18.981Z"
+    },
+    "https://tympanus.net/codrops/2026/03/04/webgl-for-designers-creating-interactive-shader-driven-graphics-directly-in-the-browser/": {
+      "contentHash": "8080fab101868756e82453a7d4122dde52818ab7d78e25711d4b79cc93198151",
+      "processedAt": "2026-03-05T00:38:20.275Z"
+    },
+    "https://piccalil.li/the-index/169/?ref=main-rss-feed": {
+      "contentHash": "f4abc64b08705eb3bd395b2d5a71ec3dc8d998a336fca478f3ce7617713dce81",
+      "processedAt": "2026-03-05T00:38:20.504Z"
+    },
+    "https://www.figma.com/blog/3-ways-product-teams-are-building-conviction-faster-with-figma-make/": {
+      "contentHash": "c1743c274066e3d666e6b662cbbd7e54a1a961aa9ab63c789fc0d829cc8b639d",
+      "processedAt": "2026-03-05T00:39:00.364Z"
+    },
+    "https://frontendfoc.us/issues/731": {
+      "contentHash": "84c2e362ba7a51d8680123c7acd81a7c43ec61fe9e6c9dd64c3a66fb67ff9ce4",
+      "processedAt": "2026-03-05T00:39:01.270Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/03/05/091302": {
+      "contentHash": "4ea54182b178ca950e50ef1963780b5ed98b087f7d3da5696a8cc082ef7fc109",
+      "processedAt": "2026-03-05T00:39:02.014Z"
+    },
+    "https://thisweekinreact.com/newsletter/271": {
+      "contentHash": "48ba7300517ea5a30a6852434ce99ba99278308c487ea44686b9cee888c8c31f",
+      "processedAt": "2026-03-05T00:39:02.508Z"
     }
   },
-  "lastRun": "2026-03-04T00:37:04.138Z"
+  "lastRun": "2026-03-05T00:39:02.508Z"
 }
