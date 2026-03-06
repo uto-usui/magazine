@@ -25851,7 +25851,59 @@
     "https://thisweekinreact.com/newsletter/271": {
       "contentHash": "48ba7300517ea5a30a6852434ce99ba99278308c487ea44686b9cee888c8c31f",
       "processedAt": "2026-03-05T00:39:02.508Z"
+    },
+    "https://adrianroselli.com/2026/03/your-browser-can-already-speak-a-page.html": {
+      "contentHash": "b60c479159e49bf08a09089f5c85c395cf86c34e15a069dbb34d6d6a7be6d791",
+      "processedAt": "2026-03-06T00:41:09.868Z"
+    },
+    "https://terriblesoftware.org/2026/03/03/nobody-gets-promoted-for-simplicity/": {
+      "contentHash": "660f94c9aac9270959f085b55850688c8a8cc0ee56d010c01f47f74b05723d7f",
+      "processedAt": "2026-03-06T00:41:10.364Z"
+    },
+    "https://infiniteundo.com/post/25326999628/falsehoods-programmers-believe-about-time": {
+      "contentHash": "3a3aef8f8609e383d724ef79c113dd4b09e26c930153b4188db5c133ceaef1b8",
+      "processedAt": "2026-03-06T00:41:12.942Z"
+    },
+    "https://cursor.com/blog/cursor-support": {
+      "contentHash": "6a21bc4aca74cc8fe96f578a530273b47b14f4ebd454f99f1e7b0aa1964d4abd",
+      "processedAt": "2026-03-06T00:41:13.311Z"
+    },
+    "https://library.obys.agency/": {
+      "contentHash": "3f4a35441abcb26c8638dad20ef86a6695dfb43171790803ad27a6e35c55c2d2",
+      "processedAt": "2026-03-06T00:41:14.483Z"
+    },
+    "https://dbushell.com/2026/02/20/visually-hidden/": {
+      "contentHash": "3bd9b05c90fe229d6c951c4e04f58c56e8451966f131d0dfdb017a0289b80fc8",
+      "processedAt": "2026-03-06T00:41:15.410Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-164": {
+      "contentHash": "2d7dae4b4c94c2bfc1c85c4c9e5bb91d1c51472b06e5bc1c7e2f26dfe0e467f3",
+      "processedAt": "2026-03-06T00:41:15.738Z"
+    },
+    "https://tympanus.net/codrops/2026/03/05/inside-corentin-bernadous-portfolio-swiss-inspired-layouts-webgl-geometry-and-thoughtful-motion/": {
+      "contentHash": "e15eba5614486978477897d842df00c336d2e3c235f122d58ad7d7857c750a08",
+      "processedAt": "2026-03-06T00:41:17.618Z"
+    },
+    "https://www.bitovi.com/blog/how-to-build-flexible-table-components-in-figma-using-slots": {
+      "contentHash": "97280ed57403003f28d808e83ac978da6c58b7d0928c5d30d138689e6adccdd5",
+      "processedAt": "2026-03-06T00:41:18.105Z"
+    },
+    "https://www.figma.com/blog/supercharge-your-design-system-with-slots/": {
+      "contentHash": "25538ca2d7725b03c8322c92b8921ead350a591ed7c1e2edb35a0192ea64a8b7",
+      "processedAt": "2026-03-06T00:41:49.688Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/03/05/140421": {
+      "contentHash": "23ea139b7e327e9b867d3087a2cdc42a642741f63deee5d7df3131b095c89746",
+      "processedAt": "2026-03-06T00:41:50.665Z"
+    },
+    "https://feeds.baymard.com/link/9825/17293719/home-and-hardware-ux-benchmark-2026": {
+      "contentHash": "a2a684c17929d9daba88c5b61b2899d0c31eb3be73a5af2fa12b507656129803",
+      "processedAt": "2026-03-06T00:41:58.605Z"
+    },
+    "https://uxmag.com/articles/unhappy-agile-teams-are-unhappy-in-familiar-ways": {
+      "contentHash": "6a56d5441ad44ea9d09f93c51c32604072c6efe1e2dfe327abf919eeff25a3bc",
+      "processedAt": "2026-03-06T00:42:00.243Z"
     }
   },
-  "lastRun": "2026-03-05T00:39:02.508Z"
+  "lastRun": "2026-03-06T00:42:00.243Z"
 }
