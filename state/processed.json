@@ -25903,7 +25903,63 @@
     "https://uxmag.com/articles/unhappy-agile-teams-are-unhappy-in-familiar-ways": {
       "contentHash": "6a56d5441ad44ea9d09f93c51c32604072c6efe1e2dfe327abf919eeff25a3bc",
       "processedAt": "2026-03-06T00:42:00.243Z"
+    },
+    "https://every.to/source-code/how-to-design-software-with-weight": {
+      "contentHash": "21187d97fbed2a8c0dd5707906358ba2b1f81ae30058fc2f62a00e33d9bd03dd",
+      "processedAt": "2026-03-07T00:35:45.446Z"
+    },
+    "https://lmnt.me/blog/have-we-forgotten-how-to-design.html": {
+      "contentHash": "19df201da4aad65b59a7d08205a7766065c9ba45a83bc83b69558d08f874e1c7",
+      "processedAt": "2026-03-07T00:35:45.880Z"
+    },
+    "https://mw.rat.bz/wgterm/": {
+      "contentHash": "291bcf3451c0078195ca8bf8b0c8ea41efc1d1295ea032a36cdcb7da6b381a00",
+      "processedAt": "2026-03-07T00:35:46.989Z"
+    },
+    "https://danielmiessler.com/blog/the-great-transition": {
+      "contentHash": "ae40c0f73e15ed0059b2680d636bbc3d72ed928ad531b44269e511ce60fe3e2d",
+      "processedAt": "2026-03-07T00:35:47.472Z"
+    },
+    "https://tympanus.net/codrops/2026/03/06/obys-the-small-studio-designing-big-digital-narratives/": {
+      "contentHash": "457c212251810951df399f528b0387f2cebf59a4fdcfd9e609999c8ba8fde694",
+      "processedAt": "2026-03-07T00:35:49.537Z"
+    },
+    "https://smashingmagazine.com/2026/03/human-strategy-ai-accelerated-workflow/": {
+      "contentHash": "32f2713b4a40276a7de70526f30443d893206c774d5ad89bb8513404cfb7f008",
+      "processedAt": "2026-03-07T00:35:51.118Z"
+    },
+    "https://piccalil.li/the-index/170/?ref=main-rss-feed": {
+      "contentHash": "9fb89d6a250921e5f47abf8ad4a31be0d5e7e266d965f13f0b6bd0f42eff1ff6",
+      "processedAt": "2026-03-07T00:35:51.457Z"
+    },
+    "https://tech.layerx.co.jp/entry/deim2026_report": {
+      "contentHash": "c4c347bfd6e792864fa3d078a12d1c0f188eec93e6d3fe633e7dbc6484144dde",
+      "processedAt": "2026-03-07T00:35:54.250Z"
+    },
+    "https://tech.layerx.co.jp/entry/nlp2026-sponsor": {
+      "contentHash": "9b91202d7e9dd37edb2b7927e465818437bf0d42331e5d301e4a60b490c9621b",
+      "processedAt": "2026-03-07T00:35:55.762Z"
+    },
+    "https://www.writewithdrkat.com/blog/my-smartest-ux-writing-investments": {
+      "contentHash": "0205b4e524daef7868d384f170a864142238cbaec0486f3077e2f458c78bbf98",
+      "processedAt": "2026-03-07T00:35:56.111Z"
+    },
+    "https://www.nngroup.com/articles/genui-buttons-and-checkboxes/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "0b5a13e0c195b21807cc3bd6fa3e4fdbfbec3cd4628dddb80a555863894f8d62",
+      "processedAt": "2026-03-07T00:35:57.583Z"
+    },
+    "https://www.nngroup.com/articles/practical-significance/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "a5ad61911cfa8ed17592d501e165c6c2d1806dfd178c1f36713110ac68a07fd2",
+      "processedAt": "2026-03-07T00:35:58.662Z"
+    },
+    "https://www.nngroup.com/training/july-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "c4745f969705c789213ee0c9bee8e270ebc167613a1dfa18f33b6315d003a03f",
+      "processedAt": "2026-03-07T00:35:59.518Z"
+    },
+    "https://react.statuscode.com/issues/465": {
+      "contentHash": "1363ea6a76503e5d98000c9b7af95cd153915f05c61b45e2c97196f059858f0d",
+      "processedAt": "2026-03-07T00:36:00.049Z"
     }
   },
-  "lastRun": "2026-03-06T00:42:00.243Z"
+  "lastRun": "2026-03-07T00:36:00.049Z"
 }
