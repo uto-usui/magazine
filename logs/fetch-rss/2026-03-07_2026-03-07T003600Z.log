@@ -1,0 +1,54 @@
+articles_dir=2026-03-07
+exit_code=0
+timestamp_utc=2026-03-07T00:36:00Z
+
+---- issue lines ----
+8:Failed to fetch feed Vercel: Invalid time value
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+Failed to fetch feed Vercel: Invalid time value
+📰 Found 4015 total articles
+✨ New articles: 14
+⏭️ Skipped (already processed): 441
+📥 Processing: How to design software with weight
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-07/how-to-design-software-with-weight.md
+📥 Processing: Have we forgotten how to design?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-07/have-we-forgotten-how-to-design.md
+📥 Processing: WarGames Terminal Fonts
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-07/wargames-terminal-fonts.md
+📥 Processing: The great transition
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-07/the-great-transition.md
+📥 Processing: Obys: The Small Studio Designing Big Digital Narratives
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-07/obys-the-small-studio-designing-big-digital-narratives.md
+📥 Processing: Human Strategy In An AI-Accelerated Workflow
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-07/human-strategy-in-an-ai-accelerated-workflow.md
+📥 Processing: The Index: Issue #170
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-07/the-index-issue-170.md
+📥 Processing: DEIM2026参加レポート
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-07/deim2026.md
+📥 Processing: NLP2026（言語処理学会第32回年次大会）にプラチナスポンサーとして協賛します
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-07/nlp202632.md
+📥 Processing: My Smartest Investments As A UX Writer In 2024 
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-07/my-smartest-investments-as-a-ux-writer-in-2024.md
+📥 Processing: The Most Exciting Development in GenUI: Buttons and Checkboxes
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-07/the-most-exciting-development-in-genui-buttons-and-checkboxes.md
+📥 Processing: Statistical Significance Isn’t the Same as Practical Significance
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-07/statistical-significance-isnt-the-same-as-practical-significance.md
+📥 Processing: UX Conference July Announced (Jul 6 - Jul 14)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-07/ux-conference-july-announced-jul-6-jul-14.md
+📥 Processing: How React’s Activity component helps keep state alive
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-07/how-reacts-activity-component-helps-keep-state-alive.md
+
+📊 Summary:
+   ✅ Success: 14
+   ❌ Errors: 0
+🏁 Done!
