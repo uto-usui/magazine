@@ -25959,7 +25959,11 @@
     "https://react.statuscode.com/issues/465": {
       "contentHash": "1363ea6a76503e5d98000c9b7af95cd153915f05c61b45e2c97196f059858f0d",
       "processedAt": "2026-03-07T00:36:00.049Z"
+    },
+    "https://stephaniewalter.design/blog/your-menu-doesnt-need-millers-7-plus-minus-2-rule/": {
+      "contentHash": "39a85dbd1387f5927d4b8210805edb2499bbbc1db0e87602f1e9b9d7856006c3",
+      "processedAt": "2026-03-09T00:37:51.147Z"
     }
   },
-  "lastRun": "2026-03-07T00:36:00.049Z"
+  "lastRun": "2026-03-09T00:37:51.147Z"
 }
