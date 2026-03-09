@@ -1,0 +1,27 @@
+articles_dir=2026-03-09
+exit_code=0
+timestamp_utc=2026-03-09T00:37:51Z
+
+---- issue lines ----
+8:Failed to fetch feed Vercel: Invalid time value
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+Failed to fetch feed Vercel: Invalid time value
+⏳ Retry feed fetch 1/3 for Amy Hupe after transient error: Request timed out after 15000ms
+📰 Found 4015 total articles
+✨ New articles: 1
+⏭️ Skipped (already processed): 442
+📥 Processing: Your menu doesn’t need Miller’s 7±2 rule
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-09/your-menu-doesnt-need-millers-72-rule.md
+
+📊 Summary:
+   ✅ Success: 1
+   ❌ Errors: 0
+🏁 Done!
