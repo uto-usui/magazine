@@ -1,0 +1,57 @@
+articles_dir=2026-03-10
+exit_code=0
+timestamp_utc=2026-03-10T00:34:46Z
+
+---- issue lines ----
+9:Failed to fetch feed Vercel: Invalid time value
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+⏳ Retry feed fetch 1/3 for Accessibility Weekly after transient error: read ECONNRESET
+Failed to fetch feed Vercel: Invalid time value
+⏳ Retry feed fetch 1/3 for CSS IRL after transient error: Request timed out after 15000ms
+📰 Found 4017 total articles
+✨ New articles: 14
+⏭️ Skipped (already processed): 441
+📥 Processing: How Advanced Browsing Protection Works in Messenger
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-10/how-advanced-browsing-protection-works-in-messenger.md
+📥 Processing: Accessibility People are a Superpower
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-10/accessibility-people-are-a-superpower.md
+📥 Processing: ai.to.design: Prompt → Editable Figma
+🔄 Readability failed, trying Playwright: https://bit.ly/side-div1
+✅ Playwright successfully fetched: https://bit.ly/side-div1
+Image unavailable (HTTP 404), skipping: https://bit.ly/community/icon?resource_id=1595802057883629790&resource_type=plugin
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-10/aitodesign-prompt-editable-figma.md
+📥 Processing: Software isn’t dying, but it is becoming more honest
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-10/software-isnt-dying-but-it-is-becoming-more-honest.md
+📥 Processing: Labor market impacts of AI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-10/labor-market-impacts-of-ai.md
+📥 Processing: The joy of building slow
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-10/the-joy-of-building-slow.md
+📥 Processing: Agentic workflows are not conversations
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-10/agentic-workflows-are-not-conversations.md
+📥 Processing: Building a Scroll-Reactive 3D Gallery with Three.js, Velocity, and Mood-Based Backgrounds
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-10/building-a-scroll-reactive-3d-gallery-with-threejs-velocity-and-mood-based-backgrounds.md
+📥 Processing: A Designer&#8217;s Thoughts About This Moment in AI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-10/a-designer8217s-thoughts-about-this-moment-in-ai.md
+📥 Processing: Persuasive Design: Ten Years Later
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-10/persuasive-design-ten-years-later.md
+📥 Processing: Offloading FFmpeg with Cloudflare
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-10/offloading-ffmpeg-with-cloudflare.md
+📥 Processing: 一度目のミスは「学習機会」。LayerX流・形式知のループの回し方
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-10/layerx.md
+📥 Processing: Product ethics have never mattered more
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-10/product-ethics-have-never-mattered-more.md
+📥 Processing: Your menu doesn’t need Miller’s 7±2 rule
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-10/your-menu-doesnt-need-millers-72-rule.md
+
+📊 Summary:
+   ✅ Success: 14
+   ❌ Errors: 0
+🏁 Done!
