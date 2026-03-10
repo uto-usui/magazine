@@ -25959,7 +25959,63 @@
     "https://react.statuscode.com/issues/465": {
       "contentHash": "1363ea6a76503e5d98000c9b7af95cd153915f05c61b45e2c97196f059858f0d",
       "processedAt": "2026-03-07T00:36:00.049Z"
+    },
+    "https://engineering.fb.com/2026/03/09/security/how-advanced-browsing-protection-works-in-messenger/": {
+      "contentHash": "3306529148c57688514f70e8c838217f2263acdc603e6b67a8d2fb12ef5ad3a3",
+      "processedAt": "2026-03-10T00:34:25.960Z"
+    },
+    "https://a11yweekly.com/issue/490/": {
+      "contentHash": "2a2ca53e5bdd42747420ea4a4c429d3641935585f121a16b58083f7884e6021f",
+      "processedAt": "2026-03-10T00:34:26.140Z"
+    },
+    "https://bit.ly/side-div1": {
+      "contentHash": "498babac8f64c8528b80ba841e7fc6df9a2e5cee47f15a021bb93c154d9882ad",
+      "processedAt": "2026-03-10T00:34:34.542Z"
+    },
+    "https://www.helenmin.com/blog/software-is-becoming-more-honest": {
+      "contentHash": "51db1f805d6efbf8e6760b6a347ced3ebafbb59b4004e2f8e0af66335df07702",
+      "processedAt": "2026-03-10T00:34:34.824Z"
+    },
+    "https://www.anthropic.com/research/labor-market-impacts": {
+      "contentHash": "9bb5347d884d19e7151352234b51900658c17a0889f07913c8e415cc12e5b779",
+      "processedAt": "2026-03-10T00:34:38.748Z"
+    },
+    "https://notbor.ing/words/the-joy-of-building-slow": {
+      "contentHash": "a39b4ba42c040875e8a776cabfa9b50c54beb52c1bff78534fd12a209ae64364",
+      "processedAt": "2026-03-10T00:34:39.078Z"
+    },
+    "https://blog.raed.dev/posts/agentic-workflows-are-not-conversations/": {
+      "contentHash": "3bf22e1767f7913a784b5506deeecff16ef91d8caf76ee9649dce4a58d5b2733",
+      "processedAt": "2026-03-10T00:34:39.344Z"
+    },
+    "https://tympanus.net/codrops/2026/03/09/building-a-scroll-reactive-3d-gallery-with-three-js-velocity-and-mood-based-backgrounds/": {
+      "contentHash": "09791565361c17af91d27d4a3c960b5afd49bb7b142d6dc503e265e4c1278d86",
+      "processedAt": "2026-03-10T00:34:40.639Z"
+    },
+    "https://bradfrost.com/blog/post/a-designers-thoughts-about-this-moment-in-ai/": {
+      "contentHash": "f5cdeba924411aed2a2a9e45d67fc5e6aa4f0b76a77f7cdae2508708f34273f5",
+      "processedAt": "2026-03-10T00:34:40.880Z"
+    },
+    "https://smashingmagazine.com/2026/03/persuasive-design-ten-years-later/": {
+      "contentHash": "24228d500d845702f2557fd8fa7988269dc0937d1300901dbd2a77d87b5e2cc5",
+      "processedAt": "2026-03-10T00:34:42.393Z"
+    },
+    "https://kentcdodds.com/blog/offloading-ffmpeg-with-cloudflare": {
+      "contentHash": "cfda8f60b5360a9796927d28278dd29cc29c8769f8753937d04e7f50d2cc77e1",
+      "processedAt": "2026-03-10T00:34:42.884Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/03/09/140342": {
+      "contentHash": "8721b58b7b5204097a3afc7bb790c8a3793d015e7e82d0bebc9ce16617f94740",
+      "processedAt": "2026-03-10T00:34:44.973Z"
+    },
+    "https://newsletter.uxdesign.cc/p/product-ethics-have-never-mattered": {
+      "contentHash": "1c9c0c5192d6ab703f5f21d4dec5cb8dd4c5ece209da2dc67949678dba4140e5",
+      "processedAt": "2026-03-10T00:34:45.570Z"
+    },
+    "https://stephaniewalter.design/blog/your-menu-doesnt-need-millers-7-plus-minus-2-rule/": {
+      "contentHash": "39a85dbd1387f5927d4b8210805edb2499bbbc1db0e87602f1e9b9d7856006c3",
+      "processedAt": "2026-03-10T00:34:46.485Z"
     }
   },
-  "lastRun": "2026-03-07T00:36:00.049Z"
+  "lastRun": "2026-03-10T00:34:46.485Z"
 }
