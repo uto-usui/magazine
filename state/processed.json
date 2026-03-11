@@ -26015,7 +26015,79 @@
     "https://stephaniewalter.design/blog/your-menu-doesnt-need-millers-7-plus-minus-2-rule/": {
       "contentHash": "39a85dbd1387f5927d4b8210805edb2499bbbc1db0e87602f1e9b9d7856006c3",
       "processedAt": "2026-03-10T00:34:46.485Z"
+    },
+    "https://bit.ly/side-kon1": {
+      "contentHash": "c4ff12fb44be6f8e1b08298693447af212701f940f9defe248a13bb7006f7c06",
+      "processedAt": "2026-03-11T00:35:41.179Z"
+    },
+    "https://www.seangoedecke.com/will-my-job-still-exist/": {
+      "contentHash": "2b673c37babdce251921d6a3f6c27011b0f4063330fe98e1206dabb0ee54feb5",
+      "processedAt": "2026-03-11T00:35:41.410Z"
+    },
+    "https://www.conor.fyi/writing/ai-access": {
+      "contentHash": "7ae3a9cad20859a54413844b1684dd1501469ba887674965a4a567939c1b3674",
+      "processedAt": "2026-03-11T00:35:42.125Z"
+    },
+    "https://grainrad.com/": {
+      "contentHash": "f022a9ff24771f35cc152795d82db62c020292107fcaaf04eeff2eeb73982504",
+      "processedAt": "2026-03-11T00:35:47.901Z"
+    },
+    "https://blog.florianschulz.info/2025/10/typeahead/": {
+      "contentHash": "9de438e1e85d6f8b7d97d87ffa493f4514509a6f84babe88674d054f4001d1ee",
+      "processedAt": "2026-03-11T00:35:50.496Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/how-uber-uses-ai-for-development": {
+      "contentHash": "87bde2a2bbd898993496b26d73690c9d6d48e38f5ad6f64fe9a41b0f909ee174",
+      "processedAt": "2026-03-11T00:35:50.833Z"
+    },
+    "https://smashingmagazine.com/2026/03/building-dynamic-forms-react-next-js/": {
+      "contentHash": "05171b7b68c70c70582fdf86d538c6a60ad38c66d52a9a2ceb33f41ce67bee28",
+      "processedAt": "2026-03-11T00:35:52.130Z"
+    },
+    "https://www.bitovi.com/blog/extend-role-based-authentication-in-self-hosted-temporal-with-helm": {
+      "contentHash": "82932b78a48333be087417ecfa0c7bc99798998a4ff8b478318d4b16b600f400",
+      "processedAt": "2026-03-11T00:35:52.860Z"
+    },
+    "https://kentcdodds.com/blog/migrating-to-workspaces-and-nx": {
+      "contentHash": "1a3e0b15d6627b894420e42fa9c7b1557f3f7ff5dbf8ad9d23f11510d656eac3",
+      "processedAt": "2026-03-11T00:35:53.258Z"
+    },
+    "https://stripe.com/blog/analyzing-first-party-fraud-trends-account-free-trial-and-refund-abuse": {
+      "contentHash": "5af543d03311717f77a2a0b803630363da06cadc83fda581efcce111869fe805",
+      "processedAt": "2026-03-11T00:35:53.780Z"
+    },
+    "https://www.figma.com/blog/skills-for-the-ai-era/": {
+      "contentHash": "c26ca38f9c4035f65185ceb8afdba768ef3ee9ab2847c6fd80acc5086d5f838d",
+      "processedAt": "2026-03-11T00:36:27.835Z"
+    },
+    "https://www.figma.com/blog/vishal-kapoors-10-rules-building-with-ai/": {
+      "contentHash": "79a354f25bdf93a4c59535f02256632ae7d4489ab96664c18fff18f39b9359eb",
+      "processedAt": "2026-03-11T00:37:00.870Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/03/10/165523": {
+      "contentHash": "cc3acf8f53921d85018435829978b55c2ec7f2688c0ee2443579a357bb020994",
+      "processedAt": "2026-03-11T00:37:01.573Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/03/10/100310": {
+      "contentHash": "5a4b0b8bd34f1c0343aea3812fc2eec5a7d858ca1e5356b6684be448a821cc19",
+      "processedAt": "2026-03-11T00:37:01.998Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/03/10/150000": {
+      "contentHash": "c18ed21611c1a172d08256dbfe96d7c0153e70b8c839481ccf207fe9a2397c98",
+      "processedAt": "2026-03-11T00:37:02.875Z"
+    },
+    "https://feeds.baymard.com/link/9825/17296693/ux-ray-for-figma": {
+      "contentHash": "a495c54c5beb31f6692af508896f45c706bc92bef7e19738e8bda6e69d7b1a17",
+      "processedAt": "2026-03-11T00:37:11.250Z"
+    },
+    "https://uxmag.com/articles/dark-patterns-when-design-crosses-the-line": {
+      "contentHash": "dfd7b4ca6f9ea811861e2336ee24e8c02470acb85697e7691ab5b95804ce054b",
+      "processedAt": "2026-03-11T00:37:12.023Z"
+    },
+    "http://testing.googleblog.com/2026/03/the-way-of-tdd.html": {
+      "contentHash": "59ddee22cfa16d0b32a4d2b7dea762144a5008f3b5c3c23b29d98c2e697e325d",
+      "processedAt": "2026-03-11T00:37:12.963Z"
     }
   },
-  "lastRun": "2026-03-10T00:34:46.485Z"
+  "lastRun": "2026-03-11T00:37:12.963Z"
 }
