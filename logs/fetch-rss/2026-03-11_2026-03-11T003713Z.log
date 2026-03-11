@@ -1,0 +1,58 @@
+articles_dir=2026-03-11
+exit_code=0
+timestamp_utc=2026-03-11T00:37:13Z
+
+---- issue lines ----
+9:Failed to fetch feed Vercel: Invalid time value
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-11/extend-role-based-authentication-in-self-hosted-temporal-with-helm.md
+📥 Processing: Migrating to Workspaces and Nx
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-11/migrating-to-workspaces-and-nx.md
+📥 Processing: Analyzing first-party fraud trends: Account, free trial, and refund abuse
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-11/analyzing-first-party-fraud-trends-account-free-trial-and-refund-abuse.md
+📥 Processing: 5 design skills to sharpen in the AI era
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-11/5-design-skills-to-sharpen-in-the-ai-era.md
+📥 Processing: Vishal Kapoor’s 10 rules for building honest products with AI
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-11/vishal-kapoors-10-rules-for-building-honest-products-with-ai.md
+📥 Processing: AI時代、アジャイルコーチの役割はどこへ向かうのか —— プロセスから「人」へ
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-11/ai.md
+📥 Processing: AlloyDBのバックアップを定期的に別リージョンに作成・削除する方法
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-11/alloydb.md
+📥 Processing: AIエージェントを強くする『合成データ』作成のニッチなTips集
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-11/aitips.md
+📥 Processing: UX-Ray for Figma: Align Your Designs with Research-Backed UX Best Practices
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-11/ux-ray-for-figma-align-your-designs-with-research-backed-ux-best-practices.md
+📥 Processing: Dark Patterns: When Design Crosses the Line
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-11/dark-patterns-when-design-crosses-the-line.md
+📥 Processing: The Way of TDD
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-11/the-way-of-tdd.md
+
+📊 Summary:
+   ✅ Success: 18
+   ❌ Errors: 0
+🏁 Done!
