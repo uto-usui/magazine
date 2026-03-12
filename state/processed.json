@@ -26087,7 +26087,47 @@
     "http://testing.googleblog.com/2026/03/the-way-of-tdd.html": {
       "contentHash": "59ddee22cfa16d0b32a4d2b7dea762144a5008f3b5c3c23b29d98c2e697e325d",
       "processedAt": "2026-03-11T00:37:12.963Z"
+    },
+    "https://seldo.com/posts/do-ai-enabled-companies-need-fewer-people/": {
+      "contentHash": "a414f637ceed3861e4bdf36df29fbc4099ff844cb368fb703d3d9d7263d858d0",
+      "processedAt": "2026-03-12T00:32:41.764Z"
+    },
+    "https://funes.world/": {
+      "contentHash": "b3798dec9614ffcdfc26a8571d84285a01d13ee2056b25dc9c44459b55f33a07",
+      "processedAt": "2026-03-12T00:32:43.761Z"
+    },
+    "https://acairns.co.uk/posts/cognitive-debt": {
+      "contentHash": "a739a9f4bb79e136f9323bdeb36c07bae6c89873ffd1537c38c7916ccbe3de47",
+      "processedAt": "2026-03-12T00:32:44.595Z"
+    },
+    "https://allsvgicons.com/": {
+      "contentHash": "2a37b80cac89dd4ba49509e1376b388f5896cdc1a8320122300547682ab1c596",
+      "processedAt": "2026-03-12T00:32:50.636Z"
+    },
+    "https://sequoiacap.com/article/services-the-new-software/": {
+      "contentHash": "1fc1cb66c2efaf317b4e12ac571924a0e3e51449a75fc1ce67ea007047a49f91",
+      "processedAt": "2026-03-12T00:32:51.545Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/from-ides-to-ai-agents-with-steve": {
+      "contentHash": "c1e19e07bdb15b05270799bb46cb09dfb6f6a81255117985b9307812fcf3564d",
+      "processedAt": "2026-03-12T00:32:51.911Z"
+    },
+    "https://tympanus.net/codrops/2026/03/11/svg-mask-transitions-on-scroll-with-gsap-and-scrolltrigger/": {
+      "contentHash": "b42f561ceacc06570ea682c99520e6836e77a574560a8861538e677e2e655f99",
+      "processedAt": "2026-03-12T00:32:53.460Z"
+    },
+    "https://piccalil.li/the-index/171/?ref=main-rss-feed": {
+      "contentHash": "dce6dc3621464d5898d3625023688e266369f75b9ef7c9281c7cfdf60d7e7278",
+      "processedAt": "2026-03-12T00:32:53.667Z"
+    },
+    "https://frontendfoc.us/issues/732": {
+      "contentHash": "ef606c5eb62fc1ddb2e6aad84528ff8a37cc41229aeadc4c00f32bdf2d1981ff",
+      "processedAt": "2026-03-12T00:32:54.786Z"
+    },
+    "https://thisweekinreact.com/newsletter/272": {
+      "contentHash": "0a5596b1ae31998c087e6fce2d6e9ae7e4dabbebadf40da642bacd4455f1ec70",
+      "processedAt": "2026-03-12T00:32:55.372Z"
     }
   },
-  "lastRun": "2026-03-11T00:37:12.963Z"
+  "lastRun": "2026-03-12T00:32:55.372Z"
 }
