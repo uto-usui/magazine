@@ -1,0 +1,45 @@
+articles_dir=2026-03-12
+exit_code=0
+timestamp_utc=2026-03-12T00:32:55Z
+
+---- issue lines ----
+8:Failed to fetch feed Vercel: Invalid time value
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+Failed to fetch feed Vercel: Invalid time value
+⏳ Retry feed fetch 1/3 for Accessibility Weekly after transient error: Request timed out after 15000ms
+📰 Found 4020 total articles
+✨ New articles: 10
+⏭️ Skipped (already processed): 442
+📥 Processing: Do AI-enabled companies need fewer people?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-12/do-ai-enabled-companies-need-fewer-people.md
+📥 Processing: FUNES – 3D Cultural Heritage Archive
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-12/funes-3d-cultural-heritage-archive.md
+📥 Processing: Cognitive debt
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-12/cognitive-debt.md
+📥 Processing: All SVG Icons
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-12/all-svg-icons.md
+📥 Processing: Services: the new software
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-12/services-the-new-software.md
+📥 Processing: From IDEs to AI Agents with Steve Yegge
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-12/from-ides-to-ai-agents-with-steve-yegge.md
+📥 Processing: SVG Mask Transitions on Scroll with GSAP and ScrollTrigger
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-12/svg-mask-transitions-on-scroll-with-gsap-and-scrolltrigger.md
+📥 Processing: The Index: Issue #171
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-12/the-index-issue-171.md
+📥 Processing: 11ty goes Awesome, but not everyone is feeling the awe...
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-12/11ty-goes-awesome-but-not-everyone-is-feeling-the-awe.md
+📥 Processing: This Week In React #272: Astro, Compiler, Next.js, shadcn, Aria, Helmet, Preact | Navigation, Expo Agent, Observe, Widgets, Activity, Evals, MMKV, Hermes | Node.js, Source Maps, TanStack Intent, TypeGPU, TypeScript
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-12/this-week-in-react-272-astro-compiler-nextjs-shadcn-aria-helmet-preact-navigation-expo-agent-observe.md
+
+📊 Summary:
+   ✅ Success: 10
+   ❌ Errors: 0
+🏁 Done!
