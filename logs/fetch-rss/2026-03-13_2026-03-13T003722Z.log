@@ -1,0 +1,58 @@
+articles_dir=2026-03-13
+exit_code=0
+timestamp_utc=2026-03-13T00:37:22Z
+
+---- issue lines ----
+8:Failed to fetch feed Vercel: Invalid time value
+
+---- tail (last 50 lines) ----
+📥 Processing: FUNES – 3D Cultural Heritage Archive
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-13/funes-3d-cultural-heritage-archive.md
+📥 Processing: Cognitive debt
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-13/cognitive-debt.md
+📥 Processing: All SVG Icons
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-13/all-svg-icons.md
+📥 Processing: Services: the new software
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-13/services-the-new-software.md
+📥 Processing: The Pulse: What will the Staff Engineer role look like in 2027 and beyond?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-13/the-pulse-what-will-the-staff-engineer-role-look-like-in-2027-and-beyond.md
+📥 Processing: From IDEs to AI Agents with Steve Yegge
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-13/from-ides-to-ai-agents-with-steve-yegge.md
+📥 Processing: What Happens When You Can’t Stop Creating: Huy Nguyen’s Story of Starting His Own Studio
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-13/what-happens-when-you-cant-stop-creating-huy-nguyens-story-of-starting-his-own-studio.md
+📥 Processing: SVG Mask Transitions on Scroll with GSAP and ScrollTrigger
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-13/svg-mask-transitions-on-scroll-with-gsap-and-scrolltrigger.md
+📥 Processing: Beyond `border-radius`: What The CSS `corner-shape` Property Unlocks For Everyday UI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-13/beyond-border-radius-what-the-css-corner-shape-property-unlocks-for-everyday-ui.md
+📥 Processing: Mastra入門 - TypeScriptで作るAIエージェント
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-13/mastra-typescriptai.md
+📥 Processing: Automated Accessible Text with contrast-color()
+Image unavailable (HTTP 404), skipping: https://una.im/contrast-color/public/posts/contrast-color/buttons.png
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-13/automated-accessible-text-with-contrast-color.md
+📥 Processing: Simplifying Containers with Cloudflare Sandboxes
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-13/simplifying-containers-with-cloudflare-sandboxes.md
+📥 Processing: Building dynamic toggletips using anchored container queries
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-13/building-dynamic-toggletips-using-anchored-container-queries.md
+📥 Processing: The Index: Issue #171
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-13/the-index-issue-171.md
+📥 Processing: 10 things we learned building for the first generation of agentic commerce
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-13/10-things-we-learned-building-for-the-first-generation-of-agentic-commerce.md
+📥 Processing: 11ty goes Awesome, but not everyone is feeling the awe...
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-13/11ty-goes-awesome-but-not-everyone-is-feeling-the-awe.md
+📥 Processing: マルチAIエージェント時代のルールの一元管理 —— Cursor・Claude Code・Devin・GitHub Copilot での実践例
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-13/ai-cursorclaude-codedevingithub-copilot.md
+📥 Processing: SmartHRのESP領域に興味をお持ちの方へ
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-13/smarthresp.md
+📥 Processing: 第14回SmartHR LT大会 兼 忘年会レポート —— 忘年！ 忘年！ 忘年！
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-13/14smarthr-lt.md
+📥 Processing: Zero Stage to Orbit
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-13/zero-stage-to-orbit.md
+📥 Processing: This Week In React #272: Astro, Compiler, Next.js, shadcn, Aria, Helmet, Preact | Navigation, Expo Agent, Observe, Widgets, Activity, Evals, MMKV, Hermes | Node.js, Source Maps, TanStack Intent, TypeGPU, TypeScript
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-13/this-week-in-react-272-astro-compiler-nextjs-shadcn-aria-helmet-preact-navigation-expo-agent-observe.md
+
+📊 Summary:
+   ✅ Success: 29
+   ❌ Errors: 0
+🏁 Done!
