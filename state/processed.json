@@ -26087,7 +26087,123 @@
     "http://testing.googleblog.com/2026/03/the-way-of-tdd.html": {
       "contentHash": "59ddee22cfa16d0b32a4d2b7dea762144a5008f3b5c3c23b29d98c2e697e325d",
       "processedAt": "2026-03-11T00:37:12.963Z"
+    },
+    "https://engineering.atspotify.com/2026/3/inside-the-archive-2025-wrapped/": {
+      "contentHash": "4001cdbe542d89c3efbb40b5b273fdf34e8e9b3377aa75fdafc7a9dc3f682c33",
+      "processedAt": "2026-03-13T00:36:44.025Z"
+    },
+    "https://github.blog/ai-and-ml/github-copilot/continuous-ai-for-accessibility-how-github-transforms-feedback-into-inclusion/": {
+      "contentHash": "81a28b65665301ec293f5f8028403a7d3dbc2ca1cf7309c77425a0bb98a54d81",
+      "processedAt": "2026-03-13T00:36:45.241Z"
+    },
+    "https://buzzusborne.com/writing/designing-ai-for-trust/": {
+      "contentHash": "e5e67df3c31c05f50de686ed7770bc339abc17509f66819d62606fd73cc8e3b7",
+      "processedAt": "2026-03-13T00:36:46.503Z"
+    },
+    "https://aatishb.com/patterncollider/?symmetry=10&pattern=0.62&radius=57&zoom=2.47&hue=314&hueRange=91&contrast=30&sat=100": {
+      "contentHash": "899635b89c5343d2028620177311e8a9765f3e03cc4e0a770feb22faca9adc64",
+      "processedAt": "2026-03-13T00:36:47.006Z"
+    },
+    "https://terminaltrove.com/explore/": {
+      "contentHash": "596c8c0709c04d3f703cc924a051da72739f280c347b5bd4474e4ba5d0e92a77",
+      "processedAt": "2026-03-13T00:36:52.982Z"
+    },
+    "https://lapcatsoftware.com/articles/2026/3/4.html": {
+      "contentHash": "e82bb0def21b54ab9b44a049d3299a0d145703520bc1da39c894fd2d5f8124ef",
+      "processedAt": "2026-03-13T00:36:53.741Z"
+    },
+    "https://www.conor.fyi/writing/anatomy-of-a-css-phone-mockup": {
+      "contentHash": "048684409a03b76fbe51609ed223afaba6611ae92907dc2dff17add1d53ddae2",
+      "processedAt": "2026-03-13T00:36:54.477Z"
+    },
+    "https://seldo.com/posts/do-ai-enabled-companies-need-fewer-people/": {
+      "contentHash": "a414f637ceed3861e4bdf36df29fbc4099ff844cb368fb703d3d9d7263d858d0",
+      "processedAt": "2026-03-13T00:36:55.139Z"
+    },
+    "https://funes.world/": {
+      "contentHash": "b3798dec9614ffcdfc26a8571d84285a01d13ee2056b25dc9c44459b55f33a07",
+      "processedAt": "2026-03-13T00:36:56.214Z"
+    },
+    "https://acairns.co.uk/posts/cognitive-debt": {
+      "contentHash": "a739a9f4bb79e136f9323bdeb36c07bae6c89873ffd1537c38c7916ccbe3de47",
+      "processedAt": "2026-03-13T00:36:57.029Z"
+    },
+    "https://allsvgicons.com/": {
+      "contentHash": "2a37b80cac89dd4ba49509e1376b388f5896cdc1a8320122300547682ab1c596",
+      "processedAt": "2026-03-13T00:37:03.480Z"
+    },
+    "https://sequoiacap.com/article/services-the-new-software/": {
+      "contentHash": "1fc1cb66c2efaf317b4e12ac571924a0e3e51449a75fc1ce67ea007047a49f91",
+      "processedAt": "2026-03-13T00:37:04.392Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-what-will-the-staff-engineer": {
+      "contentHash": "c5dd4291a12c2d98073fa94b29a9f0528c44df537d02577574778c54ca44e254",
+      "processedAt": "2026-03-13T00:37:04.552Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/from-ides-to-ai-agents-with-steve": {
+      "contentHash": "c1e19e07bdb15b05270799bb46cb09dfb6f6a81255117985b9307812fcf3564d",
+      "processedAt": "2026-03-13T00:37:04.977Z"
+    },
+    "https://tympanus.net/codrops/2026/03/12/what-happens-when-you-cant-stop-creating-huy-nguyens-story-of-starting-his-own-studio/": {
+      "contentHash": "435eae63ace7ca8c20f0c130b7ee81ba9e08ef083492b422871b7b91519c354c",
+      "processedAt": "2026-03-13T00:37:06.514Z"
+    },
+    "https://tympanus.net/codrops/2026/03/11/svg-mask-transitions-on-scroll-with-gsap-and-scrolltrigger/": {
+      "contentHash": "b42f561ceacc06570ea682c99520e6836e77a574560a8861538e677e2e655f99",
+      "processedAt": "2026-03-13T00:37:07.539Z"
+    },
+    "https://smashingmagazine.com/2026/03/beyond-border-radius-css-corner-shape-property-ui/": {
+      "contentHash": "8113822dd2f914d44902bb5aed6be0f8fbb230a315eba72d1843e736d9c027ee",
+      "processedAt": "2026-03-13T00:37:09.041Z"
+    },
+    "https://ics.media/entry/260312/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-03-13T00:37:09.780Z"
+    },
+    "https://una.im/contrast-color/": {
+      "contentHash": "46d92bcac2cfbf225db057b21e5a580db736172d149c1333667a02240d961ffb",
+      "processedAt": "2026-03-13T00:37:10.191Z"
+    },
+    "https://kentcdodds.com/blog/simplifying-containers-with-cloudflare-sandboxes": {
+      "contentHash": "d8bbe47e21dbaec811a1af066c1696cec65ead53662f1e8c72ba3ae892147902",
+      "processedAt": "2026-03-13T00:37:10.551Z"
+    },
+    "https://piccalil.li/blog/building-dynamic-toggletips-using-anchored-container-queries/?ref=main-rss-feed": {
+      "contentHash": "61e1db0f310addfae09d67aff55dd4c3057d7e2d170700eb792907fa59fa2e0d",
+      "processedAt": "2026-03-13T00:37:11.324Z"
+    },
+    "https://piccalil.li/the-index/171/?ref=main-rss-feed": {
+      "contentHash": "dce6dc3621464d5898d3625023688e266369f75b9ef7c9281c7cfdf60d7e7278",
+      "processedAt": "2026-03-13T00:37:11.587Z"
+    },
+    "https://stripe.com/blog/10-lessons": {
+      "contentHash": "128d615d56e4d834a94917124bdf7e14536b2428aea9e323d0aacc28b929bebc",
+      "processedAt": "2026-03-13T00:37:12.491Z"
+    },
+    "https://frontendfoc.us/issues/732": {
+      "contentHash": "ef606c5eb62fc1ddb2e6aad84528ff8a37cc41229aeadc4c00f32bdf2d1981ff",
+      "processedAt": "2026-03-13T00:37:13.404Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/03/12/134348": {
+      "contentHash": "8ad5ebb5dd7ef167b06990d6f56c453477d775ab52b84c033aa75abc1f8b98e0",
+      "processedAt": "2026-03-13T00:37:14.135Z"
+    },
+    "https://tech.smarthr.jp/entry/esp-matome": {
+      "contentHash": "9fab7424e98ee747c35ee751cc079e6d3f276d95f895ef4c887ff1f46d84e715",
+      "processedAt": "2026-03-13T00:37:14.636Z"
+    },
+    "https://tech.smarthr.jp/entry/lt15": {
+      "contentHash": "98fa2a03734db7c9d8cb85e445a6e80be8eb389723398057c41570b56bafca2a",
+      "processedAt": "2026-03-13T00:37:18.895Z"
+    },
+    "https://uxmag.com/articles/zero-stage-to-orbit": {
+      "contentHash": "0f38b67561e896432d5c794b511fb43407e2b18235cfb760ee298a8f57948a93",
+      "processedAt": "2026-03-13T00:37:21.322Z"
+    },
+    "https://thisweekinreact.com/newsletter/272": {
+      "contentHash": "6545922df01748ea28e4ce75ddb0a707bea937db22601e548f46918f424e3530",
+      "processedAt": "2026-03-13T00:37:21.774Z"
     }
   },
-  "lastRun": "2026-03-11T00:37:12.963Z"
+  "lastRun": "2026-03-13T00:37:21.774Z"
 }
