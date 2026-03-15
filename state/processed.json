@@ -26203,7 +26203,67 @@
     "https://thisweekinreact.com/newsletter/272": {
       "contentHash": "6545922df01748ea28e4ce75ddb0a707bea937db22601e548f46918f424e3530",
       "processedAt": "2026-03-13T00:37:21.774Z"
+    },
+    "https://engineering.fb.com/2026/03/13/android/ai-codemods-secure-by-default-android-apps-meta-tech-podcast/": {
+      "contentHash": "fcbce168bb22f1e82a73caee2277ab1e70b18344d4e5fbb84783e541b39eae26",
+      "processedAt": "2026-03-15T00:43:35.553Z"
+    },
+    "https://www.vandelaydesign.com/ai-ux-feels-off/": {
+      "contentHash": "98581dc3952467bd12baa7ca6687924b9563b6556983d68852c8b362815ebdbf",
+      "processedAt": "2026-03-15T00:43:36.114Z"
+    },
+    "https://cachemonet.com/": {
+      "contentHash": "22c8a9b9ae70d63dad6b70865804a1dc0fae7ac8f5c0549c48993ed58a17c5e3",
+      "processedAt": "2026-03-15T00:43:36.615Z"
+    },
+    "https://www.nngroup.com/articles/practical-significance/": {
+      "contentHash": "5f74bd2d1b6722c253c561231c5aa6229936457c0f9a448a0cb75c4cd8d70078",
+      "processedAt": "2026-03-15T00:43:38.118Z"
+    },
+    "https://europeantechmap.eu/": {
+      "contentHash": "2f32111f75bf443e9802e940dff883010690bc13299244033ab787146883cdbf",
+      "processedAt": "2026-03-15T00:43:45.224Z"
+    },
+    "https://passo.uno/new-habits-tech-writers-ai-age/": {
+      "contentHash": "328f37157acb282a80a9b9ac77b636efdf5da41cd0b0286d773f657167fe4e70",
+      "processedAt": "2026-03-15T00:43:46.035Z"
+    },
+    "https://smashingmagazine.com/2026/03/moving-from-moment-to-temporal-api/": {
+      "contentHash": "586efcbe180793c44c14b8435e9085418eb80ba94a93d0e76b3cab1bc55b89f2",
+      "processedAt": "2026-03-15T00:43:47.572Z"
+    },
+    "https://una.im/advanced-contrast-color/": {
+      "contentHash": "520d6a8995837c32671468ee90a003d2981e48a49c1ccef36d47f9d1d49d153e",
+      "processedAt": "2026-03-15T00:43:47.918Z"
+    },
+    "https://piccalil.li/the-index/172/?ref=main-rss-feed": {
+      "contentHash": "134b7f7856106045444c36dc4aa28dee53bccd7977ec232d4d1df14e0ad41f6e",
+      "processedAt": "2026-03-15T00:43:48.365Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/03/13/113421": {
+      "contentHash": "e54f5e95e8fddaf3ea250b9966ef773890aada7080cdce0019738f10b458f968",
+      "processedAt": "2026-03-15T00:43:49.360Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/03/13/095222": {
+      "contentHash": "9831af7545a91d65aa018a452f0d127c0f0174e4b7392835dcf0884a679124c8",
+      "processedAt": "2026-03-15T00:43:49.790Z"
+    },
+    "https://www.nngroup.com/articles/research-tool-problems/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "51b9f471557fe5ef6fa08fffc658a94e214511accac6d40747daa56daca1040b",
+      "processedAt": "2026-03-15T00:43:51.384Z"
+    },
+    "https://www.nngroup.com/articles/design-process-isnt-dead/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "f8535c41ba1b6057b948c5977a477e2cb7bdd0e4b196b1fcd7c89d66c6383b5a",
+      "processedAt": "2026-03-15T00:43:52.434Z"
+    },
+    "https://www.nngroup.com/training/june/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "0c9d0da856f23abc085f6b535571863baf71d9164680cd1b77cd5811fd677af5",
+      "processedAt": "2026-03-15T00:43:53.584Z"
+    },
+    "https://react.statuscode.com/issues/466": {
+      "contentHash": "46b8d4aa33d8cade5196178f00aaa0f84823e209426b335d83ccb31ddf886dce",
+      "processedAt": "2026-03-15T00:43:54.488Z"
     }
   },
-  "lastRun": "2026-03-13T00:37:21.774Z"
+  "lastRun": "2026-03-15T00:43:54.488Z"
 }
