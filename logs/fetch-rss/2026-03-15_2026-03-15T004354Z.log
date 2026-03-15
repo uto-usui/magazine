@@ -1,0 +1,58 @@
+articles_dir=2026-03-15
+exit_code=0
+timestamp_utc=2026-03-15T00:43:54Z
+
+---- issue lines ----
+9:Failed to fetch feed Vercel: Invalid time value
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+⏳ Retry feed fetch 1/3 for Accessibility Weekly after transient error: read ECONNRESET
+Failed to fetch feed Vercel: Invalid time value
+⏳ Retry feed fetch 1/3 for Amy Hupe after transient error: Request timed out after 15000ms
+📰 Found 4024 total articles
+✨ New articles: 15
+⏭️ Skipped (already processed): 437
+📥 Processing: Patch Me If You Can: AI Codemods for Secure-by-Default Android Apps
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-15/patch-me-if-you-can-ai-codemods-for-secure-by-default-android-apps.md
+📥 Processing: Why AI-generated UX still feels off
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-15/why-ai-generated-ux-still-feels-off.md
+📥 Processing: Cache Monet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-15/cache-monet.md
+📥 Processing: Statistical significance isn’t the same as practical significance
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-15/statistical-significance-isnt-the-same-as-practical-significance.md
+📥 Processing: European Tech Map
+🔄 Readability failed, trying Playwright: https://europeantechmap.eu/
+✅ Playwright successfully fetched: https://europeantechmap.eu/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-15/european-tech-map.md
+📥 Processing: New habits for tech writers in the age of LLMs
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-15/new-habits-for-tech-writers-in-the-age-of-llms.md
+📥 Processing: Moving From Moment.js To The JS Temporal API
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-15/moving-from-momentjs-to-the-js-temporal-api.md
+📥 Processing: contrast-color() beyond black & white
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-15/contrast-color-beyond-black-white.md
+📥 Processing: The Index: Issue #172
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-15/the-index-issue-172.md
+📥 Processing: 給与計算機能の信頼性と透明性を支える給与ベイシスユニットを立ち上げました
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-15/smarthr-03-13-113421.md
+📥 Processing: ファイル名正規化とZIPファイルのMIMEタイプの判定 —— ファイルアップロードの実装で遭遇したOS固有の罠
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-15/zipmime-os.md
+📥 Processing: The Methodological Problems Hiding in Your Research Tools
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-15/the-methodological-problems-hiding-in-your-research-tools.md
+📥 Processing: Design Process Isn't Dead, It’s Compressed
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-15/design-process-isnt-dead-its-compressed.md
+📥 Processing: UX Conference June Announced (Jun 13 - Jun 26)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-15/ux-conference-june-announced-jun-13-jun-26.md
+📥 Processing: What a week: Vite 8.0, RedwoodSDK 1.0, shadcn/cli v4...
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-15/what-a-week-vite-80-redwoodsdk-10-shadcncli-v4.md
+
+📊 Summary:
+   ✅ Success: 15
+   ❌ Errors: 0
+🏁 Done!
