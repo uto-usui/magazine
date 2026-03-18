@@ -26331,7 +26331,71 @@
     "https://react.statuscode.com/issues/466": {
       "contentHash": "46b8d4aa33d8cade5196178f00aaa0f84823e209426b335d83ccb31ddf886dce",
       "processedAt": "2026-03-17T00:38:17.521Z"
+    },
+    "https://engineering.fb.com/2026/03/17/developer-tools/ranking-engineer-agent-rea-autonomous-ai-system-accelerating-meta-ads-ranking-innovation/": {
+      "contentHash": "2586cc430b2798e8f3abcb2ecd6752f458036f96518c274c78d70603225e053f",
+      "processedAt": "2026-03-18T00:39:14.339Z"
+    },
+    "https://adamsilver.io/blog/why-designing-in-code-makes-you-a-better-designer/": {
+      "contentHash": "a4137cede5b843fddeb4521a3d913f7982f6030443d58ab00e4913a2f35fee3d",
+      "processedAt": "2026-03-18T00:39:14.714Z"
+    },
+    "https://www.openui.com/": {
+      "contentHash": "bf54a107d32c8671355bcfd62bb35a560405a4791202cdd0681901c6faa90594",
+      "processedAt": "2026-03-18T00:39:15.962Z"
+    },
+    "https://www.anthropic.com/institute": {
+      "contentHash": "7432f2c0530e14bf14ee724bfa21c3f6ac1380d952a8c7f82fcfb5392d14fd6f",
+      "processedAt": "2026-03-18T00:39:17.850Z"
+    },
+    "https://www.baldurbjarnason.com/2026/the-two-worlds-of-programming/": {
+      "contentHash": "ff81afce72c654a26114a8d61595a42f230d38ef07c16343f94c7c58586a4000",
+      "processedAt": "2026-03-18T00:39:18.174Z"
+    },
+    "https://www.terrygodier.com/the-last-quiet-thing": {
+      "contentHash": "57abdb207cbfbf979765ebe786331c876fc637fd8c192f8d51af186271a7369a",
+      "processedAt": "2026-03-18T00:39:18.896Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/are-ai-agents-actually-slowing-us": {
+      "contentHash": "a34f4366969904f32d82bcd16658177ce9aaf345c9f58ad3dfb7b2db706a178c",
+      "processedAt": "2026-03-18T00:39:19.248Z"
+    },
+    "https://smashingmagazine.com/2026/03/anime-marvel-dc-designing-digital-products-emotion-flow/": {
+      "contentHash": "21051bdd883f95661cd2dabc1ca372a80492952cf688048193015958f827c15b",
+      "processedAt": "2026-03-18T00:39:20.634Z"
+    },
+    "https://kentcdodds.com/blog/implementing-hybrid-semantic-lexical-search": {
+      "contentHash": "22b691506975c76a171191e8993988f45792f779fbecffa538f37d0c31f78908",
+      "processedAt": "2026-03-18T00:39:21.178Z"
+    },
+    "https://www.figma.com/blog/how-we-rebuilt-the-foundations-of-component-instances/": {
+      "contentHash": "e1b50e0cb2b3608a2b74d19064ad2403e376c7fcd212e70b7162990d4fbceb6f",
+      "processedAt": "2026-03-18T00:39:52.492Z"
+    },
+    "https://www.figma.com/blog/designs-influence-is-expanding-and-heres-why-that-feels-hard/": {
+      "contentHash": "03281b7c9e4025b33f9ac57e2b0cfa16b8aea57d3ab50fa151dbd2d391b57df0",
+      "processedAt": "2026-03-18T00:40:22.848Z"
+    },
+    "https://zenn.dev/uhyo/articles/react-profession-bench-2": {
+      "contentHash": "f7221871b6851b8307d70256de3131d7f0c72cf10e58dafea7806b8cfc2eb834",
+      "processedAt": "2026-03-18T00:40:23.288Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/03/17/173732": {
+      "contentHash": "3daba4c4ead9992cc63b5f41bf96e9ffec7cc20141f9385b7021ddf232453542",
+      "processedAt": "2026-03-18T00:40:24.439Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/03/17/154014": {
+      "contentHash": "3b0c9924ad5a2f8ecfe317ac5bd71c3704ac0d93c49237085405a6887001adb8",
+      "processedAt": "2026-03-18T00:40:25.104Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/03/17/120612": {
+      "contentHash": "6a7bea94faa777a9566706c679ea4b032c98f47bebd376a0241c724037b0983e",
+      "processedAt": "2026-03-18T00:40:25.421Z"
+    },
+    "https://uxmag.com/articles/consent-theater-are-users-really-in-control": {
+      "contentHash": "f7d47bb37f8b0c83968b3fb5b45206f380237cf4c2f9412a058182c35309912e",
+      "processedAt": "2026-03-18T00:40:26.668Z"
     }
   },
-  "lastRun": "2026-03-17T00:38:17.521Z"
+  "lastRun": "2026-03-18T00:40:26.668Z"
 }
