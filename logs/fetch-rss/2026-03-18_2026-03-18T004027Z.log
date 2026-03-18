@@ -1,0 +1,58 @@
+articles_dir=2026-03-18
+exit_code=0
+timestamp_utc=2026-03-18T00:40:27Z
+
+---- issue lines ----
+8:Failed to fetch feed Vercel: Invalid time value
+
+---- tail (last 50 lines) ----
+Image unavailable (HTTP 403), skipping: https://cdn.simpleicons.org/anthropic/ffffff
+Image unavailable (HTTP 403), skipping: https://cdn.simpleicons.org/googlegemini/000000
+Image unavailable (HTTP 403), skipping: https://cdn.simpleicons.org/mistralai/ffffff
+Image unavailable (HTTP 403), skipping: https://cdn.simpleicons.org/langchain/ffffff
+Image unavailable (HTTP 403), skipping: https://cdn.simpleicons.org/vercel/ffffff
+Image unavailable (HTTP 403), skipping: https://cdn.simpleicons.org/crewai/ffffff
+Image unavailable (HTTP 403), skipping: https://cdn.simpleicons.org/anthropic/ffffff
+Image unavailable (HTTP 403), skipping: https://cdn.simpleicons.org/google/ffffff
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-18/openui.md
+📥 Processing: The Anthropic Institute
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-18/the-anthropic-institute.md
+📥 Processing: The two worlds of programming
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-18/the-two-worlds-of-programming.md
+📥 Processing: The last quiet thing
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-18/the-last-quiet-thing.md
+📥 Processing: Are AI agents actually slowing us down?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-18/are-ai-agents-actually-slowing-us-down.md
+📥 Processing: Anime vs. Marvel/DC: Designing Digital Products With Emotion In Flow
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-18/anime-vs-marveldc-designing-digital-products-with-emotion-in-flow.md
+📥 Processing: Implementing Hybrid Semantic + Lexical Search
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-18/implementing-hybrid-semantic-lexical-search.md
+📥 Processing: How we rebuilt the foundations of component instances
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-18/how-we-rebuilt-the-foundations-of-component-instances.md
+📥 Processing: Design’s influence is expanding, and here’s why that feels hard
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-18/designs-influence-is-expanding-and-heres-why-that-feels-hard.md
+📥 Processing: GPTのReact習熟度も測る
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-18/gptreact.md
+📥 Processing: SmartHRの人事マスタを守る──QAエンジニアとして挑む、品質保証の現場
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-18/smarthrqa.md
+📥 Processing: 2026年版 エンジニアのキャリアについて【SmartHRの場合】
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-18/2026-smarthr.md
+📥 Processing: EM Night Talks – After Conference 登壇レポート
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-18/em-night-talks-after-conference.md
+📥 Processing: Consent Theater: Are Users Really in Control?
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-18/consent-theater-are-users-really-in-control.md
+
+📊 Summary:
+   ✅ Success: 16
+   ❌ Errors: 0
+🏁 Done!
