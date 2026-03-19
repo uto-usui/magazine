@@ -1,0 +1,58 @@
+articles_dir=2026-03-19
+exit_code=0
+timestamp_utc=2026-03-19T00:40:19Z
+
+---- issue lines ----
+9:Failed to fetch feed Vercel: Invalid time value
+
+---- tail (last 50 lines) ----
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+⏳ Retry feed fetch 1/3 for CSS IRL after transient error: read ECONNRESET
+Failed to fetch feed Vercel: Invalid time value
+📰 Found 4029 total articles
+✨ New articles: 16
+⏭️ Skipped (already processed): 434
+📥 Processing: Friend Bubbles: Enhancing Social Discovery on Facebook Reels
+Image too large, skipping: https://engineering.fb.com/wp-content/uploads/2026/03/Facebook-Friend-Bubbles.gif
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-19/friend-bubbles-enhancing-social-discovery-on-facebook-reels.md
+📥 Processing: The 49MB web page
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-19/the-49mb-web-page.md
+📥 Processing: Zero-vector design
+🔄 Readability failed, trying Playwright: https://zerovector.design/
+✅ Playwright successfully fetched: https://zerovector.design/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-19/zero-vector-design.md
+📥 Processing: Soon owning will be impossible
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-19/soon-owning-will-be-impossible.md
+📥 Processing: Managing icon component sizes
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-19/managing-icon-component-sizes.md
+📥 Processing: Designing for people with anxiety
+Image download skipped for https://tetralogical.com/blog/2026/03/10/designing-for-people-with-anxiety/cookie-settings.png: read ECONNRESET
+Image download skipped for https://tetralogical.com/blog/2026/03/10/designing-for-people-with-anxiety/navigation-b-n-q.png: timeout of 30000ms exceeded
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-19/designing-for-people-with-anxiety.md
+📥 Processing: Building WhatsApp with Jean Lee
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-19/building-whatsapp-with-jean-lee.md
+📥 Processing: Building Seamless 3D Transitions with Webflow, GSAP, and Three.js
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-19/building-seamless-3d-transitions-with-webflow-gsap-and-threejs.md
+📥 Processing: I redesigned my website without touching my keyboard&#8230;all while painting a mural
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-19/i-redesigned-my-website-without-touching-my-keyboard8230all-while-painting-a-mural.md
+📥 Processing: The Index: Issue #173
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-19/the-index-issue-173.md
+📥 Processing: Introducing the Machine Payments Protocol
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-19/introducing-the-machine-payments-protocol.md
+📥 Processing: A new tool to improve load performance
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-19/a-new-tool-to-improve-load-performance.md
+📥 Processing: 言語処理学会第32回年次大会にてSmartHRが2件の研究を発表！
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-19/32smarthr2.md
+📥 Processing: SmartHRから3名がRubyKaigi 2026に登壇！ —— 函館でイカしたトークをお届けします
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-19/smarthr3rubykaigi-2026.md
+📥 Processing: Python製ETL「dlt」を選んだ話 - Azure Cosmos DB for PostgreSQL × Container App Jobでいい感じにDatalakeを構築する
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-19/pythonetldlt-azure-cosmos-db-for-postgresql-container-app-jobdatalake.md
+📥 Processing: This Week In React #273: ⚛️ RedwoodSDK, Next.js, TanStack, RSC, Async React, SSR, Base UI, AI | 📱 Expo UI, Ease, Expo APIs, Keyboard, Flow, DnD, AI | 🔀 TC39, Temporal, Vite, Vite+, Vitest, Oxlint, Node.js, Bun
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-19/this-week-in-react-273-redwoodsdk-nextjs-tanstack-rsc-async-react-ssr-base-ui-ai-expo-ui-ease-expo-a.md
+
+📊 Summary:
+   ✅ Success: 16
+   ❌ Errors: 0
+🏁 Done!
