@@ -26395,7 +26395,71 @@
     "https://uxmag.com/articles/consent-theater-are-users-really-in-control": {
       "contentHash": "f7d47bb37f8b0c83968b3fb5b45206f380237cf4c2f9412a058182c35309912e",
       "processedAt": "2026-03-18T00:40:26.668Z"
+    },
+    "https://engineering.fb.com/2026/03/18/ml-applications/friend-bubbles-enhancing-social-discovery-on-facebook-reels/": {
+      "contentHash": "20d82f903ba9994d878e1f6344cb0b2cefb700ae2fa3830cbc4f3f206dad78bc",
+      "processedAt": "2026-03-19T00:39:31.234Z"
+    },
+    "https://thatshubham.com/blog/news-audit": {
+      "contentHash": "a4e75cb75c663eff27bcd0bc4530d16f1d1599dd797677119e3b86cbb85b4ddf",
+      "processedAt": "2026-03-19T00:39:31.575Z"
+    },
+    "https://zerovector.design/": {
+      "contentHash": "415b0af01d7711e55fe91c1a31ac8ec5f4fcd250549c2872049fc8ea1ae1b633",
+      "processedAt": "2026-03-19T00:39:38.986Z"
+    },
+    "https://lardel.li/2026/03/soon-owning-will-be-impossible.html": {
+      "contentHash": "07153673b7430721a6f028005903f2bf613f51c541113474d832ccc6b8ffdd86",
+      "processedAt": "2026-03-19T00:39:40.022Z"
+    },
+    "https://www.alicepackarddesign.com/blog/managing-icon-component-sizes": {
+      "contentHash": "b53ae6de348b77686dd837f3e5ffee89b4361232437401a4eaa6b41adc5f76ad",
+      "processedAt": "2026-03-19T00:39:40.354Z"
+    },
+    "https://tetralogical.com/blog/2026/03/10/designing-for-people-with-anxiety/": {
+      "contentHash": "afbe72065143ea5e25d86d3ecd3692d84a995159c15e25359e971ec8b8e97676",
+      "processedAt": "2026-03-19T00:40:10.945Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/building-whatsapp-with-jean-lee": {
+      "contentHash": "94a6a86a0b575cb5b8dea323ab1b0c8e26f468551739a70c0e5c934c3488f588",
+      "processedAt": "2026-03-19T00:40:11.545Z"
+    },
+    "https://tympanus.net/codrops/2026/03/18/building-seamless-3d-transitions-with-webflow-gsap-and-three-js/": {
+      "contentHash": "768f351f33298ad30ac0ee2d2dbefa465b54c34e2508f32deafc1b73207eea90",
+      "processedAt": "2026-03-19T00:40:12.867Z"
+    },
+    "https://bradfrost.com/blog/post/i-redesigned-my-website-without-touching-my-keyboard-all-while-painting-a-mural/": {
+      "contentHash": "718422f434dd6c4175fc694fda9cb89c0031a1244735a9efa4f6adb475e080b4",
+      "processedAt": "2026-03-19T00:40:13.090Z"
+    },
+    "https://piccalil.li/the-index/173/?ref=main-rss-feed": {
+      "contentHash": "a027ec26c5e591c18fc92671597d08c614eb0fd1105b9aeb46468c855bc5a842",
+      "processedAt": "2026-03-19T00:40:13.252Z"
+    },
+    "https://stripe.com/blog/machine-payments-protocol": {
+      "contentHash": "dc5211d42b81dc1b8855ea22b48da54735d6f1ba88cc59213049357f21ee4a5d",
+      "processedAt": "2026-03-19T00:40:13.659Z"
+    },
+    "https://frontendfoc.us/issues/733": {
+      "contentHash": "17aed8adb01dad9c50567f064afb3cb6ac09f81dd28afafefe300df3ed8a639a",
+      "processedAt": "2026-03-19T00:40:14.556Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/03/19/093722": {
+      "contentHash": "59e400616bda847b1f1af00bad9a39116fce43797ae9f4be7b96bc32fffe3c9c",
+      "processedAt": "2026-03-19T00:40:16.869Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/03/18/120000": {
+      "contentHash": "6198da290c3398a753620ff9df747fbbc5a1c5294c8be9c8c4931b539600f1dd",
+      "processedAt": "2026-03-19T00:40:17.315Z"
+    },
+    "https://tech.layerx.co.jp/entry/python-dlt-azure": {
+      "contentHash": "d2e6e9f37df1ba5905331f5dfbaf6aaa86ebbfe3a9836964f4630520f63ae023",
+      "processedAt": "2026-03-19T00:40:19.265Z"
+    },
+    "https://thisweekinreact.com/newsletter/273": {
+      "contentHash": "def0b4c32fc3fa0a8c1598ebd16a1e5e5ba7560f5fe87b6e1043be408045983f",
+      "processedAt": "2026-03-19T00:40:19.748Z"
     }
   },
-  "lastRun": "2026-03-18T00:40:26.668Z"
+  "lastRun": "2026-03-19T00:40:19.748Z"
 }
