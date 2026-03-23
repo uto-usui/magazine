@@ -1,0 +1,58 @@
+articles_dir=2026-03-23
+exit_code=0
+timestamp_utc=2026-03-23T00:42:25Z
+
+---- issue lines ----
+8:Failed to fetch feed Vercel: Invalid time value
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-23/i-redesigned-my-website-without-touching-my-keyboard8230all-while-painting-a-mural.md
+📥 Processing: Dropdowns Inside Scrollable Containers: Why They Break And How To Fix Them Properly
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-23/dropdowns-inside-scrollable-containers-why-they-break-and-how-to-fix-them-properly.md
+📥 Processing: Modal vs. Separate Page: UX Decision Tree
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-23/modal-vs-separate-page-ux-decision-tree.md
+📥 Processing: The Index: Issue #174
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-23/the-index-issue-174.md
+📥 Processing: The Index: Issue #173
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-23/the-index-issue-173.md
+📥 Processing: Three of the biggest fraud trends from MRC Vegas 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-23/three-of-the-biggest-fraud-trends-from-mrc-vegas-2026.md
+📥 Processing: Testing the impact of Adaptive Pricing across 1.5M subscription checkout sessions
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-23/testing-the-impact-of-adaptive-pricing-across-15m-subscription-checkout-sessions.md
+📥 Processing: Introducing the Machine Payments Protocol
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-23/introducing-the-machine-payments-protocol.md
+📥 Processing: A new tool to improve load performance
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-23/a-new-tool-to-improve-load-performance.md
+📥 Processing: ClaudeとGPTのReact習熟度をさらに測る
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-23/claudegptreact.md
+📥 Processing: 入社2年目を迎えたインプロセスで働くQAエンジニアの業務紹介
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-23/2qa.md
+📥 Processing: SmartHRに入社したエンジニアリングマネージャーが最初の3ヶ月でやったこと
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-23/smarthr3.md
+📥 Processing: EMConf JP 2026 参加レポート —— ランチスポンサーセッションと非公式懇親会を開催
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-23/emconf-jp-2026.md
+📥 Processing: 言語処理学会第32回年次大会にてSmartHRが2件の研究を発表！
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-23/32smarthr2.md
+📥 Processing: SmartHRから3名がRubyKaigi 2026に登壇！ —— 函館でイカしたトークをお届けします
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-23/smarthr3rubykaigi-2026.md
+📥 Processing: Python製ETL「dlt」を選んだ話 - Azure Cosmos DB for PostgreSQL × Container App Jobでいい感じにDatalakeを構築する
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-23/pythonetldlt-azure-cosmos-db-for-postgresql-container-app-jobdatalake.md
+📥 Processing: The 3 C’s of Informational Microcopy
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-23/the-3-cs-of-informational-microcopy.md
+📥 Processing: What Is Your Site's AI Chatbot for? Users Can't Tell
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-23/what-is-your-sites-ai-chatbot-for-users-cant-tell.md
+📥 Processing: Pixels of the Week – March 22, 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-23/pixels-of-the-week-march-22-2026.md
+📥 Processing: The Psychology of Onboarding: First Impressions Rule the Brain
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-23/the-psychology-of-onboarding-first-impressions-rule-the-brain.md
+📥 Processing: This Week In React #273: ⚛️ RedwoodSDK, Next.js, TanStack, RSC, Async React, SSR, Base UI, AI | 📱 Expo UI, Ease, Expo APIs, Keyboard, Flow, DnD, AI | 🔀 TC39, Temporal, Vite, Vite+, Vitest, Oxlint, Node.js, Bun
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-23/this-week-in-react-273-redwoodsdk-nextjs-tanstack-rsc-async-react-ssr-base-ui-ai-expo-ui-ease-expo-a.md
+📥 Processing: How to roll your own server-side React framework
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-23/how-to-roll-your-own-server-side-react-framework.md
+
+📊 Summary:
+   ✅ Success: 43
+   ❌ Errors: 0
+🏁 Done!
