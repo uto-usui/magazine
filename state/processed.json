@@ -26567,7 +26567,43 @@
     "https://react.statuscode.com/issues/467": {
       "contentHash": "7a10f49d4a81d39b1248de56686d444489a34658f4e69bdae56c76ac10fbd986",
       "processedAt": "2026-03-23T00:42:24.496Z"
+    },
+    "https://a11yweekly.com/issue/492/": {
+      "contentHash": "c197a37d0061710c7c049f189f58f479ccf8b8243c1ccaefe84b78c0da9cb5e1",
+      "processedAt": "2026-03-24T00:35:13.103Z"
+    },
+    "https://bit.ly/side-mag2": {
+      "contentHash": "b6a3dfe5dfe8cb8de062aab78f3f29ce44410f7385b0eb3d17b078d51a89452b",
+      "processedAt": "2026-03-24T00:35:26.970Z"
+    },
+    "https://sahajgarg.github.io/blog/cognitive-labor/": {
+      "contentHash": "b95c7df15ee9c54982e38825f477b0ced6c590357fb6773b75304b37a1f3f684",
+      "processedAt": "2026-03-24T00:35:27.290Z"
+    },
+    "https://dialed.gg/": {
+      "contentHash": "de108537375c93c1db16fdb1e7cf9a3b1c7ea2f7c7bb1af646fb432cb2f8b39c",
+      "processedAt": "2026-03-24T00:35:27.896Z"
+    },
+    "https://tools.rmv.fyi/": {
+      "contentHash": "725ee261dd9eed69ec552166c3371d7dac91cca03ba9d3b9c084e6aa0b32e29a",
+      "processedAt": "2026-03-24T00:35:28.691Z"
+    },
+    "https://blog.mozilla.ai/when-shipping-becomes-too-easy/": {
+      "contentHash": "2db403e19a81beea4c2cdbedb29119902d37207637fed4da04eb38bcec06fecf",
+      "processedAt": "2026-03-24T00:35:28.968Z"
+    },
+    "https://tympanus.net/codrops/2026/03/23/building-a-dual-scene-fluid-x-ray-reveal-effect-in-three-js/": {
+      "contentHash": "0007e33c191e66355ad81dbce69330198f74d0310161695c14784ebabb71dcff",
+      "processedAt": "2026-03-24T00:35:30.503Z"
+    },
+    "https://www.joshwcomeau.com/css/header-blockers/": {
+      "contentHash": "9dc39b348102b70f7c586f22047be9953d7e4df6167db26e11be5f19f8ec9b35",
+      "processedAt": "2026-03-24T00:35:31.119Z"
+    },
+    "https://tkdodo.eu/blog/test-ids-are-an-a11y-smell": {
+      "contentHash": "55b9fdcd38a34dd3cd06bb6a415a5dcd25f76d6245f0f4cd59d4aeef29a2d86a",
+      "processedAt": "2026-03-24T00:35:31.823Z"
     }
   },
-  "lastRun": "2026-03-23T00:42:24.496Z"
+  "lastRun": "2026-03-24T00:35:31.823Z"
 }
