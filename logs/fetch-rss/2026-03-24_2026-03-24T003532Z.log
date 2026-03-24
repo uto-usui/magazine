@@ -1,0 +1,45 @@
+articles_dir=2026-03-24
+exit_code=0
+timestamp_utc=2026-03-24T00:35:32Z
+
+---- issue lines ----
+8:Failed to fetch feed Vercel: Invalid time value
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+Failed to fetch feed Vercel: Invalid time value
+⏳ Retry feed fetch 1/3 for Nielsen Norman Group after transient error: Request timed out after 15000ms
+📰 Found 4032 total articles
+✨ New articles: 9
+⏭️ Skipped (already processed): 431
+📥 Processing: I Tried to Educate an Accessibility Overlay Company From the Inside
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-24/i-tried-to-educate-an-accessibility-overlay-company-from-the-inside.md
+📥 Processing: What design education doesn’t prepare us for
+🔄 Readability failed, trying Playwright: https://bit.ly/side-mag2
+✅ Playwright successfully fetched: https://bit.ly/side-mag2
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-24/what-design-education-doesnt-prepare-us-for.md
+📥 Processing: The displacement of cognitive labor and what comes after
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-24/the-displacement-of-cognitive-labor-and-what-comes-after.md
+📥 Processing: How well can you remember colors?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-24/how-well-can-you-remember-colors.md
+📥 Processing: Delphitools
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-24/delphitools.md
+📥 Processing: When shipping software becomes too easy
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-24/when-shipping-software-becomes-too-easy.md
+📥 Processing: Building a Dual-Scene Fluid X-Ray Reveal Effect in Three.js
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-24/building-a-dual-scene-fluid-x-ray-reveal-effect-in-threejs.md
+📥 Processing: Sneaky Header Blocker Trick
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-24/sneaky-header-blocker-trick.md
+📥 Processing: Test IDs are an a11y smell
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-24/test-ids-are-an-a11y-smell.md
+
+📊 Summary:
+   ✅ Success: 9
+   ❌ Errors: 0
+🏁 Done!
