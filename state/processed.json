@@ -26567,7 +26567,115 @@
     "https://react.statuscode.com/issues/467": {
       "contentHash": "7a10f49d4a81d39b1248de56686d444489a34658f4e69bdae56c76ac10fbd986",
       "processedAt": "2026-03-23T00:42:24.496Z"
+    },
+    "https://a11yweekly.com/issue/492/": {
+      "contentHash": "c197a37d0061710c7c049f189f58f479ccf8b8243c1ccaefe84b78c0da9cb5e1",
+      "processedAt": "2026-03-25T00:38:52.377Z"
+    },
+    "https://bit.ly/side-div2": {
+      "contentHash": "10cdd214064931a3fc76824b2a54aa6264b6dbfef2ab9076920f36b1bdf1a237",
+      "processedAt": "2026-03-25T00:38:59.505Z"
+    },
+    "https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/": {
+      "contentHash": "cd67332765217e4b172af3dbfdcb80b85514331f1a889488266b5437da0c8dc2",
+      "processedAt": "2026-03-25T00:38:59.785Z"
+    },
+    "https://designsurface.dev/cascade": {
+      "contentHash": "6ff676b4795ea1faa5c9aaea6ab2d59b86447383c87f87eab43861aa04fdda37",
+      "processedAt": "2026-03-25T00:39:04.852Z"
+    },
+    "https://www.lesswrong.com/posts/6pDMLYr7my2QMTz3s/broad-timelines": {
+      "contentHash": "fdf34c21c783e371388d2b225cb2343638e3a9167c5f681b19c5aab6a19e3868",
+      "processedAt": "2026-03-25T00:39:13.500Z"
+    },
+    "https://www.smashingmagazine.com/2026/03/modal-separate-page-ux-decision-tree/": {
+      "contentHash": "2b825ea3883048c5141e38cb988574dcb6c6533a5285d6e988d37e1d62ed8d4f",
+      "processedAt": "2026-03-25T00:39:17.210Z"
+    },
+    "https://bit.ly/side-mag2": {
+      "contentHash": "b6a3dfe5dfe8cb8de062aab78f3f29ce44410f7385b0eb3d17b078d51a89452b",
+      "processedAt": "2026-03-25T00:39:28.414Z"
+    },
+    "https://sahajgarg.github.io/blog/cognitive-labor/": {
+      "contentHash": "b95c7df15ee9c54982e38825f477b0ced6c590357fb6773b75304b37a1f3f684",
+      "processedAt": "2026-03-25T00:39:28.596Z"
+    },
+    "https://dialed.gg/": {
+      "contentHash": "de108537375c93c1db16fdb1e7cf9a3b1c7ea2f7c7bb1af646fb432cb2f8b39c",
+      "processedAt": "2026-03-25T00:39:29.174Z"
+    },
+    "https://tools.rmv.fyi/": {
+      "contentHash": "725ee261dd9eed69ec552166c3371d7dac91cca03ba9d3b9c084e6aa0b32e29a",
+      "processedAt": "2026-03-25T00:39:30.142Z"
+    },
+    "https://blog.mozilla.ai/when-shipping-becomes-too-easy/": {
+      "contentHash": "2db403e19a81beea4c2cdbedb29119902d37207637fed4da04eb38bcec06fecf",
+      "processedAt": "2026-03-25T00:39:30.437Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/how-to-be-a-10x-engineer-interview": {
+      "contentHash": "ef5e5ce267876ad1c35248f0609df6e1479365e2a48068649484038325181a45",
+      "processedAt": "2026-03-25T00:39:30.817Z"
+    },
+    "https://tympanus.net/codrops/2026/03/24/digital-craft-wild-soul-building-san-ritas-topographic-web-experience/": {
+      "contentHash": "947929f8fe18fbcec4182fff84d7b81fe7e1cac4e0c02e79dfd6991c64833f52",
+      "processedAt": "2026-03-25T00:39:32.216Z"
+    },
+    "https://tympanus.net/codrops/2026/03/23/building-a-dual-scene-fluid-x-ray-reveal-effect-in-three-js/": {
+      "contentHash": "0007e33c191e66355ad81dbce69330198f74d0310161695c14784ebabb71dcff",
+      "processedAt": "2026-03-25T00:39:33.385Z"
+    },
+    "https://bradfrost.com/blog/post/the-creative-infinite/": {
+      "contentHash": "313040f7d1d71d75a22dec1d0284771d99400508280c0e8cf624763a8391367f",
+      "processedAt": "2026-03-25T00:39:33.549Z"
+    },
+    "https://storybook.js.org/blog/storybook-mcp-for-react/": {
+      "contentHash": "86a7ad16157119d11eee696cbf6b1ca11418020178a6a1b9efaced44e92afa52",
+      "processedAt": "2026-03-25T00:39:33.993Z"
+    },
+    "https://smashingmagazine.com/2026/03/testing-font-scaling-accessibility-figma-variables/": {
+      "contentHash": "001ec7b1c96deeb1151a9fd9f75c277f385965ef54f3e68486bd42963c00fecb",
+      "processedAt": "2026-03-25T00:39:35.489Z"
+    },
+    "https://www.joshwcomeau.com/css/header-blockers/": {
+      "contentHash": "9dc39b348102b70f7c586f22047be9953d7e4df6167db26e11be5f19f8ec9b35",
+      "processedAt": "2026-03-25T00:39:35.919Z"
+    },
+    "https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse": {
+      "contentHash": "080c1904208a84db3cd20fcca3794b7d4bda81f4873018f540079c663cb19337",
+      "processedAt": "2026-03-25T00:39:36.558Z"
+    },
+    "https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/": {
+      "contentHash": "c964c4e6919a0b38755d78f28b230c6dd4e9b2d2e49af6569d98e00bb2ca9be8",
+      "processedAt": "2026-03-25T00:40:10.761Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/03/24/125431": {
+      "contentHash": "747e9d6f3b94e4a5493075722b1ffce1e253f5bde5901eb5d9d7625744a3be75",
+      "processedAt": "2026-03-25T00:40:11.576Z"
+    },
+    "https://tech.layerx.co.jp/entry/openclawrl-agenticrl": {
+      "contentHash": "1c4e32cb2e10980d689345d7068b255099dc9e157a0fed7bc36a1fe93af283a9",
+      "processedAt": "2026-03-25T00:40:12.780Z"
+    },
+    "https://www.nngroup.com/news/item/new-ai-specialty/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "f490832691778a060b28ef97d11456c43e29d200dee2a4a1bcf289609a0a2359",
+      "processedAt": "2026-03-25T00:40:13.031Z"
+    },
+    "https://feeds.baymard.com/link/9825/17305011/mobile-app-ux-benchmark-2026": {
+      "contentHash": "c5afa4e6fc142f134f7c67a5182e34253129e82bbd6308b13bb61ab21a4dfc79",
+      "processedAt": "2026-03-25T00:40:15.263Z"
+    },
+    "https://uxmag.com/articles/the-ethics-of-personalization-when-ux-crosses-the-line-from-helpful-to-harmful": {
+      "contentHash": "44d35f737b9c2c48aef9592c8897b6655a7aa54de45e3e250c66326ea863c565",
+      "processedAt": "2026-03-25T00:40:16.502Z"
+    },
+    "https://uxmovement.medium.com/the-best-mobile-layout-for-complex-data-tables-e3ced21ce425?source=rss-40dd56d8f87d------2": {
+      "contentHash": "e656b0882d38378acdd2d201e23c9a743277c3a6de8663e7ee1988e624e6b8a8",
+      "processedAt": "2026-03-25T00:40:21.415Z"
+    },
+    "https://tkdodo.eu/blog/test-ids-are-an-a11y-smell": {
+      "contentHash": "55b9fdcd38a34dd3cd06bb6a415a5dcd25f76d6245f0f4cd59d4aeef29a2d86a",
+      "processedAt": "2026-03-25T00:40:21.830Z"
     }
   },
-  "lastRun": "2026-03-23T00:42:24.496Z"
+  "lastRun": "2026-03-25T00:40:21.830Z"
 }
