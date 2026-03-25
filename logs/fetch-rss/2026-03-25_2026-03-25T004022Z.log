@@ -1,0 +1,58 @@
+articles_dir=2026-03-25
+exit_code=0
+timestamp_utc=2026-03-25T00:40:22Z
+
+---- issue lines ----
+8:Failed to fetch feed Vercel: Invalid time value
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-25/building-a-dual-scene-fluid-x-ray-reveal-effect-in-threejs.md
+📥 Processing: The Creative Infinite
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-25/the-creative-infinite.md
+📥 Processing: Storybook MCP for React
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-25/storybook-mcp-for-react.md
+📥 Processing: Testing Font Scaling For Accessibility With Figma Variables
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-25/testing-font-scaling-for-accessibility-with-figma-variables.md
+📥 Processing: Sneaky Header Blocker Trick
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-25/sneaky-header-blocker-trick.md
+📥 Processing: How Stripe Radar helps prevent free trial abuse
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-25/how-stripe-radar-helps-prevent-free-trial-abuse.md
+📥 Processing: Agents, meet the Figma canvas
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-25/agents-meet-the-figma-canvas.md
+📥 Processing: チーム外からの問い合わせ対応、私はこうしてます
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-25/smarthr-03-24-125431.md
+📥 Processing: OpenClaw-RLで学ぶAgentic RLの報酬設計
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-25/openclaw-rlagentic-rl.md
+📥 Processing: New Artificial Intelligence Specialty for UX Certification
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-25/new-artificial-intelligence-specialty-for-ux-certification.md
+📥 Processing: Mobile App UX Benchmark 2026: 3,300+ Performance Scores and 2,500+ Best Practice Examples 
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-25/mobile-app-ux-benchmark-2026-3300-performance-scores-and-2500-best-practice-examples.md
+📥 Processing: The Ethics of Personalization: When UX Crosses the Line from Helpful to Harmful
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-25/the-ethics-of-personalization-when-ux-crosses-the-line-from-helpful-to-harmful.md
+📥 Processing: The Best Mobile Layout for Complex Data Tables
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxmovement.medium.com/the-best-mobile-layout-for-complex-data-tables-e3ced21ce425?source=rss-40dd56d8f87d------2
+✅ Playwright successfully fetched: https://uxmovement.medium.com/the-best-mobile-layout-for-complex-data-tables-e3ced21ce425?source=rss-40dd56d8f87d------2
+⚠️ Content too short (134 chars < 200): https://uxmovement.medium.com/the-best-mobile-layout-for-complex-data-tables-e3ced21ce425?source=rss-40dd56d8f87d------2
+⚠️ Using RSS content as fallback for: https://uxmovement.medium.com/the-best-mobile-layout-for-complex-data-tables-e3ced21ce425?source=rss-40dd56d8f87d------2
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-25/the-best-mobile-layout-for-complex-data-tables.md
+📥 Processing: Test IDs are an a11y smell
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-25/test-ids-are-an-a11y-smell.md
+
+📊 Summary:
+   ✅ Success: 27
+   ❌ Errors: 0
+🏁 Done!
