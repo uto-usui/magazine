@@ -1,0 +1,58 @@
+articles_dir=2026-03-26
+exit_code=0
+timestamp_utc=2026-03-26T00:43:01Z
+
+---- issue lines ----
+9:Failed to fetch feed Vercel: Invalid time value
+
+---- tail (last 50 lines) ----
+✨ New articles: 12
+⏭️ Skipped (already processed): 432
+📥 Processing: AI and the Rosetta Stone
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-26/ai-and-the-rosetta-stone.md
+📥 Processing: Mockdown: ASCII wireframe editor
+⚠️ Content too short (100 chars < 200): https://www.mockdown.design/
+🔄 Readability failed, trying Playwright: https://www.mockdown.design/
+✅ Playwright successfully fetched: https://www.mockdown.design/
+⚠️ Content too short (100 chars < 200): https://www.mockdown.design/
+⚠️ Using RSS content as fallback for: https://www.mockdown.design/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-26/mockdown-ascii-wireframe-editor.md
+📥 Processing: On clip-path animations
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-26/on-clip-path-animations.md
+📥 Processing: Web Rewind
+⚠️ Content too short (62 chars < 200): https://www.web-rewind.com/
+🔄 Readability failed, trying Playwright: https://www.web-rewind.com/
+✅ Playwright successfully fetched: https://www.web-rewind.com/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-26/web-rewind.md
+📥 Processing: The political use of operating systems
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-26/the-political-use-of-operating-systems.md
+📥 Processing: From Web UI to Game UI: How Gaming & Creativity Reshaped María Vargas’ Career
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-26/from-web-ui-to-game-ui-how-gaming-creativity-reshaped-mara-vargas-career.md
+📥 Processing: Figma's MCP Just Gave AI Agents 'Write' Access. A First Look at What It Can Do.
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-26/figmas-mcp-just-gave-ai-agents-write-access-a-first-look-at-what-it-can-do.md
+📥 Processing: Figma's next-generation data caching platform
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-26/figmas-next-generation-data-caching-platform.md
+📥 Processing: The Great CSS Expansion: Replacing JS with native features
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-26/the-great-css-expansion-replacing-js-with-native-features.md
+📥 Processing: 事業戦略を日々の開発につなぐチームキックオフの実践
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-26/smarthr-03-25-153116.md
+📥 Processing: The Government Already Knows the Fax Machines Don&#8217;t Work
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-26/the-government-already-knows-the-fax-machines-don8217t-work.md
+📥 Processing: This Week In React #274: ⚛️ Next.js, React Router, Storybook, HeroUI, Remotion, Lucide, useEffect | 📱 Reanimated, Worklets, Nitro Fetch, Navigation, Rozenite, MMKV, Windows, Swift | 🔀 TypeScript, Signals, Zero, Valibot
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-26/this-week-in-react-274-nextjs-react-router-storybook-heroui-remotion-lucide-useeffect-reanimated-wor.md
+
+📊 Summary:
+   ✅ Success: 12
+   ❌ Errors: 0
+🏁 Done!
