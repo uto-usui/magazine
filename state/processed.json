@@ -26675,7 +26675,55 @@
     "https://tkdodo.eu/blog/test-ids-are-an-a11y-smell": {
       "contentHash": "55b9fdcd38a34dd3cd06bb6a415a5dcd25f76d6245f0f4cd59d4aeef29a2d86a",
       "processedAt": "2026-03-25T00:40:21.830Z"
+    },
+    "https://yannglt.com/writing/ai-and-the-rosetta-stone": {
+      "contentHash": "2cd6f44681bfa72c2ebabdf88a89fc0cb088413245cd0c9c463630815495a139",
+      "processedAt": "2026-03-26T00:41:20.925Z"
+    },
+    "https://www.mockdown.design/": {
+      "contentHash": "9fa103d2b35cc4c79cc19860b6aa0aee23c8d8046ab2f3ac7aae22552be4a82e",
+      "processedAt": "2026-03-26T00:41:25.865Z"
+    },
+    "https://karlkoch.me/writing/on-clip-path-animations": {
+      "contentHash": "a642892ac54cc4f004f019f1b04570c9613f504a642b75b61de33c6f0d23bbf4",
+      "processedAt": "2026-03-26T00:41:54.111Z"
+    },
+    "https://www.web-rewind.com/": {
+      "contentHash": "d7ff04bcc6ab61ba02672a051f2f961142de51ea0fc74bc949acfe4419744490",
+      "processedAt": "2026-03-26T00:42:12.366Z"
+    },
+    "https://thelibre.news/the-political-use-of-operating-systems/": {
+      "contentHash": "c9e295fdddc41ebfc31a26243691eceafcd0bf755722b242ddeeef95e4cf4b1d",
+      "processedAt": "2026-03-26T00:42:14.186Z"
+    },
+    "https://tympanus.net/codrops/2026/03/25/from-web-ui-to-game-ui-how-gaming-creativity-reshaped-maria-vargas-career/": {
+      "contentHash": "867208f11d1ccec0f82ee2aa969fa7d9d9c9d201e0ee7df66b4b8c310a03cf0e",
+      "processedAt": "2026-03-26T00:42:15.564Z"
+    },
+    "https://www.bitovi.com/blog/figma-just-opened-the-canvas-to-agents.-heres-what-actually-happens": {
+      "contentHash": "f2854bd118eaec74c4d718b056f8eb3d6134618d888cce58f285771574719b03",
+      "processedAt": "2026-03-26T00:42:16.551Z"
+    },
+    "https://www.figma.com/blog/figmas-next-generation-data-caching-platform/": {
+      "contentHash": "edf94b3f3e158d793e78923b82a3e22c1b5c5493bb8eeed3af1266ed039b957e",
+      "processedAt": "2026-03-26T00:42:56.270Z"
+    },
+    "https://frontendfoc.us/issues/734": {
+      "contentHash": "c0ebd3bd4f07a545564567d27f8061b5013b076c9309f0752ad98272d5c5a3b7",
+      "processedAt": "2026-03-26T00:42:57.158Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/03/25/153116": {
+      "contentHash": "d081f96297a6c7395b86cfb097a55b8e1be20195256f96839605415d11def676",
+      "processedAt": "2026-03-26T00:42:57.921Z"
+    },
+    "https://uxmag.com/articles/the-government-already-knows-the-fax-machines-dont-work": {
+      "contentHash": "4fbd4a1bd3aecf819c99d7091fb3bf3123a086c4c959014bcdfd4bf7d0e54bc3",
+      "processedAt": "2026-03-26T00:43:00.291Z"
+    },
+    "https://thisweekinreact.com/newsletter/274": {
+      "contentHash": "95e068772690413a30cca4680c928cd3af921e6bc87fb2de816b538638804919",
+      "processedAt": "2026-03-26T00:43:00.706Z"
     }
   },
-  "lastRun": "2026-03-25T00:40:21.830Z"
+  "lastRun": "2026-03-26T00:43:00.706Z"
 }
