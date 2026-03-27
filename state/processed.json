@@ -26675,7 +26675,131 @@
     "https://tkdodo.eu/blog/test-ids-are-an-a11y-smell": {
       "contentHash": "55b9fdcd38a34dd3cd06bb6a415a5dcd25f76d6245f0f4cd59d4aeef29a2d86a",
       "processedAt": "2026-03-25T00:40:21.830Z"
+    },
+    "https://adrianroselli.com/2026/03/accessibility-law-of-headlines.html": {
+      "contentHash": "969ea48d9073dee1083a9b90135eec5846cf73349eeadb2832b719d429a3c79c",
+      "processedAt": "2026-03-27T00:42:06.029Z"
+    },
+    "https://www.answer.ai/posts/2026-03-12-so-where-are-all-the-ai-apps.html": {
+      "contentHash": "87bd7901e23fa934803cf2421caf29c63c8118bf376cf0e3ee25abc91473ae96",
+      "processedAt": "2026-03-27T00:42:06.456Z"
+    },
+    "https://typeflow.tools/": {
+      "contentHash": "a7a0574da98d2f68711ec81b99e6248af82661f3c041f648c9d72142214502ca",
+      "processedAt": "2026-03-27T00:42:16.153Z"
+    },
+    "https://a16z.com/there-are-only-two-paths-left-for-software/": {
+      "contentHash": "df4c9c1b2a7db368598129e014509c04b8a656c27362f9e4fd618eaa3878339a",
+      "processedAt": "2026-03-27T00:42:16.848Z"
+    },
+    "https://emilysneddon.com/fran-sans-essay": {
+      "contentHash": "c70fb4a62bcdd829b61b509ac37d612c9ddda4862d759d63d8763f37bc7234db",
+      "processedAt": "2026-03-27T00:42:17.291Z"
+    },
+    "https://www.anthropic.com/features/81k-interviews": {
+      "contentHash": "a96c7de540df3b40b2c29effb41ef30e09027ad831440cf7c6bc8d06a99a8675",
+      "processedAt": "2026-03-27T00:42:19.243Z"
+    },
+    "https://yannglt.com/writing/ai-and-the-rosetta-stone": {
+      "contentHash": "2cd6f44681bfa72c2ebabdf88a89fc0cb088413245cd0c9c463630815495a139",
+      "processedAt": "2026-03-27T00:42:19.931Z"
+    },
+    "https://www.mockdown.design/": {
+      "contentHash": "9fa103d2b35cc4c79cc19860b6aa0aee23c8d8046ab2f3ac7aae22552be4a82e",
+      "processedAt": "2026-03-27T00:42:24.653Z"
+    },
+    "https://karlkoch.me/writing/on-clip-path-animations": {
+      "contentHash": "a642892ac54cc4f004f019f1b04570c9613f504a642b75b61de33c6f0d23bbf4",
+      "processedAt": "2026-03-27T00:42:56.214Z"
+    },
+    "https://www.web-rewind.com/": {
+      "contentHash": "d7ff04bcc6ab61ba02672a051f2f961142de51ea0fc74bc949acfe4419744490",
+      "processedAt": "2026-03-27T00:43:13.189Z"
+    },
+    "https://thelibre.news/the-political-use-of-operating-systems/": {
+      "contentHash": "c9e295fdddc41ebfc31a26243691eceafcd0bf755722b242ddeeef95e4cf4b1d",
+      "processedAt": "2026-03-27T00:43:14.653Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-is-github-still-best-for": {
+      "contentHash": "43023ae99b5f29f02c7bbf8371f25c5c3c8aaed913560915967792a59f389117",
+      "processedAt": "2026-03-27T00:43:14.840Z"
+    },
+    "https://tympanus.net/codrops/2026/03/25/from-web-ui-to-game-ui-how-gaming-creativity-reshaped-maria-vargas-career/": {
+      "contentHash": "867208f11d1ccec0f82ee2aa969fa7d9d9c9d201e0ee7df66b4b8c310a03cf0e",
+      "processedAt": "2026-03-27T00:43:16.146Z"
+    },
+    "https://bradfrost.com/blog/post/my-8-year-old-vibe-coded-a-video-game-about-playing-music-with-michael-mcdonald/": {
+      "contentHash": "c0ac7723529e20ef7cd35baf46c1da057871246af8b7aba662493c4311cf51ff",
+      "processedAt": "2026-03-27T00:43:16.340Z"
+    },
+    "https://bradfrost.com/blog/post/coding-club/": {
+      "contentHash": "9132262ab4534491a137baf5c9d7017001e77b1d88c8efaa2678421c403b1105",
+      "processedAt": "2026-03-27T00:43:16.530Z"
+    },
+    "https://smashingmagazine.com/2026/03/site-search-paradox-why-big-box-always-wins/": {
+      "contentHash": "1270cb687ac409022257d96c6ba8bf5d526e76e50f051a9f9e45c6710c4df935",
+      "processedAt": "2026-03-27T00:43:17.890Z"
+    },
+    "https://www.bitovi.com/blog/figma-just-opened-the-canvas-to-agents.-heres-what-actually-happens": {
+      "contentHash": "f2854bd118eaec74c4d718b056f8eb3d6134618d888cce58f285771574719b03",
+      "processedAt": "2026-03-27T00:43:18.191Z"
+    },
+    "https://ics.media/entry/260326/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-03-27T00:43:18.627Z"
+    },
+    "https://piccalil.li/blog/applying-accessibility-fixes-with-stealth-for-the-greater-good/?ref=main-rss-feed": {
+      "contentHash": "d4ff29201b8febf11ed2a2a04a8afc7bdd9b7ea583fc654d21fff1a0300b6df7",
+      "processedAt": "2026-03-27T00:43:19.002Z"
+    },
+    "https://www.figma.com/blog/figmas-next-generation-data-caching-platform/": {
+      "contentHash": "edf94b3f3e158d793e78923b82a3e22c1b5c5493bb8eeed3af1266ed039b957e",
+      "processedAt": "2026-03-27T00:43:58.825Z"
+    },
+    "https://frontendfoc.us/issues/734": {
+      "contentHash": "c0ebd3bd4f07a545564567d27f8061b5013b076c9309f0752ad98272d5c5a3b7",
+      "processedAt": "2026-03-27T00:43:59.630Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/03/26/160144": {
+      "contentHash": "3385bbe470f5b0a822ccc7dd2c182b47e6dc68befb948f5a261889f517cda190",
+      "processedAt": "2026-03-27T00:44:00.973Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/03/26/145711": {
+      "contentHash": "242054648d76ca7a5b9828faa7af381c6d222881a14012cd546cb25cc417d3ca",
+      "processedAt": "2026-03-27T00:44:01.682Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/03/25/153116": {
+      "contentHash": "d081f96297a6c7395b86cfb097a55b8e1be20195256f96839605415d11def676",
+      "processedAt": "2026-03-27T00:44:02.394Z"
+    },
+    "https://uxcontent.com/how-to-prevent-content-ops-pain-points/": {
+      "contentHash": "02c311f50f5fcaafb396adc63d23d9146dbec1dffd40c9562b281ec899b79681",
+      "processedAt": "2026-03-27T00:44:06.978Z"
+    },
+    "https://uxcontent.com/top-content-design-skills-being-proactive/": {
+      "contentHash": "97dcc5253270895cc1bdbdd15863757f7069d5836cbd71e4598dd5943d2d9430",
+      "processedAt": "2026-03-27T00:44:09.589Z"
+    },
+    "https://uxcontent.com/inference-noise-ai-vs-human-writing/": {
+      "contentHash": "91f30864babe237f208e1f222f592776dd1397a43d9d38c4c0489b612b638eaa",
+      "processedAt": "2026-03-27T00:44:12.053Z"
+    },
+    "https://uxcontent.com/designing-with-words-ai/": {
+      "contentHash": "2b225acb6585227b0c88b1575f083e324ce736be4c9d16dd13a4186db04af992",
+      "processedAt": "2026-03-27T00:44:16.107Z"
+    },
+    "https://uxmag.com/articles/reimagining-work-how-designing-for-humanity-will-shape-2030": {
+      "contentHash": "bceb82a78f6eb7999fb8a83f64e41f70869ab151392671fc396e361225f4ca06",
+      "processedAt": "2026-03-27T00:44:17.914Z"
+    },
+    "https://uxmag.com/articles/the-government-already-knows-the-fax-machines-dont-work": {
+      "contentHash": "4fbd4a1bd3aecf819c99d7091fb3bf3123a086c4c959014bcdfd4bf7d0e54bc3",
+      "processedAt": "2026-03-27T00:44:20.467Z"
+    },
+    "https://thisweekinreact.com/newsletter/274": {
+      "contentHash": "95e068772690413a30cca4680c928cd3af921e6bc87fb2de816b538638804919",
+      "processedAt": "2026-03-27T00:44:20.884Z"
     }
   },
-  "lastRun": "2026-03-25T00:40:21.830Z"
+  "lastRun": "2026-03-27T00:44:20.884Z"
 }
