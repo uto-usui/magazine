@@ -1,0 +1,59 @@
+articles_dir=2026-03-27
+exit_code=0
+timestamp_utc=2026-03-27T00:44:21Z
+
+---- issue lines ----
+8:Failed to fetch feed Vercel: Invalid time value
+19:❌ Playwright failed for https://typeflow.tools/: undefined
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-27/applying-accessibility-fixes-with-stealth-for-the-greater-good.md
+📥 Processing: Figma's next-generation data caching platform
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-27/figmas-next-generation-data-caching-platform.md
+📥 Processing: The Great CSS Expansion: Replacing JS with native features
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-27/the-great-css-expansion-replacing-js-with-native-features.md
+📥 Processing: JaSST’26 Tokyo 登壇レポート —— 東京ビッグサイトでの2つの登壇の感想戦
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-27/jasst26-tokyo-2.md
+📥 Processing: SmartHR パスキー対応の裏側 —— マルチテナントSaaSでの意思決定と実装
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-27/smarthr-saas.md
+📥 Processing: 事業戦略を日々の開発につなぐチームキックオフの実践
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-27/smarthr-03-25-153116.md
+📥 Processing: How to prevent content ops pain points
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-27/how-to-prevent-content-ops-pain-points.md
+📥 Processing: Content design skills to be more proactive
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-27/content-design-skills-to-be-more-proactive.md
+📥 Processing: Introducing “inference noise”, AI slop’s older brother
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-27/introducing-inference-noise-ai-slops-older-brother.md
+📥 Processing: Everyone is designing with words
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-27/everyone-is-designing-with-words.md
+📥 Processing: Reimagining Work: How Designing for Humanity Will Shape 2030
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-27/reimagining-work-how-designing-for-humanity-will-shape-2030.md
+📥 Processing: The Government Already Knows the Fax Machines Don&#8217;t Work
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-27/the-government-already-knows-the-fax-machines-don8217t-work.md
+📥 Processing: This Week In React #274: ⚛️ Next.js, React Router, Storybook, HeroUI, Remotion, Lucide, useEffect | 📱 Reanimated, Worklets, Nitro Fetch, Navigation, Rozenite, MMKV, Windows, Swift | 🔀 TypeScript, Signals, Zero, Valibot
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-27/this-week-in-react-274-nextjs-react-router-storybook-heroui-remotion-lucide-useeffect-reanimated-wor.md
+
+📊 Summary:
+   ✅ Success: 31
+   ❌ Errors: 0
+🏁 Done!
