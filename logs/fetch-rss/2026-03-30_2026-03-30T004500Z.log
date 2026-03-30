@@ -1,0 +1,59 @@
+articles_dir=2026-03-30
+exit_code=0
+timestamp_utc=2026-03-30T00:45:00Z
+
+---- issue lines ----
+8:Failed to fetch feed Vercel: Invalid time value
+33:Failed to fetch https://anythingconverter.com/anythingcounter/ after 3 retries: timeout of 15000ms exceeded
+
+---- tail (last 50 lines) ----
+📥 Processing: When All You Can Do Is All or Nothing, Do Nothing
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-30/when-all-you-can-do-is-all-or-nothing-do-nothing.md
+📥 Processing: The Code Agent Orchestra - what makes multi-agent coding work
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-30/the-code-agent-orchestra-what-makes-multi-agent-coding-work.md
+📥 Processing: New to the web platform in March
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-30/new-to-the-web-platform-in-march.md
+📥 Processing: The evolution of craft
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-30/the-evolution-of-craft.md
+📥 Processing: Shadcn/ui: the foundation for your design system
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-30/shadcnui-the-foundation-for-your-design-system.md
+📥 Processing: The three thirds
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxdesign.cc/the-three-thirds-2fba0a893a85
+✅ Playwright successfully fetched: https://uxdesign.cc/the-three-thirds-2fba0a893a85
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-30/the-three-thirds.md
+📥 Processing: Anything Counter
+⏳ Retry 1/3 after error: timeout of 15000ms exceeded
+⏳ Retry 2/3 after error: timeout of 15000ms exceeded
+Failed to fetch https://anythingconverter.com/anythingcounter/ after 3 retries: timeout of 15000ms exceeded
+⚠️ Using RSS content as fallback for: https://anythingconverter.com/anythingcounter/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-30/anything-counter.md
+📥 Processing: The curse of the cursor
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-30/the-curse-of-the-cursor.md
+📥 Processing: Motion Highlights #17
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-30/motion-highlights-17.md
+📥 Processing: Pell Mell: Crafting a Visual Exploration Platform with Editorial Rhythm
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-30/pell-mell-crafting-a-visual-exploration-platform-with-editorial-rhythm.md
+📥 Processing: The Index: Issue #175
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-30/the-index-issue-175.md
+📥 Processing: SmartHRの労務プロダクトに興味をお持ちの方へ
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-30/smarthr.md
+📥 Processing: 現場の暗黙知を仕組みに変えるプロダクト開発の第一歩 —— カスタマーサクセス×開発チーム ワークショップレポート
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-30/smarthr-03-27-120000.md
+📥 Processing: AIの提案が正しそうなのに動かない理由を、uvicornのソースコードを読んで理解した話
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-30/aiuvicorn.md
+📥 Processing: Minimum Viable Product (MVP): Definition
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-30/minimum-viable-product-mvp-definition.md
+📥 Processing: GenUI vs. Vibe Coding: Who’s Designing?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-30/genui-vs-vibe-coding-whos-designing.md
+📥 Processing: Google says “Vibe Design” is here, but...
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-30/google-says-vibe-design-is-here-but.md
+📥 Processing: Pixels of the Week – March 29, 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-30/pixels-of-the-week-march-29-2026.md
+📥 Processing: Why test IDs are an accessibility code smell
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-30/why-test-ids-are-an-accessibility-code-smell.md
+
+📊 Summary:
+   ✅ Success: 20
+   ❌ Errors: 0
+🏁 Done!
