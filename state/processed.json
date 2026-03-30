@@ -26799,7 +26799,87 @@
     "https://thisweekinreact.com/newsletter/274": {
       "contentHash": "95e068772690413a30cca4680c928cd3af921e6bc87fb2de816b538638804919",
       "processedAt": "2026-03-27T00:44:20.884Z"
+    },
+    "https://csswizardry.com/2026/04/what-is-css-containment-and-how-can-i-use-it/": {
+      "contentHash": "ee35b569ad6be71d36716573ce7d4151bde799acff47342c2cdaa5bd690896c2",
+      "processedAt": "2026-03-30T00:43:49.769Z"
+    },
+    "https://csswizardry.com/2026/03/when-all-you-can-do-is-all-or-nothing-do-nothing/": {
+      "contentHash": "89d38397e1af950502fdc0911c1ac74bade18548450b37a9fadf8732ed55cc84",
+      "processedAt": "2026-03-30T00:43:50.306Z"
+    },
+    "https://addyosmani.com/blog/code-agent-orchestra/": {
+      "contentHash": "8ec0dc06c8d5f66c4fe5eb7ea2014893220da86a2c0d9a8bfd0f423096937d07",
+      "processedAt": "2026-03-30T00:43:50.714Z"
+    },
+    "https://web.dev/blog/web-platform-03-2026?hl=en": {
+      "contentHash": "872e2225fa154053f640c26e543571fdd4a36e1cd62956e290f48cfc99e870a4",
+      "processedAt": "2026-03-30T00:43:51.325Z"
+    },
+    "https://carlsz.dev/posts/evolution-of-craft": {
+      "contentHash": "3df1e732763b2ef7cb2fda15467c4b162b088aec98dd32bd3a689991741c8721",
+      "processedAt": "2026-03-30T00:43:51.516Z"
+    },
+    "https://ui.shadcn.com/": {
+      "contentHash": "b17a377101b9c5ccb48ce5dbb0618a2c5acbfb5e28519a1fd1afc3137ed247dc",
+      "processedAt": "2026-03-30T00:43:51.916Z"
+    },
+    "https://uxdesign.cc/the-three-thirds-2fba0a893a85": {
+      "contentHash": "bb0b6215e019bf86a2e7ea7ccb004ec2053693c1f058e4c8cc9ad6596d9a440d",
+      "processedAt": "2026-03-30T00:43:58.035Z"
+    },
+    "https://anythingconverter.com/anythingcounter/": {
+      "contentHash": "77b589baf1c9f5e0ec05db27091fe7017c594c6183e856882dc13722a5628253",
+      "processedAt": "2026-03-30T00:44:49.092Z"
+    },
+    "https://unsung.aresluna.org/the-curse-of-the-cursor/": {
+      "contentHash": "a7bcbd9e57d9d68d637bfa74ca1ccbac24fa39b323f3a586001b69d71d5a0c74",
+      "processedAt": "2026-03-30T00:44:49.464Z"
+    },
+    "https://tympanus.net/codrops/2026/03/29/motion-highlights-17/": {
+      "contentHash": "c68eb14c2e0cc351bec4f5de1e6cb6be8dfe9f43695371fc16a442dc038da280",
+      "processedAt": "2026-03-30T00:44:51.430Z"
+    },
+    "https://tympanus.net/codrops/2026/03/27/pell-mell-crafting-a-visual-exploration-platform-with-editorial-rhythm/": {
+      "contentHash": "e25f44642c2e25dbb9d85d3e18ade72b30f0a8f93bbe4471da6df912b9790168",
+      "processedAt": "2026-03-30T00:44:52.641Z"
+    },
+    "https://piccalil.li/the-index/175/?ref=main-rss-feed": {
+      "contentHash": "5adde772a59204fc464357c57ef77ec48d5faa70630a48e948136a0d5ff6653d",
+      "processedAt": "2026-03-30T00:44:52.767Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/03/27/155947": {
+      "contentHash": "0842fd73298b8bc7d8038faf073b5ccd94148097da4e0f1250bd7df3abdc7aab",
+      "processedAt": "2026-03-30T00:44:54.084Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/03/27/120000": {
+      "contentHash": "124cb02c8d9ade45693cd549514e8068d2576d3261b5c0590306b4b9e2055b36",
+      "processedAt": "2026-03-30T00:44:54.779Z"
+    },
+    "https://tech.layerx.co.jp/entry/debugging-ai-code-uvicorn": {
+      "contentHash": "c9070570b63262cc42e47046b647e22191ca2c2e4f1cc68646c659c6525e57c4",
+      "processedAt": "2026-03-30T00:44:55.771Z"
+    },
+    "https://www.nngroup.com/articles/mvp-definition/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "d7b870fa58ee4da693eaae24424dd44225768d16721a8d9aa2e3023496c98948",
+      "processedAt": "2026-03-30T00:44:57.051Z"
+    },
+    "https://www.nngroup.com/articles/genui-vs-vibe/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "7564f257b2ed5604ab8e2a12ebe024c7f30cd0396c0a0c8cbf8dd624d6a969c5",
+      "processedAt": "2026-03-30T00:44:58.136Z"
+    },
+    "https://newsletter.uxdesign.cc/p/google-says-vibe-design-is-here-but": {
+      "contentHash": "19bc41cc6902dbd023e34bb41525b99899d60b6e45ea943f206f9d06a4732b2c",
+      "processedAt": "2026-03-30T00:44:58.471Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-march-29-2026/": {
+      "contentHash": "83563a99ba3399332827c90bb2ff1fa088ea2d2c1ec53b95308b9597179c80f6",
+      "processedAt": "2026-03-30T00:44:59.400Z"
+    },
+    "https://react.statuscode.com/issues/468": {
+      "contentHash": "fe852c1d99ef168ae5503b939010205a121c7a7b59663021eb1de5c7409fbb46",
+      "processedAt": "2026-03-30T00:44:59.905Z"
     }
   },
-  "lastRun": "2026-03-27T00:44:20.884Z"
+  "lastRun": "2026-03-30T00:44:59.906Z"
 }
