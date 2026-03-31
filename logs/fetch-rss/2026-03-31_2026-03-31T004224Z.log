@@ -1,0 +1,56 @@
+articles_dir=2026-03-31
+exit_code=0
+timestamp_utc=2026-03-31T00:42:24Z
+
+---- issue lines ----
+8:Failed to fetch feed Vercel: Invalid time value
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+Failed to fetch feed Vercel: Invalid time value
+⏳ Retry feed fetch 1/3 for Accessibility Weekly after transient error: Request timed out after 15000ms
+📰 Found 4038 total articles
+✨ New articles: 11
+⏭️ Skipped (already processed): 429
+📥 Processing: AI for American-Produced Cement and Concrete
+Image too large, skipping: https://engineering.fb.com/wp-content/uploads/2026/03/Meta-Rosemount-Data-Center.png
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-31/ai-for-american-produced-cement-and-concrete.md
+📥 Processing: Shifting and Shuffling
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-31/shifting-and-shuffling.md
+📥 Processing: AI Coding for Product Designers (New Cohort)
+Image unavailable (HTTP 404), skipping: https://bit.ly/_next/image?url=https%3A%2F%2Fd2426xcxuh3ht5.cloudfront.net%2Ft2hlvgzVTh2wbFQKifbM_nevan.png&w=384&q=75
+Image unavailable (HTTP 404), skipping: https://bit.ly/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2FidvW0eP0zV%2FidOSz8S5gK.jpeg&w=1536&q=75
+Image unavailable (HTTP 404), skipping: https://bit.ly/_next/image?url=https%3A%2F%2Fd2426xcxuh3ht5.cloudfront.net%2Ft2hlvgzVTh2wbFQKifbM_nevan.png&w=1536&q=75
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-31/ai-coding-for-product-designers-new-cohort.md
+📥 Processing: Take my job, AI!
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-31/take-my-job-ai.md
+📥 Processing: Aeris
+⚠️ Content too short (53 chars < 200): https://aeris.edbn.me/?city=JFK
+🔄 Readability failed, trying Playwright: https://aeris.edbn.me/?city=JFK
+✅ Playwright successfully fetched: https://aeris.edbn.me/?city=JFK
+⚠️ Content too short (53 chars < 200): https://aeris.edbn.me/?city=JFK
+⚠️ Using RSS content as fallback for: https://aeris.edbn.me/?city=JFK
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-31/aeris.md
+📥 Processing: MD UI: a Typeface for Interfacing
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-31/md-ui-a-typeface-for-interfacing.md
+📥 Processing: Endgame for the Open Web
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-31/endgame-for-the-open-web.md
+📥 Processing: Where Confidence Needs No Decoration: The Malvah.Studio Story
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-31/where-confidence-needs-no-decoration-the-malvahstudio-story.md
+📥 Processing: 福岡Rubyist会議05レポート —— ブースとスポンサーセッションを提供
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-31/rubyist05.md
+📥 Processing: QAエンジニアがバックエンドの自動テストに踏み込めるようになるために —— タレントマネジメントユニットでの学びと実務での活用
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-31/qa.md
+📥 Processing: The design engineer symptom: what a rising job title reveals
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-03-31/the-design-engineer-symptom-what-a-rising-job-title-reveals.md
+
+📊 Summary:
+   ✅ Success: 11
+   ❌ Errors: 0
+🏁 Done!
