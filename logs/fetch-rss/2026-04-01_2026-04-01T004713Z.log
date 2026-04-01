@@ -1,0 +1,58 @@
+articles_dir=2026-04-01
+exit_code=0
+timestamp_utc=2026-04-01T00:47:13Z
+
+---- issue lines ----
+8:Failed to fetch feed Vercel: Invalid time value
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-01/ai-coding-for-product-designers-new-cohort.md
+📥 Processing: Take my job, AI!
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-01/take-my-job-ai.md
+📥 Processing: Aeris
+⚠️ Content too short (53 chars < 200): https://aeris.edbn.me/?city=JFK
+🔄 Readability failed, trying Playwright: https://aeris.edbn.me/?city=JFK
+✅ Playwright successfully fetched: https://aeris.edbn.me/?city=JFK
+⚠️ Content too short (53 chars < 200): https://aeris.edbn.me/?city=JFK
+⚠️ Using RSS content as fallback for: https://aeris.edbn.me/?city=JFK
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-01/aeris.md
+📥 Processing: MD UI: a Typeface for Interfacing
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-01/md-ui-a-typeface-for-interfacing.md
+📥 Processing: Endgame for the Open Web
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-01/endgame-for-the-open-web.md
+📥 Processing: What is inference engineering? Deepdive
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-01/what-is-inference-engineering-deepdive.md
+📥 Processing: Arnaud Rocca’s Portfolio: From a GSAP-Powered Motion System to Fluid WebGL
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-01/arnaud-roccas-portfolio-from-a-gsap-powered-motion-system-to-fluid-webgl.md
+📥 Processing: Where Confidence Needs No Decoration: The Malvah.Studio Story
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-01/where-confidence-needs-no-decoration-the-malvahstudio-story.md
+📥 Processing: The Joy Of A Fresh Beginning (April 2026 Wallpapers Edition)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-01/the-joy-of-a-fresh-beginning-april-2026-wallpapers-edition.md
+📥 Processing: 福岡Rubyist会議05レポート —— ブースとスポンサーセッションを提供
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-01/rubyist05.md
+📥 Processing: QAエンジニアがバックエンドの自動テストに踏み込めるようになるために —— タレントマネジメントユニットでの学びと実務での活用
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-01/qa.md
+📥 Processing: FDEって何するの？ 現場の泥臭さが「はずみ車」となってプロダクトを強くするリアル
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-01/fde.md
+📥 Processing: The design engineer symptom: what a rising job title reveals
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-01/the-design-engineer-symptom-what-a-rising-job-title-reveals.md
+📥 Processing: Electronics & Office UX Benchmark: 5,000+ Performance Scores and 3,900+ Best Practice Examples
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-01/electronics-office-ux-benchmark-5000-performance-scores-and-3900-best-practice-examples.md
+📥 Processing: The Psychology of Defaults: How Pre-Selected Options Influence Behavior
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-01/the-psychology-of-defaults-how-pre-selected-options-influence-behavior.md
+
+📊 Summary:
+   ✅ Success: 25
+   ❌ Errors: 0
+🏁 Done!
