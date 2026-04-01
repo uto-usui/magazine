@@ -26879,7 +26879,107 @@
     "https://react.statuscode.com/issues/468": {
       "contentHash": "fe852c1d99ef168ae5503b939010205a121c7a7b59663021eb1de5c7409fbb46",
       "processedAt": "2026-03-30T00:44:59.905Z"
+    },
+    "https://engineering.fb.com/2026/03/31/ml-applications/meta-adaptive-ranking-model-bending-the-inference-scaling-curve-to-serve-llm-scale-models-for-ads/": {
+      "contentHash": "38d097e1dc23906fad7695253367e7a64036f913dbb3e211a07f2217227732b1",
+      "processedAt": "2026-04-01T00:46:11.704Z"
+    },
+    "https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/": {
+      "contentHash": "13b00811e57545505e643d207267a7fba244278b730f99afbd05bea248d73492",
+      "processedAt": "2026-04-01T00:46:12.025Z"
+    },
+    "https://github.blog/ai-and-ml/github-copilot/agent-driven-development-in-copilot-applied-science/": {
+      "contentHash": "e3af7ed5ad162a5ebfe8caefe86b9d0d116b2f02659e80e66588e13a671301e6",
+      "processedAt": "2026-04-01T00:46:12.306Z"
+    },
+    "https://webaim.org/blog/ask-aimee/": {
+      "contentHash": "c4fae2fc8de070467b5d7197e9704750833652882ed7ce6e05c271f56dc77a30",
+      "processedAt": "2026-04-01T00:46:12.531Z"
+    },
+    "https://a11yweekly.com/issue/493/": {
+      "contentHash": "9956866268029bfb57e334e0bdabb8fdd1a6a0684511ae7e404079b1f70a1d7f",
+      "processedAt": "2026-04-01T00:46:12.656Z"
+    },
+    "https://www.doc.cc/syntax/perspective": {
+      "contentHash": "5be3b6ba15b625af326a1f110fe663dd0eba36f624f8fb7b98ccec5e91792465",
+      "processedAt": "2026-04-01T00:46:17.294Z"
+    },
+    "https://gameaccessibilityguidelines.com/": {
+      "contentHash": "2cbe06802ec9635e2919604f65cab7606d368b1b6d80db861aab9b5b75135d8d",
+      "processedAt": "2026-04-01T00:46:17.680Z"
+    },
+    "https://johnjwang.com/post/2026/03/27/why-are-executives-enabled-with-ai-but-ics-arent/": {
+      "contentHash": "5262ff8a8f702bbfb8944386c990f214b2296b276ee9f51e72e4832a7ba6c629",
+      "processedAt": "2026-04-01T00:46:18.007Z"
+    },
+    "https://www.eztree.dev/": {
+      "contentHash": "1006518b2498ad210a106ee64c7dd32621bd1476d2a32bfebf4fa6ea28b73131",
+      "processedAt": "2026-04-01T00:46:38.666Z"
+    },
+    "https://www.gjlondon.com/blog/ai-agents-could-make-free-software-matter-again/": {
+      "contentHash": "81b61311972c5de91c8713ebda5521b654907bf895e50c626876adc1910ef3e2",
+      "processedAt": "2026-04-01T00:46:40.044Z"
+    },
+    "https://bit.ly/side-nev1": {
+      "contentHash": "83472d743eba4adc12c2fb61f2cb29fe941609bfd04ea194534c807e9f1df877",
+      "processedAt": "2026-04-01T00:46:42.271Z"
+    },
+    "https://jlzych.com/2026/03/26/take-my-job-ai/": {
+      "contentHash": "87ee6d886865077ca25b7b3fbda4cee403ae6dc4e398f078fe85604c25e4d65f",
+      "processedAt": "2026-04-01T00:46:42.488Z"
+    },
+    "https://aeris.edbn.me/?city=JFK": {
+      "contentHash": "b54ae0196f68090233652caed5a0d71f94e65bac36b187ce9d7b4953d552cb75",
+      "processedAt": "2026-04-01T00:46:57.322Z"
+    },
+    "https://mass-driver.com/article/md-ui-a-typeface-for-interfacing": {
+      "contentHash": "a4983098433fcd889b123f7a88bdfa058e63736855b990c1eae069eafaaa19b7",
+      "processedAt": "2026-04-01T00:46:58.814Z"
+    },
+    "https://www.anildash.com/2026/03/27/endgame-open-web/": {
+      "contentHash": "ea3094076056f7ab725942d65597d0219d036a00884fbc3a9329191c60ccb96c",
+      "processedAt": "2026-04-01T00:46:59.265Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/what-is-inference-engineering": {
+      "contentHash": "74643d941b30985b2ee06c7902c453893f02eb588e370b57eb8e99b299d051e3",
+      "processedAt": "2026-04-01T00:46:59.952Z"
+    },
+    "https://tympanus.net/codrops/2026/03/31/arnaud-roccas-portfolio-from-a-gsap-powered-motion-system-to-fluid-webgl/": {
+      "contentHash": "9f13c5ca28621899ed7ceaefec6f82d3cf196622f6d906b81a758a5e9f349de6",
+      "processedAt": "2026-04-01T00:47:01.516Z"
+    },
+    "https://tympanus.net/codrops/2026/03/30/where-confidence-needs-no-decoration-the-malvah-studio-story/": {
+      "contentHash": "d2f2ef3dedf8560b1c13f911c7dda7ccae3cc138ba802e5e35912264f798ef47",
+      "processedAt": "2026-04-01T00:47:02.836Z"
+    },
+    "https://smashingmagazine.com/2026/03/desktop-wallpaper-calendars-april-2026/": {
+      "contentHash": "689e993f187cdd636b8b18c1ac99a818bf2998ae9b4e016c9d1a33471d5df1c1",
+      "processedAt": "2026-04-01T00:47:05.072Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/03/30/134907": {
+      "contentHash": "28b21e0a99a42e5cd7547fed3a87667d7b1c03c005c012808a54a1d58b0de0c3",
+      "processedAt": "2026-04-01T00:47:06.889Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/03/30/110513": {
+      "contentHash": "e5653228ce947f93d97404273659db405ae71674f5da3c640047c4b22c5d6503",
+      "processedAt": "2026-04-01T00:47:07.835Z"
+    },
+    "https://tech.layerx.co.jp/entry/fde-intern": {
+      "contentHash": "3c1def884859d82a33d63cacdee0e97e0b42740e988bbaa2cadb01a838b85b16",
+      "processedAt": "2026-04-01T00:47:08.463Z"
+    },
+    "https://newsletter.uxdesign.cc/p/the-design-engineer-symptom-what": {
+      "contentHash": "02396fb42c1e7f41d6f3a10d4ef09c1e70cc5537cb119ef5849f38f405a74707",
+      "processedAt": "2026-04-01T00:47:08.848Z"
+    },
+    "https://feeds.baymard.com/link/9825/17310163/electronics-and-office-ux-benchmark-2026": {
+      "contentHash": "214a7368373f61c0bf8ed624a4c178f3e43a8faf1790b13ba46383009b8927a4",
+      "processedAt": "2026-04-01T00:47:11.609Z"
+    },
+    "https://uxmag.com/articles/the-psychology-of-defaults-how-pre-selected-options-influence-behavior": {
+      "contentHash": "74f294a2ba9833132176763baa01a96957ea5bf87c542d79ce14e466e96d5a01",
+      "processedAt": "2026-04-01T00:47:13.163Z"
     }
   },
-  "lastRun": "2026-03-30T00:44:59.906Z"
+  "lastRun": "2026-04-01T00:47:13.163Z"
 }
