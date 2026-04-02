@@ -26979,7 +26979,71 @@
     "https://uxmag.com/articles/the-psychology-of-defaults-how-pre-selected-options-influence-behavior": {
       "contentHash": "74f294a2ba9833132176763baa01a96957ea5bf87c542d79ce14e466e96d5a01",
       "processedAt": "2026-04-01T00:47:13.163Z"
+    },
+    "https://dheer.co/tickets-are-prompts/": {
+      "contentHash": "70a7d1dcaedc6012cd20386336d33022bdab36782f1d7c5fc5723c4c9cb24eb0",
+      "processedAt": "2026-04-02T00:39:31.696Z"
+    },
+    "https://banray.eu/en/index.html": {
+      "contentHash": "dee76df098b65022e0d164bb199506e11d52bdddcda3089de203024af0861a99",
+      "processedAt": "2026-04-02T00:39:32.936Z"
+    },
+    "https://report.zeroheight.com/": {
+      "contentHash": "cdb170eb641d675b4225dd16f62fea266e49712740618eb655872fe745f43a12",
+      "processedAt": "2026-04-02T00:39:34.870Z"
+    },
+    "https://www.edkf.fyi/portfolio-tips": {
+      "contentHash": "882f53fa8d55c1d923112825dc37e89c846fe23ec8116c9cc507419118bf5ca1",
+      "processedAt": "2026-04-02T00:39:34.997Z"
+    },
+    "https://lzon.ca/posts/other/thoughts-ai-era/": {
+      "contentHash": "e8f3cad0993bd7dfca98dc7637b94efe1d367c4e552eecb6faf4d656c97d5797",
+      "processedAt": "2026-04-02T00:39:35.181Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/scaling-uber-with-thuan-pham-ubers": {
+      "contentHash": "737a4f1997bbbad2a6a2848b38450b71dbbc100e477e90df3b619ce412e6d9e3",
+      "processedAt": "2026-04-02T00:39:35.709Z"
+    },
+    "https://tympanus.net/codrops/2026/04/01/animating-160000-cubes-in-three-js-to-visualize-dithering/": {
+      "contentHash": "a47e354be37529a9d4e927fa5f13efa554d47fa09e22be7f2b9399328ca04fae",
+      "processedAt": "2026-04-02T00:39:37.329Z"
+    },
+    "https://smashingmagazine.com/2026/04/practical-guide-design-principles/": {
+      "contentHash": "a05ad8f79988455f616ccfe036c1252ca9e226d6905d9d9f8f65b25d6803eab0",
+      "processedAt": "2026-04-02T00:39:38.680Z"
+    },
+    "https://www.figma.com/blog/6-designs-that-reimagine-how-we-interact-with-software/": {
+      "contentHash": "89550c805ed7e5c93ab0545bcdbaafe74f0fe3b54fb48b402ac0450147f3a509",
+      "processedAt": "2026-04-02T00:40:06.614Z"
+    },
+    "https://frontendfoc.us/issues/735": {
+      "contentHash": "327f6c7e6aab6d44025059c47aee84e72adf8e7e85f25a5b5f95e103da2bf23b",
+      "processedAt": "2026-04-02T00:40:07.372Z"
+    },
+    "https://efcl.info/2026/04/01/dockerfile-pin/": {
+      "contentHash": "d673f9c52639588a3644926e2f89ed1378bcf825f4203b40a69229b40b155e8c",
+      "processedAt": "2026-04-02T00:40:07.509Z"
+    },
+    "https://efcl.info/2026/01/06/photo-cleaner/": {
+      "contentHash": "c17aae994443fe4308ed6516cabe18a47b2da243504039f049da011c32265f0f",
+      "processedAt": "2026-04-02T00:40:10.172Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/04/01/180843": {
+      "contentHash": "6afc631f94102f0bc69728809bbf050d02c042506b067e7a3a691e8c3ade597a",
+      "processedAt": "2026-04-02T00:40:11.802Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/04/01/150000": {
+      "contentHash": "09642c54e80ad221768a6ff3cb6f3af0450defec63b2373a747d03e9b1754bca",
+      "processedAt": "2026-04-02T00:40:14.048Z"
+    },
+    "https://uxmovement.medium.com/why-view-more-buttons-are-better-than-pagination-links-458c0f6bb2e3?source=rss-40dd56d8f87d------2": {
+      "contentHash": "42a2aab04ccc2caa6d3de614c18526196e6fda0e1a960edd4c8d5439d33938d1",
+      "processedAt": "2026-04-02T00:40:18.926Z"
+    },
+    "https://thisweekinreact.com/newsletter/275": {
+      "contentHash": "e1c61168a3a6e3208d5812918d5238153ae7b42ca56cd5b6fcd0dde0e6bdc6d9",
+      "processedAt": "2026-04-02T00:40:19.364Z"
     }
   },
-  "lastRun": "2026-04-01T00:47:13.163Z"
+  "lastRun": "2026-04-02T00:40:19.364Z"
 }
