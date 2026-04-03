@@ -26979,7 +26979,127 @@
     "https://uxmag.com/articles/the-psychology-of-defaults-how-pre-selected-options-influence-behavior": {
       "contentHash": "74f294a2ba9833132176763baa01a96957ea5bf87c542d79ce14e466e96d5a01",
       "processedAt": "2026-04-01T00:47:13.163Z"
+    },
+    "https://engineering.fb.com/2026/04/02/developer-tools/kernelevolve-how-metas-ranking-engineer-agent-optimizes-ai-infrastructure/": {
+      "contentHash": "1f1551e0bd77c86c5f8e8bdc75cce825e296996e0ad5df64283e63b00089aa3c",
+      "processedAt": "2026-04-03T00:42:06.269Z"
+    },
+    "https://www.seangoedecke.com/working-on-products-people-hate/": {
+      "contentHash": "509bb535ae564eaf01960bf58116c145d4871dcdf9e80ed76435e0b746214967",
+      "processedAt": "2026-04-03T00:42:06.528Z"
+    },
+    "https://huegrid.app/": {
+      "contentHash": "717ac39f7702b3463f6906985882e0dae0b4a589e6ed850699fdefcb30cff4d2",
+      "processedAt": "2026-04-03T00:42:09.488Z"
+    },
+    "https://www.howmuch.tax/": {
+      "contentHash": "5a85454bf81bbe27203ae36e61cf18e66b74605c6dd4f10ad08e5071371804aa",
+      "processedAt": "2026-04-03T00:42:15.953Z"
+    },
+    "https://www.lesswrong.com/posts/TfKM9PgztxieEcKiv/a-mirror-test-for-llms": {
+      "contentHash": "0fdba382d0c810e26a31d2c040d1655b9370d96679d199b26eaffa08b83608f6",
+      "processedAt": "2026-04-03T00:42:24.736Z"
+    },
+    "https://dheer.co/tickets-are-prompts/": {
+      "contentHash": "70a7d1dcaedc6012cd20386336d33022bdab36782f1d7c5fc5723c4c9cb24eb0",
+      "processedAt": "2026-04-03T00:42:29.025Z"
+    },
+    "https://banray.eu/en/index.html": {
+      "contentHash": "dee76df098b65022e0d164bb199506e11d52bdddcda3089de203024af0861a99",
+      "processedAt": "2026-04-03T00:42:31.151Z"
+    },
+    "https://report.zeroheight.com/": {
+      "contentHash": "cdb170eb641d675b4225dd16f62fea266e49712740618eb655872fe745f43a12",
+      "processedAt": "2026-04-03T00:42:32.481Z"
+    },
+    "https://www.edkf.fyi/portfolio-tips": {
+      "contentHash": "882f53fa8d55c1d923112825dc37e89c846fe23ec8116c9cc507419118bf5ca1",
+      "processedAt": "2026-04-03T00:42:33.008Z"
+    },
+    "https://lzon.ca/posts/other/thoughts-ai-era/": {
+      "contentHash": "e8f3cad0993bd7dfca98dc7637b94efe1d367c4e552eecb6faf4d656c97d5797",
+      "processedAt": "2026-04-03T00:42:33.490Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-industry-leaders-return": {
+      "contentHash": "15f92270c3e2a2e15cd35a35f86cff7fef821fa4f4131da17bd81d7172e2972f",
+      "processedAt": "2026-04-03T00:42:33.632Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/scaling-uber-with-thuan-pham-ubers": {
+      "contentHash": "737a4f1997bbbad2a6a2848b38450b71dbbc100e477e90df3b619ce412e6d9e3",
+      "processedAt": "2026-04-03T00:42:33.931Z"
+    },
+    "https://tympanus.net/codrops/2026/04/02/where-engineering-meets-craft-edoardo-lunardis-obsession-with-the-details/": {
+      "contentHash": "b43cda295a65653fa0172eaacd164c2785ccafbdcf9a83bd4989638f7d5b34b6",
+      "processedAt": "2026-04-03T00:42:35.540Z"
+    },
+    "https://tympanus.net/codrops/2026/04/01/animating-160000-cubes-in-three-js-to-visualize-dithering/": {
+      "contentHash": "a47e354be37529a9d4e927fa5f13efa554d47fa09e22be7f2b9399328ca04fae",
+      "processedAt": "2026-04-03T00:42:37.024Z"
+    },
+    "https://smashingmagazine.com/2026/04/practical-guide-design-principles/": {
+      "contentHash": "a05ad8f79988455f616ccfe036c1252ca9e226d6905d9d9f8f65b25d6803eab0",
+      "processedAt": "2026-04-03T00:42:38.773Z"
+    },
+    "https://ics.media/entry/260402/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-04-03T00:42:40.264Z"
+    },
+    "https://piccalil.li/blog/a-quick-guide-to-creating-syndication-feeds/?ref=main-rss-feed": {
+      "contentHash": "2138ed5c0eb1924c5d0feececc26d24499d898f3b307b2b9905614ca015ab41c",
+      "processedAt": "2026-04-03T00:42:40.537Z"
+    },
+    "https://stripe.com/blog/shoptalk-2026": {
+      "contentHash": "85c7197f2c43743aab17e3f644e4fbec7948b74891939a1f168faa1b7ff47dcc",
+      "processedAt": "2026-04-03T00:42:41.318Z"
+    },
+    "https://www.figma.com/blog/introducing-make-kits-and-make-attachments/": {
+      "contentHash": "efae690260131d68a8c61fe5edeaa9db6393a290767d91ef4b883b3aa518a25b",
+      "processedAt": "2026-04-03T00:43:09.087Z"
+    },
+    "https://www.figma.com/blog/6-designs-that-reimagine-how-we-interact-with-software/": {
+      "contentHash": "89550c805ed7e5c93ab0545bcdbaafe74f0fe3b54fb48b402ac0450147f3a509",
+      "processedAt": "2026-04-03T00:43:33.728Z"
+    },
+    "https://frontendfoc.us/issues/735": {
+      "contentHash": "327f6c7e6aab6d44025059c47aee84e72adf8e7e85f25a5b5f95e103da2bf23b",
+      "processedAt": "2026-04-03T00:43:34.894Z"
+    },
+    "https://efcl.info/2026/04/01/dockerfile-pin/": {
+      "contentHash": "d673f9c52639588a3644926e2f89ed1378bcf825f4203b40a69229b40b155e8c",
+      "processedAt": "2026-04-03T00:43:35.232Z"
+    },
+    "https://efcl.info/2026/01/06/photo-cleaner/": {
+      "contentHash": "c17aae994443fe4308ed6516cabe18a47b2da243504039f049da011c32265f0f",
+      "processedAt": "2026-04-03T00:43:35.802Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/04/02/201434": {
+      "contentHash": "125c6a3061ca2287c25c0c88e169183c3932a3cc9a392ddfd0983bcc6ecd114a",
+      "processedAt": "2026-04-03T00:43:36.914Z"
+    },
+    "https://tech.layerx.co.jp/entry/self-maintainable-go-test-ci": {
+      "contentHash": "66f30dd457f81c3801090ee66ffd5da25a426038138e4e5cd9c71bb153a9a116",
+      "processedAt": "2026-04-03T00:43:37.338Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/04/01/180843": {
+      "contentHash": "6afc631f94102f0bc69728809bbf050d02c042506b067e7a3a691e8c3ade597a",
+      "processedAt": "2026-04-03T00:43:37.782Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/04/01/150000": {
+      "contentHash": "09642c54e80ad221768a6ff3cb6f3af0450defec63b2373a747d03e9b1754bca",
+      "processedAt": "2026-04-03T00:43:39.911Z"
+    },
+    "https://uxmag.com/articles/cloze-test-in-practice": {
+      "contentHash": "cdb099829fc116a66a3f9089b693b4c62102dc78bedd07057d1bfb66e615c02f",
+      "processedAt": "2026-04-03T00:43:41.419Z"
+    },
+    "https://uxmovement.medium.com/why-view-more-buttons-are-better-than-pagination-links-458c0f6bb2e3?source=rss-40dd56d8f87d------2": {
+      "contentHash": "42a2aab04ccc2caa6d3de614c18526196e6fda0e1a960edd4c8d5439d33938d1",
+      "processedAt": "2026-04-03T00:43:46.788Z"
+    },
+    "https://thisweekinreact.com/newsletter/275": {
+      "contentHash": "e1c61168a3a6e3208d5812918d5238153ae7b42ca56cd5b6fcd0dde0e6bdc6d9",
+      "processedAt": "2026-04-03T00:43:47.146Z"
     }
   },
-  "lastRun": "2026-04-01T00:47:13.163Z"
+  "lastRun": "2026-04-03T00:43:47.146Z"
 }
