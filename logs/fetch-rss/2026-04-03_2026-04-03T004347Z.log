@@ -1,0 +1,59 @@
+articles_dir=2026-04-03
+exit_code=0
+timestamp_utc=2026-04-03T00:43:47Z
+
+---- issue lines ----
+8:Failed to fetch feed Vercel: Invalid time value
+9:Failed to fetch feed Remix Blog: Status code 500
+
+---- tail (last 50 lines) ----
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20x_1%20%5Cleq%20x_2%20%5Cleq%20%5Ccdots%20%5Cleq%20x_n%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20%5Cdisplaystyle%0AG%20%3D%20%5Cfrac%7B%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20%282i%20-%20n%20-%201%29%20%5Ccdot%20x_i%7D%7Bn%20%5Ccdot%20%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20x_i%7D%0A
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20G%20%5Capprox%200%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20G%20%5Capprox%201%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20G%20%5Cgt%200.6%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20d_1%2C%20d_2%2C%20%5Cldots%2C%20d_m%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20%5Cdisplaystyle%0ACV%20%3D%20%5Cfrac%7B%5Csigma%28d%29%7D%7B%5Cmu%28d%29%7D%0A
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20CV%20%5Clt%201%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20CV%20%5Capprox%201%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20CV%20%5Cgt%201%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20%5Cdisplaystyle%0AFLI%20%3D%20%5Cfrac%7B%5Ctext%7B%E5%89%8D%E5%8D%8A50%5C%25%E3%81%AE%E7%A8%BC%E5%83%8D%E6%99%82%E9%96%93%E3%81%A7%E7%99%BA%E7%94%9F%E3%81%97%E3%81%9FHITL%E6%95%B0%7D%7D%7B%5Ctext%7B%E7%B7%8FHITL%E6%95%B0%7D%7D%0A
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20FLI%20%3D%200.5%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20B%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20FLI%20%5Cgt%200.7%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20FLI%20%5Cto%201.0%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20%5Cdisplaystyle%0AB%20%3D%20%5Cfrac%7B%5Csigma%28d%29%20-%20%5Cmu%28d%29%7D%7B%5Csigma%28d%29%20%2B%20%5Cmu%28d%29%7D%0A
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20B%20%3D%20-1%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20B%20%3D%200%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20B%20%3D%20%2B1%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20CV%20%5Cgt%201%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20B%20%5Cgt%200.3%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20%5Cdisplaystyle%0A%5Ctext%7BCascade%20Impact%7D%20%3D%20%5Csum_%7Bj%20%5Cin%20%5Ctext%7Bdownstream%7D%7D%20%5Ctext%7BCost%7D_j%20%5Ctimes%20P%28%5Ctext%7Berror%20at%20upstream%7D%29%0A
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20%5Cdisplaystyle%0A%5Ctext%7BInterference%20Cost%7D%20%3D%20N_%7B%5Ctext%7Bwindow%7D%7D%20%5Ctimes%20r_%7B%5Ctext%7Bfatigue%7D%7D%20%5Ctimes%20%5Cbar%7BV%7D_%7B%5Ctext%7Bdecision%7D%7D%0A
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20N_%7B%5Ctext%7Bwindow%7D%7D%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20r_%7B%5Ctext%7Bfatigue%7D%7D%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20%5Cbar%7BV%7D_%7B%5Ctext%7Bdecision%7D%7D%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20%5Cdisplaystyle%0A%5Ctext%7BSynergy%20Gain%7D%20%3D%20%28T_1%20-%20T_k%29%20%5Ctimes%20C_%7B%5Ctext%7Bhourly%7D%7D%0A
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20T_1%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20T_k%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20k%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20C_%7B%5Ctext%7Bhourly%7D%7D%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20T_1%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20F_%7B%5Cbeta%7D%20
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20%5Cbeta%20
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-03/aihuman-in-the-loop.md
+📥 Processing: Cloze Test in Practice
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-03/cloze-test-in-practice.md
+📥 Processing: Why “View More” Buttons Are Better Than Pagination Links
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxmovement.medium.com/why-view-more-buttons-are-better-than-pagination-links-458c0f6bb2e3?source=rss-40dd56d8f87d------2
+✅ Playwright successfully fetched: https://uxmovement.medium.com/why-view-more-buttons-are-better-than-pagination-links-458c0f6bb2e3?source=rss-40dd56d8f87d------2
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-03/why-view-more-buttons-are-better-than-pagination-links.md
+📥 Processing: This Week In React #275: ⚛️ Next.js, TanStack RSC, React Compiler, Inertia, Astro, Trusted Types, Signals | 📱 ExecuTorch, Unistyles, RN.run, Preflight, Confetti, AI, Lynx | 🔀 Pretext, Axios, Node, Playwright, Turborepo
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-03/this-week-in-react-275-nextjs-tanstack-rsc-react-compiler-inertia-astro-trusted-types-signals-execut.md
+
+📊 Summary:
+   ✅ Success: 30
+   ❌ Errors: 0
+🏁 Done!
