@@ -1,12 +1,12 @@
 ---
 allowed-tools: [Read, Write, Glob, Bash]
-description: ニュースレターを非対話で自動作成し、メール送信まで行うコマンド
+description: ニュースレターを非対話で自動作成し、コミットまで行うコマンド
 ---
 
 # ニュースレター自動作成（非対話版）
 
 このコマンドは `/create-newsletter` の非対話版です。
-ユーザー確認なしで自動的にニュースレターを作成し、PRとして提出します。
+ユーザー確認なしで自動的にニュースレターを作成し、コミットまで行います。pushは呼び出し元が担当します。
 
 ## 処理手順
 
@@ -104,19 +104,17 @@ description: ニュースレターを非対話で自動作成し、メール送�
 date "+%Y-%m-%d-%H%M%S"
 ```
 
-### 6. コミットとプッシュ
+### 6. コミット
 
 ```bash
 git add newsletters/YYYY-MM-DD-HHmmss.md
 git commit -m "docs: Add newsletter for YYYY-MM-DD"
-git push origin master
 ```
 
 ### 7. 完了報告
 
 - 作成したファイルのパス
 - 含まれる記事数
-- 送信結果
 
 ## 文体・表記ルール
 
