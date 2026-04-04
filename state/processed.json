@@ -27099,7 +27099,43 @@
     "https://thisweekinreact.com/newsletter/275": {
       "contentHash": "e1c61168a3a6e3208d5812918d5238153ae7b42ca56cd5b6fcd0dde0e6bdc6d9",
       "processedAt": "2026-04-03T00:43:47.146Z"
+    },
+    "https://github.blog/engineering/architecture-optimization/the-uphill-climb-of-making-diff-lines-performant/": {
+      "contentHash": "d4ffd97d4ea6404b17de4d736b838dd973537e2e23c271dbad9845b9e9edad04",
+      "processedAt": "2026-04-04T00:39:04.610Z"
+    },
+    "https://uxdesign.cc/the-ground-is-shaking-why-designers-must-flip-the-script-on-ai-9211053bbadd": {
+      "contentHash": "99daea94e5249186d62b3c7b4269578c4a1197f4f1706cf43673c0f9ba4f7b53",
+      "processedAt": "2026-04-04T00:39:10.897Z"
+    },
+    "https://design-tokens-visualizer.vercel.app/": {
+      "contentHash": "70e0d7b3ba1657ce408aa888a9f78471d3c917655f10389025437f4a299cdc17",
+      "processedAt": "2026-04-04T00:39:11.220Z"
+    },
+    "https://www.nngroup.com/articles/3-cs-microcopy/": {
+      "contentHash": "741431648319b7adef40ab18efec8bedbc52863ba6764543ccdd31321b42db1a",
+      "processedAt": "2026-04-04T00:39:12.448Z"
+    },
+    "https://tombh.co.uk/longest-line-of-sight": {
+      "contentHash": "bad7f3d8612c3cc7aa520d447cbe05079ddde86f24159bb4a6f528ea3a7aa5cc",
+      "processedAt": "2026-04-04T00:39:13.056Z"
+    },
+    "https://www.smashingmagazine.com/2026/04/practical-guide-design-principles/": {
+      "contentHash": "298acc948fdde28feeb6fb6a57086f786aa784ef64a1f8965391b75325844be5",
+      "processedAt": "2026-04-04T00:39:14.429Z"
+    },
+    "https://piccalil.li/the-index/176/?ref=main-rss-feed": {
+      "contentHash": "d886314461b85f41e393f7a4babfe89ba4d13286b2b552e2e12b38d168b3d0e9",
+      "processedAt": "2026-04-04T00:39:14.628Z"
+    },
+    "https://www.nngroup.com/articles/ai-survey-writing/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "4511823642558752650005a149f849107ca8de5e7d2ac969c28d6e2bca34f1b2",
+      "processedAt": "2026-04-04T00:39:15.779Z"
+    },
+    "https://www.nngroup.com/articles/definition-ai-agent/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "4f16636a80788609d673093b52f0a470b4ec27af25aa39001f921f57fc137a07",
+      "processedAt": "2026-04-04T00:39:16.835Z"
     }
   },
-  "lastRun": "2026-04-03T00:43:47.146Z"
+  "lastRun": "2026-04-04T00:39:16.835Z"
 }
