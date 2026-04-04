@@ -1,0 +1,46 @@
+articles_dir=2026-04-04
+exit_code=0
+timestamp_utc=2026-04-04T00:39:17Z
+
+---- issue lines ----
+8:Failed to fetch feed Vercel: Invalid time value
+9:Failed to fetch feed Remix Blog: Status code 500
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+Failed to fetch feed Vercel: Invalid time value
+Failed to fetch feed Remix Blog: Status code 500
+📰 Found 4002 total articles
+✨ New articles: 9
+⏭️ Skipped (already processed): 424
+📥 Processing: The uphill climb of making diff lines performant
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-04/the-uphill-climb-of-making-diff-lines-performant.md
+📥 Processing: The ground is shaking: Why designers must flip the script on AI
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxdesign.cc/the-ground-is-shaking-why-designers-must-flip-the-script-on-ai-9211053bbadd
+✅ Playwright successfully fetched: https://uxdesign.cc/the-ground-is-shaking-why-designers-must-flip-the-script-on-ai-9211053bbadd
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-04/the-ground-is-shaking-why-designers-must-flip-the-script-on-ai.md
+📥 Processing: Design tokens visualizer
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-04/design-tokens-visualizer.md
+📥 Processing: The 3 C’s of informational microcopy
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-04/the-3-cs-of-informational-microcopy.md
+📥 Processing: The longest line of sight
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-04/the-longest-line-of-sight.md
+📥 Processing: A practical guide to Design Principles
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-04/a-practical-guide-to-design-principles.md
+📥 Processing: The Index: Issue #176
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-04/the-index-issue-176.md
+📥 Processing: AI Can Help with Survey Writing, But It Still Requires Human Expertise
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-04/ai-can-help-with-survey-writing-but-it-still-requires-human-expertise.md
+📥 Processing: A Concrete Definition of an AI Agent
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-04/a-concrete-definition-of-an-ai-agent.md
+
+📊 Summary:
+   ✅ Success: 9
+   ❌ Errors: 0
+🏁 Done!
