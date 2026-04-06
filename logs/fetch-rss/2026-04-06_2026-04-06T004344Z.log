@@ -1,0 +1,28 @@
+articles_dir=2026-04-06
+exit_code=0
+timestamp_utc=2026-04-06T00:43:44Z
+
+---- issue lines ----
+8:Failed to fetch feed Vercel: Invalid time value
+9:Failed to fetch feed Remix Blog: Status code 500
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+Failed to fetch feed Vercel: Invalid time value
+Failed to fetch feed Remix Blog: Status code 500
+📰 Found 4002 total articles
+✨ New articles: 1
+⏭️ Skipped (already processed): 425
+📥 Processing: Pixels of the Week – April 5, 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-06/pixels-of-the-week-april-5-2026.md
+
+📊 Summary:
+   ✅ Success: 1
+   ❌ Errors: 0
+🏁 Done!
