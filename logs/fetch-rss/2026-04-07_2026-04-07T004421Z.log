@@ -1,0 +1,60 @@
+articles_dir=2026-04-07
+exit_code=0
+timestamp_utc=2026-04-07T00:44:21Z
+
+---- issue lines ----
+8:Failed to fetch feed Vercel: Invalid time value
+9:Failed to fetch feed Remix Blog: Status code 500
+12:Failed to fetch feed Adrian Roselli after 3 attempts: Request timed out after 15000ms
+
+---- tail (last 50 lines) ----
+✨ New articles: 15
+⏭️ Skipped (already processed): 416
+📥 Processing: Let’s Talk Agentic Development: Spotify x Anthropic Live
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-07/lets-talk-agentic-development-spotify-x-anthropic-live.md
+📥 Processing: How Meta Used AI to Map Tribal Knowledge in Large-Scale Data Pipelines
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-07/how-meta-used-ai-to-map-tribal-knowledge-in-large-scale-data-pipelines.md
+📥 Processing: The WebAIM Million - 2026 Update
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-07/the-webaim-million-2026-update.md
+📥 Processing: AI prototyping tools: why control matters as much as speed
+Image too large, skipping: https://cdn.sanity.io/images/qyzm5ged/production/ab6a641c9997befe5ea5b80938b08b6b1c8b1f3e-1920x1080.gif/full-manual-control.gif
+Image too large, skipping: https://cdn.sanity.io/images/qyzm5ged/production/5b2777c6cc524ac6b58eea6cbb9508e7cf1439c2-2092x1080.gif/ProtoPie-AI---@-mentions.gif
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-07/ai-prototyping-tools-why-control-matters-as-much-as-speed.md
+📥 Processing: The design engineer symptom: what a rising job title reveals
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxdesign.cc/the-design-engineer-symptom-what-a-rising-job-title-reveals-850d5e4fd9cc
+✅ Playwright successfully fetched: https://uxdesign.cc/the-design-engineer-symptom-what-a-rising-job-title-reveals-850d5e4fd9cc
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-07/the-design-engineer-symptom-what-a-rising-job-title-reveals.md
+📥 Processing: 30 Under 30: Fraud Watch
+🔄 Readability failed, trying Playwright: https://30u30.fyi/
+✅ Playwright successfully fetched: https://30u30.fyi/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-07/30-under-30-fraud-watch.md
+📥 Processing: The beginning of programming as we’ll know it
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-07/the-beginning-of-programming-as-well-know-it.md
+📥 Processing: What if AI just makes us work harder?
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://timharford.com/2026/04/what-if-ai-just-makes-us-work-harder/
+✅ Playwright successfully fetched: https://timharford.com/2026/04/what-if-ai-just-makes-us-work-harder/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-07/what-if-ai-just-makes-us-work-harder.md
+📥 Processing: Building the Maxima Therapy Website: React, GSAP, and Dabbling with AI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-07/building-the-maxima-therapy-website-react-gsap-and-dabbling-with-ai.md
+📥 Processing: Storybook MCP with Dominic Nguyen
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-07/storybook-mcp-with-dominic-nguyen.md
+📥 Processing: Roppongi.rb #40 がSmartHRで開催されました
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-07/roppongirb-40-smarthr.md
+📥 Processing: Content design isn’t about words, and never was
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-07/content-design-isnt-about-words-and-never-was.md
+📥 Processing: On rational thinking, taking action, and the courage to choose
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-07/on-rational-thinking-taking-action-and-the-courage-to-choose.md
+📥 Processing: Pixels of the Week – April 5, 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-07/pixels-of-the-week-april-5-2026.md
+📥 Processing: The Infinity Machine
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-07/the-infinity-machine.md
+
+📊 Summary:
+   ✅ Success: 15
+   ❌ Errors: 0
+🏁 Done!
