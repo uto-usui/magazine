@@ -27135,7 +27135,115 @@
     "https://www.nngroup.com/articles/definition-ai-agent/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
       "contentHash": "4f16636a80788609d673093b52f0a470b4ec27af25aa39001f921f57fc137a07",
       "processedAt": "2026-04-05T00:44:19.256Z"
+    },
+    "https://engineering.atspotify.com/2026/4/anthropic-agentic-development/": {
+      "contentHash": "10c238d0520857e8a55a0defd0cc6bb4b4f2360d2363e6ea1aa08fdf4341430d",
+      "processedAt": "2026-04-08T00:43:13.719Z"
+    },
+    "https://engineering.fb.com/2026/04/06/developer-tools/how-meta-used-ai-to-map-tribal-knowledge-in-large-scale-data-pipelines/": {
+      "contentHash": "ecc9b23ca35933ca3858ab3b26990f5650ea6063d509dec67b86eb0b3e4be472",
+      "processedAt": "2026-04-08T00:43:14.110Z"
+    },
+    "https://a11yweekly.com/issue/494/": {
+      "contentHash": "898795484ca52811a89c55baac40f2600d9f4c6865efb2cfc7733a9f92c974e5",
+      "processedAt": "2026-04-08T00:43:14.305Z"
+    },
+    "https://ergosphere.blog/posts/the-machines-are-fine/": {
+      "contentHash": "a78546f66bf1af4d5cb960713750610ba8270d472ba62aa835c1915135e744d3",
+      "processedAt": "2026-04-08T00:43:14.975Z"
+    },
+    "https://shadcnthemer.com/": {
+      "contentHash": "ce0abb8eb3f7dd3ce8981df32598f2249d3774e8790e74a8c86a9bb5e8645b4d",
+      "processedAt": "2026-04-08T00:43:15.319Z"
+    },
+    "https://uxdesign.cc/designers-finally-have-a-say-in-the-product-they-design-396c999e1227": {
+      "contentHash": "754f33b8a8cd9d058ef2f7fcfbf62d4d7dc2d130f5aab6473c5e9503a2ce69c5",
+      "processedAt": "2026-04-08T00:43:21.542Z"
+    },
+    "https://ai-interaction.com/": {
+      "contentHash": "d06179aabb32ea5e5e08e287d3dc4b652e0d023f16473024ccc27fad1d3537da",
+      "processedAt": "2026-04-08T00:43:26.299Z"
+    },
+    "https://karlkoch.me/writing/on-velocity-gating": {
+      "contentHash": "48e2d9a719222b8002a97284231e5c9026f9eb7a23f60e2f7d15f06543bb7082",
+      "processedAt": "2026-04-08T00:43:58.077Z"
+    },
+    "https://bit.ly/side-pie1": {
+      "contentHash": "67a152c9fcf88835600afec35e8706642cf674b098db22f0cb57f5d5f0255513",
+      "processedAt": "2026-04-08T00:43:58.826Z"
+    },
+    "https://uxdesign.cc/the-design-engineer-symptom-what-a-rising-job-title-reveals-850d5e4fd9cc": {
+      "contentHash": "f2134a695dc755a141cb9b410607e6478eef246285b7da3b94b8ae3ae6614cd1",
+      "processedAt": "2026-04-08T00:44:04.534Z"
+    },
+    "https://30u30.fyi/": {
+      "contentHash": "69334eb57a799cf258dce7ab96529c5b57596bdaf29f42ccdb817b06c57363c1",
+      "processedAt": "2026-04-08T00:44:10.818Z"
+    },
+    "https://bitsplitting.org/2026/04/01/the-beginning-of-programming-as-well-know-it/": {
+      "contentHash": "f4c6cc196d665aa0a180c7183f795d1f221c5f00b7490da0461f670a6e7228fd",
+      "processedAt": "2026-04-08T00:44:11.053Z"
+    },
+    "https://timharford.com/2026/04/what-if-ai-just-makes-us-work-harder/": {
+      "contentHash": "36734f7db8691fd345ba99ae10d30a8b4f6c6f9ad74c7de768c733988f681c73",
+      "processedAt": "2026-04-08T00:44:18.345Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/cycles-of-disruption-in-the-tech": {
+      "contentHash": "2166460a53f115d5d150d37080703843ce8fc0a7bb0f420fafd33e84eff42d7d",
+      "processedAt": "2026-04-08T00:44:18.798Z"
+    },
+    "https://tympanus.net/codrops/2026/04/07/r-k-26-the-thinking-and-code-behind-a-portfolio-led-by-presence/": {
+      "contentHash": "0964707d9af69e20554e6499bdeec9cfaa7c34cf6ac5cb6bdfbe6c787c998586",
+      "processedAt": "2026-04-08T00:44:20.125Z"
+    },
+    "https://tympanus.net/codrops/2026/04/06/building-the-maxima-therapy-website-react-gsap-and-dabbling-with-ai/": {
+      "contentHash": "dfb2fcb56f416610260a03094de8d4bcb054f9a493500379009260be61f1c5cc",
+      "processedAt": "2026-04-08T00:44:21.141Z"
+    },
+    "https://bradfrost.com/blog/post/storybook-mcp-with-dominic-nguyen/": {
+      "contentHash": "9382e6728cc700d21801c2ed2980e002828de3aedc5a9c0f8182e52a1a8c5cbe",
+      "processedAt": "2026-04-08T00:44:21.534Z"
+    },
+    "https://smashingmagazine.com/2026/04/identifying-necessary-transparency-moments-agentic-ai-part1/": {
+      "contentHash": "9cd36a022d7152ee9ddb12522707563b62a46d02a004377f21a82a1c8a5e4fad",
+      "processedAt": "2026-04-08T00:44:23.011Z"
+    },
+    "https://stripe.com/blog/global-checkout-trends": {
+      "contentHash": "1c0ce8a35be3825006f8abd8a105ea7bd989daae4a27dd38738c5715496bf586",
+      "processedAt": "2026-04-08T00:44:23.559Z"
+    },
+    "https://zenn.dev/uhyo/articles/ai-skill-modular": {
+      "contentHash": "08d57640ef8fbb3392e94eab80201b8b4f2e9969ba99b4b98cd7010656ba01fe",
+      "processedAt": "2026-04-08T00:44:23.965Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/04/07/112909": {
+      "contentHash": "356b7d1d12d2d0ebfc698bcfaa526c3c9ae0b957585c153600c9bd9bc4d3a921",
+      "processedAt": "2026-04-08T00:44:25.269Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/04/06/181252": {
+      "contentHash": "f10d64bce798039fd62a509b902d217dc87e1cec0a35fc35492da75b1af015f1",
+      "processedAt": "2026-04-08T00:44:25.867Z"
+    },
+    "https://uxcontent.com/content-design-isnt-about-words-and-never-was/": {
+      "contentHash": "a31ec96d63f8b5595efb0f6514ccb5c2a3a027123e7e607b60a6c9dd3aa99ca9",
+      "processedAt": "2026-04-08T00:44:28.621Z"
+    },
+    "https://newsletter.uxdesign.cc/p/on-rational-thinking-taking-action": {
+      "contentHash": "b1f961b12555b847b9d2bb5f830b449f870fae3a8e2c7dd92a857a9ecf9ef70e",
+      "processedAt": "2026-04-08T00:44:28.934Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-april-5-2026/": {
+      "contentHash": "b66d4cc931d65e58cc7b62c33c6ed08f14ce23d49d967ab49080c6ee010c9331",
+      "processedAt": "2026-04-08T00:44:29.804Z"
+    },
+    "https://uxmag.com/articles/gamification-or-manipulation-understanding-the-ethics-of-engagement-loops": {
+      "contentHash": "4c5e269038979c3efea4fe3b4029fc67b2ced98fa2da154436e636a087ba0366",
+      "processedAt": "2026-04-08T00:44:32.213Z"
+    },
+    "https://uxmag.com/articles/the-infinity-machine": {
+      "contentHash": "5f2be9dff5c3a68211abe85a491a2b1f67a2c36d1d3ea06f442094da427c7dbe",
+      "processedAt": "2026-04-08T00:44:33.423Z"
     }
   },
-  "lastRun": "2026-04-05T00:44:19.256Z"
+  "lastRun": "2026-04-08T00:44:33.423Z"
 }
