@@ -1,0 +1,59 @@
+articles_dir=2026-04-08
+exit_code=0
+timestamp_utc=2026-04-08T00:44:33Z
+
+---- issue lines ----
+8:Failed to fetch feed Vercel: Invalid time value
+9:Failed to fetch feed Remix Blog: Status code 500
+
+---- tail (last 50 lines) ----
+📥 Processing: 30 Under 30: Fraud Watch
+🔄 Readability failed, trying Playwright: https://30u30.fyi/
+✅ Playwright successfully fetched: https://30u30.fyi/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-08/30-under-30-fraud-watch.md
+📥 Processing: The beginning of programming as we’ll know it
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-08/the-beginning-of-programming-as-well-know-it.md
+📥 Processing: What if AI just makes us work harder?
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://timharford.com/2026/04/what-if-ai-just-makes-us-work-harder/
+✅ Playwright successfully fetched: https://timharford.com/2026/04/what-if-ai-just-makes-us-work-harder/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-08/what-if-ai-just-makes-us-work-harder.md
+📥 Processing: Cycles of disruption in the tech industry: with software pioneers Kent Beck & Martin Fowler
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-08/cycles-of-disruption-in-the-tech-industry-with-software-pioneers-kent-beck-martin-fowler.md
+📥 Processing: R—K ’26: The Thinking and Code Behind a Portfolio Led by Presence
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-08/rk-26-the-thinking-and-code-behind-a-portfolio-led-by-presence.md
+📥 Processing: Building the Maxima Therapy Website: React, GSAP, and Dabbling with AI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-08/building-the-maxima-therapy-website-react-gsap-and-dabbling-with-ai.md
+📥 Processing: Storybook MCP with Dominic Nguyen
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-08/storybook-mcp-with-dominic-nguyen.md
+📥 Processing: Identifying Necessary Transparency Moments In Agentic AI (Part 1)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-08/identifying-necessary-transparency-moments-in-agentic-ai-part-1.md
+📥 Processing: How agents, digital wallets, and trust are rewriting checkout
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-08/how-agents-digital-wallets-and-trust-are-rewriting-checkout.md
+📥 Processing: 共有スキルを2分類で管理する――AIスキル設計の理想と現実
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-08/2ai.md
+📥 Processing: 関西エンジニアのLT会「第四回 唐揚げ会」を開催しました！
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-08/lt.md
+📥 Processing: Roppongi.rb #40 がSmartHRで開催されました
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-08/roppongirb-40-smarthr.md
+📥 Processing: Content design isn’t about words, and never was
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-08/content-design-isnt-about-words-and-never-was.md
+📥 Processing: On rational thinking, taking action, and the courage to choose
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-08/on-rational-thinking-taking-action-and-the-courage-to-choose.md
+📥 Processing: Pixels of the Week – April 5, 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-08/pixels-of-the-week-april-5-2026.md
+📥 Processing: Gamification or Manipulation? Understanding the Ethics of Engagement Loops
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-08/gamification-or-manipulation-understanding-the-ethics-of-engagement-loops.md
+📥 Processing: BOOK EXCERPT: The Infinity Machine
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-08/book-excerpt-the-infinity-machine.md
+
+📊 Summary:
+   ✅ Success: 27
+   ❌ Errors: 0
+🏁 Done!
