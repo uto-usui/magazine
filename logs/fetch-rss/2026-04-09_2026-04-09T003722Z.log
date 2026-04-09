@@ -1,0 +1,59 @@
+articles_dir=2026-04-09
+exit_code=0
+timestamp_utc=2026-04-09T00:37:22Z
+
+---- issue lines ----
+8:Failed to fetch feed Vercel: Invalid time value
+9:Failed to fetch feed Remix Blog: Status code 500
+
+---- tail (last 50 lines) ----
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20%5Cvarepsilon
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20k
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20k
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20s
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20%5CTheta%28%5Cln%20s%29
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20s
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20p
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20m
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20k
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20p_%7B%5Cmathrm%7Bfull%7D%7D
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20m
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20p
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20k
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20k
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20m%3D1
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20m
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20s
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20%5CTheta%28s%5Cln%20s%29
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20c%2Fp
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20c
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20c%2Fp
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20c%2Fp
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20k
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20p%5E%7B-m%7D
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20p
+Image unavailable (HTTP 404), skipping: https://chart.apis.google.com/chart?cht=tx&chl=%20p%20%3E%200.5
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-09/ailong-running-task.md
+📥 Processing: Home & Hardware Quantitative UX: 3 High-Level Takeaways from 30+ Charts of Key Findings and Actionable Insights
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-09/home-hardware-quantitative-ux-3-high-level-takeaways-from-30-charts-of-key-findings-and-actionable-i.md
+📥 Processing: The Data Wasn&#8217;t Meant for This
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-09/the-data-wasn8217t-meant-for-this.md
+📥 Processing: This Week In React #276: Boneyard, Ink, MUI, React Router, Next.js, shadcn, Docusaurus, Comark, Forms, Shaders | RN 0.85, ViewTransition, Skia, Windows, CRNL, Maestro, True Sheet, Nitro Player, RNGH | JSIR, Security, esbuild, Ky, Intl
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-09/this-week-in-react-276-boneyard-ink-mui-react-router-nextjs-shadcn-docusaurus-comark-forms-shaders-r.md
+📥 Processing: React Native 0.85 - New Animation Backend, New Jest Preset Package
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-09/react-native-085-new-animation-backend-new-jest-preset-package.md
+
+📊 Summary:
+   ✅ Success: 20
+   ❌ Errors: 0
+🏁 Done!
