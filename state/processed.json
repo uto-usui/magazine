@@ -27243,7 +27243,87 @@
     "https://uxmag.com/articles/the-infinity-machine": {
       "contentHash": "5f2be9dff5c3a68211abe85a491a2b1f67a2c36d1d3ea06f442094da427c7dbe",
       "processedAt": "2026-04-08T00:44:33.423Z"
+    },
+    "https://engineering.fb.com/2026/04/08/security/trust-but-canary-configuration-safety-at-scale-meta-tech-podcast/": {
+      "contentHash": "5993e241da5d5ea0bda2ae1e091d9144ede26228f9e6368dae5ac5e4a328dcfa",
+      "processedAt": "2026-04-09T00:36:32.221Z"
+    },
+    "https://addyosmani.com/blog/cognitive-parallel-agents/": {
+      "contentHash": "7bad6c156f333e76a56d9ae30560a10836d904267fc0d9b9e532851b8167b098",
+      "processedAt": "2026-04-09T00:36:32.477Z"
+    },
+    "https://a11yweekly.com/issue/495/": {
+      "contentHash": "a3098dcd35cd3569327138136e60e3b825cdf9be845c1532853c21b255af508a",
+      "processedAt": "2026-04-09T00:36:32.829Z"
+    },
+    "https://siddhantkhare.com/writing/ai-fatigue-is-real": {
+      "contentHash": "5e59c7bb466de9c0a43b4b6151aea6670530cbc54436ef70c044701931dc56c7",
+      "processedAt": "2026-04-09T00:36:33.292Z"
+    },
+    "https://www.youtube.com/watch?v=h3AtWdeu_G0": {
+      "contentHash": "22ea35fc42290279c4461947f878cf6fb02a42257e67f2640859d0b4759582e5",
+      "processedAt": "2026-04-09T00:36:42.008Z"
+    },
+    "https://shotoniphone.lorenzobocchi.com/": {
+      "contentHash": "47fdefc540b38dd6c55b1ffa2118bf08d0072e1c796f944eb6c7d4a5c7560eb8",
+      "processedAt": "2026-04-09T00:36:42.508Z"
+    },
+    "https://blog.pope.tech/2026/04/01/making-emojis-and-icons-screen-reader-accessible/": {
+      "contentHash": "5827fda162c6844a4b0364eb93746be15f9b16bec68c98b4e0c1f1e187642f2e",
+      "processedAt": "2026-04-09T00:36:43.006Z"
+    },
+    "https://www.chrbutler.com/craft-is-untouchable": {
+      "contentHash": "d66739326abcbe2521f4c5c63196857c993002e507519baef5500a2782878c05",
+      "processedAt": "2026-04-09T00:36:43.954Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/dhhs-new-way-of-writing-code": {
+      "contentHash": "576896f483b06f8b84ed6109b5f045b587d5b2482de2d13491bc3483ff554e25",
+      "processedAt": "2026-04-09T00:36:44.445Z"
+    },
+    "https://tympanus.net/codrops/2026/04/08/creating-custom-page-transitions-in-astro-with-barba-js-and-gsap/": {
+      "contentHash": "a5a4fce474f73dfe3cc6b442d0766abed9147441087a0a37b8b2b5e5130c0877",
+      "processedAt": "2026-04-09T00:36:45.768Z"
+    },
+    "https://bradfrost.com/blog/post/an-update-on-life-and-work/": {
+      "contentHash": "29242e85970f446aa9017e431aabe4dc55d75dc02f110bed6099fe5a18e86918",
+      "processedAt": "2026-04-09T00:36:45.968Z"
+    },
+    "https://storybook.js.org/blog/storybook-10-3/": {
+      "contentHash": "74af824430d5fe4134ee796f98e7b4eaad6b14846c260e2e9c039db7fd9394b5",
+      "processedAt": "2026-04-09T00:36:46.550Z"
+    },
+    "https://www.figma.com/blog/april-fun-day-2026-figcade/": {
+      "contentHash": "098893d15ca317e315ab9eea145368d53e25a5c49101219e55391c4003ac0a02",
+      "processedAt": "2026-04-09T00:37:14.411Z"
+    },
+    "https://frontendfoc.us/issues/736": {
+      "contentHash": "f99e37503704c71cf587f6615ff8e09ab0c661ec01ef698f17056056157ffab8",
+      "processedAt": "2026-04-09T00:37:15.411Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/04/08/180645": {
+      "contentHash": "f324bc388825f642aadf451afdad993d9a236cda3e75e5a496d7b90b18ae7eb4",
+      "processedAt": "2026-04-09T00:37:16.181Z"
+    },
+    "https://tech.layerx.co.jp/entry/long-running-task-papers": {
+      "contentHash": "2c48e0f002652e3e8a2c8354fd43e3560af2d5807813830fed40324bc11a00f4",
+      "processedAt": "2026-04-09T00:37:18.088Z"
+    },
+    "https://feeds.baymard.com/link/9825/17315735/home-and-hardware-quantitative-ux-insights": {
+      "contentHash": "d295f4d1776bcc27d39fa3c19cb6ad71adec743d4afbf6416deec86686c94a99",
+      "processedAt": "2026-04-09T00:37:20.312Z"
+    },
+    "https://uxmag.com/articles/the-data-wasnt-meant-for-this": {
+      "contentHash": "38f9996bc18ac0824ce2c2c63952b57173ce5fbc6dee961310265f0398066827",
+      "processedAt": "2026-04-09T00:37:21.569Z"
+    },
+    "https://thisweekinreact.com/newsletter/276": {
+      "contentHash": "a6f012587e85c194de32e439fae183a2ee3fe3d0633f64aadbeeb53fa5b0037f",
+      "processedAt": "2026-04-09T00:37:22.019Z"
+    },
+    "https://reactnative.dev/blog/2026/04/07/react-native-0.85": {
+      "contentHash": "6ac322bdf663079e4e07f6c5e4ceab81cd2bb376ae526718de1eddb990fc6608",
+      "processedAt": "2026-04-09T00:37:22.347Z"
     }
   },
-  "lastRun": "2026-04-08T00:44:33.423Z"
+  "lastRun": "2026-04-09T00:37:22.347Z"
 }

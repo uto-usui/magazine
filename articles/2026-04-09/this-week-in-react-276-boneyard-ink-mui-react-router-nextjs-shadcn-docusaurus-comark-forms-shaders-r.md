@@ -1,0 +1,147 @@
+---
+title: "This Week In React #276: Boneyard, Ink, MUI, React Router, Next.js, shadcn, Docusaurus, Comark, Forms, Shaders | RN 0.85, ViewTransition, Skia, Windows, CRNL, Maestro, True Sheet, Nitro Player, RNGH | JSIR, Security, esbuild, Ky, Intl"
+source: "https://thisweekinreact.com/newsletter/276"
+publishedDate: "2026-04-08"
+category: "frontend"
+feedName: "This Week In React"
+---
+
+Hi there, [Seb](https://x.com/sebastienlorber) and [Jan](https://x.com/jaworek3211) here 👋!
+
+This week brings a collection of smaller, yet still noteworthy, React releases and articles.
+
+On the React Native side, v0.85 just dropped with a new Shared Animation backend. Speaking of animations, we have a little sneak peek of exciting things coming, such as `<ViewTransition>` and Skia Graphite.
+
+With the recent surge in npm supply chain attacks, it’s worth reviewing the [npm Security Best Practices](https://github.com/lirantal/npm-security-best-practices) guide to secure your setup.
+
+Let's dive in!
+
+As always, thanks for supporting us on your favorite platform:
+
+-   🦋 [Bluesky](https://slo.im/last/b)
+-   ✖️ [X / Twitter](https://slo.im/last/x)
+-   👔 [LinkedIn](https://slo.im/last/l)
+-   👽 [Reddit](https://slo.im/last/r)
+
+**Don't miss the next email!**
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+[![Still writing tests manually?](https://thisweekinreact.com/emails/issues/270/meticulous.jpg)](https://www.meticulous.ai/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=26q1&utm_content=1st)
+
+**[Still writing tests manually?](https://www.meticulous.ai/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=26q1&utm_content=1st)**
+
+Notion, Dropbox and LaunchDarkly have found a new testing paradigm - and they can't imagine working without it. Built by [ex-Palantir engineers](https://www.meticulous.ai/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=26q1&utm_content=1st), Meticulous autonomously creates a continuously evolving suite of E2E UI tests that delivers [near-exhaustive coverage](https://www.meticulous.ai/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=26q1&utm_content=1st) with _zero developer effort_ - impossible to deliver by any other means. 
+
+It works like magic in the background:
+
+-   Near-exhaustive coverage on every test run
+-   No test creation
+-   **No maintenance (seriously)**
+-   Zero flakes (built on a deterministic browser)
+
+**🤨** Curious? [Book in a time to learn more](https://www.meticulous.ai/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=26q1&utm_content=1st)
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+## ⚛️ React[​](#react "Direct link to ⚛️ React")
+
+[![Boneyard - Auto-generated skeleton screens](https://thisweekinreact.com/emails/issues/276/boneyard.jpg)](https://boneyard.vercel.app/)
+
+**[Boneyard - Auto-generated skeleton screens](https://boneyard.vercel.app/)**
+
+Instead of manually creating skeleton screens for loading states, this innovative library snapshots your real UI at various breakpoints and captures skeleton "bones" - positioned, sized rectangles that mirror the layout exactly. It supports React, React Native, and other frameworks.
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+-   💸 [Platano - Ship a revenue-ready AI image app this weekend. You know React? That's all you need to launch on the App Store.](https://cwb.sh/platano?r=seb)
+-   🗓 [React Summit](https://reactsummit.com/?utm_source=thisweekinreact) - 🇳🇱 Amsterdam - 12 & 16 Jun. Catch the latest in React with inspiring talks, networking, and Amsterdam adventures. Save on tickets with promo code TWIR (-10%) !
+-   📜 [The Precompute Pattern: Encoding Dynamic Data into URLs in Next.js](https://aurorascharff.no/posts/the-precompute-pattern-encoding-dynamic-data-into-urls-in-nextjs/) - An advanced technique to maximize the ability for Next.js to pre-render pages. It works particularly well for low cardinality variants such as feature flags and auth status.
+-   📜 [Under the hood of MDN's new frontend](https://developer.mozilla.org/en-US/blog/mdn-front-end-deep-dive/) - MDN launched a new frontend, replacing their old and difficult-to-maintain React CRA app for a new stack. They implemented their own Server Components system on top of Lit and Custom Elements, using Declarative Shadow DOM as a progressive enhancement.
+-   📜 [Moving Railway's Frontend Off Next.js](https://blog.railway.com/p/moving-railways-frontend-off-nextjs) - Feedback on migrating a Page Router app with 200+ routes to TanStack Start in 2 PRs with zero downtime. Their app now builds faster, has a more explicit model, and layout composition is easier.
+-   📜 [You really, really, really don't need an effect! I swear!](https://neciudan.dev/you-really-really-dont-need-an-effect) - And even when you need one (data fetching), someone already wrote that effect better than you will (React Query).
+-   📜 [How to implement spring physics buttons with Framer Motion](https://tigerabrodi.blog/how-to-implement-spring-physics-buttons-with-framer-motion)
+-   💸 [Certificates.dev - Go beyond tutorials. Get certified with real-world React coding exams prepped by Aurora Scharff. Trusted by 680 companies](https://certificates.dev/react?friend=TWIR&utm_source=twir&utm_medium=newsletter&utm_campaign=partner)
+-   📦 [Ink 7.0 - React renderer for CLIs](https://github.com/vadimdemedes/ink/releases/tag/v7.0.0) - Unsurprisingly, this package has become quite popular with the rise of AI and terminal apps. This major version upgrades to Node 22, React 19.2, and adds many new hooks, features, and props.
+-   📦 [Comark - Fast, streaming-ready Markdown parser with support for React and more](https://comark.dev/) - An interesting alternative to Streamdown or MDX, coming from the Nuxt team.
+-   📦 [Docusaurus 3.10 - Security, Docusaurus Faster stable, VCS API, Strict MDX, Site Storage stable](https://docusaurus.io/blog/releases/3.10) - A milestone release to prepare for Docusaurus v4.
+-   📦 [Shaders beta - The component library for creative WebGPU effects in the browser](https://shaders.com/) - A nice solution for modern creative web dev, coming with first-class React components. Commercial usage of React components is free, although there’s a paid offering.
+-   📦 [React Hook Form 7.72 - Built-in form-level validation](https://github.com/react-hook-form/react-hook-form/releases/tag/v7.72.0) - Useful feature for cross-field validation.
+-   📦 [Conform 1.18 - Progressively enhance HTML forms with React](https://github.com/edmundhung/conform/releases/tag/v1.18.0)
+-   📦 [React Router 7.14 - Support for Vite 8, unstable RSC Framework Mode improvements](https://github.com/remix-run/react-router/blob/main/CHANGELOG.md#v7140)
+-   📦 [shadcn CLI 4.2 - New `shadcn apply` command to switch presets easily](https://ui.shadcn.com/docs/changelog/2026-04-shadcn-apply)
+-   📦 [Material UI 9.0 - Accessibility improvements, sx prop performance, and cleanup of deprecated APIs](https://github.com/mui/material-ui/releases/tag/v9.0.0)
+-   📦 [Mantine 9.0 - New components: Scheduling, FloatingWindow, OverflowList, Marquee, and more](https://mantine.dev/changelog/9-0-0/)
+-   📦 [Next-Intl 4.9 - Support `<Link transitionTypes>`](https://github.com/amannn/next-intl/releases/tag/v4.9.0)
+-   🎥 [Web Dev Simplified - You Need To Start Using This Underrated React Hook - `useSyncExternalStore`](https://www.youtube.com/watch?v=NBjycPpPHQQ)
+-   🎥 [React Paris 2026 - YouTube Playlist](https://www.youtube.com/playlist?list=PL53Z0yyYnpWhsizNWtlnyM7XWFUSw437J)
+
+**Don't miss the next email!**
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+[![No breakpoints, no console.log — just AI & time travel](https://thisweekinreact.com/emails/issues/276/wallaby.jpg)](https://wallabyjs.com/?referrer=ThisWeekInReact8Apr26)
+
+**[No breakpoints, no console.log — just AI & time travel](https://wallabyjs.com/?referrer=ThisWeekInReact8Apr26)**
+
+15x faster TypeScript and JavaScript debugging than with breakpoints and `console.log`, while upgrading your AI agent into an expert debugger with real-time context.
+
+Wallaby.js runs your tests as you type, feeding your AI assistant live runtime values, code coverage, error details, and execution paths — all right next to your code. With [Wallaby v3’s new engine](https://wallabyjs.com/blog/wallaby-v3.html?referrer=ThisWeekInReact8Apr26) 🚀, tests start instantly with cached results, prioritize active files, and stream updates in real time.
+
+Built for testing, Wallaby includes a **Time Travel Debugger**, the ability to run only opened files, full-context AI integration, smart test runs, and more.
+
+[➡️ Learn More](https://wallabyjs.com/?referrer=ThisWeekInReact8Apr26)
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+## 📱 React-Native[​](#react-native "Direct link to 📱 React-Native")
+
+[![React Native 0.85](https://thisweekinreact.com/emails/issues/276/rn.jpg)](https://reactnative.dev/blog/2026/04/07/react-native-0.85)
+
+**[React Native 0.85](https://reactnative.dev/blog/2026/04/07/react-native-0.85)**
+
+React Native 0.85 notably ships with a new Shared Animation Backend built in collaboration with Software Mansion, alongside a few other improvements and breaking changes:
+
+-   **Shared Animation Backend**: This new internal engine will soon be enabled in React Native 0.85.1 and power both Animated and Reanimated. It enables performance benefits for Reanimated, and the core Animated API will finally animate layout props through the native driver!
+-   **DevTools Improvements**: Multiple simultaneous CDP connections allow you to debug with DevTools, VS Code, and AI agents simultaneously without sessions dropping.
+-   **Metro TLS Support**: HTTPS and WSS during development for testing secure APIs.
+-   **Breaking Changes**: Jest preset moved to `@react-native/jest-preset`, dropped EOL Node versions, and removed `StyleSheet.absoluteFillObject`.
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+-   💸 [Product for Engineers - What we wish we knew about building AI agents](https://go.posthog.com/twir-apr8)
+-   👀 [React PR - ViewTransition support for React Native Fabric](https://github.com/facebook/react/pull/35764) - Behind a flag, not ready for prime time, but this is one of many PRs showing that `<ViewTransition>` for React Native is being actively worked on!
+-   👀 [React Native Skia - First Graphite pre-release](https://github.com/Shopify/react-native-skia/pull/3813)\- Google's next-gen Skia renderer (Vulkan/Metal/Dawn) comes to RN Skia, now available in the `@next` distribution channel.
+-   📜 [Expo brownfield: How to add Expo to your existing native app without a rewrite](https://expo.dev/blog/expo-brownfield-how-to-add-expo-to-your-existing-native-app-without-a-rewrite) - SDK 55 introduced a new “isolated” approach to integrate Expo in an existing native app. The Expo app is built ahead of time and distributed as a native binary artifact
+-   📜 [React Native JSI Deep Dive Series](https://heartit.tech/react-native-jsi-deep-dive-part-1-the-runtime-you-never-see/) - Comprehensive 12-part series covering JSI internals, from C++ architecture to TurboModule integration.
+-   📜 [How We Optimized Agent Device for Mobile App Automation](https://www.callstack.com/blog/how-we-optimized-agent-device-for-mobile-app-automation) - Deep dive on reducing LLM token usage by 50% for AI-driven mobile testing through accessibility snapshots and smarter context management.
+-   📦 [RN Windows 0.82 - Fabric-only, XAML UI Hosting](https://devblogs.microsoft.com/react-native/%F0%9F%9A%80react-native-windows-v0-82-is-here/) - Community modules can now embed native XAML controls directly in Fabric. New accessibility override API gives third-party modules fine-grained control over screen reader behavior.
+-   📦 [Create React Native Library 0.60 - Experimental C++ TurboModule, Vite web support for examples](https://github.com/callstack/react-native-builder-bob/releases/tag/create-react-native-library%400.60.0) - New templates can now scaffold experimental C++ TurboModules for native development. You can now test both native and web support without custom configuration.
+-   📦 [Maestro CLI 2.4 - iOS 26 support, new `list-device` commands for easier device selection](https://maestro.dev/blog/maestro-cli-2-4-0)
+-   📦 [True Sheet 3.10 - iOS 26 scroll edge effects, grabber accessibility](https://sheet.lodev09.com/blog/release-3-10)
+-   📦 [Nitro Player 1.0 - Audio player with playlist management, playback controls, and support for Android Auto and CarPlay](https://nitroplayer.riteshshukla.in/)
+-   📦 [Skia 2.6 - New immutable Path API](https://github.com/Shopify/react-native-skia/releases/tag/v2.6.0)
+-   📦 [Gesture Handler 2.31 - Various bug fixes, fix unresponsive handlers](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/v2.31.0)
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+## 🔀 Other[​](#other "Direct link to 🔀 Other")
+
+-   👀 [JSIR - A High-Level IR for JavaScript (RFC)](https://discourse.llvm.org/t/rfc-jsir-a-high-level-ir-for-javascript/90456) - Google's new JavaScript IR (Intermediate Representation) proposal for static analysis. Already used internally for code analysis and deobfuscation, notably decompiling Hermes bytecode.
+-   📜 [The Hidden Blast Radius of the Axios Compromise](https://socket.dev/blog/hidden-blast-radius-of-the-axios-compromise) - Last week, the popular `axios` library got compromised through a [sophisticated social engineering attack](https://socket.dev/blog/axios-maintainer-confirms-social-engineering-behind-npm-compromise). Even if your app doesn’t depend on the library, you may still be affected through transitive dependencies or using `npx` in critical CI workflows.
+-   📜 [What To Know in JavaScript (2026 Edition)](https://frontendmasters.com/blog/what-to-know-in-javascript-2026-edition/) - Comprehensive roundup covering ES2025/2026 features, framework updates, runtime landscape, and build tools.
+-   📜 [The Intl API: The best browser API you're not using](https://polypane.app/blog/the-intl-api-the-best-browser-api-youre-not-using/)
+-   📦 [View Transitions Toolkit - Utility functions for View Transitions](https://www.bram.us/2026/04/02/view-transitions-toolkit/) - Filling in gaps for advanced View Transitions patterns. Feature detection, animation optimization, playback control, and automatic navigation types.
+-   📦 [ESLint 10.2 - Language-aware rules, Temporal support](https://eslint.org/blog/2026/04/eslint-v10.2.0-released/)
+-   📦 [esbuild 0.28 - Import Text proposal, integrity checks](https://github.com/evanw/esbuild/releases/tag/v0.28.0)
+-   📦 [Ky 2.0 - JavaScript HTTP client based on the Fetch API](https://github.com/sindresorhus/ky/releases/tag/v2.0.0)
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+## 🤭 Fun[​](#fun "Direct link to 🤭 Fun")
+
+[![alt](https://thisweekinreact.com/emails/issues/276/meme.jpg)](https://x.com/DavidKPiano/status/2041818750337348040)
+
+[![alt](https://thisweekinreact.com/emails/issues/276/meme2.jpg)](https://x.com/sebastienlorber/status/2041927591288852595)
+
+See ya! 👋
