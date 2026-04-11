@@ -27323,7 +27323,119 @@
     "https://reactnative.dev/blog/2026/04/07/react-native-0.85": {
       "contentHash": "6ac322bdf663079e4e07f6c5e4ceab81cd2bb376ae526718de1eddb990fc6608",
       "processedAt": "2026-04-09T00:37:22.347Z"
+    },
+    "https://engineering.fb.com/2026/04/09/developer-tools/escaping-the-fork-how-meta-modernized-webrtc-across-50-use-cases/": {
+      "contentHash": "e81d8aead6bbef9bae5f9b7c9d43cf65fd11c1e1f6d8241dfd41ed2346f0b4e5",
+      "processedAt": "2026-04-11T00:40:57.875Z"
+    },
+    "https://csswizardry.com/2026/04/font-family-doesnt-fall-back-the-way-you-think/": {
+      "contentHash": "61884e98124aa9863171b9ab805ca51da54841ce3100dc4456d487429421fbbf",
+      "processedAt": "2026-04-11T00:40:58.667Z"
+    },
+    "https://web.dev/blog/baseline-digest-feb-2026?hl=en": {
+      "contentHash": "1f87b2a10e917eb6df5ef769ae21e08c20ec90ef7a5b6b92c8e6305215ae6907",
+      "processedAt": "2026-04-11T00:40:59.274Z"
+    },
+    "https://adrianroselli.com/2026/04/wcag3-contrast-as-of-april-2026.html": {
+      "contentHash": "ca4b01a50476fe5355181371cd478b5292b2e49636b436d2924a7a8353fbce9c",
+      "processedAt": "2026-04-11T00:40:59.600Z"
+    },
+    "https://www.anildash.com/2026/04/06/people-love-to-work-hard/": {
+      "contentHash": "4ba30a52eb0db25c519774d645cdb80bb5ddb09dfb515fcd1e573a9b6eff6839",
+      "processedAt": "2026-04-11T00:40:59.766Z"
+    },
+    "https://www.printmag.com/designer-interviews/james-junk-is-the-voice-design-needs-now/": {
+      "contentHash": "06f1f8a485f5807fce12a7447bb895d240dadf79112b020b511748a91b4f07bc",
+      "processedAt": "2026-04-11T00:41:00.571Z"
+    },
+    "https://titlescream.cameronaskin.com/": {
+      "contentHash": "4148ee7cf4d2e84a244090dc5cd36fba09dc1d307433b78e95865d0629ab882e",
+      "processedAt": "2026-04-11T00:41:10.841Z"
+    },
+    "https://martinfowler.com/articles/mechanical-sympathy-principles.html": {
+      "contentHash": "57f7120e44f31e1214bfba636ca6f54d7d971aeba468b28c7136b000de0c7fd1",
+      "processedAt": "2026-04-11T00:41:11.055Z"
+    },
+    "https://mitchellh.com/writing/building-block-economy": {
+      "contentHash": "15fdd0697c2e9382e02fd2bdc3169ee92cb13ba80feb9247692c7fbd06046f58",
+      "processedAt": "2026-04-11T00:41:11.192Z"
+    },
+    "https://www.lukew.com/ff/entry.asp?2147": {
+      "contentHash": "7125c18e4384ae5e2b7664c7955bfd2fe58a7acb4a09aa743d3e0e3482fe0997",
+      "processedAt": "2026-04-11T00:41:11.650Z"
+    },
+    "https://hii-mag.com/": {
+      "contentHash": "fc936451159f02fe9fb0a16585c77d0cc4f167b2d74aa9c7904fa0b732378af8",
+      "processedAt": "2026-04-11T00:41:16.321Z"
+    },
+    "https://cuberule.com/": {
+      "contentHash": "366fb9d755540f4a53d7ad1eaed194cef426eeffadd7b23f6496c2e8c4977c2a",
+      "processedAt": "2026-04-11T00:41:16.755Z"
+    },
+    "https://pawelgrzybek.com/svg-favicons-that-respect-theme-preference/": {
+      "contentHash": "ce1b64488c4c1b7211d109971d51c4c8c0fe37b6ad7ba4139208872377954d63",
+      "processedAt": "2026-04-11T00:41:17.256Z"
+    },
+    "https://www.greaterwrong.com/posts/WjaGAA4xCAXeFpyWm/my-picture-of-the-present-in-ai": {
+      "contentHash": "fcecb22b01035796f1fefb2dc3c5e8cf4ef9e8db1615e6b2e74e56f81b88a58b",
+      "processedAt": "2026-04-11T00:41:47.699Z"
+    },
+    "https://tympanus.net/codrops/2026/04/10/the-exat-microsite-pushing-a-typography-showcase-to-new-creative-extremes/": {
+      "contentHash": "96e4b4abdd89363a2044bfcdb28be0bfdb1e1c54f16be8a6ffdd60cd8c698167",
+      "processedAt": "2026-04-11T00:41:49.061Z"
+    },
+    "https://tympanus.net/codrops/2026/04/09/a-single-dm-a-first-sotd-and-the-start-of-chanh-m-hos-creative-journey/": {
+      "contentHash": "f579986785fb77143de29fc5835a3b48189bcbb9ec0cd55b8df0c6d6bb5c82f9",
+      "processedAt": "2026-04-11T00:41:50.474Z"
+    },
+    "https://smashingmagazine.com/2026/04/legacy-systems/": {
+      "contentHash": "49e6e12d05e166621f4aa452047371e921aebce1d67d7a22be0ccba4c5f17c83",
+      "processedAt": "2026-04-11T00:41:52.365Z"
+    },
+    "https://ics.media/entry/260410/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-04-11T00:41:53.134Z"
+    },
+    "https://piccalil.li/the-index/177/?ref=main-rss-feed": {
+      "contentHash": "5a1dc759bb17ff1c6355dbcd2c19b04312475ec83f540c6fa4dc60701e77d5ea",
+      "processedAt": "2026-04-11T00:41:53.299Z"
+    },
+    "https://piccalil.li/projects/personal-site/4/?ref=main-rss-feed": {
+      "contentHash": "bf7a0f9f3bcb89d7228795d66852ef4510412d38d084188ef7087f5156aac121",
+      "processedAt": "2026-04-11T00:41:53.761Z"
+    },
+    "https://www.figma.com/blog/five-figma-weave-workflows/": {
+      "contentHash": "ae81781eea20368dbd7d953c8ad93401a5c79fc3e31299de499063c4cbd3ac24",
+      "processedAt": "2026-04-11T00:42:36.109Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/04/10/190606": {
+      "contentHash": "663f39804499bcd066da3f093466409b0ba9df35df64469ec0aa668d1eb09e36",
+      "processedAt": "2026-04-11T00:42:36.934Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/04/09/100119": {
+      "contentHash": "21c5cc0e26daedd148c2be559782bc9293610b77c0c106da0176d8770caebd1e",
+      "processedAt": "2026-04-11T00:42:37.952Z"
+    },
+    "https://www.nngroup.com/articles/handmade-designs/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "8b6f5d0f31c777151c540190efb155d7d7db0b8c3833c76f8110759d7b862900",
+      "processedAt": "2026-04-11T00:42:39.401Z"
+    },
+    "https://www.nngroup.com/articles/ai-agents-as-users/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "9c21227862e5c1051c96406fafeaaa6e51d170550ff306280330db5c7ba43f76",
+      "processedAt": "2026-04-11T00:42:40.961Z"
+    },
+    "https://uxmag.com/articles/book-excerpt-the-crisis-worth-using": {
+      "contentHash": "d86d490cfe5a70c52f5eada977f38a21a952952c5127b0d1a10ae4bc6a8ee899",
+      "processedAt": "2026-04-11T00:42:42.200Z"
+    },
+    "https://uxmag.com/articles/cognitive-empathy-your-everyday-survival-tool": {
+      "contentHash": "9c441a4db768840d06e4984a5e59dfe0a5b415b97b60b823231f612160aca763",
+      "processedAt": "2026-04-11T00:42:43.541Z"
+    },
+    "https://react.statuscode.com/issues/469": {
+      "contentHash": "48e1262ffd3a0e4383f83e8a6caab4b95689d7adbedf10d8e9fc05adfd61c2b9",
+      "processedAt": "2026-04-11T00:42:44.091Z"
     }
   },
-  "lastRun": "2026-04-09T00:37:22.347Z"
+  "lastRun": "2026-04-11T00:42:44.092Z"
 }
