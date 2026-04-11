@@ -1,0 +1,60 @@
+articles_dir=2026-04-11
+exit_code=0
+timestamp_utc=2026-04-11T00:42:44Z
+
+---- issue lines ----
+8:Failed to fetch feed Vercel: Invalid time value
+9:Failed to fetch feed Remix Blog: Status code 500
+49:❌ Playwright failed for https://www.greaterwrong.com/posts/WjaGAA4xCAXeFpyWm/my-picture-of-the-present-in-ai: page.goto: Timeout 30000ms exceeded.
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-11/svg-favicons-that-respect-theme-preference.md
+📥 Processing: My picture of the present in AI
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://www.greaterwrong.com/posts/WjaGAA4xCAXeFpyWm/my-picture-of-the-present-in-ai
+❌ Playwright failed for https://www.greaterwrong.com/posts/WjaGAA4xCAXeFpyWm/my-picture-of-the-present-in-ai: page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.greaterwrong.com/posts/WjaGAA4xCAXeFpyWm/my-picture-of-the-present-in-ai", waiting until "domcontentloaded"
+
+⚠️ Using RSS content as fallback for: https://www.greaterwrong.com/posts/WjaGAA4xCAXeFpyWm/my-picture-of-the-present-in-ai
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-11/my-picture-of-the-present-in-ai.md
+📥 Processing: The Exat Microsite: Pushing a Typography Showcase to New Creative Extremes
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-11/the-exat-microsite-pushing-a-typography-showcase-to-new-creative-extremes.md
+📥 Processing: A Single DM, a First SOTD, and the Start of Chanh M. Ho’s Creative Journey
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-11/a-single-dm-a-first-sotd-and-the-start-of-chanh-m-hos-creative-journey.md
+📥 Processing: How To Improve UX In Legacy Systems
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-11/how-to-improve-ux-in-legacy-systems.md
+📥 Processing: ESLintを「入れただけ」で終わらせない — 適切なルールの選び方と実行タイミング
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-11/eslint.md
+📥 Processing: The Index: Issue #177
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-11/the-index-issue-177.md
+📥 Processing: Personal website redesign project post: Getting started with the HTML only build
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-11/personal-website-redesign-project-post-getting-started-with-the-html-only-build.md
+📥 Processing: Turning prompts into five scalable workflows with Figma Weave
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-11/turning-prompts-into-five-scalable-workflows-with-figma-weave.md
+📥 Processing: 2026年版モブプログラミング実践録 ── シンキングハット法とClaude Codeで回すチーム開発
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-11/2026-claude-code.md
+📥 Processing: スクラムイベントでのAI活用 ── 叩き台を作る運用と、やめた運用
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-11/ai.md
+📥 Processing: Handmade Designs: The New Trust Signal
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-11/handmade-designs-the-new-trust-signal.md
+📥 Processing: AI Agents as Users
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-11/ai-agents-as-users.md
+📥 Processing: BOOK EXCERPT: The Crisis Worth Using
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-11/book-excerpt-the-crisis-worth-using.md
+📥 Processing: Cognitive Empathy: Your Everyday Survival Tool
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-11/cognitive-empathy-your-everyday-survival-tool.md
+📥 Processing: A React optimization case study from GitHub
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-11/a-react-optimization-case-study-from-github.md
+
+📊 Summary:
+   ✅ Success: 28
+   ❌ Errors: 0
+🏁 Done!
