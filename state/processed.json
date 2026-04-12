@@ -27435,7 +27435,11 @@
     "https://react.statuscode.com/issues/469": {
       "contentHash": "48e1262ffd3a0e4383f83e8a6caab4b95689d7adbedf10d8e9fc05adfd61c2b9",
       "processedAt": "2026-04-11T00:42:44.091Z"
+    },
+    "https://addyosmani.com/blog/agentic-engine-optimization/": {
+      "contentHash": "cfd8cf58afaec5e13c61668b49a3b95f6961fcc412da2beb042294af1e4d56de",
+      "processedAt": "2026-04-12T00:46:15.151Z"
     }
   },
-  "lastRun": "2026-04-11T00:42:44.092Z"
+  "lastRun": "2026-04-12T00:46:15.151Z"
 }
