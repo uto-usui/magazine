@@ -27435,7 +27435,19 @@
     "https://react.statuscode.com/issues/469": {
       "contentHash": "48e1262ffd3a0e4383f83e8a6caab4b95689d7adbedf10d8e9fc05adfd61c2b9",
       "processedAt": "2026-04-11T00:42:44.091Z"
+    },
+    "https://addyosmani.com/blog/agentic-engine-optimization/": {
+      "contentHash": "cfd8cf58afaec5e13c61668b49a3b95f6961fcc412da2beb042294af1e4d56de",
+      "processedAt": "2026-04-13T00:47:16.044Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/04/13/094613": {
+      "contentHash": "4d9e7edd37bd5aa17303a7fb35e4ae213bf2f3d7aa292495cabb883b2647d56a",
+      "processedAt": "2026-04-13T00:47:16.737Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-april-12-2026/": {
+      "contentHash": "88776c03aee21ed3b7435de9a1c5cf5098ebc9bc5983ef460328671c3e4bd4f3",
+      "processedAt": "2026-04-13T00:47:17.974Z"
     }
   },
-  "lastRun": "2026-04-11T00:42:44.092Z"
+  "lastRun": "2026-04-13T00:47:17.974Z"
 }
