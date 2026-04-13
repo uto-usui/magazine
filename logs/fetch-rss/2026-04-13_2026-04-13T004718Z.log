@@ -1,0 +1,33 @@
+articles_dir=2026-04-13
+exit_code=0
+timestamp_utc=2026-04-13T00:47:18Z
+
+---- issue lines ----
+8:Failed to fetch feed Vercel: Invalid time value
+9:Failed to fetch feed Remix Blog: Status code 500
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+Failed to fetch feed Vercel: Invalid time value
+Failed to fetch feed Remix Blog: Status code 500
+⏳ Retry feed fetch 1/3 for Accessibility Weekly after transient error: Request timed out after 15000ms
+📰 Found 4008 total articles
+✨ New articles: 3
+⏭️ Skipped (already processed): 422
+📥 Processing: Agentic Engine Optimization (AEO)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-13/agentic-engine-optimization-aeo.md
+📥 Processing: "Customer Observability" の対象となりうるものは何かを考えてみる
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-13/customer-observability.md
+📥 Processing: Pixels of the Week – April 12, 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-13/pixels-of-the-week-april-12-2026.md
+
+📊 Summary:
+   ✅ Success: 3
+   ❌ Errors: 0
+🏁 Done!
