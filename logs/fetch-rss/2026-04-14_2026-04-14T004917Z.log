@@ -1,0 +1,60 @@
+articles_dir=2026-04-14
+exit_code=0
+timestamp_utc=2026-04-14T00:49:17Z
+
+---- issue lines ----
+8:Failed to fetch feed Vercel: Invalid time value
+9:Failed to fetch feed Remix Blog: Status code 500
+21:Failed to fetch https://informationisbeautiful.net/visualizations/the-billion-dollar-gram/ after 3 retries: unable to verify the first certificate
+
+---- tail (last 50 lines) ----
+Failed to fetch feed Remix Blog: Status code 500
+⏳ Retry feed fetch 1/3 for Amy Hupe after transient error: Request timed out after 15000ms
+📰 Found 4010 total articles
+✨ New articles: 13
+⏭️ Skipped (already processed): 426
+📥 Processing: Agentic Engine Optimization (AEO)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-14/agentic-engine-optimization-aeo.md
+📥 Processing: html.to.design — chrome extension
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-14/htmltodesign-chrome-extension.md
+📥 Processing: Visualizing Billions
+⏳ Retry 1/3 after error: unable to verify the first certificate
+⏳ Retry 2/3 after error: unable to verify the first certificate
+Failed to fetch https://informationisbeautiful.net/visualizations/the-billion-dollar-gram/ after 3 retries: unable to verify the first certificate
+⚠️ Using RSS content as fallback for: https://informationisbeautiful.net/visualizations/the-billion-dollar-gram/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-14/visualizing-billions.md
+📥 Processing: Productive procrastination
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-14/productive-procrastination.md
+📥 Processing: Branding Amazonia
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+🔄 Readability failed, trying Playwright: https://www.visiteamazonia.com.br/en/
+✅ Playwright successfully fetched: https://www.visiteamazonia.com.br/en/
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-14/branding-amazonia.md
+📥 Processing: Building agent memory that survives between sessions
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://perevillega.com/posts/2026-03-24-building-agent-memory-that-survives-between-sessions/
+✅ Playwright successfully fetched: https://perevillega.com/posts/2026-03-24-building-agent-memory-that-survives-between-sessions/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-14/building-agent-memory-that-survives-between-sessions.md
+📥 Processing: Lusion: Where Digital Craft Meets Ambitious Experimentation
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-14/lusion-where-digital-craft-meets-ambitious-experimentation.md
+📥 Processing: Adaptability, Curiosity, &#038; Creative Breadth with Brendan Dawes
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-14/adaptability-curiosity-038-creative-breadth-with-brendan-dawes.md
+📥 Processing: Squash and Stretch
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-14/squash-and-stretch.md
+📥 Processing: "Customer Observability" の対象となりうるものは何かを考えてみる
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-14/customer-observability.md
+📥 Processing: Vibe coding is accelerating the erosion of design authority
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-14/vibe-coding-is-accelerating-the-erosion-of-design-authority.md
+📥 Processing: Pixels of the Week – April 12, 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-14/pixels-of-the-week-april-12-2026.md
+📥 Processing: The Vertical Codebase
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-14/the-vertical-codebase.md
+
+📊 Summary:
+   ✅ Success: 13
+   ❌ Errors: 0
+🏁 Done!
