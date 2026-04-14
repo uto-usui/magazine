@@ -27435,7 +27435,59 @@
     "https://react.statuscode.com/issues/469": {
       "contentHash": "48e1262ffd3a0e4383f83e8a6caab4b95689d7adbedf10d8e9fc05adfd61c2b9",
       "processedAt": "2026-04-11T00:42:44.091Z"
+    },
+    "https://addyosmani.com/blog/agentic-engine-optimization/": {
+      "contentHash": "cfd8cf58afaec5e13c61668b49a3b95f6961fcc412da2beb042294af1e4d56de",
+      "processedAt": "2026-04-14T00:47:51.520Z"
+    },
+    "https://bit.ly/side-div3": {
+      "contentHash": "e5c541acac9ae89433a0c80bb82d94932e090ed77fb6d7524fab2a895b5a3b5b",
+      "processedAt": "2026-04-14T00:48:43.068Z"
+    },
+    "https://informationisbeautiful.net/visualizations/the-billion-dollar-gram/": {
+      "contentHash": "43088f759ba69e1b56db80f7ca3fe57375243147d9f8e5950790b435b7f4354c",
+      "processedAt": "2026-04-14T00:48:49.597Z"
+    },
+    "https://www.maxvanijsselmuiden.nl/blog/productive-procrastination": {
+      "contentHash": "c80a67b2c334d4d025a3a01430a717b3a3b228c93761e678f4c300128f8d0ee6",
+      "processedAt": "2026-04-14T00:48:49.915Z"
+    },
+    "https://www.visiteamazonia.com.br/en/": {
+      "contentHash": "1a967f51507762322a7f65f5082c2699e22c8e6274072dbfa1a7d14a9a891592",
+      "processedAt": "2026-04-14T00:49:07.102Z"
+    },
+    "https://perevillega.com/posts/2026-03-24-building-agent-memory-that-survives-between-sessions/": {
+      "contentHash": "92f552fb2eddd7a678a6d87a7fe03692c3cbdc087a72d292229508116003abb9",
+      "processedAt": "2026-04-14T00:49:12.197Z"
+    },
+    "https://tympanus.net/codrops/2026/04/13/lusion-where-digital-craft-meets-ambitious-experimentation/": {
+      "contentHash": "2c16f292e7e9e8116e72c36f3610b6f19c837b4e0c6e02e3eab4be08a5b78594",
+      "processedAt": "2026-04-14T00:49:13.526Z"
+    },
+    "https://bradfrost.com/blog/post/adaptability-curiosity-creative-breadth-with-brendan-dawes/": {
+      "contentHash": "8e8517796709765ff0bc4b24dc633cc01757e316187718a9222c36058736fcae",
+      "processedAt": "2026-04-14T00:49:13.976Z"
+    },
+    "https://www.joshwcomeau.com/animation/squash-and-stretch/": {
+      "contentHash": "8f01b9790fc612bb4ef79cc8cbca3a7c4a666dfbb28f952f83081a2bc1f30b88",
+      "processedAt": "2026-04-14T00:49:14.440Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/04/13/094613": {
+      "contentHash": "4d9e7edd37bd5aa17303a7fb35e4ae213bf2f3d7aa292495cabb883b2647d56a",
+      "processedAt": "2026-04-14T00:49:15.301Z"
+    },
+    "https://newsletter.uxdesign.cc/p/vibe-coding-is-accelerating-the-erosion": {
+      "contentHash": "6e58b7f8d33f05b2fcf04127e222986f6fc8485a74bb725784bbc6d8c81a089e",
+      "processedAt": "2026-04-14T00:49:15.630Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-april-12-2026/": {
+      "contentHash": "88776c03aee21ed3b7435de9a1c5cf5098ebc9bc5983ef460328671c3e4bd4f3",
+      "processedAt": "2026-04-14T00:49:16.324Z"
+    },
+    "https://tkdodo.eu/blog/the-vertical-codebase": {
+      "contentHash": "f73c5b3ba1cb8ce148b6593a81a63d508644307ce79c11d0f39a868642f1fbb4",
+      "processedAt": "2026-04-14T00:49:16.688Z"
     }
   },
-  "lastRun": "2026-04-11T00:42:44.092Z"
+  "lastRun": "2026-04-14T00:49:16.688Z"
 }
