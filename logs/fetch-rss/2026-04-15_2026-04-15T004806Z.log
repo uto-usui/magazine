@@ -1,0 +1,58 @@
+articles_dir=2026-04-15
+exit_code=0
+timestamp_utc=2026-04-15T00:48:06Z
+
+---- issue lines ----
+9:Failed to fetch feed Vercel: Invalid time value
+10:Failed to fetch feed Remix Blog: Status code 500
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+⏳ Retry feed fetch 1/3 for Accessibility Weekly after transient error: read ECONNRESET
+Failed to fetch feed Vercel: Invalid time value
+Failed to fetch feed Remix Blog: Status code 500
+⏳ Retry feed fetch 1/3 for CSS IRL after transient error: Request timed out after 15000ms
+📰 Found 4010 total articles
+✨ New articles: 11
+⏭️ Skipped (already processed): 432
+📥 Processing: March 2026 Baseline monthly digest
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-15/march-2026-baseline-monthly-digest.md
+📥 Processing: Every train, a note
+🔄 Readability failed, trying Playwright: https://www.trainjazz.com/
+✅ Playwright successfully fetched: https://www.trainjazz.com/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-15/every-train-a-note.md
+📥 Processing: They see your photos
+🔄 Readability failed, trying Playwright: https://theyseeyourphotos.com/
+✅ Playwright successfully fetched: https://theyseeyourphotos.com/
+⚠️ Content too short (177 chars < 200): https://theyseeyourphotos.com/
+⚠️ Using RSS content as fallback for: https://theyseeyourphotos.com/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-15/they-see-your-photos.md
+📥 Processing: Handmade designs: the new trust signal
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-15/handmade-designs-the-new-trust-signal.md
+📥 Processing: How missions work
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-15/how-missions-work.md
+📥 Processing: The impact of AI on software engineers in 2026: key trends
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-15/the-impact-of-ai-on-software-engineers-in-2026-key-trends.md
+📥 Processing: They Call Me Giulio: The Making of a Cinematic Cyberpunk Portfolio
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-15/they-call-me-giulio-the-making-of-a-cinematic-cyberpunk-portfolio.md
+📥 Processing: CRE Camp #5 開催レポート 〜 CREをテーマとしたアンカンファレンスに初挑戦！
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-15/cre-camp-5-cre.md
+📥 Processing: 合流直後のベロシティ低下をどう乗り越えたか？ —— 従業員マスタB&Cチームのチームビルディング奮闘記
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-15/bc.md
+📥 Processing: 人手のリサーチをデータパイプラインに。dbt Python model × LLM Web Searchで公開情報をSnowflakeに載せるまで
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-15/dbt-python-model-llm-web-searchsnowflake.md
+📥 Processing: Acquired Savant Syndrome in Design: Skill, Obsession, or Exploitation?
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-15/acquired-savant-syndrome-in-design-skill-obsession-or-exploitation.md
+
+📊 Summary:
+   ✅ Success: 11
+   ❌ Errors: 0
+🏁 Done!
