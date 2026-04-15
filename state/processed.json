@@ -27487,7 +27487,51 @@
     "https://tkdodo.eu/blog/the-vertical-codebase": {
       "contentHash": "f73c5b3ba1cb8ce148b6593a81a63d508644307ce79c11d0f39a868642f1fbb4",
       "processedAt": "2026-04-14T00:49:16.688Z"
+    },
+    "https://web.dev/blog/baseline-digest-mar-2026?hl=en": {
+      "contentHash": "9ac8dc41503885a59201a625d86b4da59559b9a2b0db25ead65ffb446edbb3b2",
+      "processedAt": "2026-04-15T00:47:44.905Z"
+    },
+    "https://www.trainjazz.com/": {
+      "contentHash": "183b5b2ef2f43dc63b99cf887ec905cdfe4c965bbefb4578ce97aacbbf400813",
+      "processedAt": "2026-04-15T00:47:49.751Z"
+    },
+    "https://theyseeyourphotos.com/": {
+      "contentHash": "f1a56f5b7e4c70b28c8fc6555b93b70029953f0fc2bcd1d1eb6623c0da5610d2",
+      "processedAt": "2026-04-15T00:47:54.396Z"
+    },
+    "https://www.nngroup.com/articles/handmade-designs/": {
+      "contentHash": "528013f42310991cd9884274a6d0c96f1f4cd90187e1a4284f8d84179fedeaf6",
+      "processedAt": "2026-04-15T00:47:57.478Z"
+    },
+    "https://factory.ai/news/missions-architecture": {
+      "contentHash": "0c1faea52b1224320c47d28ca77250cecd7d57c3facdd96ca9a2e0492fdd9488",
+      "processedAt": "2026-04-15T00:47:58.199Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026": {
+      "contentHash": "58bb301c5fe2b5df469f6d35770b71bbb31da68cce12badb100c67f69500db62",
+      "processedAt": "2026-04-15T00:47:58.604Z"
+    },
+    "https://tympanus.net/codrops/2026/04/14/they-call-me-giulio-the-making-of-a-cinematic-cyberpunk-portfolio/": {
+      "contentHash": "04adb2c0af691e10aae3ddd5c0973375f4b67b9d8a5e3908ba125725c953ddeb",
+      "processedAt": "2026-04-15T00:47:59.929Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/04/14/165819": {
+      "contentHash": "3c95cdc1a26f40951e6f8b6987df225eb309b01903e055073e5d2c90fc9b50f3",
+      "processedAt": "2026-04-15T00:48:02.192Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/04/14/132022": {
+      "contentHash": "e4faf03f656025d5e9c687a6f39197ae248a5ef171bf4d802a455d7d2886444d",
+      "processedAt": "2026-04-15T00:48:03.616Z"
+    },
+    "https://tech.layerx.co.jp/entry/dbt-python-model-llm-web-search-to-snowflake": {
+      "contentHash": "dcfdb54b45c2187988e1f3e24d7ec83e60ca29b3e54ccff7ccf94d3e2105c71a",
+      "processedAt": "2026-04-15T00:48:04.457Z"
+    },
+    "https://uxmag.com/articles/acquired-savant-syndrome-in-design-skill-obsession-or-exploitation": {
+      "contentHash": "8a70c8873ac07c9cf2ede773241d843cd60b4f14979bde4348909cb1a7ce3d09",
+      "processedAt": "2026-04-15T00:48:05.824Z"
     }
   },
-  "lastRun": "2026-04-14T00:49:16.688Z"
+  "lastRun": "2026-04-15T00:48:05.824Z"
 }
