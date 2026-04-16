@@ -27487,7 +27487,87 @@
     "https://tkdodo.eu/blog/the-vertical-codebase": {
       "contentHash": "f73c5b3ba1cb8ce148b6593a81a63d508644307ce79c11d0f39a868642f1fbb4",
       "processedAt": "2026-04-14T00:49:16.688Z"
+    },
+    "https://web.dev/blog/baseline-digest-mar-2026?hl=en": {
+      "contentHash": "9ac8dc41503885a59201a625d86b4da59559b9a2b0db25ead65ffb446edbb3b2",
+      "processedAt": "2026-04-16T00:51:41.001Z"
+    },
+    "https://matthiasott.com/articles/design-and-engineering-as-one": {
+      "contentHash": "aac510e40c4e0d5fd17c776daf931c15e193b6bbf1b12c5cedd757ab5ad85846",
+      "processedAt": "2026-04-16T00:51:41.848Z"
+    },
+    "https://www.awwwards.com/100-lost-species.html": {
+      "contentHash": "6368f793147dc39079940e5a8cf1ac8ce3274cbc9ca9a8df38a14687ce2893d2",
+      "processedAt": "2026-04-16T00:51:50.580Z"
+    },
+    "https://www.acolorbright.com/en/insights/aesthetics-of-ai": {
+      "contentHash": "33e851ae0f47c7ab2c2132d3f7785956c69c6f22eb5e16401ee303fdfdaad8e2",
+      "processedAt": "2026-04-16T00:51:51.141Z"
+    },
+    "https://robonomics.substack.com/p/org-design-in-the-age-of-ai": {
+      "contentHash": "cc6abd1a584d78e9973ec14e780cb177a46a6d6b964d838ea5b570e9aaee56de",
+      "processedAt": "2026-04-16T00:51:56.785Z"
+    },
+    "https://aestheticamagazine.com/the-endurance-of-brutalism/": {
+      "contentHash": "e999ac995831a866cb1143e4d4b1779c206a16abd2bf3a5eebd813916bd85fec",
+      "processedAt": "2026-04-16T00:51:57.078Z"
+    },
+    "https://www.trainjazz.com/": {
+      "contentHash": "183b5b2ef2f43dc63b99cf887ec905cdfe4c965bbefb4578ce97aacbbf400813",
+      "processedAt": "2026-04-16T00:52:01.449Z"
+    },
+    "https://theyseeyourphotos.com/": {
+      "contentHash": "f1a56f5b7e4c70b28c8fc6555b93b70029953f0fc2bcd1d1eb6623c0da5610d2",
+      "processedAt": "2026-04-16T00:52:06.045Z"
+    },
+    "https://www.nngroup.com/articles/handmade-designs/": {
+      "contentHash": "528013f42310991cd9884274a6d0c96f1f4cd90187e1a4284f8d84179fedeaf6",
+      "processedAt": "2026-04-16T00:52:07.115Z"
+    },
+    "https://factory.ai/news/missions-architecture": {
+      "contentHash": "0c1faea52b1224320c47d28ca77250cecd7d57c3facdd96ca9a2e0492fdd9488",
+      "processedAt": "2026-04-16T00:52:07.640Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026": {
+      "contentHash": "58bb301c5fe2b5df469f6d35770b71bbb31da68cce12badb100c67f69500db62",
+      "processedAt": "2026-04-16T00:52:07.935Z"
+    },
+    "https://tympanus.net/codrops/2026/04/14/they-call-me-giulio-the-making-of-a-cinematic-cyberpunk-portfolio/": {
+      "contentHash": "04adb2c0af691e10aae3ddd5c0973375f4b67b9d8a5e3908ba125725c953ddeb",
+      "processedAt": "2026-04-16T00:52:09.739Z"
+    },
+    "https://ics.media/entry/260415/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-04-16T00:52:11.055Z"
+    },
+    "https://www.figma.com/blog/the-tldr-on-mcp/": {
+      "contentHash": "7f55cf9fc6a70e9fb3c8e8014725b8b1d6d90fa4fc3852cf3046cf6e20e7a656",
+      "processedAt": "2026-04-16T00:52:44.721Z"
+    },
+    "https://frontendfoc.us/issues/737": {
+      "contentHash": "ac13b746028816dabdedd7960f53c9bb7ab5fd9828929800bb348fb21845f37c",
+      "processedAt": "2026-04-16T00:52:45.554Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/04/14/165819": {
+      "contentHash": "3c95cdc1a26f40951e6f8b6987df225eb309b01903e055073e5d2c90fc9b50f3",
+      "processedAt": "2026-04-16T00:52:46.668Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/04/14/132022": {
+      "contentHash": "e4faf03f656025d5e9c687a6f39197ae248a5ef171bf4d802a455d7d2886444d",
+      "processedAt": "2026-04-16T00:52:46.937Z"
+    },
+    "https://tech.layerx.co.jp/entry/dbt-python-model-llm-web-search-to-snowflake": {
+      "contentHash": "dcfdb54b45c2187988e1f3e24d7ec83e60ca29b3e54ccff7ccf94d3e2105c71a",
+      "processedAt": "2026-04-16T00:52:47.864Z"
+    },
+    "https://uxmag.com/articles/acquired-savant-syndrome-in-design-skill-obsession-or-exploitation": {
+      "contentHash": "8a70c8873ac07c9cf2ede773241d843cd60b4f14979bde4348909cb1a7ce3d09",
+      "processedAt": "2026-04-16T00:52:49.216Z"
+    },
+    "https://thisweekinreact.com/newsletter/277": {
+      "contentHash": "a6933d01e20879fd42ebe6d8b7157535ae23efb8d41be7f2fdc63dc3ff9bbb24",
+      "processedAt": "2026-04-16T00:52:49.655Z"
     }
   },
-  "lastRun": "2026-04-14T00:49:16.688Z"
+  "lastRun": "2026-04-16T00:52:49.655Z"
 }
