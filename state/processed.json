@@ -27567,7 +27567,67 @@
     "https://thisweekinreact.com/newsletter/277": {
       "contentHash": "a6933d01e20879fd42ebe6d8b7157535ae23efb8d41be7f2fdc63dc3ff9bbb24",
       "processedAt": "2026-04-16T00:52:49.655Z"
+    },
+    "https://engineering.fb.com/2026/04/16/developer-tools/capacity-efficiency-at-meta-how-unified-ai-agents-optimize-performance-at-hyperscale/": {
+      "contentHash": "77e4e7aefb0147dea0c63eca36def628191db36223e07dd7dc00e64bb435c0a6",
+      "processedAt": "2026-04-17T00:47:07.579Z"
+    },
+    "https://engineering.fb.com/2026/04/16/security/post-quantum-cryptography-migration-at-meta-framework-lessons-and-takeaways/": {
+      "contentHash": "caafb5b51b3062e4931bd7e7c22711358fd5a3f4bdb2d821305667db03f9fded",
+      "processedAt": "2026-04-17T00:47:08.009Z"
+    },
+    "https://github.blog/engineering/infrastructure/how-github-uses-ebpf-to-improve-deployment-safety/": {
+      "contentHash": "0de6ff2fc28d74196eb163ca1184d5e312bac6bcc00b721a46d0e8abb26400b5",
+      "processedAt": "2026-04-17T00:47:08.639Z"
+    },
+    "https://maggieappleton.com/zero-alignment": {
+      "contentHash": "f9e0b50605e51a9fdc4f89ed9f252c6f131f5dc27054ddd716ce448fc095fa29",
+      "processedAt": "2026-04-17T00:47:09.457Z"
+    },
+    "https://font-stealer.vercel.app/": {
+      "contentHash": "0e22cdbd01cf8b7497faf8b67e623f083073a9758baa9186b9cc57a19a2880b8",
+      "processedAt": "2026-04-17T00:47:09.634Z"
+    },
+    "https://www.reuters.com/graphics/CALIFORNIA-WILDFIRES/AIRCRAFTS/egvbjgkajvq/": {
+      "contentHash": "7403c4b1009f9bdbdebf43a51dbc1ab7b9182dce373e1f0e9d324259ad8a0055",
+      "processedAt": "2026-04-17T00:47:10.072Z"
+    },
+    "https://www.davidmello.com/software-testing/test-automation/playwright-accessibility-testing-axe-lighthouse-limitations": {
+      "contentHash": "9339a5e68476aa277e28ec8b3d40bb6baec67eac92b4cfe8a82126d7f8f1fc9c",
+      "processedAt": "2026-04-17T00:47:10.851Z"
+    },
+    "https://www.lukew.com/ff/entry.asp?2148": {
+      "contentHash": "d370b42c743abc4227c895ea4ffda31297ba56b3f121fe3733d6c7174de3d9cb",
+      "processedAt": "2026-04-17T00:47:11.613Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-tokenmaxxing-as-a-weird": {
+      "contentHash": "7383f7e43241d8aad08305906d0593c2d06edbe99526645f495e6ffe30427d8d",
+      "processedAt": "2026-04-17T00:47:11.820Z"
+    },
+    "https://tympanus.net/codrops/2026/04/16/the-art-of-complex-motion-corentin-bernadous-world-of-shaders-and-experimentation/": {
+      "contentHash": "b00fdae0f6c9763d09a9679ca453280d4b58692fbca0e0cfef00aca04c84dd3e",
+      "processedAt": "2026-04-17T00:47:13.135Z"
+    },
+    "https://piccalil.li/projects/personal-site/5/?ref=main-rss-feed": {
+      "contentHash": "7e7d5a352adbb3ced980851c5057152ea46c3a5cc6cb570f6bd1be5076f4caf0",
+      "processedAt": "2026-04-17T00:47:15.277Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/04/16/184321": {
+      "contentHash": "751b954ed23952b920685f539b370af819236ab2e5ae18ab06cecb8f81cf625d",
+      "processedAt": "2026-04-17T00:47:17.089Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/04/16/171358": {
+      "contentHash": "341096b3af2839f3a038835e66783dac52e21360a2e94ccbd028ad88fd06fc44",
+      "processedAt": "2026-04-17T00:47:19.841Z"
+    },
+    "https://uxmag.com/articles/inclusive-login-starts-at-the-first-step": {
+      "contentHash": "69255e5ea15cb485c070085737563e4981c790ac024e91e05383335ade5efb24",
+      "processedAt": "2026-04-17T00:47:21.687Z"
+    },
+    "https://uxmovement.medium.com/jointed-fields-how-to-simplify-2-column-forms-1a2279926d4e?source=rss-40dd56d8f87d------2": {
+      "contentHash": "40385b86aa897b5365806bb4bfec3ab7bcfda3ad5c17063cfe74ac3e9d99a4f0",
+      "processedAt": "2026-04-17T00:47:28.114Z"
     }
   },
-  "lastRun": "2026-04-16T00:52:49.655Z"
+  "lastRun": "2026-04-17T00:47:28.114Z"
 }
