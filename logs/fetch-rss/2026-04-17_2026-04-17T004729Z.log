@@ -1,0 +1,59 @@
+articles_dir=2026-04-17
+exit_code=0
+timestamp_utc=2026-04-17T00:47:29Z
+
+---- issue lines ----
+9:Failed to fetch feed Vercel: Invalid time value
+10:Failed to fetch feed Remix Blog: Status code 500
+
+---- tail (last 50 lines) ----
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+⏳ Retry feed fetch 1/3 for Accessibility Weekly after transient error: read ECONNRESET
+Failed to fetch feed Vercel: Invalid time value
+Failed to fetch feed Remix Blog: Status code 500
+⏳ Retry feed fetch 1/3 for CSS IRL after transient error: Request timed out after 15000ms
+📰 Found 4012 total articles
+✨ New articles: 15
+⏭️ Skipped (already processed): 429
+📥 Processing: Capacity Efficiency at Meta: How Unified AI Agents Optimize Performance at Hyperscale
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-17/capacity-efficiency-at-meta-how-unified-ai-agents-optimize-performance-at-hyperscale.md
+📥 Processing: Post-Quantum Cryptography Migration at Meta: Framework, Lessons, and Takeaways
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-17/post-quantum-cryptography-migration-at-meta-framework-lessons-and-takeaways.md
+📥 Processing: How GitHub uses eBPF to improve deployment safety
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-17/how-github-uses-ebpf-to-improve-deployment-safety.md
+📥 Processing: One developer, two dozen agents, zero alignment
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-17/one-developer-two-dozen-agents-zero-alignment.md
+📥 Processing: Analyze any font
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-17/analyze-any-font.md
+📥 Processing: How California fights fires from the skies
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-17/how-california-fights-fires-from-the-skies.md
+📥 Processing: Playwright accessibility testing
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-17/playwright-accessibility-testing.md
+📥 Processing: The new designer/developer collaboration
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-17/the-new-designerdeveloper-collaboration.md
+📥 Processing: The Pulse: ‘Tokenmaxxing’ as a weird new trend
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-17/the-pulse-tokenmaxxing-as-a-weird-new-trend.md
+📥 Processing: The Art of Complex Motion: Corentin Bernadou’s World of Shaders and Experimentation
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-17/the-art-of-complex-motion-corentin-bernadous-world-of-shaders-and-experimentation.md
+📥 Processing: Personal website redesign project post: Completing the WordPress headless CMS integration
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-17/personal-website-redesign-project-post-completing-the-wordpress-headless-cms-integration.md
+📥 Processing: Rails Girls Nagoya 7th に、コーチ/スポンサーとして参加しました！
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-17/rails-girls-nagoya-7th.md
+📥 Processing: SmartHRはRubyKaigi 2026に「Hangout Sponsor」として協賛し、32名が参加して3名が登壇し、3名が運営を務めます！ そして、たまり場「五稜郭」、函館市電LT、事前／事後勉強会を開催し、スケジューラーを提供します！
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-17/smarthrrubykaigi-2026hangout-sponsor3233-lt.md
+📥 Processing: Inclusive Login Starts at the First Step
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-17/inclusive-login-starts-at-the-first-step.md
+📥 Processing: Jointed Fields: How to Simplify 2-Column Forms
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxmovement.medium.com/jointed-fields-how-to-simplify-2-column-forms-1a2279926d4e?source=rss-40dd56d8f87d------2
+✅ Playwright successfully fetched: https://uxmovement.medium.com/jointed-fields-how-to-simplify-2-column-forms-1a2279926d4e?source=rss-40dd56d8f87d------2
+⚠️ Content too short (134 chars < 200): https://uxmovement.medium.com/jointed-fields-how-to-simplify-2-column-forms-1a2279926d4e?source=rss-40dd56d8f87d------2
+⚠️ Using RSS content as fallback for: https://uxmovement.medium.com/jointed-fields-how-to-simplify-2-column-forms-1a2279926d4e?source=rss-40dd56d8f87d------2
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-17/jointed-fields-how-to-simplify-2-column-forms.md
+
+📊 Summary:
+   ✅ Success: 15
+   ❌ Errors: 0
+🏁 Done!
