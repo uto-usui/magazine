@@ -27627,7 +27627,527 @@
     "https://uxmovement.medium.com/jointed-fields-how-to-simplify-2-column-forms-1a2279926d4e?source=rss-40dd56d8f87d------2": {
       "contentHash": "40385b86aa897b5365806bb4bfec3ab7bcfda3ad5c17063cfe74ac3e9d99a4f0",
       "processedAt": "2026-04-17T00:47:28.114Z"
+    },
+    "https://uxdesign.cc/we-become-what-we-behold-b552cad26702?sk=bd30fbf2080d02165664bac20c66887c": {
+      "contentHash": "30fdb64ec2c2f180e1b1523dce9883cf68685d18f03949f1e603e22ba11c5b39",
+      "processedAt": "2026-04-18T00:43:12.865Z"
+    },
+    "https://webaim.org/projects/million/": {
+      "contentHash": "bd93d72e181ded41abd0b105df1a583c74262689329f27ecfed78c26e1d0a8ee",
+      "processedAt": "2026-04-18T00:43:13.986Z"
+    },
+    "https://www.marginalia.nu/log/a_132_ai_bores/": {
+      "contentHash": "7e462b2c8a108ad030d7ba3d325b042d1750cb12a2872f01bc6ad02b8cf36c3a",
+      "processedAt": "2026-04-18T00:43:14.651Z"
+    },
+    "https://www.smashingmagazine.com/2026/04/legacy-systems/": {
+      "contentHash": "818437ee6580391b6a43112c84ce14a50591cb28448ca4889dba58ce8d9d7df8",
+      "processedAt": "2026-04-18T00:43:16.683Z"
+    },
+    "https://daverupert.com/2026/04/more-talk-less-grok/": {
+      "contentHash": "5c50f32a5ee7f95abf5bae0d0b68712d30a330f6f2f9ba610335feed05107941",
+      "processedAt": "2026-04-18T00:43:16.958Z"
+    },
+    "https://piccalil.li/the-index/178/?ref=main-rss-feed": {
+      "contentHash": "42169efecf63fc07b89aea04cd933fd8a9cc4dbdbc7dd281540e4766b59451c5",
+      "processedAt": "2026-04-18T00:43:17.450Z"
+    },
+    "https://vercel.com/changelog/deployment-retention-policies-now-preserve-active-branch-deployments": {
+      "contentHash": "6b83b23fffaff318b3f61179bf47e3d63aa0e193f1b0d869fcc81bee8108c305",
+      "processedAt": "2026-04-18T00:43:18.237Z"
+    },
+    "https://vercel.com/blog/how-zo-computer-improved-ai-reliability-20x-on-vercel": {
+      "contentHash": "1b3e0eaf281f68124d4982329f2f839a7f8ea3e055135e311ab7e050ba844ff4",
+      "processedAt": "2026-04-18T00:43:19.475Z"
+    },
+    "https://vercel.com/changelog/vercel-flags-ga": {
+      "contentHash": "fbfa7d08f4b8712e766c5fa8edb6cba2ea3569ff6b89faa315dd24679b5f3884",
+      "processedAt": "2026-04-18T00:43:20.262Z"
+    },
+    "https://vercel.com/changelog/opus-4.7-on-ai-gateway": {
+      "contentHash": "f332db41052af9240cb9e4ba4779e3475a671eb7e224103b14f866d85387056f",
+      "processedAt": "2026-04-18T00:43:20.945Z"
+    },
+    "https://vercel.com/blog/how-gitbook-serves-30000-sites-with-sub-second-content-updates": {
+      "contentHash": "d804439b1c88c5299610a1370448db2c2002cf3525374609aeeda99e709abd48",
+      "processedAt": "2026-04-18T00:43:22.083Z"
+    },
+    "https://vercel.com/blog/a-new-programming-model-for-durable-execution": {
+      "contentHash": "08cdc7c95b854b559959de10e8a4793cd64a84eb81e00000f3204533cdb4c00d",
+      "processedAt": "2026-04-18T00:43:23.414Z"
+    },
+    "https://vercel.com/changelog/seedance-2.0-video-now-available-on-ai-gateway": {
+      "contentHash": "df0333a18955e20310a3bb9732889915fce7e94feddf3050e41b6fc90fbe4797",
+      "processedAt": "2026-04-18T00:43:24.196Z"
+    },
+    "https://vercel.com/changelog/reduced-pricing-for-turbo-build-machines": {
+      "contentHash": "3c0446f052869d8b2b0885e3e21ee958aacf53489be0be005e578cd383051073",
+      "processedAt": "2026-04-18T00:43:24.842Z"
+    },
+    "https://vercel.com/changelog/logs-filtering-for-vercel-workflows-now-available": {
+      "contentHash": "7303974abb6958f7f09ff566f09a7b194fcf04026df79048f369d79d668ea66d",
+      "processedAt": "2026-04-18T00:43:25.870Z"
+    },
+    "https://vercel.com/changelog/elastic-build-machines-is-now-ga": {
+      "contentHash": "7406c22c6e927e37b39071049e7d5e999ccfd1f7a43eaede743afc70ec14a501",
+      "processedAt": "2026-04-18T00:43:26.672Z"
+    },
+    "https://vercel.com/blog/how-cursor-built-a-growth-iteration-loop-with-vercel-microfrontends-and-flags": {
+      "contentHash": "4faac9c50197b7a315a683a5dd6200cef987ed5576a48bc45220cffb5981b02d",
+      "processedAt": "2026-04-18T00:43:27.466Z"
+    },
+    "https://vercel.com/changelog/copy-to-prompt-instructions-now-available-for-flags": {
+      "contentHash": "8022959c7806def8b02455725006b5da42596dcffe7eaa619d4095d4a07910a1",
+      "processedAt": "2026-04-18T00:43:28.706Z"
+    },
+    "https://vercel.com/changelog/anomaly-alerts-ga": {
+      "contentHash": "fdcf30d6117d29c1cbf57384028313f75718bc00654087c3429c3a9b80d74d27",
+      "processedAt": "2026-04-18T00:43:29.556Z"
+    },
+    "https://vercel.com/changelog/anomaly-alert-configuration-now-available": {
+      "contentHash": "0b3a7963465fe76860d01f8da2335b6510e6e5bdd708def5de2f583766dac177",
+      "processedAt": "2026-04-18T00:43:30.117Z"
+    },
+    "https://vercel.com/changelog/zero-configuration-django-support": {
+      "contentHash": "32fbd50a49fe3b505f3db28d2e92f469344ae8e7b05411c2813364c1974305d6",
+      "processedAt": "2026-04-18T00:43:31.077Z"
+    },
+    "https://vercel.com/blog/agentic-infrastructure": {
+      "contentHash": "9cc8f0e3dc2a6b2f6d734ae2fe6a993c7b37c841dd94a8997eb6a31f8285ee34",
+      "processedAt": "2026-04-18T00:43:31.758Z"
+    },
+    "https://vercel.com/blog/zdr-on-ai-gateway": {
+      "contentHash": "5285bb495a137144e6d0ce1ef97223805b30dda8c2bf85b18bf37bbce032b720",
+      "processedAt": "2026-04-18T00:43:32.584Z"
+    },
+    "https://vercel.com/changelog/use-vercel-sandbox-directly-within-vercel-cli": {
+      "contentHash": "8cc6e0361ed8ab94ef692a2707f0cf605de57b36dfad9c93b229d661979ba5aa",
+      "processedAt": "2026-04-18T00:43:33.534Z"
+    },
+    "https://vercel.com/changelog/summary-of-cve-2026-23869": {
+      "contentHash": "3f6efca9674b9e7f8a7ff2ad7a6f6508d43c4b29540d5f15abdee99cffd53b7f",
+      "processedAt": "2026-04-18T00:43:34.065Z"
+    },
+    "https://vercel.com/changelog/vercel-sandbox-now-supports-up-to-32-vcpu-64-gb-ram-configurations": {
+      "contentHash": "773c8c77a69da59e835cd1b9bb615fb766535d5ac55cb9594492e90bd273e117",
+      "processedAt": "2026-04-18T00:43:34.710Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-adds-liveblocks-support": {
+      "contentHash": "d471a460f4217f50f0f54c08e5dc93942f6bfa49aa039d416d652d8e642b8871",
+      "processedAt": "2026-04-18T00:43:35.310Z"
+    },
+    "https://vercel.com/changelog/opus-4-6-fast-mode-available-on-ai-gateway": {
+      "contentHash": "3a3f80daf20ea4515fb276c9e55a05b4b2e15f447b84bcfbb04469b6ee33cb8a",
+      "processedAt": "2026-04-18T00:43:36.426Z"
+    },
+    "https://vercel.com/changelog/glm-5.1-on-ai-gateway": {
+      "contentHash": "18fa7a05dda588f49f81b7690a95f9c166ef64006c1cd1073f06506ba40c62ef",
+      "processedAt": "2026-04-18T00:43:37.139Z"
+    },
+    "https://vercel.com/changelog/query-and-visualize-workflow-data-in-vercel-observability": {
+      "contentHash": "79d44b6d8cecc2964bddbaa3fead5605d21eb1c35620483a746e1787c0fd529a",
+      "processedAt": "2026-04-18T00:43:38.309Z"
+    },
+    "https://vercel.com/changelog/manage-vercel-microfrontends-with-ai-agents-and-the-cli": {
+      "contentHash": "4d52117af30fd8a2dc17193ca3f38b06463510fcd9d0b94936384c71c0cf64fc",
+      "processedAt": "2026-04-18T00:43:38.878Z"
+    },
+    "https://vercel.com/changelog/zero-data-retention-no-prompt-training-on-ai-gateway": {
+      "contentHash": "c471e8488df2423d07070d6dd4b1ae3e062207a4e1662cca9399c5eca626561a",
+      "processedAt": "2026-04-18T00:43:39.314Z"
+    },
+    "https://vercel.com/changelog/vercel-cli-commands-now-scope-to-the-local-directory": {
+      "contentHash": "04ffe9dc193b701a423e6e0c4007321416449dcea47c35367a2d74bb586e3b0e",
+      "processedAt": "2026-04-18T00:43:39.840Z"
+    },
+    "https://vercel.com/changelog/query-and-manage-marketplace-databases-from-the-dashboard": {
+      "contentHash": "ad368319430b84feeab4a83b5b4555c3b5498a19e7d683d3c0de305e0c3be46b",
+      "processedAt": "2026-04-18T00:43:40.515Z"
+    },
+    "https://vercel.com/changelog/workflow-custom-class-serialization": {
+      "contentHash": "f78a32d3a9241082cbd4f3cac9885ca6f8fb6912e2d4c2425beba96584492c7c",
+      "processedAt": "2026-04-18T00:43:41.250Z"
+    },
+    "https://vercel.com/changelog/build-mcp-server-with-nuxt": {
+      "contentHash": "8531c6dcbdd607a54df2f2bb59c80ba35a670d793700ca81f8ecb849e7c74caa",
+      "processedAt": "2026-04-18T00:43:41.968Z"
+    },
+    "https://vercel.com/changelog/no-base-fee-for-observability-plus": {
+      "contentHash": "16d8969928fd477c6fa45dc1b7d25affd5602402ccf237029f8b537d9af55b6c",
+      "processedAt": "2026-04-18T00:43:42.865Z"
+    },
+    "https://vercel.com/changelog/qwen-3.6-plus-on-ai-gateway": {
+      "contentHash": "33815e6e575848efb5750a0b1944017d64a9a3b9412f37e1b90a413e71529ee8",
+      "processedAt": "2026-04-18T00:43:43.443Z"
+    },
+    "https://vercel.com/changelog/gemma-4-on-ai-gateway": {
+      "contentHash": "f4605045d0b6214773776a8a798bd669c05db9ed1873f7615ebac7d0a018da8e",
+      "processedAt": "2026-04-18T00:43:44.038Z"
+    },
+    "https://vercel.com/changelog/zero-configuration-go-backend-support": {
+      "contentHash": "5646c0787e0f8fb30c4f72c825fef0bb23f4f1baa7e83d1215e1197ef449bb8a",
+      "processedAt": "2026-04-18T00:43:45.038Z"
+    },
+    "https://vercel.com/blog/optimizing-vercel-sandbox-snapshots": {
+      "contentHash": "263f4fc93abd65b79b57df761b0a25d33041303536b469ccf558a0aeac448b8d",
+      "processedAt": "2026-04-18T00:43:45.806Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-adds-zernio-support": {
+      "contentHash": "e6f88e58b1d4726229ccc7ab997387b702b197bfb9ed8ddd14fb785472ffa765",
+      "processedAt": "2026-04-18T00:43:46.377Z"
+    },
+    "https://vercel.com/changelog/queues-now-supports-7-day-ttl": {
+      "contentHash": "57138095b1af2cd21822007f9fa425d0ccf88ed43a3ec51dc0465bb0cf037244",
+      "processedAt": "2026-04-18T00:43:47.055Z"
+    },
+    "https://vercel.com/changelog/glm-5v-turbo-on-ai-gateway": {
+      "contentHash": "22b110e00c7b38511418ee2609f673988c8ce78d32a92dea94fdcff0e022d2a6",
+      "processedAt": "2026-04-18T00:43:47.623Z"
+    },
+    "https://vercel.com/blog/how-waldium-made-a-blog-platform-work-for-humans-and-ai-alike": {
+      "contentHash": "78acba3e75d2b86818c44cafe1d3bd43595c1362de91ff72bdea50206bdbcf0b",
+      "processedAt": "2026-04-18T00:43:48.703Z"
+    },
+    "https://vercel.com/changelog/axios-package-compromise-and-remediation-steps": {
+      "contentHash": "e6f48cd90d11fe3af747ed5548f4283a69066cccfa7f411b63ca340251d084bd",
+      "processedAt": "2026-04-18T00:43:49.255Z"
+    },
+    "https://vercel.com/blog/how-flora-shipped-a-creative-agent-on-vercels-ai-stack": {
+      "contentHash": "333008fe59f1e65e6112380ebb3c36427d4bb60b0316fe858919fc422cf1f6b6",
+      "processedAt": "2026-04-18T00:43:50.078Z"
+    },
+    "https://vercel.com/changelog/transfer-marketplace-resources-between-teams": {
+      "contentHash": "ae5297a25dd6090586807e52dd9dfc950fb416bcc9a7d4471ecc27490170671b",
+      "processedAt": "2026-04-18T00:43:50.781Z"
+    },
+    "https://vercel.com/blog/agent-responsibly": {
+      "contentHash": "23c9c8be11caf3b747107d4f6ddcce6f7e320d44b8a96ada2632b939158f1904",
+      "processedAt": "2026-04-18T00:43:51.342Z"
+    },
+    "https://vercel.com/blog/making-turborepo-ninety-six-percent-faster-with-agents-sandboxes-and-humans": {
+      "contentHash": "49e82c1933beeba37a870c9b3613e2ce9de09a19ccca1474b635073ea67286da",
+      "processedAt": "2026-04-18T00:43:52.890Z"
+    },
+    "https://vercel.com/changelog/vercels-cdn-now-respects-cache-control-headers-from-external-origins-by-default": {
+      "contentHash": "d9f8bee38a5533e5c86f2fbb11fa5b252c3a525538568bd263cf0451bf6a1148",
+      "processedAt": "2026-04-18T00:43:53.398Z"
+    },
+    "https://vercel.com/changelog/vercel-plugin-openai-codex-and-codex-cli-support": {
+      "contentHash": "2d3abd7a887740d8b88c6c2af48b69560b5628f138b8304e7a3e2786f53ab4b6",
+      "processedAt": "2026-04-18T00:43:54.307Z"
+    },
+    "https://vercel.com/changelog/vercel-sandbox-persistent-sandboxes-beta": {
+      "contentHash": "25b1f9409c46e7f544b29b0344eff04b859e2854da2930375d60101fd64438d2",
+      "processedAt": "2026-04-18T00:43:55.083Z"
+    },
+    "https://vercel.com/changelog/vercel-sandboxes-now-allow-unique-customizable-names": {
+      "contentHash": "bb3800c9baff79af531a2ae9acd3d3ba0e5f9be07b9fc17815b395ccc0f3c06a",
+      "processedAt": "2026-04-18T00:43:55.720Z"
+    },
+    "https://vercel.com/blog/unified-reporting-for-your-ai-spend": {
+      "contentHash": "44f07eb9b705e7a3c3a04929968c5d3d8e440df191df7d04ea5c378434caf08a",
+      "processedAt": "2026-04-18T00:43:56.499Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-now-supports-concurrent-message-handling": {
+      "contentHash": "8537a719b9f81f3a9c8af4011e4f5a498c697d1f6cc8bb52d904ceafef97f904",
+      "processedAt": "2026-04-18T00:43:57.099Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-now-supports-scheduled-slack-messages": {
+      "contentHash": "f9a155b19b39ba6801fe1f43a96c92cbd849dab4595f0fe59bc6c9294332352e",
+      "processedAt": "2026-04-18T00:43:58.023Z"
+    },
+    "https://vercel.com/changelog/elastic-build-machines-are-available-in-beta": {
+      "contentHash": "2dd54c19db43afcf4fd4d58753ef36c2ee9acc3985e70139be517e4dd096deef",
+      "processedAt": "2026-04-18T00:43:58.708Z"
+    },
+    "https://vercel.com/blog/new-website-joins-forces-with-v0": {
+      "contentHash": "d3b320ab33af871153573adad38984b1c139955035a258b31e1f19875e1bd7f5",
+      "processedAt": "2026-04-18T00:43:59.442Z"
+    },
+    "https://vercel.com/blog/serhants-playbook-for-rapid-ai-iteration": {
+      "contentHash": "b37bc1f919abaecdd891fcf950aeab4834a4218972b7084a2615935b1e574689",
+      "processedAt": "2026-04-18T00:44:00.381Z"
+    },
+    "https://vercel.com/changelog/enterprise-teams-can-now-set-their-default-build-machine": {
+      "contentHash": "12341f5a1ffa861a66bf7c926990865278bcb365dcf51689046a3a8dfb5a7e3d",
+      "processedAt": "2026-04-18T00:44:01.753Z"
+    },
+    "https://vercel.com/changelog/activity-log-now-available-in-vercel-cli": {
+      "contentHash": "8fbabdf9cb7e7f5e0979795ab757b5106bd7601705c5438b4c48963bfb68f1c8",
+      "processedAt": "2026-04-18T00:44:02.874Z"
+    },
+    "https://vercel.com/changelog/view-specific-error-codes-in-runtime-logs": {
+      "contentHash": "398fdb6c33f7d642a399af8f719b4f2ce2b093164a68b471d25bbe1a6630c148",
+      "processedAt": "2026-04-18T00:44:03.954Z"
+    },
+    "https://vercel.com/changelog/sandbox-sdk-file-permissions": {
+      "contentHash": "a445ad39de0ce355a8a1139374f72effbcdbe725af5c9c4fe75ea61169925395",
+      "processedAt": "2026-04-18T00:44:04.950Z"
+    },
+    "https://vercel.com/blog/build-knowledge-agents-without-embeddings": {
+      "contentHash": "d69da2bf9a99ab2227b056e1896d85015b619c595ca8f716364a8d798c4f983a",
+      "processedAt": "2026-04-18T00:44:06.032Z"
+    },
+    "https://vercel.com/blog/two-startups-at-global-scale-without-devops": {
+      "contentHash": "caceb7d5781fa751eb6a577043c75aae3222a61090baf2307697fb6438e4d9a0",
+      "processedAt": "2026-04-18T00:44:07.140Z"
+    },
+    "https://vercel.com/changelog/vercel-is-now-available-in-stripe-projects": {
+      "contentHash": "acb625486df8473f65f7acce6deec6d03d6e0bf93a680b3854d258dc70ca11e1",
+      "processedAt": "2026-04-18T00:44:07.674Z"
+    },
+    "https://vercel.com/blog/chat-sdk-brings-agents-to-your-users": {
+      "contentHash": "7607daec2df4e47cb2518048e8043c36d73f6014ba6d6218cb0ce8464cd82347",
+      "processedAt": "2026-04-18T00:44:08.526Z"
+    },
+    "https://vercel.com/changelog/v0-now-includes-diff-view-to-review-code-changes": {
+      "contentHash": "a71b5269507754a8007f839492fbbd2b7512c37b28f2845b1d6c0c0093a11cad",
+      "processedAt": "2026-04-18T00:44:09.704Z"
+    },
+    "https://vercel.com/changelog/minimax-m2.7-on-ai-gateway": {
+      "contentHash": "a879629270fc58584cc5fdc24beba221863c6c29fe775cec8e7d9f71100ce2bb",
+      "processedAt": "2026-04-18T00:44:10.315Z"
+    },
+    "https://vercel.com/blog/360-billion-tokens-3-million-customers-6-engineers": {
+      "contentHash": "2e720ff3a156be66105b8294b52293af45006895c71d3166d6b24f7cf35da67b",
+      "processedAt": "2026-04-18T00:44:11.317Z"
+    },
+    "https://vercel.com/changelog/workflow-encryption": {
+      "contentHash": "0a581f4b56cb4f3f33d741af46acc6003056e6ffa7a23d2a21ccbd13beeacc0c",
+      "processedAt": "2026-04-18T00:44:11.886Z"
+    },
+    "https://vercel.com/blog/vercel-open-source-program-winter-2026-cohort": {
+      "contentHash": "5e9601eb7f4529e8a5c76f5ed7a0f159adb6ae6159c1ab4c298334a8ccf5c85a",
+      "processedAt": "2026-04-18T00:44:13.763Z"
+    },
+    "https://vercel.com/changelog/introducing-vercel-plugin-for-coding-agents": {
+      "contentHash": "c0681655634f435dac7336d0e61487cfb15957a0a9335c0ea2e62dc3d401f51d",
+      "processedAt": "2026-04-18T00:44:14.446Z"
+    },
+    "https://vercel.com/changelog/updates-to-terms-of-service-march-2026": {
+      "contentHash": "327f3abc267c3b7495e065a0d9b975229fe444216471e0825f124ae3b515575a",
+      "processedAt": "2026-04-18T00:44:15.010Z"
+    },
+    "https://vercel.com/changelog/use-gpt-5-4-mini-and-nano-on-ai-gateway": {
+      "contentHash": "a5668c3d34de324d245992dad3e5e9a9337452a2f333cd699102c4871ac5f5e3",
+      "processedAt": "2026-04-18T00:44:15.607Z"
+    },
+    "https://vercel.com/changelog/vercel-github-app-updated-permissions": {
+      "contentHash": "6304daca8cbf549c099cb7d223e42d28bca4806cb1104235fe2ee70ba398fc7f",
+      "processedAt": "2026-04-18T00:44:16.439Z"
+    },
+    "https://vercel.com/blog/2026-vercel-ai-accelerator-cohort": {
+      "contentHash": "cdf33f7457167efe0fea8affdae63f581ffa3f4f54402b19b2fc57f574a036f7",
+      "processedAt": "2026-04-18T00:44:17.258Z"
+    },
+    "https://vercel.com/changelog/streamdown-2-5": {
+      "contentHash": "52ceb73b2f246d3f91733e5dc252eb61b142eb228ce3dee871a55cf1b0a89f17",
+      "processedAt": "2026-04-18T00:44:18.097Z"
+    },
+    "https://vercel.com/changelog/litellm-server-now-supported-on-vercel": {
+      "contentHash": "10dffbb9d89b3bf360b19976f34ae4cd91cfba53cb9be8ffac4d0facd59fa1d0",
+      "processedAt": "2026-04-18T00:44:18.707Z"
+    },
+    "https://vercel.com/changelog/next-forge-6": {
+      "contentHash": "bc322f2f4f21c1f32fd67d07b0c05947f48882f4ba3d41ce4f7e172ca9a23205",
+      "processedAt": "2026-04-18T00:44:19.280Z"
+    },
+    "https://vercel.com/blog/notion-workers-vercel-sandbox": {
+      "contentHash": "469151387f66f4da5a7d3449d3086b5fb2886331707073ad591433e2799df58e",
+      "processedAt": "2026-04-18T00:44:19.978Z"
+    },
+    "https://vercel.com/changelog/vercel-now-supports-domain-connect-as-a-dns-provider": {
+      "contentHash": "efc4783a89b197dbffaaa88dccea24065e91e5797ca00b4ccb1d7eb495ca150f",
+      "processedAt": "2026-04-18T00:44:20.747Z"
+    },
+    "https://vercel.com/changelog/ai-elements-1-9": {
+      "contentHash": "3fb393cb9ef8449207edba483ee547bd60f256657ab7f41577438d99dac95898",
+      "processedAt": "2026-04-18T00:44:21.504Z"
+    },
+    "https://vercel.com/changelog/deprecating-the-dhe-cipher-suite-for-tls-connections": {
+      "contentHash": "b49af6ed5f588a5c5c25da2a49e4782ed07ddad82fea7c78cf0d0085f08ff0e0",
+      "processedAt": "2026-04-18T00:44:22.033Z"
+    },
+    "https://vercel.com/changelog/vercel-flags-are-now-optimized-for-agents": {
+      "contentHash": "43d6aa16c0ecd40603404b48d96dbd18b317a33f2a2cda455f8c89a68c06d6d2",
+      "processedAt": "2026-04-18T00:44:22.642Z"
+    },
+    "https://vercel.com/changelog/subscribe-to-webhook-events-for-vercel-flags": {
+      "contentHash": "c30424332b1736b9a373fb2949dee93733baf6ad87c3d495b2205dc4df084875",
+      "processedAt": "2026-04-18T00:44:23.199Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-adds-whatsapp-adapter-support": {
+      "contentHash": "b7243cf221ec1f6a89c6684485e8f802f373fd130e925d7c483835c3b47d70df",
+      "processedAt": "2026-04-18T00:44:23.989Z"
+    },
+    "https://vercel.com/changelog/improved-data-collection-for-web-analytics-and-speed-insights-with-resilient": {
+      "contentHash": "c19f30670e74571baefbad7be69475c6e34ec6962d251808268a663fbd89522f",
+      "processedAt": "2026-04-18T00:44:24.511Z"
+    },
+    "https://vercel.com/changelog/grok-4-20-on-ai-gateway": {
+      "contentHash": "8f62a747f332f6bb211c88ab0bf4c1bfc37c8ce67263fdd6c538f0451f8b0869",
+      "processedAt": "2026-04-18T00:44:25.230Z"
+    },
+    "https://vercel.com/blog/how-we-run-vercels-cdn-in-front-of-discourse": {
+      "contentHash": "c051d96a2ba7052ed0c8dd2849e1b86ddfacb9239f671b03b336d8ef2512b668",
+      "processedAt": "2026-04-18T00:44:26.265Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-adds-postgresql-state-adapter": {
+      "contentHash": "1b76eb2bf0a9b80bd0c96ff985e7345e67d9a08d76eae70bd2b2ae6fab39f707",
+      "processedAt": "2026-04-18T00:44:26.910Z"
+    },
+    "https://vercel.com/changelog/vercel-sandbox-now-supports-1-vcpu-2-gb-configurations": {
+      "contentHash": "ded862573daffed6d6247d9267b6e92c84070ba023d5cef01ad13b306bdea52c",
+      "processedAt": "2026-04-18T00:44:27.508Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-adapter-directory": {
+      "contentHash": "f09a4b3310b2302ec7cdee8c0174078f90b5ceee06f1f3be4288ef70379ccaf8",
+      "processedAt": "2026-04-18T00:44:28.131Z"
+    },
+    "https://vercel.com/changelog/ai-gateway-supports-openais-responses-api": {
+      "contentHash": "4aa8f81cf0e8230679176287428f34f511226b29c0dffdae1e49dfb3deddbd33",
+      "processedAt": "2026-04-18T00:44:28.818Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-adds-table-rendering-and-streaming-markdown": {
+      "contentHash": "5dc628ea556484a48f7f0a3dad28efe3421766757597a9aee30cadde21ac8418",
+      "processedAt": "2026-04-18T00:44:29.440Z"
+    },
+    "https://vercel.com/changelog/v0-api-now-supports-custom-mcp-servers": {
+      "contentHash": "856b7af7eaa16e658cf75165f7d233f13ce157d4f24983019d3e9213d83e4599",
+      "processedAt": "2026-04-18T00:44:30.123Z"
+    },
+    "https://vercel.com/changelog/skip-unaffected-builds-for-projects-in-bun-monorepos": {
+      "contentHash": "5126edd241fe8b7b38dfdda2ffbe708998349cdd69d5bc4ee51dbfa652c1fcc1",
+      "processedAt": "2026-04-18T00:44:30.658Z"
+    },
+    "https://vercel.com/changelog/deployment-step-now-15-percent-faster": {
+      "contentHash": "d65e483fab6700fd780d808f45731ba0ef9fe0682d62f64bb376100a344f14dd",
+      "processedAt": "2026-04-18T00:44:31.562Z"
+    },
+    "https://vercel.com/blog/from-idea-to-secure-checkout-in-minutes-with-stripe": {
+      "contentHash": "336f7ac706b9c45658eff90a7a0b5b380bc57e13b010f2fb4a9c9bc5689bf579",
+      "processedAt": "2026-04-18T00:44:32.450Z"
+    },
+    "https://vercel.com/changelog/provider-level-custom-timeouts-for-faster-fail-over-on-ai-gateway": {
+      "contentHash": "0982b17ebdc70190e70038ad840744b46a2f9845c9614709fd1e748a5502836f",
+      "processedAt": "2026-04-18T00:44:33.210Z"
+    },
+    "https://vercel.com/changelog/vercels-cdn-gets-a-new-dashboard-experience": {
+      "contentHash": "2ceda8a07a819afba39aef62080c40327df2225a53a020366ccd817ec12f2fae",
+      "processedAt": "2026-04-18T00:44:33.619Z"
+    },
+    "https://vercel.com/changelog/vercels-cdn-now-supports-updating-routing-rules-without-a-new-deployment": {
+      "contentHash": "925dc3043cae751b602c0b9172a8a1ce2998a9d62f5606ed85147f819f3c147f",
+      "processedAt": "2026-04-18T00:44:34.150Z"
+    },
+    "https://vercel.com/changelog/streamdown-2-4": {
+      "contentHash": "52a32aecfe5ad8fc35f0ed319cf1e1007aee40d4822693ef67a59af84995ca00",
+      "processedAt": "2026-04-18T00:44:34.888Z"
+    },
+    "https://vercel.com/changelog/run-cron-jobs-from-deployment-summary": {
+      "contentHash": "b1138aa11131464bab60e256517a9b592173c33fa6027a7e86d3d3e71fc5693d",
+      "processedAt": "2026-04-18T00:44:35.983Z"
+    },
+    "https://vercel.com/changelog/stripe-is-now-generally-available-on-the-marketplace-and-v0": {
+      "contentHash": "3673be0a0a11b29f371c5e30a440010653367773353c028ff2536921c8bb9a8b",
+      "processedAt": "2026-04-18T00:44:36.837Z"
+    },
+    "https://vercel.com/changelog/create-private-blob-stores-with-a-single-click-in-v0": {
+      "contentHash": "41ec17f179fc134a38957967f9dcdedf616faccad4a23286c291d51d133ee49e",
+      "processedAt": "2026-04-18T00:44:37.367Z"
+    },
+    "https://vercel.com/changelog/gpt-5-4-is-now-on-ai-gateway": {
+      "contentHash": "fc2ac5a81fd1e1f3869728879b635a47fc99de1cc4db32ee62471dadd3114998",
+      "processedAt": "2026-04-18T00:44:38.025Z"
+    },
+    "https://vercel.com/changelog/mcp-apps-support-on-vercel": {
+      "contentHash": "f608d404096accdd9beb46e6ea358b90252fea1257ec941a228af4d4dd8feef4",
+      "processedAt": "2026-04-18T00:44:38.759Z"
+    },
+    "https://vercel.com/changelog/mercury-2-on-ai-gateway": {
+      "contentHash": "707a357c5a14af511722b656413cfdb0d2a74fe8758da0917858713ae8a8510e",
+      "processedAt": "2026-04-18T00:44:39.396Z"
+    },
+    "https://vercel.com/blog/building-slack-agents-can-be-easy": {
+      "contentHash": "e13bdd669da093688e01aaf27820c39a5497456c49f04e66cddb443bf14c5ccd",
+      "processedAt": "2026-04-18T00:44:40.408Z"
+    },
+    "https://vercel.com/blog/scaling-redirects-to-infinity-on-vercel": {
+      "contentHash": "64f26e247f35d9c09f680bc1be8823fb9d0000acdac8a5d652e19d298ed6c70c",
+      "processedAt": "2026-04-18T00:44:41.115Z"
+    },
+    "https://vercel.com/changelog/vercel-sandbox-now-accepts-environment-variables-at-creation": {
+      "contentHash": "a8e25a8de1432c0f5b985111e91ca39c828edd98b48539551fb7b8a032b9bce0",
+      "processedAt": "2026-04-18T00:44:41.798Z"
+    },
+    "https://vercel.com/changelog/vercel-workflow-is-now-twice-as-fast": {
+      "contentHash": "454b9762e90d541e1785848579632d0a08f8f4c8704886fbcf6eb3f213de008b",
+      "processedAt": "2026-04-18T00:44:42.323Z"
+    },
+    "https://vercel.com/changelog/gpt-5-3-chat-is-now-on-ai-gateway": {
+      "contentHash": "cf0b7ed09be6288e9697d492980528068c3d7ba75ad559806dd7664034070508",
+      "processedAt": "2026-04-18T00:44:43.020Z"
+    },
+    "https://vercel.com/changelog/gemini-3-1-flash-lite-is-now-on-ai-gateway": {
+      "contentHash": "3d536f2988e286f01dd32e4f5a073cbe055721516d2fa3c46ed49a176ace60c5",
+      "processedAt": "2026-04-18T00:44:43.654Z"
+    },
+    "https://vercel.com/blog/advancing-python-typing": {
+      "contentHash": "ffacea81cd42a5cc072a0b9def3babd34dc7c40ca0843b17672dc1f8c470883e",
+      "processedAt": "2026-04-18T00:44:44.823Z"
+    },
+    "https://vercel.com/blog/gamma-builds-design-first-agents-with-vercel": {
+      "contentHash": "3ccdc84667ba81e199911254efc8e6220f516437c7d2097add24149af2b81c2d",
+      "processedAt": "2026-04-18T00:44:45.439Z"
+    },
+    "https://vercel.com/blog/how-stably-ships-AI-testing-agents-in-hours-not-weeks": {
+      "contentHash": "6df6c5a07cd01520a27c1bae25297734cde4c381e7401c9a523db4e66344aee0",
+      "processedAt": "2026-04-18T00:44:45.806Z"
+    },
+    "https://vercel.com/blog/security-through-design-creating-the-improved-firewall-experience": {
+      "contentHash": "42d854a3f5b4be39356188bab32f0c94023da48ce62db3d4e863bff73b8bbc27",
+      "processedAt": "2026-04-18T00:44:47.259Z"
+    },
+    "https://vercel.com/changelog/custom-reporting-ai-gateway": {
+      "contentHash": "6e31e03a9a4f43c46c69b03d132d0b64e7930b8066851eb5fe85af1efb017462",
+      "processedAt": "2026-04-18T00:44:47.909Z"
+    },
+    "https://zenn.dev/uhyo/articles/react-profession-bench-4": {
+      "contentHash": "35e38cd54f8e6d9f49d8bf13c9476be0ffe8aed45c962ee34f7da8b618738685",
+      "processedAt": "2026-04-18T00:44:48.399Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/04/17/173335": {
+      "contentHash": "a0d0e57312e8bf16a45d0d069d7762b846b8061a5adb04b8d1a2105a95353c44",
+      "processedAt": "2026-04-18T00:44:50.567Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/04/17/100000": {
+      "contentHash": "7a40aeb83bc1f6f8e47587b65d232a840aa7b45d16c5cbb0d7ea81814968fd0b",
+      "processedAt": "2026-04-18T00:44:51.067Z"
+    },
+    "https://tech.layerx.co.jp/entry/payment-consistency-decision": {
+      "contentHash": "2152ce778012fe2491dadf5fc0a32e399d41c72b7ed0a02ae6ea3bf1f4e81e9f",
+      "processedAt": "2026-04-18T00:44:52.300Z"
+    },
+    "https://uxcontent.com/technical-content-design-skills/": {
+      "contentHash": "ce2d63e590b7cada2389945fbf8aec6ac5ed0eba857fbeea2afbdd16bd7ddcee",
+      "processedAt": "2026-04-18T00:44:56.610Z"
+    },
+    "https://www.nngroup.com/articles/information-pipeline/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "30eb1dad42859986fac8cb15310059c6e0c5e8e49b1da6dc3c0b0ccc8f0a0f33",
+      "processedAt": "2026-04-18T00:44:58.086Z"
+    },
+    "https://www.nngroup.com/articles/less-chat-more-answer/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "f1e5d7eb7ff07549e17b85d0c20b8b300cbd9c027fe785215cc446b3198c9ff2",
+      "processedAt": "2026-04-18T00:44:59.395Z"
+    },
+    "https://uxmag.com/articles/the-end-of-prompting-why-the-future-of-ai-experience-design-is-constraint-first": {
+      "contentHash": "ee52378fe5ba3ede694e11e288de8390da134a1b4c9cee94ed5bbaaf53afaaec",
+      "processedAt": "2026-04-18T00:45:00.500Z"
+    },
+    "https://react.statuscode.com/issues/470": {
+      "contentHash": "36da9a5206a338a0d51bb271a1a8f8e98d6ef29a9df4074902a71cc7de4344d6",
+      "processedAt": "2026-04-18T00:45:01.212Z"
     }
   },
-  "lastRun": "2026-04-17T00:47:28.114Z"
+  "lastRun": "2026-04-18T00:45:01.212Z"
 }
