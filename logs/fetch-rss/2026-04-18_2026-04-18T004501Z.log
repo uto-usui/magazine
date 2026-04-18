@@ -1,0 +1,58 @@
+articles_dir=2026-04-18
+exit_code=0
+timestamp_utc=2026-04-18T00:45:01Z
+
+---- issue lines ----
+11:Failed to fetch feed Remix Blog: Status code 500
+
+---- tail (last 50 lines) ----
+📥 Processing: Scaling redirects to infinity on Vercel
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-18/scaling-redirects-to-infinity-on-vercel.md
+📥 Processing: Vercel Sandbox now accepts environment variables at creation
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-18/vercel-sandbox-now-accepts-environment-variables-at-creation.md
+📥 Processing: Vercel Workflow is now twice as fast
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-18/vercel-workflow-is-now-twice-as-fast.md
+📥 Processing: GPT 5.3 Chat is now on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-18/gpt-53-chat-is-now-on-ai-gateway.md
+📥 Processing: Gemini 3.1 Flash Lite is now on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-18/gemini-31-flash-lite-is-now-on-ai-gateway.md
+📥 Processing: Advancing Python typing
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-18/advancing-python-typing.md
+📥 Processing: Gamma builds design-first agents with Vercel
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-18/gamma-builds-design-first-agents-with-vercel.md
+📥 Processing: How Stably ships AI testing agents in hours, not weeks
+404 Not Found: https://vercel.com/blog/how-stably-ships-AI-testing-agents-in-hours-not-weeks
+⚠️ Using RSS content as fallback for: https://vercel.com/blog/how-stably-ships-AI-testing-agents-in-hours-not-weeks
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-18/how-stably-ships-ai-testing-agents-in-hours-not-weeks.md
+📥 Processing: Security through design: Creating the improved Firewall experience
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-18/security-through-design-creating-the-improved-firewall-experience.md
+📥 Processing: Custom reporting now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-18/custom-reporting-now-available-on-ai-gateway.md
+📥 Processing: Claude Opus 4.7のReact習熟度をさっそく測る
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-18/claude-opus-47react.md
+📥 Processing: RubyKaigi 2026に向けて「IKATSURUBYゲームバトル」社内お披露目大会を開催しました！
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-18/rubykaigi-2026ikatsuruby.md
+📥 Processing: Get ready for RubyKaigi with Schedule.select!
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-18/get-ready-for-rubykaigi-with-scheduleselect.md
+📥 Processing: 決済基盤の整合性設計を仕様から決める。バクラク請求書発行のカード決済における2つの判断
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-18/co-entry-payment-consistency-decision.md
+📥 Processing: The 8 technical content design skills you should learn
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-18/the-8-technical-content-design-skills-you-should-learn.md
+📥 Processing: Boost Design Autonomy with an Information Pipeline
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-18/boost-design-autonomy-with-an-information-pipeline.md
+📥 Processing: Less Chat, More Answer: Site AI Chatbots Need to Get to the Point
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-18/less-chat-more-answer-site-ai-chatbots-need-to-get-to-the-point.md
+📥 Processing: The End of Prompting: Why the Future of AI Experience Design Is Constraint-First
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-18/the-end-of-prompting-why-the-future-of-ai-experience-design-is-constraint-first.md
+📥 Processing: TanStack Start rethinks React Server Components
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-18/tanstack-start-rethinks-react-server-components.md
+
+📊 Summary:
+   ✅ Success: 130
+   ❌ Errors: 0
+🏁 Done!
