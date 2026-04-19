@@ -1,0 +1,29 @@
+articles_dir=2026-04-19
+exit_code=0
+timestamp_utc=2026-04-19T00:47:55Z
+
+---- issue lines ----
+8:Failed to fetch feed Remix Blog: Status code 500
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+Failed to fetch feed Remix Blog: Status code 500
+⏳ Retry feed fetch 1/3 for Accessibility Weekly after transient error: Request timed out after 15000ms
+📰 Found 5527 total articles
+✨ New articles: 2
+⏭️ Skipped (already processed): 463
+📥 Processing: Async React時代の宣言的UI 2: トランジション対応のuseDebouncedフックを作る
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-19/async-reactui-2-usedebounced.md
+📥 Processing: UX Conference July Announced (Jul 20 - Jul 24)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-19/ux-conference-july-announced-jul-20-jul-24.md
+
+📊 Summary:
+   ✅ Success: 2
+   ❌ Errors: 0
+🏁 Done!
