@@ -1,0 +1,58 @@
+articles_dir=2026-04-23
+exit_code=0
+timestamp_utc=2026-04-23T03:32:13Z
+
+---- issue lines ----
+9:Failed to fetch feed Remix Blog: Status code 500
+
+---- tail (last 50 lines) ----
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Image too large, skipping: https://cdn.sanity.io/images/599r6htc/regionalized/d2bf316de6c224cb9b559575898a52614248be3e-3264x1836.png?w=3264&h=1836&q=75&fit=crop&crop=focalpoint&auto=format
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-23/how-ai-leaders-are-borrowing-from-the-design-playbook.md
+📥 Processing: font-family doesn't fall back the way you think it does
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-23/font-family-doesnt-fall-back-the-way-you-think-it-does.md
+📥 Processing: Secretlint v12.0.0リリース: Groq、Hugging Face、Notion、GitLab、Grafana、HashiCorp Vault、Vercel、Databricks、Docker、Figmaの検出に対応
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-23/secretlint-v1200-groqhugging-facenotiongitlabgrafanahashicorp-vaultverceldatabricksdockerfigma.md
+📥 Processing: SecureClipboard: クリップボードに入った機密情報を自動でマスクするmacOSアプリ
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-23/secureclipboard-macos.md
+📥 Processing: Async React時代の宣言的UI 2: トランジション対応のuseDebouncedフックを作る
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-23/async-reactui-2-usedebounced.md
+📥 Processing: 開発プロセスに他職種の知見を届ける ── QAエンジニアによる仕組みづくりの現在地
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-23/qa.md
+📥 Processing: 2025年のイベントレポートふりかえり
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-23/smarthr-04-20-151912.md
+📥 Processing: UX Conference July Announced (Jul 20 - Jul 24)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-23/ux-conference-july-announced-jul-20-jul-24.md
+📥 Processing: We become what we behold
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-23/we-become-what-we-behold.md
+📥 Processing: 9 Accessibility Myths and Pushbacks (And How to Answer Them)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-23/9-accessibility-myths-and-pushbacks-and-how-to-answer-them.md
+📥 Processing: Pixels of the Week – April 19, 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-23/pixels-of-the-week-april-19-2026.md
+📥 Processing: Online Grocery Ecommerce UX 2026: Expanded & Updated Research Findings
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-23/online-grocery-ecommerce-ux-2026-expanded-updated-research-findings.md
+📥 Processing: The Illusion of Choice: How Micro-Decisions Guide Macro-Control
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-23/the-illusion-of-choice-how-micro-decisions-guide-macro-control.md
+📥 Processing: Designing for Dependence: When UX Turns Tools into Traps
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-23/designing-for-dependence-when-ux-turns-tools-into-traps.md
+📥 Processing: This Week In React #278: React Email, TSRX, ESLint plugin, Rspack RSC, TanStack, Hook Form | Vision Camera, Expo, Nano Icons, ExecuTorch, Argent, Audio API, CSS, RNSec | TypeScript Go, Node.js, Bun, Hono
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-23/this-week-in-react-278-react-email-tsrx-eslint-plugin-rspack-rsc-tanstack-hook-form-vision-camera-ex.md
+
+📊 Summary:
+   ✅ Success: 43
+   ❌ Errors: 0
+🏁 Done!
