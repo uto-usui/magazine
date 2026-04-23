@@ -82,4 +82,32 @@ describe('MarkdownConverter', () => {
 
     expect(frontmatter).toContain('title: "Article with \\"quotes\\" and: colons"')
   })
+
+  it('should redact Slack tokens from converted markdown', () => {
+    const token = ['xoxb', '1234567890123', '1234567890123', 'AbCdEfGhIjKlMnOpQrStUvWx'].join('-')
+    const html = `<p>Slack Token is ${token}</p>`
+
+    const markdown = converter.htmlToMarkdown(html)
+
+    expect(markdown).toContain('[REDACTED_SLACK_TOKEN]')
+    expect(markdown).not.toContain(token)
+  })
+
+  it('should redact token-like strings when using RSS fallback content', () => {
+    const token = ['gh', 'p_', '1234567890abcdefghijklmnopqrstuv'].join('')
+    const feedItem: FeedItem = {
+      title: 'Fallback Article',
+      link: 'https://example.com/fallback',
+      pubDate: '2024-01-15',
+      author: null,
+      content: `<p>Token: ${token}</p>`,
+      feedName: 'Test Feed',
+      category: 'security',
+    }
+
+    const article = converter.createArticleFromRssContent(feedItem)
+
+    expect(article).toContain('[REDACTED_GITHUB_TOKEN]')
+    expect(article).not.toContain(token)
+  })
 })

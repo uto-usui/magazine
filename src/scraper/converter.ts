@@ -4,6 +4,34 @@ import type { FeedItem } from '../rss/fetcher'
 import type { ExtractedContent } from './extractor'
 
 export class MarkdownConverter {
+  private static readonly SECRET_PATTERNS: Array<{ pattern: RegExp, replacement: string }> = [
+    {
+      // Slack bot/user/app tokens frequently appear in security-related articles and trigger push protection.
+      pattern: /\bxox(?:a|b|o|p|r|s)-[A-Za-z0-9-]{10,}\b/g,
+      replacement: '[REDACTED_SLACK_TOKEN]',
+    },
+    {
+      pattern: /\bgh(?:p|o|s|u|r)\\?_[A-Za-z0-9]{20,}\b/g,
+      replacement: '[REDACTED_GITHUB_TOKEN]',
+    },
+    {
+      pattern: /\bgithub\\?_pat\\?_[A-Za-z0-9_\\]{20,}\b/g,
+      replacement: '[REDACTED_GITHUB_TOKEN]',
+    },
+    {
+      pattern: /\b(?:AKIA|ASIA)[A-Z0-9]{16}\b/g,
+      replacement: '[REDACTED_AWS_ACCESS_KEY_ID]',
+    },
+    {
+      pattern: /\bnpm\\?_[A-Za-z0-9]{20,}\b/g,
+      replacement: '[REDACTED_NPM_TOKEN]',
+    },
+    {
+      pattern: /\bsk-(?:proj-|live-|test-)?[A-Za-z0-9_-]{20,}\b/g,
+      replacement: '[REDACTED_API_KEY]',
+    },
+  ]
+
   private turndown: TurndownService
 
   constructor() {
@@ -15,7 +43,7 @@ export class MarkdownConverter {
   }
 
   htmlToMarkdown(html: string): string {
-    return this.turndown.turndown(html)
+    return this.sanitizeMarkdown(this.turndown.turndown(html))
   }
 
   generateFrontmatter(
@@ -75,6 +103,13 @@ export class MarkdownConverter {
     const notice = `> **Note:** Full content could not be retrieved. [Read the original article](${feedItem.link})`
 
     return `${frontmatter}\n\n${notice}\n\n${content}`
+  }
+
+  sanitizeMarkdown(markdown: string): string {
+    return MarkdownConverter.SECRET_PATTERNS.reduce(
+      (sanitized, { pattern, replacement }) => sanitized.replace(pattern, replacement),
+      markdown
+    )
   }
 
   private escapeYamlString(value: string): string {
