@@ -28147,7 +28147,179 @@
     "https://react.statuscode.com/issues/470": {
       "contentHash": "36da9a5206a338a0d51bb271a1a8f8e98d6ef29a9df4074902a71cc7de4344d6",
       "processedAt": "2026-04-18T00:45:01.212Z"
+    },
+    "https://engineering.atspotify.com/2026/4/background-coding-agents-dataset-migrations-honk-part-4/": {
+      "contentHash": "c6f734e04fb46553378e588e1b67d5577ad2a5492328f9e2785f8192b175412f",
+      "processedAt": "2026-04-23T03:30:09.471Z"
+    },
+    "https://engineering.fb.com/2026/04/21/ml-applications/modernizing-the-facebook-groups-search-to-unlock-the-power-of-community-knowledge/": {
+      "contentHash": "8fe6df8b9662d7ae870586c55ba8bc17e061462fea2182827964bafcc6872972",
+      "processedAt": "2026-04-23T03:30:09.947Z"
+    },
+    "https://addyosmani.com/blog/agent-harness-engineering/": {
+      "contentHash": "2d4513d7afadca722766903cc96dc576b5b643b15987db3d2d6fbf68830c6ab7",
+      "processedAt": "2026-04-23T03:30:13.651Z"
+    },
+    "https://a11yweekly.com/issue/496/": {
+      "contentHash": "3443252af4bd3cba6b2464850d4dba52295d4f21d7f7bfe5317a9583c1dad61b",
+      "processedAt": "2026-04-23T03:30:13.819Z"
+    },
+    "https://samhenri.gold/blog/20260418-claude-design/": {
+      "contentHash": "a9b2800d076b433f6fbc3699fabfa806616ff9183a682e9566bf4092c9d0b560",
+      "processedAt": "2026-04-23T03:30:15.370Z"
+    },
+    "https://wiretext.app/": {
+      "contentHash": "f590b1daaba8560b43d02fa09877738a9a1b178f24eda0b1d24efe18a0ec73e5",
+      "processedAt": "2026-04-23T03:30:20.217Z"
+    },
+    "https://www.lesswrong.com/posts/KRLGxCaqdgrotyB8z/there-are-only-four-skills-design-technical-management-and": {
+      "contentHash": "748bcf702e3467df950af6d972c92d6ccff41fbdbf218b577f2b7fa7b10cb64c",
+      "processedAt": "2026-04-23T03:30:24.633Z"
+    },
+    "https://uicolors.app/generate/00ccff": {
+      "contentHash": "00723dda9eb9057679119b7e35aaf68a5f18756fa00bdcbccffce2ad88012e16",
+      "processedAt": "2026-04-23T03:30:53.831Z"
+    },
+    "https://www.antmurphy.me/newsletter/the-ai-chasm": {
+      "contentHash": "a3cfb289a4d2329f8217682b279df88ffed27bfa5d49e15855064ee5d5f7fada",
+      "processedAt": "2026-04-23T03:30:54.481Z"
+    },
+    "https://mattstromawn.com/writing/expansion-artifacts/": {
+      "contentHash": "077a6fcd9856499e51129a37ce46944eb180180c705f6f062aa9f03f82487e29",
+      "processedAt": "2026-04-23T03:30:54.661Z"
+    },
+    "https://asc11.com/": {
+      "contentHash": "c23fa9f5034ef16364dba19ecbf2c2ffde327c4821b5f17516f84cfadf22053b",
+      "processedAt": "2026-04-23T03:30:59.472Z"
+    },
+    "https://andrewmurphy.io/blog/if-you-thought-the-speed-of-writing-code-was-your-problem-you-have-bigger-problems": {
+      "contentHash": "0790e856e9a15b35f3fb07d7d96ad91f7e5b64ac4f9a1c4e244a74fcc0232bd2",
+      "processedAt": "2026-04-23T03:30:59.976Z"
+    },
+    "https://thoughtshrapnel.com/2026/04/18/the-ai-adoption-spiral.html": {
+      "contentHash": "641dd4ef130c9f7fa371d93eb4a528f97dea4adddd3a89a74b7a43e8a4a18b78",
+      "processedAt": "2026-04-23T03:31:00.871Z"
+    },
+    "https://microsoft.design/articles/design-isnt-dying-its-shifting-left/": {
+      "contentHash": "47218e36555364e8a9203bbde9343c106dc756e27f51e15d2bd7aed0bb43f3aa",
+      "processedAt": "2026-04-23T03:31:01.371Z"
+    },
+    "https://bit.ly/side-pie2": {
+      "contentHash": "76dbdf5c140c0c758eca5f9d5d63c14f80f99ef69e8aa8baf90ae1b51551ea32",
+      "processedAt": "2026-04-23T03:31:01.995Z"
+    },
+    "https://medium.com/design-bootcamp/what-claude-design-actually-changes-for-designers-0c5b04fae343": {
+      "contentHash": "c0d2d0449120626289c32c4a5d7867207594936106bef5b7c2a3a74cfc70aac1",
+      "processedAt": "2026-04-23T03:31:07.058Z"
+    },
+    "https://charcuterie.elastiq.ch/#130BA": {
+      "contentHash": "b3fb8a8377d2e1bfb1b1edf199d8bd22a3e93de366013a67b1061099db77da41",
+      "processedAt": "2026-04-23T03:31:07.340Z"
+    },
+    "https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/": {
+      "contentHash": "7e6e4a213492668797fde0ea2540096f8b9faee11f2684613d2d4540688cb3b3",
+      "processedAt": "2026-04-23T03:31:07.558Z"
+    },
+    "https://www.chrbutler.com/reactionary-red-lining-of-ai": {
+      "contentHash": "5ff1bdd97ad242ee8604544099b8ae99a1837b6f54938392e133acdbad104c07",
+      "processedAt": "2026-04-23T03:31:08.543Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/designing-data-intensive-applications": {
+      "contentHash": "f768ca1eae5ae7bf0ed44284c7eb60f20fc8afeb133350d6485675e0b7803da2",
+      "processedAt": "2026-04-23T03:31:09.069Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/learnings-from-conducting-1000-interviews": {
+      "contentHash": "951786d4152e6e4d944d4b30a531cdab76d16833e1bc7c7605b34964cff96432",
+      "processedAt": "2026-04-23T03:31:09.452Z"
+    },
+    "https://tympanus.net/codrops/2026/04/22/a-playful-clip-menu-with-gsaps-easereverse/": {
+      "contentHash": "f5b93dc84ba309252f9c1f178d89cf5a111739dee79fddc0dfe565c995cb5587",
+      "processedAt": "2026-04-23T03:31:11.167Z"
+    },
+    "https://tympanus.net/codrops/2026/04/21/false-earth-from-webgl-limits-to-a-webgpu-driven-world/": {
+      "contentHash": "2c7bfee63e6ab0e5b43b0a5f7ed4e8b8de081e9a6a0b74a6f7d03f1b5adfd2c2",
+      "processedAt": "2026-04-23T03:31:12.855Z"
+    },
+    "https://tympanus.net/codrops/2026/04/20/interactive-storytelling-for-the-web-building-immersive-stories-with-timelines-3d-and-layered-scenes/": {
+      "contentHash": "82a2d7803c999bb2a95e70c348fd397c370e29dcd3fb5f6504b883f3e35566e1",
+      "processedAt": "2026-04-23T03:31:14.420Z"
+    },
+    "https://smashingmagazine.com/2026/04/production-ready-becomes-design-deliverable-ux/": {
+      "contentHash": "e24b7544da6c0a1deda80cadcd03d9bfae0e9a37f6826f7b0ec84a190c124152",
+      "processedAt": "2026-04-23T03:31:16.330Z"
+    },
+    "https://smashingmagazine.com/2026/04/session-timeouts-accessibility-barrier-authentication-design/": {
+      "contentHash": "3cbbe48b6714f32b167f43a8c351c58dc7b340bfbd0876a4cc379cb4845f2f4c",
+      "processedAt": "2026-04-23T03:31:17.873Z"
+    },
+    "https://vercel.com/changelog/gpt-image-2-on-ai-gateway": {
+      "contentHash": "284113da651f62373a5dcd4f7235766018dfde1d057b8bd35301216a87b7e6fb",
+      "processedAt": "2026-04-23T03:31:19.955Z"
+    },
+    "https://vercel.com/changelog/kimi-k2.6-on-ai-gateway": {
+      "contentHash": "ed60bfc51bb04d9186d70b3eeae469784c086a528c165c55de6109b585d3405f",
+      "processedAt": "2026-04-23T03:31:21.113Z"
+    },
+    "https://www.figma.com/blog/how-ai-leaders-are-borrowing-from-the-design-playbook/": {
+      "contentHash": "2e621aabfeb3bffea13ccfe7b7f183b1d9143d98517fb764b382d3630617e757",
+      "processedAt": "2026-04-23T03:31:49.939Z"
+    },
+    "https://frontendfoc.us/issues/738": {
+      "contentHash": "d93e6e669fc39c29a0f8e496a7e5bb9d64b75f3d6ee23e00aa0d26a21c502019",
+      "processedAt": "2026-04-23T03:31:51.204Z"
+    },
+    "https://efcl.info/2026/04/20/secretlint-v12/": {
+      "contentHash": "1738a3caabb6ce257c4ab565284adf18afe4ae2fe604e231a67c9c652e9dfb21",
+      "processedAt": "2026-04-23T03:31:51.485Z"
+    },
+    "https://efcl.info/2026/04/19/secure-clipboard/": {
+      "contentHash": "f2c820d221187cabdd05b61c4a68d5b0c0f6e34f818f610e714b346838811c52",
+      "processedAt": "2026-04-23T03:31:52.186Z"
+    },
+    "https://zenn.dev/uhyo/articles/async-react-debounce-2": {
+      "contentHash": "b205434b9c813f5c98a48760da23dfa709106663e242fdc9137580b43d4a679c",
+      "processedAt": "2026-04-23T03:31:52.755Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/04/23/100722": {
+      "contentHash": "cb3a4286721c511077c0e9af97a88b65a50692334784e78d8048b8771790ed50",
+      "processedAt": "2026-04-23T03:31:54.050Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/04/20/151912": {
+      "contentHash": "0de1afdb5a9a059e04e23f2090edb8cf2e8043b2dae11c42462196a5d6d04426",
+      "processedAt": "2026-04-23T03:31:54.401Z"
+    },
+    "https://www.nngroup.com/training/july/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "aba34c8ba7c57dbb99dd77e6439cd78d6e1f5ffb88c6572498c805c9003d058b",
+      "processedAt": "2026-04-23T03:31:57.772Z"
+    },
+    "https://newsletter.uxdesign.cc/p/we-become-what-we-behold": {
+      "contentHash": "fedf46f2971a5198b3d823489b9c77b5f2bd735ba3c2a45854ec8c0807fa6e35",
+      "processedAt": "2026-04-23T03:31:58.242Z"
+    },
+    "https://stephaniewalter.design/blog/9-accessibility-myths-and-pushbacks-and-how-to-answer-them/": {
+      "contentHash": "8d3fecb971709468719576b65a4a657943765fb332e06d60fd1b6a4c11764b66",
+      "processedAt": "2026-04-23T03:32:00.654Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-april-19-2026/": {
+      "contentHash": "3ff2bc7c9db1ad308de035c574331b320c4d8469305d1700e72e4ed89909a5b4",
+      "processedAt": "2026-04-23T03:32:01.171Z"
+    },
+    "https://feeds.baymard.com/link/9825/17323422/online-grocery-ecommerce-ux-2026": {
+      "contentHash": "354f7da4e4a768f1a877b4239b544bee23982e333d5969ba58d6c7c21d40427e",
+      "processedAt": "2026-04-23T03:32:10.455Z"
+    },
+    "https://uxmag.com/articles/the-illusion-of-choice-how-micro-decisions-guide-macro-control": {
+      "contentHash": "52cf3acdd225503319bd87ac873cff0ab9943a6cad950523242712aeef62b22b",
+      "processedAt": "2026-04-23T03:32:11.717Z"
+    },
+    "https://uxmag.com/articles/designing-for-dependence-when-ux-turns-tools-into-traps-2": {
+      "contentHash": "6330155a62028d90b62f24f55f33c6b0aafe4860540d2ebd7c5ce9c26e27c34b",
+      "processedAt": "2026-04-23T03:32:12.938Z"
+    },
+    "https://thisweekinreact.com/newsletter/278": {
+      "contentHash": "34da9bdb45b11e504a6a3cf532dc0aac67a227f3b63fe43d01fbe5e82a9661e2",
+      "processedAt": "2026-04-23T03:32:13.472Z"
     }
   },
-  "lastRun": "2026-04-18T00:45:01.212Z"
+  "lastRun": "2026-04-23T03:32:13.472Z"
 }
