@@ -1,4 +1,5 @@
 import { sendNewsletterFromFile } from './newsletter/index'
+import { resolvePickupSubject } from './newsletter/subject'
 
 async function main() {
   const filePath = process.argv[2]
@@ -9,10 +10,12 @@ async function main() {
     process.exit(1)
   }
 
+  const subject = resolvePickupSubject(filePath)
   console.log(`Sending newsletter from: ${filePath}`)
+  if (subject) console.log(`Subject: ${subject}`)
 
   try {
-    const result = await sendNewsletterFromFile(filePath)
+    const result = await sendNewsletterFromFile(filePath, subject)
 
     console.log('\n--- Send Result ---')
     console.log(`Success: ${result.success}`)

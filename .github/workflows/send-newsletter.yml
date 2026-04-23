@@ -6,6 +6,7 @@ on:
       - master
     paths:
       - 'newsletters/*.md'
+      - 'newsletters/pickup/*.md'
 
 jobs:
   send:
@@ -19,7 +20,7 @@ jobs:
         id: get-files
         run: |
           # Get newly added markdown files in newsletters/
-          NEW_FILES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'newsletters/*.md' || true)
+          NEW_FILES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'newsletters/*.md' 'newsletters/pickup/*.md' || true)
           echo "files=$NEW_FILES" >> $GITHUB_OUTPUT
           if [ -z "$NEW_FILES" ]; then
             echo "No new newsletter files found"
