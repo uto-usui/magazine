@@ -28319,7 +28319,67 @@
     "https://thisweekinreact.com/newsletter/278": {
       "contentHash": "34da9bdb45b11e504a6a3cf532dc0aac67a227f3b63fe43d01fbe5e82a9661e2",
       "processedAt": "2026-04-23T03:32:13.472Z"
+    },
+    "https://interconnected.org/home/2026/04/18/headless": {
+      "contentHash": "030d14130b39948b5330913e64744e888b1f9152d0048a64e45c3532341f3920",
+      "processedAt": "2026-04-24T00:49:32.268Z"
+    },
+    "https://developers.openai.com/cookbook/examples/multimodal/image-gen-models-prompting-guide": {
+      "contentHash": "13a4717710a7da9a579c6189ed48c9981a11c936f2e4ee2531b11624fe459676",
+      "processedAt": "2026-04-24T00:49:33.666Z"
+    },
+    "https://cssence.com/2024/six-levels-of-dark-mode/": {
+      "contentHash": "dc50b6eeea44d5474afd64723ed03bd92f83a2427560aa772f7cfba93148c87a",
+      "processedAt": "2026-04-24T00:49:34.222Z"
+    },
+    "https://tante.cc/2026/04/21/ai-as-a-fascist-artifact/": {
+      "contentHash": "76176dd1ab83106f29f15c5136bb5b720208d64d7c60a9d854543a9cec408917",
+      "processedAt": "2026-04-24T00:49:34.698Z"
+    },
+    "https://daverupert.com/2026/04/claude-no/": {
+      "contentHash": "68119899da6e258a8af06257d89136671432f812fcd60e8049e7c2fbe8849389",
+      "processedAt": "2026-04-24T00:49:34.993Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-ai-token-spending-out-of": {
+      "contentHash": "3cfb0923d0574d6294d92c18367dfb38b3407af0d7c503f622c89683b92e72d5",
+      "processedAt": "2026-04-24T00:49:35.222Z"
+    },
+    "https://tympanus.net/codrops/2026/04/23/building-4wide-turning-distortion-blur-and-motion-into-a-coherent-experience/": {
+      "contentHash": "baa42fd7d599e6314b3377823552dd9662dcd1827cbf6ea1c5ef0077030f3b5f",
+      "processedAt": "2026-04-24T00:49:36.714Z"
+    },
+    "https://bradfrost.com/blog/post/building-healthy-community-with-ben-callahan/": {
+      "contentHash": "435af216bd552a2cb61803b3601e001773310ab909c00571778d910f951c212b",
+      "processedAt": "2026-04-24T00:49:36.807Z"
+    },
+    "https://bradfrost.com/blog/post/mouth-coding/": {
+      "contentHash": "ea305cf9cb3696c2a90a9d0f1d1cb19578dea3fe8466d7e90c86d084982e9fe8",
+      "processedAt": "2026-04-24T00:49:37.160Z"
+    },
+    "https://ics.media/entry/260423/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-04-24T00:49:37.656Z"
+    },
+    "https://piccalil.li/blog/the-end-of-responsive-images/?ref=main-rss-feed": {
+      "contentHash": "c6dcf79029265631fb8a3406837c8e4bac1b1fbafaf5c6ae1ba0c89c4b71bfa8",
+      "processedAt": "2026-04-24T00:49:37.996Z"
+    },
+    "\n\t\t\t\t\thttps://alistapart.com/article/good-designers-bad-websites-a-proposal/\t\t\t\t": {
+      "contentHash": "db0ca4efef025d472253a290f717f377cadf4b5967af085fd43f1b8d11a11e60",
+      "processedAt": "2026-04-24T00:49:38.191Z"
+    },
+    "https://tech.layerx.co.jp/entry/wake-career-report": {
+      "contentHash": "1f071111ee2758ed2e7dde95e496375f1ec1d705ed2798e3805758b6f12c8bba",
+      "processedAt": "2026-04-24T00:49:39.616Z"
+    },
+    "https://uxmag.com/articles/attention-engineering-why-users-ignore-even-the-most-important-elements": {
+      "contentHash": "0ed49033322105ad0dc5461dac4915d5f83215666bc9f8e3f6f510253cc90b88",
+      "processedAt": "2026-04-24T00:49:41.437Z"
+    },
+    "https://medium.com/researchops-community/why-research-also-needs-to-research-itself-b70fe1ee7c8e?source=rss----693b3c4b38b4---4": {
+      "contentHash": "e139854280f64de0f32538e6aa28c64d4b1a3566154f65f052f16e1257a2aab7",
+      "processedAt": "2026-04-24T00:49:46.544Z"
     }
   },
-  "lastRun": "2026-04-23T03:32:13.472Z"
+  "lastRun": "2026-04-24T00:49:46.544Z"
 }
