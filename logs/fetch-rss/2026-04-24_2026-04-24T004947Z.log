@@ -1,0 +1,58 @@
+articles_dir=2026-04-24
+exit_code=0
+timestamp_utc=2026-04-24T00:49:47Z
+
+---- issue lines ----
+8:Failed to fetch feed Remix Blog: Status code 500
+
+---- tail (last 50 lines) ----
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+Failed to fetch feed Remix Blog: Status code 500
+📰 Found 5141 total articles
+✨ New articles: 15
+⏭️ Skipped (already processed): 462
+📥 Processing: Headless everything for personal AI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-24/headless-everything-for-personal-ai.md
+📥 Processing: GPT image gen prompting guide
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-24/gpt-image-gen-prompting-guide.md
+📥 Processing: Six levels of dark mode
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-24/six-levels-of-dark-mode.md
+📥 Processing: AI as a fascist artifact
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-24/ai-as-a-fascist-artifact.md
+📥 Processing: I don’t want a screenshot of your Claude conversation
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-24/i-dont-want-a-screenshot-of-your-claude-conversation.md
+📥 Processing: The Pulse: AI token spending out of control – what’s next?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-24/the-pulse-ai-token-spending-out-of-control-whats-next.md
+📥 Processing: Building 4WIDE: Turning Distortion, Blur, and Motion into a Coherent Experience
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-24/building-4wide-turning-distortion-blur-and-motion-into-a-coherent-experience.md
+📥 Processing: Building Healthy Community with Ben Callahan
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-24/building-healthy-community-with-ben-callahan.md
+📥 Processing: Mouth Coding
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-24/mouth-coding.md
+📥 Processing: fetchのキャンセルだけじゃない！　AbortSignalで実現するクリーンなJS非同期処理
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-24/fetch-abortsignaljs.md
+📥 Processing: The end of responsive images
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-24/the-end-of-responsive-images.md
+📥 Processing: 
+					Good designers, bad websites: a proposal				
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-24/good-designers-bad-websites-a-proposal.md
+📥 Processing: 「WAKE Career × 国際女性デー2026 特別イベント「Give to Gain - エンジニアの私たちが次の世代へ還元できること」」の会場スポンサーをしました
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-24/wake-career-2026-give-to-gain.md
+📥 Processing: Attention Engineering: Why Users Ignore Even the Most Important Elements
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-24/attention-engineering-why-users-ignore-even-the-most-important-elements.md
+📥 Processing: Why Research also needs to research itself
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://medium.com/researchops-community/why-research-also-needs-to-research-itself-b70fe1ee7c8e?source=rss----693b3c4b38b4---4
+✅ Playwright successfully fetched: https://medium.com/researchops-community/why-research-also-needs-to-research-itself-b70fe1ee7c8e?source=rss----693b3c4b38b4---4
+⚠️ Content too short (134 chars < 200): https://medium.com/researchops-community/why-research-also-needs-to-research-itself-b70fe1ee7c8e?source=rss----693b3c4b38b4---4
+⚠️ Using RSS content as fallback for: https://medium.com/researchops-community/why-research-also-needs-to-research-itself-b70fe1ee7c8e?source=rss----693b3c4b38b4---4
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-24/why-research-also-needs-to-research-itself.md
+
+📊 Summary:
+   ✅ Success: 15
+   ❌ Errors: 0
+🏁 Done!
