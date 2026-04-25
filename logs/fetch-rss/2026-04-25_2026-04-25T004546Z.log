@@ -1,0 +1,58 @@
+articles_dir=2026-04-25
+exit_code=0
+timestamp_utc=2026-04-25T00:45:46Z
+
+---- issue lines ----
+8:Failed to fetch feed Remix Blog: Status code 500
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-25/i-dont-want-a-screenshot-of-your-claude-conversation.md
+📥 Processing: The Pulse: AI token spending out of control – what’s next?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-25/the-pulse-ai-token-spending-out-of-control-whats-next.md
+📥 Processing: Susurrus: Crafting a Cozy Watercolor World with Three.js and Shaders
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-25/susurrus-crafting-a-cozy-watercolor-world-with-threejs-and-shaders.md
+📥 Processing: Building 4WIDE: Turning Distortion, Blur, and Motion into a Coherent Experience
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-25/building-4wide-turning-distortion-blur-and-motion-into-a-coherent-experience.md
+📥 Processing: Building Healthy Community with Ben Callahan
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-25/building-healthy-community-with-ben-callahan.md
+📥 Processing: Mouth Coding
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-25/mouth-coding-1.md
+📥 Processing: Is Temporal Cloud Safe for Sensitive Data? An Architecture Guide
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-25/is-temporal-cloud-safe-for-sensitive-data-an-architecture-guide.md
+📥 Processing: fetchのキャンセルだけじゃない！　AbortSignalで実現するクリーンなJS非同期処理
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-25/fetch-abortsignaljs.md
+📥 Processing: The Index: Issue #179
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-25/the-index-issue-179.md
+📥 Processing: The end of responsive images
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-25/the-end-of-responsive-images.md
+📥 Processing: GPT 5.5 on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-25/gpt-55-on-ai-gateway.md
+📥 Processing: Deepseek V4 on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-25/deepseek-v4-on-ai-gateway.md
+📥 Processing: How Stably ships AI testing agents in hours, not weeks
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-25/how-stably-ships-ai-testing-agents-in-hours-not-weeks.md
+📥 Processing: 
+					Good designers, bad websites: a proposal				
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-25/good-designers-bad-websites-a-proposal.md
+📥 Processing: 「WAKE Career × 国際女性デー2026 特別イベント「Give to Gain - エンジニアの私たちが次の世代へ還元できること」」の会場スポンサーをしました
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-25/wake-career-2026-give-to-gain.md
+📥 Processing: Why User Panels Fail
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-25/why-user-panels-fail.md
+📥 Processing: 10 Guidelines for Designing Your Site’s AI Chatbots
+Image too large, skipping: https://media.nngroup.com/media/editor/2026/04/18/s6_amazon_rufus_expandingproductdetails.gif
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-25/10-guidelines-for-designing-your-sites-ai-chatbots.md
+📥 Processing: Attention Engineering: Why Users Ignore Even the Most Important Elements
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-25/attention-engineering-why-users-ignore-even-the-most-important-elements.md
+📥 Processing: Why Research also needs to research itself
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://medium.com/researchops-community/why-research-also-needs-to-research-itself-b70fe1ee7c8e?source=rss----693b3c4b38b4---4
+✅ Playwright successfully fetched: https://medium.com/researchops-community/why-research-also-needs-to-research-itself-b70fe1ee7c8e?source=rss----693b3c4b38b4---4
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-25/why-research-also-needs-to-research-itself.md
+📥 Processing: A reimagining of JSX from a React core alum
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-04-25/a-reimagining-of-jsx-from-a-react-core-alum.md
+
+📊 Summary:
+   ✅ Success: 29
+   ❌ Errors: 0
+🏁 Done!
