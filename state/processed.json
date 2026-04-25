@@ -28319,7 +28319,119 @@
     "https://thisweekinreact.com/newsletter/278": {
       "contentHash": "34da9bdb45b11e504a6a3cf532dc0aac67a227f3b63fe43d01fbe5e82a9661e2",
       "processedAt": "2026-04-23T03:32:13.472Z"
+    },
+    "https://jonnyburch.com/i-love-ai-but-it-still-cant-design-for-shit/": {
+      "contentHash": "557bd4e2f415e229dd72667d0178f9334550f608d53353f4754e13a0ed80908a",
+      "processedAt": "2026-04-25T00:45:12.954Z"
+    },
+    "https://www.grit.garden/": {
+      "contentHash": "84cc61fe9dc83eeb45421fae8949b863186855928c76e7d4146142a965c6886c",
+      "processedAt": "2026-04-25T00:45:18.590Z"
+    },
+    "https://www.sidjha.com/2026/02/why-productivity-needs-to-be-redefined/": {
+      "contentHash": "d47aba53a5bea51eadfc06cd24faf3674c542049cdb4d1cb3619ff5f8b9b47c7",
+      "processedAt": "2026-04-25T00:45:18.833Z"
+    },
+    "https://jobsdata.ai/": {
+      "contentHash": "d93c54f4d46686b3a19c5a6188a91a4c0e71c9f07e83736d8cbd6158cc7cbd46",
+      "processedAt": "2026-04-25T00:45:19.591Z"
+    },
+    "https://bradfrost.com/blog/post/mouth-coding/": {
+      "contentHash": "ea305cf9cb3696c2a90a9d0f1d1cb19578dea3fe8466d7e90c86d084982e9fe8",
+      "processedAt": "2026-04-25T00:45:26.591Z"
+    },
+    "https://interconnected.org/home/2026/04/18/headless": {
+      "contentHash": "030d14130b39948b5330913e64744e888b1f9152d0048a64e45c3532341f3920",
+      "processedAt": "2026-04-25T00:45:20.370Z"
+    },
+    "https://developers.openai.com/cookbook/examples/multimodal/image-gen-models-prompting-guide": {
+      "contentHash": "13a4717710a7da9a579c6189ed48c9981a11c936f2e4ee2531b11624fe459676",
+      "processedAt": "2026-04-25T00:45:22.045Z"
+    },
+    "https://cssence.com/2024/six-levels-of-dark-mode/": {
+      "contentHash": "dc50b6eeea44d5474afd64723ed03bd92f83a2427560aa772f7cfba93148c87a",
+      "processedAt": "2026-04-25T00:45:22.449Z"
+    },
+    "https://tante.cc/2026/04/21/ai-as-a-fascist-artifact/": {
+      "contentHash": "76176dd1ab83106f29f15c5136bb5b720208d64d7c60a9d854543a9cec408917",
+      "processedAt": "2026-04-25T00:45:22.897Z"
+    },
+    "https://daverupert.com/2026/04/claude-no/": {
+      "contentHash": "68119899da6e258a8af06257d89136671432f812fcd60e8049e7c2fbe8849389",
+      "processedAt": "2026-04-25T00:45:23.177Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-ai-token-spending-out-of": {
+      "contentHash": "3cfb0923d0574d6294d92c18367dfb38b3407af0d7c503f622c89683b92e72d5",
+      "processedAt": "2026-04-25T00:45:23.479Z"
+    },
+    "https://tympanus.net/codrops/2026/04/24/susurrus-crafting-a-cozy-watercolor-world-with-three-js-and-shaders/": {
+      "contentHash": "42d1aff6c2a6a8ec3ea39682206d5236dedc032d39c4a7181b9e9bbfa9450af9",
+      "processedAt": "2026-04-25T00:45:25.200Z"
+    },
+    "https://tympanus.net/codrops/2026/04/23/building-4wide-turning-distortion-blur-and-motion-into-a-coherent-experience/": {
+      "contentHash": "baa42fd7d599e6314b3377823552dd9662dcd1827cbf6ea1c5ef0077030f3b5f",
+      "processedAt": "2026-04-25T00:45:26.305Z"
+    },
+    "https://bradfrost.com/blog/post/building-healthy-community-with-ben-callahan/": {
+      "contentHash": "435af216bd552a2cb61803b3601e001773310ab909c00571778d910f951c212b",
+      "processedAt": "2026-04-25T00:45:26.435Z"
+    },
+    "https://www.bitovi.com/blog/is-temporal-cloud-safe-for-sensitive-data-an-architecture-guide": {
+      "contentHash": "94924e3a120249027969acc43656615ec2f3eb76000fb25cdbf6ba04556eb528",
+      "processedAt": "2026-04-25T00:45:27.102Z"
+    },
+    "https://ics.media/entry/260423/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-04-25T00:45:28.660Z"
+    },
+    "https://piccalil.li/the-index/179/?ref=main-rss-feed": {
+      "contentHash": "2d6ad02531f8034302a05134b2da7bd130e733649a36c205520254eaa643ae46",
+      "processedAt": "2026-04-25T00:45:28.861Z"
+    },
+    "https://piccalil.li/blog/the-end-of-responsive-images/?ref=main-rss-feed": {
+      "contentHash": "c6dcf79029265631fb8a3406837c8e4bac1b1fbafaf5c6ae1ba0c89c4b71bfa8",
+      "processedAt": "2026-04-25T00:45:30.224Z"
+    },
+    "https://vercel.com/changelog/gpt-5.5-on-ai-gateway": {
+      "contentHash": "591384f042494ce4d2f58a93a4a822af25bd2d941fc2e398f86f4c5d20c36ce3",
+      "processedAt": "2026-04-25T00:45:30.855Z"
+    },
+    "https://vercel.com/changelog/deepseek-v4-on-ai-gateway": {
+      "contentHash": "334c4a7f742cb863d190faa9de725ca1253710519bebdd52182fc96a7bb5e9a1",
+      "processedAt": "2026-04-25T00:45:31.353Z"
+    },
+    "https://vercel.com/blog/how-stably-ships-ai-testing-agents-in-hours-not-weeks": {
+      "contentHash": "43f71f637b8dc37a7e4596fe5c95685948c7ee9d6cdf386e195e5500d23e372f",
+      "processedAt": "2026-04-25T00:45:32.063Z"
+    },
+    "\n\t\t\t\t\thttps://alistapart.com/article/good-designers-bad-websites-a-proposal/\t\t\t\t": {
+      "contentHash": "db0ca4efef025d472253a290f717f377cadf4b5967af085fd43f1b8d11a11e60",
+      "processedAt": "2026-04-25T00:45:32.303Z"
+    },
+    "https://tech.layerx.co.jp/entry/wake-career-report": {
+      "contentHash": "1f071111ee2758ed2e7dde95e496375f1ec1d705ed2798e3805758b6f12c8bba",
+      "processedAt": "2026-04-25T00:45:35.060Z"
+    },
+    "https://www.nngroup.com/articles/user-panels-fail/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "a0d86069f2bef3b7aec070dbc94bd81d98d3d661c1cfd9baab303873a9580006",
+      "processedAt": "2026-04-25T00:45:36.300Z"
+    },
+    "https://www.nngroup.com/articles/ai-chatbots-design-guidelines/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "09308f3e26dad8570ff289a7db2e1ddd19b076e50ba225b4de92fd75a3db4748",
+      "processedAt": "2026-04-25T00:45:37.557Z"
+    },
+    "https://uxmag.com/articles/attention-engineering-why-users-ignore-even-the-most-important-elements": {
+      "contentHash": "0ed49033322105ad0dc5461dac4915d5f83215666bc9f8e3f6f510253cc90b88",
+      "processedAt": "2026-04-25T00:45:39.364Z"
+    },
+    "https://medium.com/researchops-community/why-research-also-needs-to-research-itself-b70fe1ee7c8e?source=rss----693b3c4b38b4---4": {
+      "contentHash": "e139854280f64de0f32538e6aa28c64d4b1a3566154f65f052f16e1257a2aab7",
+      "processedAt": "2026-04-25T00:45:45.394Z"
+    },
+    "https://react.statuscode.com/issues/471": {
+      "contentHash": "d86b9583a7b43fa317c21920d7c78a46ab6b333d57ab74af66d420a83d1f4d7c",
+      "processedAt": "2026-04-25T00:45:45.874Z"
     }
   },
-  "lastRun": "2026-04-23T03:32:13.472Z"
+  "lastRun": "2026-04-25T00:45:45.874Z"
 }
