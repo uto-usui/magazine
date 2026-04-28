@@ -28431,7 +28431,67 @@
     "https://react.statuscode.com/issues/471": {
       "contentHash": "d86b9583a7b43fa317c21920d7c78a46ab6b333d57ab74af66d420a83d1f4d7c",
       "processedAt": "2026-04-25T00:45:45.874Z"
+    },
+    "https://web.dev/blog/web-platform-04-2026?hl=en": {
+      "contentHash": "f135dc3fd8334d52d664fd098962de2cbfb8d971993c90e8e0dd99fc7d26dc90",
+      "processedAt": "2026-04-28T00:52:31.535Z"
+    },
+    "https://a11yweekly.com/issue/497/": {
+      "contentHash": "38baedc769003ca31ee12ce72e80f744cccd3a8e42042c71794802e2c032f088",
+      "processedAt": "2026-04-28T00:52:35.582Z"
+    },
+    "https://bit.ly/side-mag3": {
+      "contentHash": "ad2dde5020fa8c2bcad995efbbeadf46ab58f3919ccde86ee67c87d2e69d7abc",
+      "processedAt": "2026-04-28T00:52:36.351Z"
+    },
+    "https://chriscoyier.net/2026/04/25/ai-alignment/": {
+      "contentHash": "aee2c9b34465a1fccf93b2533b8b141ad2ece393a1324b4ca18d834782130fea",
+      "processedAt": "2026-04-28T00:52:36.575Z"
+    },
+    "https://attentionworth.com/": {
+      "contentHash": "86b31fa57d2743083f7109d4824acc026007e5358d25540fe049efa359f6dcc3",
+      "processedAt": "2026-04-28T00:52:41.275Z"
+    },
+    "https://www.worseonpurpose.com/": {
+      "contentHash": "3ec4388ead796a9c3e0d675d8ffb15bd1e15709237d2f4f447a9618f8aefc62c",
+      "processedAt": "2026-04-28T00:53:05.159Z"
+    },
+    "https://newsletter.dancohen.org/archive/the-role-of-a-new-machine/": {
+      "contentHash": "9b2ad02f6f902778f63d5ecd0e63a6016eeb97e3fc592e12fc81b3e157df61df",
+      "processedAt": "2026-04-28T00:53:07.148Z"
+    },
+    "https://tympanus.net/codrops/2026/04/27/rhumb-studio-small-but-mighty-shaped-by-curiosity/": {
+      "contentHash": "fc07b97f7687021edad82b9bd100d6d98020477de3e79b19a30f6c8d8302a19f",
+      "processedAt": "2026-04-28T00:53:08.533Z"
+    },
+    "https://smashingmagazine.com/2026/04/bug-free-workforce-ai-disrupting-teams/": {
+      "contentHash": "ee918bd47a802e88fcb037b082b44253f6c0ac82aa712173a6a6f81749252441",
+      "processedAt": "2026-04-28T00:53:09.937Z"
+    },
+    "https://ics.media/entry/260427/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-04-28T00:53:10.321Z"
+    },
+    "https://vercel.com/changelog/hobby-projects-now-default-to-30-day-deployment-retention": {
+      "contentHash": "807ffe6363bcaca943564163828f08e31c7782b63307814fba517e1d940c082b",
+      "processedAt": "2026-04-28T00:53:11.328Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/04/27/150847": {
+      "contentHash": "1a23b8781405ebd08df8a28f89ae1169b2cd60e76b721cbe75841b9d929f94c7",
+      "processedAt": "2026-04-28T00:53:12.390Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/04/27/095804": {
+      "contentHash": "6f82dbd22912cd3d35768667242eb9e28af4318834059feb7ff6ab778a9ebfc2",
+      "processedAt": "2026-04-28T00:53:13.172Z"
+    },
+    "https://newsletter.uxdesign.cc/p/the-beginning-of-a-fantastic-voyage": {
+      "contentHash": "c79da37c76cb2f33df0536fe2a75a63eaffecf15bb3c742a2da7d530c4bccc12",
+      "processedAt": "2026-04-28T00:53:13.447Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-april-26-2026/": {
+      "contentHash": "eb8dfc99c6a91d0a84b9c5aba7bc3eff4c997110686c5dd391ba8b42c81f92a3",
+      "processedAt": "2026-04-28T00:53:14.331Z"
     }
   },
-  "lastRun": "2026-04-26T00:50:46.932Z"
+  "lastRun": "2026-04-28T00:53:14.332Z"
 }
