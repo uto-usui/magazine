@@ -28431,7 +28431,131 @@
     "https://react.statuscode.com/issues/471": {
       "contentHash": "d86b9583a7b43fa317c21920d7c78a46ab6b333d57ab74af66d420a83d1f4d7c",
       "processedAt": "2026-04-25T00:45:45.874Z"
+    },
+    "https://addyosmani.com/blog/long-running-agents/": {
+      "contentHash": "3f1c9b7b7e8ed9b825ff7112f5b49345e117f18d0395f1fc927826474a62a5bd",
+      "processedAt": "2026-04-29T00:53:54.967Z"
+    },
+    "https://web.dev/blog/web-platform-04-2026?hl=en": {
+      "contentHash": "f135dc3fd8334d52d664fd098962de2cbfb8d971993c90e8e0dd99fc7d26dc90",
+      "processedAt": "2026-04-29T00:53:55.880Z"
+    },
+    "https://a11yweekly.com/issue/497/": {
+      "contentHash": "38baedc769003ca31ee12ce72e80f744cccd3a8e42042c71794802e2c032f088",
+      "processedAt": "2026-04-29T00:53:56.144Z"
+    },
+    "https://ky.fyi/posts/ai-burnout": {
+      "contentHash": "fa21c1cab2c3c747f0aaf0af4d59d3812afd1bfb8c00d4b9efffb59b3e91f35e",
+      "processedAt": "2026-04-29T00:53:56.637Z"
+    },
+    "https://karlkoch.me/writing/on-the-right-tool-for-the-job": {
+      "contentHash": "1426337f3122adcdbfc5cc96d5aa8dead3e1021a666802525f8f6abd04ee524e",
+      "processedAt": "2026-04-29T00:53:56.986Z"
+    },
+    "https://github.com/fecarrico/A11Y.md": {
+      "contentHash": "7488cebf948e7824ade5aac245a710b4bb8d2a578f9b8a1f035d0d6ca6fe744a",
+      "processedAt": "2026-04-29T00:53:58.396Z"
+    },
+    "https://blog.pragmaticengineer.com/the-pulse-tokenmaxxing-as-a-weird-new-trend/": {
+      "contentHash": "391814cc4ff4517a9ac2af4c8882e657519f526e8bea9f35256cb58807a86129",
+      "processedAt": "2026-04-29T00:53:58.649Z"
+    },
+    "https://crixu.blog/2026/04/09/ai-reads-my-meetings-i-take-more-notes-than-ever/": {
+      "contentHash": "9a1675ca1f08b0b7bc98c2f36865daa93a6d5568c3d4cf1e6ec67854b33c80e3",
+      "processedAt": "2026-04-29T00:53:59.001Z"
+    },
+    "https://bit.ly/side-mag3": {
+      "contentHash": "ad2dde5020fa8c2bcad995efbbeadf46ab58f3919ccde86ee67c87d2e69d7abc",
+      "processedAt": "2026-04-29T00:54:00.311Z"
+    },
+    "https://chriscoyier.net/2026/04/25/ai-alignment/": {
+      "contentHash": "aee2c9b34465a1fccf93b2533b8b141ad2ece393a1324b4ca18d834782130fea",
+      "processedAt": "2026-04-29T00:54:00.436Z"
+    },
+    "https://attentionworth.com/": {
+      "contentHash": "86b31fa57d2743083f7109d4824acc026007e5358d25540fe049efa359f6dcc3",
+      "processedAt": "2026-04-29T00:54:05.264Z"
+    },
+    "https://www.worseonpurpose.com/": {
+      "contentHash": "3ec4388ead796a9c3e0d675d8ffb15bd1e15709237d2f4f447a9618f8aefc62c",
+      "processedAt": "2026-04-29T00:54:28.622Z"
+    },
+    "https://newsletter.dancohen.org/archive/the-role-of-a-new-machine/": {
+      "contentHash": "9b2ad02f6f902778f63d5ecd0e63a6016eeb97e3fc592e12fc81b3e157df61df",
+      "processedAt": "2026-04-29T00:54:30.338Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/ubuntu-and-ai": {
+      "contentHash": "32baaf030a666ae9f2483eb17552fc381e77a1232435f41f72d8f9faa57636b1",
+      "processedAt": "2026-04-29T00:54:30.777Z"
+    },
+    "https://tympanus.net/codrops/2026/04/28/more-than-a-portfolio-building-a-scroll-driven-3d-world-with-something-to-say/": {
+      "contentHash": "90bb9cbe4d6069139281762704260b6532dced3419b6df320f8b2bd7c357737b",
+      "processedAt": "2026-04-29T00:54:32.394Z"
+    },
+    "https://tympanus.net/codrops/2026/04/27/rhumb-studio-small-but-mighty-shaped-by-curiosity/": {
+      "contentHash": "fc07b97f7687021edad82b9bd100d6d98020477de3e79b19a30f6c8d8302a19f",
+      "processedAt": "2026-04-29T00:54:33.563Z"
+    },
+    "https://smashingmagazine.com/2026/04/bug-free-workforce-ai-disrupting-teams/": {
+      "contentHash": "ee918bd47a802e88fcb037b082b44253f6c0ac82aa712173a6a6f81749252441",
+      "processedAt": "2026-04-29T00:54:35.493Z"
+    },
+    "https://ics.media/entry/260427/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-04-29T00:54:36.368Z"
+    },
+    "https://www.joshwcomeau.com/animation/scroll-driven-animations/": {
+      "contentHash": "55a7a1ef66fcbf2b13f214efc296fcb87960d6fa392ec2313554d2278b3e7236",
+      "processedAt": "2026-04-29T00:54:37.334Z"
+    },
+    "https://vercel.com/changelog/native-deployment-checks": {
+      "contentHash": "d7e488c089db42689bfaba43d20df2f22285b50fe37fe4fd0f7a084cf43755c3",
+      "processedAt": "2026-04-29T00:54:37.932Z"
+    },
+    "https://vercel.com/blog/2026-vercel-ai-accelerator-recap": {
+      "contentHash": "cab4c718ebd915f830c84f344e1f3e51dd5ecaa496914aed7888cbd11c43a2c5",
+      "processedAt": "2026-04-29T00:54:38.719Z"
+    },
+    "https://vercel.com/changelog/hobby-projects-now-default-to-30-day-deployment-retention": {
+      "contentHash": "807ffe6363bcaca943564163828f08e31c7782b63307814fba517e1d940c082b",
+      "processedAt": "2026-04-29T00:54:39.785Z"
+    },
+    "https://www.figma.com/blog/figjam-your-coding-agents-whiteboard/": {
+      "contentHash": "202c8587b615833e531392fb34d7cdd23192d7b0bcf946d2cc887f8ae493e79a",
+      "processedAt": "2026-04-29T00:55:03.838Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/04/28/165243": {
+      "contentHash": "a9060096673181be6d45fe7f77d5b7ebfef24262c907d60a267f080656c0e0a1",
+      "processedAt": "2026-04-29T00:55:04.464Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/04/27/150847": {
+      "contentHash": "1a23b8781405ebd08df8a28f89ae1169b2cd60e76b721cbe75841b9d929f94c7",
+      "processedAt": "2026-04-29T00:55:05.597Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/04/27/095804": {
+      "contentHash": "6f82dbd22912cd3d35768667242eb9e28af4318834059feb7ff6ab778a9ebfc2",
+      "processedAt": "2026-04-29T00:55:06.822Z"
+    },
+    "https://tech.layerx.co.jp/entry/migrate-card-db-for-etc-card-support": {
+      "contentHash": "691abbef3c3cb33dafd5191e81ece1468fdfd57b42d34b675ff27ab52c96f4d2",
+      "processedAt": "2026-04-29T00:55:07.513Z"
+    },
+    "https://uxcontent.com/ai-content-design-tool/": {
+      "contentHash": "8166218012f99659e0dee1c9188af82ecfd305a11fbb463df2b34409cf936d6d",
+      "processedAt": "2026-04-29T01:00:43.925Z"
+    },
+    "https://newsletter.uxdesign.cc/p/the-beginning-of-a-fantastic-voyage": {
+      "contentHash": "c79da37c76cb2f33df0536fe2a75a63eaffecf15bb3c742a2da7d530c4bccc12",
+      "processedAt": "2026-04-29T01:00:44.655Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-april-26-2026/": {
+      "contentHash": "eb8dfc99c6a91d0a84b9c5aba7bc3eff4c997110686c5dd391ba8b42c81f92a3",
+      "processedAt": "2026-04-29T01:00:45.780Z"
+    },
+    "https://uxmag.com/articles/the-psychology-of-nudges-why-the-smallest-design-element-can-shift-the-biggest-outcomes": {
+      "contentHash": "e7a85bc472ccad0b7cd03052fa672453f44e7dd6d957b5d6c514fa2a2fe8d8fc",
+      "processedAt": "2026-04-29T01:00:47.351Z"
     }
   },
-  "lastRun": "2026-04-26T00:50:46.932Z"
+  "lastRun": "2026-04-29T01:00:47.351Z"
 }
