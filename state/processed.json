@@ -28555,7 +28555,67 @@
     "https://uxmag.com/articles/the-psychology-of-nudges-why-the-smallest-design-element-can-shift-the-biggest-outcomes": {
       "contentHash": "e7a85bc472ccad0b7cd03052fa672453f44e7dd6d957b5d6c514fa2a2fe8d8fc",
       "processedAt": "2026-04-29T01:00:47.351Z"
+    },
+    "https://permissionless.krispuckett.com/": {
+      "contentHash": "0819af3b1a63d5fc715c67ee163b31da9fc02feb1cb9c53af1044cebcfced1ae",
+      "processedAt": "2026-04-30T00:54:15.760Z"
+    },
+    "https://photopalettes.com/": {
+      "contentHash": "60f9465918b4468c6c1d421c52ad4a95b07a84fe759dbdf75ce7e2eef4215645",
+      "processedAt": "2026-04-30T00:54:23.330Z"
+    },
+    "https://gbbns.co/journal/accessibility-problem-isnt-design/": {
+      "contentHash": "075ba214b5c0c21901831866dccf7feb79825c4ced94c614afaa44ea55e337f0",
+      "processedAt": "2026-04-30T00:54:23.414Z"
+    },
+    "https://www.warman.life/blog/2026-04-27-the-moat-or-the-commons/": {
+      "contentHash": "59beed5269cbe47e1b614d4153688b5ff1e3db5a239ebff1097548761ebce461",
+      "processedAt": "2026-04-30T00:54:23.732Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/building-pi-and-what-makes-self-modifying": {
+      "contentHash": "8bd76d8f2f037f5f9fbeb51634f0c33a1278d977d8c597c6ae489100378c8020",
+      "processedAt": "2026-04-30T00:54:24.125Z"
+    },
+    "https://tympanus.net/codrops/2026/04/29/between-human-and-machine-sofia-papadopoulous-approach-to-augmented-creativity/": {
+      "contentHash": "638a87e0a7eeb06dfb6f85462bb4b08eadc08c6702591b3be262b0b714af0a92",
+      "processedAt": "2026-04-30T00:54:25.786Z"
+    },
+    "https://vercel.com/changelog/vercel-now-supports-pro-plan-in-stripe-projects": {
+      "contentHash": "1711768d0b3cda6f492c866f8dabf408a4ac581fc173ad8c2e9be9c00bbc0fda",
+      "processedAt": "2026-04-30T00:54:26.436Z"
+    },
+    "https://stripe.com/blog/everything-we-announced-at-sessions-2026": {
+      "contentHash": "7b59232d1297fb6c1bfc7e81338701e0db9fbf613541513da9400f16971480a7",
+      "processedAt": "2026-04-30T00:54:27.531Z"
+    },
+    "https://stripe.com/blog/giving-agents-the-ability-to-pay": {
+      "contentHash": "956989bf76ef94b43384af3c9fb2d82162885655b24b4045f7a6194d4c31a069",
+      "processedAt": "2026-04-30T00:54:28.603Z"
+    },
+    "https://www.figma.com/blog/how-to-design-agentic-tools-for-work/": {
+      "contentHash": "ce411e270fe70d7265a4b494f193570489f1c77b58fa0f136d0dc21bf0ee0c13",
+      "processedAt": "2026-04-30T00:55:04.128Z"
+    },
+    "https://frontendfoc.us/issues/739": {
+      "contentHash": "9257e3919d0dd0274ca5aaef03a0398b32325f4f69d2d209c5c88d7d378c022c",
+      "processedAt": "2026-04-30T00:55:05.505Z"
+    },
+    "https://uxmag.com/articles/a-job-is-not-just-a-bundle-of-skills": {
+      "contentHash": "35f6814e5ae37efb1dbab3e9707f8268c592be057c3b8fcac95b0208514da6b6",
+      "processedAt": "2026-04-30T00:55:06.539Z"
+    },
+    "https://uxmag.com/articles/the-map-is-not-the-system": {
+      "contentHash": "b0c53a31aba20c6fa3c66579ca7ebfaaafbd488356e8c0ed4fffdcd0388d1734",
+      "processedAt": "2026-04-30T00:55:07.543Z"
+    },
+    "http://testing.googleblog.com/2026/04/one-map-key-one-lookup.html": {
+      "contentHash": "4e0bcf2cec70dde5db8610f4f2e045fe939928d50de3ab79d79ada079f545d82",
+      "processedAt": "2026-04-30T00:55:13.144Z"
+    },
+    "https://thisweekinreact.com/newsletter/279": {
+      "contentHash": "dd3fd5077dd7c29734de8812f0df839cfec5122006c3581b964ab0ad0b4e42cb",
+      "processedAt": "2026-04-30T00:55:13.462Z"
     }
   },
-  "lastRun": "2026-04-29T01:00:47.351Z"
+  "lastRun": "2026-04-30T00:55:13.462Z"
 }

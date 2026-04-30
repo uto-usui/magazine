@@ -1,0 +1,129 @@
+---
+title: "This Week In React #279: Compiler, TSRX, StyleX, XState, Hook Form, TanStack, shadcn, Chakra, Inertia, Mantine | SPM, SimCam, Enriched Markdown, Agent Device, Navigation SDK, JSI, Paste Input, Crypto, MLX, Jail Monkey | pnpm, Aube, Fresh, Node.js"
+source: "https://thisweekinreact.com/newsletter/279"
+publishedDate: "2026-04-29"
+category: "frontend"
+feedName: "This Week In React"
+---
+
+Hi everyone, **Konrad and Kacper from [Software Mansion](https://swmansion.com/?utm_source=thisweekinreact)** here! 👋
+
+A quiet week — no big headlines — but still a couple of solid articles and releases in the React ecosystem.
+
+On the React side, the WIP React Compiler in Rust is being tested at Meta. We also have a 18-month retrospective on the React Compiler, a deep dive into how React streams UI, and a step-by-step guide for migrating from Radix UI to Base UI. There's also a fresh batch of releases, including React Hook Form, Chakra UI, Mantine 9.1, and TanStack Query.
+
+On the React Native front, an RFC has landed proposing Swift Package Manager support to replace CocoaPods, and React Navigation v8 will gain a `retain` API to keep screens mounted after going back. Don't miss the blog on making pure JSI code faster.
+
+Let's dive in!
+
+As always, thanks for supporting us on your favorite platform:
+
+-   🦋 [Bluesky](https://slo.im/last/b)
+-   ✖️ [X / Twitter](https://slo.im/last/x)
+-   👔 [LinkedIn](https://slo.im/last/l)
+-   👽 [Reddit](https://slo.im/last/r)
+
+**Don't miss the next email!**
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+[![Still writing tests manually?](https://thisweekinreact.com/emails/issues/270/meticulous.jpg)](https://www.meticulous.ai/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=26q2&utm_content=1st)
+
+**[Still writing tests manually?](https://www.meticulous.ai/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=26q2&utm_content=1st)**
+
+Notion, Dropbox, Wiz, and LaunchDarkly have found a new testing paradigm - and they can't imagine working without it. Built by [ex-Palantir engineers](https://www.meticulous.ai/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=26q1&utm_content=1st), Meticulous autonomously creates a continuously evolving suite of E2E UI tests that delivers [near-exhaustive coverage](https://www.meticulous.ai/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=26q1&utm_content=1st) with _zero developer effort_ - impossible to deliver by any other means. 
+
+It works like magic in the background:
+
+-   Near-exhaustive coverage on every test run
+-   No test creation
+-   **No maintenance (seriously)**
+-   Zero flakes (built on a deterministic browser)
+
+**🤨** Curious? [Book in a time to learn more](https://www.meticulous.ai/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=26q1&utm_content=1st)
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+## ⚛️ React[​](#react "Direct link to ⚛️ React")
+
+-   💸 [Crowdin - AI localization platform that automates your React app translations from code to deployment.](https://crowdin.info/V49bfMh)
+-   👀 [WIP port of React Compiler to Rust](https://github.com/facebook/react/pull/36173#issuecomment-4328422631) - Confirmed being internally tested at Meta.
+-   📜 [The React Compiler at Eighteen Months: The Arc, the Debates, and What's Next](https://saschb2b.com/blog/react-compiler-year-in-review) - An overview of what happened since React Compiler was announced and predictions for the future.
+-   📜 [How React streams UI out of order and still manages to keep order](https://inside-react.vercel.app/blog/how-react-streams-ui-out-of-order) - Deep dive into Suspense boundaries and DOM staging.
+-   📜 [Accessibility in React: Common Mistakes and How to Fix Them](https://certificates.dev/blog/accessibility-in-react-common-mistakes-and-how-to-fix-them) - HTML elements, document structure, interactive elements labeling, connecting errors to labels, focus management, dynamic updates, ARIA.
+-   📜 [Migrating from Radix UI to Base UI: Step-by-Step Guide](https://shadcnstudio.com/blog/migrate-from-radix-ui-to-base-ui) - Covers the main API differences: `asChild` becomes a `render` prop, `data-[state=*]` attributes are replaced by ARIA attributes, and component-specific changes like Select now take an `items` array.
+-   📜 [Why TSRX isn't just your Favorite Templating Language](https://hackmd.io/@0u1u3zEAQAO0iYWVAStEvw/Hk2Jiv8T-l) - TSRX is an alternative to JSX. The article states that TSRX’s mechanics (static analyzability, stateful templates, hooks in conditionals) matter more than syntax.
+-   💸 [Product for Engineers - The golden rules of agent-first product engineering](https://go.posthog.com/twir-apr29)
+-   📦 [React Hook Form 7.74 - `setValues` update multiple fields at once](https://github.com/react-hook-form/react-hook-form/releases/tag/v7.74.0)
+-   📦 [React Tooltip 6.0 - `portalRoot` and `autoClose` props, React 19 support, removed HTML string API](https://github.com/ReactTooltip/react-tooltip/releases/tag/v6.0.0)
+-   📦 [shadcn CLI 4.5 - Add --pointer option to cli](https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.5.0) - Re-enables `cursor: pointer` on buttons.
+-   📦 [XState 5.31 - Add `mapState(snapshot, mapper)` and `maxIterations` option](https://github.com/statelyai/xstate/releases/tag/xstate%405.31.0)
+-   📦 [StyleX 0.18 - New `sx={}` JSX prop, `stylex.env` compile-time constants, `create-stylex-app` CLI, DevTools extension, Bun support](https://stylexjs.com/blog/v0.18)
+-   📦 [Chakra UI 3.35 - new release for: react, charts, cli, panda-presets and codemod packages](https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Freact%403.35.0) - This release adds a Splitter component, React 19 support, and new CLI commands for docs/props.
+-   📦 [@hono/inertia - Inertia.js on Hono, render React from your routes](https://github.com/honojs/middleware/tree/main/packages/inertia) - Skips the REST endpoints, client side router and the data fetching layer entirely with this new end-to-end type safe middleware.
+-   📦 [Mantine 9.1 - Added/modified: deduplicateInlineStyles, use-mask, MaskInput, Treemap, TimePicker, Heatmap, MonthPicker, YearPicker, use-roving-index, Tree, Slider, WeekView](https://github.com/mantinedev/mantine/releases/tag/9.1.0)
+-   📦 [TanStack Query 5.100 - Added retryOnMount callback; internal Svelte test cleanup](https://github.com/TanStack/query/releases/tag/release-2026-04-23-1319)
+-   🎥 [Josef Bender - Avoid These 3 Mistakes in TanStack Start](https://www.youtube.com/watch?v=MjNHmFGqNWw)
+-   🎥 [Jack Herrington - Partial Page Caching Using React Server Components](https://www.youtube.com/watch?v=t9xB8xvySyo)
+
+**Don't miss the next email!**
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+[![No breakpoints, no console.log — just AI & time travel](https://thisweekinreact.com/emails/issues/279/wallabyjs.jpg)](https://wallabyjs.com/?referrer=ThisWeekInReact22Apr26)
+
+**[No breakpoints, no console.log — just AI & time travel](https://wallabyjs.com/?referrer=ThisWeekInReact22Apr26)**
+
+15x faster TypeScript and JavaScript debugging than with breakpoints and `console.log`, while upgrading your AI agent into an expert debugger with real-time context.
+
+Wallaby.js runs your tests as you type, feeding your AI assistant live runtime values, code coverage, error details, and execution paths — all right next to your code. With [Wallaby v3’s new engine](https://wallabyjs.com/blog/wallaby-v3.html?referrer=ThisWeekInReact22Apr26) 🚀, tests start instantly with cached results, prioritize active files, and stream updates in real time.
+
+Built for testing, Wallaby includes a **Time Travel Debugger**, the ability to run only opened files, full-context AI integration, smart test runs, and more.
+
+[➡️ Learn More](https://wallabyjs.com/?referrer=ThisWeekInReact22Apr26)
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+## 📱 React-Native[​](#react-native "Direct link to 📱 React-Native")
+
+-   💸 [Maestro Studio - A desktop app for automated React Native UI testing. Build tests by clicking directly on your app's UI. Free.](https://maestro.dev/?utm_source=this-week-in-react#maestro-studio)
+-   💬 [RFC: Swift Package Manager support in React Native](https://github.com/react-native-community/discussions-and-proposals/pull/994) - Plan to replace CocoaPods with SPM on iOS, as CocoaPods has been in maintenance mode for a while.
+-   👀 [React Navigation PR - Add support for retaining screens in stack](https://github.com/react-navigation/react-navigation/pull/13076) - A new `navigation.retain(true)` API will keep a screen mounted after going back, similar to React's `<Activity>`. JS stack only for now, but Native Stack support will come with RNScreens 5.
+-   📣 [Starting on April 28, 2026 apps uploaded to App Store Connect must be built with Xcode 26](https://developer.apple.com/news/upcoming-requirements/?id=02032026a)
+-   📜 [How to Make Pure JSI Code Faster in React Native](https://blog.margelo.com/make-jsi-run-faster) - `HostFunction` is about 5x faster than `HostObject`, prefer stack buffers when size is known, avoid unnecessary temporary allocations, reduce JS ↔ C++ crossings.
+-   📜 [QR and Barcode Scanning in React Native with VisionCamera V5](https://blog.margelo.com/react-native-qr-barcode-scanner-visioncamera-v5) - Overview of VisionCamera APIs for QR scanning with ranging purposes & levels of complexity.
+-   📜 [Integrating Deferred Deep Linking in React Native Apps](https://swmansion.com/blog/integrating-deferred-deep-linking-in-react-native-apps-1/) - React Native Detour SDK walkthrough with Expo Router.
+-   📜 [When to Use Apple Foundation Models on Mobile](https://www.callstack.com/blog/when-to-use-apple-foundation-models-on-mobile) - Hybrid approach where local models handle latency-sensitive tasks and cloud models handle complex reasoning. Use local first and escalate to cloud when needed.
+-   📦 [SimCam - Camera Testing for the iOS Simulator](https://simcam.swmansion.com/)
+-   📦 [Quick Crypto 1.1 - simdutf for faster string encoding/decoding, Buffer semantics now match Node.js semantics, OpenSSL-Universal CocoaPods dep](https://github.com/margelo/react-native-quick-crypto/releases/tag/v1.1.0)
+-   📦 [Enriched Markdown 0.5 - Support macOS, web, `EnrichedMarkdownTextInput`, spoiler elements, auto-link detection, VoiceOver/TalkBack improvements](https://github.com/software-mansion-labs/react-native-enriched-markdown/releases/tag/v0.5.0)
+-   📦 [Agent Device 0.13 - React DevTools passthrough, parametrise .ad replay scripts](https://github.com/callstackincubator/agent-device/releases/tag/v0.13.0)
+-   📦 [iOS Simulator MCP 1.6 - Added `ui_find_element` tool, `launch_app` env variable and `record_video` UDID support](https://github.com/joshuayoes/ios-simulator-mcp/releases/tag/1.6.0)
+-   📦 [Google Maps RN Navigation SDK 0.15 - Breaking changes to continueToNextDestination and mapStyle; various iOS/Android crash fixes](https://github.com/googlemaps/react-native-navigation-sdk/releases/tag/v0.15.0)
+-   📦 [Nitro MLX 0.5 - Expo 55 support, added Embeddings module, ChatSession API, and streaming downloads](https://github.com/corasan/react-native-nitro-mlx/releases/tag/v0.5.0)
+-   📦 [Expo Paste Input 0.2 - Animated GIF stickers, preserve animation instead of converting to static images](https://github.com/arunabhverma/expo-paste-input/releases/tag/v0.2.0)
+-   📦 [Jail Monkey 3.0 - New Architecture support, added iOS/Android mock location detection](https://github.com/GantMan/jail-monkey/releases/tag/v3.0.0) - Detect jailbroken/rooted device, mocked locations, and on Android apps running from external storage.
+-   🤖 [Software Mansion React Native JSI Skills](https://github.com/software-mansion-labs/skills/tree/main/skills/react-native-best-practices/references/jsi)
+-   🎥 [Beto - React Native UI Testing Without the Pain](https://www.youtube.com/watch?v=kN8fuEPf20A)
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+## 🔀 Other[​](#other "Direct link to 🔀 Other")
+
+-   👀 [Node.js PR - Release v26.0](https://github.com/nodejs/node/pull/62526) - The release slipped from yesterday to next week. It upgrades the `fetch()` client and unlocks new exciting APIs such as `Temporal` and `Map.getOrInsert()`.
+-   📜 [Scroll-Driven Animations](https://www.joshwcomeau.com/animation/scroll-driven-animations/) - Another great interactive article from Josh Comeau, explaining how you can now map a CSS keyframe to a scroll distance instead of a duration.
+-   📜 [Compositing & Blending](https://nik.digital/posts/compositing-blending) - How the browser decides the final color of every pixel when stacking multiple elements and how it is applied in the real world.
+-   📜 [The Web Is Fun Again: First Experiments with HTML in Canvas](https://frontendmasters.com/blog/the-web-is-fun-again-first-experiments-with-html-in-canvas/) - Showcases a new API, with its limitations and interesting ways to use it.
+-   📜 [New to the web platform in April](https://web.dev/blog/web-platform-04-2026?hl=en) - `contrast-color()`, animation-range, and `Math.sumPrecise` became Baseline Newly Available, while Firefox and Chrome added various new APIs.
+-   📦 [pnpm 11.0 - SQLite-backed store, supply-chain protection on by default, native publishing, ESM-only](https://pnpm.io/blog/releases/11.0)
+-   📦 [Aube - Drop-in Node.js package manager that reads existing lockfiles](https://aube.en.dev/) - Claims to be 9.2x faster than pnpm and 2.7x faster than Bun.
+-   📦 [Fresh 2.3 - Preact framework - Zero JS by default, View Transitions, and Temporal support](https://deno.com/blog/fresh-2.3)
+-   🎙️ [Syntax.fm 999 - Writing Maintainable CSS](https://syntax.fm/show/999/writing-maintainable-css)
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+## 🤭 Fun[​](#fun "Direct link to 🤭 Fun")
+
+![alt](https://thisweekinreact.com/emails/issues/279/meme.jpg)
+
+See ya! 👋
