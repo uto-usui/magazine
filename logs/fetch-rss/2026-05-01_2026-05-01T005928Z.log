@@ -1,0 +1,58 @@
+articles_dir=2026-05-01
+exit_code=0
+timestamp_utc=2026-05-01T00:59:28Z
+
+---- issue lines ----
+28:❌ Playwright failed for https://www.greaterwrong.com/posts/fewDbvpKMZLgGuWT2/the-world-can-t-keep-up-with-ai-labs: page.goto: Timeout 30000ms exceeded.
+
+---- tail (last 50 lines) ----
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Image too large, skipping: https://cdn.sanity.io/images/599r6htc/regionalized/00955a34b27274e93a08f87e6e54051bbfd5ae0f-3286x3286.png?w=3286&h=3286&q=75&fit=max&auto=format
+Image too large, skipping: https://cdn.sanity.io/images/599r6htc/regionalized/00955a34b27274e93a08f87e6e54051bbfd5ae0f-3286x3286.png?w=3286&h=3286&q=75&fit=max&auto=format
+Image too large, skipping: https://cdn.sanity.io/images/599r6htc/regionalized/00955a34b27274e93a08f87e6e54051bbfd5ae0f-3286x3286.png?w=3286&h=3286&q=75&fit=max&auto=format
+Image too large, skipping: https://cdn.sanity.io/images/599r6htc/regionalized/00955a34b27274e93a08f87e6e54051bbfd5ae0f-3286x3286.png?w=3286&h=3286&q=75&fit=max&auto=format
+Image too large, skipping: https://cdn.sanity.io/images/599r6htc/regionalized/00955a34b27274e93a08f87e6e54051bbfd5ae0f-3286x3286.png?w=3286&h=3286&q=75&fit=max&auto=format
+Image too large, skipping: https://cdn.sanity.io/images/599r6htc/regionalized/00955a34b27274e93a08f87e6e54051bbfd5ae0f-3286x3286.png?w=3286&h=3286&q=75&fit=max&auto=format
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-01/how-to-design-agentic-tools-for-work.md
+📥 Processing: The end of srcset/sizes headaches is here
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-01/the-end-of-srcsetsizes-headaches-is-here.md
+📥 Processing: 品質の言語化のススメー早期テストの原則をClaude Code Agent Skillsで実現する試み
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-01/claude-code-agent-skills.md
+📥 Processing: The Real Reason Your Design Team Burns Out (And How to Fix It)
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-01/the-real-reason-your-design-team-burns-out-and-how-to-fix-it.md
+📥 Processing: A Job Is Not Just a Bundle of Skills
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-01/a-job-is-not-just-a-bundle-of-skills.md
+📥 Processing: The Map Is Not the System
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-01/the-map-is-not-the-system.md
+📥 Processing: One Map Key, One Lookup
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+⚠️ Content too short (30 chars < 200): http://testing.googleblog.com/2026/04/one-map-key-one-lookup.html
+🔄 Readability failed, trying Playwright: http://testing.googleblog.com/2026/04/one-map-key-one-lookup.html
+✅ Playwright successfully fetched: http://testing.googleblog.com/2026/04/one-map-key-one-lookup.html
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-01/one-map-key-one-lookup.md
+📥 Processing: This Week In React #279: Compiler, TSRX, StyleX, XState, Hook Form, TanStack, shadcn, Chakra, Inertia, Mantine | SPM, SimCam, Enriched Markdown, Agent Device, Navigation SDK, JSI, Paste Input, Crypto, MLX, Jail Monkey | pnpm, Aube, Fresh, Node.js
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-01/this-week-in-react-279-compiler-tsrx-stylex-xstate-hook-form-tanstack-shadcn-chakra-inertia-mantine-.md
+📥 Processing: Remix 3 Beta Preview
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-01/remix-3-beta-preview.md
+
+📊 Summary:
+   ✅ Success: 30
+   ❌ Errors: 0
+🏁 Done!
