@@ -28555,7 +28555,127 @@
     "https://uxmag.com/articles/the-psychology-of-nudges-why-the-smallest-design-element-can-shift-the-biggest-outcomes": {
       "contentHash": "e7a85bc472ccad0b7cd03052fa672453f44e7dd6d957b5d6c514fa2a2fe8d8fc",
       "processedAt": "2026-04-29T01:00:47.351Z"
+    },
+    "https://webaim.org/blog/tolerating-inaccessibility/": {
+      "contentHash": "1b155b2bace285db68e2621c31224e859588c702e4d937f63c2d5ca3b5e8762b",
+      "processedAt": "2026-05-01T00:57:10.369Z"
+    },
+    "https://linear.app/now/output-isn-t-design": {
+      "contentHash": "1809ef9894b8ef2120db53663b2e0b9776b33fd57c0c301bd6fbdd2c692a9d20",
+      "processedAt": "2026-05-01T00:57:11.192Z"
+    },
+    "https://designtools.fyi/": {
+      "contentHash": "9c4c90ae23d704a15ce5d9bfac725b812ecc018e003f163a9a167922495851c3",
+      "processedAt": "2026-05-01T00:57:23.158Z"
+    },
+    "https://sheets.works/data-viz/every-mac": {
+      "contentHash": "93ab86c4d34eb68944b7b3a62eab699014557bc0180dc3e81ac2a93e158680d7",
+      "processedAt": "2026-05-01T00:57:23.731Z"
+    },
+    "https://frontendmasters.com/blog/ai-generated-ui-is-inaccessible-by-default/": {
+      "contentHash": "a366cb06b5e5c305eaf3f52006dd0fabdf7b030231df157cc7bc5481a4965da0",
+      "processedAt": "2026-05-01T00:57:25.101Z"
+    },
+    "https://www.greaterwrong.com/posts/fewDbvpKMZLgGuWT2/the-world-can-t-keep-up-with-ai-labs": {
+      "contentHash": "b524f6f836740db7856d589ab0988154b8f69b7015ec15fb7bfe44a93a4a8ea5",
+      "processedAt": "2026-05-01T00:57:55.522Z"
+    },
+    "https://permissionless.krispuckett.com/": {
+      "contentHash": "0819af3b1a63d5fc715c67ee163b31da9fc02feb1cb9c53af1044cebcfced1ae",
+      "processedAt": "2026-05-01T00:57:55.803Z"
+    },
+    "https://photopalettes.com/": {
+      "contentHash": "60f9465918b4468c6c1d421c52ad4a95b07a84fe759dbdf75ce7e2eef4215645",
+      "processedAt": "2026-05-01T00:58:01.240Z"
+    },
+    "https://gbbns.co/journal/accessibility-problem-isnt-design/": {
+      "contentHash": "075ba214b5c0c21901831866dccf7feb79825c4ced94c614afaa44ea55e337f0",
+      "processedAt": "2026-05-01T00:58:01.338Z"
+    },
+    "https://www.warman.life/blog/2026-04-27-the-moat-or-the-commons/": {
+      "contentHash": "59beed5269cbe47e1b614d4153688b5ff1e3db5a239ebff1097548761ebce461",
+      "processedAt": "2026-05-01T00:58:01.575Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-github-breaks": {
+      "contentHash": "1ee181a8198d13f74a2c8d170a3767f6b95728b21b5d3b5764265b95a213f0c8",
+      "processedAt": "2026-05-01T00:58:01.823Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/building-pi-and-what-makes-self-modifying": {
+      "contentHash": "8bd76d8f2f037f5f9fbeb51634f0c33a1278d977d8c597c6ae489100378c8020",
+      "processedAt": "2026-05-01T00:58:02.277Z"
+    },
+    "https://tympanus.net/codrops/2026/04/29/between-human-and-machine-sofia-papadopoulous-approach-to-augmented-creativity/": {
+      "contentHash": "638a87e0a7eeb06dfb6f85462bb4b08eadc08c6702591b3be262b0b714af0a92",
+      "processedAt": "2026-05-01T00:58:03.885Z"
+    },
+    "https://smashingmagazine.com/2026/04/desktop-wallpaper-calendars-may-2026/": {
+      "contentHash": "d60d33b1917ef9ebcbf4d3a98095acd095151f0b73be19c57958971dc237f399",
+      "processedAt": "2026-05-01T00:58:05.914Z"
+    },
+    "https://smashingmagazine.com/2026/04/designing-stable-interfaces-streaming-content/": {
+      "contentHash": "d9de00c7b890926e02a9b191942a91e926e89997c543ae5310d12b4dcb62ff91",
+      "processedAt": "2026-05-01T00:58:07.128Z"
+    },
+    "https://piccalil.li/blog/three-stoic-principles-for-better-web-accessibility/?ref=main-rss-feed": {
+      "contentHash": "07e27e61ff2cad844f4050df5ac5d5dd57a2e5a94ea477efdcab6b94e42e3896",
+      "processedAt": "2026-05-01T00:58:07.440Z"
+    },
+    "https://vercel.com/changelog/custom-tags-available-in-beta-on-vercel-sandbox": {
+      "contentHash": "3e4d35de86195dbf6ef59ae9dd9f1655f197c9def944a62d351fd8ea36b0a566",
+      "processedAt": "2026-05-01T00:58:08.101Z"
+    },
+    "https://vercel.com/changelog/vercel-now-supports-pro-plan-in-stripe-projects": {
+      "contentHash": "1711768d0b3cda6f492c866f8dabf408a4ac581fc173ad8c2e9be9c00bbc0fda",
+      "processedAt": "2026-05-01T00:58:08.820Z"
+    },
+    "https://stripe.com/blog/everything-we-announced-at-sessions-2026": {
+      "contentHash": "7b59232d1297fb6c1bfc7e81338701e0db9fbf613541513da9400f16971480a7",
+      "processedAt": "2026-05-01T00:58:09.859Z"
+    },
+    "https://stripe.com/blog/giving-agents-the-ability-to-pay": {
+      "contentHash": "956989bf76ef94b43384af3c9fb2d82162885655b24b4045f7a6194d4c31a069",
+      "processedAt": "2026-05-01T00:58:10.317Z"
+    },
+    "https://www.figma.com/blog/workflow-lab-expanding-the-canvas-with-figma-mcp/": {
+      "contentHash": "0f1f67b3884c1c06601f121629563713d37e6834024a245a76e2876628cf27ab",
+      "processedAt": "2026-05-01T00:58:42.130Z"
+    },
+    "https://www.figma.com/blog/how-to-design-agentic-tools-for-work/": {
+      "contentHash": "ce411e270fe70d7265a4b494f193570489f1c77b58fa0f136d0dc21bf0ee0c13",
+      "processedAt": "2026-05-01T00:59:16.869Z"
+    },
+    "https://frontendfoc.us/issues/739": {
+      "contentHash": "9257e3919d0dd0274ca5aaef03a0398b32325f4f69d2d209c5c88d7d378c022c",
+      "processedAt": "2026-05-01T00:59:17.864Z"
+    },
+    "https://tech.layerx.co.jp/entry/articulatin_quality": {
+      "contentHash": "5cc0d21ee6372da9afb8c0353e7b6ae21d2a695bcdec9ddec217896751a0cfdc",
+      "processedAt": "2026-05-01T00:59:18.801Z"
+    },
+    "https://uxmag.com/articles/the-real-reason-your-design-team-burns-out-and-how-to-fix-it": {
+      "contentHash": "8cfbfbcf1055792a2361a465f2801c7955c5bbe46557df1137a585b79101b7d6",
+      "processedAt": "2026-05-01T00:59:20.287Z"
+    },
+    "https://uxmag.com/articles/a-job-is-not-just-a-bundle-of-skills": {
+      "contentHash": "35f6814e5ae37efb1dbab3e9707f8268c592be057c3b8fcac95b0208514da6b6",
+      "processedAt": "2026-05-01T00:59:21.278Z"
+    },
+    "https://uxmag.com/articles/the-map-is-not-the-system": {
+      "contentHash": "b0c53a31aba20c6fa3c66579ca7ebfaaafbd488356e8c0ed4fffdcd0388d1734",
+      "processedAt": "2026-05-01T00:59:22.274Z"
+    },
+    "http://testing.googleblog.com/2026/04/one-map-key-one-lookup.html": {
+      "contentHash": "4e0bcf2cec70dde5db8610f4f2e045fe939928d50de3ab79d79ada079f545d82",
+      "processedAt": "2026-05-01T00:59:27.615Z"
+    },
+    "https://thisweekinreact.com/newsletter/279": {
+      "contentHash": "dd3fd5077dd7c29734de8812f0df839cfec5122006c3581b964ab0ad0b4e42cb",
+      "processedAt": "2026-05-01T00:59:28.064Z"
+    },
+    "https://remix.run/blog/remix-3-beta-preview": {
+      "contentHash": "6d1ace4e46aca879c241f80ccf3e7be1ce355672d6910739b3262340185f48a9",
+      "processedAt": "2026-05-01T00:59:28.166Z"
     }
   },
-  "lastRun": "2026-04-29T01:00:47.351Z"
+  "lastRun": "2026-05-01T00:59:28.166Z"
 }
