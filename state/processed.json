@@ -28675,7 +28675,195 @@
     "https://remix.run/blog/remix-3-beta-preview": {
       "contentHash": "6d1ace4e46aca879c241f80ccf3e7be1ce355672d6910739b3262340185f48a9",
       "processedAt": "2026-05-01T00:59:28.166Z"
+    },
+    "https://engineering.atspotify.com/2026/5/spotify-ads-api-claude-plugins/": {
+      "contentHash": "be12cbb476d4b7bd77472a2db40f2c431aa5433bf32637c10ad3d14d72186e78",
+      "processedAt": "2026-05-06T00:49:31.717Z"
+    },
+    "https://engineering.fb.com/2026/05/01/security/meta-strengthening-end-to-end-encrypted-backups/": {
+      "contentHash": "6b3493d0b9f24111901da601a3e1edce0d5a78221377da4f5291bb0d8a38c43f",
+      "processedAt": "2026-05-06T00:49:32.002Z"
+    },
+    "https://addyosmani.com/blog/agent-skills/": {
+      "contentHash": "9b1fe4fa18076d81fd2f87d7e0ffd728b35787d0bb309b1a26121da2774408b1",
+      "processedAt": "2026-05-06T00:49:32.237Z"
+    },
+    "https://a11yweekly.com/issue/498/": {
+      "contentHash": "44067c47f83b81c9861afbb633814d76a56961445101fbbe37a1b025831b76ac",
+      "processedAt": "2026-05-06T00:49:32.502Z"
+    },
+    "https://design-is-the-work.figma.site/": {
+      "contentHash": "0dea434406cf119b0e9ff2ba5e9827c30153ec0a5c04afecdebe5eea64c736df",
+      "processedAt": "2026-05-06T00:49:37.276Z"
+    },
+    "https://www.linkedin.com/pulse/five-dimensions-craft-ethan-eismann-uf3dc/": {
+      "contentHash": "4eb663313c2e87cc9051ef89bb23771439115722a8ffee484a1d1f3be9b3550d",
+      "processedAt": "2026-05-06T00:49:38.329Z"
+    },
+    "https://ajitem.com/blog/iron-core-part-2-six-characters/": {
+      "contentHash": "7e084c1984df086c851cd8747da19d8fd294aba85d186e7f405977266a765e05",
+      "processedAt": "2026-05-06T00:49:38.646Z"
+    },
+    "https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity": {
+      "contentHash": "0b76378b26dc3afd9cb92f35f0c425b0cbb06e17e4c56dd0c6d8827c215f7b0c",
+      "processedAt": "2026-05-06T00:49:41.498Z"
+    },
+    "https://worksinprogress.co/issue/the-worlds-most-complex-machine/": {
+      "contentHash": "f206beadd2f63f6dfe42be0c2ac12cd9bb26fd8c30f662c1e39c8b0c6c076c70",
+      "processedAt": "2026-05-06T00:49:42.591Z"
+    },
+    "https://bit.ly/side-push2": {
+      "contentHash": "1fc12acd1ebbee9502a56c5b4a302d00a9149e9416e47e6fb8e5492e8a4c65dd",
+      "processedAt": "2026-05-06T00:49:48.722Z"
+    },
+    "https://jeffgothelf.com/blog/strong-opinions-loosely-held-and-what-that-means-in-the-age-of-ai/": {
+      "contentHash": "4289ad7c9cb2c17055d1de5df3b11e23c0f5c02cd6759252565ba1e527b43367",
+      "processedAt": "2026-05-06T00:49:49.088Z"
+    },
+    "https://tui.studio/": {
+      "contentHash": "df02239747a3c13c8ebab992861471907eba355a7091517ce7f823f331bc773c",
+      "processedAt": "2026-05-06T00:49:49.612Z"
+    },
+    "https://saturdave.com/information-architecture-still-matters/": {
+      "contentHash": "9cd87329af19a0cdba74019fdd3dc636448a7ad3b413e7a88dd772a11624b42f",
+      "processedAt": "2026-05-06T00:49:54.434Z"
+    },
+    "https://nathanbeck.eu/essays/death-of-design/": {
+      "contentHash": "9a4f10ab30e66e24a098d1d398f6c21384ba4da1f81d6a4b53828913465430c9",
+      "processedAt": "2026-05-06T00:49:54.652Z"
+    },
+    "https://medium.com/design-bootcamp/on-being-a-designer-in-the-most-interesting-exhausting-moment-of-our-careers-7284735e0927": {
+      "contentHash": "0227da7cf522b8d9ca86a5d3531a8d6528531dc5a7c272d0a98c10d4384d814e",
+      "processedAt": "2026-05-06T00:49:59.426Z"
+    },
+    "https://www.keithcirkel.co.uk/css-or-bs/": {
+      "contentHash": "ffd688aa092ddb98fa6b49ff8b394193aaefd363fb1677977e776d3fd4fd1d12",
+      "processedAt": "2026-05-06T00:49:59.831Z"
+    },
+    "https://hidde.blog/web-ai-breakout/": {
+      "contentHash": "fa40b214b6aacdd41c8467709d4b7fef2c1fc26e9d7c3c5ae4f2b191e2ad38c0",
+      "processedAt": "2026-05-06T00:50:00.752Z"
+    },
+    "https://www.nngroup.com/articles/information-pipeline/": {
+      "contentHash": "f94f27ccec25de53a510bb80098a74c37ea5ab5e52337a05c6915a72926c8d18",
+      "processedAt": "2026-05-06T00:50:02.122Z"
+    },
+    "https://www.dir14.com/articles/users-own-the-present-you-own-the-future": {
+      "contentHash": "6f6a7f9279a0c19ebedba1801e11823fe3e3159c877d5bfe06500e2b13e178a9",
+      "processedAt": "2026-05-06T00:50:02.785Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/designing-data-intensive-applications-book-excerpt": {
+      "contentHash": "9c7a9863fee27a8445ddd31bc57b056f4deaa09b3de7e0f33ae6ecc345f9baf4",
+      "processedAt": "2026-05-06T00:50:03.253Z"
+    },
+    "https://tympanus.net/codrops/2026/05/05/reverse-engineering-claude-ais-mascot-animations-with-svg-and-gsap/": {
+      "contentHash": "ae30f54dc72814909d224363630b564f77b86e0344ce00260ee78ec29476dad1",
+      "processedAt": "2026-05-06T00:50:05.005Z"
+    },
+    "https://tympanus.net/codrops/2026/05/04/akaru-crafting-precision-driven-digital-experiences/": {
+      "contentHash": "c33f202db846d0ecff36f2fc4bbd3af3407ff466a9db9bfd3a8e603672b7628c",
+      "processedAt": "2026-05-06T00:50:06.602Z"
+    },
+    "https://tympanus.net/codrops/2026/05/02/designing-against-the-gallery-a-two-year-journey-to-a-layered-portfolio-experience/": {
+      "contentHash": "2421fc653e53a4bb8cc106ce469f97708395a7f385343afe165cbb341edb40ef",
+      "processedAt": "2026-05-06T00:50:09.078Z"
+    },
+    "https://smashingmagazine.com/2026/05/rethinking-experience-system-tools/": {
+      "contentHash": "b2996c923449ed6b50a6004c4f8222b40d00ad1a84b847138a4d5e17a2018979",
+      "processedAt": "2026-05-06T00:50:10.582Z"
+    },
+    "https://smashingmagazine.com/2026/05/designing-stable-interfaces-streaming-content/": {
+      "contentHash": "d9de00c7b890926e02a9b191942a91e926e89997c543ae5310d12b4dcb62ff91",
+      "processedAt": "2026-05-06T00:50:11.917Z"
+    },
+    "https://piccalil.li/the-index/180/?ref=main-rss-feed": {
+      "contentHash": "aea2331b2ec2d039ca682e3e54e733e08115effdc5cad88b310a49832393b47e",
+      "processedAt": "2026-05-06T00:50:12.109Z"
+    },
+    "https://vercel.com/changelog/secure-marketplace-credentials-with-production-only-access": {
+      "contentHash": "f31a2c0607a225751dc67294f554722d8b92767e0936eabe3803a08e8c76e377",
+      "processedAt": "2026-05-06T00:50:12.805Z"
+    },
+    "https://vercel.com/changelog/vercel-metrics-in-cli": {
+      "contentHash": "8157487d61cb466b91742f41ad1ba2661ede5be5cda8699858d01025d7b7420c",
+      "processedAt": "2026-05-06T00:50:13.673Z"
+    },
+    "https://vercel.com/blog/how-kiko-milano-scales-for-black-friday": {
+      "contentHash": "74e513c41279cb6e8b7cc17772bb532d7671c67fcfda7defbce6f2d7abd47127",
+      "processedAt": "2026-05-06T00:50:14.621Z"
+    },
+    "https://vercel.com/blog/how-general-intelligence-used-agents-to-build-an-agent-platform-on-vercel": {
+      "contentHash": "84f2ec75069721793c9fa448b14736fe121630756b1944729e8dd26c2087fa53",
+      "processedAt": "2026-05-06T00:50:15.446Z"
+    },
+    "https://vercel.com/blog/introducing-deepsec-find-and-fix-vulnerabilities-in-your-code-base": {
+      "contentHash": "79c1e7dc8c89981090f5e76e1f699c013f393dc1d29505a391f6598d9f30e8d9",
+      "processedAt": "2026-05-06T00:50:16.064Z"
+    },
+    "https://vercel.com/changelog/vercel-sandbox-firewall-now-supports-postgres-connections": {
+      "contentHash": "f470b16a3a4d6d7e7618ec4207df3ae4aa08313aa68f616563cf7107f5f5f484",
+      "processedAt": "2026-05-06T00:50:16.736Z"
+    },
+    "https://vercel.com/changelog/grok-4-3-on-ai-gateway": {
+      "contentHash": "d723946518ea218f0346446afd8300300b20bbf310afc8d27f60c32192b427bb",
+      "processedAt": "2026-05-06T00:50:17.254Z"
+    },
+    "https://www.figma.com/blog/pgkeeper-building-the-bouncer-we-needed-for-postgres/": {
+      "contentHash": "36deff96a55f632c9405e6d175cacfef12a78a7b4c2efa5effbdc45cee79e2bf",
+      "processedAt": "2026-05-06T00:50:54.578Z"
+    },
+    "https://efcl.info/2026/05/05/secretlint-v13/": {
+      "contentHash": "dbc709705524c5bd9754fdf3fabbbbf03a19eff6fc880cbaec45f94905ff6d44",
+      "processedAt": "2026-05-06T00:50:54.805Z"
+    },
+    "https://efcl.info/2026/05/01/jsprimer-es2026-proposal/": {
+      "contentHash": "0f43d96c78c4caca52831dd505486a7bd31f19e29fe3f5da9b8cc405543d2ea1",
+      "processedAt": "2026-05-06T00:50:55.548Z"
+    },
+    "https://zenn.dev/uhyo/articles/react-profession-bench-5": {
+      "contentHash": "0e7a841f705bb8b15f0886d85ecddc913149f5659942c0136500afd6b79a0ca8",
+      "processedAt": "2026-05-06T00:50:56.110Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/05/01/110623": {
+      "contentHash": "6523130b84356c6181f460cade1c1990506fa13d12dc92f8c33c7a9b5ebe7b46",
+      "processedAt": "2026-05-06T00:50:57.272Z"
+    },
+    "https://www.nngroup.com/articles/selection-criteria/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "3e4c01cfe77bc090744c94881a679b6abbc03c71d22f5a14e9c2641594fb4d14",
+      "processedAt": "2026-05-06T00:50:58.297Z"
+    },
+    "https://www.nngroup.com/articles/information-seeking-china/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "610861b003a0a39118531e8a370ae2fa898a5612b4ec934c387f34f52e47017f",
+      "processedAt": "2026-05-06T00:50:59.303Z"
+    },
+    "https://www.nngroup.com/news/item/job-opening-ux-design-assistant-remote-europe-1/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "b40c9cee4c763b6a6326acb425564a8b2acfc51cdd04e6ff2512b7a5d0cb38d8",
+      "processedAt": "2026-05-06T00:50:59.567Z"
+    },
+    "https://www.nngroup.com/news/item/job-opening-ux-design-assistant-remote-US-1/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "cf8d60f1cee31f593b88e6fbded12a9fc1c5ae5b6e3a96efbed723d3143f87b6",
+      "processedAt": "2026-05-06T00:50:59.826Z"
+    },
+    "https://newsletter.uxdesign.cc/p/collected-consciousness": {
+      "contentHash": "8c473b24cb517b05a66e3012542e1fb25f13c39387194d81f38eba71a7d40faa",
+      "processedAt": "2026-05-06T00:51:00.260Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-may-3-2026/": {
+      "contentHash": "8ad9cf773d5d00547d9e3667cfac251944be26c536f73d9763ac496c14c6f0f8",
+      "processedAt": "2026-05-06T00:51:01.249Z"
+    },
+    "https://uxmag.com/articles/consent-fatigue-are-we-designing-people-into-compliance": {
+      "contentHash": "52af1f474619e47f84fbe1daf1b05ae5b4fbfd94720ba7d5cdb986fa7a5b6f22",
+      "processedAt": "2026-05-06T00:51:02.516Z"
+    },
+    "http://testing.googleblog.com/2026/05/construct-with-collaborators-call-with.html": {
+      "contentHash": "0d5fb408717f82be4862e680c48e127c3be029d8fa04bd61d6462cd6bc98b6a0",
+      "processedAt": "2026-05-06T00:51:03.258Z"
+    },
+    "https://react.statuscode.com/issues/472": {
+      "contentHash": "8a7c1917df5b5c9ad0555ab1641ef57d1c5ccc89a3d1fe0226204562437cf015",
+      "processedAt": "2026-05-06T00:51:03.703Z"
     }
   },
-  "lastRun": "2026-05-01T00:59:28.166Z"
+  "lastRun": "2026-05-06T00:51:03.703Z"
 }
