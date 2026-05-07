@@ -1,0 +1,58 @@
+articles_dir=2026-05-07
+exit_code=0
+timestamp_utc=2026-05-07T00:54:33Z
+
+---- issue lines ----
+11:Failed to fetch feed Adrian Roselli after 3 attempts: Request timed out after 15000ms
+
+---- tail (last 50 lines) ----
+📥 Processing: Six characters
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-07/six-characters.md
+📥 Processing: Designing, refining, and maintaining agent skills at Perplexity
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-07/designing-refining-and-maintaining-agent-skills-at-perplexity.md
+📥 Processing: The world’s most complex machine
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-07/the-worlds-most-complex-machine.md
+📥 Processing: Designing Data-Intensive Applications: The Cloud & Doing the Right Thing
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-07/designing-data-intensive-applications-the-cloud-doing-the-right-thing.md
+📥 Processing: From Shader Uniforms to Clip-Path Wipes: How GSAP Drives My Portfolio
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-07/from-shader-uniforms-to-clip-path-wipes-how-gsap-drives-my-portfolio.md
+📥 Processing: Reverse-Engineering Claude AI’s Mascot Animations with SVG and GSAP
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-07/reverse-engineering-claude-ais-mascot-animations-with-svg-and-gsap.md
+📥 Processing: The Architecture Of Local-First Web Development
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-07/the-architecture-of-local-first-web-development.md
+📥 Processing: Rethinking The Experience Of System Tools
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-07/rethinking-the-experience-of-system-tools.md
+📥 Processing: Introducing the Mindful Design Toolkit with even more free lessons
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-07/introducing-the-mindful-design-toolkit-with-even-more-free-lessons.md
+📥 Processing: Auto-add Git committers to your team
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-07/auto-add-git-committers-to-your-team.md
+📥 Processing: Secure Marketplace credentials with Production-only access
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-07/secure-marketplace-credentials-with-production-only-access.md
+📥 Processing: Query observability metrics using the Vercel CLI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-07/query-observability-metrics-using-the-vercel-cli.md
+📥 Processing: How KIKO Milano scales for Black Friday
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-07/how-kiko-milano-scales-for-black-friday.md
+📥 Processing: CSS, but make it random
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-07/css-but-make-it-random.md
+📥 Processing: Secretlint v13.0.0リリース: .gitignore済みをデフォルトで無視、Tailscale/Stripe/Cloudflareの検出に対応
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-07/secretlint-v1300-gitignoretailscalestripecloudflare.md
+📥 Processing: Consent Fatigue: Are We Designing People into Compliance?
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-07/consent-fatigue-are-we-designing-people-into-compliance.md
+📥 Processing: Construct with Collaborators, Call with Work
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-07/construct-with-collaborators-call-with-work.md
+📥 Processing: This Week In React #280: TanStack, Remotion, React Router, Remix, Trees, Pracht, shadcn | Expo Go, Ease, Screen Transitions, LegendList, JSI, Gradle, Radon, Baguette, Rozenite, AI | Node.js, Datatype, tsz, Astro
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-07/this-week-in-react-280-tanstack-remotion-react-router-remix-trees-pracht-shadcn-expo-go-ease-screen-.md
+📥 Processing: A Brand New Remix
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-07/a-brand-new-remix.md
+
+📊 Summary:
+   ✅ Success: 27
+   ❌ Errors: 0
+🏁 Done!
