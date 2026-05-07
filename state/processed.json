@@ -28807,7 +28807,115 @@
     "https://react.statuscode.com/issues/472": {
       "contentHash": "8a7c1917df5b5c9ad0555ab1641ef57d1c5ccc89a3d1fe0226204562437cf015",
       "processedAt": "2026-05-05T00:50:51.787Z"
+    },
+    "https://addyosmani.com/blog/cognitive-surrender/": {
+      "contentHash": "9f636b44989f0d7c156f2a0e27d3f0aec8f28d102893cb9e5c7a36866ed1ba95",
+      "processedAt": "2026-05-07T00:54:02.208Z"
+    },
+    "https://mattstromawn.com/writing/design-from-the-inside/": {
+      "contentHash": "4a243df7df0bf3a065c76780165ffe411b9fb9d4b196e36513ec5482861a812a",
+      "processedAt": "2026-05-07T00:54:02.369Z"
+    },
+    "https://cognitivebiasindex.com/": {
+      "contentHash": "0e1620d943a3ddd136836f616b556df99a0dc4492f7e5ca2f2b8e2dbac88803f",
+      "processedAt": "2026-05-07T00:54:04.236Z"
+    },
+    "https://flipbook.page/": {
+      "contentHash": "591be03eb50925b15848c626a5f27e9707a00aedcc387f02ea0b61d0058f9c2c",
+      "processedAt": "2026-05-07T00:54:08.819Z"
+    },
+    "https://tinto.rafaelbombana.com/": {
+      "contentHash": "0cc1622d37ff079833451e7d8b9689509189fe030f17ee9ec7ca081a0a8aa186",
+      "processedAt": "2026-05-07T00:54:08.999Z"
+    },
+    "https://every.to/guides/ai-product-management-guide": {
+      "contentHash": "e4b51d41a9ff1e4b934ad346fd074174d42d843ea397f5bd35eaaf3122863ab5",
+      "processedAt": "2026-05-07T00:54:10.027Z"
+    },
+    "https://design-is-the-work.figma.site/": {
+      "contentHash": "0dea434406cf119b0e9ff2ba5e9827c30153ec0a5c04afecdebe5eea64c736df",
+      "processedAt": "2026-05-07T00:54:14.653Z"
+    },
+    "https://www.linkedin.com/pulse/five-dimensions-craft-ethan-eismann-uf3dc/": {
+      "contentHash": "4eb663313c2e87cc9051ef89bb23771439115722a8ffee484a1d1f3be9b3550d",
+      "processedAt": "2026-05-07T00:54:15.710Z"
+    },
+    "https://ajitem.com/blog/iron-core-part-2-six-characters/": {
+      "contentHash": "7e084c1984df086c851cd8747da19d8fd294aba85d186e7f405977266a765e05",
+      "processedAt": "2026-05-07T00:54:15.964Z"
+    },
+    "https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity": {
+      "contentHash": "0b76378b26dc3afd9cb92f35f0c425b0cbb06e17e4c56dd0c6d8827c215f7b0c",
+      "processedAt": "2026-05-07T00:54:18.269Z"
+    },
+    "https://worksinprogress.co/issue/the-worlds-most-complex-machine/": {
+      "contentHash": "f206beadd2f63f6dfe42be0c2ac12cd9bb26fd8c30f662c1e39c8b0c6c076c70",
+      "processedAt": "2026-05-07T00:54:18.951Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/designing-data-intensive-applications-book-excerpt": {
+      "contentHash": "9c7a9863fee27a8445ddd31bc57b056f4deaa09b3de7e0f33ae6ecc345f9baf4",
+      "processedAt": "2026-05-07T00:54:19.296Z"
+    },
+    "https://tympanus.net/codrops/2026/05/06/from-shader-uniforms-to-clip-path-wipes-how-gsap-drives-my-portfolio/": {
+      "contentHash": "2cd11c14af3415cb566521a12935df6e007bc3629aad11be17fb72841ffb74ff",
+      "processedAt": "2026-05-07T00:54:21.213Z"
+    },
+    "https://tympanus.net/codrops/2026/05/05/reverse-engineering-claude-ais-mascot-animations-with-svg-and-gsap/": {
+      "contentHash": "ae30f54dc72814909d224363630b564f77b86e0344ce00260ee78ec29476dad1",
+      "processedAt": "2026-05-07T00:54:22.547Z"
+    },
+    "https://smashingmagazine.com/2026/05/architecture-local-first-web-development/": {
+      "contentHash": "4e64ada158c43909476cc2ef78bb1b34952cf9f9d61b8b964e288c5fe8e2c900",
+      "processedAt": "2026-05-07T00:54:23.935Z"
+    },
+    "https://smashingmagazine.com/2026/05/rethinking-experience-system-tools/": {
+      "contentHash": "b2996c923449ed6b50a6004c4f8222b40d00ad1a84b847138a4d5e17a2018979",
+      "processedAt": "2026-05-07T00:54:25.128Z"
+    },
+    "https://piccalil.li/links/the-mindful-design-toolkit-free-lessons/?ref=main-rss-feed": {
+      "contentHash": "c81c451b9b6bf731981b05a343b34ac13762f0930cba3f8763fa258d1c99eddf",
+      "processedAt": "2026-05-07T00:54:25.403Z"
+    },
+    "https://vercel.com/changelog/auto-add-git-committers-to-your-team": {
+      "contentHash": "00cd2705102310e51cf24d0b72c94555b83fbfcc5951a264ae8d6ff8dfff629c",
+      "processedAt": "2026-05-07T00:54:26.094Z"
+    },
+    "https://vercel.com/changelog/secure-marketplace-credentials-with-production-only-access": {
+      "contentHash": "f31a2c0607a225751dc67294f554722d8b92767e0936eabe3803a08e8c76e377",
+      "processedAt": "2026-05-07T00:54:26.728Z"
+    },
+    "https://vercel.com/changelog/vercel-metrics-in-cli": {
+      "contentHash": "8157487d61cb466b91742f41ad1ba2661ede5be5cda8699858d01025d7b7420c",
+      "processedAt": "2026-05-07T00:54:27.766Z"
+    },
+    "https://vercel.com/blog/how-kiko-milano-scales-for-black-friday": {
+      "contentHash": "74e513c41279cb6e8b7cc17772bb532d7671c67fcfda7defbce6f2d7abd47127",
+      "processedAt": "2026-05-07T00:54:28.493Z"
+    },
+    "https://frontendfoc.us/issues/740": {
+      "contentHash": "ee7e0d98feeb0c69a999e3f263275b758d21d855c05a1948b068bdce166978b8",
+      "processedAt": "2026-05-07T00:54:29.540Z"
+    },
+    "https://efcl.info/2026/05/05/secretlint-v13/": {
+      "contentHash": "dbc709705524c5bd9754fdf3fabbbbf03a19eff6fc880cbaec45f94905ff6d44",
+      "processedAt": "2026-05-07T00:54:29.729Z"
+    },
+    "https://uxmag.com/articles/consent-fatigue-are-we-designing-people-into-compliance": {
+      "contentHash": "52af1f474619e47f84fbe1daf1b05ae5b4fbfd94720ba7d5cdb986fa7a5b6f22",
+      "processedAt": "2026-05-07T00:54:31.313Z"
+    },
+    "http://testing.googleblog.com/2026/05/construct-with-collaborators-call-with.html": {
+      "contentHash": "0d5fb408717f82be4862e680c48e127c3be029d8fa04bd61d6462cd6bc98b6a0",
+      "processedAt": "2026-05-07T00:54:32.320Z"
+    },
+    "https://thisweekinreact.com/newsletter/280": {
+      "contentHash": "562eb91a513cfcd1cc379f9d8fdd46403cca7d0da388dfc749c2c27b9e7fad34",
+      "processedAt": "2026-05-07T00:54:32.754Z"
+    },
+    "https://remix.run/blog/brand-new": {
+      "contentHash": "82d53792188f2f267ee9c76cf9b1ad67d2ee14416b68089fb73d5b76f1b8adad",
+      "processedAt": "2026-05-07T00:54:33.270Z"
     }
   },
-  "lastRun": "2026-05-05T00:50:51.787Z"
+  "lastRun": "2026-05-07T00:54:33.270Z"
 }
