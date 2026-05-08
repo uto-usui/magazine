@@ -28915,7 +28915,47 @@
     "https://remix.run/blog/brand-new": {
       "contentHash": "82d53792188f2f267ee9c76cf9b1ad67d2ee14416b68089fb73d5b76f1b8adad",
       "processedAt": "2026-05-07T00:54:33.270Z"
+    },
+    "https://csswizardry.com/2026/05/better-browser-caching-with-no-vary-search/": {
+      "contentHash": "ef9e641fa5a308346f7e2cb16fc02f608cc117f64dba34213a978047a56f4ffb",
+      "processedAt": "2026-05-08T00:53:36.498Z"
+    },
+    "https://www.doc.cc/articles/consciousness": {
+      "contentHash": "2d985fba2e999c6c2f59f26bc45d7bf78c0bee1d0c8c4e42f62ef575233771d0",
+      "processedAt": "2026-05-08T00:53:41.461Z"
+    },
+    "https://griddyicons.com/": {
+      "contentHash": "d73fc23d08a9ce7d761416fbc8195877850ba7b7536fe0d766db177c9ef6f528",
+      "processedAt": "2026-05-08T00:53:45.133Z"
+    },
+    "https://www.joanwestenberg.com/the-passive-income-trap-ate-a-generation-of-entrepreneurs/": {
+      "contentHash": "55793d42fd9a3d024f2b76f482ea094b03e57e43f4392c3d70de4d0dfb10da3d",
+      "processedAt": "2026-05-08T00:53:45.835Z"
+    },
+    "https://styles.refero.design/": {
+      "contentHash": "dc5a2fed7ece65dcbf737f9ebf815b3dcd3828d2c564c8ac80dba3178f2f822c",
+      "processedAt": "2026-05-08T00:53:46.185Z"
+    },
+    "https://www.lesswrong.com/posts/vKtuRbo4e3ffixmee/you-are-not-immune-to-mode-collapse": {
+      "contentHash": "d4988d5c7f2e31258ed051a13e6b93b3c2d204090e3c8e9c7b9c9b6aa2beba16",
+      "processedAt": "2026-05-08T00:53:55.990Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-did-capacity-shortages": {
+      "contentHash": "f2f8cf5c85d236e634938ff693f34c712be6878ea414c08d5263d8358d95c766",
+      "processedAt": "2026-05-08T00:53:56.212Z"
+    },
+    "https://vercel.com/changelog/vercel-flags-now-supports-json-values": {
+      "contentHash": "e581c94de512d18831a5ea42b388923fa87c169bf9ecee6c4c2d40e822ecff3f",
+      "processedAt": "2026-05-08T00:53:57.153Z"
+    },
+    "https://tech.layerx.co.jp/entry/snowflake-iceberg-copy-add-files-copy": {
+      "contentHash": "504177ed6a5f803c0f1d762f40d0d03e3a7d24dff72f854e1e5182481faaef49",
+      "processedAt": "2026-05-08T00:53:58.130Z"
+    },
+    "https://uxmag.com/articles/designing-small-is-harder-than-designing-big": {
+      "contentHash": "c3616aa9b03b3a1a09abdc2d724e92f21e52b2d5336b0d712a0bf3469be7b5f7",
+      "processedAt": "2026-05-08T00:53:59.410Z"
     }
   },
-  "lastRun": "2026-05-07T00:54:33.270Z"
+  "lastRun": "2026-05-08T00:53:59.410Z"
 }
