@@ -28915,7 +28915,115 @@
     "https://remix.run/blog/brand-new": {
       "contentHash": "82d53792188f2f267ee9c76cf9b1ad67d2ee14416b68089fb73d5b76f1b8adad",
       "processedAt": "2026-05-07T00:54:33.270Z"
+    },
+    "https://csswizardry.com/2026/05/better-browser-caching-with-no-vary-search/": {
+      "contentHash": "ef9e641fa5a308346f7e2cb16fc02f608cc117f64dba34213a978047a56f4ffb",
+      "processedAt": "2026-05-09T00:53:41.731Z"
+    },
+    "https://nooneshappy.com/article/appearing-productive-in-the-workplace/": {
+      "contentHash": "f6432a1859b40de3943d7b93bdabea2dbc49af57a300bdd7a9248b2b5b4e1fe5",
+      "processedAt": "2026-05-09T00:53:41.893Z"
+    },
+    "https://www.pentagram.com/work/caligra-c100-developer-terminal": {
+      "contentHash": "b99cb7e861a05303588fad2fd535dc689413cc687f6505cd10e694f04a120b99",
+      "processedAt": "2026-05-09T00:53:42.239Z"
+    },
+    "https://wordamour.com/": {
+      "contentHash": "a5cf90c3a8b256a86be3cb37d9525baa07c7ec283977d48d8419b86e3e4eb72b",
+      "processedAt": "2026-05-09T00:53:42.483Z"
+    },
+    "https://www.smashingmagazine.com/2026/05/designing-stable-interfaces-streaming-content/": {
+      "contentHash": "ae963661a9b490d65bd5ee8c6dbf8adc56ecdddfc56ce6ef9a19f5ddf6b8157a",
+      "processedAt": "2026-05-09T00:53:44.203Z"
+    },
+    "https://www.thetypicalset.com/blog/thoughts-on-coding-agents": {
+      "contentHash": "bbd53552faf1fc7c810899b9fc07943c78074896d93022b0f7652f45a1b9e699",
+      "processedAt": "2026-05-09T00:53:44.376Z"
+    },
+    "https://www.doc.cc/articles/consciousness": {
+      "contentHash": "2d985fba2e999c6c2f59f26bc45d7bf78c0bee1d0c8c4e42f62ef575233771d0",
+      "processedAt": "2026-05-09T00:53:49.799Z"
+    },
+    "https://griddyicons.com/": {
+      "contentHash": "d73fc23d08a9ce7d761416fbc8195877850ba7b7536fe0d766db177c9ef6f528",
+      "processedAt": "2026-05-09T00:54:23.084Z"
+    },
+    "https://www.joanwestenberg.com/the-passive-income-trap-ate-a-generation-of-entrepreneurs/": {
+      "contentHash": "55793d42fd9a3d024f2b76f482ea094b03e57e43f4392c3d70de4d0dfb10da3d",
+      "processedAt": "2026-05-09T00:54:23.649Z"
+    },
+    "https://styles.refero.design/": {
+      "contentHash": "dc5a2fed7ece65dcbf737f9ebf815b3dcd3828d2c564c8ac80dba3178f2f822c",
+      "processedAt": "2026-05-09T00:54:24.709Z"
+    },
+    "https://www.lesswrong.com/posts/vKtuRbo4e3ffixmee/you-are-not-immune-to-mode-collapse": {
+      "contentHash": "d4988d5c7f2e31258ed051a13e6b93b3c2d204090e3c8e9c7b9c9b6aa2beba16",
+      "processedAt": "2026-05-09T00:54:34.403Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-did-capacity-shortages": {
+      "contentHash": "f2f8cf5c85d236e634938ff693f34c712be6878ea414c08d5263d8358d95c766",
+      "processedAt": "2026-05-09T00:54:34.646Z"
+    },
+    "https://bradfrost.com/blog/link/spicy-chicken-w-brad-frost-wireframe-live/": {
+      "contentHash": "2e1ed4c706f3268149520ab9c4b756aba959ed094a07c336660c9b05c9563e05",
+      "processedAt": "2026-05-09T00:54:35.190Z"
+    },
+    "https://piccalil.li/the-index/181/?ref=main-rss-feed": {
+      "contentHash": "0da25a06af4df988e21bec612ecb6eb01b28780116c04846cb0530fca734fc84",
+      "processedAt": "2026-05-09T00:54:35.630Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-adds-messenger-adapter": {
+      "contentHash": "40d6941d549d77455172219b6cda8ac4c7811ce083912ebf169f5666eec30333",
+      "processedAt": "2026-05-09T00:54:36.339Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-adds-web-adapter-support": {
+      "contentHash": "fa70b03356b941ae65de4839be523caf4d71aa4d883bca5d1ef3969dd7e368c3",
+      "processedAt": "2026-05-09T00:54:36.996Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-conversation-history": {
+      "contentHash": "2659396f8a75fe079b525346dd7958f69acaccbfe68669233b069601a23a1db6",
+      "processedAt": "2026-05-09T00:54:37.644Z"
+    },
+    "https://vercel.com/changelog/next-js-may-2026-security-release": {
+      "contentHash": "a0c756266086c61c153484083256bf42bfcd7c371ffaf05ef3cba6e7f0247256",
+      "processedAt": "2026-05-09T00:54:38.307Z"
+    },
+    "https://vercel.com/changelog/vercel-flags-now-supports-json-values": {
+      "contentHash": "e581c94de512d18831a5ea42b388923fa87c169bf9ecee6c4c2d40e822ecff3f",
+      "processedAt": "2026-05-09T00:54:38.850Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/05/08/140000": {
+      "contentHash": "064da22a021848fadf32fb85a0e3d1747916efe036e3e2f5bd0a2bba020fb8b0",
+      "processedAt": "2026-05-09T00:54:39.656Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/05/08/111513": {
+      "contentHash": "fcfd14a3781c085e77ef2ae000ae1f75f6c8aa50e4893034fee15ba120973d62",
+      "processedAt": "2026-05-09T00:54:39.876Z"
+    },
+    "https://tech.layerx.co.jp/entry/human-to-ai-feedback-design-pattern": {
+      "contentHash": "a6d539f687e14d596a122063a2f2cd0d79c86dbac48f2b98c3390a0bc7882a8d",
+      "processedAt": "2026-05-09T00:54:41.349Z"
+    },
+    "https://tech.layerx.co.jp/entry/snowflake-iceberg-copy-add-files-copy": {
+      "contentHash": "504177ed6a5f803c0f1d762f40d0d03e3a7d24dff72f854e1e5182481faaef49",
+      "processedAt": "2026-05-09T00:54:41.938Z"
+    },
+    "https://www.nngroup.com/articles/designing-ai-agents/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "0b7b9a53e1aff377370cf9b85d8fad73c38086129fcae093d0e22a25658dddd8",
+      "processedAt": "2026-05-09T00:54:43.210Z"
+    },
+    "https://www.nngroup.com/articles/ux-writing-faqs/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "21b54eb922c45b6bac92404fbf9197fc7cd8b565ebe8a52ef9a5b2703f64f46d",
+      "processedAt": "2026-05-09T00:54:44.333Z"
+    },
+    "https://uxmag.com/articles/designing-small-is-harder-than-designing-big": {
+      "contentHash": "c3616aa9b03b3a1a09abdc2d724e92f21e52b2d5336b0d712a0bf3469be7b5f7",
+      "processedAt": "2026-05-09T00:54:45.594Z"
+    },
+    "https://react.statuscode.com/issues/473": {
+      "contentHash": "e40d67b4e439b97f5f52808714596f1bb8f282128c68d51a0a5af061162ed78f",
+      "processedAt": "2026-05-09T00:54:46.118Z"
     }
   },
-  "lastRun": "2026-05-07T00:54:33.270Z"
+  "lastRun": "2026-05-09T00:54:46.118Z"
 }
