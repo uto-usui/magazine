@@ -29023,7 +29023,71 @@
     "https://react.statuscode.com/issues/473": {
       "contentHash": "e40d67b4e439b97f5f52808714596f1bb8f282128c68d51a0a5af061162ed78f",
       "processedAt": "2026-05-09T00:54:46.118Z"
+    },
+    "https://engineering.fb.com/2026/05/11/security/labyrinth-1-1-end-to-end-encrypted-e2ee-backups-more-reliable/": {
+      "contentHash": "3093ec579478dd8ba3bb387cdcee7da724c2d0521b3e0a18982642228f83a0f6",
+      "processedAt": "2026-05-12T00:52:20.293Z"
+    },
+    "https://a11yweekly.com/issue/499/": {
+      "contentHash": "9c50b41f658a2a016ce472aaac269b340fcf90057d5768ece7e79a7af5788b99",
+      "processedAt": "2026-05-12T00:52:20.593Z"
+    },
+    "https://bit.ly/side-pie3": {
+      "contentHash": "231e441f0cb7c958e983af9e4237fa5a2627a83305098313242a9d15afcadfca",
+      "processedAt": "2026-05-12T00:52:21.522Z"
+    },
+    "https://www.oreilly.com/radar/the-organization-is-the-bottleneck/": {
+      "contentHash": "73b25f4058a89f5b7ff0f856372dab3df8e4166535e198f2a9cb1cee54792c5e",
+      "processedAt": "2026-05-12T00:52:22.012Z"
+    },
+    "https://thariqs.github.io/html-effectiveness/": {
+      "contentHash": "b6cb536ce6d23145ed1dbc43d41474facdd361a91bca5ea1794dbe87d5f7d8d6",
+      "processedAt": "2026-05-12T00:52:22.184Z"
+    },
+    "https://bryanmanio.com/blog/all-aboard-the-voice-to-text-train/": {
+      "contentHash": "6e3183e68b398afc75644c5d8176a6b5ed293eab7824592ac38fa88a06b61651",
+      "processedAt": "2026-05-12T00:52:22.943Z"
+    },
+    "https://perthirtysix.com/how-the-heck-does-shazam-work": {
+      "contentHash": "cef02065c2e9308397885c74da314019c083ff093c59160596a96d7f0fd2e79c",
+      "processedAt": "2026-05-12T00:52:29.873Z"
+    },
+    "https://tympanus.net/codrops/2026/05/11/lemma-studio-building-the-feeling-behind-the-screen/": {
+      "contentHash": "efc5a90799d6d4203ffee1829c6b4141c90c6680f53223769e3efe413022b52c",
+      "processedAt": "2026-05-12T00:52:31.248Z"
+    },
+    "https://vercel.com/changelog/progressive-rollouts-in-vercel-flags": {
+      "contentHash": "87de3530d7bed4c23d47a74809ec243fa332ca28953861033c7e9f418e905777",
+      "processedAt": "2026-05-12T00:52:31.793Z"
+    },
+    "https://vercel.com/changelog/vercel-sandbox-firewall-now-supports-request-proxying-and-filtering": {
+      "contentHash": "ed652423176e5fa74bc2e6d1dab00b6f91a57716392237509efb9f3fc61e70e0",
+      "processedAt": "2026-05-12T00:52:32.376Z"
+    },
+    "https://vercel.com/blog/how-superset-built-the-ide-for-ai-agents-on-vercel": {
+      "contentHash": "e302d3ccf291f9f8bdaa19a18643657de8341303d47c18bdf7ff60c7aee0546b",
+      "processedAt": "2026-05-12T00:52:33.116Z"
+    },
+    "https://stripe.com/blog/vertical-saas-insights-sessions-2026": {
+      "contentHash": "bcd4588569751aa01d22b3c50fe6eaea9f1ea152d5c098ed8b0ccf7613e4d396",
+      "processedAt": "2026-05-12T00:52:33.675Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/05/11/154638": {
+      "contentHash": "e7ed7b4dac67430bb0865ac6ca250dd2b5541f148c44f98efbaea659b8d981ab",
+      "processedAt": "2026-05-12T00:52:36.429Z"
+    },
+    "https://newsletter.uxdesign.cc/p/the-prompt-is-not-an-interface": {
+      "contentHash": "ee00a5761bac6a6ec16051624981eef53179087e14376c4dc43f3bcf66c064a2",
+      "processedAt": "2026-05-12T00:52:36.697Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-may-10-2026/": {
+      "contentHash": "d540920997332ee6cc4bfe5e21229eb280d3fbf63ebfd34ea7197b6685d0c3c3",
+      "processedAt": "2026-05-12T00:52:37.885Z"
+    },
+    "https://uxmag.com/articles/ai-fails-silently-a-systems-perspective-on-ai-reliability": {
+      "contentHash": "975238afa185a54c9ff64d658aff9ed4998a34f0b5aafa4ac8616acbbcbbe9c8",
+      "processedAt": "2026-05-12T00:52:39.413Z"
     }
   },
-  "lastRun": "2026-05-10T00:56:34.794Z"
+  "lastRun": "2026-05-12T00:52:39.413Z"
 }
