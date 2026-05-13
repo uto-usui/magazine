@@ -29087,7 +29087,83 @@
     "https://uxmag.com/articles/ai-fails-silently-a-systems-perspective-on-ai-reliability": {
       "contentHash": "975238afa185a54c9ff64d658aff9ed4998a34f0b5aafa4ac8616acbbcbbe9c8",
       "processedAt": "2026-05-12T00:52:39.413Z"
+    },
+    "https://engineering.fb.com/2026/05/12/data-infrastructure/migrating-data-ingestion-systems-at-meta-scale/": {
+      "contentHash": "e26044d247d3edd606263f25db922dd5d6f705da0d16836f8bc7075ee6df9808",
+      "processedAt": "2026-05-13T00:56:54.615Z"
+    },
+    "https://csswizardry.com/2026/05/meet-your-users-where-they-are-with-obs-js/": {
+      "contentHash": "9b8e388b2b2121a514dc3e63836b6e5354a063a298fb7aaec9d8dfe6e906321a",
+      "processedAt": "2026-05-13T00:56:55.888Z"
+    },
+    "https://csswizardry.com/2025/08/obs-js-context-aware-web-performance/": {
+      "contentHash": "9c3a8418901663bd8319939a502b0990cbe9babc357a951099ffe765327ba858",
+      "processedAt": "2026-05-13T00:56:56.630Z"
+    },
+    "https://www.lukew.com/ff/entry.asp?2152": {
+      "contentHash": "75a3a3fd26e00cf825ac919c0b67a0f508dd02fd037ec57477bcde1b55c306cb",
+      "processedAt": "2026-05-13T00:56:56.926Z"
+    },
+    "https://sinceyouarrived.world/taken": {
+      "contentHash": "ef0dd25cad098efe7154d8b98ec69a9965a8cc484f1ec6fc8510e8b7975dbd21",
+      "processedAt": "2026-05-13T00:57:02.254Z"
+    },
+    "https://larsfaye.com/articles/agentic-coding-is-a-trap": {
+      "contentHash": "12d24f3af3f5dff1e3b1c256e332570635fb696522059c434966f295dbc4ece0",
+      "processedAt": "2026-05-13T00:57:02.819Z"
+    },
+    "https://boat.horse/clock/": {
+      "contentHash": "3aa5a7c5aca0dc2bdaa2e1c70e0d2b844212ebcc7a8faac6a4ef849eb9af63b3",
+      "processedAt": "2026-05-13T00:57:05.268Z"
+    },
+    "https://www.terrygodier.com/the-boring-internet": {
+      "contentHash": "ea5d1c977951fb2af673f25f56d1c87bd3530420f562a5fd145d0bcbaeb34f32",
+      "processedAt": "2026-05-13T00:57:05.686Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/revisiting-no-silver-bullets-in-the": {
+      "contentHash": "e2eefbf79d6a5bb028dead9cb30452db11f0e1bfb585b6d7c25393805c387b33",
+      "processedAt": "2026-05-13T00:57:05.984Z"
+    },
+    "https://bradfrost.com/blog/link/the-boring-internet-terry-godier/": {
+      "contentHash": "dd5c31c33ba889fe94273fe05720a2c35f1e2eee4d10a6d358ca07fb7fe58117",
+      "processedAt": "2026-05-13T00:57:11.786Z"
+    },
+    "https://vercel.com/changelog/create-vercel-waf-custom-rules-using-natural-language": {
+      "contentHash": "abf269a3b78d8f7833c57b66c4ac84b73660ad9f1f49009c283fe10928434a7c",
+      "processedAt": "2026-05-13T00:57:12.443Z"
+    },
+    "https://vercel.com/changelog/fast-mode-for-opus-4-7-available-on-ai-gateway": {
+      "contentHash": "b34a31f6bf7e959a7e2a35619b95d7db6b4278dc31880d363a4d8ade8185c00c",
+      "processedAt": "2026-05-13T00:57:13.103Z"
+    },
+    "https://vercel.com/changelog/manage-vercel-firewall-in-the-cli": {
+      "contentHash": "03f5a3a6f9d7020e32307dac1787c27be05861bd4d97f61722dcd5c48b95ae33",
+      "processedAt": "2026-05-13T00:57:13.641Z"
+    },
+    "https://vercel.com/changelog/node-js-26-x-now-available-on-vercel-sandboxes": {
+      "contentHash": "29c889c3688f732d0da55dae4adc547d430c021fcf71a83fbf7a14de85643d45",
+      "processedAt": "2026-05-13T00:57:14.215Z"
+    },
+    "https://www.figma.com/blog/what-the-design-to-code-loop-unlocks/": {
+      "contentHash": "95811812a2311c27ac444b6a1382417dbd99a12c10550c02378e73fded77713e",
+      "processedAt": "2026-05-13T00:57:48.027Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/05/12/153901": {
+      "contentHash": "c95eb20c184682ec3215d22acdb18b856462960f1eec5ace7c2b3083c1d9d530",
+      "processedAt": "2026-05-13T00:57:48.868Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/05/12/125409": {
+      "contentHash": "8ee62324914c13b2b97f7556c65516261e094ea2e0788ac191908259ffec1814",
+      "processedAt": "2026-05-13T00:57:49.531Z"
+    },
+    "https://uxmag.com/articles/gamification-2-0-beyond-points-and-badges-designing-for-players-not-metrics-chapter-1-the-problem": {
+      "contentHash": "2c2c6ddb2dbe4659f1cebf40c42fad198308a3644246da9346e24e570a9e40b3",
+      "processedAt": "2026-05-13T00:57:51.349Z"
+    },
+    "http://testing.googleblog.com/2026/05/code-review-responses-add-context-when.html": {
+      "contentHash": "4a7df0c0c20e1028d09d4977f8b789606d2afaf4ea92109cca848b6501986fdc",
+      "processedAt": "2026-05-13T00:57:52.302Z"
     }
   },
-  "lastRun": "2026-05-12T00:52:39.413Z"
+  "lastRun": "2026-05-13T00:57:52.302Z"
 }
