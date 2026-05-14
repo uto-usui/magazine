@@ -29163,7 +29163,67 @@
     "http://testing.googleblog.com/2026/05/code-review-responses-add-context-when.html": {
       "contentHash": "4a7df0c0c20e1028d09d4977f8b789606d2afaf4ea92109cca848b6501986fdc",
       "processedAt": "2026-05-13T00:57:52.302Z"
+    },
+    "https://engineering.fb.com/2026/05/13/ml-applications/reel-friends-building-social-discovery-that-scales-to-billions/": {
+      "contentHash": "c36878ce32d0e5b790ddd5b470f98477f05378110a5f485408787a4605a3c8d6",
+      "processedAt": "2026-05-14T00:58:13.786Z"
+    },
+    "https://www.shapes.gg/renovate-with-figma/": {
+      "contentHash": "5e3d44be19cc8c88b0c1be7f99a29890f00aec6382efa5e8012d26fad0ca25c7",
+      "processedAt": "2026-05-14T00:58:14.379Z"
+    },
+    "https://andymatuschak.org/tat/": {
+      "contentHash": "7467885f144d19412cb06c7d9e60ba9847fe6e837bfc93d7f779444a8de12c33",
+      "processedAt": "2026-05-14T00:58:15.370Z"
+    },
+    "https://science.nasa.gov/specials/your-name-in-landsat/": {
+      "contentHash": "c02d94cce8cd5736c5da0ea4f05391611a98f3066b6e79efb3cc05808392f189",
+      "processedAt": "2026-05-14T00:58:15.566Z"
+    },
+    "https://audio.raphaelsalaja.com/": {
+      "contentHash": "125e701992e6813c9941e9f7f504c3347fa77047726785579634f224f0b085c4",
+      "processedAt": "2026-05-14T00:58:16.192Z"
+    },
+    "https://piccalil.li/blog/three-stoic-principles-for-better-web-accessibility/": {
+      "contentHash": "a94c263ce0bc80c86a2855a5753df0e43b1565335fc345d48cb31d21e8e927ed",
+      "processedAt": "2026-05-14T00:58:16.874Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/typescript-c-and-turbo-pascal-with": {
+      "contentHash": "3cd97017b04076db34e4231680f4c6a7b613a91b768a109c1dd66203ef07d462",
+      "processedAt": "2026-05-14T00:58:17.532Z"
+    },
+    "https://tympanus.net/codrops/2026/05/13/exploring-the-html-in-canvas-proposal/": {
+      "contentHash": "90908f7322d633d274a8b52af79c00301d7959674f790ec1b77a3c2e5396cc64",
+      "processedAt": "2026-05-14T00:58:18.968Z"
+    },
+    "https://smashingmagazine.com/2026/05/practical-interface-patterns-ai-transparency/": {
+      "contentHash": "db71ee108ec051d7abddd33e73b4b1b238febb826615bce008a20f4587706309",
+      "processedAt": "2026-05-14T00:58:20.974Z"
+    },
+    "https://vercel.com/changelog/trusted-sources-for-deployment-protection": {
+      "contentHash": "91b7aa2be5262e463ad732fea640ac816a075b0b4a08b1aaf4f35e1fef2c48ce",
+      "processedAt": "2026-05-14T00:58:21.892Z"
+    },
+    "https://vercel.com/blog/ai-gateway-production-index": {
+      "contentHash": "7a69911b1e12925402bcbd5378434ac373c2b183772ee458b0d1573b097f9714",
+      "processedAt": "2026-05-14T00:58:22.660Z"
+    },
+    "https://frontendfoc.us/issues/741": {
+      "contentHash": "8d286151c11068626c01a49b4b8d34b89af4e7c8e3c610d3fbe4751ee3208f72",
+      "processedAt": "2026-05-14T00:58:23.547Z"
+    },
+    "https://efcl.info/2026/05/13/automerge-gate/": {
+      "contentHash": "7521ac11ead95a08d9914bbd0c6486edd43ac928b47109b5ca8eb41179ca2422",
+      "processedAt": "2026-05-14T00:58:24.476Z"
+    },
+    "https://www.speedcurve.com/blog/may-13-postmortem": {
+      "contentHash": "78710632d6926207f745775c8fdb69000993d617ea4ea9c4eff25d8bd87350ef",
+      "processedAt": "2026-05-14T00:58:25.382Z"
+    },
+    "https://thisweekinreact.com/newsletter/281": {
+      "contentHash": "590793aedb9d55f9a55956be8f88d88a5b374cec3c128902c7a1351ef2365561",
+      "processedAt": "2026-05-14T00:58:25.880Z"
     }
   },
-  "lastRun": "2026-05-13T00:57:52.302Z"
+  "lastRun": "2026-05-14T00:58:25.880Z"
 }
