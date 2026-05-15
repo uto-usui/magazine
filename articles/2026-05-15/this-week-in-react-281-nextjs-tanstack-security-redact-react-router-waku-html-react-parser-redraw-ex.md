@@ -1,0 +1,168 @@
+---
+title: "This Week In React #281: Next.js, TanStack, Security, Redact, React Router, Waku, HTML React Parser | Redraw, Expo, Tabs, Screens, Pressable, Activity, Strict DOM, Rock, SWC, Argent Rozenite | TC39, Rolldown, Node, Jest, Bun, npm, Playwright"
+source: "https://thisweekinreact.com/newsletter/281"
+publishedDate: "2026-05-13"
+category: "frontend"
+feedName: "This Week In React"
+---
+
+Hi everyone, [Seb](https://x.com/sebastienlorber) and [Jan](https://x.com/jaworek3211) here 👋!
+
+This week, security is making headlines, as two major React frameworks have announced vulnerabilities and compromised npm packages!
+
+William Candillon unveiled his secret project: a new set of 2D primitives for React Native and the web.
+
+It’s also an exciting week full of interesting releases all around the JS ecosystem!
+
+Let's dive in!
+
+As always, thanks for supporting us on your favorite platform:
+
+-   🦋 [Bluesky](https://slo.im/last/b)
+-   ✖️ [X / Twitter](https://slo.im/last/x)
+-   👔 [LinkedIn](https://slo.im/last/l)
+-   👽 [Reddit](https://slo.im/last/r)
+
+**Don't miss the next email!**
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+[![ AI That Gets React Native on Fire TV ](https://thisweekinreact.com/emails/issues/281/amazon.jpg)](https://fandf.co/42isydS)
+
+ **[AI That Gets React Native on Fire TV](https://fandf.co/42isydS)** 
+
+We built an MCP server for Vega OS, our new React Native TV platform for Fire TV. 
+
+Amazon Devices Builder Tools MCP gives your AI agent deep platform context, so instead of generic React Native suggestions, your agent understands how to scaffold correctly, integrate platform features, and follow Vega conventions. 
+
+Explore building for TV without the friction of learning a new platform from scratch. It's a step toward making our developer tooling as modern as the platform itself. [One command to install.](https://fandf.co/42isydS)
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+## ⚛️ React[​](#react "Direct link to ⚛️ React")
+
+[![Next.js May 2026 security release](https://thisweekinreact.com/emails/issues/281/nextjs.jpg)](https://vercel.com/changelog/next-js-may-2026-security-release)
+
+**[Next.js May 2026 security release](https://vercel.com/changelog/next-js-may-2026-security-release)**
+
+The Next.js team shipped a coordinated security release fixing 13 vulnerabilities across denial of service, middleware/proxy bypass, server-side request forgery, cache poisoning, XSS. Many vulnerabilities are quite impactful, cannot be blocked by cloud firewalls, and it’s recommended to update immediately to a patched version, v15.5.18 or v16.2.6. There’s also a Server Functions denial of service affecting React RSC packages, fixed in v19.2.6.
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+[![TanStack npm supply-chain compromise](https://thisweekinreact.com/emails/issues/281/tanstack.jpg)](https://tanstack.com/blog/npm-supply-chain-compromise-postmortem)
+
+**[TanStack npm supply-chain compromise](https://tanstack.com/blog/npm-supply-chain-compromise-postmortem)**
+
+On May 11, an attacker published malicious versions across 42 `@tanstack/*` npm packages related to TanStack Router. Although the attack was detected quickly, its payload is a [Mini Shai-Hulud worm](https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised) that infected other maintainers, leading to other compromised packages across npm and pypi ecosystems, including packages from Mistral AI, OpenSearch, UiPath, and more.
+
+The attack vector was sneaky. A GitHub Action with a `pull_request_target` trigger was used to inject poisoned content into a shared GitHub Action pnpm cache. Then, their release pipeline read from that poisoned cache, restoring dangerous files that executed during the release process. No maintainer was hacked in the process. The npm releases have the Trusted Publishing checkmark despite being compromised, showing that package provenance does not guarantee its content is safe.
+
+Given the increasing number of supply chain vulnerabilities affecting npm packages, it’s good to highlight measures that maintainers and users can take to stay safe:
+
+-   📜 [Hardening TanStack After the npm Compromise](https://tanstack.com/blog/incident-followup) - Gives a good overview of what maintainers can do to reduce the supply chain risk. Low-hanging fruits include avoiding the very dangerous `pull_request_target` trigger, and removing usage of shared caches in sensitive workflow (note: actions such as `setup-node` using a cache by default).
+-   🔗 [npm package manager Security Best Practices](https://github.com/lirantal/npm-security-best-practices) - A canonical resource to protect yourself as an npm package consumer, giving pragmatic recommendations for each package manager. IMHO, combining the Socket Firewall with pnpm 11 is likely the best option right now.
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+-   💸 [Product for Engineers - Great companies are built in hackathons](https://go.posthog.com/twir-may13)
+-   📜 [Projecting React](https://tannerlinsley.com/posts/projecting-react) - Tanner Linsley wants React to be slimmer, tried Preact without success. He compares React API to database tables, and its implementation to a materialized view. With AI, he’s creating a different `@@tanstack/redact` projection, one optimized for TanStack Start, significantly smaller, that already powers `tanstack.com`. It’s a narrow experiment, not something he plans to market as an alternative to React. In the future, more devs will likely build optimized projections of the libraries they depend on.
+-   📜 [RSC Server Functions Are Not An API Boundary](https://longho.dev/posts/rsc-server-functions-are-not-an-api-boundary/) - Server Functions are not a replacement for stable, observable, versioned, shared APIs. The generated Server Function ID can change over time as you refactor code, leading to version skew problems on redeploys. Note: cloud providers have skew protection features to mitigate this.
+-   📜 [Untangling dialogs in React Router](https://programmingarehard.com/2026/05/06/react-router-dialogs.html/) - Everything you need to know to simplify your code by using a parent `<Outlet>` and making each dialog live on its own dedicated route. Covers data revalidation, flash session toasts, dialog exit animations and more.
+-   📜 [Animating Container Bounds](https://www.userinterface.wiki/animating-container-bounds) - How to smoothly animate an element’s width/height based on its inner content with Motion.
+-   📜 [Security in React Applications](https://certificates.dev/blog/security-in-react-applications) - Prevent XSS, store tokens securely, validate inputs, use CSFR and CSPs.
+-   📜 [From React to native web with nanotags: a migration that saved 100 KB](https://evilmartians.com/chronicles/from-react-to-native-web-with-nanotags-a-migration-that-saved-100kb) - For a mostly static marketing site using Astro templates, it can be more efficient to hydrate Custom Elements rather than React.
+-   📜 [Exploring the HTML-in-Canvas Proposal](https://tympanus.net/codrops/2026/05/13/exploring-the-html-in-canvas-proposal/) - It could simplify integration 2D UIs in 3D worlds, in particular for React Three Fiber creative devs.
+-   💸 [SVAR React Gantt – Build interactive project timelines with an open-source React Gantt library.](https://github.com/svar-widgets/react-gantt)
+-   📦 [Waku 1.0 beta](https://waku.gg/blog/waku-v1-beta) - The minimal RSC framework first beta marks our shift toward production readiness. It recently added support for Vite 8, Rolldown, Node 26, React performance tracks, flexible routing, CSP, and more.
+-   📦 [Jotai 2.20 - Improves performance in high-throughput scenarios, refactor store building blocks](https://newsletter.daishikato.com/p/jotai-v2-20-0-and-the-store-building-blocks)
+-   📦 [HTML React Parser 6.1 - add CSP support with `trustedTypePolicy`](https://github.com/remarkablemark/html-react-parser/releases/tag/v6.1.0)
+-   🎥 [Ankita Kulkarni - Stop freezing your React apps, use this Background Trick instead](https://www.youtube.com/watch?v=mOncu3xCllw)
+-   🎥 [Shruti Kapoor - Five Minute Deep Dive: React Server Components](https://www.youtube.com/watch?v=5QM7XjbqDug)
+-   🎥 [Josef Bender - I hacked a TanStack Start app...](https://www.youtube.com/watch?v=XSmpScSiPhw)
+-   🎙️ [Syntax.fm 1004 - TanHacked](https://syntax.fm/show/1004/tanhacked)
+
+**Don't miss the next email!**
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+[![Tests are dead - Meticulous is here](https://thisweekinreact.com/emails/issues/281/meticulous.jpg)](https://www.meticulous.ai/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=26q2&utm_content=2nd)
+
+**[Tests are dead - Meticulous is here](https://www.meticulous.ai/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=26q2&utm_content=2nd)**
+
+Meticulous creates and maintains an exhaustive suite of e2e ui tests with **zero** developer effort. 
+
+This quote from the CTO of Traba sums the product up best: "Meticulous has fundamentally changed the way we approach frontend testing in our web applications, fully eliminating the need to write any frontend tests. The software gives us confidence that every change will be completely regression tested, allowing us to ship more quickly with significantly fewer bugs in our code. The platform is easy to use and reduces the barrier to entry for backend-focused devs to contribute to our frontend codebase."
+
+Meticulous is used by companies like Notion, Dropbox, Wiz, LaunchDarkly, and many others.
+
+This [post](https://www.meticulous.ai/blog/lessons-from-a-decade?utm_source=thisweekinreact&utm_campaign=26q2&utm_content=2nd) from our CTO sets out the context of why exhaustive testing can double engineering velocity.
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+## 📱 React-Native[​](#react-native "Direct link to 📱 React-Native")
+
+[![Redraw - 2D graphics primitives, powered by WebGPU](https://thisweekinreact.com/emails/issues/281/redraw.jpg)](https://wcandillon.github.io/redraw/)
+
+**[Redraw - 2D graphics primitives, powered by WebGPU](https://wcandillon.github.io/redraw/)**
+
+In an [amazing introduction video](https://www.youtube.com/watch?v=nGLCmY7tdz4), William Candillon presented what he’s been secretly working on for months: a new grade of 2D graphics primitives, powered by WebGPU. It’s still a technical preview and not open-source yet, but William is looking to make it source-available soon with a license that makes it sustainable.
+
+It all started with "Can it be done in React Native?", led to Skia on native, then WebGPU for unified 2D/3D composition across platforms. Redraw is the next step: bringing GPU-accelerated vector rendering with rich geometric information back to both native and web.
+
+What it unlocks:
+
+-   Variable strokes - stroke width driven by path geometry (tangent, arc length)
+-   Color along path - gradient callbacks mapped to arc length or distance
+-   Vector feathering - soft shadows, blur, and glow without rasterization
+-   Physically-based rendering - material effects computed directly on vector paths
+-   Non-physically-based rendering - creative effects impossible with raster pipelines
+
+Built for composability:
+
+-   Compute shaders powered via [TypeGPU](https://typegpu.com/) (optional dependency)
+-   Zero-cost integration with Skia, Three.js, PixiJS, and WebGPU
+-   Write shader logic in TypeScript, no WGSL required
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+-   💸 [Sentry - A guide to finding and fixing slow checkout requests in React Native with distributed tracing and proactive alerts.](https://sentry.io/cookbook/track-checkout-performance-react-native/?utm_source=thisweekinreact&utm_medium=paid-community&utm_campaign=&utm_content=newsletter-rn-link-rn-checkout-learnmore)
+-   🐦 [iOS 26 native tab icon](https://x.com/aswincode/status/2051689159723458746) - A look into how to display dynamic tab icons, what constraints Expo Router had, and what was needed to overcome them.
+-   👀 [Is React Strict DOM still active?](https://github.com/facebook/react-strict-dom/discussions/471#discussioncomment-16896278) - The project has been quiet since its initial maintainers left Meta, but it’s still used internally for new projects. Meta product engineers and community members are stepping in.
+-   📜 [React Native Pressable faster than gesture handler](https://www.peterp.me/articles/react-native-pressable-faster-than-gesture-handler/) - A deep dive into why Gesture Handler adds additional cost compared to RN Pressable and Reanimated’s CSS transition API
+-   📜 [The Hidden Cost of React.Activity](https://www.peterp.me/articles/hidden-cost-of-react-activity/) - `<Activity>` is different from keeping a screen mounted but invisible. Heavy use of useEffect can badly impact performance when a screen becomes visible again.
+-   📜 [Meet Argent: Agentic Toolkit to Control, Debug and Profile iOS applications](https://swmansion.com/blog/argent-agentic-toolkit-to-control-debug-and-profile-ios-applications/) - Gives coding agents direct access to the iOS Simulator, helpful to inspect and debug RN iOS apps.
+-   📜 [Beyond 60fps - Real-time CAN Bus dashboard with Nitro Modules and Skia](https://shift.infinite.red/beyond-60-fps-building-a-real-time-can-bus-dashboard-with-nitro-modules-and-skia-d0f564f8d239) - A minor hobby-project issue turned into a deep look into how RN communication between native and JS works.
+-   📜 [Expo without EAS: Scaling the React Native developer experience of an app with 90M+ users](https://medium.com/doctolib/expo-without-eas-scaling-the-react-native-developer-experience-of-an-app-with-90m-users-2694ea841805) - Practical migration story from React Native to Expo at Doctolib, a popular healthcare app. It explains why EAS wasn’t a good fit for their setup, and how Callstack’s Rock modular toolkit helped them improve their build flow.
+-   📦 [Expo SDK 56 Beta - Stable Expo UI, faster builds, improved startup performance on Android, RN 0.85](https://expo.dev/changelog/sdk-56-beta) - As always, a very long changelog with many improvements, that we’ll cover in depth once stable.
+-   📦 [React Native SWC - SWC-powered transformer & minifier for Metro](https://github.com/oblador/react-native-swc) - SWC recently added Flow supports, making it possible to fully replace Babel by SWC in RN’s transpilation pipeline. ~8x faster transform worker & full real world bundling ~3x faster.
+-   📦 [Sentry SDK 8.10+ - OTA update context, build failures, emergency launch detection, performance spans for prefetching, image/asset loading instrumentation](https://blog.sentry.io/debugging-expo-react-native-sdk/)
+-   📦 [Mobile Ink - iOS Skia/Metal drawing and continuous canvas primitives](https://github.com/mobile-ink/mobile-ink)
+-   📦 [Nitro Fetch 1.2 - Native-side prefetching registration, web stub](https://github.com/margelo/react-native-nitro-fetch/releases/tag/v1.2.0)
+-   📦 [Nitro Markdown 0.6 - RaTex math renderer, native release hardening, refreshed example benchmarks/docs](https://github.com/JoaoPauloCMarra/react-native-nitro-markdown/releases/tag/v0.6.0)
+-   📦 [Rock 0.13 - Experimental support for CNG & Expo Config Plugins, validate Android 16KB ELF alignment](https://github.com/callstackincubator/rock/releases/tag/v0.13.0)
+-   📦 [RN Screens 4.25 - Drops the Legacy Architecture, Tabs API in RC, many Tabs user-facing improvements](https://github.com/software-mansion/react-native-screens/releases/tag/4.25.0)
+-   📦 [Rozenite 1.9 - storage-plugin replaces mmkv-plugin, new react-hook-form plugin](https://github.com/callstackincubator/rozenite/releases/tag/v1.9.0)
+-   🎙️ [RNR 352 - Storybook with Daniel Williams](https://infinite.red/react-native-radio/rnr-352-storybook-with-daniel-williams)
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+## 🔀 Other[​](#other "Direct link to 🔀 Other")
+
+-   👀 [TC39 - Agenda for the 114th meeting - May 19-21](https://github.com/tc39/agendas/blob/main/2026/05.md) - A packed agenda, many proposals could progress next week, including Iterators, Explicit Resource Management, and more.
+-   📦 [Rolldown 1.0](https://voidzero.dev/posts/announcing-rolldown-1-0) - The high-performance Rust-based bundler is now stable and respects semantic versioning. It’s already powering Vite 8 as a 10-30x faster alternative to Rollup. Bundling in dev is on the roadmap to overcome the performance limitation of serving individual ESM files.
+-   📦 [Node.js 26.1 - Experimental `node:ffi` module](https://nodejs.org/en/blog/release/v26.1.0) - A promising Foreign Function Interface module for loading dynamic libraries and integrating with native languages.
+-   📦 [Jest 30.4 - Support for `require(esm)`](https://github.com/jestjs/jest/issues/9430#issuecomment-4400281169) - Jest’s ESM support has been fully rewritten. It still requires the Node.js `--experimental-vm-modules` flag, but the Node.js team is working on stabilizing that feature.
+-   📦 [Bun 1.3.14 - Built-in image processing, global install virtual store, HTTP improvements](https://bun.com/blog/bun-v1.3.14) - Speaking of Bun, a Rust port was previously disclosed and framed as an experiment. It turns out Bun may actually [migrate from Zig to Rust in the near future](https://x.com/jarredsumner/status/2053808438644445230).
+-   📦 [npm 11.4 - allow-directory, allow-file, allow-remote](https://github.com/npm/cli/releases/tag/v11.14.0) - New opt-in npm CLI security features, similar to pnpm’s `blockExoticSubdeps`.
+-   📦 [Playwright 1.60 - Drop API, Aria snapshots, HAR recording](https://github.com/microsoft/playwright/releases/tag/v1.60.0) - You can now simulate drag-and-drop, and snapshot the accessibility tree.
+-   📦 [pnpm 11.1 - Named registries, new useful commands](https://pnpm.io/blog/releases/11.1)
+-   📦 [Tailwind CSS 4.3 - Scrollbars, new colors, and more](https://tailwindcss.com/blog/tailwindcss-v4-3)
+-   📦 [Astro 6.3 - Experimental advanced routing, first-class Hono support](https://astro.build/blog/astro-630/)
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+## 🤭 Fun[​](#fun "Direct link to 🤭 Fun")
+
+[![alt](https://thisweekinreact.com/emails/issues/281/meme.jpg)](https://x.com/_colemurray/status/2054009070303191054)
+
+See ya! 👋

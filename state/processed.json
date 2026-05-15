@@ -29163,7 +29163,115 @@
     "http://testing.googleblog.com/2026/05/code-review-responses-add-context-when.html": {
       "contentHash": "4a7df0c0c20e1028d09d4977f8b789606d2afaf4ea92109cca848b6501986fdc",
       "processedAt": "2026-05-13T00:57:52.302Z"
+    },
+    "https://engineering.fb.com/2026/05/13/ml-applications/reel-friends-building-social-discovery-that-scales-to-billions/": {
+      "contentHash": "c36878ce32d0e5b790ddd5b470f98477f05378110a5f485408787a4605a3c8d6",
+      "processedAt": "2026-05-15T00:55:40.147Z"
+    },
+    "https://github.blog/engineering/architecture-optimization/from-latency-to-instant-modernizing-github-issues-navigation-performance/": {
+      "contentHash": "607dfed9366986e814935915d5be6ce70e81d4e2181dffb175a8baf72402cb8b",
+      "processedAt": "2026-05-15T00:55:41.565Z"
+    },
+    "https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/": {
+      "contentHash": "c51a8b9fd4d13bfd8b1f125929c1739ca97bcbac57cddefc1874d666e92d97c2",
+      "processedAt": "2026-05-15T00:55:42.019Z"
+    },
+    "https://3dsvg.design/": {
+      "contentHash": "a3396c40b197d233f16ddab635d8c6033ea8f9e5795f1c83f4ebbd0edfa71604",
+      "processedAt": "2026-05-15T00:56:02.846Z"
+    },
+    "https://chriscoyier.net/2026/04/28/when-sites-need-to-walk-away/": {
+      "contentHash": "d040cec749d6348787579300cbbe56e974705b579596811c8aeee4f033356c66",
+      "processedAt": "2026-05-15T00:56:03.237Z"
+    },
+    "https://www.nudges.fyi/": {
+      "contentHash": "9514ef44b674896f217a58e4eb7ff1911dc55d3c1542ade016c8413ad3f8537d",
+      "processedAt": "2026-05-15T00:56:08.119Z"
+    },
+    "https://contralabs.com/research/human-creativity-benchmark": {
+      "contentHash": "35fa19fa04f4c679487fa5e52176d78bd0f358723165aae2fe4d85efc2653715",
+      "processedAt": "2026-05-15T00:56:11.833Z"
+    },
+    "https://www.shapes.gg/renovate-with-figma/": {
+      "contentHash": "5e3d44be19cc8c88b0c1be7f99a29890f00aec6382efa5e8012d26fad0ca25c7",
+      "processedAt": "2026-05-15T00:56:12.945Z"
+    },
+    "https://andymatuschak.org/tat/": {
+      "contentHash": "7467885f144d19412cb06c7d9e60ba9847fe6e837bfc93d7f779444a8de12c33",
+      "processedAt": "2026-05-15T00:56:13.710Z"
+    },
+    "https://science.nasa.gov/specials/your-name-in-landsat/": {
+      "contentHash": "c02d94cce8cd5736c5da0ea4f05391611a98f3066b6e79efb3cc05808392f189",
+      "processedAt": "2026-05-15T00:56:13.835Z"
+    },
+    "https://audio.raphaelsalaja.com/": {
+      "contentHash": "125e701992e6813c9941e9f7f504c3347fa77047726785579634f224f0b085c4",
+      "processedAt": "2026-05-15T00:56:14.981Z"
+    },
+    "https://piccalil.li/blog/three-stoic-principles-for-better-web-accessibility/": {
+      "contentHash": "a94c263ce0bc80c86a2855a5753df0e43b1565335fc345d48cb31d21e8e927ed",
+      "processedAt": "2026-05-15T00:56:15.744Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-forward-deployed-engineering": {
+      "contentHash": "a1b871079acbbd4842b70f00f5b2fee834376bcded46c81a5b57b73ced86f04a",
+      "processedAt": "2026-05-15T00:56:16.100Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/typescript-c-and-turbo-pascal-with": {
+      "contentHash": "3cd97017b04076db34e4231680f4c6a7b613a91b768a109c1dd66203ef07d462",
+      "processedAt": "2026-05-15T00:56:16.616Z"
+    },
+    "https://tympanus.net/codrops/2026/05/14/designing-ourselves-the-new-obys-identity-and-website/": {
+      "contentHash": "4fafeea05e203146750e106e71efe009d93756843d1ba1dcd08216b83a733cd7",
+      "processedAt": "2026-05-15T00:56:18.084Z"
+    },
+    "https://tympanus.net/codrops/2026/05/13/exploring-the-html-in-canvas-proposal/": {
+      "contentHash": "90908f7322d633d274a8b52af79c00301d7959674f790ec1b77a3c2e5396cc64",
+      "processedAt": "2026-05-15T00:56:19.330Z"
+    },
+    "https://smashingmagazine.com/2026/05/practical-interface-patterns-ai-transparency/": {
+      "contentHash": "db71ee108ec051d7abddd33e73b4b1b238febb826615bce008a20f4587706309",
+      "processedAt": "2026-05-15T00:56:21.223Z"
+    },
+    "https://vercel.com/changelog/trusted-sources-for-deployment-protection": {
+      "contentHash": "91b7aa2be5262e463ad732fea640ac816a075b0b4a08b1aaf4f35e1fef2c48ce",
+      "processedAt": "2026-05-15T00:56:22.236Z"
+    },
+    "https://vercel.com/blog/ai-gateway-production-index": {
+      "contentHash": "7a69911b1e12925402bcbd5378434ac373c2b183772ee458b0d1573b097f9714",
+      "processedAt": "2026-05-15T00:56:23.027Z"
+    },
+    "https://frontendfoc.us/issues/741": {
+      "contentHash": "8d286151c11068626c01a49b4b8d34b89af4e7c8e3c610d3fbe4751ee3208f72",
+      "processedAt": "2026-05-15T00:56:23.823Z"
+    },
+    "https://efcl.info/2026/05/13/automerge-gate/": {
+      "contentHash": "7521ac11ead95a08d9914bbd0c6486edd43ac928b47109b5ca8eb41179ca2422",
+      "processedAt": "2026-05-15T00:56:24.276Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/05/14/153000": {
+      "contentHash": "b1d0756a636a89a8ae28f558439d512e114236df5985a181d59508136d760a47",
+      "processedAt": "2026-05-15T00:56:27.621Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/05/14/173940": {
+      "contentHash": "4f61b96aa47da4d31798173952377faa46df83b5afa2bb47403b7d9d1a7004bb",
+      "processedAt": "2026-05-15T00:56:28.705Z"
+    },
+    "https://uxcontent.com/the-state-of-content-design-in-china-in-2026/": {
+      "contentHash": "5c21cc09d847571ebaa5a0ccd2fda530b401cbfe183d4ff282bc8403c8c86c40",
+      "processedAt": "2026-05-15T01:02:15.052Z"
+    },
+    "https://uxmag.com/articles/the-spiral-climbs-ideas-are-expensive-systems-are-cheap": {
+      "contentHash": "373d81be033c5064ad1c959e6049a03f683d490af636b14fa2b3159140529f62",
+      "processedAt": "2026-05-15T01:02:17.854Z"
+    },
+    "https://www.speedcurve.com/blog/may-13-postmortem": {
+      "contentHash": "78710632d6926207f745775c8fdb69000993d617ea4ea9c4eff25d8bd87350ef",
+      "processedAt": "2026-05-15T01:02:18.717Z"
+    },
+    "https://thisweekinreact.com/newsletter/281": {
+      "contentHash": "590793aedb9d55f9a55956be8f88d88a5b374cec3c128902c7a1351ef2365561",
+      "processedAt": "2026-05-15T01:02:19.300Z"
     }
   },
-  "lastRun": "2026-05-13T00:57:52.302Z"
+  "lastRun": "2026-05-15T01:02:19.300Z"
 }
