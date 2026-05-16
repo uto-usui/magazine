@@ -29271,7 +29271,71 @@
     "https://thisweekinreact.com/newsletter/281": {
       "contentHash": "590793aedb9d55f9a55956be8f88d88a5b374cec3c128902c7a1351ef2365561",
       "processedAt": "2026-05-15T01:02:19.300Z"
+    },
+    "https://crookedtimber.org/2026/05/12/the-text-is-not-the-product/": {
+      "contentHash": "949e226f4413331eadb395ab74d1e5f96441a4273b969a0f8a10a68b11560d68",
+      "processedAt": "2026-05-16T00:52:54.915Z"
+    },
+    "https://feel.ifsart.com/": {
+      "contentHash": "dd519a8668cd895091aee1064a38cf2e7fb7bf2dd249ac2d451fc3e16949d0c7",
+      "processedAt": "2026-05-16T00:53:01.871Z"
+    },
+    "https://stillnight.joshua-garcia.com/": {
+      "contentHash": "827ce74e5362e6d9843feb8aed501977bf922df86b09000a4fe38a7664fd413c",
+      "processedAt": "2026-05-16T00:53:07.126Z"
+    },
+    "https://daverupert.com/2026/05/small-language-models-in-the-browser/": {
+      "contentHash": "fda5ad272dc306cd04238f6531fdf613d96f942225c5ebd297c964f2b58738b6",
+      "processedAt": "2026-05-16T00:53:07.476Z"
+    },
+    "https://uxdesign.cc/how-to-make-claude-code-follow-your-design-system-in-figma-559618cffaa9": {
+      "contentHash": "3a3c994154cdb03974c1e2aa0f3091efd4ef4de224242724823aaeec124d2763",
+      "processedAt": "2026-05-16T00:53:13.754Z"
+    },
+    "https://smashingmagazine.com/2026/05/data-backed-truths-user-experience-roi/": {
+      "contentHash": "f2290741a0f159358dc974f6ce5fa3b7dfe446c7ef814ef8ae1e9cb29060d0a9",
+      "processedAt": "2026-05-16T00:53:15.437Z"
+    },
+    "https://piccalil.li/the-index/182/?ref=main-rss-feed": {
+      "contentHash": "b274a880514d7d4c1e439f4d03170ca6d95be561ef4555aca4a2f7a2327eab66",
+      "processedAt": "2026-05-16T00:53:15.687Z"
+    },
+    "https://vercel.com/changelog/use-native-curl-syntax-with-vercel-cli": {
+      "contentHash": "b00eb498fcc6e2af39503a42079cb344b581084a43748854f45fb2f3ed44ae5e",
+      "processedAt": "2026-05-16T00:53:16.461Z"
+    },
+    "https://vercel.com/changelog/sort-providers-by-cost-latency-or-throughput-on-ai-gateway": {
+      "contentHash": "751e0d38efde4b075c45d96e4704e0d4a56a5845c92d42bffe4317064de19116",
+      "processedAt": "2026-05-16T00:53:17.304Z"
+    },
+    "https://vercel.com/changelog/protected-source-maps-ship-browser-source-maps-securely": {
+      "contentHash": "04571f51e8054225534da7e9a337ebe7a050367c43abb79af0a87fc8b33bfed3",
+      "processedAt": "2026-05-16T00:53:18.246Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/05/15/111827": {
+      "contentHash": "d81f72238823ceb21b918baa904b2ddf90415e1c5b0830733ea58a59fa03db4c",
+      "processedAt": "2026-05-16T00:53:19.045Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/05/15/100855": {
+      "contentHash": "159118d22d87b7d6f0bbefc37b8e9ef83be615810030ac712b6b6abd760e4083",
+      "processedAt": "2026-05-16T00:53:19.435Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/05/15/112547": {
+      "contentHash": "1437c152c1d05b85c19214c4255cf21d4fe0f9cb4404c31f0e59219019e4563c",
+      "processedAt": "2026-05-16T00:53:20.151Z"
+    },
+    "https://www.nngroup.com/articles/lean-design-system-teams/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "13383f52ac0e75f55287f118f417bd323cff8168567cee9b95ce9ea876d1e042",
+      "processedAt": "2026-05-16T00:53:21.165Z"
+    },
+    "https://www.nngroup.com/articles/designers-product-teams/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "8cf7f5c2a1daf6029c525baf75e9552a7acb52999c3a338229037a504a3751d4",
+      "processedAt": "2026-05-16T00:53:22.105Z"
+    },
+    "https://react.statuscode.com/issues/474": {
+      "contentHash": "a8f45360c56b143f2a41758cb1c0a84dfc16c9f9b426fe5e97a6a994fbd95e1b",
+      "processedAt": "2026-05-16T00:53:22.528Z"
     }
   },
-  "lastRun": "2026-05-15T01:02:19.300Z"
+  "lastRun": "2026-05-16T00:53:22.528Z"
 }
