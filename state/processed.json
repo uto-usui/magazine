@@ -29271,7 +29271,103 @@
     "https://thisweekinreact.com/newsletter/281": {
       "contentHash": "590793aedb9d55f9a55956be8f88d88a5b374cec3c128902c7a1351ef2365561",
       "processedAt": "2026-05-15T01:02:19.300Z"
+    },
+    "https://addyosmani.com/blog/dont-outsource-learning/": {
+      "contentHash": "9d8cd1e7086ddc8e5279bb6d989f75f2a6c9e32ac0a6a07599f3836bc21a5abb",
+      "processedAt": "2026-05-18T00:59:15.799Z"
+    },
+    "https://a11yweekly.com/issue/500/": {
+      "contentHash": "3eb5110bc5ad1561ca2732e6cdd9cb0af03b0d81bd8e53097a502f6cfd86527a",
+      "processedAt": "2026-05-18T00:59:16.171Z"
+    },
+    "https://bit.ly/side-div4": {
+      "contentHash": "9fa284f0d798384c1d3a252e62d42bca06f56b52895bfa67f289b14893cea0c0",
+      "processedAt": "2026-05-18T01:00:11.118Z"
+    },
+    "https://flowingdata.com/projects/dishonest-charts/": {
+      "contentHash": "0dda98872a0a360ef78cac5a0397391d3e5c16501e0764bcf00d940939870cb8",
+      "processedAt": "2026-05-18T01:00:11.403Z"
+    },
+    "https://thesvg.org/": {
+      "contentHash": "0e2724788f4e044ce9924ef5539563b3e69d06dba0827ce03c0eca3b9a9dab9e",
+      "processedAt": "2026-05-18T01:00:18.853Z"
+    },
+    "https://www.wallpaper.com/art/the-aesthetics-of-optimisation": {
+      "contentHash": "21bdc98527760514c0cd6557c7b91b68ed8813cba3110c4747885456d452e0e0",
+      "processedAt": "2026-05-18T01:00:49.180Z"
+    },
+    "https://kk.org/thetechnium/a-catechism-for-robots/": {
+      "contentHash": "9deaab46988407368728af8765c37bfdf537f067acfcb5576d6288a302f30fbc",
+      "processedAt": "2026-05-18T01:00:49.815Z"
+    },
+    "https://crookedtimber.org/2026/05/12/the-text-is-not-the-product/": {
+      "contentHash": "949e226f4413331eadb395ab74d1e5f96441a4273b969a0f8a10a68b11560d68",
+      "processedAt": "2026-05-18T01:00:50.203Z"
+    },
+    "https://feel.ifsart.com/": {
+      "contentHash": "dd519a8668cd895091aee1064a38cf2e7fb7bf2dd249ac2d451fc3e16949d0c7",
+      "processedAt": "2026-05-18T01:00:55.383Z"
+    },
+    "https://stillnight.joshua-garcia.com/": {
+      "contentHash": "827ce74e5362e6d9843feb8aed501977bf922df86b09000a4fe38a7664fd413c",
+      "processedAt": "2026-05-18T01:01:00.896Z"
+    },
+    "https://daverupert.com/2026/05/small-language-models-in-the-browser/": {
+      "contentHash": "fda5ad272dc306cd04238f6531fdf613d96f942225c5ebd297c964f2b58738b6",
+      "processedAt": "2026-05-18T01:01:01.253Z"
+    },
+    "https://uxdesign.cc/how-to-make-claude-code-follow-your-design-system-in-figma-559618cffaa9": {
+      "contentHash": "3a3c994154cdb03974c1e2aa0f3091efd4ef4de224242724823aaeec124d2763",
+      "processedAt": "2026-05-18T01:01:07.731Z"
+    },
+    "https://smashingmagazine.com/2026/05/data-backed-truths-user-experience-roi/": {
+      "contentHash": "f2290741a0f159358dc974f6ce5fa3b7dfe446c7ef814ef8ae1e9cb29060d0a9",
+      "processedAt": "2026-05-18T01:01:09.562Z"
+    },
+    "https://piccalil.li/the-index/182/?ref=main-rss-feed": {
+      "contentHash": "b274a880514d7d4c1e439f4d03170ca6d95be561ef4555aca4a2f7a2327eab66",
+      "processedAt": "2026-05-18T01:01:09.880Z"
+    },
+    "https://vercel.com/changelog/use-native-curl-syntax-with-vercel-cli": {
+      "contentHash": "b00eb498fcc6e2af39503a42079cb344b581084a43748854f45fb2f3ed44ae5e",
+      "processedAt": "2026-05-18T01:01:10.413Z"
+    },
+    "https://vercel.com/changelog/sort-providers-by-cost-latency-or-throughput-on-ai-gateway": {
+      "contentHash": "751e0d38efde4b075c45d96e4704e0d4a56a5845c92d42bffe4317064de19116",
+      "processedAt": "2026-05-18T01:01:10.990Z"
+    },
+    "https://vercel.com/changelog/protected-source-maps-ship-browser-source-maps-securely": {
+      "contentHash": "04571f51e8054225534da7e9a337ebe7a050367c43abb79af0a87fc8b33bfed3",
+      "processedAt": "2026-05-18T01:01:11.613Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/05/15/111827": {
+      "contentHash": "d81f72238823ceb21b918baa904b2ddf90415e1c5b0830733ea58a59fa03db4c",
+      "processedAt": "2026-05-18T01:01:13.674Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/05/15/100855": {
+      "contentHash": "159118d22d87b7d6f0bbefc37b8e9ef83be615810030ac712b6b6abd760e4083",
+      "processedAt": "2026-05-18T01:01:14.307Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/05/15/112547": {
+      "contentHash": "1437c152c1d05b85c19214c4255cf21d4fe0f9cb4404c31f0e59219019e4563c",
+      "processedAt": "2026-05-18T01:01:15.222Z"
+    },
+    "https://www.nngroup.com/articles/lean-design-system-teams/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "13383f52ac0e75f55287f118f417bd323cff8168567cee9b95ce9ea876d1e042",
+      "processedAt": "2026-05-18T01:01:22.057Z"
+    },
+    "https://www.nngroup.com/articles/designers-product-teams/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "8cf7f5c2a1daf6029c525baf75e9552a7acb52999c3a338229037a504a3751d4",
+      "processedAt": "2026-05-18T01:01:23.345Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-may-17-2026/": {
+      "contentHash": "5ea30af04da30a63f5341f0bea83db6f5867416e13027e6af1358acb0cf35110",
+      "processedAt": "2026-05-18T01:01:24.400Z"
+    },
+    "https://react.statuscode.com/issues/474": {
+      "contentHash": "a8f45360c56b143f2a41758cb1c0a84dfc16c9f9b426fe5e97a6a994fbd95e1b",
+      "processedAt": "2026-05-18T01:01:29.283Z"
     }
   },
-  "lastRun": "2026-05-15T01:02:19.300Z"
+  "lastRun": "2026-05-18T01:01:29.283Z"
 }
