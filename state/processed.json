@@ -29367,7 +29367,47 @@
     "https://react.statuscode.com/issues/474": {
       "contentHash": "a8f45360c56b143f2a41758cb1c0a84dfc16c9f9b426fe5e97a6a994fbd95e1b",
       "processedAt": "2026-05-18T01:01:29.283Z"
+    },
+    "https://engineering.atspotify.com/2026/5/better-experiments-with-llm-evals-a-funnel-not-a-fork/": {
+      "contentHash": "d111483c2f3fde737c15d2c10fa4dd4c64b680d2cf90d7d31460f4c280b8c19e",
+      "processedAt": "2026-05-19T01:00:37.283Z"
+    },
+    "https://tympanus.net/codrops/2026/05/18/merlin-the-code-boutique-turning-motion-into-digital-magic/": {
+      "contentHash": "4310c53a0bee1ff8985d12758d3210219ae8e8033bd1a4f97d32bb15b8a2eb31",
+      "processedAt": "2026-05-19T01:00:38.817Z"
+    },
+    "https://bradfrost.com/blog/post/grief-in-the-ai-age/": {
+      "contentHash": "92ebc7084778e48eb2469ff9e9fe8b013ba0194149ce4f050504aa6925579eb1",
+      "processedAt": "2026-05-19T01:00:39.239Z"
+    },
+    "https://vercel.com/changelog/consolidated-commit-status-now-available-for-github": {
+      "contentHash": "0085a75faa1b10600487f5f2324bfe0e9b83bca21cea7aeccfa279dab9857fcb",
+      "processedAt": "2026-05-19T01:00:40.596Z"
+    },
+    "https://vercel.com/changelog/web-application-firewall-mitigated-traffic-is-free-on-vercel": {
+      "contentHash": "1d3f98438ecf59f8b0b2d316c78f96bf0de913f986ab3ede6df7d75c5906a2a0",
+      "processedAt": "2026-05-19T01:00:41.086Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/05/19/080233": {
+      "contentHash": "4fa42235a9e4878256307381011e51708155b971b2f37b0263fb4f25269c2c90",
+      "processedAt": "2026-05-19T01:00:42.582Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/05/18/160311": {
+      "contentHash": "003d21d35fb8eb272fdb936dacaeda95f6463b14f9429d0234c2bef64bf51d1e",
+      "processedAt": "2026-05-19T01:00:43.312Z"
+    },
+    "https://tech.smarthr.jp/entry/frontend-matome": {
+      "contentHash": "fc69fc5c5d6bfcaf2841085ffe64f561f18faabcefebf8b185e10d89f4271ff9",
+      "processedAt": "2026-05-19T01:00:43.765Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/05/taming-llm-overquestioning": {
+      "contentHash": "7ee605beb045f0e5f7d7d50ba8503f2c0b240d067075f5ef6f03a9318cd680ad",
+      "processedAt": "2026-05-19T01:00:44.516Z"
+    },
+    "https://newsletter.uxdesign.cc/p/be-like-water-rethinking-the-design": {
+      "contentHash": "ea8e90f19762ecd100cafc66eb78d402b3d5136a6f4315046879cee765b640e2",
+      "processedAt": "2026-05-19T01:00:45.060Z"
     }
   },
-  "lastRun": "2026-05-18T01:01:29.283Z"
+  "lastRun": "2026-05-19T01:00:45.060Z"
 }
