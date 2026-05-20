@@ -29367,7 +29367,119 @@
     "https://react.statuscode.com/issues/474": {
       "contentHash": "a8f45360c56b143f2a41758cb1c0a84dfc16c9f9b426fe5e97a6a994fbd95e1b",
       "processedAt": "2026-05-18T01:01:29.283Z"
+    },
+    "https://engineering.atspotify.com/2026/5/better-experiments-with-llm-evals-a-funnel-not-a-fork/": {
+      "contentHash": "d111483c2f3fde737c15d2c10fa4dd4c64b680d2cf90d7d31460f4c280b8c19e",
+      "processedAt": "2026-05-20T01:02:27.417Z"
+    },
+    "https://punchcards.tristandavey.com/": {
+      "contentHash": "5fad87c0ea13b924dbf8ef9b84014d24802368dd7021d4f146c9a1e3b311680e",
+      "processedAt": "2026-05-20T01:02:27.821Z"
+    },
+    "https://bpando.org/2026/04/30/juana-cbd-beauty-brand-by-made-thought/": {
+      "contentHash": "da02f31e722e3819a5594c945b3560a03658386afba3a1984eadbe9ba1f6df7b",
+      "processedAt": "2026-05-20T01:02:28.893Z"
+    },
+    "https://fraude.design/": {
+      "contentHash": "8af220f5445ffd85577af32e9b4415bbbb0aab4a2e8e35e8266213d1bad5af16",
+      "processedAt": "2026-05-20T01:02:29.489Z"
+    },
+    "https://www.hannahhearth.com/posts/tools-the-vercel-product-design-team-actually-uses": {
+      "contentHash": "5444bd97030d26fedf17e538eb412593568fe7b908e931317b4343f6d2ce7f8c",
+      "processedAt": "2026-05-20T01:02:30.064Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/ai-impact-on-software-engineers-part-2": {
+      "contentHash": "6144c4386de604bf8e460317a63c8e5037531afbb068a422f23d9fcd333212d6",
+      "processedAt": "2026-05-20T01:02:30.739Z"
+    },
+    "https://tympanus.net/codrops/2026/05/19/80s-business-tech-seamless-scene-transitions-inside-shader-ses-scroll-driven-webgpu-pipeline/": {
+      "contentHash": "66d009b9b32f61bbf590d4c65ceca089e2faf3c7c91b8a268b95c7ce39a9f9dd",
+      "processedAt": "2026-05-20T01:02:32.389Z"
+    },
+    "https://tympanus.net/codrops/2026/05/18/merlin-the-code-boutique-turning-motion-into-digital-magic/": {
+      "contentHash": "4310c53a0bee1ff8985d12758d3210219ae8e8033bd1a4f97d32bb15b8a2eb31",
+      "processedAt": "2026-05-20T01:02:33.746Z"
+    },
+    "https://bradfrost.com/blog/post/big-ai-design-systems-course-updates/": {
+      "contentHash": "e336f42a12835b6492728ef03f386828a1d499d5d008be05597482d99e09ff3b",
+      "processedAt": "2026-05-20T01:02:34.573Z"
+    },
+    "https://bradfrost.com/blog/post/grief-in-the-ai-age/": {
+      "contentHash": "92ebc7084778e48eb2469ff9e9fe8b013ba0194149ce4f050504aa6925579eb1",
+      "processedAt": "2026-05-20T01:02:34.652Z"
+    },
+    "https://storybook.js.org/blog/storybook-10-4/": {
+      "contentHash": "db2ab42a292e8dca14823a74c5aed232790da602a2fa2f47f665c76e74571427",
+      "processedAt": "2026-05-20T01:02:35.566Z"
+    },
+    "https://vercel.com/changelog/gemini-3-5-flash-on-ai-gateway": {
+      "contentHash": "47f5e970c6d88f40966650296e2a4251181a66ec83e0df486059a30e5e85d392",
+      "processedAt": "2026-05-20T01:02:36.449Z"
+    },
+    "https://vercel.com/changelog/flat-rate-cdn-in-limited-beta": {
+      "contentHash": "b104d73ed6a76a43b0e0b8600beaaa15fd5584bc3b2fa80cb2278489d5c5a5f5",
+      "processedAt": "2026-05-20T01:02:37.224Z"
+    },
+    "https://vercel.com/changelog/run-claude-managed-agents-with-vercel-sandbox": {
+      "contentHash": "c531ecdb25e37a40e2be06e99f794f71b7aba185917a7757a5f3a99c214a060e",
+      "processedAt": "2026-05-20T01:02:38.030Z"
+    },
+    "https://vercel.com/changelog/consolidated-commit-status-now-available-for-github": {
+      "contentHash": "b6fc28a619072130314971beb30a16ba2c77c65497b05d3c8787cdb52ca025ba",
+      "processedAt": "2026-05-20T01:02:39.016Z"
+    },
+    "https://vercel.com/changelog/web-application-firewall-mitigated-traffic-is-free-on-vercel": {
+      "contentHash": "1d3f98438ecf59f8b0b2d316c78f96bf0de913f986ab3ede6df7d75c5906a2a0",
+      "processedAt": "2026-05-20T01:02:39.928Z"
+    },
+    "https://www.figma.com/blog/friends-of-figma-brand-refresh/": {
+      "contentHash": "1b6d11d28a0e66063df7a942b8438bed865ca53f19c674766333260289859388",
+      "processedAt": "2026-05-20T01:03:24.209Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/05/19/155508": {
+      "contentHash": "01e1d0707b0fd74063bd74ea887362b4b4808b66236a95a497fd8a84c9407497",
+      "processedAt": "2026-05-20T01:03:25.041Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/05/19/122906": {
+      "contentHash": "254ccb42fd67acac2e3abda9b84860e2f60a31baeda4aa5588597926663b626f",
+      "processedAt": "2026-05-20T01:03:25.758Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/05/19/080233": {
+      "contentHash": "4fa42235a9e4878256307381011e51708155b971b2f37b0263fb4f25269c2c90",
+      "processedAt": "2026-05-20T01:03:27.836Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/05/18/160311": {
+      "contentHash": "003d21d35fb8eb272fdb936dacaeda95f6463b14f9429d0234c2bef64bf51d1e",
+      "processedAt": "2026-05-20T01:03:28.371Z"
+    },
+    "https://tech.smarthr.jp/entry/frontend-matome": {
+      "contentHash": "fc69fc5c5d6bfcaf2841085ffe64f561f18faabcefebf8b185e10d89f4271ff9",
+      "processedAt": "2026-05-20T01:03:29.048Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/05/taming-llm-overquestioning": {
+      "contentHash": "7ee605beb045f0e5f7d7d50ba8503f2c0b240d067075f5ef6f03a9318cd680ad",
+      "processedAt": "2026-05-20T01:03:29.833Z"
+    },
+    "https://uxcontent.com/from-content-designer-to-content-architect/": {
+      "contentHash": "45faa51d22179f90f94bb3100c32c113e2068d0f014f8b77056a94b7c751bab1",
+      "processedAt": "2026-05-20T01:08:52.213Z"
+    },
+    "https://www.nngroup.com/training/august/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "f784f165df63c16b0c8d471497d2a3a73e25dab50a833c11be31788832f5b7cf",
+      "processedAt": "2026-05-20T01:08:55.111Z"
+    },
+    "https://newsletter.uxdesign.cc/p/be-like-water-rethinking-the-design": {
+      "contentHash": "ea8e90f19762ecd100cafc66eb78d402b3d5136a6f4315046879cee765b640e2",
+      "processedAt": "2026-05-20T01:08:56.060Z"
+    },
+    "https://feeds.baymard.com/link/9825/17344045/furniture-and-home-decor-quantitative-ux-insights-2026": {
+      "contentHash": "5583e906f531c3b10874eea8c8a3a9fbf1c7da7eeffa060ebc34fd08b38a216b",
+      "processedAt": "2026-05-20T01:09:04.982Z"
+    },
+    "https://uxmag.com/articles/gamification-2-0-beyond-points-and-badges-designing-for-players-not-metrics-chapter-2-the-solution": {
+      "contentHash": "5b8df4e0f0fbb0766b97fed4dead39b4dfcb6abd671beb3f2d11aaf8bbcb1854",
+      "processedAt": "2026-05-20T01:09:06.421Z"
     }
   },
-  "lastRun": "2026-05-18T01:01:29.283Z"
+  "lastRun": "2026-05-20T01:09:06.421Z"
 }
