@@ -29479,7 +29479,91 @@
     "https://uxmag.com/articles/gamification-2-0-beyond-points-and-badges-designing-for-players-not-metrics-chapter-2-the-solution": {
       "contentHash": "5b8df4e0f0fbb0766b97fed4dead39b4dfcb6abd671beb3f2d11aaf8bbcb1854",
       "processedAt": "2026-05-20T01:09:06.421Z"
+    },
+    "https://webframp.com/posts/the-workflow-collision/": {
+      "contentHash": "5d413567c8f595039a92d3dda7ecbe54166286662d5fd0c2bf2201a0c1eb9f10",
+      "processedAt": "2026-05-21T01:02:02.133Z"
+    },
+    "https://emilkowal.ski/ui/train-your-judgement": {
+      "contentHash": "bc0ce885a02b5deac9fbf247eeac9f893d2f2cebcaef3af6da7cf44214ccd5f8",
+      "processedAt": "2026-05-21T01:02:02.548Z"
+    },
+    "https://halupedia.com/": {
+      "contentHash": "2808839ec7c7d912d5a091bb3529077dcd6dcb446ac09243fea61f125c92e433",
+      "processedAt": "2026-05-21T01:02:07.103Z"
+    },
+    "https://blog.murphytrueman.com/your-design-system-might-be-ai-ready/": {
+      "contentHash": "46c9890833196087efe0d59e0fdfc20d0941973be09ace9357f237a48d26ad96",
+      "processedAt": "2026-05-21T01:02:07.304Z"
+    },
+    "https://2026.stateofai.dev/": {
+      "contentHash": "83b3e1cd706657e7d7a9f885225706771839a646063c85a978e82a438a42f870",
+      "processedAt": "2026-05-21T01:02:14.280Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/why-rust-is-different-with-alice": {
+      "contentHash": "2de119aa758cc652d344f5d34fb39123f1828d522a23f3e30b5debb776ec4b28",
+      "processedAt": "2026-05-21T01:02:14.662Z"
+    },
+    "https://tympanus.net/codrops/2026/05/20/made-with-gsap-building-a-fun-gravity-based-mouse-trail/": {
+      "contentHash": "779085513ce81acd79889059aaf326c790dd82df09a53e1f24394b8830c213ad",
+      "processedAt": "2026-05-21T01:02:16.144Z"
+    },
+    "https://vercel.com/changelog/grok-build-0-1-now-available-on-vercel-ai-gateway": {
+      "contentHash": "c051d0fd69354d302f425010567dee1e4e53a689a4e7ffc94fe5b25d96e5e7c9",
+      "processedAt": "2026-05-21T01:02:16.938Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-now-includes-ai-sdk-tools": {
+      "contentHash": "346d12926844e9a38e82568992fab41c56891afb86e8d11be852d13190c2b35f",
+      "processedAt": "2026-05-21T01:02:17.495Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-adds-message-subjects-and-direct-sdk-access": {
+      "contentHash": "1654e088a1b978a67bde62cd2a6c5fcf2ed4258d556f9bb1748bb9ef91157db0",
+      "processedAt": "2026-05-21T01:02:18.220Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-now-supports-callback-urls-on-buttons-and-modals": {
+      "contentHash": "2eeb7e904d5de4e3867c1c95469a565d6c8f395226aa27ac216fc1fa7147619a",
+      "processedAt": "2026-05-21T01:02:19.093Z"
+    },
+    "https://vercel.com/changelog/vercel-ai-gateway-plugin-for-wordpress": {
+      "contentHash": "6c3cb4d055516cc788c9a12dbb31af8f563d7a176e7b0cd8029f0c990013993d",
+      "processedAt": "2026-05-21T01:02:19.648Z"
+    },
+    "https://vercel.com/changelog/nuxt-mcp-toolkit-mcp-apps": {
+      "contentHash": "039261bc7c383c773a9cae66a6976dee8d49fba917853eb9d08ba906a86fb106",
+      "processedAt": "2026-05-21T01:02:20.248Z"
+    },
+    "https://www.figma.com/blog/the-figma-agent-is-here/": {
+      "contentHash": "a53232cff2efb0a0ed4098a11d638228fb12b9b47cb2dcae24182e5bc18725c2",
+      "processedAt": "2026-05-21T01:02:47.050Z"
+    },
+    "https://frontendfoc.us/issues/742": {
+      "contentHash": "ec6c90321d72708ee0cbbcff11217775937c46ba4a7be202ef25623c5a2e6b8b",
+      "processedAt": "2026-05-21T01:02:47.656Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/05/20/190738": {
+      "contentHash": "49d2eb03a1171fa2ce5ac553e8d285e136ab48e0d748c86b7445efc4db2856ec",
+      "processedAt": "2026-05-21T01:02:48.384Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/05/20/175737": {
+      "contentHash": "4b1f5f13b2f99994c9c1aee037c0f4b1071397bbdb5cbc5409d19109b2096034",
+      "processedAt": "2026-05-21T01:02:48.638Z"
+    },
+    "https://tech.smarthr.jp/entry/thank_you_hakodate": {
+      "contentHash": "883280171413289c778020de25a013841038ede746a41d07da8e12b383d41b75",
+      "processedAt": "2026-05-21T01:02:49.265Z"
+    },
+    "https://tech.layerx.co.jp/entry/tskaigi2026": {
+      "contentHash": "c2e330e0670602b92223ba1a4a46db687da2b37945ccca758506def94c2430aa",
+      "processedAt": "2026-05-21T01:02:50.031Z"
+    },
+    "https://uxmag.com/articles/real-ai-strategy-isnt-a-vendor-bake-off": {
+      "contentHash": "16f9b0af449b94a8eaa541b740ed94f6d193114e659cfbd105f362f3610bb899",
+      "processedAt": "2026-05-21T01:02:51.304Z"
+    },
+    "https://thisweekinreact.com/newsletter/282": {
+      "contentHash": "6b74056454143888a98d833d58d774c3a0363b90874819ad202ac15160a05cd8",
+      "processedAt": "2026-05-21T01:02:51.684Z"
     }
   },
-  "lastRun": "2026-05-20T01:09:06.421Z"
+  "lastRun": "2026-05-21T01:02:51.684Z"
 }
