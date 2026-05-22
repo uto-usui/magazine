@@ -29563,7 +29563,91 @@
     "https://thisweekinreact.com/newsletter/282": {
       "contentHash": "6b74056454143888a98d833d58d774c3a0363b90874819ad202ac15160a05cd8",
       "processedAt": "2026-05-21T01:02:51.684Z"
+    },
+    "https://www.baldurbjarnason.com/2026/the-old-world-of-tech-is-dying/": {
+      "contentHash": "2914371982f462fb8dcdb0638f8f1c48849527d316091e9f4d4b1417d7e9378c",
+      "processedAt": "2026-05-22T00:59:43.210Z"
+    },
+    "https://tenphi.me/blog/why-i-spent-years-trying-to-make-css-states-predictable/": {
+      "contentHash": "dcedca94b19729a1a441821eeda945296efb005b9c7c8227630f0989ff9bde62",
+      "processedAt": "2026-05-22T00:59:43.600Z"
+    },
+    "https://www.justadesignlist.com/": {
+      "contentHash": "0f6916797426f1f0977dbad68e75c8a224d5df2307e500b716a77aa326892e31",
+      "processedAt": "2026-05-22T00:59:43.758Z"
+    },
+    "https://theuselessweb.com/sites-we-lost/": {
+      "contentHash": "bd72ec626e7c97be270ff7deb17090fccfab58878ee75e5fef038d6352816cc0",
+      "processedAt": "2026-05-22T00:59:44.818Z"
+    },
+    "https://css-tricks.com/stack-overflow-when-we-stop-asking/": {
+      "contentHash": "0ac6d97a7fbf83b8a21617da3cadf0e7e5f8158dee94b543e35d39433733e5a8",
+      "processedAt": "2026-05-22T00:59:45.179Z"
+    },
+    "https://hostilevolume.com/": {
+      "contentHash": "4f1762ffc955fb35e674ebf23452f71191f96423c378fe7ce2b461b83e9ec688",
+      "processedAt": "2026-05-22T00:59:45.569Z"
+    },
+    "https://www.lukew.com/ff/entry.asp?2153": {
+      "contentHash": "63b9314facb6e3564d7194521fe9bf24f9e7cc689ebe690bd25482dafebdf63d",
+      "processedAt": "2026-05-22T00:59:46.091Z"
+    },
+    "https://fontastic.space/": {
+      "contentHash": "e57d6e037cae81ed4e0cda8f607ddd48bfecc05a38c3113bf3d37acf94eb296e",
+      "processedAt": "2026-05-22T00:59:51.418Z"
+    },
+    "https://www.smashingmagazine.com/2026/05/data-backed-truths-user-experience-roi/": {
+      "contentHash": "5e7fcc840ec2337390ec75dd9eec378ddd4db3812971c84c099c335cd487dac0",
+      "processedAt": "2026-05-22T00:59:53.078Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-antigravity-20-takes-ide": {
+      "contentHash": "7302590cb850d81945a15a153a4a463d2ec73b75bebd9de00dd51de67ebf2843",
+      "processedAt": "2026-05-22T00:59:53.359Z"
+    },
+    "https://tympanus.net/codrops/2026/05/21/creating-scroll-driven-svg-map-animations-with-gsap/": {
+      "contentHash": "2fca57864a39c623e096859671a146f11f13ba35f19430233cbde686b7baf3f5",
+      "processedAt": "2026-05-22T00:59:54.709Z"
+    },
+    "https://smashingmagazine.com/2026/05/mathematical-layouts-sibling-index-sibling-count/": {
+      "contentHash": "35ca6c48ef776ea88d2be6acaafad823e9b2db4fa979bd116c1ae22c771ea7e0",
+      "processedAt": "2026-05-22T00:59:55.956Z"
+    },
+    "https://ics.media/entry/260521/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-05-22T00:59:56.129Z"
+    },
+    "https://piccalil.li/blog/framework-agnostic-design-systems-part-1/?ref=main-rss-feed": {
+      "contentHash": "52b9abc692c8bc3093da0ac21ce918fdc263c5993f150490d0affdfbc349044d",
+      "processedAt": "2026-05-22T00:59:57.114Z"
+    },
+    "https://vercel.com/changelog/pull-anomaly-alert-details-using-the-vercel-cli": {
+      "contentHash": "df65bf4ef01dab654948a015b6e490145cb36c7857bdb5a980e901200f641a33",
+      "processedAt": "2026-05-22T00:59:57.698Z"
+    },
+    "https://vercel.com/changelog/qwen-3-7-max-now-available-on-vercel-ai-gateway": {
+      "contentHash": "861c1a5887e255fef6f5ace71e59369694cc2fb88ea7b8e246be33cdee7f6421",
+      "processedAt": "2026-05-22T00:59:58.143Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/05/21/153000": {
+      "contentHash": "9569ef0a3918b513b9c41672e6eee16f16558134a9b4d9b0c8d3af67c618d781",
+      "processedAt": "2026-05-22T00:59:59.757Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/05/21/142645": {
+      "contentHash": "873b6b1fc8d282f7b8d338f614d37e724fb141937359979623cce942009766ac",
+      "processedAt": "2026-05-22T01:00:00.176Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/05/21/120000": {
+      "contentHash": "fa1c835daaee2c7eb4e06f745eb2cae9622c65b6792e2020c18ae59d85ef6333",
+      "processedAt": "2026-05-22T01:00:00.503Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/05/21/111742": {
+      "contentHash": "0250c028d20f212d90c4ba531ece41ee8c55ad695d424a79e26cbce327024a6c",
+      "processedAt": "2026-05-22T01:00:01.394Z"
+    },
+    "https://uxmag.com/articles/making-the-invisible-visible-6-months-of-diving-deeper-into-ai": {
+      "contentHash": "6a12615ffc33379347ecb4d3fcebc22f5965ce867cb65194a293bd3e221db6e0",
+      "processedAt": "2026-05-22T01:00:02.819Z"
     }
   },
-  "lastRun": "2026-05-21T01:02:51.684Z"
+  "lastRun": "2026-05-22T01:00:02.819Z"
 }
