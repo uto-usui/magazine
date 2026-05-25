@@ -29647,7 +29647,43 @@
     "https://uxmag.com/articles/making-the-invisible-visible-6-months-of-diving-deeper-into-ai": {
       "contentHash": "6a12615ffc33379347ecb4d3fcebc22f5965ce867cb65194a293bd3e221db6e0",
       "processedAt": "2026-05-22T01:00:02.819Z"
+    },
+    "https://addyosmani.com/blog/orchestration-tax/": {
+      "contentHash": "8818721100e86b0f6d02c17f78d5cf80618469ab98654d9afa9f99ee21f4ab5a",
+      "processedAt": "2026-05-25T01:01:38.347Z"
+    },
+    "https://smashingmagazine.com/2026/05/four-levels-customer-understanding/": {
+      "contentHash": "8be05024a15797e311aad3800554d6666e551987683c982c93ea2818f9ae078b",
+      "processedAt": "2026-05-25T01:01:40.642Z"
+    },
+    "https://piccalil.li/the-index/183/?ref=main-rss-feed": {
+      "contentHash": "b418db84e16871e37fb593707b85b26a1b53116b57fd8dde23b0b8228a9a1318",
+      "processedAt": "2026-05-25T01:01:40.892Z"
+    },
+    "https://vercel.com/changelog/configure-weighted-traffic-splits-for-vercel-flags-from-the-vercel-cli": {
+      "contentHash": "df37bbbfda409ecfeb4a0167d79354aee19d9422cea720bb2198569d3cc4d814",
+      "processedAt": "2026-05-25T01:01:41.662Z"
+    },
+    "https://www.figma.com/blog/what-matters-when-anyone-can-build/": {
+      "contentHash": "56ff202ac5e094d90d7fc9742172e8c777d15596a91f1a923bbd806888ad622e",
+      "processedAt": "2026-05-25T01:02:09.089Z"
+    },
+    "https://www.figma.com/blog/7-tips-for-using-figma-make-credits-more-efficiently/": {
+      "contentHash": "2997fe2945b8660ec17bfb3cd281f9ad576094656673314607f750845097ffb1",
+      "processedAt": "2026-05-25T01:02:41.477Z"
+    },
+    "https://www.nngroup.com/articles/design-disposables/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "dee870bd563c6b59518b4edc548cbee1eb415386a7061549515b4fd7a86854bc",
+      "processedAt": "2026-05-25T01:02:43.266Z"
+    },
+    "https://www.nngroup.com/articles/after-design-critique/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "e000cf1a7d9874b5a9b2df067072650985b70f7c7c54d5d66ab9c0a398316e81",
+      "processedAt": "2026-05-25T01:02:45.454Z"
+    },
+    "https://react.statuscode.com/issues/475": {
+      "contentHash": "2824c6805d724ac1d413a463ecb9108b5ed25acbc2cf1d57f40858d81a03414c",
+      "processedAt": "2026-05-25T01:02:46.197Z"
     }
   },
-  "lastRun": "2026-05-22T01:00:02.819Z"
+  "lastRun": "2026-05-25T01:02:46.197Z"
 }
