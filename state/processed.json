@@ -29647,7 +29647,79 @@
     "https://uxmag.com/articles/making-the-invisible-visible-6-months-of-diving-deeper-into-ai": {
       "contentHash": "6a12615ffc33379347ecb4d3fcebc22f5965ce867cb65194a293bd3e221db6e0",
       "processedAt": "2026-05-22T01:00:02.819Z"
+    },
+    "https://addyosmani.com/blog/orchestration-tax/": {
+      "contentHash": "8818721100e86b0f6d02c17f78d5cf80618469ab98654d9afa9f99ee21f4ab5a",
+      "processedAt": "2026-05-26T00:58:35.415Z"
+    },
+    "https://adrianroselli.com/2026/05/maybe-dont-rely-on-googles-modern-web-guidance.html": {
+      "contentHash": "6ab911c94cf4a7f298dcb79d56a94a7654cc90da40e41fb1e28f76e9e77f5f37",
+      "processedAt": "2026-05-26T00:58:35.954Z"
+    },
+    "https://a11yweekly.com/issue/501/": {
+      "contentHash": "c40d2bdafcf40b07ae8f62dd31e184c525b089937787c1dfa2f61cefc3d9dde3",
+      "processedAt": "2026-05-26T00:58:36.403Z"
+    },
+    "https://bit.ly/side-mag4": {
+      "contentHash": "47ce40d2011a141234fea8dc38379a3b1d4329075dfe899818938bd4f0a81460",
+      "processedAt": "2026-05-26T00:58:37.416Z"
+    },
+    "https://bernste.in/writings/everyones-a-thought-leader-almost-no-one-is-thinking/": {
+      "contentHash": "f82559ea4e84f261e9d427251b8dde3230141e2c76c50f8b7dbf31d30c825716",
+      "processedAt": "2026-05-26T00:58:37.678Z"
+    },
+    "https://stateofaidesign.com/": {
+      "contentHash": "97bbaa039a6ba2283f822cc91bd37c750c9f593c93ff9387ccf36170ffc3e7a4",
+      "processedAt": "2026-05-26T00:59:14.388Z"
+    },
+    "https://blog.mozilla.ai/the-interface-is-no-longer-the-product/": {
+      "contentHash": "4ce63fa21aad5af0bbedd0795c130bfc3b6aeab6d6267998ed4ae23bb40e6bc4",
+      "processedAt": "2026-05-26T00:59:14.652Z"
+    },
+    "https://every.to/p/after-automation": {
+      "contentHash": "b77b152f64d636f4b522bc28db73a066ddf5729f366cc38b58c55c12b56e9550",
+      "processedAt": "2026-05-26T00:59:20.077Z"
+    },
+    "https://smashingmagazine.com/2026/05/four-levels-customer-understanding/": {
+      "contentHash": "8be05024a15797e311aad3800554d6666e551987683c982c93ea2818f9ae078b",
+      "processedAt": "2026-05-26T00:59:21.852Z"
+    },
+    "https://piccalil.li/the-index/183/?ref=main-rss-feed": {
+      "contentHash": "b418db84e16871e37fb593707b85b26a1b53116b57fd8dde23b0b8228a9a1318",
+      "processedAt": "2026-05-26T00:59:22.207Z"
+    },
+    "https://vercel.com/changelog/configure-weighted-traffic-splits-for-vercel-flags-from-the-vercel-cli": {
+      "contentHash": "df37bbbfda409ecfeb4a0167d79354aee19d9422cea720bb2198569d3cc4d814",
+      "processedAt": "2026-05-26T00:59:22.834Z"
+    },
+    "https://www.figma.com/blog/what-matters-when-anyone-can-build/": {
+      "contentHash": "56ff202ac5e094d90d7fc9742172e8c777d15596a91f1a923bbd806888ad622e",
+      "processedAt": "2026-05-26T00:59:48.264Z"
+    },
+    "https://www.figma.com/blog/7-tips-for-using-figma-make-credits-more-efficiently/": {
+      "contentHash": "2997fe2945b8660ec17bfb3cd281f9ad576094656673314607f750845097ffb1",
+      "processedAt": "2026-05-26T01:00:18.229Z"
+    },
+    "https://uxcontent.com/technical-content-design/": {
+      "contentHash": "283ee5aaa679582deb2ad2877dd57c021877148ac9363bad7694009699332159",
+      "processedAt": "2026-05-26T01:00:20.948Z"
+    },
+    "https://www.nngroup.com/articles/design-disposables/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "dee870bd563c6b59518b4edc548cbee1eb415386a7061549515b4fd7a86854bc",
+      "processedAt": "2026-05-26T01:00:21.943Z"
+    },
+    "https://www.nngroup.com/articles/after-design-critique/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "e000cf1a7d9874b5a9b2df067072650985b70f7c7c54d5d66ab9c0a398316e81",
+      "processedAt": "2026-05-26T01:00:23.764Z"
+    },
+    "https://newsletter.uxdesign.cc/p/should-we-be-kind-to-machines-for": {
+      "contentHash": "178e6fab387d4ee902fa028ede6a50195a222be6cecdc3746e5d2dd71469e8cd",
+      "processedAt": "2026-05-26T01:00:24.223Z"
+    },
+    "https://react.statuscode.com/issues/475": {
+      "contentHash": "2824c6805d724ac1d413a463ecb9108b5ed25acbc2cf1d57f40858d81a03414c",
+      "processedAt": "2026-05-26T01:00:24.856Z"
     }
   },
-  "lastRun": "2026-05-22T01:00:02.819Z"
+  "lastRun": "2026-05-26T01:00:24.856Z"
 }
