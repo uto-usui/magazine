@@ -29719,7 +29719,79 @@
     "https://react.statuscode.com/issues/475": {
       "contentHash": "2824c6805d724ac1d413a463ecb9108b5ed25acbc2cf1d57f40858d81a03414c",
       "processedAt": "2026-05-26T01:00:24.856Z"
+    },
+    "https://medium.com/design-bootcamp/what-we-lost-in-the-ai-chat-stream-2f96a22a6b80": {
+      "contentHash": "d5310c8c73c6b28afea58a006544d13fa48692e4627a5142587920ba6c3918e1",
+      "processedAt": "2026-05-27T01:00:58.501Z"
+    },
+    "https://www.thisiscolossal.com/2026/05/habib-hajallie-ballpoint-pen-drawings-portraits/": {
+      "contentHash": "e232a6838ae4b12abce6d82dabe8e1c5ffc3c2b1ccfa4e04d8751a4e745e2f2b",
+      "processedAt": "2026-05-27T01:00:59.034Z"
+    },
+    "https://ai-on-the-internet.github.io/": {
+      "contentHash": "5dda2add17becd716b0cb2ee0c87160c735cbcc6352f4f7b70f75ee36f8c07be",
+      "processedAt": "2026-05-27T01:00:59.362Z"
+    },
+    "https://placesjournal.org/article/the-disappearance-of-the-public-bench/": {
+      "contentHash": "1402b2fb55d0715aa3e36b8d4b7f099fb2b70ec07ecc64d690b50b4dabac857d",
+      "processedAt": "2026-05-27T01:01:03.902Z"
+    },
+    "https://showreel.design/": {
+      "contentHash": "8c8dbd101744c7430eb2244e3e1e9a6a8a3fad8e57f1aca801d830a4150b7bd0",
+      "processedAt": "2026-05-27T01:01:09.198Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/state-of-the-job-market-2026": {
+      "contentHash": "a546dab613e031f10e1e9ccc277e55a1f5ac10fad047ff887da465009bd86bab",
+      "processedAt": "2026-05-27T01:01:09.718Z"
+    },
+    "https://tympanus.net/codrops/2026/05/26/building-a-scroll-driven-3d-cube-gallery-in-webflow-with-gsap/": {
+      "contentHash": "01c1fee690c2dd2f65f49505e91e924f0a52dd6d1d1e54d7ceca5108a8283e5b",
+      "processedAt": "2026-05-27T01:01:11.421Z"
+    },
+    "https://smashingmagazine.com/2026/05/prototype-users-fix-protopie/": {
+      "contentHash": "da44692510f22518ea77fdd4a2f6fc7b983de8fa41bce9806931e1025f1bc581",
+      "processedAt": "2026-05-27T01:01:13.119Z"
+    },
+    "https://www.joshwcomeau.com/animation/css-vs-javascript/": {
+      "contentHash": "b818b22ce5d748778b7cb361b842a6e6b06fa2aa00feda5a71849b910e1dd99b",
+      "processedAt": "2026-05-27T01:01:13.482Z"
+    },
+    "https://vercel.com/changelog/sandbox-persistence-is-now-ga": {
+      "contentHash": "9f76f9c8695a38d40d86bc2ee1b288451fef425e851e01cb2342118fdfdfbab8",
+      "processedAt": "2026-05-27T01:01:14.207Z"
+    },
+    "https://vercel.com/changelog/vercel-domains-now-supports-price-sorting-and-availability-filtering": {
+      "contentHash": "76e19ed869c7a51ee0e131f4e54b986f0b37f6faeab2b277a74900e7e126b658",
+      "processedAt": "2026-05-27T01:01:16.299Z"
+    },
+    "https://vercel.com/changelog/firecrawl-joins-the-vercel-marketplace": {
+      "contentHash": "28ca3ff303cf204f92182803336b00ed8ee6d7fdb2532a0581ad13e3e36e95fa",
+      "processedAt": "2026-05-27T01:01:17.513Z"
+    },
+    "https://vercel.com/changelog/microfrontends-routing-now-applies-to-vc-alias-and-branch-domains": {
+      "contentHash": "67760f57b43cb3a4831d63e6d477d9167834cebc7f35b5ba88e7ba565be3d8a9",
+      "processedAt": "2026-05-27T01:01:18.117Z"
+    },
+    "https://www.figma.com/blog/trust-the-process/": {
+      "contentHash": "4c979d73e1c064db4f4a144ca8dd4e98310b64e4c7be04f618761eb562fa708c",
+      "processedAt": "2026-05-27T01:01:45.953Z"
+    },
+    "https://stephaniewalter.design/blog/la-carte-blanche-a-project-definition-framework-to-avoid-chaos/": {
+      "contentHash": "a70778c6e0f6bff2642dfdfa5285624ce5763b4b5045b81ab9de5ebd60922572",
+      "processedAt": "2026-05-27T01:01:47.457Z"
+    },
+    "https://uxmag.com/articles/trust-is-the-currency-knowledge-is-the-engine": {
+      "contentHash": "754a6aee046fd574c5f14cd4b96f3d7bb8bac745191e1be082d4d506b996de23",
+      "processedAt": "2026-05-27T01:01:48.533Z"
+    },
+    "https://uxmag.com/articles/gamification-2-0-beyond-points-and-badges-designing-for-players-not-metrics-chapter-3-the-framework": {
+      "contentHash": "89192ab6495c13107bf7c7716039e7ba5f2c97902ed0895ab7def67acd6b1442",
+      "processedAt": "2026-05-27T01:01:50.103Z"
+    },
+    "https://tkdodo.eu/blog/tan-stack-router-and-query": {
+      "contentHash": "63d0e17b60390c80d0f1aa192181f23c3cdea131959468b31346efa2435c9d8d",
+      "processedAt": "2026-05-27T01:01:51.150Z"
     }
   },
-  "lastRun": "2026-05-26T01:00:24.856Z"
+  "lastRun": "2026-05-27T01:01:51.150Z"
 }
