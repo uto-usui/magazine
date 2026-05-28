@@ -29791,7 +29791,63 @@
     "https://tkdodo.eu/blog/tan-stack-router-and-query": {
       "contentHash": "63d0e17b60390c80d0f1aa192181f23c3cdea131959468b31346efa2435c9d8d",
       "processedAt": "2026-05-27T01:01:51.150Z"
+    },
+    "https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems/": {
+      "contentHash": "122e3ebf16624497b2453235d19758ec6360f642e094c5246bb9f411ce791ba2",
+      "processedAt": "2026-05-28T00:55:46.612Z"
+    },
+    "https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e": {
+      "contentHash": "b5a5c9cef38335e0989c1f53177a23d2e4a93c85ed4da74d80418ea7a0a2c639",
+      "processedAt": "2026-05-28T00:55:52.511Z"
+    },
+    "https://www.tokenblast.cc/#": {
+      "contentHash": "afb7233c190d6d2566c19fbbdf5f9a9d3e7f625d3ae320c6f45c2dc008613114",
+      "processedAt": "2026-05-28T00:55:52.939Z"
+    },
+    "https://impeccable.style/": {
+      "contentHash": "94d222de208720499bc269228c38126e76181a6b9fb11fe4e187a5483460dfb7",
+      "processedAt": "2026-05-28T00:55:53.612Z"
+    },
+    "https://isaiprofitable.com/": {
+      "contentHash": "0b269393926ef012b5c039ab91b090b9b3d23f9b66d3f4ba5cff283770e84145",
+      "processedAt": "2026-05-28T00:55:58.077Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/opencode": {
+      "contentHash": "178b85729fbe9940e9484c7913ec135ab7bc1cdeb6aa83a8adebb27d907c526d",
+      "processedAt": "2026-05-28T00:55:58.601Z"
+    },
+    "https://tympanus.net/codrops/2026/05/27/whooshes-snaps-and-shaders-adrien-vanderpotte-and-the-feeling-of-the-interface/": {
+      "contentHash": "d7ad4788fc9d5d4db8877b75fa3434c637b7be9c8b69eafeed710dc0ecabaefd",
+      "processedAt": "2026-05-28T00:55:59.939Z"
+    },
+    "https://ics.media/entry/260527/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-05-28T00:56:00.190Z"
+    },
+    "https://vercel.com/changelog/redesigned-deployments-list": {
+      "contentHash": "508b8e6bf9858dfe1a3270ebccad87b337dd3960b5efb539bec1ff7a0abca46e",
+      "processedAt": "2026-05-28T00:56:01.279Z"
+    },
+    "https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business": {
+      "contentHash": "cb25b3c84896ee987b3c66f751fbf3cd8437a658fdd27d400884ad44214557a8",
+      "processedAt": "2026-05-28T00:56:02.054Z"
+    },
+    "https://frontendfoc.us/issues/743": {
+      "contentHash": "933755327128f8c82e30b683f6750603257ac95df36223de5176ea00575a7113",
+      "processedAt": "2026-05-28T00:56:02.854Z"
+    },
+    "https://tech.layerx.co.jp/entry/hosted-agent-claude-agent-sandbox": {
+      "contentHash": "5e65eefcc9ae08c72b88aa744eb49396fcf8411e927d9e72b27a25de4ca89948",
+      "processedAt": "2026-05-28T00:56:03.678Z"
+    },
+    "https://uxmovement.medium.com/the-magic-of-dark-mode-color-tinting-9b62b0b93cb9?source=rss-40dd56d8f87d------2": {
+      "contentHash": "36ea10dad46072749c0fb23e8b9b7f3580048c686a84be4f43e8c12f5df942f4",
+      "processedAt": "2026-05-28T00:56:08.594Z"
+    },
+    "https://thisweekinreact.com/newsletter/283": {
+      "contentHash": "13087aa474259d4df00ebd9446e65782c424381cc3e17a1254df17fe0d9b24a7",
+      "processedAt": "2026-05-28T00:56:09.312Z"
     }
   },
-  "lastRun": "2026-05-27T01:01:51.150Z"
+  "lastRun": "2026-05-28T00:56:09.313Z"
 }
