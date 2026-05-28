@@ -1,0 +1,60 @@
+articles_dir=2026-05-28
+exit_code=0
+timestamp_utc=2026-05-28T00:56:09Z
+
+---- issue lines ----
+9:Failed to fetch feed web.dev: 
+10:Failed to fetch feed Kilian Valkhof: 
+11:Failed to fetch feed Google Testing Blog: 
+
+---- tail (last 50 lines) ----
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+⏳ Retry feed fetch 1/3 for Accessibility Weekly after transient error: read ECONNRESET
+Failed to fetch feed web.dev: 
+Failed to fetch feed Kilian Valkhof: 
+Failed to fetch feed Google Testing Blog: 
+📰 Found 5211 total articles
+✨ New articles: 14
+⏭️ Skipped (already processed): 473
+📥 Processing: SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-28/silvertorch-index-as-model-a-new-retrieval-paradigm-for-recommendation-systems.md
+📥 Processing: 7 things that Vibe Design can’t replicate
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e
+✅ Playwright successfully fetched: https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e
+⚠️ Content too short (183 chars < 200): https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e
+⚠️ Using RSS content as fallback for: https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-28/7-things-that-vibe-design-cant-replicate.md
+📥 Processing: TokenBlast
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-28/tokenblast.md
+📥 Processing: Impeccable: Design skills for AI harnesses
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-28/impeccable-design-skills-for-ai-harnesses.md
+📥 Processing: Is AI profitable yet?
+🔄 Readability failed, trying Playwright: https://isaiprofitable.com/
+✅ Playwright successfully fetched: https://isaiprofitable.com/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-28/is-ai-profitable-yet.md
+📥 Processing: Building OpenCode with Dax Raad
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-28/building-opencode-with-dax-raad.md
+📥 Processing: Whooshes, Snaps and Shaders: Adrien Vanderpotte and the Feeling of the Interface
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-28/whooshes-snaps-and-shaders-adrien-vanderpotte-and-the-feeling-of-the-interface.md
+📥 Processing: dialogタグで面倒が減る！ 見直したいハンバーガーメニューの作り方
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-28/dialog.md
+📥 Processing: Redesigned Deployments List
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-28/redesigned-deployments-list.md
+📥 Processing: Expanding Stripe Radar to protect more of your business
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-28/expanding-stripe-radar-to-protect-more-of-your-business.md
+📥 Processing: What's still missing from CSS
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-28/whats-still-missing-from-css.md
+📥 Processing:  Microsoft Foundry Hosted Agent と Claude Agent SDK を使ったサンドボックス検証
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-28/microsoft-foundry-hosted-agent-claude-agent-sdk.md
+📥 Processing: The Magic of Dark Mode Color Tinting
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxmovement.medium.com/the-magic-of-dark-mode-color-tinting-9b62b0b93cb9?source=rss-40dd56d8f87d------2
+✅ Playwright successfully fetched: https://uxmovement.medium.com/the-magic-of-dark-mode-color-tinting-9b62b0b93cb9?source=rss-40dd56d8f87d------2
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-28/the-magic-of-dark-mode-color-tinting.md
+📥 Processing: This Week In React #283: TanStack, RSC, Liquid DOM, Performance, i18n, docs, Apollo, shadcn | Expo, Reanimated, worklets, NativeScript, Standard Navigation, Strict DOM, Lynx, Apex, ExecuTorch | TC39, npm, pnpm, Node.js, Deno, Firefox
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-28/this-week-in-react-283-tanstack-rsc-liquid-dom-performance-i18n-docs-apollo-shadcn-expo-reanimated-w.md
+
+📊 Summary:
+   ✅ Success: 14
+   ❌ Errors: 0
+🏁 Done!
