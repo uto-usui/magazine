@@ -1,0 +1,58 @@
+articles_dir=2026-05-30
+exit_code=0
+timestamp_utc=2026-05-30T01:01:28Z
+
+---- issue lines ----
+25:Failed to fetch https://mudmapmagazine.com/the-utopia-of-the-family-computer/ after 3 retries: Error
+
+---- tail (last 50 lines) ----
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-30/figma-make-now-on-your-local-code.md
+📥 Processing: What's still missing from CSS
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-30/whats-still-missing-from-css.md
+📥 Processing: Claude Opus 4.8のReact習熟度を測る
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-30/claude-opus-48react.md
+📥 Processing: 「教える」から「引き出す」リーダーへ──感情知性とコーチングを組織で育むSmartHRの実践
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-30/smarthr.md
+📥 Processing: SmartHRって新卒で入れるんだ、と思っていた私が新卒入社して感じたこと
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-30/smarthr-1.md
+📥 Processing: 第91回 Ruby関西 勉強会レポート
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-30/91-ruby.md
+📥 Processing: Snowflakeとdbtでモデルの依存関係にガバナンスを効かせる
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-30/snowflakedbt.md
+📥 Processing: Google Sheets から Snowflake を参照するアドオンの実行基盤を Snowflake Tasks に移行した
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-30/google-sheets-snowflake-snowflake-tasks.md
+📥 Processing:  Microsoft Foundry Hosted Agent と Claude Agent SDK を使ったサンドボックス検証
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-30/microsoft-foundry-hosted-agent-claude-agent-sdk.md
+📥 Processing: Using RAS to Guide UX Research Resource Allocation and Strategy
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-30/using-ras-to-guide-ux-research-resource-allocation-and-strategy.md
+📥 Processing: How to Get Research Recommendations on the Roadmap
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-30/how-to-get-research-recommendations-on-the-roadmap.md
+📥 Processing: The Part of Agile Designers Fear the Most: Imperfect Work
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-30/the-part-of-agile-designers-fear-the-most-imperfect-work.md
+📥 Processing: Bento Box Menus: A Better Way to Navigate Lists
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxmovement.medium.com/bento-box-menus-a-better-way-to-navigate-lists-8bb761320985?source=rss-40dd56d8f87d------2
+✅ Playwright successfully fetched: https://uxmovement.medium.com/bento-box-menus-a-better-way-to-navigate-lists-8bb761320985?source=rss-40dd56d8f87d------2
+⚠️ Content too short (134 chars < 200): https://uxmovement.medium.com/bento-box-menus-a-better-way-to-navigate-lists-8bb761320985?source=rss-40dd56d8f87d------2
+⚠️ Using RSS content as fallback for: https://uxmovement.medium.com/bento-box-menus-a-better-way-to-navigate-lists-8bb761320985?source=rss-40dd56d8f87d------2
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-30/bento-box-menus-a-better-way-to-navigate-lists.md
+📥 Processing: The Magic of Dark Mode Color Tinting
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxmovement.medium.com/the-magic-of-dark-mode-color-tinting-9b62b0b93cb9?source=rss-40dd56d8f87d------2
+✅ Playwright successfully fetched: https://uxmovement.medium.com/the-magic-of-dark-mode-color-tinting-9b62b0b93cb9?source=rss-40dd56d8f87d------2
+⚠️ Content too short (193 chars < 200): https://uxmovement.medium.com/the-magic-of-dark-mode-color-tinting-9b62b0b93cb9?source=rss-40dd56d8f87d------2
+⚠️ Using RSS content as fallback for: https://uxmovement.medium.com/the-magic-of-dark-mode-color-tinting-9b62b0b93cb9?source=rss-40dd56d8f87d------2
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-30/the-magic-of-dark-mode-color-tinting.md
+📥 Processing: This Week In React #283: TanStack, RSC, Liquid DOM, Performance, i18n, docs, Apollo, shadcn | Expo, Reanimated, worklets, NativeScript, Standard Navigation, Strict DOM, Lynx, Apex, ExecuTorch | TC39, npm, pnpm, Node.js, Deno, Firefox
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-30/this-week-in-react-283-tanstack-rsc-liquid-dom-performance-i18n-docs-apollo-shadcn-expo-reanimated-w.md
+📥 Processing: 🎉 React turns 13 years old today
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-05-30/react-turns-13-years-old-today.md
+
+📊 Summary:
+   ✅ Success: 56
+   ❌ Errors: 0
+🏁 Done!
