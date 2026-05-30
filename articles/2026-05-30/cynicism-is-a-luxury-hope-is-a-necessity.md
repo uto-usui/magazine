@@ -1,0 +1,23 @@
+---
+title: "Cynicism is a luxury; hope is a necessity."
+source: "https://www.chrbutler.com/cynicism-is-a-luxury-hope-is-a-necessity"
+publishedDate: "2026-05-28"
+category: "design"
+feedName: "Sidebar"
+---
+
+This morning went the way most of our mornings go, which is to say I barely noticed it. The lights came on when I asked them to. The water was hot. The coffee maker did the one thing it exists to do. My daughter found her shoes more or less where she had left them, the car started, the road to school was open, and by half past eight I was at my desk having given almost none of it much focused thought. A routine morning is a forgettable one. That is, in a sense, what makes it smooth.
+
+A working system has that strange quality: it disappears. We notice the plumbing only when it leaks, the power only when it fails, the road only when it is closed. Attention is drawn to friction — to the broken and the missing — and slides off whatever is quietly doing its job. This is mostly a mercy; we could not function if every functioning thing demanded to be considered. But it leaves a consequence worth sitting with: The better a system serves us, the less of it we ever have to see. Ease and invisibility arrive together.
+
+I have been thinking about how far that principle reaches. It is easy enough to grant with infrastructure. It is less comfortable to grant with politics. We tend to file the ability to not think much about politics under a flattering heading — level-headedness, perhaps, or simply being too busy with the real and present business of a life. And I want to be fair to that impulse. It might actually be desirably “zen” to ignore politics. Some people _are_ to busy surviving to pay attention to the structures that govern a comparatively abstract world.
+
+Certainly, the desire to set politics aside is not a failure of character. It can come from disillusionment, from a reasonable longing to keep some corner of life unspoiled by argument, from exhaustion with conflict. I feel it myself. But the wish, however human, does not change what the _ability_ rests on. Survival-distraction aside, to be able to treat politics as optional, as background, as someone else’s preoccupation, is usually a quiet signal that the arrangement of power already fits the shape of your life. You can afford to ignore the system because, for you, it is working.
+
+If that is an uncomfortable thought, sit with it and consider why.
+
+Our tools have made this easier than it has ever been. A great deal of modern technology is, looked at honestly, machinery for not-looking — for assembling a version of the world smooth enough that nothing in it has to be reckoned with — for cloistering us from discomfort. The feed that hands me back my own beliefs, the settings that mute what I would rather not hear, the small conveniences with which I curate a path around discomfort: a great deal of design effort goes precisely into these, into making the world feel manageable by quietly removing whatever might unsettle it. And I use all of it. I am not writing this from some vantage outside the thing I am describing; I have an abundance of comforts and controls.
+
+But what of disillusionment? It can quickly turn to cynicism, which I have come to recognize as the same luxury wearing a more sophisticated and intellectually defensible coat. The cynic is still paying attention, in their way; they have simply decided in advance that the attention is pointless — that the system is fixed, that nothing moves, that hope is a naïveté they have matured beyond. It is a comfortable position, and it is comfortable for a particular reason. You can afford to believe that nothing will ever change only if you would be more or less fine if nothing did. Cynicism is disengagement that has learned to sound wise.
+
+This is why I have come to hold hope as something sterner than optimism. Optimism is a mood, and a mood is a luxury; it comes and goes with the weather of a comfortable life. Hope is a discipline. For the people a system does not serve, disengagement was never on offer — they cannot file politics under background, because it arrives, daily, in the foreground of their lives. For them, the belief that effort is not wasted, that arrangements made by people can be remade by people, functions less like a feeling and more like a structure. It is something they stand on. The luxury is being able to look away. The necessity of hope is in staying able to believe that looking is worthwhile, action is necessary, and change is possible.
