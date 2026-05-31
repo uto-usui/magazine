@@ -29791,7 +29791,159 @@
     "https://tkdodo.eu/blog/tan-stack-router-and-query": {
       "contentHash": "63d0e17b60390c80d0f1aa192181f23c3cdea131959468b31346efa2435c9d8d",
       "processedAt": "2026-05-27T01:01:51.150Z"
+    },
+    "https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems/": {
+      "contentHash": "122e3ebf16624497b2453235d19758ec6360f642e094c5246bb9f411ce791ba2",
+      "processedAt": "2026-05-29T01:03:58.487Z"
+    },
+    "https://web.dev/blog/baseline-digest-apr-2026?hl=en": {
+      "contentHash": "65f02985f2354a03556567e8fe1b6c3492eac4b419f701a0f3699839242ecef2",
+      "processedAt": "2026-05-29T01:03:59.113Z"
+    },
+    "https://webaim.org/blog/an-extension-is-not-an-excuse/": {
+      "contentHash": "47d72c97491a03ab24bdd3cea48a238e6b56fbf503739c541c294567c5dac30b",
+      "processedAt": "2026-05-29T01:03:59.486Z"
+    },
+    "https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a": {
+      "contentHash": "ffe0a2d551b67046a462b3e3a0cf221f880d838a5f48821d1cdf1caaa1275028",
+      "processedAt": "2026-05-29T01:04:09.029Z"
+    },
+    "https://justmovetoeurope.com/": {
+      "contentHash": "69e90f6a7c5d9f1cf52387e3103d272611de0d1dbc3ffed22669e00382620629",
+      "processedAt": "2026-05-29T01:04:14.018Z"
+    },
+    "https://www.alicepackarddesign.com/blog/why-i-don-t-use-icon-fonts": {
+      "contentHash": "da6c9d20dcbf8b9a21bcbec4ce90a132112fa96601f9b0d57397061ba5e9fe64",
+      "processedAt": "2026-05-29T01:04:14.426Z"
+    },
+    "https://www.shapes.gg/figma-agent-a-first-look/": {
+      "contentHash": "738d825efa55c8bc0444fa27553d915029dfad136bcf12ece09cd8a8be446555",
+      "processedAt": "2026-05-29T01:04:15.697Z"
+    },
+    "https://www.chrbutler.com/cynicism-is-a-luxury-hope-is-a-necessity": {
+      "contentHash": "9713f4586d9ea79767039bd0ff9cb23414c668ddad205f1f5c6c4ef93d57ef89",
+      "processedAt": "2026-05-29T01:04:16.222Z"
+    },
+    "https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e": {
+      "contentHash": "b5a5c9cef38335e0989c1f53177a23d2e4a93c85ed4da74d80418ea7a0a2c639",
+      "processedAt": "2026-05-29T01:04:32.045Z"
+    },
+    "https://www.tokenblast.cc/#": {
+      "contentHash": "afb7233c190d6d2566c19fbbdf5f9a9d3e7f625d3ae320c6f45c2dc008613114",
+      "processedAt": "2026-05-29T01:04:32.945Z"
+    },
+    "https://impeccable.style/": {
+      "contentHash": "94d222de208720499bc269228c38126e76181a6b9fb11fe4e187a5483460dfb7",
+      "processedAt": "2026-05-29T01:04:33.932Z"
+    },
+    "https://isaiprofitable.com/": {
+      "contentHash": "0b269393926ef012b5c039ab91b090b9b3d23f9b66d3f4ba5cff283770e84145",
+      "processedAt": "2026-05-29T01:04:38.452Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-a-trend-of-trying-to-cut": {
+      "contentHash": "da2f598180e843501bb2f77570b8b060aec839a4a475511940c9dde75b771333",
+      "processedAt": "2026-05-29T01:04:38.723Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/opencode": {
+      "contentHash": "178b85729fbe9940e9484c7913ec135ab7bc1cdeb6aa83a8adebb27d907c526d",
+      "processedAt": "2026-05-29T01:04:39.208Z"
+    },
+    "https://tympanus.net/codrops/2026/05/28/the-never-ending-story-building-a-seamless-infinite-scroll-experience-with-gsap-lenis/": {
+      "contentHash": "051af9b9189ecc63b5829e4212d631142bdff33dbd6823a22b36454951c29e33",
+      "processedAt": "2026-05-29T01:04:40.709Z"
+    },
+    "https://tympanus.net/codrops/2026/05/27/whooshes-snaps-and-shaders-adrien-vanderpotte-and-the-feeling-of-the-interface/": {
+      "contentHash": "d7ad4788fc9d5d4db8877b75fa3434c637b7be9c8b69eafeed710dc0ecabaefd",
+      "processedAt": "2026-05-29T01:04:41.921Z"
+    },
+    "https://smashingmagazine.com/2026/05/building-self-correcting-color-systems-contrast-color/": {
+      "contentHash": "a1bacae1098abc1a062a2326446aebebdaaa7afd22ad393fd40be8ffcff4e265",
+      "processedAt": "2026-05-29T01:04:43.653Z"
+    },
+    "https://www.bitovi.com/blog/ceo-justin-meyer-at-config-2026-ai-and-the-future-of-design-to-dev": {
+      "contentHash": "169c4b3b18781e84b37d85d430c92e688871180bc22fb8e1c586072bfcb42340",
+      "processedAt": "2026-05-29T01:04:43.906Z"
+    },
+    "https://ics.media/entry/260527/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-05-29T01:04:44.200Z"
+    },
+    "https://piccalil.li/blog/navigating-the-age-old-problem-of-checkmarks-in-ui-with-progressive-enhancement/?ref=main-rss-feed": {
+      "contentHash": "7e2f01d0395851f947f0b40f02aaed65589cbdbcf1b3e59a3ce2ef233fe00249",
+      "processedAt": "2026-05-29T01:04:45.750Z"
+    },
+    "https://vercel.com/changelog/opus-4-8-on-ai-gateway": {
+      "contentHash": "5e01f700cb4f95ee1eb199a32ba0a56d3b28b91e65e98ca68a41d88c20d3785e",
+      "processedAt": "2026-05-29T01:04:46.436Z"
+    },
+    "https://vercel.com/changelog/team-wide-provider-allowlist-on-ai-gateway": {
+      "contentHash": "bc2cfc257a1235cf13e2a80bad3da8bb4d1396467c9daa613ac63f461507df60",
+      "processedAt": "2026-05-29T01:04:47.235Z"
+    },
+    "https://vercel.com/changelog/amazon-opensearch-serverless-is-now-available-in-the-vercel-marketplace": {
+      "contentHash": "362d5617e8bfd56dc921ddc4a0bd32380244f801c0c3d25f2f0c51a51280a72b",
+      "processedAt": "2026-05-29T01:04:47.870Z"
+    },
+    "https://vercel.com/changelog/experimental-native-binaries-for-vercel-cli": {
+      "contentHash": "85d3739a92574162950b61abbd50496169ca036a79f2added393b319ff6beee6",
+      "processedAt": "2026-05-29T01:04:48.624Z"
+    },
+    "https://vercel.com/changelog/redesigned-deployments-list": {
+      "contentHash": "508b8e6bf9858dfe1a3270ebccad87b337dd3960b5efb539bec1ff7a0abca46e",
+      "processedAt": "2026-05-29T01:04:49.839Z"
+    },
+    "https://stripe.com/blog/top-solo-founder-traits": {
+      "contentHash": "047f512c5f325fc8e60a7f12564f96004da829b15b8f0b99cdd2a849f050a460",
+      "processedAt": "2026-05-29T01:04:50.502Z"
+    },
+    "https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business": {
+      "contentHash": "cb25b3c84896ee987b3c66f751fbf3cd8437a658fdd27d400884ad44214557a8",
+      "processedAt": "2026-05-29T01:04:51.217Z"
+    },
+    "https://www.figma.com/blog/4-new-ways-to-go-from-idea-to-product-with-ai-tools/": {
+      "contentHash": "ac6fff3af3e4711e971d77f05a55bc2f80b15f4e60961ea5008be90667c7ff99",
+      "processedAt": "2026-05-29T01:05:27.012Z"
+    },
+    "https://www.figma.com/blog/figma-make-now-on-your-local-code/": {
+      "contentHash": "ff6c05cd4d694c1bcaf9e8faf9e07eb4e5c474b681e201b6f3684bd465d17d65",
+      "processedAt": "2026-05-29T01:05:55.932Z"
+    },
+    "https://frontendfoc.us/issues/743": {
+      "contentHash": "933755327128f8c82e30b683f6750603257ac95df36223de5176ea00575a7113",
+      "processedAt": "2026-05-29T01:05:56.618Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/05/28/163844": {
+      "contentHash": "ee1bd9595242b47549a364dc25cb4a660b689453c23b7dd4177a5230ba843d2e",
+      "processedAt": "2026-05-29T01:05:57.448Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/05/28/152432": {
+      "contentHash": "3d7deb6183ed756e6928f3ae1e12f050bc6f9a88e71e74ada06cef7d0431c48d",
+      "processedAt": "2026-05-29T01:05:57.663Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/05/28/100000": {
+      "contentHash": "cfc7c6f974fa7a9664942c198daab5bb6ff6173b18cdf70a18810bfc991584d8",
+      "processedAt": "2026-05-29T01:05:59.064Z"
+    },
+    "https://tech.layerx.co.jp/entry/hosted-agent-claude-agent-sandbox": {
+      "contentHash": "5e65eefcc9ae08c72b88aa744eb49396fcf8411e927d9e72b27a25de4ca89948",
+      "processedAt": "2026-05-29T01:05:59.884Z"
+    },
+    "https://uxmag.com/articles/the-part-of-agile-designers-fear-the-most-imperfect-work": {
+      "contentHash": "17de29fa4380f47b3c2f498b0063a1f1f6b09aa888fb2990bb4117704045f5f9",
+      "processedAt": "2026-05-29T01:06:01.265Z"
+    },
+    "https://uxmovement.medium.com/bento-box-menus-a-better-way-to-navigate-lists-8bb761320985?source=rss-40dd56d8f87d------2": {
+      "contentHash": "a94d2ccd0f4662947f41c929f00db2fffbfcb09c37429a0260f268f64d8b9dec",
+      "processedAt": "2026-05-29T01:06:07.053Z"
+    },
+    "https://uxmovement.medium.com/the-magic-of-dark-mode-color-tinting-9b62b0b93cb9?source=rss-40dd56d8f87d------2": {
+      "contentHash": "36ea10dad46072749c0fb23e8b9b7f3580048c686a84be4f43e8c12f5df942f4",
+      "processedAt": "2026-05-29T01:06:12.284Z"
+    },
+    "https://thisweekinreact.com/newsletter/283": {
+      "contentHash": "13087aa474259d4df00ebd9446e65782c424381cc3e17a1254df17fe0d9b24a7",
+      "processedAt": "2026-05-29T01:06:13.088Z"
     }
   },
-  "lastRun": "2026-05-27T01:01:51.150Z"
+  "lastRun": "2026-05-29T01:06:13.088Z"
 }
