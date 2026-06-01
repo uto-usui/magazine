@@ -29943,7 +29943,95 @@
     "https://thisweekinreact.com/newsletter/283": {
       "contentHash": "13087aa474259d4df00ebd9446e65782c424381cc3e17a1254df17fe0d9b24a7",
       "processedAt": "2026-05-29T01:06:13.088Z"
+    },
+    "https://csswizardry.com/2026/06/front-ends-missing-metric-the-tbt-window/": {
+      "contentHash": "116f5f90766bf6ea55e46fcf5115ecf3e1e7f38b6fc9a5c85031580003b9d74a",
+      "processedAt": "2026-06-01T01:07:29.541Z"
+    },
+    "https://www.robert-glaser.de/when-everyone-has-ai-and-the-company-still-learns-nothing/": {
+      "contentHash": "903511058388dcfc1fdbad9a852cab2d8cfb890b7a937dce137f0e5511dd22e9",
+      "processedAt": "2026-06-01T01:07:29.960Z"
+    },
+    "https://mechanical-pencil.com/": {
+      "contentHash": "3e8eaceea23e67f26ae8610e3d40c84acf4d4a27f90d8d49a4606695a51310cc",
+      "processedAt": "2026-06-01T01:07:40.123Z"
+    },
+    "https://mudmapmagazine.com/the-utopia-of-the-family-computer/": {
+      "contentHash": "136598e2145816b1ec14edababae1c9183a14a3981819359471df50a44ca400b",
+      "processedAt": "2026-06-01T01:07:42.642Z"
+    },
+    "https://www.nngroup.com/articles/after-design-critique/": {
+      "contentHash": "ad13f87e815205694b48562251012e6669508dab9eebc2e10c47cb580272ce27",
+      "processedAt": "2026-06-01T01:07:43.917Z"
+    },
+    "https://www.seangoedecke.com/prompts-are-technical-debt-too/": {
+      "contentHash": "a385669f8bb10127163a05e23a6de93d86f6d769c1259d71fb0a4575682415ef",
+      "processedAt": "2026-06-01T01:07:44.181Z"
+    },
+    "https://tympanus.net/codrops/2026/05/30/the-future-of-emotional-technology-comfort-websites-for-growth-and-self-awareness/": {
+      "contentHash": "0282045dba82ee85d6539890fdc8d4308f1d0f1aedf3396906147f257887f1c6",
+      "processedAt": "2026-06-01T01:07:45.703Z"
+    },
+    "https://smashingmagazine.com/2026/05/desktop-wallpaper-calendars-june-2026/": {
+      "contentHash": "3dd768221d84020b22fee1b1c5e4b4450e510fb23682d843072d01f2a264d007",
+      "processedAt": "2026-06-01T01:07:48.222Z"
+    },
+    "https://piccalil.li/the-index/184/?ref=main-rss-feed": {
+      "contentHash": "b4424f21e6547df1b55b00d9cfea7130a9c4d6255d7ea724bdd05c9340be9079",
+      "processedAt": "2026-06-01T01:07:48.579Z"
+    },
+    "https://vercel.com/changelog/minimax-m3-on-ai-gateway": {
+      "contentHash": "ba330ff1563b5f4b718338fee5fc3fcf10f7cf4daeb38c36582a49a07e93cdb2",
+      "processedAt": "2026-06-01T01:07:49.286Z"
+    },
+    "https://vercel.com/changelog/function-invocations-now-billed-per-unit": {
+      "contentHash": "e1ada53a1d14986cad576c4b6e2c96475d6792572a1d82470524e1ad8b622e13",
+      "processedAt": "2026-06-01T01:07:49.767Z"
+    },
+    "https://vercel.com/blog/protecting-against-token-theft": {
+      "contentHash": "5fa8c00584b55f461e881efab223aea411e55624164c97b9b84a0975cc6cb0bc",
+      "processedAt": "2026-06-01T01:07:50.422Z"
+    },
+    "https://vercel.com/changelog/run-docker-containers-inside-vercel-sandbox": {
+      "contentHash": "655841cf05e9792c2d7124eaef7ca7ef0ebe6a8753d25181672579ba7b449c61",
+      "processedAt": "2026-06-01T01:07:51.048Z"
+    },
+    "https://vercel.com/changelog/port-8080-is-now-available-in-vercel-sandboxes": {
+      "contentHash": "8f8dedc275adb5752bd428acf30ade540fbdcb42394dbae5b85d8bc9185f61e5",
+      "processedAt": "2026-06-01T01:07:52.074Z"
+    },
+    "https://vercel.com/blog/how-conductor-moved-parallel-coding-agents-from-the-laptop-to-the-cloud-with-vercel-sandbox": {
+      "contentHash": "a40c6d425fc477795eb2eee86231996eca099e412646f1c1900cb13029f9c00d",
+      "processedAt": "2026-06-01T01:07:52.839Z"
+    },
+    "https://zenn.dev/uhyo/articles/react-profession-bench-6": {
+      "contentHash": "b8cb5dd63efcf457815304ae6df3106dde9e5449a6cbe5a14f7e51beceaf6047",
+      "processedAt": "2026-06-01T01:07:53.487Z"
+    },
+    "https://tech.layerx.co.jp/entry/dbt-authorized-models": {
+      "contentHash": "cd04293fde7ee2a03d0f40e5c1cbbcd113daeed3f5b66fc833aafff27e7ea5d7",
+      "processedAt": "2026-06-01T01:07:54.328Z"
+    },
+    "https://tech.layerx.co.jp/entry/gas-to-snowflake-tasks": {
+      "contentHash": "18fe6e77e871fc748f9b1cb2dd2bb3f317c9ec3a80d55605bb4076f06c5e9948",
+      "processedAt": "2026-06-01T01:07:54.778Z"
+    },
+    "https://www.nngroup.com/articles/ras-research-resource-allocation/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "5193430e285c9a3347ebfc6b727be08fcc487d8eb7775098e78b129599496285",
+      "processedAt": "2026-06-01T01:07:55.760Z"
+    },
+    "https://www.nngroup.com/articles/research-recommendations-roadmap/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "638dc1d73b98173cfd8ac1a203a223e4744e41342e8fa6d7115a8118c14e4ff1",
+      "processedAt": "2026-06-01T01:07:56.427Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-may-31-2026/": {
+      "contentHash": "9330b60bb5744c7b4e10c134c2a570841ec319ba8db79919c15e48f016fc0412",
+      "processedAt": "2026-06-01T01:07:57.418Z"
+    },
+    "https://react.statuscode.com/issues/476": {
+      "contentHash": "c90e6827aee80dfa6a387f411f62662d11505db435ebe64f874733b8e025b6fa",
+      "processedAt": "2026-06-01T01:07:57.970Z"
     }
   },
-  "lastRun": "2026-05-29T01:06:13.088Z"
+  "lastRun": "2026-06-01T01:07:57.971Z"
 }
