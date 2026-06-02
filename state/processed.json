@@ -30031,7 +30031,59 @@
     "https://react.statuscode.com/issues/476": {
       "contentHash": "c90e6827aee80dfa6a387f411f62662d11505db435ebe64f874733b8e025b6fa",
       "processedAt": "2026-06-01T01:07:57.970Z"
+    },
+    "https://web.dev/blog/web-platform-05-2026?hl=en": {
+      "contentHash": "bc5a89affcd0a1a65b51ad260ab764e598e671565b6b43ef59bffcd38d0f95f0",
+      "processedAt": "2026-06-02T01:06:35.751Z"
+    },
+    "https://a11yweekly.com/issue/502/": {
+      "contentHash": "9cb92822d30ecbdea5b203b51c19ebf5fd9e5079f815e9f94941465c5a0b43d0",
+      "processedAt": "2026-06-02T01:06:41.343Z"
+    },
+    "https://bit.ly/side-div5": {
+      "contentHash": "e2c04209d3f28bde71ec431885fccbfe860e3814b8cd23e6a40f763bd3c3ef51",
+      "processedAt": "2026-06-02T01:06:50.656Z"
+    },
+    "https://dubroy.com/blog/fast-is-better-than-slow/": {
+      "contentHash": "203f8871f1977bcbd4fc2233ffadc8796c238fe42e91da609554028194b134e1",
+      "processedAt": "2026-06-02T01:06:50.912Z"
+    },
+    "https://heyneuma.com/xcode-for-designers": {
+      "contentHash": "c50e0b5b311c21c89cc9367c6a593b20d046737e41343e191019dc5c174e34cb",
+      "processedAt": "2026-06-02T01:06:51.495Z"
+    },
+    "https://pscanf.com/s/354/": {
+      "contentHash": "064d61da2f1f8b05e38bc694f24b65cdb555270222aaef5db4c73f710cc327d5",
+      "processedAt": "2026-06-02T01:06:51.729Z"
+    },
+    "https://uxdesign.cc/designing-for-ai-means-designing-like-its-1999-da9c53d24644": {
+      "contentHash": "d4e17215a19e54ddc647219b8ee4a82eefd0630761a55c66538c7ee88b513e0c",
+      "processedAt": "2026-06-02T01:06:57.310Z"
+    },
+    "https://tympanus.net/codrops/2026/06/01/beaucoup-and-the-pursuit-of-memorable-experiences/": {
+      "contentHash": "ef6a0df0d44a5ce1aa0ef3cc7cdc57cf64353c1302b83cbec9add76e2e9951f1",
+      "processedAt": "2026-06-02T01:06:58.611Z"
+    },
+    "https://vercel.com/changelog/elastic-build-machines-now-protect-against-out-of-memory-builds": {
+      "contentHash": "6b144d6062b5f299b69a50c4c6c02d8ab484e4de4b8bfc6b9e7bf2607a778506",
+      "processedAt": "2026-06-02T01:06:59.070Z"
+    },
+    "https://vercel.com/changelog/qwen-3-7-plus-now-available-on-ai-gateway": {
+      "contentHash": "dd1c9414083e5073412e8eef23c39f0cc0a2177547a111e3560388b03edeee4f",
+      "processedAt": "2026-06-02T01:06:59.529Z"
+    },
+    "https://vercel.com/changelog/vercel-blob-now-supports-oidc-authentication": {
+      "contentHash": "0952d90f16c9b54bf0bec1e9b1ff4ac20f1f3ad31dc4d7f05d1669dbfc237370",
+      "processedAt": "2026-06-02T01:06:59.971Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/06/01/130000": {
+      "contentHash": "02f407dfb837adda31635f60af9410638b8e994a38749eb05782e4b0e10fb67f",
+      "processedAt": "2026-06-02T01:07:01.040Z"
+    },
+    "https://newsletter.uxdesign.cc/p/designing-for-ai-means-designing": {
+      "contentHash": "daef8663634935071f75ca9df04f90a34b27263f8353ecd329f8e9c1219288b1",
+      "processedAt": "2026-06-02T01:07:01.322Z"
     }
   },
-  "lastRun": "2026-06-01T01:07:57.971Z"
+  "lastRun": "2026-06-02T01:07:01.322Z"
 }
