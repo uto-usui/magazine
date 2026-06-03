@@ -30031,7 +30031,119 @@
     "https://react.statuscode.com/issues/476": {
       "contentHash": "c90e6827aee80dfa6a387f411f62662d11505db435ebe64f874733b8e025b6fa",
       "processedAt": "2026-06-01T01:07:57.970Z"
+    },
+    "https://web.dev/blog/web-platform-05-2026?hl=en": {
+      "contentHash": "bc5a89affcd0a1a65b51ad260ab764e598e671565b6b43ef59bffcd38d0f95f0",
+      "processedAt": "2026-06-03T01:12:15.052Z"
+    },
+    "https://a11yweekly.com/issue/502/": {
+      "contentHash": "9cb92822d30ecbdea5b203b51c19ebf5fd9e5079f815e9f94941465c5a0b43d0",
+      "processedAt": "2026-06-03T01:12:15.294Z"
+    },
+    "https://jackmaguire.org/blog/ai-job-grief/": {
+      "contentHash": "b206a99ec31d91d11c2f54844b4cce67b674467f308f8f6e5471d85bbea8d26d",
+      "processedAt": "2026-06-03T01:12:15.643Z"
+    },
+    "https://toothcomb.codebox.net/#c4cbe6a9-2856-4167-9b41-ec2d0e9f1c65": {
+      "contentHash": "9e77a223a7f7f90c5b19c5a6f2551a7b16c88dd993cc0b5e4215faf82177e2c0",
+      "processedAt": "2026-06-03T01:12:16.650Z"
+    },
+    "https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications": {
+      "contentHash": "b74d059b0e872d2e405b7e551d977a0458dfc70d5f4b767593764b458ba30544",
+      "processedAt": "2026-06-03T01:12:18.013Z"
+    },
+    "https://wikicommute.vercel.app/": {
+      "contentHash": "beae75f8a7191c2f3f04952df2992ad4bbd95dc348a45cb6b01feb6fec4e69a2",
+      "processedAt": "2026-06-03T01:12:22.680Z"
+    },
+    "https://dropbox.tech/culture/beyond-code-generation-rethinking-engineering-productivity-in-the-age-of-ai-agents": {
+      "contentHash": "bc7a09dbc3083b2e7f3f96d17ba4261d0ad81a5af011e5fe0131118e3084183e",
+      "processedAt": "2026-06-03T01:12:23.003Z"
+    },
+    "https://bit.ly/side-div5": {
+      "contentHash": "e2c04209d3f28bde71ec431885fccbfe860e3814b8cd23e6a40f763bd3c3ef51",
+      "processedAt": "2026-06-03T01:12:30.580Z"
+    },
+    "https://dubroy.com/blog/fast-is-better-than-slow/": {
+      "contentHash": "203f8871f1977bcbd4fc2233ffadc8796c238fe42e91da609554028194b134e1",
+      "processedAt": "2026-06-03T01:12:31.145Z"
+    },
+    "https://heyneuma.com/xcode-for-designers": {
+      "contentHash": "c50e0b5b311c21c89cc9367c6a593b20d046737e41343e191019dc5c174e34cb",
+      "processedAt": "2026-06-03T01:12:31.675Z"
+    },
+    "https://pscanf.com/s/354/": {
+      "contentHash": "064d61da2f1f8b05e38bc694f24b65cdb555270222aaef5db4c73f710cc327d5",
+      "processedAt": "2026-06-03T01:12:31.862Z"
+    },
+    "https://uxdesign.cc/designing-for-ai-means-designing-like-its-1999-da9c53d24644": {
+      "contentHash": "d4e17215a19e54ddc647219b8ee4a82eefd0630761a55c66538c7ee88b513e0c",
+      "processedAt": "2026-06-03T01:12:38.363Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/ideas-slow-down-to-speed-up-when": {
+      "contentHash": "15daeccdc864faa097de14436dd166b8b38a5dd582cb8a96ae13f6c22cb1e360",
+      "processedAt": "2026-06-03T01:12:38.530Z"
+    },
+    "https://tympanus.net/codrops/2026/06/01/beaucoup-and-the-pursuit-of-memorable-experiences/": {
+      "contentHash": "ef6a0df0d44a5ce1aa0ef3cc7cdc57cf64353c1302b83cbec9add76e2e9951f1",
+      "processedAt": "2026-06-03T01:12:39.933Z"
+    },
+    "https://vercel.com/changelog/edit-git-settings-for-all-projects-in-a-repo": {
+      "contentHash": "e86975ddb2e876e7568cd1f945037d271c868c92308654944613ed7179275f94",
+      "processedAt": "2026-06-03T01:12:40.943Z"
+    },
+    "https://vercel.com/changelog/signed-urls-are-now-available-for-vercel-blob": {
+      "contentHash": "b6b6a861ad9203fa4ac8de3c356dbcf18e2b08ce41b367fd223d742daedeca89",
+      "processedAt": "2026-06-03T01:12:41.531Z"
+    },
+    "https://vercel.com/changelog/elastic-build-machines-now-protect-against-out-of-memory-builds": {
+      "contentHash": "6b144d6062b5f299b69a50c4c6c02d8ab484e4de4b8bfc6b9e7bf2607a778506",
+      "processedAt": "2026-06-03T01:12:41.973Z"
+    },
+    "https://vercel.com/changelog/qwen-3-7-plus-now-available-on-ai-gateway": {
+      "contentHash": "2a52ecfbd604d001f0dd8bcc71030cafa677bd86d0ed08513c7a860c71899c14",
+      "processedAt": "2026-06-03T01:12:42.453Z"
+    },
+    "https://vercel.com/changelog/vercel-blob-now-supports-oidc-authentication": {
+      "contentHash": "0952d90f16c9b54bf0bec1e9b1ff4ac20f1f3ad31dc4d7f05d1669dbfc237370",
+      "processedAt": "2026-06-03T01:12:42.966Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-adds-lark-feishu-support": {
+      "contentHash": "1f61d818d16e1a39652684449346439f03bc963a71ab580c5988944d8b78750a",
+      "processedAt": "2026-06-03T01:12:43.626Z"
+    },
+    "https://zenn.dev/uhyo/articles/declarative-partial-updates-react": {
+      "contentHash": "afff0b1cfdda6691dda8a308b3561e448ae68efd75c6d1d7815a6a408ce92fd5",
+      "processedAt": "2026-06-03T01:12:44.212Z"
+    },
+    "https://zenn.dev/uhyo/articles/react-profession-bench-7": {
+      "contentHash": "6da75ea58f4c5831935b3a86c341f6259f4bafd793eb44d25ff61d635300dc52",
+      "processedAt": "2026-06-03T01:12:44.691Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/06/02/191107": {
+      "contentHash": "ca0fb70905af476adc81cc4f1364d9b2325c8b4a9973d7c1cc0a0d5e54c403dc",
+      "processedAt": "2026-06-03T01:12:45.309Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/06/01/130000": {
+      "contentHash": "9668940dcd5dd65b5a866628a41d695d99e3dc60015996e8d0f3e30e35ecd63b",
+      "processedAt": "2026-06-03T01:12:46.894Z"
+    },
+    "https://tech.layerx.co.jp/entry/report_tskaigi2026": {
+      "contentHash": "6e1bcf03aedac2cf334b196ad62064c665022201f93b3b4a42aeb8c313850f17",
+      "processedAt": "2026-06-03T01:12:48.296Z"
+    },
+    "https://newsletter.uxdesign.cc/p/designing-for-ai-means-designing": {
+      "contentHash": "daef8663634935071f75ca9df04f90a34b27263f8353ecd329f8e9c1219288b1",
+      "processedAt": "2026-06-03T01:12:48.823Z"
+    },
+    "https://uxmag.com/articles/gamification-2-0-beyond-points-and-badges-designing-for-players-not-metrics-chapter-4-special-considerations": {
+      "contentHash": "b662deec729de124e365232c860942e55b05294c41b02886e714b72e5f8806d3",
+      "processedAt": "2026-06-03T01:12:50.026Z"
+    },
+    "https://uxmovement.medium.com/the-confusing-state-of-mic-buttons-c71f9ac9bdb7?source=rss-40dd56d8f87d------2": {
+      "contentHash": "aab36cc5c2daf206293ddd2392fbbb8c3c8ebda6597bf0ac0a60ab2abb796891",
+      "processedAt": "2026-06-03T01:12:54.835Z"
     }
   },
-  "lastRun": "2026-06-01T01:07:57.971Z"
+  "lastRun": "2026-06-03T01:12:54.835Z"
 }
