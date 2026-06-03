@@ -1,0 +1,58 @@
+articles_dir=2026-06-03
+exit_code=0
+timestamp_utc=2026-06-03T01:12:55Z
+
+---- issue lines ----
+9:❌ Playwright failed for Nielsen Norman Group: HTTP 403
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-03/a-designers-guide-to-opening-xcode-for-the-first-time.md
+📥 Processing: The user is visibly frustrated
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-03/the-user-is-visibly-frustrated.md
+📥 Processing: Designing for AI means designing like it’s 1999
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxdesign.cc/designing-for-ai-means-designing-like-its-1999-da9c53d24644
+✅ Playwright successfully fetched: https://uxdesign.cc/designing-for-ai-means-designing-like-its-1999-da9c53d24644
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-03/designing-for-ai-means-designing-like-its-1999.md
+📥 Processing: Ideas: slow down to speed up when working with AI agents
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-03/ideas-slow-down-to-speed-up-when-working-with-ai-agents.md
+📥 Processing: Beaucoup and the Pursuit of Memorable Experiences
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-03/beaucoup-and-the-pursuit-of-memorable-experiences.md
+📥 Processing: Edit Git settings for all projects in a repo
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-03/edit-git-settings-for-all-projects-in-a-repo.md
+📥 Processing: Signed URLs are now available for Vercel Blob
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-03/signed-urls-are-now-available-for-vercel-blob.md
+📥 Processing: Elastic Build Machines now protect against out of memory builds
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-03/elastic-build-machines-now-protect-against-out-of-memory-builds.md
+📥 Processing: Qwen 3.7 Plus now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-03/qwen-37-plus-now-available-on-ai-gateway.md
+📥 Processing: Vercel Blob now supports OIDC authentication
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-03/vercel-blob-now-supports-oidc-authentication.md
+📥 Processing: Chat SDK adds Lark and Feishu support
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-03/chat-sdk-adds-lark-and-feishu-support.md
+📥 Processing: Declarative Partial UpdatesをストリーミングSSRに使う
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-03/declarative-partial-updatesssr.md
+📥 Processing: Claude Opus 4.8 effort=high VS effort=max React習熟度比較
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-03/claude-opus-48-efforthigh-vs-effortmax-react.md
+📥 Processing: AIとリファクタして、人間の出番があったところ
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-03/ai.md
+📥 Processing: 人生（ほぼ）初登壇したので、内容の補足や感想などをまとめてみました
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-03/smarthr-06-01-130000.md
+📥 Processing: TSKaigi 2026に参加しました #TSKaigi
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-03/tskaigi-2026-tskaigi.md
+📥 Processing: Designing for AI means designing like it’s 1999
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-03/designing-for-ai-means-designing-like-its-1999-1.md
+📥 Processing: Gamification 2.0. Beyond Points and Badges: Designing for Players, Not Metrics. Chapter 4: Special Considerations
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-03/gamification-20-beyond-points-and-badges-designing-for-players-not-metrics-chapter-4-special-conside.md
+📥 Processing: The Confusing State of Mic Buttons
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxmovement.medium.com/the-confusing-state-of-mic-buttons-c71f9ac9bdb7?source=rss-40dd56d8f87d------2
+✅ Playwright successfully fetched: https://uxmovement.medium.com/the-confusing-state-of-mic-buttons-c71f9ac9bdb7?source=rss-40dd56d8f87d------2
+⚠️ Content too short (134 chars < 200): https://uxmovement.medium.com/the-confusing-state-of-mic-buttons-c71f9ac9bdb7?source=rss-40dd56d8f87d------2
+⚠️ Using RSS content as fallback for: https://uxmovement.medium.com/the-confusing-state-of-mic-buttons-c71f9ac9bdb7?source=rss-40dd56d8f87d------2
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-03/the-confusing-state-of-mic-buttons.md
+
+📊 Summary:
+   ✅ Success: 28
+   ❌ Errors: 0
+🏁 Done!
