@@ -103,11 +103,41 @@ date "+%Y-%m-%d-%H%M%S"
 
 出力先: `newsletters/pickup/YYYY-MM-DD-HHmmss.md`
 
-### 6. 完了報告
+### 6. Notion へ保存
+
+生成したピックアップを Notion DB「UX Developer newsletter」に **1ピックアップ=1ページ** で保存する。
+**`notion-cli` スキルの手順に従うこと。**
+
+**重要（公開リポジトリ対策）**: このリポジトリは公開のため、Notion の DB ID をこのファイルや他のコミット対象ファイルに直書きしない。ID は `.env`（gitignore 済み）から読む:
+
+```bash
+# .env から読み込む
+NOTION_PICKUP_DATA_SOURCE_ID=$(grep '^NOTION_PICKUP_DATA_SOURCE_ID=' .env | cut -d= -f2)
+NOTION_PICKUP_DATABASE_ID=$(grep '^NOTION_PICKUP_DATABASE_ID=' .env | cut -d= -f2)
+```
+
+`.env` に該当キーが無い場合は Notion 保存をスキップし、その旨を完了報告に記載する（ファイル生成・コミットは通常どおり行う）。
+
+**ページのプロパティ**（生成した Markdown から抽出してマッピング）:
+
+| プロパティ | 型 | 値 |
+|-----------|-----|-----|
+| `Name` | title | 1行目の見出し（`# ` を除いたタイトル全体） |
+| `作成日` | date | `**作成日**:` の値 |
+| `対象期間` | rich_text | `**対象期間**:` の値 |
+| `記事数` | number | 本文中の `## [...]` 記事見出しの数 |
+
+**本文**: ピックアップ Markdown 全体を Notion ブロックに変換して入れる。
+変換は `notion-cli` スキルの `references/markdown-conversion.md`（quote→callout・mermaid 改行の後処理）に従う。children は1リクエスト最大100ブロックのため、超える場合は分割して PATCH する。
+
+`parent` は `{"type": "database_id", "database_id": "$NOTION_PICKUP_DATABASE_ID"}` を指定する。
+
+### 7. 完了報告
 
 - 作成ファイルのパス
 - 対象ニュースレター数と選定記事数
 - 選定記事のタイトル一覧
+- Notion ページの URL（保存した場合）／スキップ理由（しなかった場合）
 
 ### 英語表現の扱い
 
