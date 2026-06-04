@@ -1,0 +1,59 @@
+articles_dir=2026-06-04
+exit_code=0
+timestamp_utc=2026-06-04T01:12:36Z
+
+---- issue lines ----
+8:Failed to fetch feed Kent C. Dodds: Status code 502
+11:Failed to fetch feed Adrian Roselli after 3 attempts: Request timed out after 15000ms
+
+---- tail (last 50 lines) ----
+📥 Processing: Coding Is No Longer the Constraint: Scaling Developer Experience to Teams and Agents at Spotify
+Image too large, skipping: https://images.ctfassets.net/p762jor363g1/303ebAhPMIdx9T45S2rPtk/938991b14f8b96ef1b253fc900c6d1bd/goose-farm-info__1512x_15fps_crop_.gif
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-04/coding-is-no-longer-the-constraint-scaling-developer-experience-to-teams-and-agents-at-spotify.md
+📥 Processing: Two LLM UI patterns that aren’t chat
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-04/two-llm-ui-patterns-that-arent-chat.md
+📥 Processing: heerich.js
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-04/heerichjs.md
+📥 Processing: Motion vocabulary
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-04/motion-vocabulary.md
+📥 Processing: On frictionmaxxing and the creative virtues of inconvenience
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-04/on-frictionmaxxing-and-the-creative-virtues-of-inconvenience.md
+📥 Processing: Self-fulfilling projects
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-04/self-fulfilling-projects.md
+📥 Processing: Kubernetes and retiring at the top with Kelsey Hightower
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-04/kubernetes-and-retiring-at-the-top-with-kelsey-hightower.md
+📥 Processing: Forging Her Own Path: Houmahani Kane’s Journey in Creative Development
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-04/forging-her-own-path-houmahani-kanes-journey-in-creative-development.md
+📥 Processing: How To Make Your Design System AI-Ready
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-04/how-to-make-your-design-system-ai-ready.md
+📥 Processing: WebStorage / IndexedDB / OPFS 個人開発でも活躍するブラウザーのデータ保存機能を紹介
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-04/webstorage-indexeddb-opfs.md
+📥 Processing: Grok Imagine Video 1.5 on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-04/grok-imagine-video-15-on-ai-gateway.md
+📥 Processing: Trace any Vercel request from the CLI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-04/trace-any-vercel-request-from-the-cli.md
+📥 Processing: Helping businesses optimize network costs with the Visa Digital Commerce Authentication Program (DCAP)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-04/helping-businesses-optimize-network-costs-with-the-visa-digital-commerce-authentication-program-dcap.md
+📥 Processing: Rendering 3D meshes in the DOM with CSS
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-04/rendering-3d-meshes-in-the-dom-with-css.md
+📥 Processing: AIネイティブな開発プロセスへの移行、はじめました — SmartHR勤怠管理の開発チームの取り組み
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-04/ai-smarthr.md
+📥 Processing: 勤怠プロダクトチームに飛び込んでみた —— 入社半年のふりかえり
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-04/smarthr-06-03-180231.md
+📥 Processing: SmartHR の人給基幹は何を解いているのか ── 全体像と、いま向き合っていること
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-04/smarthr.md
+📥 Processing: TSKaigi 2026参加レポート —— 協賛と登壇と、時々、告知
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-04/tskaigi-2026.md
+📥 Processing: 「どの項目を改善すれば仕訳の自動化率が上がるか」を試算するシミュレーターを作った話
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-04/co-entry-invoice-automation-simulator.md
+📥 Processing: AIエージェントに1年分のニュースを読ませて4,500件の長期記憶を作って見えた課題
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-04/ai14500.md
+📥 Processing: UX Conference September Announced (Sep 14 - Sep 25)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-04/ux-conference-september-announced-sep-14-sep-25.md
+📥 Processing: This Week In React #284: TanStack Start, Compiler, React Router, Forms, TypeGPU, React Aria, shadcn, XState | App.js, Gesture Handler, SPM, Expo, Runtimes, Legend List, Desktop | npm, Node.js, Astro
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-04/this-week-in-react-284-tanstack-start-compiler-react-router-forms-typegpu-react-aria-shadcn-xstate-a.md
+
+📊 Summary:
+   ✅ Success: 22
+   ❌ Errors: 0
+🏁 Done!
