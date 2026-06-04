@@ -30143,7 +30143,95 @@
     "https://uxmovement.medium.com/the-confusing-state-of-mic-buttons-c71f9ac9bdb7?source=rss-40dd56d8f87d------2": {
       "contentHash": "aab36cc5c2daf206293ddd2392fbbb8c3c8ebda6597bf0ac0a60ab2abb796891",
       "processedAt": "2026-06-03T01:12:54.835Z"
+    },
+    "https://engineering.atspotify.com/2026/6/code-with-claude-coding-is-no-longer-the-constraint/": {
+      "contentHash": "4d060fbd65bb7a37bea08d453e6f71e82a61ec62f55e4c83dfdb491700c7ea53",
+      "processedAt": "2026-06-04T01:12:20.172Z"
+    },
+    "https://poyo.co/note/20260525T094605/": {
+      "contentHash": "ebe3f7f648d294494a0b64f3de090b903ca54e50cc9c7696cf3899aaf7843ee3",
+      "processedAt": "2026-06-04T01:12:22.309Z"
+    },
+    "https://meodai.github.io/heerich/": {
+      "contentHash": "f3d97978fd6c04a65a686b23fddb41cc413e48d85c4147d7f90d34801d75ad94",
+      "processedAt": "2026-06-04T01:12:22.632Z"
+    },
+    "https://animations.dev/vocabulary": {
+      "contentHash": "dbc722cd322d90b4ace8db8fe6ecee398cfcd8e54c18da8f3e99b208c8d7e3bb",
+      "processedAt": "2026-06-04T01:12:22.984Z"
+    },
+    "https://www.itsnicethat.com/articles/pov-friction-breeds-creativity-creative-industry-260526": {
+      "contentHash": "b5fdfbea8029978348ced97ab134e51bbd67c32bd67ddd9c3a9ad113234a02fb",
+      "processedAt": "2026-06-04T01:12:23.574Z"
+    },
+    "https://www.davesresearch.com/self-fulfilling-projects/": {
+      "contentHash": "1d5e5d4426fe2fa5cd4eadac886b481127fec6007786177dc34552ea20427fb6",
+      "processedAt": "2026-06-04T01:12:24.136Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/kubernetes-and-retiring-at-the-top": {
+      "contentHash": "373917f7c6b1b9a9c815a56d1b90357f8f1188def746c0aca754192f3c22da0f",
+      "processedAt": "2026-06-04T01:12:24.503Z"
+    },
+    "https://tympanus.net/codrops/2026/06/03/forging-her-own-path-houmahani-kanes-journey-in-creative-development/": {
+      "contentHash": "6a674ca65ca14d351fff07dfe2529187002d1e16957eab1f1f755c1763ded72b",
+      "processedAt": "2026-06-04T01:12:26.164Z"
+    },
+    "https://smashingmagazine.com/2026/06/how-make-design-system-ai-ready/": {
+      "contentHash": "0ffd9ae49084664b4fb6fddc44ff7027791a0564b523515eedd349a2747fc0ca",
+      "processedAt": "2026-06-04T01:12:27.708Z"
+    },
+    "https://ics.media/entry/260603/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-06-04T01:12:28.150Z"
+    },
+    "https://vercel.com/changelog/grok-imagine-video-1-5-on-ai-gateway": {
+      "contentHash": "4b544d96b64b17d88a67fee7984171050b6222f2826dd981d8ad47cff479549f",
+      "processedAt": "2026-06-04T01:12:28.711Z"
+    },
+    "https://vercel.com/changelog/trace-any-vercel-request-from-the-cli": {
+      "contentHash": "321d6a6f4c6066a496e988d03452efa03f49b2de67d0f20bd0d4c0617d2cab95",
+      "processedAt": "2026-06-04T01:12:29.137Z"
+    },
+    "https://stripe.com/blog/helping-businesses-optimize-network-costs-with-visa-digital-commerce-authentication-program": {
+      "contentHash": "ad235921aa37aa5b3a8263420dbe87ac2bf347636a7b48cd72b941b841820341",
+      "processedAt": "2026-06-04T01:12:29.431Z"
+    },
+    "https://frontendfoc.us/issues/744": {
+      "contentHash": "15fb31d0e86abda3e4edd1a7b1bbcd5cbd8b82277bd71868fca6b4dcf594f36a",
+      "processedAt": "2026-06-04T01:12:29.958Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/06/04/094730": {
+      "contentHash": "cf8a28db1bd4e108ad395629dd36ce926df4624fa3485ad380d5f63fb86fa95c",
+      "processedAt": "2026-06-04T01:12:30.773Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/06/03/180231": {
+      "contentHash": "d965ba354ac0f2eba902e15dbdf1118a29246454456525bc4ce1db201ce8f675",
+      "processedAt": "2026-06-04T01:12:31.029Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/06/03/161126": {
+      "contentHash": "a05570d8667e95cdce6829fbd7bebe6af298210db8dc6b59bf4da29ebcf1f136",
+      "processedAt": "2026-06-04T01:12:31.553Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/06/03/142853": {
+      "contentHash": "d2d81ecdc3263fd9b4f11a71e8b02072a97d787d789737d48d8d0d7b9d076b9b",
+      "processedAt": "2026-06-04T01:12:33.145Z"
+    },
+    "https://tech.layerx.co.jp/entry/invoice-automation-simulator": {
+      "contentHash": "8c509c1fc7f3836de60774972a896214d0795940d9f12a909e262acdba66a044",
+      "processedAt": "2026-06-04T01:12:34.020Z"
+    },
+    "https://tech.layerx.co.jp/entry/ai-agent-long-term-memory-simulation": {
+      "contentHash": "ef83293af4dfc2a09f55475f00c2ddb490f119bb09c76452358156e45b21562c",
+      "processedAt": "2026-06-04T01:12:34.317Z"
+    },
+    "https://www.nngroup.com/training/september/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "e1c869773a62014e757b1bc6a3d927b46a4479f29540cdd4fdc250c666399ed4",
+      "processedAt": "2026-06-04T01:12:35.803Z"
+    },
+    "https://thisweekinreact.com/newsletter/284": {
+      "contentHash": "76f1c5987f26fc109e0bd1a90534b5865a11d27463d74b5cfa8163d35a12e8ad",
+      "processedAt": "2026-06-04T01:12:36.363Z"
     }
   },
-  "lastRun": "2026-06-03T01:12:54.835Z"
+  "lastRun": "2026-06-04T01:12:36.363Z"
 }
