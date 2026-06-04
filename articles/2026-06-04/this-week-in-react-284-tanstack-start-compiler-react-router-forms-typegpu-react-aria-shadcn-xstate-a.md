@@ -1,0 +1,170 @@
+---
+title: "This Week In React #284: TanStack Start, Compiler, React Router, Forms, TypeGPU, React Aria, shadcn, XState | App.js, Gesture Handler, SPM, Expo, Runtimes, Legend List, Desktop | npm, Node.js, Astro"
+source: "https://thisweekinreact.com/newsletter/284"
+publishedDate: "2026-06-03"
+category: "frontend"
+feedName: "This Week In React"
+---
+
+Hi everyone, Kacper and Filip from [Software Mansion](https://swmansion.com/) here.
+
+This week, TanStack Start is once again in the spotlight. The React Compiler in Rust is on its way. React Router and Remix shipped important security patches – update immediately. There's also a fresh batch of releases from TanStack Form, XState Store, shadcn, React Aria, and more.
+
+On the React Native side, this week was dominated by [App.js Conf 2026](http://appjs.co/) in Kraków. Gesture Handler 3.0, Swift Package Manager support for React Native, and Legend List 3.0 were among the highlights, alongside Expo announcements like EAS Observe.
+
+Let's go!
+
+As always, thanks for supporting us on your favorite platform:
+
+-   🦋 [Bluesky](https://slo.im/last/b)
+-   ✖️ [X / Twitter](https://slo.im/last/x)
+-   👔 [LinkedIn](https://slo.im/last/l)
+-   👽 [Reddit](https://slo.im/last/r)
+
+**Don't miss the next email!**
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+[![Atomic CRM: The Open-Source CRM Toolkit for Developers](https://thisweekinreact.com/emails/issues/284/marmelab.jpg)](https://github.com/marmelab/atomic-crm)
+
+**[Atomic CRM: The Open-Source CRM Toolkit for Developers](https://github.com/marmelab/atomic-crm)**
+
+Stop struggling with locked-in CRMs and expensive seats. Atomic CRM gives you the power of a professional CRM with the total freedom of open-source.
+
+It’s the only toolkit that combines a high-end user experience with data sovereignty. No more lock-in, no more "renting" your contacts.
+
+Everything you need is already there:
+
+-   **Native Mobile App** for on-the-go access.
+-   **Intuitive Kanban Boards** for pipeline management.
+-   **Built-in Email Tracking** to stay on top of leads.
+-   **Free SSO** for seamless team integration.
+-   **MCP Server Integration** for productivity gains.
+
+Why settle for a black box SaaS when you can own the entire platform? [Deploy Atomic CRM](https://marmelab.com/atomic-crm/) on your own infrastructure in minutes and regain control over your most valuable asset: your data.
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+## ⚛️ React[​](#react "Direct link to ⚛️ React")
+
+![TanStack + Rspack](https://thisweekinreact.com/emails/issues/284/tanstack.jpg)
+
+**TanStack Start Gaining Momentum:**
+
+-   📜 [TanStack Start Adds First-Class Rsbuild Support](https://tanstack.com/blog/start-adds-rsbuild-support) - TanStack Start now supports Rsbuild / Rspack alongside Vite via a new plugin adapter, covering SSR, streaming, HMR, Server Functions, and RSC.
+-   📜 [Lovable - Building apps using TanStack Start](https://lovable.dev/fr/blog/building-apps-using-tanstack-start) - The AI App builder is now using TanStack Start with SSR by default for all new projects.
+-   📜 [The Conductor Rewrite: What They Changed to Make It Fast](https://performance.dev/the-conductor-rewrite) - Migrating their Tauri desktop app from React Router to TanStack Router significantly reduced re-renders thanks to its built-in structural sharing and stable refs.
+-   📜 [TanStack Start authentication: A developer's guide for 2026](https://workos.com/blog/tanstack-start-authentication-guide) - Why `beforeLoad` doesn't protect server functions, the double-guard pattern, sessions, and middleware.
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+-   💸 [SVAR React Gantt – Build project timelines with a pure React API and advanced scheduling (MIT & PRO)](https://svar.dev/react/gantt/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=may)
+-   👀 [React Compiler update - The Rust compiler PR to be merged soon](https://github.com/facebook/react/pull/36173#issuecomment-4608356402) - It already produces at 99.9% the same output as the original TS compiler. You can try it already through a local PR checkout. The Oxc team is already working on an integration ([PR](https://github.com/oxc-project/oxc/pull/22942)).
+-   📅 [Next.js Nights - The Next.js team on tour (9 June SF, 11 June Amsterdam, 18 June London)](https://nextjs.org/nights) - They also [teased us](https://x.com/nextjs/status/2059997719197098425) about an upcoming v16.3 release, including Instant Navigations and new AI-related features.
+-   🔐 [React Router & Remix v2 - 7 CVEs published](https://x.com/ReactRouter/status/2061839906834395649) - Includes RCE, CSRF, XSS, and DoS vulnerabilities. Update to React Router v7.16.0 / v6.30.4 or Remix v2.17.5.
+-   📜 [Deprecating a React component using TypeScript Overload](https://dev.to/mbarzeev/deprecating-a-react-component-using-typescript-overload-2ka) - How to ship a breaking component redesign without renaming it with the usage of TS overload, mark the old API as `@deprecated`, and let consumers opt into the new version by adding a `new` prop.
+-   💸 [PostHog - PostHog Code and the self-driving product](https://go.posthog.com/twir-jun3)
+-   📦 [TanStack Form 1.33 - `FormGroup` API to simplify multi-step forms](https://github.com/TanStack/form/releases/tag/%40tanstack/react-form%401.33.0)
+-   📦 [React Hook Form 7.77 - new `resetDefaultValues` API](https://github.com/react-hook-form/react-hook-form/releases/tag/v7.77.0)
+-   📦 [React Email 6.5 - Filter compatibility warnings by client, accessibility improvements](https://github.com/resend/react-email/releases/tag/react-email%406.5.0)
+-   📦 [TypeGPU React - React bindings for TypeGPU](https://docs.swmansion.com/TypeGPU/ecosystem/typegpu-react/) - Hooks like `useFrame`, `useUniform`, and `useRoot` to write GPU shaders directly in TypeScript and integrate WebGPU into React components.
+-   📦 [Lexical 0.45 - New composable DOMImportExtension replacing importDOM, backspace now preserves block type, canUndo/canRedo signals on HistoryExtension.](https://github.com/facebook/lexical/releases/tag/v0.45.0)
+-   📦 [React Aria Components 1.18 - `Calendar` multi-date selection, month/year pickers, new `TableFooter` and `SliderFill` components](https://github.com/adobe/react-spectrum/releases/tag/react-aria-components%401.18.0) - Checkbox, Radio, and Switch now support description and error message slots.
+-   📦 [React Spectrum 1.4 - drag & drop in ListView and similar, TableView highlight selection & TableFooter, custom prefixes in ComboBox/TextField, multi-date Calendar selection](https://react-spectrum.adobe.com/releases/v1-4-0.html)
+-   📦 [Shadcn UI 4.9 & 4.10 - GitHub registries, `npx shadcn eject` to extract any component into your codebase](https://ui.shadcn.com/docs/changelog)
+-   📦 [Next Intl 4.13 - `useExtracted` function now generates message keys using URL-safe base64](https://github.com/amannn/next-intl/releases/tag/v4.13.0)
+-   📦 [React Flow 12.11 - new `autoPanOnSelection` prop](https://github.com/xyflow/xyflow/releases/tag/%40xyflow/react%4012.11.0)
+-   📦 [XState Store 4.0 - `createStoreLogic` for reusable stores, `enq.trigger` for chaining events, Standard Schema support, `store.can` for event checking.](https://github.com/statelyai/xstate/releases/tag/%40xstate%2Fstore%404.0.0)
+-   📦 [React Archer 5.0 - Draw arrows between elements - Add React 19 support](https://github.com/pierpo/react-archer/releases/tag/v5.0.0)
+-   📦 [ESLint Plugin React ”You Might Not Need An Effect” 1.0](https://github.com/nickjvandyke/eslint-plugin-react-you-might-not-need-an-effect/blob/main/CHANGELOG.md#100-2026-05-31)
+-   🎥 [Jack Herrington - All 17 TanStack Projects In ONE App!](https://www.youtube.com/watch?v=J4kzovOTNKw)
+-   🎙️ [Señors at Scale - Redux at Scale with Mark Erikson](https://www.youtube.com/watch?v=dbe0wC9Y8bo)
+
+**Don't miss the next email!**
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+[![Ship AI generated code safely with Meticulous.](https://thisweekinreact.com/emails/issues/282/meticulous.jpg)](https://www.meticulous.ai/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=26q2&utm_content=1st)
+
+**[Ship AI generated code safely with Meticulous.](https://www.meticulous.ai/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=26q2&utm_content=1st)**
+
+Claude writes your code. Claude reviews your code. Claude fixes the review comments. And somehow, _you're_ the one getting paged at 2am when it breaks in prod.
+
+Fortunately, top AI-driven teams like Dropbox, Notion, LaunchDarkly, and Wiz rely on Meticulous to run 1000s of e2e UI tests autonomously, covering every user flow, edge case, role and permutation. Built by ex-Palantir engineers, [Meticulous gives you near-exhaustive coverage in weeks, without any developer effort](https://www.meticulous.ai/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=26q2&utm_content=1st). 
+
+It works like magic in the background:
+
+-   Near-exhaustive coverage on every test run
+-   No test creation
+-   No maintenance (seriously)
+-   Zero flakes (built on a deterministic browser)
+
+**Check it out** - and see why one engineering leader at Dropbox said that “[once we started using Meticulous, we couldn’t imagine working without it](https://www.meticulous.ai/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=26q2&utm_content=1st#:~:text=Once%20we%20started%20using%20Meticulous%2C%20we%20couldn%27t%20imagine%20working%20without%20it.).”
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+## 📱 React-Native[​](#react-native "Direct link to 📱 React-Native")
+
+[![Highlights from App.js Conf 2026](https://thisweekinreact.com/emails/issues/284/appjs.png)](https://appjs.co/)
+
+**[Highlights from App.js Conf 2026](https://appjs.co/)**
+
+Last week, the community gathered at the App.js Conf happening in Kraków. We're highlighting three announcements here, since many of the others shipped over the past month and were demoed again on stage. Make sure to catch the rest of the talks through the live stream recordings ([Day 1](https://www.youtube.com/live/4H8iRPN0Q2M?si=2dYvWbCDiA3SHznk), [Day 2](https://www.youtube.com/live/dvpeMlwPNnw?si=po7jCHjf84nn04vF)).
+
+[**React Native Gesture Handler 3.0**](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/v3.0.0)
+
+Major release rebuilt for the New Architecture, dropping Old Architecture support, introducing a new hook-based API which is React Compiler friendly, a new `Touchable` component with built-in animations and deeper Reanimated integration.
+
+**Swift Package Manager support for React Native**
+
+Meta + Expo previewed `npx react-native spm`, which scaffolds SPM config to replace CocoaPods: generates a committable Xcode project, runs codegen, caches XCFrameworks globally. CocoaPods trunk goes read-only Dec 2. Both Cocoapods and SPM work in parallel during the transition.
+
+[**EAS Observe**](https://docs.expo.dev/eas/observe/introduction/)
+
+New Expo production performance monitoring service that tracks real-world startup times, render performance, and bundle load times across devices, with release comparison and per-session investigation. Currently in Private Preview, free up to 10K MAU for at least three months.
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+-   💸 [Maestro MCP - Let your AI agent write and run mobile UI tests for you](https://docs.maestro.dev/get-started/maestro-mcp?utm_source=this-week-in-react)
+-   🐦 [N-API v10 support landed in Hermes trunk - native Node-API addons can now run on Hermes without modification. Still experimental.](https://x.com/tmikov/status/2060005546053579163)
+-   🗓️ [Chain React](https://ti.to/chainreact/chainreact2026/discount/TWIR) - 🇺🇸 Portland - 30-31 July. The US React Native conference is back! Grab your tickets now and get a 15% discount with code "TWIR"!
+-   📜 [Things I Learned While Building Expo](https://evanbacon.dev/blog/expo) - Evan Bacon is leaving Expo after 9 years. He wrote what he learned on dogfooding, listening user feedback, building developer trust through rough patches, and why data beats vibes when you're building developer tools.
+-   📜 [Expo Router v56: Decoupling from React Navigation](https://expo.dev/blog/expo-router-v56-decoupling-from-react-navigation) - Covers the decision to fork React Navigation internals for full architectural control, codemod-assisted migration, streaming SSR with generateMetadata, and new Android toolbar API and Native Tabs customization.
+-   📜 [Native code in Expo SDK 56: inline modules and type generation](https://expo.dev/blog/native-code-expo-sdk-56) - How inline modules let you write Swift and Kotlin files directly alongside your app code, and how `expo-type-information` automatically generates matching TypeScript interfaces from them.
+-   📦 [React Native Runtimes - Run RN Components and business logic in isolated Hermes runtimes](https://github.com/margelo/react-native-runtimes) - This Margelo/Callstack library permits rendering React components on separate JS Runtimes, and share state across them.
+-   📦 [Expo Desktop - build macOS and Windows desktop app with Expo](https://github.com/shirakaba/expo-desktop) - Unofficial announcement coming from community.
+-   📦 [React Native Doctor](https://www.react.doctor/react-native) - New open-source CLI that scans your React Native app for performance and security bugs and fixes them with AI agents
+-   📦 [TanStack AI 0.23 - React Native support](https://github.com/TanStack/ai/releases/tag/@tanstack/ai@0.23.0) - Chat clients and framework hooks now run in React Native via a new `fetcher` option.
+-   📦 [Keyframer.dev - Visual Animation Editor for React Native](https://keyframer.dev/) - Outputs production-ready Reanimated v4 code - drag keyframes on a timeline, or type a prompt and get a `useAnimatedScene` hook you can paste directly into your project.
+-   📦 [Legend List 3.0 - Web support added, scroll jump prevention is now core behavior, and `maintainVisibleContentPosition` is now opt-in and disabled by default.](https://github.com/LegendApp/legend-list/blob/main/CHANGELOG.md#300)
+-   📦 [Rozenite 1.11 - Network activity timeline & export, performance startup insights, waterfall view, navigation dispatch origin tracking](https://github.com/callstackincubator/rozenite/releases/tag/v1.11.0)
+-   📦 [@swmansion/react-native-bottom-sheet - Native bottom-sheet components, inline and modal, with content-based sizing and scrollable-child handling](https://github.com/software-mansion-labs/react-native-bottom-sheet)
+-   📦 [Sentry React Native 8.13 - `NavigationContainer` wrapper for React Navigation, iOS Swift Package Manager support, Expo Router param extraction, pause/resume app hang tracking](https://github.com/getsentry/sentry-react-native/releases/tag/8.13.0)
+-   📦 [Argent 0.9 - new `screenshot-diff` too, configurable release-age-aware update reminders](https://github.com/software-mansion/argent/releases/tag/v0.9.0)
+-   📦 [Agent Device 0.16 - Maestro YAML replay compatibility, structured MCP command tools, iOS transform gestures, Android ANR recovery](https://github.com/callstackincubator/agent-device/releases/tag/v0.16.0)
+-   📦 [Uniwind 1.8 - Vite 8 support, `uniwind generate-artifacts` CLI](https://github.com/uni-stack/uniwind/releases/tag/v1.8.0)
+-   📦 [React Native Purchases 10.2 - Ad tracking support](https://github.com/RevenueCat/react-native-purchases/releases/tag/10.2.0)
+-   🎥 [Code with Beto - Why AI-Built Apps Feel Cheap (And How to Fix It)](https://www.youtube.com/watch?v=yH0QwDpV4ZM)
+-   🎥 [Expo - Where is Expo Go?](https://www.youtube.com/watch?v=bu8X9mCL0Ek)
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+## 🔀 Other[​](#other "Direct link to 🔀 Other")
+
+-   📊 [State of CSS 2026 - Survey is now open](https://survey.devographics.com/en-US/survey/state-of-css/2026?source=this_week_in_react)
+-   📜 [Node.js streams, backpressure, memory leaks](https://frontendmasters.com/blog/your-node-js-streams-arent-backpressuring-theyre-silently-eating-your-memory/) - A pragmatic 2-part deep dive to help you reduce the memory footprint of your streams.
+-   📜 [On Rendering Diffs – Pierre Computer Company](https://pierre.computer/writing/on-rendering-diffs) - Deep dive into building a zero-blanking diff virtualizer using the "Inverse Sticky Technique", with insights on layout estimation, DOM pooling, memory optimization, and deferred syntax highlighting.
+-   📦 [Node.js 26.3 - New `permission.drop()` API, configurable HTTP header validation, `Buffer.poolSize` bumped to 64 KiB](https://github.com/nodejs/node/releases/tag/v26.3.0) - Improves the security model, letting you start with the permissions you need for initialization, then drop the ones you no longer need at runtime.
+-   📦 [npm 11.16 - Phase 1 of package.json `allowScripts`](https://github.com/npm/cli/releases/tag/v11.16.0) - npm is rolling out supply chain security improvements in 2 phases, catching up with other package managers. v11.16 adds `package.allowScripts=[]` and warns on unapproved postinstall scripts. v12.0 will block them by default.
+-   📦 [Aube 1.17 - Rust-based package manager - Staged publish trust, hoisting limits, remote tarball integrity fixes, and OTP support for dist-tag writes](https://github.com/endevco/aube/releases/tag/v1.17.0)
+-   📦 [pnpm 11.5 - `hoistingLimits` setting, interactive prompt library, detect staged publishing trust downgrades](https://pnpm.io/blog/releases/11.5)
+-   📦 [Astro 6.4 - Pluggable markdown processor, Rust-based Markdown processor for faster builds, and Cloudflare helpers for advanced routing.](https://astro.build/blog/astro-640/)
+-   📦 [Yarn 4.16 - New stage command for staged publishing, editor SDK support for oxc](https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg/cli/4.16.0)
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+## 🤭 Fun[​](#fun "Direct link to 🤭 Fun")
+
+[![alt](https://thisweekinreact.com/emails/issues/284/meme.png)](https://x.com/vxunderground/status/2056571455001797000)
+
+See ya! 👋
