@@ -1,0 +1,58 @@
+articles_dir=2026-06-05
+exit_code=0
+timestamp_utc=2026-06-05T01:04:14Z
+
+---- issue lines ----
+10:Failed to fetch feed WebAIM Blog: Status code 504
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-05/transitionsdev.md
+📥 Processing: The speed of prototyping in the age of AI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-05/the-speed-of-prototyping-in-the-age-of-ai.md
+📥 Processing: Letterbox — Letters made of letters
+⚠️ Content too short (15 chars < 200): https://www.letterbox.sh/?text=Sidebar&font=Roboto+Mono&weight=700&style=italic&fill=13&cols=4&fc=upper&fm=lorem&bg=%23000000&fg=%23ededed
+🔄 Readability failed, trying Playwright: https://www.letterbox.sh/?text=Sidebar&font=Roboto+Mono&weight=700&style=italic&fill=13&cols=4&fc=upper&fm=lorem&bg=%23000000&fg=%23ededed
+✅ Playwright successfully fetched: https://www.letterbox.sh/?text=Sidebar&font=Roboto+Mono&weight=700&style=italic&fill=13&cols=4&fc=upper&fm=lorem&bg=%23000000&fg=%23ededed
+⚠️ Content too short (7 chars < 200): https://www.letterbox.sh/?text=Sidebar&font=Roboto+Mono&weight=700&style=italic&fill=13&cols=4&fc=upper&fm=lorem&bg=%23000000&fg=%23ededed
+⚠️ Using RSS content as fallback for: https://www.letterbox.sh/?text=Sidebar&font=Roboto+Mono&weight=700&style=italic&fill=13&cols=4&fc=upper&fm=lorem&bg=%23000000&fg=%23ededed
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-05/letterbox-letters-made-of-letters.md
+📥 Processing: Building for voice In, visuals out
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-05/building-for-voice-in-visuals-out.md
+📥 Processing: Creating a Thumbnail Flow Animation with GSAP MotionPath
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-05/creating-a-thumbnail-flow-animation-with-gsap-motionpath.md
+📥 Processing: A Front-end developer’s guide to the hybrid mobile app development landscape
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-05/a-front-end-developers-guide-to-the-hybrid-mobile-app-development-landscape.md
+📥 Processing: Updates to Legal Terms
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-05/updates-to-legal-terms.md
+📥 Processing: Nemotron 3 Ultra now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-05/nemotron-3-ultra-now-available-on-ai-gateway.md
+📥 Processing: New ways to turn global demand into revenue
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-05/new-ways-to-turn-global-demand-into-revenue.md
+📥 Processing: The future of agentic commerce is here
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://stripe.events/acnext_seattle?utm_campaign=TD0976N7Lv4IS9ymCxV2jTAHH
+✅ Playwright successfully fetched: https://stripe.events/acnext_seattle?utm_campaign=TD0976N7Lv4IS9ymCxV2jTAHH
+⚠️ Using RSS content as fallback for: https://stripe.events/acnext_seattle?utm_campaign=TD0976N7Lv4IS9ymCxV2jTAHH
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-05/the-future-of-agentic-commerce-is-here.md
+📥 Processing: Rethinking risk in the age of AI
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://stripe.events/stripeforumseattle1?utm_campaign=T5QX6Eo2zn5AP8iIGrUCWB7FFhttps%3A%2F%2Fstripe.events%2Facnext_seattle%3Futm_campaign%3DTD0976N7Lv4IS9ymCxV2jTAHH
+✅ Playwright successfully fetched: https://stripe.events/stripeforumseattle1?utm_campaign=T5QX6Eo2zn5AP8iIGrUCWB7FFhttps%3A%2F%2Fstripe.events%2Facnext_seattle%3Futm_campaign%3DTD0976N7Lv4IS9ymCxV2jTAHH
+⚠️ Using RSS content as fallback for: https://stripe.events/stripeforumseattle1?utm_campaign=T5QX6Eo2zn5AP8iIGrUCWB7FFhttps%3A%2F%2Fstripe.events%2Facnext_seattle%3Futm_campaign%3DTD0976N7Lv4IS9ymCxV2jTAHH
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-05/rethinking-risk-in-the-age-of-ai.md
+📥 Processing: 「ルールルルルルRubyKaigi 2026事後勉強会 ── したっけ、東京で！」を開催しました
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-05/rubykaigi-2026.md
+📥 Processing: A Problem Framing Kernel
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-05/a-problem-framing-kernel.md
+📥 Processing: Choosing Values for Robust Tests
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-05/choosing-values-for-robust-tests.md
+
+📊 Summary:
+   ✅ Success: 16
+   ❌ Errors: 0
+🏁 Done!
