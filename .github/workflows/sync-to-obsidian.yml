@@ -23,10 +23,22 @@ jobs:
           token: ${{ secrets.OBSIDIAN_PAT }}
           path: obsidian-repo
 
-      - name: Sync articles
+      - run: corepack enable
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Sync articles (enrichment-preserving)
         run: |
-          # Copy articles to obsidian repo's Articles directory
-          rsync -av --delete articles/ obsidian-repo/Articles/
+          # NOTE: rsync --delete を使ってはいけない。
+          # Obsidian 側で付与した enrichment（tags / Related Articles）を
+          # 毎回上書き削除してしまうため。マージ型スクリプトで本文だけ更新する。
+          pnpm sync-to-obsidian "$GITHUB_WORKSPACE/obsidian-repo/Articles"
 
           cd obsidian-repo
 
