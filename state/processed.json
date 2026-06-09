@@ -30295,7 +30295,87 @@
     "http://testing.googleblog.com/2026/06/choosing-values-for-robust-tests.html": {
       "contentHash": "beb414e5d2aaca69377cfc3c0cec3c2a3b4233d07ef1557a5f689ca93fcc0113",
       "processedAt": "2026-06-05T01:04:14.244Z"
+    },
+    "https://addyosmani.com/blog/loop-engineering/": {
+      "contentHash": "c978d50e3ad4126bb572093c4ea91942207dc419cc6babb013a7d48d87bfbc45",
+      "processedAt": "2026-06-08T01:06:14.777Z"
+    },
+    "https://addyosmani.com/blog/intent-debt/": {
+      "contentHash": "250e2f21c7e17bd2b2364006950ede7a137e63e552e6758e6e45ced31c051cf2",
+      "processedAt": "2026-06-08T01:06:15.011Z"
+    },
+    "https://a11yweekly.com/issue/503/": {
+      "contentHash": "ebd5af6cd1cc7374cc9b4fd648c925da6eb95eec049142e86b4594bb77401cfe",
+      "processedAt": "2026-06-08T01:06:15.249Z"
+    },
+    "https://blog.murphytrueman.com/the-parts-of-your-system-you-never-wrote-down/": {
+      "contentHash": "484c8e8e2db08c6b36783bf7a6eccf726706e7cc8811a31ed73d47f8528c6ffd",
+      "processedAt": "2026-06-08T01:06:15.494Z"
+    },
+    "https://knightcolumbia.org/content/ai-as-social-technology": {
+      "contentHash": "f2b105baefea3f58f7f8ef8ee6729920ff984e1812c07131b07988e5ddd05ae5",
+      "processedAt": "2026-06-08T01:06:16.061Z"
+    },
+    "https://www.tokyodesignforum.com/library/2026/soleio": {
+      "contentHash": "f5851e90dd4d4dc1c08bb3744bcf413d91a93db1ac6773704d69a121ffba51d3",
+      "processedAt": "2026-06-08T01:06:17.275Z"
+    },
+    "https://www.craigabbott.co.uk/blog/2026/our-css-isnt-opinionated-enough/": {
+      "contentHash": "26955939ca362983b6cdc54b79a12a5ce18da386fd1f75386dcadeb92ed0a6ba",
+      "processedAt": "2026-06-08T01:06:17.764Z"
+    },
+    "https://emailmarkup.org/en/reports/accessibility/2026/": {
+      "contentHash": "b02093e33f4ef6573a5db66841b8443aabe48489510ab419808a4622d730c847",
+      "processedAt": "2026-06-08T01:06:48.335Z"
+    },
+    "https://tympanus.net/codrops/2026/06/05/the-making-of-the-new-lesse-studio-website-clarity-performance-and-intentionality/": {
+      "contentHash": "1482e94fc46467785c8c49d674342eb0cf524d04f6e342c349c79b0baf443a68",
+      "processedAt": "2026-06-08T01:06:50.182Z"
+    },
+    "https://piccalil.li/the-index/185/?ref=main-rss-feed": {
+      "contentHash": "0c1d37e923d8833753f941a42bde24f104d1202a0824efe61ce4cb1a708bdf0c",
+      "processedAt": "2026-06-08T01:06:50.626Z"
+    },
+    "https://vercel.com/changelog/drives-for-vercel-sandbox-in-private-beta": {
+      "contentHash": "6b1510efe5a7010fb46566c5f1c79c3bc99ac55604ceb5aa3e321b0504c947ef",
+      "processedAt": "2026-06-08T01:06:51.373Z"
+    },
+    "https://vercel.com/changelog/the-skills-sh-api-is-now-available": {
+      "contentHash": "ec88fe8c64e05ee640bb6be4dc8173be7e6b23425e4ce86aed002f31f4d74919",
+      "processedAt": "2026-06-08T01:06:51.881Z"
+    },
+    "https://vercel.com/changelog/build-and-deploy-shopify-storefronts-on-vercel": {
+      "contentHash": "59d101b8aa05e7b6870f027953317967208558378256c0f154f1ed187d049c43",
+      "processedAt": "2026-06-08T01:06:52.682Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/06/05/143239": {
+      "contentHash": "a6d6be1e28bee5c45deebf0d6e1d188e17ef0b0984ee852429a96762c573db21",
+      "processedAt": "2026-06-08T01:06:53.870Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/06/05/104421": {
+      "contentHash": "3abfffca07509da8191563bbf200c093c5f4dc53626fca4cd5035dbf3e36f70b",
+      "processedAt": "2026-06-08T01:06:54.142Z"
+    },
+    "https://tech.layerx.co.jp/entry/jsai2026-sponsor": {
+      "contentHash": "5a29f87b2fbc93f7d13eed23581c816729c97d37c587adc2b3cde75af8082dbb",
+      "processedAt": "2026-06-08T01:06:56.349Z"
+    },
+    "https://www.nngroup.com/articles/behavioral-economics-for-ux/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "8befbbd3896fbb33ff4a5a1bfec0cd165651901cd0f77cff7446be76931325c9",
+      "processedAt": "2026-06-08T01:06:57.262Z"
+    },
+    "https://www.nngroup.com/articles/design-jobs-ai-created/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "98dfa2bb7a8ee822e0675d29de942b93d5546fbbefd2131681fe1d03854a5cd9",
+      "processedAt": "2026-06-08T01:06:58.569Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-june-7-2026/": {
+      "contentHash": "d35aa02b8f117f8eb76399f3281d0f10b1dfed6da909d7dff316db16adea1dd1",
+      "processedAt": "2026-06-08T01:06:59.677Z"
+    },
+    "https://react.statuscode.com/issues/477": {
+      "contentHash": "b4615a91cbf5fb3f4b2bbd0a1a50c03bf5348269c9399dfb7575e79fd6ec07a3",
+      "processedAt": "2026-06-08T01:07:00.416Z"
     }
   },
-  "lastRun": "2026-06-05T01:04:14.244Z"
+  "lastRun": "2026-06-08T01:07:00.417Z"
 }
