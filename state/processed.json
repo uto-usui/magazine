@@ -30375,7 +30375,103 @@
     "https://react.statuscode.com/issues/477": {
       "contentHash": "b4615a91cbf5fb3f4b2bbd0a1a50c03bf5348269c9399dfb7575e79fd6ec07a3",
       "processedAt": "2026-06-08T01:07:00.416Z"
+    },
+    "https://karlkoch.me/writing/falling-in-love-with-the-build": {
+      "contentHash": "3cf457a652a37d2ec7189b3390d856e1ed0327e7211cbf30c3bec7b31ad8e2a1",
+      "processedAt": "2026-06-10T01:05:29.976Z"
+    },
+    "https://css-generators.com/center/": {
+      "contentHash": "316e1201dc83c570bbf8263df7cc82bcbd01e2ba2e4ffd031e1abec04912c823",
+      "processedAt": "2026-06-10T01:05:30.404Z"
+    },
+    "https://github.blog/ai-and-ml/github-copilot/building-a-general-purpose-accessibility-agent-and-what-we-learned-in-the-process/": {
+      "contentHash": "f5f8d85ec60c1de747dc4e56e966440e61d4a79d18db9131dbf14cb8e5c3cfff",
+      "processedAt": "2026-06-10T01:05:31.225Z"
+    },
+    "https://enshittifier.wells.ee/": {
+      "contentHash": "daa20c623317063b4d7d10cfee7977d3845f9d525b56bf60f5b1790cdd6d6856",
+      "processedAt": "2026-06-10T01:05:37.480Z"
+    },
+    "https://bit.ly/side-pie4": {
+      "contentHash": "7262f4aa9cbf4434dac8db67448443bcedd2267de16afb171d79366dbeaece02",
+      "processedAt": "2026-06-10T01:05:43.243Z"
+    },
+    "https://www.doc.cc/articles/a-sharp-tool-can-still-ruin-the-cut": {
+      "contentHash": "234a4a293b8b21886387666ae1d1bbff16b70562a3a2db0a27893191af033302",
+      "processedAt": "2026-06-10T01:05:47.809Z"
+    },
+    "https://arps18.github.io/posts/claude-code-mastery/": {
+      "contentHash": "283a41d9917052a68159ce75919f198837b249666eb61ae411aa9884b02e250c",
+      "processedAt": "2026-06-10T01:05:48.242Z"
+    },
+    "https://www.dailydesigner.net/": {
+      "contentHash": "fb7cedb097da682afd98cfc344a90b9bc860a2484d38a59b93c833e93df6dc1e",
+      "processedAt": "2026-06-10T01:05:48.869Z"
+    },
+    "https://www.anthropic.com/institute/recursive-self-improvement": {
+      "contentHash": "40eeb05dd2dfaa836779a29e559389322560b694677aef3cd70031b485970d03",
+      "processedAt": "2026-06-10T01:05:53.340Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-job-market-in-2026-part-2": {
+      "contentHash": "21df51feb4d435170fa1aed5ca8b15d5be5d72483f84faba750cb0159d07404e",
+      "processedAt": "2026-06-10T01:05:53.626Z"
+    },
+    "https://tympanus.net/codrops/2026/06/09/building-an-interactive-digital-stamp-collection-with-shaders-postcards-and-playful-inspection/": {
+      "contentHash": "9c19194090dd6718b479dad3b197d0fb77ea55877477e078be648846bd1b7bb0",
+      "processedAt": "2026-06-10T01:05:55.010Z"
+    },
+    "https://tympanus.net/codrops/2026/06/08/no-two-paths-alike-inside-san-ritas-approach-to-digital-experiences/": {
+      "contentHash": "fa62468ba849c2102fa3c267fb1d490b7bfd7185d9479996a837014748d710b8",
+      "processedAt": "2026-06-10T01:05:56.324Z"
+    },
+    "https://bradfrost.com/blog/link/tiny-awards/": {
+      "contentHash": "d2e2e33727fa45d1fa769c3d91dd1f25bda1090e65deca34f8c64e20ebd17c7b",
+      "processedAt": "2026-06-10T01:05:56.543Z"
+    },
+    "https://vercel.com/changelog/claude-fable-5-now-available-on-ai-gateway": {
+      "contentHash": "933052b8b3b2a715facbfb11aacdc1e79ab37f63e85b7a7d1eaba3367834ff2d",
+      "processedAt": "2026-06-10T01:05:57.088Z"
+    },
+    "https://vercel.com/changelog/budgets-for-api-keys-on-ai-gateway": {
+      "contentHash": "0ba151ddaa54cae016bd8629446e86f3b1e567fa4f7d6f453a4f47d794f05573",
+      "processedAt": "2026-06-10T01:05:57.721Z"
+    },
+    "https://vercel.com/changelog/domain-search-is-now-available-through-the-vercel-cli": {
+      "contentHash": "d52c069d73d43f86707b4b5d951c1164eb7684e4cf8ae75aa09ee567917eb4cd",
+      "processedAt": "2026-06-10T01:05:58.134Z"
+    },
+    "https://vercel.com/blog/ai-gateway-production-index-june-2026": {
+      "contentHash": "f3ab51617d943d6568a99a593c0999507e0ecb08b13de9c8cf43c73d872272cc",
+      "processedAt": "2026-06-10T01:05:58.726Z"
+    },
+    "https://www.figma.com/blog/you-never-stop-cultivating-taste/": {
+      "contentHash": "ceb786741ff8c17c55e1ed5c2f5848b18dbe79d4cd5bd02da9ebc14102c41928",
+      "processedAt": "2026-06-10T01:06:30.053Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/06/09/104206": {
+      "contentHash": "f9f870bc4c9fa877c3e5262a2eee0129dc3ee094f9780dbb11e2b19e8cad8c00",
+      "processedAt": "2026-06-10T01:06:31.029Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/06/09/102216": {
+      "contentHash": "2fa5a2b3f5618a933899fa72277831944846478c3fc2637c98f3ca27a6ad48b9",
+      "processedAt": "2026-06-10T01:06:31.684Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/06/09/181025": {
+      "contentHash": "a0023ec0be6112adaafb9fb9b823d03812d6920e17dca4e7bc0fce110d24c191",
+      "processedAt": "2026-06-10T01:06:33.306Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/06/09/165530": {
+      "contentHash": "c1e5e1ff8afac7fbf7cf1d07a7680f6efdb0801a4fe492a9aea5559b03298658",
+      "processedAt": "2026-06-10T01:06:33.772Z"
+    },
+    "https://newsletter.uxdesign.cc/p/a-sharp-tool-can-still-ruin-the-cut-57f": {
+      "contentHash": "171b65429a25b19493f3ad68ba39ca319d994e69cb7728dcb65b87f884c85280",
+      "processedAt": "2026-06-10T01:06:34.004Z"
+    },
+    "https://uxmag.com/articles/gamification-2-0-beyond-points-and-badges-designing-for-players-not-metrics-chapter-5-implementation": {
+      "contentHash": "8487dfbd538ed51302a1571547e7b0aaf30673533d62b4d47a1cfb9fe05fee81",
+      "processedAt": "2026-06-10T01:06:35.224Z"
     }
   },
-  "lastRun": "2026-06-08T01:07:00.417Z"
+  "lastRun": "2026-06-10T01:06:35.224Z"
 }
