@@ -230,3 +230,37 @@ jobs:
         if: steps.fetch-rss.outputs.exit_code != '0'
         run: |
           exit 1
+
+      - name: Notify Moshi
+        if: always()
+        env:
+          MOSHI_TOKEN: ${{ secrets.MOSHI_TOKEN }}
+        run: |
+          if [ -z "$MOSHI_TOKEN" ]; then
+            echo "MOSHI_TOKEN is not set, skipping notification"
+            exit 0
+          fi
+
+          RUN_URL="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          TITLE="Fetch RSS ✅"
+          MESSAGE="fetch-rss completed: ${RUN_URL}"
+
+          if [ "${{ job.status }}" != "success" ]; then
+            TITLE="Fetch RSS ❌"
+            if [ "${{ steps.fetch-rss.outputs.exit_code }}" != "0" ]; then
+              MESSAGE="RSS取得が失敗しました。Actions を確認してください: ${RUN_URL}"
+            else
+              MESSAGE="新着記事のPR作成中に失敗しました。Actions を確認してください: ${RUN_URL}"
+            fi
+          elif [ "${{ steps.fetch-rss.outputs.has_issue_log }}" = "true" ]; then
+            TITLE="Fetch RSS ⚠️"
+            MESSAGE="RSS取得で問題を検出し、issue log PR を作成しました: ${RUN_URL}"
+          elif [ "${{ steps.check-changes.outputs.has_changes }}" = "true" ]; then
+            MESSAGE="新着記事を取得して PR を作成しました: ${RUN_URL}"
+          else
+            MESSAGE="新着記事はありませんでした: ${RUN_URL}"
+          fi
+
+          curl -s -X POST https://api.getmoshi.app/api/webhook \
+            -H "Content-Type: application/json" \
+            -d "{\"token\": \"$MOSHI_TOKEN\", \"title\": \"$TITLE\", \"message\": \"$MESSAGE\"}"
