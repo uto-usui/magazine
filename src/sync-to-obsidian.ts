@@ -10,7 +10,7 @@
 //   - 宛先に既存の記事     → ソース本文 + 宛先 enrichment を合成し、差分があれば書き込み
 //   - ソースに無い宛先記事 → 削除しない（additive。手動 enrichment を守る）
 //
-// 使い方: node --import tsx src/sync-to-obsidian.ts <dest-articles-dir>
+// 使い方: pnpm run sync-to-obsidian <dest-articles-dir>
 
 import { readdirSync, readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs'
 import { join, dirname, relative } from 'node:path'
@@ -19,7 +19,7 @@ const SRC_DIR = join(process.cwd(), 'articles')
 const DEST_DIR = process.argv[2]
 
 if (!DEST_DIR) {
-  console.error('Usage: node --import tsx src/sync-to-obsidian.ts <dest-articles-dir>')
+  console.error('Usage: pnpm run sync-to-obsidian <dest-articles-dir>')
   process.exit(1)
 }
 
