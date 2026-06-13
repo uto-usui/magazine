@@ -45,11 +45,19 @@ git add newsletters/pickup/YYYY-MM-DD-HHmmss.md
 git commit -m "docs: Add pickup for YYYY-MM-DD"
 ```
 
-### 3. 完了報告
+### 3. Notion へ保存
+
+`curate-articles` スキルの「6. Notion へ保存」の手順に従い、生成したピックアップを Notion DB に1ページとして保存する。
+
+- DB ID は `.env` の `NOTION_PICKUP_DATABASE_ID` / `NOTION_PICKUP_DATA_SOURCE_ID` から読む（コミット対象ファイルに直書きしない）
+- `.env` に該当キーが無い、または Notion API が使えない環境（CI等）では**保存をスキップして続行**する。エラー終了しない
+
+### 4. 完了報告
 
 - 作成したファイルのパス
 - 対象ニュースレター数と選定記事数
 - 選定記事タイトル一覧
+- Notion ページの URL（保存した場合）／スキップ理由（しなかった場合）
 
 ## 注意事項
 

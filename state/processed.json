@@ -30234,132 +30234,148 @@
     },
     "https://engineering.fb.com/2026/06/03/data-center-engineering/lights-out-systems-on-validating-instant-power-loss-readiness/": {
       "contentHash": "7c61ba42743c34685786353014d5df1a768c47a04e6b9399e86080e22124d4c5",
-      "processedAt": "2026-06-06T00:59:32.198Z"
-    },
-    "https://blog.murphytrueman.com/the-parts-of-your-system-you-never-wrote-down/": {
-      "contentHash": "484c8e8e2db08c6b36783bf7a6eccf726706e7cc8811a31ed73d47f8528c6ffd",
-      "processedAt": "2026-06-06T00:59:32.548Z"
-    },
-    "https://knightcolumbia.org/content/ai-as-social-technology": {
-      "contentHash": "f2b105baefea3f58f7f8ef8ee6729920ff984e1812c07131b07988e5ddd05ae5",
-      "processedAt": "2026-06-06T00:59:33.014Z"
-    },
-    "https://www.tokyodesignforum.com/library/2026/soleio": {
-      "contentHash": "f5851e90dd4d4dc1c08bb3744bcf413d91a93db1ac6773704d69a121ffba51d3",
-      "processedAt": "2026-06-06T00:59:34.981Z"
-    },
-    "https://www.craigabbott.co.uk/blog/2026/our-css-isnt-opinionated-enough/": {
-      "contentHash": "26955939ca362983b6cdc54b79a12a5ce18da386fd1f75386dcadeb92ed0a6ba",
-      "processedAt": "2026-06-06T00:59:35.260Z"
-    },
-    "https://emailmarkup.org/en/reports/accessibility/2026/": {
-      "contentHash": "b02093e33f4ef6573a5db66841b8443aabe48489510ab419808a4622d730c847",
-      "processedAt": "2026-06-06T01:00:05.796Z"
+      "processedAt": "2026-06-05T01:03:42.171Z"
     },
     "https://uxdesign.cc/designing-how-designers-master-ai-642d8751d945": {
       "contentHash": "fde09b566c5ce327eb685400b8a04c6f4195054907234951d561cfa0a73b5a71",
-      "processedAt": "2026-06-06T01:00:13.396Z"
+      "processedAt": "2026-06-05T01:03:48.671Z"
     },
     "https://transitions.dev/": {
       "contentHash": "df8c1d139c6a0b61ff64a70013709c6857b51c1cda4494f20382bd0813b24704",
-      "processedAt": "2026-06-06T01:00:14.248Z"
+      "processedAt": "2026-06-05T01:03:49.349Z"
     },
     "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai": {
       "contentHash": "8b894f7c18ff900d0f3cc0cfe7529b9196b1e84484234551313a67dc76281bb5",
-      "processedAt": "2026-06-06T01:00:15.431Z"
+      "processedAt": "2026-06-05T01:03:50.249Z"
     },
     "https://www.letterbox.sh/?text=Sidebar&font=Roboto+Mono&weight=700&style=italic&fill=13&cols=4&fc=upper&fm=lorem&bg=%23000000&fg=%23ededed": {
       "contentHash": "e4ee78929605421376bd4d250f0f1de0f3fe72512a5205170d19a4c1d36d303f",
-      "processedAt": "2026-06-06T01:00:20.247Z"
+      "processedAt": "2026-06-05T01:03:55.067Z"
     },
     "https://allenpike.com/2026/voice-in-visuals-out/": {
       "contentHash": "659f07023f7fed3d0a6f07aa25be8b64ce75606eb02d1abfc64d4376c8fef417",
-      "processedAt": "2026-06-06T01:00:20.567Z"
-    },
-    "https://tympanus.net/codrops/2026/06/05/the-making-of-the-new-lesse-studio-website-clarity-performance-and-intentionality/": {
-      "contentHash": "1482e94fc46467785c8c49d674342eb0cf524d04f6e342c349c79b0baf443a68",
-      "processedAt": "2026-06-06T01:00:21.793Z"
+      "processedAt": "2026-06-05T01:03:55.182Z"
     },
     "https://tympanus.net/codrops/2026/06/04/creating-a-thumbnail-flow-animation-with-gsap-motionpath/": {
       "contentHash": "61d365731f11ecacde29b2a3036d03c4004bc6f779221858f6838e4c7b564086",
-      "processedAt": "2026-06-06T01:00:23.246Z"
-    },
-    "https://piccalil.li/the-index/185/?ref=main-rss-feed": {
-      "contentHash": "0c1d37e923d8833753f941a42bde24f104d1202a0824efe61ce4cb1a708bdf0c",
-      "processedAt": "2026-06-06T01:00:23.521Z"
+      "processedAt": "2026-06-05T01:03:59.609Z"
     },
     "https://piccalil.li/blog/a-front-end-developers-guide-to-the-hybrid-mobile-app-development-landscape/?ref=main-rss-feed": {
       "contentHash": "945e2b20c1d1e0a29a5920971740308d4ceec343617a9e681f71b4688e9f7e77",
-      "processedAt": "2026-06-06T01:00:24.484Z"
-    },
-    "https://vercel.com/changelog/drives-for-vercel-sandbox-in-private-beta": {
-      "contentHash": "6b1510efe5a7010fb46566c5f1c79c3bc99ac55604ceb5aa3e321b0504c947ef",
-      "processedAt": "2026-06-06T01:00:25.110Z"
-    },
-    "https://vercel.com/changelog/the-skills-sh-api-is-now-available": {
-      "contentHash": "ec88fe8c64e05ee640bb6be4dc8173be7e6b23425e4ce86aed002f31f4d74919",
-      "processedAt": "2026-06-06T01:00:25.586Z"
+      "processedAt": "2026-06-05T01:03:59.922Z"
     },
     "https://vercel.com/changelog/updates-to-legal-terms-june-2026": {
       "contentHash": "0e2e111e6b961d2303a8ddc97914c2350c296857db6abcb4c5800b32cd3aad06",
-      "processedAt": "2026-06-06T01:00:26.072Z"
+      "processedAt": "2026-06-05T01:04:00.518Z"
     },
     "https://vercel.com/changelog/nemotron-3-ultra-now-available-on-ai-gateway": {
       "contentHash": "f32fe5114906675ffdd3e1d96f6008b2ae0b94185228ecd5e43b89d0469fe0a4",
-      "processedAt": "2026-06-06T01:00:26.503Z"
-    },
-    "https://vercel.com/changelog/build-and-deploy-shopify-storefronts-on-vercel": {
-      "contentHash": "59d101b8aa05e7b6870f027953317967208558378256c0f154f1ed187d049c43",
-      "processedAt": "2026-06-06T01:00:27.467Z"
+      "processedAt": "2026-06-05T01:04:00.961Z"
     },
     "https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue": {
       "contentHash": "e5dcad0d5a42512005c87054b35dddf2f767ac1414e52c6774d5337f20b5367c",
-      "processedAt": "2026-06-06T01:00:28.468Z"
+      "processedAt": "2026-06-05T01:04:01.549Z"
     },
     "https://stripe.events/acnext_seattle?utm_campaign=TD0976N7Lv4IS9ymCxV2jTAHH": {
       "contentHash": "2f2fafe4e2c34247746771d2ca6d215374efbcc715fe087eee22187fde64cd0d",
-      "processedAt": "2026-06-06T01:00:33.259Z"
+      "processedAt": "2026-06-05T01:04:05.959Z"
     },
     "https://stripe.events/stripeforumseattle1?utm_campaign=T5QX6Eo2zn5AP8iIGrUCWB7FFhttps%3A%2F%2Fstripe.events%2Facnext_seattle%3Futm_campaign%3DTD0976N7Lv4IS9ymCxV2jTAHH": {
       "contentHash": "1699d3017dec1949aaee4c1b94c81a50d79a1bfe28ba203847d000bfa05ebad5",
-      "processedAt": "2026-06-06T01:00:37.608Z"
-    },
-    "https://tech.smarthr.jp/entry/2026/06/05/143239": {
-      "contentHash": "a6d6be1e28bee5c45deebf0d6e1d188e17ef0b0984ee852429a96762c573db21",
-      "processedAt": "2026-06-06T01:00:39.726Z"
-    },
-    "https://tech.smarthr.jp/entry/2026/06/05/104421": {
-      "contentHash": "3abfffca07509da8191563bbf200c093c5f4dc53626fca4cd5035dbf3e36f70b",
-      "processedAt": "2026-06-06T01:00:40.100Z"
+      "processedAt": "2026-06-05T01:04:10.240Z"
     },
     "https://tech.smarthr.jp/entry/2026/06/04/113124": {
       "contentHash": "33a30bb86eabd0deb353166969eca57e3e5401e97675358bb244c9b79dea8a93",
-      "processedAt": "2026-06-06T01:00:45.848Z"
-    },
-    "https://tech.layerx.co.jp/entry/jsai2026-sponsor": {
-      "contentHash": "5a29f87b2fbc93f7d13eed23581c816729c97d37c587adc2b3cde75af8082dbb",
-      "processedAt": "2026-06-06T01:00:47.877Z"
-    },
-    "https://www.nngroup.com/articles/behavioral-economics-for-ux/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
-      "contentHash": "8befbbd3896fbb33ff4a5a1bfec0cd165651901cd0f77cff7446be76931325c9",
-      "processedAt": "2026-06-06T01:00:48.977Z"
-    },
-    "https://www.nngroup.com/articles/design-jobs-ai-created/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
-      "contentHash": "98dfa2bb7a8ee822e0675d29de942b93d5546fbbefd2131681fe1d03854a5cd9",
-      "processedAt": "2026-06-06T01:00:50.093Z"
+      "processedAt": "2026-06-05T01:04:12.263Z"
     },
     "https://uxmag.com/articles/a-problem-framing-kernel": {
       "contentHash": "19cbca4a4ae1714a3b6cc6b1c221814935afd09038ff5603057987bb6e004c68",
-      "processedAt": "2026-06-06T01:00:51.410Z"
+      "processedAt": "2026-06-05T01:04:13.476Z"
     },
     "http://testing.googleblog.com/2026/06/choosing-values-for-robust-tests.html": {
       "contentHash": "beb414e5d2aaca69377cfc3c0cec3c2a3b4233d07ef1557a5f689ca93fcc0113",
-      "processedAt": "2026-06-06T01:00:52.361Z"
+      "processedAt": "2026-06-05T01:04:14.244Z"
+    },
+    "https://addyosmani.com/blog/loop-engineering/": {
+      "contentHash": "c978d50e3ad4126bb572093c4ea91942207dc419cc6babb013a7d48d87bfbc45",
+      "processedAt": "2026-06-08T01:06:14.777Z"
+    },
+    "https://addyosmani.com/blog/intent-debt/": {
+      "contentHash": "250e2f21c7e17bd2b2364006950ede7a137e63e552e6758e6e45ced31c051cf2",
+      "processedAt": "2026-06-08T01:06:15.011Z"
+    },
+    "https://a11yweekly.com/issue/503/": {
+      "contentHash": "ebd5af6cd1cc7374cc9b4fd648c925da6eb95eec049142e86b4594bb77401cfe",
+      "processedAt": "2026-06-08T01:06:15.249Z"
+    },
+    "https://blog.murphytrueman.com/the-parts-of-your-system-you-never-wrote-down/": {
+      "contentHash": "484c8e8e2db08c6b36783bf7a6eccf726706e7cc8811a31ed73d47f8528c6ffd",
+      "processedAt": "2026-06-08T01:06:15.494Z"
+    },
+    "https://knightcolumbia.org/content/ai-as-social-technology": {
+      "contentHash": "f2b105baefea3f58f7f8ef8ee6729920ff984e1812c07131b07988e5ddd05ae5",
+      "processedAt": "2026-06-08T01:06:16.061Z"
+    },
+    "https://www.tokyodesignforum.com/library/2026/soleio": {
+      "contentHash": "f5851e90dd4d4dc1c08bb3744bcf413d91a93db1ac6773704d69a121ffba51d3",
+      "processedAt": "2026-06-08T01:06:17.275Z"
+    },
+    "https://www.craigabbott.co.uk/blog/2026/our-css-isnt-opinionated-enough/": {
+      "contentHash": "26955939ca362983b6cdc54b79a12a5ce18da386fd1f75386dcadeb92ed0a6ba",
+      "processedAt": "2026-06-08T01:06:17.764Z"
+    },
+    "https://emailmarkup.org/en/reports/accessibility/2026/": {
+      "contentHash": "b02093e33f4ef6573a5db66841b8443aabe48489510ab419808a4622d730c847",
+      "processedAt": "2026-06-08T01:06:48.335Z"
+    },
+    "https://tympanus.net/codrops/2026/06/05/the-making-of-the-new-lesse-studio-website-clarity-performance-and-intentionality/": {
+      "contentHash": "1482e94fc46467785c8c49d674342eb0cf524d04f6e342c349c79b0baf443a68",
+      "processedAt": "2026-06-08T01:06:50.182Z"
+    },
+    "https://piccalil.li/the-index/185/?ref=main-rss-feed": {
+      "contentHash": "0c1d37e923d8833753f941a42bde24f104d1202a0824efe61ce4cb1a708bdf0c",
+      "processedAt": "2026-06-08T01:06:50.626Z"
+    },
+    "https://vercel.com/changelog/drives-for-vercel-sandbox-in-private-beta": {
+      "contentHash": "6b1510efe5a7010fb46566c5f1c79c3bc99ac55604ceb5aa3e321b0504c947ef",
+      "processedAt": "2026-06-08T01:06:51.373Z"
+    },
+    "https://vercel.com/changelog/the-skills-sh-api-is-now-available": {
+      "contentHash": "ec88fe8c64e05ee640bb6be4dc8173be7e6b23425e4ce86aed002f31f4d74919",
+      "processedAt": "2026-06-08T01:06:51.881Z"
+    },
+    "https://vercel.com/changelog/build-and-deploy-shopify-storefronts-on-vercel": {
+      "contentHash": "59d101b8aa05e7b6870f027953317967208558378256c0f154f1ed187d049c43",
+      "processedAt": "2026-06-08T01:06:52.682Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/06/05/143239": {
+      "contentHash": "a6d6be1e28bee5c45deebf0d6e1d188e17ef0b0984ee852429a96762c573db21",
+      "processedAt": "2026-06-08T01:06:53.870Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/06/05/104421": {
+      "contentHash": "3abfffca07509da8191563bbf200c093c5f4dc53626fca4cd5035dbf3e36f70b",
+      "processedAt": "2026-06-08T01:06:54.142Z"
+    },
+    "https://tech.layerx.co.jp/entry/jsai2026-sponsor": {
+      "contentHash": "5a29f87b2fbc93f7d13eed23581c816729c97d37c587adc2b3cde75af8082dbb",
+      "processedAt": "2026-06-08T01:06:56.349Z"
+    },
+    "https://www.nngroup.com/articles/behavioral-economics-for-ux/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "8befbbd3896fbb33ff4a5a1bfec0cd165651901cd0f77cff7446be76931325c9",
+      "processedAt": "2026-06-08T01:06:57.262Z"
+    },
+    "https://www.nngroup.com/articles/design-jobs-ai-created/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "98dfa2bb7a8ee822e0675d29de942b93d5546fbbefd2131681fe1d03854a5cd9",
+      "processedAt": "2026-06-08T01:06:58.569Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-june-7-2026/": {
+      "contentHash": "d35aa02b8f117f8eb76399f3281d0f10b1dfed6da909d7dff316db16adea1dd1",
+      "processedAt": "2026-06-08T01:06:59.677Z"
     },
     "https://react.statuscode.com/issues/477": {
       "contentHash": "b4615a91cbf5fb3f4b2bbd0a1a50c03bf5348269c9399dfb7575e79fd6ec07a3",
-      "processedAt": "2026-06-06T01:00:52.940Z"
+      "processedAt": "2026-06-08T01:07:00.416Z"
     }
   },
-  "lastRun": "2026-06-06T01:00:52.940Z"
+  "lastRun": "2026-06-08T01:07:00.417Z"
 }
