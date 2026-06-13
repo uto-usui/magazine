@@ -1,0 +1,59 @@
+articles_dir=2026-06-13
+exit_code=0
+timestamp_utc=2026-06-13T01:14:07Z
+
+---- issue lines ----
+9:Failed to fetch feed Figma Blog: Unable to parse XML.
+10:❌ Playwright failed for WebAIM Blog: HTTP 403
+
+---- tail (last 50 lines) ----
+📥 Processing: 関ケ原Ruby会議01の御大義に賛同いたし、後ろ盾となりて支えたり
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-13/ruby01.md
+📥 Processing: Spirit of CRE LT登壇＆参加レポート ── CRE、魂の交流！
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-13/spirit-of-cre-lt-cre.md
+📥 Processing: 生成AI時代における開発プロセスの現在地 —— 要件定義からレビューまでの試行錯誤の数々
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-13/ai.md
+📥 Processing: AIエージェント時代の権限管理が、いまアツい
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-13/ai-1.md
+📥 Processing: AIに全力投資するLayerXでインターンしたら、実装が早すぎて設計の重要性に気づいた話
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-13/ailayerx.md
+📥 Processing: マルチモーダル知識グラフ「RAG-Anything」を用いた複雑な実世界ドキュメントの理解
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-13/rag-anything.md
+📥 Processing: Coding AgentとはじめるMySQLパフォーマンスチューニング
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-13/coding-agentmysql.md
+📥 Processing: 9 essential AI concepts for content designers
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-13/9-essential-ai-concepts-for-content-designers.md
+📥 Processing: The Core Skill of Design in the AI Era: Critique
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-13/the-core-skill-of-design-in-the-ai-era-critique.md
+📥 Processing: Context Architecture
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-13/context-architecture.md
+📥 Processing: A sharp tool can still ruin the cut
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-13/a-sharp-tool-can-still-ruin-the-cut.md
+📥 Processing: Nuclear Fusion, No Power Lines
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-13/nuclear-fusion-no-power-lines.md
+📥 Processing: Job Search Terminal: A Local-First Tool for an AI-Shaped Job Market
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-13/job-search-terminal-a-local-first-tool-for-an-ai-shaped-job-market.md
+📥 Processing: The New Makers
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-13/the-new-makers.md
+📥 Processing: Gamification 2.0. Beyond Points and Badges: Designing for Players, Not Metrics. Chapter 5: Implementation
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-13/gamification-20-beyond-points-and-badges-designing-for-players-not-metrics-chapter-5-implementation.md
+📥 Processing: This Week In React #285: React.foundation, Rust Compiler, Sätteri, Motion, TanStack Table, React Router, Flow, NavLink | Runtimes, JSI, Standard Navigation, Testing Library, Static Hermes, BottomTabs, AGP, AI, Windows | VoidZero, npm, Rolldown, Angular
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-13/this-week-in-react-285-reactfoundation-rust-compiler-stteri-motion-tanstack-table-react-router-flow-.md
+📥 Processing: facebook/react is out, react/react is in
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-13/facebookreact-is-out-reactreact-is-in.md
+
+📊 Summary:
+   ✅ Success: 69
+   ❌ Errors: 0
+🏁 Done!
