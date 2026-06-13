@@ -30651,6 +30651,34 @@
     "https://react.statuscode.com/issues/478": {
       "contentHash": "66e637ea94008a52a7b629b7e43180da8be4bf93e9a8be0adb09ddf63982a011",
       "processedAt": "2026-06-13T01:14:06.872Z"
+    },
+    "https://bit.ly/side-pie4": {
+      "contentHash": "7262f4aa9cbf4434dac8db67448443bcedd2267de16afb171d79366dbeaece02",
+      "processedAt": "2026-06-11T01:05:38.580Z"
+    },
+    "https://www.doc.cc/articles/a-sharp-tool-can-still-ruin-the-cut": {
+      "contentHash": "234a4a293b8b21886387666ae1d1bbff16b70562a3a2db0a27893191af033302",
+      "processedAt": "2026-06-11T01:05:42.877Z"
+    },
+    "https://arps18.github.io/posts/claude-code-mastery/": {
+      "contentHash": "283a41d9917052a68159ce75919f198837b249666eb61ae411aa9884b02e250c",
+      "processedAt": "2026-06-11T01:05:43.622Z"
+    },
+    "https://www.dailydesigner.net/": {
+      "contentHash": "fb7cedb097da682afd98cfc344a90b9bc860a2484d38a59b93c833e93df6dc1e",
+      "processedAt": "2026-06-11T01:05:44.347Z"
+    },
+    "https://www.anthropic.com/institute/recursive-self-improvement": {
+      "contentHash": "40eeb05dd2dfaa836779a29e559389322560b694677aef3cd70031b485970d03",
+      "processedAt": "2026-06-11T01:05:47.318Z"
+    },
+    "https://www.figma.com/blog/you-never-stop-cultivating-taste/": {
+      "contentHash": "ceb786741ff8c17c55e1ed5c2f5848b18dbe79d4cd5bd02da9ebc14102c41928",
+      "processedAt": "2026-06-11T01:06:57.536Z"
+    },
+    "https://www.figma.com/blog/steal-this-template-bring-a-user-persona-to-life-with-figma-weave/": {
+      "contentHash": "991d0852dc136ba6463fea8c1e34a5ae1e70be8f190efc3c88c02d42d7f740f9",
+      "processedAt": "2026-06-11T01:06:29.499Z"
     }
   },
   "lastRun": "2026-06-13T01:14:06.872Z"

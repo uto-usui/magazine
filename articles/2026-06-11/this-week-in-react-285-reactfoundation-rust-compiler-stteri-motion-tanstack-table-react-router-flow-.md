@@ -1,0 +1,164 @@
+---
+title: "This Week In React #285: React.foundation, Rust Compiler, Sätteri, Motion, TanStack Table, React Router, Flow, NavLink | Runtimes, JSI, Standard Navigation, Testing Library, Static Hermes, BottomTabs, AGP, AI, Windows | VoidZero, npm, Rolldown, Angular"
+source: "https://thisweekinreact.com/newsletter/285"
+publishedDate: "2026-06-10"
+category: "frontend"
+feedName: "This Week In React"
+---
+
+Hi everyone, [Seb](https://x.com/sebastienlorber) and [Jan](https://x.com/jaworek3211) here 👋!
+
+This week, we’re taking a look at the new React Foundation website, as the React core repositories transition to their new home. All eyes on the React Compiler in Rust, coming soon in your everyday toolchain.
+
+React Native 0.86 is almost here, but releases apparently like to land on Wednesday evenings 😅 so we’ll cover it next week. Let’s focus on React Native Runtimes instead, a quite interesting multi-threading innovation.
+
+Cloudflare has acquired VoidZero, and npm v12 will officially block postinstall scripts by default in July, improving our supply chain security.
+
+Let's dive in!
+
+As always, thanks for supporting us on your favorite platform:
+
+-   🦋 [Bluesky](https://slo.im/last/b)
+-   ✖️ [X / Twitter](https://slo.im/last/x)
+-   👔 [LinkedIn](https://slo.im/last/l)
+-   👽 [Reddit](https://slo.im/last/r)
+
+**Don't miss the next email!**
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+[![Ship AI generated code safely with Meticulous.](https://thisweekinreact.com/emails/issues/282/meticulous.jpg)](https://www.meticulous.ai/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=26q2&utm_content=1st)
+
+**[Ship AI generated code safely with Meticulous.](https://www.meticulous.ai/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=26q2&utm_content=1st)**
+
+Claude writes your code. Claude reviews your code. Claude fixes the review comments. And somehow, _you're_ the one getting paged at 2am when it breaks in prod.
+
+Fortunately, top AI-driven teams like Dropbox, Notion, LaunchDarkly, and Wiz rely on Meticulous to run 1000s of e2e UI tests autonomously, covering every user flow, edge case, role and permutation. Built by ex-Palantir engineers, [Meticulous gives you near-exhaustive coverage in weeks, without any developer effort](https://www.meticulous.ai/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=26q2&utm_content=1st). 
+
+It works like magic in the background:
+
+-   Near-exhaustive coverage on every test run
+-   No test creation
+-   No maintenance (seriously)
+-   Zero flakes (built on a deterministic browser)
+
+**Check it out** - and see why one engineering leader at Dropbox said that “[once we started using Meticulous, we couldn’t imagine working without it](https://www.meticulous.ai/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=26q2&utm_content=1st#:~:text=Once%20we%20started%20using%20Meticulous%2C%20we%20couldn%27t%20imagine%20working%20without%20it.).”
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+## ⚛️ React[​](#react "Direct link to ⚛️ React")
+
+[![The React.Foundation website](https://thisweekinreact.com/emails/issues/285/foundation.jpg)](https://react.foundation/)
+
+**[The React.Foundation website](https://react.foundation/)**
+
+The React Foundation was [announced nearly a year ago](https://react.dev/blog/2025/10/07/introducing-the-react-foundation), and you may be wondering what actions it has taken so far. Did you know the React Foundation had a website? Although it’s still a work-in-progress ([source code](https://github.com/react-foundation-dev/react.foundation)), it’s already up and running and worth taking a look at to discover what’s planned, such as:
+
+-   A system to fund maintainers of critical ecosystem libraries
+-   An official React merchandise store with profits redistributed to maintainers
+-   Quarterly transparent reports with revenue details, maintainer funding, and more
+-   A logged-in “Contributor Status” page, adding a cool gamification layer
+
+Earlier today, most React-related repositories also moved from the `facebook` GitHub organization to the [`react` GitHub organization](https://github.com/react), reflecting the transition to the React Foundation. This includes React, React Native, Yoga, JSX, Metro, React-Strict-DOM, Create-React-App, and more.
+
+It’s not `facebook/react` anymore, but `react/react`: end of an era!
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+-   💸 [PlanetScale - Low-latency queries, branch and deploy like code, and best-in-class reliability. All in one database.](https://pscale.link/rw)
+-   👀 [React Core PR - Port React Compiler to Rust](https://github.com/react/react/pull/36173) - The PR has been officially merged, although no Rust crate or npm package has been published yet. The [Oxc integration](https://github.com/oxc-project/oxc/pull/22942) is available in Rust crate v0.135, and it’s being integrated [in Rolldown](https://github.com/rolldown/rolldown/pull/9671) and [in Oxlint](https://github.com/oxc-project/oxc/pull/23202). See also the [SWC integration PR](https://github.com/swc-project/swc/pull/11917) and the [Bun integration PR](https://github.com/oven-sh/bun/pull/31785).
+-   👀 [React RFC - Support using disposable as useEffect cleanup](https://github.com/reactjs/rfcs/pull/278) - A proposal for `useEffect` to integrate with the new ES feature Explicit Resource Management / `using`, allowing to return a disposable resource like `{[Symbol.dispose]: myEffectCleanupFunction}`.
+-   🗓️ [React Advanced London](https://reactadvanced.com/?utm_source=thisweekinreact) - 🇬🇧 London - 23 & 26 Oct. Call for Papers is open until June 22! Submit your talk and share your advanced React insights with the community. Get a 10% discount with code "TWIR".
+-   📜 [Flow for TypeScript Users in 2026](https://medium.com/flow-type/flow-for-typescript-users-in-2026-ad07ac0a2d92) - Flow’s syntax has converged with TypeScript to the point where it’s hard to tell them apart anymore. It’s stricter and offers features TypeScript lacks, including pattern matching and component/hook/renders syntax. I don’t know if Flow is ready for an official comeback, but I like its direction. Note that its compiler is also being ported to Rust,
+-   📜 [Building an Active NavLink Component in Next.js](https://aurorascharff.no/posts/building-an-active-navlink-component-in-nextjs/) - Building a production-grade reusable `NavLink` component for the App Router with an `isActive/className` render prop API inspired by React Router. It’s surprisingly not so easy: you need to deal with initial paint flickering and need to use Suspense for Cache Components.
+-   📜 [The Best Loading States Are No Loading States](https://jjenzz.com/best-loading-states-are-no-loading-states/) - Route transitions, route loaders, preloading, and global fallbacks can make loading states mostly disappear.
+-   📜 [How React Server Components Integrate with Bundler](https://reactjs-maxxing.vercel.app/blog/how-react-server-component-integrate-with-bundler)
+-   📜 [When React parent components need to know their children](https://www.jayfreestone.com/writing/updating-react-parents-in-response-to-changes-in-children/)
+-   📜 [The problem with useEffect – React Doctor can help](https://www.react.doctor/blog/the-problem-with-useeffect)
+-   💸 [Certificates.dev: Certification AMA Workshop. Ask our expert how exams are built, graded, proctored, and impacts careers. Join for free!](https://frontendnation.com/workshops/inside-developer-certifications-an-ama-with-alain-chautard?utm_source=twir&utm_medium=newsletter&utm_campaign=frontend_nation_certification_workshop_2026&friend=TWIR)
+-   📦 [Sätteri - Flexible Rust-based Markdown / MDX engine](https://satteri.bruits.org/) - A faster Rust-based alternative to the Unified ecosystem and the JS-based implementation of MDX. It could [become Astro’s default parser](https://github.com/withastro/roadmap/pull/1364) in the future, and already [integrates with Starlight](https://github.com/withastro/starlight/releases/tag/%40astrojs%2Fstarlight%400.40.0).
+-   📦 [Motion 12.40 - Support for `arc()` motions](https://motion.dev/docs/arc) - This lets you animate elements along curved paths.
+-   📦 [TanStack Table 9.0 beta - State management and perf improvements, tree-shakable, extendable, composable](https://tanstack.com/blog/tanstack-table-v9-taking-form) - TanStack Table took inspiration from TanStack Form state management to rebuild its state management on top of TanStack Store and atoms, preventing useless re-renders and becoming compatible with the React Compiler along the way.
+-   📦 [React Router 8.0 prerelease](https://github.com/remix-run/react-router/blob/v8/CHANGELOG.md#v800-pre0) - The next major version is now available for early adopters to try. It’s a relatively boring release, in a good way: the v8 future flags are gone, and their behaviors are now enabled by default. It also bumps runtime requirements, drops CJS and the `react-router-dom` package.
+-   📦 [React Router 7.17 - Ship Markdown docs for AI agents](https://github.com/remix-run/react-router/blob/main/CHANGELOG.md#v7170)
+-   📦 [React 19.2.7, 19.1.8, 19.0.7 - Fix a Server Actions FormData regression](https://github.com/facebook/react/releases/tag/v19.2.7)
+-   🔗 [This Month in React - Who even is on the Core team anymore, TanStack got pwn'd bad](https://share.transistor.fm/s/dd8e79de)
+-   🔗 [Señors at Scale - Routing at Scale with TanStack Router's Nicolas Beaussart](https://creators.spotify.com/pod/profile/dan-neciu/episodes/Routing-at-Scale-with-TanStack-Routers-Nicolas-Beaussart--React-Router-Migration--Monorepos--PayFit-e3keqv9)
+
+**Don't miss the next email!**
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+[![Agent Conf 2026: Learn to Ship Cross-Platform with AI](https://thisweekinreact.com/emails/issues/285/callstack.jpg)](https://www.agent.sh/?utm_campaign=agent_conf&utm_source=twir&utm_medium=email&utm_content=ebt)
+
+**[Agent Conf 2026: Learn to Ship Cross-Platform with AI](https://www.agent.sh/?utm_campaign=agent_conf&utm_source=twir&utm_medium=email&utm_content=ebt)**
+
+Callstack’s [Agent Conf](https://www.agent.sh/?utm_campaign=agent_conf&utm_source=twir&utm_medium=email&utm_content=ebt) (September 17-18, 2026, Warsaw) is bringing together hundreds of agentic engineering practitioners, with Nader Dabit, Levan Kvirkvelia, Tejas Kumar, Kent C. Dodds, Kitze, David Mokos, and more speakers to be announced soon. Learn how to work better with agents: build intuition for when to guide or let them run, understand loops, memory, cost, and failure modes, coordinate multi-agent systems, and hear what’s actually working for teams adopting agentic workflows today.
+
+The last Early Bird Tickets are still available. Get an extra **10% off** with promo code **TWIR**.
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+## 📱 React-Native[​](#react-native "Direct link to 📱 React-Native")
+
+[![React Native Runtimes](https://thisweekinreact.com/emails/issues/285/runtimes.jpg)](https://github.com/margelo/react-native-runtimes)
+
+**[React Native Runtimes](https://github.com/margelo/react-native-runtimes)**
+
+Margelo, in collaboration with Callstack, introduced a new package to add a multi-runtime layer to React Native apps. It’s a great solution for performance-heavy features and business logic isolation to avoid blocking interaction.
+
+If your app has features that jank on mount, slow first-open screens, background hydration or decoding, state logic competing with animation, it might be worth checking it out.
+
+Key features:
+
+-   Run selected components, screens, and headless tasks.
+-   Share state across runtimes through a native Zustand-style C++ singleton.
+-   Prewarm runtimes to avoid cold-start lag.
+-   Call a typed function on a specific runtime and await the result.
+-   Expo support with a config plugin.
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+-   💸 [Product for Engineers - The golden rules of agent-first product engineering](https://go.posthog.com/twir-jun10)
+-   👀 [React Native RFC - Android Gradle Plugin v9 adoption](https://github.com/react-native-community/discussions-and-proposals/pull/1006) - This drafts a three-phase AGP v9 adoption strategy to keep up with Android, doing the required changes to support [built-in Kotlin](https://developer.android.com/build/migrate-to-built-in-kotlin) before the opt-outs are removed in AGP v10.
+-   👀 [Static Hermes - What's new in the next stable release](https://github.com/facebook/hermes/blob/static_h/doc/blog/2026-06-05-new-hermes-stable-release.md) - This blog post announces many new ES features to be supported natively, including Set operations, Iterator helpers, `groupBy`, `TextDecoder`, and more. It will also be faster and support built-in TypeScript type-stripping!
+-   👀 [Standard Navigation integration PRs](https://github.com/react-navigation/standard-navigation) - Remember [Expo Router 56 forking React Navigation](https://expo.dev/blog/expo-router-v56-decoupling-from-react-navigation)? Fortunately, we have a shared abstraction for creating navigators that can work with both routing libraries, and should help reduce ecosystem fragmentation. It has already been integrated into React Navigation ([PR](https://github.com/react-navigation/react-navigation/pull/13122)) and Expo Router ([PR](https://github.com/expo/expo/pull/46456)).
+-   🗓️ [Chain React](https://ti.to/chainreact/chainreact2026/discount/TWIR) - 🇺🇸 Portland - 30-31 July. Incredible speaker lineup featuring Charlie Cheever (Expo), Seth Webster (React Foundation), Kacper Kapuściak (Software Mansion), Mazen Chami (Infinite Red) and more. Get a 15% discount with code "TWIR".
+-   🗓️ [React Native Connection](https://reactnativeconnection.io/?utm_source=thisweekinreact.com) - 🇫🇷 Paris - 24 Sept. The premier French React Native conference is back! Secure your spot early and get a 15% discount with code "TWIR". Call for Papers closes June 14.
+-   📅 [React Native & AI meet-up by Software Mansion](https://luma.com/20df5csq) - June 18th, NYC 🇺🇸
+-   📜 [Talking to JSI in Swift: what changed in SDK 56](https://expo.dev/blog/talking-to-jsi-in-swift) - In SDK 56, Expo's native modules call JSI directly on Apple platforms. The Objective-C++ layer is gone, and calls are 1.6–2.3x faster.
+-   📜 [Moving away from `@expo/vector-icons`](https://expo.dev/blog/moving-away-from-expo-vector-icons) - Explanation on why the icons package is deprecated in favor of a better alternative, and the benefits of switching.
+-   📜 [Exploring Inlined Requires](https://andrei-calazans.com/posts/2026-06-01-exploring-inlined-requires/) - A 3-part series of Metro’s `inlineRequires`: the transform mechanics, when flipping the flag doesn’t improve cold start, and how Expo Router solves it with lazy loading.
+-   📜 [On-device AI after WWDC 2026: What's new?](https://www.callstack.com/blog/on-device-ai-after-wwdc-2026-whats-new) - A look into new AI features from Apple and how React Native will make use of them.
+-   📜 [AI-Supported Brownfield Migration to React Native](https://www.callstack.com/blog/ai-supported-brownfield-migration-to-react-native)
+-   📜 [What happened at AppJS 2026? Highlights, new products, and plans for the future](https://expo.dev/blog/expo-highlights-new-products-and-plans-for-the-future)
+-   📦 [React Native Testing Library 14.0 - React 19, async APIs, Test Renderer replacement](https://github.com/callstack/react-native-testing-library/releases/tag/v14.0.0)
+-   📦 [React Native Windows 0.83 - Performance Testing Framework, Richer Pointer Event Support, Fabric Component Parity](https://devblogs.microsoft.com/react-native/%F0%9F%9A%80react-native-windows-v0-83-is-here/)
+-   📦 [React Native DocuSign - Native captive signing for React Native & Expo](https://github.com/IronTony/react-native-docusign)
+-   📦 [Lynx 3.8 - WebAssembly on Android, Adaptive Layout, Line-aware Auto Font Sizing, monthly release cadence](https://lynxjs.org/next/blog/lynx-3-8)
+-   📦 [Livechart - High-performance live line & candlestick charts for React Native, built on Skia and Reanimated](https://github.com/brandtnewlabs/react-native-livechart)
+-   📦 [Nitro Fetch 1.4 - Support for local and non-HTTP URLs](https://github.com/margelo/react-native-nitro-fetch/releases/tag/v1.4.0)
+-   📦 [Data Scanner - Fast one-shot QR/Barcode scanning, powered by Nitro and native scanner UIs](https://github.com/mrousavy/react-native-data-scanner)
+-   📦 [Agent Device 0.17 - iOS runner stability, perf metrics, replay test sharding](https://github.com/callstack/agent-device/releases/tag/v0.17.0)
+-   📦 [Rozenite 1.12 - DevTools middleware fixes, compose sections across hook instances, support Expo bundle asset listings](https://github.com/callstackincubator/rozenite/releases/tag/v1.12.0)
+-   📦 [Bottom Tabs 1.3 - Liquid Glass tint color improvements](https://github.com/callstack/react-native-bottom-tabs/releases/tag/react-native-bottom-tabs%401.3.0)
+-   🎥 [Simon Grimm - I used Expo and Vega OS to make a Fire TV App](https://www.youtube.com/watch?v=j4V3XwQ65s8)
+-   🎥 [Daniel Friyia Jr - Intro to 3D Graphics with WebGPU and Expo](https://www.youtube.com/watch?v=vons_XypdQw)
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+## 🔀 Other[​](#other "Direct link to 🔀 Other")
+
+-   📣 [VoidZero is Joining Cloudflare](https://voidzero.dev/posts/voidzero-cloudflare) - Cloudflare acquired the company behind Vite, Vitest, Rolldown, Oxc, Oxfmt, Oxlint, and Vite+. These tools will remain open-source, MIT-licensed, and community-driven. Cloudflare promises no lock-in and plans to build its new `cf` CLI around Vite.
+-   📣 [GitHub - Upcoming breaking changes for npm v12](https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/) - GitHub announces that npm v12 (scheduled for July) will improve security-related default behaviors, blocking install lifecycle scripts by default!
+-   📜 [Why does tsgo use so much memory?](https://zackoverflow.dev/writing/why-does-tsgo-use-so-much-memory) - It runs one type checker per thread.
+-   📦 [Rolldown 1.1 - Enables lazy barrel optimization, aligns TS `references` resolution with tsc](https://github.com/rolldown/rolldown/releases/tag/v1.1.0)
+-   📦 [Angular 22.0 - Signal Forms, Angular Aria, OnPush-by-default, async DI, IA, and more](https://blog.angular.dev/announcing-angular-v22-c52bb83a4664)
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+## 🤭 Fun[​](#fun "Direct link to 🤭 Fun")
+
+[![alt](https://thisweekinreact.com/emails/issues/285/meme.jpg)](https://x.com/sebastienlorber/status/2064657668044640285)
+
+See ya! 👋
