@@ -30679,7 +30679,19 @@
     "https://www.figma.com/blog/steal-this-template-bring-a-user-persona-to-life-with-figma-weave/": {
       "contentHash": "991d0852dc136ba6463fea8c1e34a5ae1e70be8f190efc3c88c02d42d7f740f9",
       "processedAt": "2026-06-11T01:06:29.499Z"
+    },
+    "https://vercel.com/changelog/increased-blob-store-limit-for-hobby-users": {
+      "contentHash": "8e2fd1fccbf09e3401193812ded1f53856b783aa518d3af615dfab5bdf8f714d",
+      "processedAt": "2026-06-14T01:08:08.955Z"
+    },
+    "https://vercel.com/changelog/claude-fable-5-access-suspended-on-ai-gateway": {
+      "contentHash": "b8ce506819d2202ea0a6887f6f3b1c07fb84ae0cf8d60752ead8b689138c7a81",
+      "processedAt": "2026-06-14T01:08:09.857Z"
+    },
+    "https://www.figma.com/blog/improving-performance-in-the-layers-panel/": {
+      "contentHash": "aadbbecbcb56d5d239f2f1f9d7f8a0cfcd4b1114f9b711623221693b6653ae8d",
+      "processedAt": "2026-06-14T01:08:45.955Z"
     }
   },
-  "lastRun": "2026-06-13T01:14:06.872Z"
+  "lastRun": "2026-06-14T01:08:45.955Z"
 }
