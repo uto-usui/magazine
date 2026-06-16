@@ -30679,7 +30679,83 @@
     "https://www.figma.com/blog/steal-this-template-bring-a-user-persona-to-life-with-figma-weave/": {
       "contentHash": "991d0852dc136ba6463fea8c1e34a5ae1e70be8f190efc3c88c02d42d7f740f9",
       "processedAt": "2026-06-11T01:06:29.499Z"
+    },
+    "https://addyosmani.com/blog/agentic-code-review/": {
+      "contentHash": "7df28f189756307e50bab169af1feae98bcffa67cbde3a2d32f38672d0939e98",
+      "processedAt": "2026-06-16T01:14:39.721Z"
+    },
+    "https://adrianroselli.com/2026/06/union-of-target-audiences-accessibility-seo-aeo-geo.html": {
+      "contentHash": "030905167158f133d644bf371674e181fe2420ba8a0cad424379a8bed24beae4",
+      "processedAt": "2026-06-16T01:14:40.000Z"
+    },
+    "https://a11yweekly.com/issue/504/": {
+      "contentHash": "079e0f47d105ce6b52685fdf6f1ec590e4f6166399e52489ad95959fc7e0a727",
+      "processedAt": "2026-06-16T01:14:40.425Z"
+    },
+    "https://bit.ly/side-div6": {
+      "contentHash": "9fa284f0d798384c1d3a252e62d42bca06f56b52895bfa67f289b14893cea0c0",
+      "processedAt": "2026-06-16T01:15:32.931Z"
+    },
+    "https://uxdesign.cc/the-flaw-is-the-feature-e6769c5cf5b4": {
+      "contentHash": "2782d01a397b92ee2ed8f526a2a969945f9c84e45c7c6113dd04c9202290927e",
+      "processedAt": "2026-06-16T01:15:41.057Z"
+    },
+    "https://www.extend.ai/ui": {
+      "contentHash": "f3b9f3c6afe353d949c0f929e7b37b6ec9be2927b43ae07c8c5e970dcca61c56",
+      "processedAt": "2026-06-16T01:15:41.462Z"
+    },
+    "https://kasperjunge.com/blog/should-pms-code-with-agents/": {
+      "contentHash": "9733eec45448b081f1c64d6e2192c2ce5acef1f8037156d633c27a676993ef3b",
+      "processedAt": "2026-06-16T01:15:41.570Z"
+    },
+    "https://influence.citationneeded.news/": {
+      "contentHash": "8e63e5386badd64089e8bd1490ba7fbbba03ffacdba98c3dc73068bfc9f59d64",
+      "processedAt": "2026-06-16T01:15:42.117Z"
+    },
+    "https://piccalil.li/the-index/186/?ref=main-rss-feed": {
+      "contentHash": "f1b53de0208e2ef736fb23184c66c15da45e9d2cf288a4e63bcefe29bfef8463",
+      "processedAt": "2026-06-16T01:15:42.357Z"
+    },
+    "https://vercel.com/changelog/vercel-functions-can-now-run-up-to-30-minutes": {
+      "contentHash": "0ee9cc45f857686682abedb99a6acd52bffc90ce517bf984ec8082632122da03",
+      "processedAt": "2026-06-16T01:15:42.883Z"
+    },
+    "https://vercel.com/changelog/auth0-joins-the-vercel-marketplace": {
+      "contentHash": "6fa9b28309ce5aa7e017aac9f25e4e3aed39dc0d7b518fdeb530f9b9de23e110",
+      "processedAt": "2026-06-16T01:15:43.286Z"
+    },
+    "https://vercel.com/changelog/increased-blob-store-limit-for-hobby-users": {
+      "contentHash": "8e2fd1fccbf09e3401193812ded1f53856b783aa518d3af615dfab5bdf8f714d",
+      "processedAt": "2026-06-16T01:15:44.045Z"
+    },
+    "https://vercel.com/changelog/claude-fable-5-access-suspended-on-ai-gateway": {
+      "contentHash": "b8ce506819d2202ea0a6887f6f3b1c07fb84ae0cf8d60752ead8b689138c7a81",
+      "processedAt": "2026-06-16T01:15:44.685Z"
+    },
+    "https://www.figma.com/blog/improving-performance-in-the-layers-panel/": {
+      "contentHash": "aadbbecbcb56d5d239f2f1f9d7f8a0cfcd4b1114f9b711623221693b6653ae8d",
+      "processedAt": "2026-06-16T01:16:24.408Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/06/15/121058": {
+      "contentHash": "b37ec9b5991d47497ecf64ee5d2a13df4aafc1aee0a274601dac8101ac25a431",
+      "processedAt": "2026-06-16T01:16:25.892Z"
+    },
+    "https://uxcontent.com/ai-acts-on-your-content/": {
+      "contentHash": "ac0905466319edf0aea7bc0b77ad9a9368a427589a0bddc2f56a4e2fae81db61",
+      "processedAt": "2026-06-16T01:16:27.260Z"
+    },
+    "https://newsletter.uxdesign.cc/p/ai-design-isnt-ugly-its-fluentand": {
+      "contentHash": "ae2bd9c04a019f7b086971636f2dc6e6794ad76fcd698f0691a85d0f7aa182cf",
+      "processedAt": "2026-06-16T01:16:27.522Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-june-14-2026/": {
+      "contentHash": "aa1d8b4629a6fd9feebc8f1c42de0861c9a723ac3d2b84a9abc070e0fecc5683",
+      "processedAt": "2026-06-16T01:16:28.436Z"
+    },
+    "https://reactnative.dev/blog/2026/06/11/react-native-0.86": {
+      "contentHash": "950e456c2c09bade7fb573b99cec0b1bde8c56fe8633b2e6366993a64092869a",
+      "processedAt": "2026-06-16T01:16:28.722Z"
     }
   },
-  "lastRun": "2026-06-13T01:14:06.872Z"
+  "lastRun": "2026-06-16T01:16:28.722Z"
 }
