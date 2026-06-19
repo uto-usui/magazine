@@ -1,0 +1,89 @@
+<svg width="900" height="580" viewBox="0 0 900 580" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="diagram-title diagram-desc">
+  <title id="diagram-title">Peripheral levels of participation in the community of scuba divers</title>
+  <desc id="diagram-desc">A concentric-rings diagram illustrating legitimate peripheral participation in a scuba-diving community, adapted from Lagache (1993). Four concentric ellipses represent levels of participation, with a curved arrow labeled "Trajectory of participation" pointing from the outermost ring toward the center. Outermost ring: New divers and casual sight-seers, including newly certified divers, tropical vacationers, and infrequent local divers. Second ring: Active sightseer divers, including tropical divers and frequent local divers. Third ring: Specialty and professional divers, including underwater photographers, scuba instructors and staff, dive shop employees, underwater hunters, shipwreck divers, sheriff volunteer divers, underwater salvage workers, and yacht hull cleaning divers. Center: "Old Timers" with broad experience in many aspects of diving.</desc>
+  <g aria-hidden="true">
+  <rect x="0" y="0" width="900" height="580" fill="white"/>
+  <defs>
+    <path id="traj5" d="M 200,130 C 262,106 332,154 378,228"/>
+    <marker id="arr5" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="black"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="450" y="22" text-anchor="middle" font-family="Georgia, serif" font-weight="bold" font-size="18">Peripheral &#8220;Levels&#8221; of Participation in the</text>
+  <text x="450" y="44" text-anchor="middle" font-family="Georgia, serif" font-weight="bold" font-size="18">community of scuba divers</text>
+
+  <!-- Ellipses: outermost first so each inner ring paints over it -->
+  <ellipse cx="450" cy="300" rx="385" ry="235" fill="white" stroke="black" stroke-width="2"/>
+  <ellipse cx="450" cy="300" rx="302" ry="184" fill="white" stroke="black" stroke-width="2"/>
+  <ellipse cx="450" cy="300" rx="210" ry="128" fill="white" stroke="black" stroke-width="2"/>
+  <ellipse cx="450" cy="300" rx="110" ry="70"  fill="white" stroke="black" stroke-width="2"/>
+
+  <!-- Trajectory arrow -->
+  <path d="M 200,130 C 262,106 332,154 378,228" fill="none" stroke="black" stroke-width="2" marker-end="url(#arr5)"/>
+  <text font-family="Georgia, serif" font-size="11" font-weight="bold" font-style="italic">
+    <textPath href="#traj5" startOffset="3%">Trajectory of participation</textPath>
+  </text>
+
+  <!-- ═══ CENTER (inside rx=110, ry=70) ═══ -->
+  <text x="450" y="284" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold">&#8220;Old Timers&#8221;</text>
+  <text x="450" y="301" text-anchor="middle" font-family="Georgia, serif" font-size="12">Broad experience</text>
+  <text x="450" y="317" text-anchor="middle" font-family="Georgia, serif" font-size="12">in many aspects of diving</text>
+
+  <!-- ═══ RING 3 band ═══
+       Outer ellipse: rx=210, ry=128   Inner ellipse: rx=110, ry=70
+       Left band centre:  x≈309 at y=255 (band 253–364, width 111)
+                          x≈290 at y=300 (band 240–340, width 100)
+                          x≈309 at y=345 (symmetric)
+       Right band centre: x≈573 at y=241 (band 509–636, width 127)
+                          x≈602 at y=270 (band 549–654, width 105)
+                          x≈610 at y=300 (band 560–660, width 100)
+                          x≈573 at y=359 (symmetric to 241) -->
+  <text x="450" y="401" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold">Specialty/Professional divers</text>
+  <!-- top centre: y=193 is above ring-4 top (y=230) and inside ring-3 top (y=172) -->
+  <text x="450" y="193" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Underwater Photographers</text>
+  <!-- left -->
+  <text x="309" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Scuba Instructors</text>
+  <text x="309" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">and Staff</text>
+  <text x="290" y="294" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Dive Shop</text>
+  <text x="290" y="306" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Employees</text>
+  <text x="309" y="342" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Underwater Hunters</text>
+  <!-- right -->
+  <text x="573" y="241" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Shipwreck Divers</text>
+  <text x="602" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Sheriff Volunteer</text>
+  <text x="602" y="277" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Diver</text>
+  <text x="610" y="294" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Underwater</text>
+  <text x="610" y="306" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Salvage</text>
+  <text x="573" y="352" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Yacht Hull</text>
+  <text x="573" y="364" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Cleaning Diver</text>
+
+  <!-- ═══ RING 2 band ═══
+       Outer ellipse: rx=302, ry=184   Inner ellipse: rx=210, ry=128
+       Top centre at x=450: y=148 is above ring-3 top (172) and inside ring-2 top (116)
+       Right band centre: x≈697 at y=340 (band 650–745, width 95) -->
+  <text x="450" y="455" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold">Active Sightseer Divers</text>
+  <text x="450" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Tropical Divers</text>
+  <text x="697" y="334" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Frequent</text>
+  <text x="697" y="346" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">local diver</text>
+
+  <!-- ═══ RING 1 band ═══
+       Outer ellipse: rx=385, ry=235   Inner ellipse: rx=302, ry=184
+       Left band centre:  x≈119 at y=249 (band 76–162, width 86)
+                          x≈119 at y=349 (symmetric)
+       Right band centre: x≈781 at y=249 (band 738–824, width 86) -->
+  <text x="450" y="506" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold">New divers &#183; casual sight-seers</text>
+  <!-- left -->
+  <text x="119" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Newly Certified</text>
+  <text x="119" y="257" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Divers</text>
+  <text x="119" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Tropical</text>
+  <text x="119" y="357" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Vacationers</text>
+  <!-- right -->
+  <text x="781" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Infrequent</text>
+  <text x="781" y="257" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">local divers</text>
+
+  <!-- Caption -->
+  <text x="450" y="554" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Figure 5: Legitimate peripheral participation in the community of scuba divers as movement from a newly certified diver to an &#8220;oldtimer.&#8221;</text>
+  <text x="450" y="568" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Adapted from Lagache (1993), Figure 5, after a figure by Carlock (1990); LPP framing per Lave &amp; Wenger (1991).</text>
+  </g>
+</svg>

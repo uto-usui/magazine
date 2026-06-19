@@ -1,0 +1,174 @@
+---
+title: "This Week In React #286: React Compiler, StyleX, TSRX, WordPress, TanStack, Remotion, Hydrogen | RN 0.86, Enriched, Gesture Handler, Crypto, Morph View, Compressor, Data Detector, Hermes | Package Maps, Babel, Biome, Zod Compiler, pnpm, Playwright"
+source: "https://thisweekinreact.com/newsletter/286"
+publishedDate: "2026-06-17"
+category: "frontend"
+feedName: "This Week In React"
+---
+
+Hi everyone, [Seb](https://x.com/sebastienlorber) and [Jan](https://x.com/jaworek3211) here 👋!
+
+This week, the React Compiler in Rust is rolling out, and early adopters have already reported significant speedups.
+
+React Native 0.86 finally came out with edge-to-edge fixes in core. It’s retro-compatible, and Expo SDK 56 should be able to upgrade.
+
+Let's dive in!
+
+As always, thanks for supporting us on your favorite platform:
+
+-   🦋 [Bluesky](https://slo.im/last/b)
+-   ✖️ [X / Twitter](https://slo.im/last/x)
+-   👔 [LinkedIn](https://slo.im/last/l)
+-   👽 [Reddit](https://slo.im/last/r)
+
+**Don't miss the next email!**
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+[![Ship AI generated code safely with Meticulous.](https://thisweekinreact.com/emails/issues/282/meticulous.jpg)](https://www.meticulous.ai/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=26q2&utm_content=1st)
+
+**[Ship AI generated code safely with Meticulous.](https://www.meticulous.ai/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=26q2&utm_content=1st)**
+
+Claude writes your code. Claude reviews your code. Claude fixes the review comments. And somehow, _you're_ the one getting paged at 2am when it breaks in prod.
+
+Fortunately, top AI-driven teams like Dropbox, Notion, LaunchDarkly, and Wiz rely on Meticulous to run 1000s of e2e UI tests autonomously, covering every user flow, edge case, role and permutation. Built by ex-Palantir engineers, [Meticulous gives you near-exhaustive coverage in weeks, without any developer effort](https://www.meticulous.ai/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=26q2&utm_content=1st). 
+
+It works like magic in the background:
+
+-   Near-exhaustive coverage on every test run
+-   No test creation
+-   No maintenance (seriously)
+-   Zero flakes (built on a deterministic browser)
+
+**Check it out** - and see why one engineering leader at Dropbox said that “[once we started using Meticulous, we couldn’t imagine working without it](https://www.meticulous.ai/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=26q2&utm_content=1st#:~:text=Once%20we%20started%20using%20Meticulous%2C%20we%20couldn%27t%20imagine%20working%20without%20it.).”
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+## ⚛️ React[​](#react "Direct link to ⚛️ React")
+
+![React Compiler in Rust](https://thisweekinreact.com/emails/issues/286/compiler.jpg)
+
+**React Compiler in Rust rollout**
+
+The integration has finally started to land in mainstream libs, starting with Oxlint, but may others are following:
+
+-   📦 [Oxlint 1.70 - Add a `react/react-compiler` rule](https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html) - This experimental rule leverages the Rust port of the React Compiler and surfaces the same diagnostics as `eslint-plugin-react-compiler`. Early adopters ([React Spectrum](https://github.com/adobe/react-spectrum/pull/10203), [Sanity](https://github.com/sanity-io/sanity/pull/13114)) have already reported significant (x5-6) performance improvements.
+-   👀 [Rolldown PR - Expose React Compiler options](https://github.com/rolldown/rolldown/pull/9801) - PR already merged, so Vite and Rolldown users will soon be able to use the `transform.reactCompiler` option.
+-   👀 [SWC PR - Add React Compiler](https://github.com/swc-project/swc/pull/11917) - The PR has been merged and released in Rust crate v68.1, exposing a new `jsc.transform.reactCompiler` configuration option.
+-   👀 [Rspack PR - Bump SWC to support the React Compiler](https://github.com/web-infra-dev/rspack/pull/14435) - In the next v2.1 release (the beta drops tomorrow), `builtin:swc-loader` will support the React Compiler in Rust. The Rspack team reported that the Rust version is 7-13x faster than the Babel one ([tweet](https://x.com/jiahan_c/status/2067120712587092090)).
+-   👀 [Next.js PR - Add experimental Turbopack React Compiler support](https://github.com/vercel/next.js/pull/94573) - This adds a new `experimental.turbopackRustReactCompiler` option. Available in Next.js v16.3.0-canary.52, and likely to be released very soon in Next.js 16.4.
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+-   💸 [Product for Engineers - The stuff nobody tells you about startup marketing](https://go.posthog.com/twir-jun17)
+-   👀 [HTML proposal - Localized time formatting without JavaScript](https://github.com/whatwg/html/issues/12591) - Have you ever come across date-related SSR/SSG hydration errors in React or any other framework? Apparently, browser vendors agree that these problems need to be solved, and here’s an initial proposal based on declarative HTML attributes.
+-   👀 [WordPress - React 19 upgrade temporarily reverted in Gutenberg](https://make.wordpress.org/core/2026/06/05/react-19-upgrade-temporarily-reverted-in-gutenberg/) - WordPress initially announced a React 19 upgrade for the Gutenberg plugin and WordPress. They encountered JSX runtime compatibility issues between React v18/v19 and had to revert. Support for v19 is still planned for WordPress 7.1.
+-   📜 [Rethinking TSRX](https://tsrx.dev/blog/rethinking-tsrx) - The TSRX (TypeScript Render Extensions) syntax has been redesigned to be backward-compatible with JSX, easing its adoption and making its proprietary features more explicit. An interesting project to watch this year, coming from Dominic Gannaway (React, Svelte, Inferno), offering an ergonomic shared UI syntax compatible with various framework runtimes.
+-   📜 [TanStack Start: A Mental Model for Next.js Developers](https://www.adarsha.dev/blog/tanstack-mental-model-for-nextjs-developers) - A deep dive into the differences, covering typesafety, isomorphic loaders, RSC-as-data mental model, and more.
+-   📜 [Module System Dependency Injection in React & Friends](https://www.jayfreestone.com/writing/module-level-dependency-injection-react/) - An interesting overview of Dependency Injection across React meta-frameworks, and a critique of Next.js suggestion to use the module system for DI in RSCs.
+-   📜 [Building an LLM safe design system](https://polar.sh/blog/orbit-llm-safe-design-system) - Polar’s new design system relies on a single polymorphic `<Box>` component with typesafe props accepting StyleX design tokens. They forbid the usage of Tailwind or primitive HTML elements, so that AI agents always respect their design decisions.
+-   💸 [Certificates.dev: Free React Weekend. Unlimited access to 9 chapters, 49 quiz questions, 13 coding challenges, and a trial exam. 27-28 June](https://certificates.dev/react/free-weekend?utm_source=twir&utm_medium=newsletter&utm_campaign=react_free_weekend_june_2026&friend=TWIR)
+-   📦 [Hydrogen developer preview](https://hydrogen.shopify.dev/update/hydrogen-developer-preview) - Shopify’s framework, initially leaning on Remix/React, is becoming a framework/runtime agnostic toolkit, designed in partnership with the Next.js team.
+-   📦 [StyleX 0.19 - `@stylexjs/atoms` for Tailwind-like inline atomic styles, ESLint 10 compatibility](https://github.com/facebook/stylex/blob/main/CHANGELOG.md#0190-jun-14-2026)
+-   📦 [React Doctor GitHub Action](https://www.react.doctor/docs/ci-and-prs/github-actions-setup)
+-   📦 [Visx 4.0 - Low-level visualization components from Airbnb - Support for React 19](https://github.com/airbnb/visx/releases/tag/v4.0.0)
+-   📦 [Remotion 4.0.475 - Interactively change your code with Remotion Studio](https://github.com/remotion-dev/remotion/releases/v4.0.475)
+-   📦 [Rsbuild Plugin React Router 0.2 - Support for Rsbuild/Rspack v2](https://github.com/rstackjs/rsbuild-plugin-react-router/releases/tag/rsbuild-plugin-react-router%400.2.0)
+-   📦 [Ink 7.1 - CLI renderer - Add `suspendTerminal()` to hand the terminal to a child process](https://github.com/vadimdemedes/ink)
+-   📦 [TanStack AI Beta - The Switzerland of AI Tooling Grows Up](https://tanstack.com/blog/tanstack-ai-beta) - Comes with first-class React support.
+
+**Don't miss the next email!**
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+[![Make your logs queryable, not just readable](https://thisweekinreact.com/emails/issues/286/sentry.jpg)](https://sentry.io/cookbook/structured-logging-logtape/?utm_source=thisweekinreact&utm_medium=paid-community&utm_campaign=logs-fy27q1-cookbook&utm_content=newsletter-logtape-secondary-trysentry)
+
+**[Make your logs queryable, not just readable](https://sentry.io/cookbook/structured-logging-logtape/?utm_source=thisweekinreact&utm_medium=paid-community&utm_campaign=logs-fy27q1-cookbook&utm_content=newsletter-logtape-secondary-trysentry)**
+
+`console.log("here")`doesn't cut it in production. Structured logs do.
+
+Use this tutorial to connect LogTape + Sentry and make every log searchable, queryable, and connected to your traces. When something breaks, you'll get the full picture: log events, error context, and Session Replay, all linked by trace ID.
+
+-   Filter by user ID, order ID, or any custom field
+-   Attach context once, inherit it everywhere
+-   Alert when log patterns spike before users notice
+
+[See the full recipe ➡️](https://sentry.io/cookbook/structured-logging-logtape/?utm_source=thisweekinreact&utm_medium=paid-community&utm_campaign=logs-fy27q1-cookbook&utm_content=newsletter-logtape-secondary-trysentry)
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+## 📱 React-Native[​](#react-native "Direct link to 📱 React-Native")
+
+[![React Native 0.86](https://thisweekinreact.com/emails/issues/286/rn.jpg)](https://reactnative.dev/blog/2026/06/11/react-native-0.86)
+
+**[React Native 0.86](https://reactnative.dev/blog/2026/06/11/react-native-0.86)**
+
+The new React Native release is out! This time, there are no major features or changes. It’s focused on fixes and stability improvements. Although it might not seem that exciting, the good news is that there are no breaking changes, which should make upgrading that much easier. Especially, with all the AI tools that can assist in it. 😉
+
+Here are the highlights:
+
+-   The React Native repository has moved to the [/react GitHub org](https://github.com/react) under the [React Foundation](https://react.foundation/), alongside other core projects. It’s a major step toward a more independent foundation focused on stewarding React’s future.
+-   Comprehensive edge-to-edge support on Android 15+.
+-   Performance tracing improvements in React Native DevTools.
+
+Related news:
+
+-   🐦 [The RN repository transition resulted in forks being locked](https://x.com/cortinico/status/2067181532138152308) - See how to unlock your fork so that you can continue contributing.
+-   🐦 [Expo SDK 56 will soon be updated to RN 0.86](https://x.com/zoontek/status/2066490044605436337)
+-   🐦 [With RN 0.86, you don’t need react-native-edge-to-edge anymore](https://x.com/zoontek/status/2066466699985989874)
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+-   💸 [Maestro - Write React Native UI tests with Cursor or Claude Code, see them run live in Maestro Viewer.](https://docs.maestro.dev/get-started/maestro-mcp?utm_source=this-week-in-react&utm_medium=newsletter&utm_campaign=mcp-viewer-jun17)
+-   🗓️ [Chain React](https://ti.to/chainreact/chainreact2026/discount/TWIR) - 🇺🇸 Portland - 30-31 July. Don't miss talks from experts at Expo, React Foundation, Software Mansion, and Infinite Red! Get a 15% discount with code "TWIR".
+-   📜 [Four Years of React Native Quick Crypto: From Wallets to Node Parity](https://blog.margelo.com/four-years-of-react-native-quick-crypto) - A history of a JSI-based hash-and-HMAC library written for Web3 boom, its evolution into full Node crypto implementation on mobile, Nitro rewrite, and more.
+-   📜 [React Native, Hermes bytecode, and the Kindle homepage](https://sighery.com/posts/patching-kindle-homepage/) - Amazon e-readers use RN to power their homepage. The author, a Kindle modder, dives into Hermes bytecode to patch the Kindle homepage and remove carousel ads.
+-   📜 [Faster iOS Builds with Precompiled XCFrameworks](https://expo.dev/blog/faster-ios-builds-with-precompiled-xcframeworks) - prebuild Expo modules are now enabled by default, a step towards moving away from CocoaPods and reducing the amount of native compilation steps. It’s a part of a broader modernization effort.
+-   📜 [How We Improved the Startup Time of Our App by 50%](https://medium.com/@pumpdotfun_/how-we-improved-the-startup-time-of-our-app-by-50-b3107bed1bf9) - Case study on how to profile native and JS code, what optimisations had the biggest impact, and how to protect against regressions.
+-   📜 [MoQKit: A Native Mobile SDK for MoQ on iOS and Android](https://swmansion.com/blog/moqkit-native-mobile-sdk-moq-ios-android/) - Media over QUIC is a live media protocol. SWM is working on adding support, starting with native SDKs, with RN coming next.
+-   📜 [EAS Observe: Performance monitoring for Expo apps](https://expo.dev/blog/introducing-observe)
+-   📜 [Native got easy. I'm still betting on React Native.](https://codewithbeto.dev/blog/still-betting-on-react-native)
+-   📜 [AI-Assisted React Native Migration for TV: Lessons From Zattoo](https://www.callstack.com/blog/ai-assisted-react-native-migration-for-tv-lessons-from-zattoo)
+-   📜 [How a Kotlin compiler plugin cut Android time to first render by 30%](https://expo.dev/blog/how-a-kotlin-compiler-plugin-cut-android-time-to-first-render)
+-   📜 [App.js Conf 2026 Recap - Gesture Handler 3.0, TypeGPU CLI, Screens 5.0, and More](https://swmansion.com/blog/app-js-conf-2026-recap-gesture-handler-3-0-type-gpu-cli-screens-5-0-and-more/)
+-   📦 [Morph View - Morph one image into another with a smooth gooey effect, on the GPU](https://github.com/blazejkustra/react-native-morph-view)
+-   📦 [Uniwind 1.9 - Layout direction component, RTL support](https://github.com/uni-stack/uniwind/releases/tag/v1.9.0)
+-   📦 [Sentry 8.14 - Deep link correlation, Android profiling improvements, Expo Router instrumentation](https://github.com/getsentry/sentry-react-native/releases/tag/8.14.0)
+-   📦 [Gesture Handler 2.32 - React Native 0.86 support, fix `RNRenderer` import](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/v2.32.0)
+-   📦 [Nitro HealthKit - Single TypeScript API over Apple HealthKit and Android Health Connect](https://github.com/N0ku/react-native-nitro-healthkit)
+-   📦 [Nitro Markdown 0.8 - Custom `renderMarkdown` for MarkdownStream, TypeScript improvements, iOS crash fixes](https://github.com/JoaoPauloCMarra/react-native-nitro-markdown/releases/tag/v0.8.0)
+-   📦 [Compressor 2.0 - Nitro Modules migration, min RN 0.75+](https://github.com/numandev1/react-native-compressor/releases/tag/v2.0.0)
+-   📦 [Data Detector - Cross-platform text data detection of phone numbers, URLs, emails, dates, and addresses](https://github.com/pablogdcr/react-native-data-detector)
+-   📦 [Enriched HTML 1.0 - Stable release, renamed from `react-native-enriched` to `react-native-enriched-html`](https://github.com/software-mansion/react-native-enriched-html/releases/tag/v1.0.0)
+-   📦 [CRNL 0.63 / Builder Bob 0.43 - use a unique name for the exports condition for source, metro-config dropped](https://github.com/callstack/react-native-builder-bob/releases/tag/create-react-native-library%400.63.0)
+-   📦 [Legend List 3.0.6 - `clearCaches` rechecks visible rows, scroll perf, KeyboardAware insets](https://github.com/LegendApp/legend-list/releases/tag/v3.0.6)
+-   📦 [Permissions 5.6 - `openContactPicker` for iOS 18+ limited contacts](https://github.com/zoontek/react-native-permissions/releases/tag/5.6.0)
+-   📦 [Agent Device 0.17.6 - Rslib perf, external xctest runner, Maestro reporter improvements](https://github.com/callstack/agent-device/releases/tag/v0.17.6)
+-   🎥 [William Candillon - Learn React Native Declarative Gestures and Animations](https://www.youtube.com/watch?v=HmFvvd5bLSo&list=PLkOyNuxGl9jy5hgF3xR64k9reOM5jHDHl) - William’s animation course is now freely available. It’s based on Reanimated v2, but it's still worth it for learning evergreen animation techniques. By the way, William has a new website where he has published an [intro to Redraw](https://wcandillon.dev/article/hello-project-redraw).
+-   🎥 [App.js Conf 2026 - Full conference playlist](https://www.youtube.com/playlist?list=PLSk21zn8fFZCE_TlHUVnTVMm7mNl_fzxl)
+-   🎥 [Beto - Expo UI Crash Course: Render Real SwiftUI & Jetpack Compose from React Native](https://www.youtube.com/watch?v=4j6NvCNPGtE)
+-   🎙️ [React Native Radio 365 - Chain React 2026 behind the scenes, AI trends](https://infinite.red/react-native-radio/rnr-365-chain-react-2026)
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+## 🔀 Other[​](#other "Direct link to 🔀 Other")
+
+-   👀 [Node.js PR - Experimental support for package maps](https://github.com/nodejs/node/pull/62239) - Node.js can now resolve packages using a static JSON file generated by a package manager, instead of walking `node_modules` directories. This can make resolution more reliable, decoupled, and performant. Already supported by [Yarn 4.17](https://github.com/yarnpkg/berry/releases/tag/@yarnpkg/cli/4.17.0), and possibly [soon in pnpm](https://github.com/pnpm/pnpm/pull/12430)?
+-   📜 [Dark mode with web standards](https://olliewilliams.xyz/blog/dark-mode/) - An overview of `color-scheme`, its current limits, and what’s coming.
+-   📜 [We put Bun's Rust rewrite in production on Prisma Compute](https://www.prisma.io/blog/bun-rust-rewrite-prisma-compute) - “the Rust rewrite behaved better than the stable release”.
+-   📜 [TypeScript Performance in TanStack Table V9](https://tanstack.com/blog/tanstack-table-v9-typescript-performance) - Advanced TS perf lessons for lib authors used to reduce TS workload by up to 86%.
+-   📦 [Prop For That - JS library that backfills what CSS doesn't provide, yet](https://nerdy.dev/prop-for-that) - This lets you define dynamic CSS variables through declarative HTML attributes.
+-   📦 [Babel 8.0 - ESM-only, drop ES5 default, and a smooth migration path](https://babeljs.io/blog/2026/06/16/8.0.0/)
+-   📦 [Biome 2.5 - 500 Lint Rules, Plugin Code Fix, and Cross-File Linting](https://biomejs.dev/blog/biome-v2-5/)
+-   📦 [npm 11.17 - add `min-release-age-exclude` config](https://github.com/npm/cli/releases/tag/v11.17.0)
+-   📦 [pnpm 11.7 - Full resolution in Rust, `--frozen-store`, scope-specific auth tokens](https://pnpm.io/blog/releases/11.7)
+-   📦 [Zod Compiler - Compile Zod schemas into zero-overhead validation functions at build time](https://github.com/gajus/zod-compiler)
+-   📦 [Playwright 1.61 - WebAuthn passkeys API, Web Storage API](http://github.com/microsoft/playwright/releases/tag/v1.61.0)
+
+![](https://thisweekinreact.com/emails/separators/christmas.png)
+
+## 🤭 Fun[​](#fun "Direct link to 🤭 Fun")
+
+[![alt](https://thisweekinreact.com/emails/issues/286/meme.jpg)](https://x.com/sankalpa_02/status/2067304806746915116)
+
+See ya! 👋

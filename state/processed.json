@@ -30815,7 +30815,171 @@
     "https://reactnative.dev/blog/2026/06/11/react-native-0.86": {
       "contentHash": "950e456c2c09bade7fb573b99cec0b1bde8c56fe8633b2e6366993a64092869a",
       "processedAt": "2026-06-17T01:10:54.853Z"
+    },
+    "https://addyosmani.com/blog/new-sdlc-vibe-coding/": {
+      "contentHash": "70164b76ed1b4b12fba3a6e9a7093ae5893e0e99226acea69efe97374761bdfc",
+      "processedAt": "2026-06-19T01:13:44.384Z"
+    },
+    "https://terriblesoftware.org/2026/06/17/you-got-faster-your-company-didnt/": {
+      "contentHash": "40def31567dcd770dae5104a56928d5079e25112429b13e0b6698c8de68be8a0",
+      "processedAt": "2026-06-19T01:13:44.962Z"
+    },
+    "https://virtualosmuseum.org/": {
+      "contentHash": "cc0bb7106d132e88725b6a0236cf1723a67d6c08f08909d8aaae1af987e3d4ea",
+      "processedAt": "2026-06-19T01:13:46.197Z"
+    },
+    "https://www.minid.net/2026/6/15/the-web-is-going-to-dissapear": {
+      "contentHash": "b09a8249a0b358447298281221897a396d4b488bb53c2997cb9cf9a648626251",
+      "processedAt": "2026-06-19T01:13:46.436Z"
+    },
+    "https://ailayoffs.rajnandan.com/": {
+      "contentHash": "e3640a138c8c9b0037dd7e7abeab18f8ce2e54c0933ef35bb8e7fa2ac2a0ab78",
+      "processedAt": "2026-06-19T01:13:46.953Z"
+    },
+    "https://magnus919.com/2026/06/the-architecture-of-focus/": {
+      "contentHash": "8a1debe58de531836ab6934cb07b77a3d7d9e51f928e03d808f408df439781c1",
+      "processedAt": "2026-06-19T01:13:47.773Z"
+    },
+    "https://tonsky.me/blog/every-frame-perfect/": {
+      "contentHash": "0362853c3500d76483de83152cd2e871f9dbc7da84e9ad9f54b1ad7933097262",
+      "processedAt": "2026-06-19T01:13:49.439Z"
+    },
+    "https://gridlanes.webkit.org/": {
+      "contentHash": "8efb413d2ffbce0ff86f18a7bc62a7ab3667ae6baaff29fbfca478b252b9fd31",
+      "processedAt": "2026-06-19T01:13:50.477Z"
+    },
+    "https://blog.stdlib.io/ai-and-the-invisible-newcomer-in-open-source/": {
+      "contentHash": "7330a96dbac337475c86cff79333f8f9ccb237ee294dc6d6de43d5ebe2060b60",
+      "processedAt": "2026-06-19T01:13:50.957Z"
+    },
+    "https://cssbuttons.io/": {
+      "contentHash": "5737cfd6406dc8db21543310ac454ef4c1e9362a602e2a1ad195893b80eb912e",
+      "processedAt": "2026-06-19T01:13:59.535Z"
+    },
+    "https://blog.murphytrueman.com/what-figma-made-visible/": {
+      "contentHash": "6e0420b89d600b4c5bc2b27b5ea26e602e6a77497bac660543cce248c3c35660",
+      "processedAt": "2026-06-19T01:13:59.800Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-big-implications-of-us": {
+      "contentHash": "dda95ebe3d2b6ba26c37a4cb3b2e91c60fa96fc5b6150204848daffb8ebeb10f",
+      "processedAt": "2026-06-19T01:14:00.026Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/cicd-with-robert-erez": {
+      "contentHash": "99f92d8e78f89b13d70acf0067d6aace2cbd51a4dc5076b3f2d7b1e00bd10dd3",
+      "processedAt": "2026-06-19T01:14:00.686Z"
+    },
+    "https://tympanus.net/codrops/2026/06/18/exploring-3d-image-rotations-on-scroll/": {
+      "contentHash": "ad76ac87055f4f36639977cfd596bd6aa9ccf565d52d9bec0cb493729ef5b32b",
+      "processedAt": "2026-06-19T01:14:02.437Z"
+    },
+    "https://tympanus.net/codrops/2026/06/17/always-building-always-learning-cyd-stumpels-journey-through-the-modern-web/": {
+      "contentHash": "3e73339ff78d1c22fc0b5930769e0211999d85807961bb9185dfa313ad42b4c0",
+      "processedAt": "2026-06-19T01:14:03.622Z"
+    },
+    "https://ics.media/entry/260618/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-06-19T01:14:05.104Z"
+    },
+    "https://vercel.com/blog/vercel-ship-2026-recap": {
+      "contentHash": "b3791f0c1d846b1ee6cd785a4d0c19a438ef93e3c930b999424b7f3a1ef09f8d",
+      "processedAt": "2026-06-19T01:14:07.219Z"
+    },
+    "https://vercel.com/blog/agent-stack": {
+      "contentHash": "d7722a87b5325049621bbaf0ba2c42d321f2415721d9fb336da7a314e20c917b",
+      "processedAt": "2026-06-19T01:14:08.250Z"
+    },
+    "https://vercel.com/blog/introducing-vercel-connect": {
+      "contentHash": "10b94eed3bcadf79de716737c466519212a825e275542496fc9c12686feaa350",
+      "processedAt": "2026-06-19T01:14:09.169Z"
+    },
+    "https://vercel.com/blog/introducing-eve": {
+      "contentHash": "6c081c0208843a43b7d42c74a44cacbe5422caef7063aff11a5e3e30dbf558fb",
+      "processedAt": "2026-06-19T01:14:10.371Z"
+    },
+    "https://vercel.com/changelog/cli-deployment-limits-removed": {
+      "contentHash": "fa14cf52cfa60cfd1d9c50cca50d916befd0f462c86695542f8ec9e1775ce603",
+      "processedAt": "2026-06-19T01:14:11.090Z"
+    },
+    "https://vercel.com/changelog/vercel-passport-is-now-in-public-beta": {
+      "contentHash": "cd0ae7a71c0fbc8681b4d334dd20e9b0f51e6101b921cda16899fa560ca538a2",
+      "processedAt": "2026-06-19T01:14:11.681Z"
+    },
+    "https://vercel.com/changelog/vercel-connect-secure-access-to-external-services-for-your-agents": {
+      "contentHash": "2a6404fc228beb2d6bba14a7d0eed4bf297b65c85ad9f93c9455d8264df579f9",
+      "processedAt": "2026-06-19T01:14:12.496Z"
+    },
+    "https://vercel.com/changelog/introducing-eve-an-open-source-agent-framework": {
+      "contentHash": "34e39cd79298b1f917e7b30db80ec523dfc83a081f739fcc64ce2e6ecd73040c",
+      "processedAt": "2026-06-19T01:14:13.050Z"
+    },
+    "https://vercel.com/blog/vercel-for-enterprise-apps-and-agents": {
+      "contentHash": "d8ab7a46699a5d65d97da39febf500a61d1e0a25d8e49741261c6dcdd89a3cfc",
+      "processedAt": "2026-06-19T01:14:14.408Z"
+    },
+    "https://vercel.com/blog/how-the-weather-company-serves-real-time-forecasts-to-350-million-daily-active-users-on-vercel": {
+      "contentHash": "460ec332f21711ccf9af3ed890228e6f3dd7738f999c27451b51acad49a97f20",
+      "processedAt": "2026-06-19T01:14:14.956Z"
+    },
+    "https://vercel.com/blog/how-code-and-theory-cut-time-to-prototype-75-with-v0": {
+      "contentHash": "624b56e750acb43b84f73f85fd49d440a09872c8431126c466c125b3acbb13f7",
+      "processedAt": "2026-06-19T01:14:15.505Z"
+    },
+    "https://vercel.com/blog/how-fern-runs-multi-tenant-docs-for-webflow-and-elevenlabs-on-vercel": {
+      "contentHash": "d9893d4f4a958b25302b79e00516c14d08478a7f5e19341388662c9aa9057943",
+      "processedAt": "2026-06-19T01:14:16.012Z"
+    },
+    "https://vercel.com/blog/how-ramp-kept-100-uptime-through-100x-traffic-surges-on-vercel": {
+      "contentHash": "21946434424c00c9b819d0780815d2d25406da244767ba059219639f4bc62228",
+      "processedAt": "2026-06-19T01:14:16.588Z"
+    },
+    "https://stripe.com/blog/what-link-data-tells-us-about-ai-spending": {
+      "contentHash": "883a719219332082c7be1bfdd778650e782785c74ab027ba411da92770e5e08b",
+      "processedAt": "2026-06-19T01:14:18.219Z"
+    },
+    "https://www.figma.com/blog/direct-every-frame-with-runway-aleph-2/": {
+      "contentHash": "63fb801a1ff1fbdce810077ef23abc1bc7d30e2b8879372ac9f1f299754e1628",
+      "processedAt": "2026-06-19T01:14:42.291Z"
+    },
+    "https://www.figma.com/blog/pantone-speaking-the-language-of-color/": {
+      "contentHash": "a564e1fdce34b5464b2a4fdbb2c73b82005751fac574396c5618a55b4e3d8c67",
+      "processedAt": "2026-06-19T01:15:15.526Z"
+    },
+    "https://frontendfoc.us/issues/746": {
+      "contentHash": "cb10f53c3c784cdc5bf378b4f9733caf29f775126e01b37e66bf751466fa7bb4",
+      "processedAt": "2026-06-19T01:15:16.602Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/06/17/160000": {
+      "contentHash": "5b65c057a873dd6b016df46f610f3f72ef85303634df1a38524008120df91b3d",
+      "processedAt": "2026-06-19T01:15:19.482Z"
+    },
+    "https://tech.layerx.co.jp/entry/prompt-log-driven-ai-workflow": {
+      "contentHash": "92ba4fcc3ff23a2cbcdab13edfb1f5f3e84d4f9ce511d996e6ba1cd64d4a44cd",
+      "processedAt": "2026-06-19T01:15:20.562Z"
+    },
+    "https://tech.layerx.co.jp/entry/snowflake-summit-2026": {
+      "contentHash": "1d85c435d543b69b64cb22d42faf7881bdac43f80beca2fd7219f71fb0b277e0",
+      "processedAt": "2026-06-19T01:15:22.470Z"
+    },
+    "https://uxcontent.com/ai-turned-lights-on-your-content/": {
+      "contentHash": "932f2fffc4d1b2a2c85b5e4f9bfa13a02da3ad8ea42dccdd444b3e9670e01e0e",
+      "processedAt": "2026-06-19T01:15:23.880Z"
+    },
+    "https://feeds.baymard.com/link/9825/17362490/apparel-and-accessories-quantitative-ux-insights-2026": {
+      "contentHash": "2b1beaf2e12e7013afe7d9b2ddacbe07dd7b211f628648e6f5e593e3446ef399",
+      "processedAt": "2026-06-19T01:15:25.754Z"
+    },
+    "https://uxmag.com/articles/the-agile-trap-designers-fall-into-feeding-the-beast": {
+      "contentHash": "292554bf290590fca9e246446573473e1ab9691fb0d452a617c44e44a8b8b369",
+      "processedAt": "2026-06-19T01:15:27.063Z"
+    },
+    "https://thisweekinreact.com/newsletter/286": {
+      "contentHash": "bd272e2a117a749cd496dd893990bba6b2a9b2c57a8d9fe050382023aa843678",
+      "processedAt": "2026-06-19T01:15:27.742Z"
+    },
+    "https://remix.run/blog/react-router-v8": {
+      "contentHash": "48fb52e987c361ccf4ee9e1a143ff019ab34702aed900d94342b8892578998c0",
+      "processedAt": "2026-06-19T01:15:27.981Z"
     }
   },
-  "lastRun": "2026-06-17T01:10:54.853Z"
+  "lastRun": "2026-06-19T01:15:27.981Z"
 }
