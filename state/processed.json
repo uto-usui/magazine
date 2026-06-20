@@ -30927,7 +30927,107 @@
     "https://remix.run/blog/react-router-v8": {
       "contentHash": "48fb52e987c361ccf4ee9e1a143ff019ab34702aed900d94342b8892578998c0",
       "processedAt": "2026-06-18T01:10:42.353Z"
+    },
+    "https://addyosmani.com/blog/new-sdlc-vibe-coding/": {
+      "contentHash": "70164b76ed1b4b12fba3a6e9a7093ae5893e0e99226acea69efe97374761bdfc",
+      "processedAt": "2026-06-20T01:02:59.323Z"
+    },
+    "https://microsoft.design/articles/haptics-design-and-implementation/": {
+      "contentHash": "b37c2e1229fc86f2ee04080cc42fe0603682c16374bacfd10b269264002cd8e1",
+      "processedAt": "2026-06-20T01:03:01.190Z"
+    },
+    "https://www.aaron-gustafson.com/notebook/can-your-ai-pass-the-accessibility-test/": {
+      "contentHash": "032eef27e299820e62dae80d1c49b94f2dfbf4b14db1f996abb0e589437b562d",
+      "processedAt": "2026-06-20T01:03:31.627Z"
+    },
+    "https://stringinamaze.net/p/rich-guy-quote-journalism": {
+      "contentHash": "d44a4237a18785b82cd10597a0493857454cd60af8fc13b24cddc54b36ba6e57",
+      "processedAt": "2026-06-20T01:03:36.941Z"
+    },
+    "https://ditherimage.online/": {
+      "contentHash": "59083756a13f41502f8d27b792e9e2e869f99fd06020fab2c766051720c5e39c",
+      "processedAt": "2026-06-20T01:03:37.550Z"
+    },
+    "https://matthewbutterick.com/extinction-level-capitalism.html": {
+      "contentHash": "34884ac1b06db5af40444549ab80f931c949970eab3ff813c851c1801195ff9f",
+      "processedAt": "2026-06-20T01:03:38.223Z"
+    },
+    "https://terriblesoftware.org/2026/06/17/you-got-faster-your-company-didnt/": {
+      "contentHash": "40def31567dcd770dae5104a56928d5079e25112429b13e0b6698c8de68be8a0",
+      "processedAt": "2026-06-20T01:03:38.537Z"
+    },
+    "https://virtualosmuseum.org/": {
+      "contentHash": "cc0bb7106d132e88725b6a0236cf1723a67d6c08f08909d8aaae1af987e3d4ea",
+      "processedAt": "2026-06-20T01:03:39.485Z"
+    },
+    "https://www.minid.net/2026/6/15/the-web-is-going-to-dissapear": {
+      "contentHash": "b09a8249a0b358447298281221897a396d4b488bb53c2997cb9cf9a648626251",
+      "processedAt": "2026-06-20T01:03:39.670Z"
+    },
+    "https://ailayoffs.rajnandan.com/": {
+      "contentHash": "e3640a138c8c9b0037dd7e7abeab18f8ce2e54c0933ef35bb8e7fa2ac2a0ab78",
+      "processedAt": "2026-06-20T01:03:40.088Z"
+    },
+    "https://magnus919.com/2026/06/the-architecture-of-focus/": {
+      "contentHash": "8a1debe58de531836ab6934cb07b77a3d7d9e51f928e03d808f408df439781c1",
+      "processedAt": "2026-06-20T01:03:40.621Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-big-implications-of-us": {
+      "contentHash": "dda95ebe3d2b6ba26c37a4cb3b2e91c60fa96fc5b6150204848daffb8ebeb10f",
+      "processedAt": "2026-06-20T01:03:40.873Z"
+    },
+    "https://tympanus.net/codrops/2026/06/19/creative-entrepreneurship-designing-the-machine/": {
+      "contentHash": "eb6adc09aa768ada2e126d4362796bb6126f603320db58707723d3b9eaf3441f",
+      "processedAt": "2026-06-20T01:03:42.238Z"
+    },
+    "https://tympanus.net/codrops/2026/06/18/exploring-3d-image-rotations-on-scroll/": {
+      "contentHash": "ad76ac87055f4f36639977cfd596bd6aa9ccf565d52d9bec0cb493729ef5b32b",
+      "processedAt": "2026-06-20T01:03:43.656Z"
+    },
+    "https://ics.media/entry/260618/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-06-20T01:03:44.466Z"
+    },
+    "https://overreacted.io/there-are-no-instances-in-atproto/": {
+      "contentHash": "f710a7160df47c14e82102759fc8dbb0051c938a9d9da120f81034c81d6ac3b6",
+      "processedAt": "2026-06-20T01:03:45.086Z"
+    },
+    "https://piccalil.li/the-index/187/?ref=main-rss-feed": {
+      "contentHash": "4cfe507411b0b1a388df6f7854f242e0335649f2aeb2151176622dd4d8295154",
+      "processedAt": "2026-06-20T01:03:45.446Z"
+    },
+    "https://stripe.com/blog/what-link-data-tells-us-about-ai-spending": {
+      "contentHash": "883a719219332082c7be1bfdd778650e782785c74ab027ba411da92770e5e08b",
+      "processedAt": "2026-06-20T01:03:46.191Z"
+    },
+    "https://www.figma.com/blog/direct-every-frame-with-runway-aleph-2/": {
+      "contentHash": "63fb801a1ff1fbdce810077ef23abc1bc7d30e2b8879372ac9f1f299754e1628",
+      "processedAt": "2026-06-20T01:04:11.686Z"
+    },
+    "https://tech.smarthr.jp/entry/lt16": {
+      "contentHash": "92e07e6b800f838f03089e930805b8ae1d5507eb7ee992c6d559e4f0aee5fa3c",
+      "processedAt": "2026-06-20T01:04:13.343Z"
+    },
+    "https://tech.layerx.co.jp/entry/prompt-log-driven-ai-workflow": {
+      "contentHash": "92ba4fcc3ff23a2cbcdab13edfb1f5f3e84d4f9ce511d996e6ba1cd64d4a44cd",
+      "processedAt": "2026-06-20T01:04:14.002Z"
+    },
+    "https://www.nngroup.com/articles/diary-study-incentives/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "7b6ffdf15ad0aa139ae2fd9f2d3dc6341ddf9239543e419d4f7f6c70922f2257",
+      "processedAt": "2026-06-20T01:04:16.002Z"
+    },
+    "https://www.nngroup.com/articles/vibe-architects/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "6a06698a8fd2883cacb682fa5b5c7b5209c99831db5f77a825672730be95d26b",
+      "processedAt": "2026-06-20T01:04:16.776Z"
+    },
+    "https://uxmag.com/articles/the-agile-trap-designers-fall-into-feeding-the-beast": {
+      "contentHash": "292554bf290590fca9e246446573473e1ab9691fb0d452a617c44e44a8b8b369",
+      "processedAt": "2026-06-20T01:04:16.969Z"
+    },
+    "https://react.statuscode.com/issues/479": {
+      "contentHash": "de4075d78cac891cd20da742daa74265f592d3ca4d60b69a87c112650382f4ed",
+      "processedAt": "2026-06-20T01:04:17.826Z"
     }
   },
-  "lastRun": "2026-06-18T01:10:42.353Z"
+  "lastRun": "2026-06-20T01:04:17.827Z"
 }
