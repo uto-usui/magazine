@@ -31027,7 +31027,15 @@
     "https://react.statuscode.com/issues/479": {
       "contentHash": "de4075d78cac891cd20da742daa74265f592d3ca4d60b69a87c112650382f4ed",
       "processedAt": "2026-06-20T01:04:17.826Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/06/22/092025": {
+      "contentHash": "9a433a2be4fcf195cee39da70971cd927e631cefaa42dda35bb22b930f0ea606",
+      "processedAt": "2026-06-22T01:09:18.841Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-june-21-2026/": {
+      "contentHash": "a600c05e39208d16bc72ffcbf7bb8e19e06ea8ce7ddc80085241d3236d3dbce1",
+      "processedAt": "2026-06-22T01:09:20.032Z"
     }
   },
-  "lastRun": "2026-06-21T01:09:27.100Z"
+  "lastRun": "2026-06-22T01:09:20.032Z"
 }
