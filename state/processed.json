@@ -31091,7 +31091,71 @@
     "https://stephaniewalter.design/blog/pixels-of-the-week-june-21-2026/": {
       "contentHash": "a600c05e39208d16bc72ffcbf7bb8e19e06ea8ce7ddc80085241d3236d3dbce1",
       "processedAt": "2026-06-23T00:59:06.624Z"
+    },
+    "https://engineering.fb.com/2026/06/23/production-engineering/how-meta-built-ultra-narrow-batteries-for-ai-glasses-meta-tech-podcast/": {
+      "contentHash": "52f6cd6be25fe8f48bd66ea895115d9d3e1ade790c0bb2583d3801c8be00ce3b",
+      "processedAt": "2026-06-24T00:56:15.878Z"
+    },
+    "https://a11yweekly.com/issue/505/": {
+      "contentHash": "8260c0512dea8c96a266a80935456fd87b632928a7ce97d42074bf4d07e93251",
+      "processedAt": "2026-06-24T00:56:24.768Z"
+    },
+    "https://aresluna.org/show-your-hands-honor/": {
+      "contentHash": "31472d11b29efd0b602acaf14e6eb3a8251c436eaad4e54cb1a3d359017792a0",
+      "processedAt": "2026-06-24T00:56:25.779Z"
+    },
+    "https://www.tastelab.xyz/": {
+      "contentHash": "2ff40b2e40da18f40d976725ee0d2d490cb96388dfc282e865935e8afe8391e9",
+      "processedAt": "2026-06-24T00:56:26.326Z"
+    },
+    "https://taylor.town/pumpkin": {
+      "contentHash": "bcad1170a31d767c408b1999cf162c99f2c153fb908374da03d245dd8605448b",
+      "processedAt": "2026-06-24T00:56:26.573Z"
+    },
+    "https://productdesignpsychology.com/": {
+      "contentHash": "47d5b1cf8ab2f27496eed671174e300176fd4ac5b0de8eda590330b9f1b8dbb1",
+      "processedAt": "2026-06-24T00:56:27.256Z"
+    },
+    "https://ursb.me/en/posts/after-ai-takes-everything/": {
+      "contentHash": "5ee9236e105b25f1ddb541b6cb393692c46b4a8fed9638caa4d1f2507b5a89ad",
+      "processedAt": "2026-06-24T00:56:27.686Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/slow-down-to-speed-up": {
+      "contentHash": "38c6045234299ade006842be614a71633a41d356bf0d0388c1fddb97eb2a22eb",
+      "processedAt": "2026-06-24T00:56:28.133Z"
+    },
+    "https://tympanus.net/codrops/2026/06/23/podium-building-a-website-where-running-becomes-storytelling/": {
+      "contentHash": "a8cc187991e682a6148b3c667e211e6ab64bd5685e741ca57438a85d9a2cb5dd",
+      "processedAt": "2026-06-24T00:56:29.579Z"
+    },
+    "https://vercel.com/changelog/deploy-node-servers-with-zero-configuration": {
+      "contentHash": "4692c793b6695b3f87ba91e0d2d4cbc8158282a6d2d599da0d2ac9f840cec3f9",
+      "processedAt": "2026-06-24T00:56:29.930Z"
+    },
+    "https://vercel.com/changelog/custom-oidc-token-audiences": {
+      "contentHash": "cc504c525847812f3e511389b1603a3f2cee65c792d6b4d18acef388376f7b28",
+      "processedAt": "2026-06-24T00:56:30.256Z"
+    },
+    "https://vercel.com/changelog/redesigned-trace-viewer-for-vercel-workflows": {
+      "contentHash": "98a961e92be162cb862f094ea765df0b8c56bd6a8136f082a2b123a8ac10f939",
+      "processedAt": "2026-06-24T00:56:30.701Z"
+    },
+    "https://stripe.com/blog/trends-from-hitec": {
+      "contentHash": "147d0b72e5cdd925c8abacbfc634a2576f8ebaba44a2d18bdfebf93392e7e2b7",
+      "processedAt": "2026-06-24T00:56:31.945Z"
+    },
+    "https://efcl.info/2026/06/23/hardening-npm-publishing/": {
+      "contentHash": "218ce9102830c42a1ebaf7b0c90e8ffa2b702716ae0b174366dd9803709e1ceb",
+      "processedAt": "2026-06-24T00:56:32.335Z"
+    },
+    "https://uxcontent.com/get-hired-job-hunting-and-portfolio-advice-for-content-designers/": {
+      "contentHash": "4120eb65b5acb3caaf78738af6bfa5fdb5d7e609f94806bb8de9f563c0d6e6e1",
+      "processedAt": "2026-06-24T00:56:33.312Z"
+    },
+    "https://uxmag.com/articles/ai-is-your-new-intern-not-your-replacement": {
+      "contentHash": "9a48f65729e591a6a1c248fd3c548c79a043f7f1f8855c3a82e4fe728f9199ed",
+      "processedAt": "2026-06-24T00:56:34.754Z"
     }
   },
-  "lastRun": "2026-06-23T00:59:06.624Z"
+  "lastRun": "2026-06-24T00:56:34.754Z"
 }
