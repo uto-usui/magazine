@@ -1,0 +1,58 @@
+articles_dir=2026-06-25
+exit_code=0
+timestamp_utc=2026-06-25T01:07:31Z
+
+---- issue lines ----
+10:Failed to fetch feed Adrian Roselli after 3 attempts: Request timed out after 15000ms
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-25/untitled-post.md
+📥 Processing: GLM 5.2 Fast via Wafer now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-25/glm-52-fast-via-wafer-now-available-on-ai-gateway.md
+📥 Processing: Chat SDK adds Kapso support
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-25/chat-sdk-adds-kapso-support.md
+📥 Processing: Chat SDK adds Novu support
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-25/chat-sdk-adds-novu-support.md
+📥 Processing: Chat SDK adds Sendblue support
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-25/chat-sdk-adds-sendblue-support.md
+📥 Processing: Chat SDK adds Linq support
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-25/chat-sdk-adds-linq-support.md
+📥 Processing: Workflow SDK now compresses run and step payloads
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-25/workflow-sdk-now-compresses-run-and-step-payloads.md
+📥 Processing: Config 2026: New materials, new tools and a more expressive canvas
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-25/config-2026-new-materials-new-tools-and-a-more-expressive-canvas.md
+📥 Processing: Code on the Figma canvas
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-25/code-on-the-figma-canvas.md
+📥 Processing: Connecting Figma and Weave
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-25/connecting-figma-and-weave.md
+📥 Processing: Introducing Figma Motion: Your canvas now has a timeline
+Image too large, skipping: https://cdn.sanity.io/images/599r6htc/regionalized/9330a65d882712b919aca44d8f3a7a2d64e6595e-5072x5072.png?w=5072&h=5072&q=75&fit=max&auto=format
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-25/introducing-figma-motion-your-canvas-now-has-a-timeline.md
+📥 Processing: Figma’s design agent, now with custom tools and greater context
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-25/figmas-design-agent-now-with-custom-tools-and-greater-context.md
+📥 Processing: Figma's 2026 AI report: Can AI help us collaborate better?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-25/figmas-2026-ai-report-can-ai-help-us-collaborate-better.md
+📥 Processing: Principles in motion
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-25/principles-in-motion.md
+📥 Processing: What does the future of software look like?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-25/what-does-the-future-of-software-look-like.md
+📥 Processing: CSS that picks its own readable text color
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-25/css-that-picks-its-own-readable-text-color.md
+📥 Processing: Flight Booking & Airlines Quantitative UX: 3 High-Level Takeaways from 30+ Charts
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-25/flight-booking-airlines-quantitative-ux-3-high-level-takeaways-from-30-charts.md
+📥 Processing: This Week In React #287: Fragment ref, React Compiler, StyleX, React Router, cnfast, Base UI, Remotion, React Aria | Reanimated, Widgets, VisionCamera, Test Renderer, Worklets, Legend List, Metro, Boost | Vite, Astro, TypeScript, Nub, Security
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-25/this-week-in-react-287-fragment-ref-react-compiler-stylex-react-router-cnfast-base-ui-remotion-react.md
+
+📊 Summary:
+   ✅ Success: 26
+   ❌ Errors: 0
+🏁 Done!
