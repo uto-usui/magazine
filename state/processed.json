@@ -31155,7 +31155,111 @@
     "https://uxmag.com/articles/ai-is-your-new-intern-not-your-replacement": {
       "contentHash": "9a48f65729e591a6a1c248fd3c548c79a043f7f1f8855c3a82e4fe728f9199ed",
       "processedAt": "2026-06-24T00:56:34.754Z"
+    },
+    "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/": {
+      "contentHash": "5467037fed627a95784ea86cfe82403a40f2b509c39911f603fb3e5e793fe537",
+      "processedAt": "2026-06-25T01:01:17.147Z"
+    },
+    "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/": {
+      "contentHash": "5dd9c09af205af8d008da4a17b80e64b0de9bc0bc37347ea0b2a01f7091052fd",
+      "processedAt": "2026-06-25T01:01:17.580Z"
+    },
+    "https://www.itsnicethat.com/features/katharina-sussek-jens-muller-the-elements-of-brand-design-taschen-publication-graphic-design-spotlight-170626": {
+      "contentHash": "82a2955d30120641dcf1a0990c50559ab8f5a5e8053102ed3e7d334333007a5f",
+      "processedAt": "2026-06-25T01:01:18.391Z"
+    },
+    "https://ileivoivm.github.io/inkField/": {
+      "contentHash": "a5f8f56787e9942452f2a79fa5d1fbcb734808e5838b03d79fc192ff1e794cae",
+      "processedAt": "2026-06-25T01:02:01.332Z"
+    },
+    "https://www.nubero.ch/blog/018/": {
+      "contentHash": "398225835b490e3988bbf23caf9e5490f8d8e1e932764a96371a7bc8684e2403",
+      "processedAt": "2026-06-25T01:02:01.971Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/tech-interviews-with-neetcode": {
+      "contentHash": "887f2a5de98055207f158a6cd8d84bb5a608eced3f83f297518a627d905efa7e",
+      "processedAt": "2026-06-25T01:02:02.467Z"
+    },
+    "https://tympanus.net/codrops/2026/06/24/testing-what-users-actually-see-with-vitest-and-chromatic/": {
+      "contentHash": "05c09d9692511f6e95ec188e558f0858eb73d5ac0fbb611147befcbc0e02fa66",
+      "processedAt": "2026-06-25T01:02:04.424Z"
+    },
+    "https://ics.media/entry/260624/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-06-25T01:02:05.017Z"
+    },
+    "https://kentcdodds.com/blog/README": {
+      "contentHash": "b28d0635f4a346cc215d9ecaf567a3d2cbff05490a70dd5e331c06e51b84a612",
+      "processedAt": "2026-06-25T01:02:05.498Z"
+    },
+    "https://vercel.com/changelog/glm-5-2-fast-via-wafer-now-available-on-ai-gateway": {
+      "contentHash": "8f85c927af8d16747486880a7fc8a6108723a605febfb5341a72b5f0b36ddd20",
+      "processedAt": "2026-06-25T01:02:05.941Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-adds-kapso-support": {
+      "contentHash": "8792ec51fb5532ae1f8a12a430b91472599aba0827e4276fed2a0d81e71b0f7e",
+      "processedAt": "2026-06-25T01:02:06.363Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-adds-novu-support": {
+      "contentHash": "d1aac9733c8fbaa7a6d49372cf2305b2613bcdc772f90c2ea685b9744b9fd47d",
+      "processedAt": "2026-06-25T01:02:06.761Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-adds-sendblue-support": {
+      "contentHash": "bfb80bd9206a7b9e101a7316df9a39df48553c53575b55e4c63dfcab740d8dd7",
+      "processedAt": "2026-06-25T01:02:07.123Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-adds-linq-support": {
+      "contentHash": "3c1a403734f0cfa89e81471fe5976a2590c06c73fdc9f0eaed3bfa4f438437c8",
+      "processedAt": "2026-06-25T01:02:07.517Z"
+    },
+    "https://vercel.com/changelog/workflow-sdk-now-compresses-run-and-step-payloads": {
+      "contentHash": "70b1a264acc1942f2efc9c794e7b60129b4f8f7ec407ac490ad08cb6e02af91d",
+      "processedAt": "2026-06-25T01:02:07.817Z"
+    },
+    "https://www.figma.com/blog/config-2026-recap/": {
+      "contentHash": "fdd80cdc3ec4a9a060ade7307b5bf313fba97c7c7d3a7a392f251fdfd5e49e03",
+      "processedAt": "2026-06-25T01:02:45.266Z"
+    },
+    "https://www.figma.com/blog/code-on-the-figma-canvas/": {
+      "contentHash": "de795dcc361f17007900756c9e75ca0c1910e73f486701a460adc5cddc04f00d",
+      "processedAt": "2026-06-25T01:03:17.236Z"
+    },
+    "https://www.figma.com/blog/connecting-figma-and-weave/": {
+      "contentHash": "ded77b6272c7f83395fd1bcb83a815c5fc3abc796153cb7fd5476ac8d7962bea",
+      "processedAt": "2026-06-25T01:04:06.916Z"
+    },
+    "https://www.figma.com/blog/introducing-figma-motion/": {
+      "contentHash": "bcfc99ee6ba388bbc998ad9de25987714aa40e36307e924e5b5a76ae456c303e",
+      "processedAt": "2026-06-25T01:04:49.128Z"
+    },
+    "https://www.figma.com/blog/agent-custom-tools-context-skills/": {
+      "contentHash": "014b4d3e93a096ed55ba1d31b671b19a386207c5cc0d08fa9e3e131040e6dff2",
+      "processedAt": "2026-06-25T01:05:31.127Z"
+    },
+    "https://www.figma.com/blog/2026-ai-report/": {
+      "contentHash": "f06519602c1f46cfb83631a690c83f5b4e31f2c0ae8bd882e5980c52353dae40",
+      "processedAt": "2026-06-25T01:06:07.038Z"
+    },
+    "https://www.figma.com/blog/principles-in-motion/": {
+      "contentHash": "74b777e7ad28133b2e23d8515eb7ab779b2f1aa6bf969ac4cf79cca8782491fb",
+      "processedAt": "2026-06-25T01:06:49.540Z"
+    },
+    "https://www.figma.com/blog/future-states/": {
+      "contentHash": "1e535212236a2ae035fc229298acd7658662b651cf857777959d4a481286c1b2",
+      "processedAt": "2026-06-25T01:07:21.794Z"
+    },
+    "https://frontendfoc.us/issues/747": {
+      "contentHash": "3fb2ee9e1be02b01c5ad6382fd9c42aa09ac70c55853a9d2cdefd3259c72fa98",
+      "processedAt": "2026-06-25T01:07:22.470Z"
+    },
+    "https://feeds.baymard.com/link/9825/17366440/flight-booking-and-airlines-quantitative-ux-insights-2026": {
+      "contentHash": "4138db07b21813e7e4122ea825c9059d092ab601294967a40f6ee11587a3718a",
+      "processedAt": "2026-06-25T01:07:30.058Z"
+    },
+    "https://thisweekinreact.com/newsletter/287": {
+      "contentHash": "cb825a73101342cfbe542e9eb960db5d40504b540ef058eb3d1f14940a2be17d",
+      "processedAt": "2026-06-25T01:07:30.669Z"
     }
   },
-  "lastRun": "2026-06-24T00:56:34.754Z"
+  "lastRun": "2026-06-25T01:07:30.669Z"
 }

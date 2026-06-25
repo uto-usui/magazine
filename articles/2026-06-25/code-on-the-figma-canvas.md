@@ -1,0 +1,61 @@
+---
+title: "Code on the Figma canvas"
+source: "https://www.figma.com/blog/code-on-the-figma-canvas/"
+publishedDate: "2026-06-24"
+category: "design"
+feedName: "Figma Blog"
+---
+
+June 24, 2026
+
+![Split-screen product concept showing an exhibit webpage, a generated ticket-booking interface, and the corresponding React code implementation side by side, illustrating a design-to-code workflow.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACkUlEQVR4nDWS3W/bVBiH/ac0Pp+2E7tx7Dhtk6ZuMndJu421VZVNVHwUmo1UXVGFENoE0qRNyxA3aAhxV6QNjYmOGyQG40vwhz3ILlw8OtK5eM7v977HSZOELE1I0xatePE/miRpTLffoRj3uby1xsZmn2LcY7iV0y2GNJMUz/cxxqBLtK5wlrOIvBtS5BEbg0UG/Tq9jqbf87n51hJ3Hwy4/8UlPp0P+Gyec+/RkLePBmQrMUobpDYorZFKIYXAyXsN3txb5aOTCfc+eY+Toz1u7HTYGFiu7y4yPU6ZnSbcOmlx+yRmeqfF7s0WcRIglEFaD+15KKPRUuDsvpEzf/gx5z885fzlC54+O+Px/C6TvUtk7YBoURNGkjBSNEJBPRSEkcXzbJVO+gGmUcf4FqMlzuz2u7z4/jv++vsffvr5V169/oPzH19yfOcW7TRGa4PrSmo1wcKCW1HeGVMKNcrzsYGP55VzVDjTw3c4+/aMV69/r4S//PYnz54/5/3pAUnSxHoWpRRCuBVSCqy1FaKcmzZYU6KQSuMUw2WOZgfMP3/Mk6+/4csnX/Hh6TH5epcgsCitkFIihKjOEvO/UJZCjbWlUFdLcqK6S5ZaiqLHtetbbF4pyDoh1tYIwzorKyvkeV6xvr5Ot9sljmM8z0MIiZASrRRKiupRp1FXZJ0axUizea1OMfZY6rrVAjpLGZPJhOl0yuHhYXXu7++ztraG7/uV0BVlaoFwXWq1BZwo8hhe9jj4IGJ22uRgFnFl2yfNPNpZyng8Zmdnm+3tC0ajEe12+yJhWVlpTPllVJlW4AS+JUkVo6seuzcCru74LPc0jYahGTeryqurq1Wqsm6SJARBcDHDMp2SldBUtSX/ApfwgjnPurTxAAAAAElFTkSuQmCC)![Split-screen product concept showing an exhibit webpage, a generated ticket-booking interface, and the corresponding React code implementation side by side, illustrating a design-to-code workflow.](https://cdn.sanity.io/images/599r6htc/regionalized/5bad8b94a677b2890b50915446f7cc066fa47988-3264x1836.png?w=1632&h=918&q=75&fit=max&auto=format)
+
+With code layers in Figma Design, you can explore multiple directions with code, side by side with your team.
+
+Agents have expanded who can build and what’s possible to create. But too often, the process of getting there happens alone, in separate chats, disconnected workflows, and isolated exploration.
+
+###### Getting started is flexible:
+
+In Figma Design add a code layer from the toolbar, create one from an existing frame, or ask the Figma agent to generate one. From there, start from a template or describe what you want to build. You can also bring in an existing codebase—import a GitHub repository or upload a local folder directly.
+
+In Make generate and edit code, then bring it onto the canvas as a code layer to explore, compare, and refine with your team.
+
+With code layers in Figma Design, interactive code becomes part of the canvas itself, making it easier for teams to explore, iterate, and shape ideas together in the same place.
+
+## [Entertain all your alts](#entertain-all-your-alts)
+
+Designers have always duplicated frames to try alternatives—code layers work the same way. Working experiences can live on the canvas so you can compare how options actually feel, not just how they look. Move, adjust, and resize elements and get an immediate code response. Keep iterating with prompts and the agent generates a new version while preserving the original. Since code layers exist in your shared file, teammates can jump in, leave comments, and prompt against the same layer.
+
+![A map design with a location pin, beside a menu showing "Build this with code" highlighted.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsTAAALEwEAmpwYAAACoklEQVR4nJ2Q60uTURzHn3/JSZlk6TatobWZoRK6lTS6YHsTmpiW5XLmpV28rJJ209TdN40JpuB7wTeR4Eb5TkW8o+KdTzxnYQhh0IsPv3Mezvk85/uVsvKucxYN2eoistSFXLh6jRxlPoWFRWi1OrRarUCn051O3W80Gg05OTlIxcYaio21Z7h5vxaloZbcqnoePGum75OLUDBEMBgkFAoRDoeJRCJEo1GBvO/t7cVoNCKZzO9J84HqZicPm3rQ13WSX1WH6l4tZnsf377PsrKywurqKuvr62xsbAg2NzcF8npmZgaz2YzU6OjnhX1A0GDzUdPmwthgo6DMSJ5GS2tbBz9+/mRnZ4fd3V0ODg44Ojri+PiYk5MTMWVSqRTt7e1Ir3uHePPeL2jq+sxzq4/q1z1oyqpQqvKxtLSQTKXEK9bW1sTc3t5mf39fyPf29jg8PPwjbHYO0+GK8M4dpeVDgFfdQzxt/ciNO0aU6gIhnEsmRdzl5WWBvN7a2mJpaYn5+XkRO5lMpoWWviA2XxxH/widrghv+8LUd7rQVjwQQrmX2dlZIVpYWGBxcVH0KXc5NzfH9PS0+CafsVgsSO2fwli9cazuKA53gC5PiBd2D7f0j7iSq+RJdTWBQJDx8XESiQRjY2NMTk4yNTUl9rFYjImJCfx+PyaTCUmOa/XEeOcK0+0axOkZ4qXdTYnhEZeyL6NSqSgvL6eyspKKigqBXq/HYDAI9Hq9oLS0FLVajSR35+gfxS7H9oTo9oZpcni5ffcxF7KyycjIQKHIRKFQkJmZnuch2bxxega/0D0wit0bx+YbocnhOxUqhPDPhfQPzhE6hxLIdA2MpqN7YjTavJTcfczFvwj/+UJX+CvO4QR234iQdbqjNFg9osP/Ef4CFKuUgeqmleYAAAAASUVORK5CYII=)![A map design with a location pin, beside a menu showing "Build this with code" highlighted.](https://cdn.sanity.io/images/599r6htc/regionalized/fd44f406d29b1967a81ca9f6b18dc1d19f88e103-3264x2176.png?w=804&h=536&q=75&fit=max&auto=format)
+
+Turn any frame on the canvas into working code by asking the agent to build it for you.
+
+## [Move between your materials](#move-between-your-materials)
+
+Code layers make software explorable. By selecting `extract designs` you can make code visually understandable by converting the current state back into editable Figma layers. You decide what comes onto the canvas—a single screen, a specific state, or a full flow. From there, one click updates the code layer with your edits. So you can work fluidly between the canvas and code.
+
+![Two mobile app mockups in a design tool, with a toolbar reading "Extract designs" and "Open code editor."](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACv0lEQVR4nG2PWU8bdxRH/doqaUPSGmrA2PG+zfxnhfE+tscwgToOwcQ4gWzg0IU8tFLfKrWKUqkv/QxVpUhVo6aNIYBZElJF6sc60RipT304urpX9/50j0/TNHTdwDBnMQxzVHXTRDeM0Vw3vN5CNUw0Tcfb91BV9X/xeUdWoUSl5lBzFnDcJZruErW6Q7lUoWg3sRrXMQo2um6iKjpCVpBy8n/IkoyQBYqi4tM0A7vq0Gp1WFnpce9en37/S3pr6yxea9F021ScG6h6iVRMJhJME5qMMzMZYyZwTmgqTiKaRpYEPlXRqFfnWWl36Sz32Lj9gM3726ytrrPotplvLFG0amQSKuFAmulPEwTGovg/CnHlw2kufzDFJxeCBD+LkctK+FShUbRsFhotFhqf49jXcKoutdI81UKTklVHkyzSMYVMzCCXsEiGdYLjacYvRfF/HGH8UoRQIHEeKGQVJTeLIRUxpBIiNUvqqkI8KJEMK8iZPCKXR0gWeculUmkzN7eAEDaSVEHINkKuks2Y58qypJCMyFwNZJnxp5i8Eh/pjHkqF0NEQypSNo+mVWm4t3BbG9jNDuX6MuX6TZzF27jX75IvziOEik/OKcTCaab9ESbGgkxcDhHwx5kcTzA1kSQakskkNXS1TK1xk3pzlUK5xVxhcUTZXqbWXMWcreHZ+rw3k4kIOSlMvZ6n2+3ysL/Do6+/Y/OLb3mwtcNm/yv6Wzts979h8/5jNu5ss97bpndrC7fZwVBtcikdz9YnZBlVC7PUzvLj08e8ePmc07f/cPTuX/bO3jE4fcvg5A27h6fs7x+zNzjg5V97I57//oKff/qFO92HVAoOitC8QEGhkKDXNXnyZIc//nzGydlrhmdvGAyHDA6H7B4c8ffuIa9eDRkOjzk+OuX46IT9vQN++/UZP3z/lM7yGrpm8h5V65S4rG4vMwAAAABJRU5ErkJggg==)![Two mobile app mockups in a design tool, with a toolbar reading "Extract designs" and "Open code editor."](https://cdn.sanity.io/images/599r6htc/regionalized/a93ca8b323ce4b8f8b65472ddddf70ff518c7144-3264x1836.png?rect=0,1,3264,1835&w=804&h=452&q=75&fit=max&auto=format)
+
+Extract key flows and states from code onto the canvas as editable design layers.
+
+## [Refine with your judgment](#refine-with-your-judgment)
+
+When you want more specificity you can annotate in the code editor and ask the agent to make your desired change or click in and make the edit yourself. Once you're happy, convert it back to the code layer and push to your repo so your source reflects the changes you landed on. Now your whole team can see the update.
+
+![A code editor showing App.tsx React code, overlaying a dark event page design.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsTAAALEwEAmpwYAAADLElEQVR4nI2TXWhbZRjHz92GIitTb6xUKzqmSGjq1HWwyTLdzbRQPwarEiasthTsWitWWNOaQPqZNGYT2ou0NHbSal0rQ+bqEKYw19alUmtBmEyIM51tc85JzmdOTvxJ3gu91Isfz8N78Xvfh+f9SxU7KvkvHq/24n/9Tdrb22lqauL06XYCgQCDg4MMDQ3R2tpKQ0MD9fX1SLt2PEDFzkoq791Dzd4D7Pf62O89LKjz+qir9fHysROEPggTj59lYGCAaDTK6OiooL+/n5aWFvx+vxBLu++u4v5d1Rx85gXCwWHOJ2eYmpwR9ZOPPxVcnP+SpcVlVldXSaVSrKyssLa2Jvov5ufp6emho6NDXCbVeA6zr/Z5/I0tfHPlKltb28hZBVlWyGZlstsyiqKi6TqGaWIYJqZpYlkWuq6zvr4uXlqWxmIxpOONb3PyVBdnuodZXEyh6Qa2U8RxXCyrgK5Z5HImWt7A0Awsw6JYcCgVXYqOw2+3bjE1NSVGF8JjL53kVGuAkbNJfvzpF2RVQ7ds7IKLoTlktw22NjXUTZX8ZhZDzeNYthC6jkM6nebC3BwjsZiQSp4nDuHzvcaZwDCplTUUNYdp2TjFEpZZRFUscoqJqWrYag5H14Xor1KJkuuSyWRYWFggkUiIjUt7H30Wz5OHeKvpHa5f/wFN03AcB9ctUbAd9PKoeY2CrgtZ0TBw7fILi4I/bt/mq0uXSCaTTExMIHk8z+GtPUJz87ssL69g2zau6wqcgoOl6Ziqgq0qFFRV4OTzQly0bX5Pp/l8dpYP43HGxsaQqqtqeOyRfbzR2Mx3314T21WVHIqqosgK8laW7J0N1EwGbWMD/c876FubaNvb5GWZX2/eZHp6mmAoRFdXF9Luu6q4756HOfj0UfpCEabPz/7L1GeCCzNzXF24Qur7a6wuL/FzKsXqjRuklpb4+vJlxhMJ+vr6aGtrKyelkoqdD/6TlANPHRHUlWutT/QvHn2F9zrfZyQa5aNz5xhPjJOcnBSiaCRCKBQiHA7T29uL9H+yvOchD8dfPSHS0NnZKT7xcCRCJBKhu7tbnAWDQeLxOH8DpyThU37yBSEAAAAASUVORK5CYII=)![A code editor showing App.tsx React code, overlaying a dark event page design.](https://cdn.sanity.io/images/599r6htc/regionalized/b16a4d81ec4c060232c171a21e177c467630f3af-3264x2176.png?w=804&h=536&q=75&fit=max&auto=format)
+
+Make changes to the code generated in the code editor.
+
+With code layers in Figma Design, the canvas becomes a shared space where design and code evolve together—a place to try things, compare them, and land on the right idea to build.
+
+Code layers are rolling out in closed beta over the next few weeks. [Sign up here](https://www.figma.com/config-betas/) to request early access. Visit our [help center](https://help.figma.com/hc/en-us/articles/39582753756695) to see a round-up of what we launched at Config, and how to get started. Find answers and inspiration on all things Figma at [Figma Learn](https://help.figma.com/).
+
+[![Collage-style product graphic showcasing AI-assisted design and development workflows, with plugin creation prompts, visual effect controls, code generation tools, and interactive UI components arranged across a creative workspace.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAADDElEQVR4nE2T209TBwCHT3usotTWDLU8LFBFOggXUbFTsqjIJRFHdDq0IAVp4cwhl1kloyIFDlDCdmy5iUhZQUB0rJJpNoER44VpMjW4B90yjU5FYzJisv/gMyVx7uF7/X4v308QBIH/o1Gr0S9cyIrFIRi0i1ipDUEfEoJGFFGpVGg0GnQ6HUajkR070iirsHKkykqFw0LlUUvQ8V6mUgmEhy4hKyISKSGO8m3rOZydiiU9A/O69RjCwzEYDKRsTiE3NxdZruKHsUYuT5Yz+tMuLk5kIgRX3yGqVKwNC6PNnMKvey3MNNVy/8cL3Pj5Ct/5+jhgLWTLtu0ctEnUuOrx+7/h9/utPH99iCf/pPL3GzOCWq0miCiKLBBFzMtXMpKyhReFduZ6+5h7+JDnL18z8+AvfIMBjssKzkYPh6rqqG8p5tadHF7MZfDszcfM/puMYIqNZ81HsURFxxBtiiU7PolAajqztgPMnWxg9lKAWxNXGb0yTe/YTfouXufUyBRlrnYcrn2M3/yE3/7YyLV7G7j75waE6tpGSssqsB60U/RFOXVFXzK1J4+n+XZeVZbzzPkVl2qdHHd7qOwYwdU3TpP/F6SaNvJKdiIrcSjdJhqVaLw9axAG+wfxuGWOHXPgbGhmQOnkzgk3j6sVHjuaeGDP51zJbuyOw3zmUthfP0BBwzCfSi7WbjKTkBRG4rqlxCeGkpgUitDV3sbprk68XafxdPs4P3yeyYEhJnsH+b6+Fc/uLKSMzWwvKCX7hI989yglyhiFdT1k7rMRm5SMTq9HFAXUagGhuUWmrbuHM+fG6D47itzqoViS+Dwnh4y0dBJWRRIZsZpNlkqq+6fpHH+E7/pT+qef0HH5NsVfNxMRZZpPLojQfqoD+dsW5I4uvGf8lB6pIiYuAZ1+GUu02vmQF2mXkZy5l6beAEMTdxmausfw1Rn6J27jkBVWmWLen+PshQDudi81J714e/xUHHVijIqeTynIfJ8LNHxoXE3Wrj0U2CWsthLyiiT2F9jYmpbJB2HL/xO+Be/R1Vmmy7JPAAAAAElFTkSuQmCC)![Collage-style product graphic showcasing AI-assisted design and development workflows, with plugin creation prompts, visual effect controls, code generation tools, and interactive UI components arranged across a creative workspace.](https://cdn.sanity.io/images/599r6htc/regionalized/ae0303b2ad7753600fee94eb32a43e026cc220ae-3264x1836.png?w=3264&h=1836&q=75&fit=max&auto=format)](https://www.figma.com/blog/config-2026-recap/)
+
+![](data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAUABQDASIAAhEBAxEB/8QAGQABAQADAQAAAAAAAAAAAAAAAAcCBQYI/8QAIxAAAQMEAgIDAQAAAAAAAAAAAQIDBAAFBhESIQcxEyJBYf/EABgBAAIDAAAAAAAAAAAAAAAAAAEDAAIE/8QAGREAAwADAAAAAAAAAAAAAAAAAAECAxIh/9oADAMBAAIRAxEAPwCwZ9dJdjxeTMtrQdl7CGwfQJOtmpxhF7yuLlUVi/7fizDx5BQISffVVzIhFcs0hqYttKVp+oWoDZ/K4DCQyu9fNLQGUMDSVODiOX4BupbrZDcUy4pso6m+6VmVg9ggj+UpxmPG3lPJLtNza5Ifmu/HHfKWkJUQlIHrqtFcswvlyitx5dwdU0jWgDr1SlEYnw7DFfJOTQrSmO3P5oQohJcHI6663SlKJQ//2Q==)![](https://cdn.sanity.io/images/599r6htc/regionalized/eb89dc47dfb3f174d1fe3f766496259b171b48b3-1800x1800.jpg?w=1800&h=1800&q=75&fit=max&auto=format)
+
+Nikolas Klein is a product designer turned product manager. He’s been working at Figma since 2018, and has always been focused on getting more people to explore their interactive ideas together. He is now a PM on Figma Make.
+
+## Create and collaborate with Figma
+
+[Get started for free](https://www.figma.com/signup)
