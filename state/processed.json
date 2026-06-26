@@ -31259,7 +31259,75 @@
     "https://thisweekinreact.com/newsletter/287": {
       "contentHash": "cb825a73101342cfbe542e9eb960db5d40504b540ef058eb3d1f14940a2be17d",
       "processedAt": "2026-06-25T01:07:30.669Z"
+    },
+    "https://engineering.fb.com/2026/06/25/security/privacy-aware-infrastructure-in-the-ai-native-era-an-asset-classification-case-study/": {
+      "contentHash": "c59d403e3bf671aa3ce2fa1b3553f2e8c72757b61ae15178f460d5400128114c",
+      "processedAt": "2026-06-26T01:03:00.601Z"
+    },
+    "https://emilycampbell.co/writing/layers-of-ai-experience": {
+      "contentHash": "045aa8d396dc3f8c1f61dfdb29455a041da6a5e6c699dd0799f5238e2e46a437",
+      "processedAt": "2026-06-26T01:03:02.146Z"
+    },
+    "https://jakub.kr/writing/less-is-more": {
+      "contentHash": "3f28691c95d35f5a64d11781c8c46e428d3ee05f670875d0008b15d155043b06",
+      "processedAt": "2026-06-26T01:03:02.803Z"
+    },
+    "https://www.lukew.com/ff/entry.asp?2155": {
+      "contentHash": "3476280e5dd03c7b651e1c35d29cd7d39e84a6b8d0fc5c58d22810ef6ce59a4a",
+      "processedAt": "2026-06-26T01:03:03.584Z"
+    },
+    "https://lastmuseum.com/": {
+      "contentHash": "12b283fe7bab8ab49dec219f5d6af3778b12a32cd37da61a9a1317ef74f89725",
+      "processedAt": "2026-06-26T01:03:08.554Z"
+    },
+    "https://tympanus.net/codrops/2026/06/25/shaping-stories-into-experience-the-work-of-kevin-lam/": {
+      "contentHash": "bcb8a6cc96710a0f6ef71fe7ae9217e772e08e1c27b731871f4ff1b97c3c1cda",
+      "processedAt": "2026-06-26T01:03:10.362Z"
+    },
+    "https://piccalil.li/blog/publishing-on-the-atmosphere-with-standardsite/?ref=main-rss-feed": {
+      "contentHash": "c42854a8b960a5e280f3dd5bf851771810f97261be70a1bb199be5b652e0d59b",
+      "processedAt": "2026-06-26T01:03:11.154Z"
+    },
+    "https://vercel.com/blog/ai-sdk-7": {
+      "contentHash": "34a62a60a4a22e25fe1f80d18ef394c58541f65b95fcf173eff6f8679638db6d",
+      "processedAt": "2026-06-26T01:03:12.668Z"
+    },
+    "https://vercel.com/blog/teaching-agents-product-design-at-vercel": {
+      "contentHash": "1bb600c1f41fe60ad59464c8303a4e71614a91134187d20dfebd012592f2c928",
+      "processedAt": "2026-06-26T01:03:13.554Z"
+    },
+    "https://vercel.com/changelog/ai-sdk-7": {
+      "contentHash": "bc5037bd7db185645683f47e1a7b9ebb1ebc91d8115c4ac76e8f4bf1903f89ff",
+      "processedAt": "2026-06-26T01:03:14.830Z"
+    },
+    "https://vercel.com/changelog/deepagents-and-opencode-harness-adapters": {
+      "contentHash": "fe35cfb7162dd1d49a9b148cf4254bdc8460a6a6af568aa21ff261191d1dad05",
+      "processedAt": "2026-06-26T01:03:15.461Z"
+    },
+    "https://vercel.com/changelog/authenticate-vercel-flags-with-openid-connect-by-default": {
+      "contentHash": "61a69174522118eed5d4375fda50ccd06cca051f00add65003ebe3cd5bce476b",
+      "processedAt": "2026-06-26T01:03:15.699Z"
+    },
+    "https://vercel.com/changelog/pro-teams-can-now-run-up-to-500-concurrent-builds": {
+      "contentHash": "e353d0e73efb60aa90115bb340b10b1c53384550b19b6642df3b13a2a5193a8e",
+      "processedAt": "2026-06-26T01:03:16.107Z"
+    },
+    "https://vercel.com/changelog/preserve-local-environment-variables-when-linking-with-the-vercel-cli": {
+      "contentHash": "e79859cb474e7152ba0d6d1ba0244812c6b11c18212112f3458a6d9547a0a4d5",
+      "processedAt": "2026-06-26T01:03:16.566Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-now-supports-rich-text-in-telegram": {
+      "contentHash": "5a55cf3094524c0b6eb00790516896da4ff142082993285ae385099589797613",
+      "processedAt": "2026-06-26T01:03:16.861Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/06/25/162902": {
+      "contentHash": "b58c5b66b484f9c0e58110842539e7e4a2a68d97911f5534b961dfb2138315d1",
+      "processedAt": "2026-06-26T01:03:17.860Z"
+    },
+    "https://uxmag.com/articles/beyond-vibe-coding-a-designers-case-for-directed-generation": {
+      "contentHash": "047e26dc2960a0333efd92a4fe1bfd3067667797ce545a8f8f40def4cc2b6169",
+      "processedAt": "2026-06-26T01:03:19.748Z"
     }
   },
-  "lastRun": "2026-06-25T01:07:30.669Z"
+  "lastRun": "2026-06-26T01:03:19.748Z"
 }
