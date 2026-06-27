@@ -31259,7 +31259,127 @@
     "https://thisweekinreact.com/newsletter/287": {
       "contentHash": "cb825a73101342cfbe542e9eb960db5d40504b540ef058eb3d1f14940a2be17d",
       "processedAt": "2026-06-25T01:07:30.669Z"
+    },
+    "https://engineering.fb.com/2026/06/25/security/privacy-aware-infrastructure-in-the-ai-native-era-an-asset-classification-case-study/": {
+      "contentHash": "c7d59e15d2f9ce46c7c4b7dcfaa5e09cd1931fa73cad2942f149755ef999a5a6",
+      "processedAt": "2026-06-27T00:59:15.091Z"
+    },
+    "https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5": {
+      "contentHash": "9ed16c15d1eda285c9b374cbf03b785ffe7d4f0135a3692690079a7eb0fbe07d",
+      "processedAt": "2026-06-27T00:59:20.906Z"
+    },
+    "https://airesistlist.org/": {
+      "contentHash": "8a0d2b1c3755a84ab67df72e8afc4cb85a56b5bf90bf65c5ddd098b055f87c01",
+      "processedAt": "2026-06-27T00:59:21.492Z"
+    },
+    "https://blog.murphytrueman.com/your-design-systems-newest-author-is-an-agent/": {
+      "contentHash": "9eb0176a3759b64f3e5857f34b103735043033483ec5788276d4e8dc88d227a8",
+      "processedAt": "2026-06-27T00:59:21.654Z"
+    },
+    "https://www.keybr.com/": {
+      "contentHash": "3b4bcb1cdf81590cb4bd6611ac58a82c6420ba66d6760c5a5c2c6c4b95cb7fe7",
+      "processedAt": "2026-06-27T00:59:26.256Z"
+    },
+    "https://gerireid.com/blog/organising-documentation-for-humans-and-ai/": {
+      "contentHash": "4b236be11c58c8d840803bafb4f1b069cee3b0dd3aec29dd674076ace69901fb",
+      "processedAt": "2026-06-27T00:59:26.475Z"
+    },
+    "https://emilycampbell.co/writing/layers-of-ai-experience": {
+      "contentHash": "045aa8d396dc3f8c1f61dfdb29455a041da6a5e6c699dd0799f5238e2e46a437",
+      "processedAt": "2026-06-27T00:59:28.099Z"
+    },
+    "https://jakub.kr/writing/less-is-more": {
+      "contentHash": "3f28691c95d35f5a64d11781c8c46e428d3ee05f670875d0008b15d155043b06",
+      "processedAt": "2026-06-27T00:59:28.744Z"
+    },
+    "https://www.lukew.com/ff/entry.asp?2155": {
+      "contentHash": "3476280e5dd03c7b651e1c35d29cd7d39e84a6b8d0fc5c58d22810ef6ce59a4a",
+      "processedAt": "2026-06-27T00:59:29.437Z"
+    },
+    "https://lastmuseum.com/": {
+      "contentHash": "12b283fe7bab8ab49dec219f5d6af3778b12a32cd37da61a9a1317ef74f89725",
+      "processedAt": "2026-06-27T00:59:34.134Z"
+    },
+    "https://tympanus.net/codrops/2026/06/26/engineering-the-web-experience-behind-shopifys-spring-26-edition-everywhere/": {
+      "contentHash": "c6409fe7fe6c53f5a1cd58e6f1ff6cec8004d4c592d351ffc73d0abcf2256f92",
+      "processedAt": "2026-06-27T00:59:35.473Z"
+    },
+    "https://tympanus.net/codrops/2026/06/25/shaping-stories-into-experience-the-work-of-kevin-lam/": {
+      "contentHash": "bcb8a6cc96710a0f6ef71fe7ae9217e772e08e1c27b731871f4ff1b97c3c1cda",
+      "processedAt": "2026-06-27T00:59:36.663Z"
+    },
+    "https://piccalil.li/the-index/188/?ref=main-rss-feed": {
+      "contentHash": "8b1becba97d58c59ea820dc95d5024207b6e0671ff4b84ffec9e1d56d079ed19",
+      "processedAt": "2026-06-27T00:59:36.990Z"
+    },
+    "https://piccalil.li/blog/publishing-on-the-atmosphere-with-standardsite/?ref=main-rss-feed": {
+      "contentHash": "c42854a8b960a5e280f3dd5bf851771810f97261be70a1bb199be5b652e0d59b",
+      "processedAt": "2026-06-27T00:59:37.971Z"
+    },
+    "https://vercel.com/changelog/query-web-analytics-from-the-vercel-cli": {
+      "contentHash": "0a6ba096a484ee11ee79333d319924d0a1f72ad66d5199dd3345c5f97fb923f1",
+      "processedAt": "2026-06-27T00:59:38.551Z"
+    },
+    "https://vercel.com/changelog/eve-agent-observability": {
+      "contentHash": "22c882cc2ecbbd5ea23f2eafefeba178fda428dd7f44391ccc472a687f22bd40",
+      "processedAt": "2026-06-27T00:59:38.917Z"
+    },
+    "https://vercel.com/blog/ai-sdk-7": {
+      "contentHash": "34a62a60a4a22e25fe1f80d18ef394c58541f65b95fcf173eff6f8679638db6d",
+      "processedAt": "2026-06-27T00:59:40.483Z"
+    },
+    "https://vercel.com/blog/teaching-agents-product-design-at-vercel": {
+      "contentHash": "1bb600c1f41fe60ad59464c8303a4e71614a91134187d20dfebd012592f2c928",
+      "processedAt": "2026-06-27T00:59:41.447Z"
+    },
+    "https://vercel.com/changelog/ai-sdk-7": {
+      "contentHash": "bc5037bd7db185645683f47e1a7b9ebb1ebc91d8115c4ac76e8f4bf1903f89ff",
+      "processedAt": "2026-06-27T00:59:42.723Z"
+    },
+    "https://vercel.com/changelog/deepagents-and-opencode-harness-adapters": {
+      "contentHash": "fe35cfb7162dd1d49a9b148cf4254bdc8460a6a6af568aa21ff261191d1dad05",
+      "processedAt": "2026-06-27T00:59:43.122Z"
+    },
+    "https://vercel.com/changelog/authenticate-vercel-flags-with-openid-connect-by-default": {
+      "contentHash": "61a69174522118eed5d4375fda50ccd06cca051f00add65003ebe3cd5bce476b",
+      "processedAt": "2026-06-27T00:59:43.506Z"
+    },
+    "https://vercel.com/changelog/pro-teams-can-now-run-up-to-500-concurrent-builds": {
+      "contentHash": "e353d0e73efb60aa90115bb340b10b1c53384550b19b6642df3b13a2a5193a8e",
+      "processedAt": "2026-06-27T00:59:43.946Z"
+    },
+    "https://vercel.com/changelog/preserve-local-environment-variables-when-linking-with-the-vercel-cli": {
+      "contentHash": "e79859cb474e7152ba0d6d1ba0244812c6b11c18212112f3458a6d9547a0a4d5",
+      "processedAt": "2026-06-27T00:59:44.614Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-now-supports-rich-text-in-telegram": {
+      "contentHash": "5a55cf3094524c0b6eb00790516896da4ff142082993285ae385099589797613",
+      "processedAt": "2026-06-27T00:59:44.986Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/06/26/142109": {
+      "contentHash": "c63e08802f40c512e9dbd99babc745eecf4366af902d54707bbb83f47d0ee682",
+      "processedAt": "2026-06-27T00:59:45.781Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/06/25/162902": {
+      "contentHash": "b58c5b66b484f9c0e58110842539e7e4a2a68d97911f5534b961dfb2138315d1",
+      "processedAt": "2026-06-27T00:59:46.952Z"
+    },
+    "https://www.nngroup.com/articles/survey-bots/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "4eb91f4bc4d63fe809a0f5ef8c1543613160947e438ef042be0811a3783ae707",
+      "processedAt": "2026-06-27T00:59:48.223Z"
+    },
+    "https://www.nngroup.com/articles/establishing-baselines/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "contentHash": "2c787959b9ee47a82be7685900be30f7e0b39246881b6967aad454ee93a02fbe",
+      "processedAt": "2026-06-27T00:59:49.112Z"
+    },
+    "https://uxmag.com/articles/beyond-vibe-coding-a-designers-case-for-directed-generation": {
+      "contentHash": "047e26dc2960a0333efd92a4fe1bfd3067667797ce545a8f8f40def4cc2b6169",
+      "processedAt": "2026-06-27T00:59:49.642Z"
+    },
+    "https://react.statuscode.com/issues/480": {
+      "contentHash": "477626c6c6821fd8e541097a80db16a0b22e858834d9062a7a229ec1db127f31",
+      "processedAt": "2026-06-27T00:59:50.162Z"
     }
   },
-  "lastRun": "2026-06-25T01:07:30.669Z"
+  "lastRun": "2026-06-27T00:59:50.162Z"
 }
