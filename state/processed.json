@@ -31379,7 +31379,15 @@
     "https://react.statuscode.com/issues/480": {
       "contentHash": "477626c6c6821fd8e541097a80db16a0b22e858834d9062a7a229ec1db127f31",
       "processedAt": "2026-06-27T00:59:50.162Z"
+    },
+    "https://a11yweekly.com/issue/506/": {
+      "contentHash": "d7d2352add06f3545b2b267ed7337c62a96b5dce2834bb5efbd9b4f295297611",
+      "processedAt": "2026-06-29T01:04:13.145Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-june-28-2026/": {
+      "contentHash": "3e527587efad4dff01602f83ef3076699e10585a149c1b050c37c3c05bf40d67",
+      "processedAt": "2026-06-29T01:04:14.146Z"
     }
   },
-  "lastRun": "2026-06-28T01:03:01.962Z"
+  "lastRun": "2026-06-29T01:04:14.146Z"
 }
