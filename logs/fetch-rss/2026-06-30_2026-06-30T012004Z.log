@@ -1,0 +1,58 @@
+articles_dir=2026-06-30
+exit_code=0
+timestamp_utc=2026-06-30T01:20:04Z
+
+---- issue lines ----
+10:Failed to fetch feed Adrian Roselli after 3 attempts: Request timed out after 15000ms
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-30/flashstage3d3d.md
+📥 Processing: HTML5 CanvasとCSS3のスマホブラウザでの描画性能
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-30/html5-canvascss3.md
+📥 Processing: GoogleのDart言語を使ってHTML Canvasでリッチコンテンツを作ろう！ Flashライクで効率的な開発を実現するフレームワークStageXLとは
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-30/googledarthtml-canvas-flashstagexl.md
+📥 Processing: HTML5で複雑なアニメーションを実現する最適な方法とは？ CreateJSを使って容量もパフォーマンスも最適化しよう
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-30/html5-createjs-1.md
+📥 Processing: CreateJS勉強会（第3回）発表資料「CreateJSで作るモバイル向けビジュアル表現」
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-30/createjs3createjs.md
+📥 Processing: 最速の2D描画JavaScriptライブラリは!? 描画性能の比較検証
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-30/2djavascript.md
+📥 Processing: HTML5デモ「日本全国花粉飛散マップ」を作って分かったCreateJSとTypeScriptでの効率的な開発手法
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-30/html5createjstypescript.md
+📥 Processing: CreateJS勉強会（第2回）発表資料「効率的なCreateJSコンテンツ開発 〜TypeScript/Haxeを使ったActionScriptライクな開発環境〜」
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-30/createjs2createjs-typescripthaxeactionscript.md
+📥 Processing: CreateJS勉強会（第1回）発表資料「Toolkit for CreateJSで作るリッチコンテンツ」
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-30/createjs1toolkit-for-createjs.md
+📥 Processing: CreateJSを使ってインタラクティブなHTML5デモを作ってみた
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-30/createjshtml5.md
+📥 Processing: モバイルアプリ開発者必見！初期型から最新のAndroid端末まで、Adobe AIR製アプリのパフォーマンス徹底検証
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-30/androidadobe-air.md
+📥 Processing: The Goldilocks customizable select height
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-30/the-goldilocks-customizable-select-height.md
+📥 Processing: Query Speed Insights from the Vercel CLI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-30/query-speed-insights-from-the-vercel-cli.md
+📥 Processing: Build realtime voice agents on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-30/build-realtime-voice-agents-on-ai-gateway.md
+📥 Processing: Sandboxes now expire based on last use
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-30/sandboxes-now-expire-based-on-last-use.md
+📥 Processing: xAI Grok audio models now available on Vercel AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-30/xai-grok-audio-models-now-available-on-vercel-ai-gateway.md
+📥 Processing: Realtime voice, speech, and transcription now supported on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-30/realtime-voice-speech-and-transcription-now-supported-on-ai-gateway.md
+📥 Processing: Start Anywhere, a magazine by Figma
+Image too large, skipping: https://cdn.sanity.io/images/599r6htc/regionalized/a4f25e1bf0599a248c3a1bd593c8817a2540e7de-2615x1061.png?w=2615&h=1061&q=75&fit=max&auto=format
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-30/start-anywhere-a-magazine-by-figma.md
+📥 Processing: Meet the artists behind Figma’s Season 5 collection
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-30/meet-the-artists-behind-figmas-season-5-collection.md
+📥 Processing: 課金基盤のパフォーマンス改善に向けた取り組み
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-30/smarthr-06-30-100000.md
+📥 Processing: Rethinking Figma in an AI world
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-30/rethinking-figma-in-an-ai-world.md
+📥 Processing: Pixels of the Week – June 28, 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-06-30/pixels-of-the-week-june-28-2026.md
+
+📊 Summary:
+   ✅ Success: 497
+   ❌ Errors: 0
+🏁 Done!
