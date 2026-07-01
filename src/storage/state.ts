@@ -1,5 +1,6 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import { join } from 'node:path'
+import { normalizeUrl } from '../utils/url'
 
 interface ProcessedArticle {
   contentHash: string
@@ -16,6 +17,20 @@ const DEFAULT_STATE: State = {
   lastRun: null,
 }
 
+function normalizeProcessedArticles(
+  articles: Record<string, ProcessedArticle>,
+): Record<string, ProcessedArticle> {
+  const result: Record<string, ProcessedArticle> = {}
+  for (const [key, value] of Object.entries(articles)) {
+    const normalizedKey = normalizeUrl(key)
+    const existing = result[normalizedKey]
+    if (!existing || value.processedAt > existing.processedAt) {
+      result[normalizedKey] = value
+    }
+  }
+  return result
+}
+
 export class StateManager {
   private state: State = { ...DEFAULT_STATE }
   private readonly filePath: string
@@ -27,7 +42,11 @@ export class StateManager {
   async load(): Promise<void> {
     try {
       const content = await readFile(this.filePath, 'utf-8')
-      this.state = JSON.parse(content)
+      const parsed: State = JSON.parse(content)
+      this.state = {
+        ...parsed,
+        processedArticles: normalizeProcessedArticles(parsed.processedArticles),
+      }
     } catch (error) {
       if ((error as NodeJS.ErrnoException).code === 'ENOENT') {
         this.state = { ...DEFAULT_STATE }
@@ -49,11 +68,13 @@ export class StateManager {
   }
 
   isProcessed(articleId: string): boolean {
-    return articleId in this.state.processedArticles
+    return normalizeUrl(articleId) in this.state.processedArticles
   }
 
   getContentHash(articleId: string): string | null {
-    return this.state.processedArticles[articleId]?.contentHash ?? null
+    return (
+      this.state.processedArticles[normalizeUrl(articleId)]?.contentHash ?? null
+    )
   }
 
   hasContentChanged(articleId: string, newHash: string): boolean {
@@ -63,7 +84,7 @@ export class StateManager {
   }
 
   markAsProcessed(articleId: string, contentHash: string): void {
-    this.state.processedArticles[articleId] = {
+    this.state.processedArticles[normalizeUrl(articleId)] = {
       contentHash,
       processedAt: new Date().toISOString(),
     }
