@@ -27,7 +27,7 @@ description: UXエンジニア向けニュースレターを作成するコマ�
 3. **生成済みチェック**: 対象日付のニュースレターが既に存在するか確認
    ```bash
    # 対象日付（例: 2026-01-20）に対応するニュースレターを検索
-   ls newsletters/YYYY-MM-DD-*.md 2>/dev/null
+   ls newsletters/${TARGET_DATE}-*.md 2>/dev/null
    ```
 
 4. **生成済みの場合**: AskUserQuestion でユーザーに確認を求める
@@ -139,13 +139,12 @@ description: UXエンジニア向けニュースレターを作成するコマ�
 
 生成したニュースレターを保存：
 
-- **出力先**: `newsletters/YYYY-MM-DD-HHmmss.md`
-- YYYY-MM-DD: 現在の日付
-- HHmmss: 現在時刻（重複防止）
+- **出力先**: `newsletters/${TARGET_DATE}-HHmmss.md`
+- 日付は**実行日ではなく `TARGET_DATE`（対象 `articles/` の日付）**。日跨ぎ実行でも poller の重複チェックと整合させるため
+- HHmmss: 同日再生成時の衝突防止
 
 ```bash
-# 現在日時を取得してファイル名を生成
-date "+%Y-%m-%d-%H%M%S"
+NEWSLETTER_FILE="newsletters/${TARGET_DATE}-$(date "+%H%M%S").md"
 ```
 
 ### 6. 完了報告
@@ -160,12 +159,12 @@ date "+%Y-%m-%d-%H%M%S"
 
 1. **ステージング**: 作成したニュースレターファイルをステージング
    ```bash
-   git add newsletters/YYYY-MM-DD-HHmmss.md
+   git add "$NEWSLETTER_FILE"
    ```
 
 2. **コミット**: コミットメッセージを作成
    ```bash
-   git commit -m "docs: Add newsletter for YYYY-MM-DD"
+   git commit -m "docs: Add newsletter for ${TARGET_DATE}"
    ```
 
 3. **プッシュ**: リモートにプッシュ

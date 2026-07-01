@@ -38,6 +38,11 @@ notify() {
   fi
 }
 
+# 対象日付のニュースレター commit があれば subject を返す（無ければ空）
+find_newsletter_commit() {
+  git -C "$PROJECT_DIR" log --grep="^docs: Add newsletter for $1\$" --format=%s -1 2>/dev/null || true
+}
+
 # pendingファイルからニュースレター作成を開始/リトライ
 launch_newsletter() {
   local target_date="$1"
@@ -105,6 +110,17 @@ if [ -f "$PENDING_FILE" ]; then
     exit 0
   fi
 
+  # Fallback: LLMが実行日ベースのファイル名で作ってしまった場合に備え、commit subjectで成功判定
+  COMMITTED=$(find_newsletter_commit "$PENDING_DATE")
+  if [ -n "$COMMITTED" ]; then
+    log "Newsletter commit found for $PENDING_DATE: $COMMITTED"
+    echo "$PENDING_MERGED" > "$LAST_MERGED_FILE"
+    rm "$PENDING_FILE"
+    notify "Newsletter ✅" "${PENDING_DATE} のニュースレター作成完了（commit fallback）"
+    log "=== Polling finished (success by commit fallback) ==="
+    exit 0
+  fi
+
   # リトライ上限チェック
   if [ "$RETRY_COUNT" -ge "$MAX_RETRIES" ]; then
     log "ERROR: Max retries ($MAX_RETRIES) exceeded for $PENDING_DATE"
@@ -169,6 +185,15 @@ if [[ "$NEW_MERGED" > "$LAST_MERGED" ]]; then
     log "Newsletter for $ARTICLES_DATE already exists: $EXISTING_NEWSLETTER"
     echo "$NEW_MERGED" > "$LAST_MERGED_FILE"
     log "=== Polling finished ==="
+    exit 0
+  fi
+
+  # Fallback: 過去に実行日ベースのファイル名で作られた成功commitがあれば作成済み扱い
+  COMMITTED=$(find_newsletter_commit "$ARTICLES_DATE")
+  if [ -n "$COMMITTED" ]; then
+    log "Newsletter commit already exists for $ARTICLES_DATE: $COMMITTED"
+    echo "$NEW_MERGED" > "$LAST_MERGED_FILE"
+    log "=== Polling finished (already committed) ==="
     exit 0
   fi
 

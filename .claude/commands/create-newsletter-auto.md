@@ -103,17 +103,19 @@ description: ニュースレターを非対話で自動作成し、コミット�
 
 ### 5. ファイル出力
 
-- **出力先**: `newsletters/YYYY-MM-DD-HHmmss.md`
+- **出力先**: `newsletters/${TARGET_DATE}-HHmmss.md`
+- 日付は**実行日ではなく `TARGET_DATE`（対象 `articles/` の日付）**。日跨ぎ実行でも poller の重複チェックと整合させるため
+- `HHmmss`: 同日再生成時の衝突防止
 
 ```bash
-date "+%Y-%m-%d-%H%M%S"
+NEWSLETTER_FILE="newsletters/${TARGET_DATE}-$(date "+%H%M%S").md"
 ```
 
 ### 6. コミット
 
 ```bash
-git add newsletters/YYYY-MM-DD-HHmmss.md
-git commit -m "docs: Add newsletter for YYYY-MM-DD"
+git add "$NEWSLETTER_FILE"
+git commit -m "docs: Add newsletter for ${TARGET_DATE}"
 ```
 
 ### 7. 完了報告
