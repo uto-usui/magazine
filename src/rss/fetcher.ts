@@ -2,6 +2,7 @@ import Parser from 'rss-parser'
 import { chromium, type Browser } from 'playwright'
 import type { Feed } from '../config/schema'
 import { isFeedEnabled } from './feed-filter'
+import { normalizeUrl } from '../utils/url'
 
 export interface FeedItem {
   title: string
@@ -192,7 +193,7 @@ export class RssFetcher {
   private mapItems(items: Parser.Item[], feed: Feed): FeedItem[] {
     return items.map((item) => ({
       title: item.title || 'Untitled',
-      link: item.link || '',
+      link: normalizeUrl(item.link || ''),
       pubDate: item.pubDate || item.isoDate || null,
       author: this.extractAuthor(item),
       content: this.extractContent(item),
