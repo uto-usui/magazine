@@ -1,0 +1,382 @@
+---
+title: "The Goldilocks customizable select height"
+source: "https://jakearchibald.com/2026/goldilocks-select-height/"
+publishedDate: "2026-06-29"
+category: "web-standards"
+feedName: "Jake Archibald"
+---
+
+I recently gave a talk on customizable (as in fully-stylable) `<select>`, and as I was building demos I realised there's a sizing 'pattern' that's almost always the-one-you-want, but it took me a long time to figure out how to do it in CSS.
+
+Well, I say I figured it out. I actually failed, and asked a bunch of people for help, who (thankfully, for my ego) also struggled. Eventually, [Ian Kilpatrick](https://bsky.app/profile/bfgeek.bsky.social) pointed me at the feature I was missing…
+
+TL;DR: If you just want the solution, [skip to the end](#putting-it-all-together).
+
+Also, if you want a general introduction to customizable `<select>`, [MDN has you covered](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select).
+
+## [Default sizing](#default-sizing)
+
+Here's a mock-up of a custom select:
+
+Markup Languages
+
+HTML
+
+CSS
+
+XML
+
+SVG
+
+Markdown
+
+Scripting Languages
+
+JavaScript
+
+Python
+
+Ruby
+
+PHP
+
+Perl
+
+Lua
+
+Shell
+
+PowerShell
+
+Transpiled Languages
+
+TypeScript
+
+CoffeeScript
+
+Babel
+
+Elm
+
+ReasonML
+
+ReScript
+
+Haxe
+
+Dart
+
+Compiled Systems Languages
+
+C
+
+C++
+
+C#
+
+Rust
+
+Go
+
+Zig
+
+D
+
+Vala
+
+JVM Languages
+
+Java
+
+Scala
+
+Kotlin
+
+Clojure
+
+Groovy
+
+Functional Languages
+
+Haskell
+
+OCaml
+
+F#
+
+Elixir
+
+PureScript
+
+Prolog
+
+Web Frameworks & Libraries
+
+React
+
+Vue
+
+Svelte
+
+Template Languages
+
+EJS
+
+Jade/Pug
+
+Haml
+
+Liquid
+
+Mustache
+
+Nunjucks
+
+Twig
+
+Slim
+
+Smarty
+
+Jinja
+
+CSS Preprocessors
+
+Sass/SCSS
+
+Less
+
+Stylus
+
+Config Files
+
+JSON
+
+YAML
+
+TOML
+
+CSV
+
+TSConfig
+
+Vite
+
+Webpack
+
+Rollup
+
+Grunt
+
+Gulp
+
+Gradle
+
+Maven
+
+SBT
+
+Bazel
+
+ESLint
+
+Stylelint
+
+Bower
+
+NPM
+
+Yarn
+
+Docker
+
+Karma
+
+Database & Query
+
+SQL
+
+GraphQL
+
+Prisma
+
+Other Languages
+
+Julia
+
+R
+
+Crystal
+
+Nim
+
+Swift
+
+WebAssembly
+
+LaTeX
+
+The best Languages
+
+HTML
+
+CSS
+
+SVG
+
+It isn't actually a custom select. Firefox and Safari are actively working on custom select, but haven't released it yet, so to make the demos work in more browsers, and to make it easier for you to inspect with DevTools, I've built the demos from [popovers](https://developer.mozilla.org/en-US/docs/Web/API/Popover_API), and [CSS anchor positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Anchor_positioning), which are the same primitives custom select uses under the hood.
+
+You can drag it around and see how it reacts to being in other parts of the viewport, and how it reacts to scrolling. If you can't be bothered with all that, here's a video:
+
+ 
+
+Here are the default UA styles that impact the picker's position and height:
+
+```
+::picker(select) {    margin: 0;    inset: auto;    min-inline-size: anchor-size(self-inline);    max-block-size: stretch;    position-area: self-block-end span-self-inline-end;    position-try-order: most-block-size;    position-try-fallbacks:        self-block-start span-self-inline-end,        self-block-end span-self-inline-start,        self-block-start span-self-inline-start;    /* Not part of the spec, but it's something Chrome does, so I've included it */    min-block-size: 1lh;}
+```
+
+As a result:
+
+-   `min-inline-size` means the picker will always be at least as wide as the `<select>` button (or toggle button in this case).
+-   `max-block-size` means the picker will not overflow the viewport. Its `stretch` size is the full anchor positioning cell (the area from the edge of the `<select>` button to the edge of the viewport).
+-   `position-area` defines the default anchor positioning cell to use, which is below the `<select>` button, and from its left edge to the right edge of the viewport.
+-   `position-try-fallbacks` defines fallbacks for the anchor positioning cell, so it can appear above the `<select>` button, and/or clamp to the button's right edge.
+-   `position-try-order` means the picker will initially appear in the anchor positioning cell that offers it the `most-block-size`, which means vertical space in this writing-mode. This doesn't currently work in Firefox ([ticket](https://bugzilla.mozilla.org/show_bug.cgi?id=2050547)) or Safari ([ticket](https://bugs.webkit.org/show_bug.cgi?id=317916)), as it [wasn't clear in the spec](https://github.com/w3c/csswg-drafts/issues/13268#issuecomment-4801719311).
+
+This is a reasonable set of defaults, but I think there are a number of things we can do to improve the UX.
+
+## [Prevent the picker from hitting the viewport edge](#prevent-the-picker-from-hitting-the-viewport-edge)
+
+Right now the picker extends to the edge of the viewport, making it hard to tell if it's actually stopping there, or if it's overflowing the viewport. The only visual clue is the small border & rounded corners.
+
+ 
+
+Instead, I'll add a small margin:
+
+```
+.custom-select::picker(select) {    margin-block-end: 1em;}
+```
+
+Try it out:
+
+This isn't quite right, because:
+
+-   In Firefox, it simply isn't working.
+-   In Chrome & Safari, the margin is on the bottom, which looks bad when the picker flips above the button.
+
+ 
+
+### [Fixing Firefox](#fixing-firefox)
+
+Remember when I said pickers have `max-block-size: stretch`? Well, Firefox doesn't support that, so I threw in `max-block-size: 100%` as a fallback. However, with percent heights, margins don't take away from the height, so the picker still hits the viewport edge, and the margin is outside it.
+
+We can work around it:
+
+```
+.custom-select::picker(select) {    --viewport-margin: 1em;    max-block-size: calc(100% - var(--viewport-margin));    @supports (max-block-size: stretch) {        max-block-size: stretch;        margin-block-end: var(--viewport-margin);    }}
+```
+
+Now, for Firefox, we're deducting the margin from the 100% `max-block-size`. For browsers that support `stretch`, we stick with the previous solution.
+
+And here's the result:
+
+ 
+
+It even does the right thing when the picker flips above the button! So… why am I not using this solution for the other browsers? Well, there's a slight imperfection with how the percent-based solution behaves. See if you can spot it - I'll come back to it later.
+
+### [Fixing Chrome & Safari](#fixing-chrome--safari)
+
+We need to fix the margin when the picker flips above the button. Now, there's a feature called [anchored container queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Anchor_positioning/Anchored_container_queries) which lets us apply different styles when the anchored item flips position, but it isn't supported in Safari. Thankfully, there's an even better solution that Safari _does_ support. Watch this…
+
+```
+.custom-select::picker(select) {    --viewport-margin: 1em;    max-block-size: calc(100% - var(--viewport-margin));    position-try-fallbacks:         flip-block,        flip-inline,        flip-block flip-inline;    @supports (max-block-size: stretch) {        max-block-size: stretch;        margin-block-end: var(--viewport-margin);    }}
+```
+
+This replaces the UA default `position-try-fallbacks`, which were specific about the positioning, with these `flip-*` values that achieve the same thing. However, the `flip-*` values come with _dark magic_.
+
+When the flips take effect, it tries to flip other styles too. This works with some properties, but not others. [Here's the spec](https://drafts.csswg.org/css-anchor-position-1/#execute-a-try-tactic), good luck!
+
+Margins are among the things it does work for, so when the picker flips above the button, our `margin-block-end` is treated as a `margin-block-start`. Spooky, yet convenient!
+
+Here's the result:
+
+ 
+
+[The CSS Working Group has resolved to change the `position-try-fallbacks` defaults](https://github.com/w3c/csswg-drafts/issues/13541#issuecomment-4732677022) for select pickers to something similar to the above, so the above override won't be needed in future.
+
+Anyway, that's that problem sorted, but we still have work to do.
+
+## [Prevent the picker from getting too small](#prevent-the-picker-from-getting-too-small)
+
+If you open the picker and drag it to the viewport edge, it gets really really small - unusably small, before it flips position. Chrome sets a default `min-block-size` of `1lh`, so let's just make that bigger!
+
+```
+.custom-select::picker(select) {    min-block-size: 12em;}
+```
+
+But no, that creates another issue:
+
+Toggle small picker
+
+When the picker has only a few options, its full size is smaller than our minimum, so it looks kinda bad.
+
+ 
+
+What we want is for our minimum size to be like `min(fit-content, 12em)`, but `min()` doesn't allow intrinsic sizes like `fit-content`. Enter [`calc-size()`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/calc-size) - this was the bit [Ian Kilpatrick unlocked for me](https://github.com/w3c/csswg-drafts/issues/13617#issuecomment-4025033386):
+
+```
+.custom-select::picker(select) {    min-block-size: calc-size(fit-content, min(size, 12em));}
+```
+
+`calc-size()` lets us state an intrinsic size in the first argument, then perform a calculation with it in the second argument, where the `size` keyword represents the intrinsic size. Yeah, it's a little weird, but it works! Well, it works in Chrome. It isn't yet supported in Firefox ([ticket](https://bugzilla.mozilla.org/show_bug.cgi?id=calc-size)) or Safari ([ticket](https://bugs.webkit.org/show_bug.cgi?id=274177)), so we can use a bit of a hack in the meantime:
+
+```
+.custom-select::picker(select) {    --min-size: 12em;    min-block-size: var(--min-size);    /* The calc-size way… */    @supports (min-block-size: calc-size(fit-content, min(size, 1px))) {        min-block-size: calc-size(fit-content, min(size, var(--min-size)));    }    /* The hacky fallback… */    @supports not (min-block-size: calc-size(fit-content, min(size, 1px))) {        &:not(            :has(:where(option:nth-of-type(4))),            :has(:where(optgroup:nth-of-type(2)))        ) {            min-block-size: 0;            max-block-size: fit-content;        }    }}
+```
+
+Ok, that's a lot. Here's what it's doing:
+
+1.  Set a minimum block size of `12em` from `--min-size`.
+2.  If `calc-size()` is supported, use it as before.
+3.  Otherwise, if the picker has fewer than 4 options and fewer than 2 optgroups, remove the minimum block size, and prevent it from shrinking when it hits the edge of the viewport.
+
+And here's the result:
+
+Toggle small picker
+
+ 
+
+## [Prevent the picker from getting too big](#prevent-the-picker-from-getting-too-big)
+
+The last issue to tackle is preventing the picker from getting too _big_. Right now, it will always grow to fill the anchor positioning cell, which can end up feeling too tall. To solve this, we set a maximum.
+
+However, we already used `max-block-size` to stop the picker hitting the edge of the viewport, so we need to use `min()` to allow for two max-sizes. One of the max sizes is `max-block-size: stretch`, so we need to use `calc-size()` again, which allows the intrinsic `stretch` size to be used in the `min()` calculation.
+
+```
+.custom-select::picker(select) {    --max-size: 30em;     --viewport-margin: 1em;    max-block-size: calc(100% - var(--viewport-margin));     max-block-size: min(calc(100% - var(--viewport-margin)), var(--max-size));     position-try-fallbacks:        flip-block,        flip-inline,        flip-block flip-inline;    @supports (max-block-size: stretch) {     @supports (max-block-size: calc-size(stretch, min(size, 1px))) {         max-block-size: stretch;         max-block-size: calc-size(stretch, min(size, var(--max-size)));         margin-block-end: var(--viewport-margin);    }}
+```
+
+And here's the final result:
+
+Toggle small picker
+
+ 
+
+Because we're using `calc-size()` for the fix, which isn't supported in Safari, Safari is now using the `100%` fallback as well as Firefox, which is _almost perfect_, but not quite. Have you spotted the imperfection? Here's the issue:
+
+ 
+
+Once we get to the minimum height, the picker will move towards the edge of the viewport before flipping, whereas in Chrome which uses `calc-size()` + `stretch`, it flips as soon as it hits the minimum height. It's a minor thing, but it'll be nicer when all browsers support `calc-size()`.
+
+## [Putting it all together](#putting-it-all-together)
+
+Here's the full CSS for the picker, which adds the margin to the viewport, applies a minimum size, and a maximum size, all in one place to copy-paste and for LLMs to steal:
+
+```
+.custom-select::picker(select) {    --viewport-margin: 1em;    --min-size: 12em;    --max-size: 30em;    min-block-size: var(--min-size);    max-block-size: min(calc(100% - var(--viewport-margin)), var(--max-size));    position-try-fallbacks:        flip-block,        flip-inline,        flip-block flip-inline;    @supports (min-block-size: calc-size(fit-content, min(size, 1px))) {        min-block-size: calc-size(fit-content, min(size, var(--min-size)));        max-block-size: calc-size(stretch, min(size, var(--max-size)));        margin-block-end: var(--viewport-margin);    }    @supports not (min-block-size: calc-size(fit-content, min(size, 1px))) {        &:not(            :has(:where(option:nth-of-type(4))),            :has(:where(optgroup:nth-of-type(2)))        ) {            min-block-size: 0;            max-block-size: fit-content;        }    }}
+```
+
+And one last time:
+
+Toggle small picker

@@ -31343,7 +31343,79 @@
     "https://react.statuscode.com/issues/480": {
       "contentHash": "477626c6c6821fd8e541097a80db16a0b22e858834d9062a7a229ec1db127f31",
       "processedAt": "2026-06-27T00:59:50.162Z"
+    },
+    "https://vercel.com/blog/realtime-voice-agents-on-ai-gateway": {
+      "contentHash": "a82f98e3fa2076c3aee73ec61ae3259ce7cb8948692d44beab80b2122312faf6",
+      "processedAt": "2026-06-30T01:18:18.176Z"
+    },
+    "https://www.bram.us/2026/06/21/do-websites-need-to-function-exactly-the-same-on-every-platform/": {
+      "contentHash": "4fb3324b8aa278eb3f1501d6d50e23c86638c1bc0e077e16ad9fc752ec8c222c",
+      "processedAt": "2026-06-30T01:01:15.238Z"
+    },
+    "https://tympanus.net/codrops/2026/06/29/inside-bisous-designing-an-editorial-experience-for-cinematic-cgi/": {
+      "contentHash": "ebaaf025e047b047283ce2dd76c3e4f4ca3eee21f97192edf1acc2f51b828cf7",
+      "processedAt": "2026-06-30T01:01:17.088Z"
+    },
+    "https://www.figma.com/blog/how-season-5-merch-came-to-life/": {
+      "contentHash": "b32e2607f8d3cbbccd2b2d412738092058390d71640787ea0f0effe19375a975",
+      "processedAt": "2026-06-30T01:20:01.954Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-june-28-2026/": {
+      "contentHash": "3e527587efad4dff01602f83ef3076699e10585a149c1b050c37c3c05bf40d67",
+      "processedAt": "2026-06-30T01:20:04.101Z"
+    },
+    "https://vercel.com/changelog/query-speed-insights-from-the-vercel-cli": {
+      "contentHash": "52a9f8b6a87f4e38946bb97c0ca66c1b6c1383b8bbcd1573204d037458a87373",
+      "processedAt": "2026-06-30T01:18:17.033Z"
+    },
+    "https://vercel.com/changelog/realtime-voice-speech-and-transcription-now-supported-on-ai-gateway": {
+      "contentHash": "6d2747734e10e89c68fa59e2063fc1cc36e43c26ebe9334d5c4fa4e320e042ea",
+      "processedAt": "2026-06-30T01:18:19.644Z"
+    },
+    "https://newsletter.uxdesign.cc/p/rethinking-figma-in-an-ai-world": {
+      "contentHash": "1473f2470e7d8b9746645788822330d63cc52f2f47a0672d2b866b01547f897e",
+      "processedAt": "2026-06-30T01:20:03.199Z"
+    },
+    "https://vercel.com/changelog/sandboxes-now-expire-based-on-last-use": {
+      "contentHash": "e22c507d92b88c6cfb66debc7e70e83d06c9888a9cc5cd5c7bcedf7430cd18db",
+      "processedAt": "2026-06-30T01:18:18.476Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/06/30/100000": {
+      "contentHash": "8f32312c6fb00ea57292b3b8f2a3538d87e8155153a8fe8bf61f6a83eb4944ea",
+      "processedAt": "2026-06-30T01:20:02.792Z"
+    },
+    "https://renderghost.leaflet.pub/3mnxjmjjyyc2y": {
+      "contentHash": "c4a7c98283e103b1b65169b248ed78b1abcfcf30e8129d1b67504c127ca39b45",
+      "processedAt": "2026-06-30T01:01:13.378Z"
+    },
+    "https://www.figma.com/blog/start-anywhere/": {
+      "contentHash": "8db69a11c85875c89fda7238bf650b41d9d550e64316b13e50cfaeb9de911cf2",
+      "processedAt": "2026-06-30T01:19:16.289Z"
+    },
+    "https://henryach.com/blog/tsandcs/": {
+      "contentHash": "6a52cb7a1791d0372e74f7a48f9cb567dd9fa008188c91de2e181e04d825c241",
+      "processedAt": "2026-06-30T01:01:14.220Z"
+    },
+    "https://a11yweekly.com/issue/506/": {
+      "contentHash": "d7d2352add06f3545b2b267ed7337c62a96b5dce2834bb5efbd9b4f295297611",
+      "processedAt": "2026-06-30T01:01:10.653Z"
+    },
+    "https://jakearchibald.com/2026/goldilocks-select-height/": {
+      "contentHash": "ce168c65acd2b66f4d928c7c31d80a3d740be63c587554394948908ef9c9027b",
+      "processedAt": "2026-06-30T01:18:16.680Z"
+    },
+    "https://bit.ly/side-dre1": {
+      "contentHash": "c9c5f1734cf0899daf4ddf153761a05c0b662fe0cbedbcc26b485b8b509add70",
+      "processedAt": "2026-06-30T01:01:11.970Z"
+    },
+    "https://vercel.com/changelog/xai-grok-audio-models-now-available-on-vercel-ai-gateway": {
+      "contentHash": "94680bd891e311f1f877016ae200e0fc802d0a023783cbfba889f8f645d6ece0",
+      "processedAt": "2026-06-30T01:18:19.081Z"
+    },
+    "https://www.logodesignlove.com/yakitoriya-logo": {
+      "contentHash": "aef406fcd5be8ad8f45cadb33bd8ef872e28f9b8f94ae7a5ea79683b2f653982",
+      "processedAt": "2026-06-30T01:01:15.827Z"
     }
   },
-  "lastRun": "2026-06-28T01:03:01.962Z"
+  "lastRun": "2026-06-30T01:20:04.101Z"
 }
