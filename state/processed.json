@@ -31655,7 +31655,71 @@
     "https://thisweekinreact.com/newsletter/288": {
       "contentHash": "60db7ff83ded410c703a67acd442cf64e207db50656d33572b0cedda7f19ef25",
       "processedAt": "2026-07-02T01:02:55.694Z"
+    },
+    "https://karlkoch.me/writing/on-the-semantic-web": {
+      "contentHash": "f9733f9f4402f24158bc635e1b1050d80f42415b08e549aaef1f2604d8279804",
+      "processedAt": "2026-07-03T03:29:06.958Z"
+    },
+    "https://askanastronaut.issinrealtime.org/": {
+      "contentHash": "3f1df6d72ce157fd13e8e1c43adf61ac6a93eeb2e1e20c715e2ad6132a995378",
+      "processedAt": "2026-07-03T03:29:12.895Z"
+    },
+    "https://designnotes.blog.gov.uk/2026/06/23/designing-services-for-people-whove-lost-trust-online/": {
+      "contentHash": "9b9c9ff412663216ceeeb272a2a3c12e7f1685158aa35fa6365eb9916cd1ae82",
+      "processedAt": "2026-07-03T03:29:14.324Z"
+    },
+    "https://uxdesign.cc/39-principles-for-designing-human-ai-interaction-87be5fabdbbe": {
+      "contentHash": "401e2bb02b421a376f09bc765a09ab69b41b58117ef5f1e9359384cc16aada7a",
+      "processedAt": "2026-07-03T03:29:15.863Z"
+    },
+    "https://pangrampangram.com/blogs/journal/arrows": {
+      "contentHash": "c6afd7f57fd7c1a22047e54bf81c49dc8fbb0d20535085bc2e65569ab92be8af",
+      "processedAt": "2026-07-03T03:29:16.568Z"
+    },
+    "https://tympanus.net/codrops/2026/07/02/from-years-of-client-work-to-a-next-js-sanity-starter-kit/": {
+      "contentHash": "a32a2f603f1fc1bbbf1a698547c754ed921d4077a795902a9fd700af72a5b299",
+      "processedAt": "2026-07-03T03:29:18.419Z"
+    },
+    "https://bradfrost.com/links/post/poetic-css/": {
+      "contentHash": "2c0f9787a5e6fce879e4f40da602d95120894faeacb2ec801df1997c32bb9845",
+      "processedAt": "2026-07-03T03:29:18.669Z"
+    },
+    "https://smashingmagazine.com/2026/07/matching-ai-modality-user-intent-designing-right-interface/": {
+      "contentHash": "9007382dcbbbf0f041c9fec3a954d88b57bea2f14df93b3e8154b0492f316512",
+      "processedAt": "2026-07-03T03:29:20.167Z"
+    },
+    "https://ics.media/entry/260702/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-07-03T03:29:20.684Z"
+    },
+    "https://piccalil.li/projects/personal-site/7/": {
+      "contentHash": "ad5b8e2d3f61eb578afde378faeb434ae9cf5351093b2b44f846ff40ea21eb91",
+      "processedAt": "2026-07-03T03:29:21.074Z"
+    },
+    "https://vercel.com/changelog/ai-gateway-routing-rules": {
+      "contentHash": "945b408533efb94a5a7877f3c42eeb91ac08d390eebe30835165de6712901ae4",
+      "processedAt": "2026-07-03T03:29:21.439Z"
+    },
+    "https://www.figma.com/blog/7-questions-from-lc/": {
+      "contentHash": "60b963600d2d3311b08feca1e23fa91b613c5ed9f3e4d65b0103a62525d23fd2",
+      "processedAt": "2026-07-03T03:29:48.053Z"
+    },
+    "https://www.figma.com/blog/build-with-joy/": {
+      "contentHash": "6722fe3d19349a2e1b8888b13ce9e98b934437874afe2e6ade94d8186d68bcc6",
+      "processedAt": "2026-07-03T03:30:15.210Z"
+    },
+    "https://zenn.dev/uhyo/articles/react-profession-bench-9": {
+      "contentHash": "c29efda054a3713f9d60e8c5e0910a90b9a06a34c1565f2e9ad01f6909477e22",
+      "processedAt": "2026-07-03T03:30:15.836Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/07/02/100931": {
+      "contentHash": "7580663630550b37f1fb1a13da90c47ca48482f30fa35f33ee100a9ba9338675",
+      "processedAt": "2026-07-03T03:30:17.149Z"
+    },
+    "https://tech.layerx.co.jp/entry/sponsorship-sre-next-2026": {
+      "contentHash": "fca5090a1deb169b41c90e5f8679fb37d3326a8ce3e38a2d09d3a36ec8c8e0df",
+      "processedAt": "2026-07-03T03:30:18.137Z"
     }
   },
-  "lastRun": "2026-07-02T01:02:55.694Z"
+  "lastRun": "2026-07-03T03:30:18.138Z"
 }
