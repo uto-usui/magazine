@@ -31655,7 +31655,119 @@
     "https://thisweekinreact.com/newsletter/288": {
       "contentHash": "60db7ff83ded410c703a67acd442cf64e207db50656d33572b0cedda7f19ef25",
       "processedAt": "2026-07-02T01:02:55.694Z"
+    },
+    "https://eieio.games/blog/legibility-of-effort/": {
+      "contentHash": "95233316751f52fdaa4c862ed99cd717d8f7845dc3cc4378e82326364d6fa29e",
+      "processedAt": "2026-07-04T03:22:44.437Z"
+    },
+    "https://artemistimeline.com/": {
+      "contentHash": "b3702b70509c7f3c326c59b56b364c6df38c61d10fded52e3548527228afff98",
+      "processedAt": "2026-07-04T03:22:51.509Z"
+    },
+    "https://w.pitula.me/fintech-engineering-handbook/": {
+      "contentHash": "ac9c94caf761edc5f419074962f6bfad9a7d1409cff3c446f1d195612d25a490",
+      "processedAt": "2026-07-04T03:22:52.024Z"
+    },
+    "https://buttondown.com/blog/google-reader": {
+      "contentHash": "001348b85581fd4409c5b0f533cfa2d6d2d3c1e0205024df50809336bf57fc42",
+      "processedAt": "2026-07-04T03:22:53.409Z"
+    },
+    "https://karlkoch.me/writing/on-the-semantic-web": {
+      "contentHash": "f9733f9f4402f24158bc635e1b1050d80f42415b08e549aaef1f2604d8279804",
+      "processedAt": "2026-07-04T03:22:54.028Z"
+    },
+    "https://askanastronaut.issinrealtime.org/": {
+      "contentHash": "3f1df6d72ce157fd13e8e1c43adf61ac6a93eeb2e1e20c715e2ad6132a995378",
+      "processedAt": "2026-07-04T03:22:59.329Z"
+    },
+    "https://designnotes.blog.gov.uk/2026/06/23/designing-services-for-people-whove-lost-trust-online/": {
+      "contentHash": "9b9c9ff412663216ceeeb272a2a3c12e7f1685158aa35fa6365eb9916cd1ae82",
+      "processedAt": "2026-07-04T03:23:00.083Z"
+    },
+    "https://uxdesign.cc/39-principles-for-designing-human-ai-interaction-87be5fabdbbe": {
+      "contentHash": "401e2bb02b421a376f09bc765a09ab69b41b58117ef5f1e9359384cc16aada7a",
+      "processedAt": "2026-07-04T03:23:02.299Z"
+    },
+    "https://pangrampangram.com/blogs/journal/arrows": {
+      "contentHash": "c6afd7f57fd7c1a22047e54bf81c49dc8fbb0d20535085bc2e65569ab92be8af",
+      "processedAt": "2026-07-04T03:23:03.594Z"
+    },
+    "https://tympanus.net/codrops/2026/07/02/from-years-of-client-work-to-a-next-js-sanity-starter-kit/": {
+      "contentHash": "a32a2f603f1fc1bbbf1a698547c754ed921d4077a795902a9fd700af72a5b299",
+      "processedAt": "2026-07-04T03:23:04.992Z"
+    },
+    "https://bradfrost.com/links/post/poetic-css/": {
+      "contentHash": "2c0f9787a5e6fce879e4f40da602d95120894faeacb2ec801df1997c32bb9845",
+      "processedAt": "2026-07-04T03:23:05.548Z"
+    },
+    "https://smashingmagazine.com/2026/07/users-dont-need-more-tools-need-seamless-integrations/": {
+      "contentHash": "7520fff04de5082a168a61fac5e4f599154f323ac559e88a89db7eba2dc3376e",
+      "processedAt": "2026-07-04T03:23:07.204Z"
+    },
+    "https://smashingmagazine.com/2026/07/matching-ai-modality-user-intent-designing-right-interface/": {
+      "contentHash": "9007382dcbbbf0f041c9fec3a954d88b57bea2f14df93b3e8154b0492f316512",
+      "processedAt": "2026-07-04T03:23:08.862Z"
+    },
+    "https://ics.media/entry/260702/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-07-04T03:23:09.435Z"
+    },
+    "https://piccalil.li/the-index/189/": {
+      "contentHash": "b068fe13f4e7c1e9a01245a7c0a90e9420f231fde0488ac11e23e017a3495c6e",
+      "processedAt": "2026-07-04T03:23:09.720Z"
+    },
+    "https://piccalil.li/projects/personal-site/7/": {
+      "contentHash": "ad5b8e2d3f61eb578afde378faeb434ae9cf5351093b2b44f846ff40ea21eb91",
+      "processedAt": "2026-07-04T03:23:11.093Z"
+    },
+    "https://vercel.com/changelog/vercel-sandbox-now-supports-fuse-based-filesystems": {
+      "contentHash": "2e26f73839859c89d9811b90ae535628b6a21f3bc40437924bbd40dda410105b",
+      "processedAt": "2026-07-04T03:23:11.788Z"
+    },
+    "https://vercel.com/changelog/manage-vercel-flags-segments-with-vercel-cli": {
+      "contentHash": "79c54f13afdf89795911e77922da3fa36bd1ff51085f8390b0006e6ffd7d42ce",
+      "processedAt": "2026-07-04T03:23:12.225Z"
+    },
+    "https://vercel.com/changelog/agent-runs-vercel-mcp-cli": {
+      "contentHash": "82dc45e3c31acc4096c4e87914769fae2006984791b908c47437130092b918ff",
+      "processedAt": "2026-07-04T03:23:12.623Z"
+    },
+    "https://vercel.com/changelog/ai-gateway-routing-rules": {
+      "contentHash": "945b408533efb94a5a7877f3c42eeb91ac08d390eebe30835165de6712901ae4",
+      "processedAt": "2026-07-04T03:23:13.061Z"
+    },
+    "https://www.figma.com/blog/7-questions-from-lc/": {
+      "contentHash": "60b963600d2d3311b08feca1e23fa91b613c5ed9f3e4d65b0103a62525d23fd2",
+      "processedAt": "2026-07-04T03:23:46.692Z"
+    },
+    "https://www.figma.com/blog/build-with-joy/": {
+      "contentHash": "6722fe3d19349a2e1b8888b13ce9e98b934437874afe2e6ade94d8186d68bcc6",
+      "processedAt": "2026-07-04T03:24:21.210Z"
+    },
+    "https://zenn.dev/uhyo/articles/react-profession-bench-9": {
+      "contentHash": "c29efda054a3713f9d60e8c5e0910a90b9a06a34c1565f2e9ad01f6909477e22",
+      "processedAt": "2026-07-04T03:24:21.893Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/07/02/100931": {
+      "contentHash": "7580663630550b37f1fb1a13da90c47ca48482f30fa35f33ee100a9ba9338675",
+      "processedAt": "2026-07-04T03:24:23.226Z"
+    },
+    "https://tech.layerx.co.jp/entry/sponsorship-sre-next-2026": {
+      "contentHash": "fca5090a1deb169b41c90e5f8679fb37d3326a8ce3e38a2d09d3a36ec8c8e0df",
+      "processedAt": "2026-07-04T03:24:24.112Z"
+    },
+    "https://www.nngroup.com/articles/reporting-ux-business-outcomes/": {
+      "contentHash": "462eebf439a4d6e23f117f33ecdfc9541d2983c96212788aab95c2062e1b3a0d",
+      "processedAt": "2026-07-04T03:24:25.435Z"
+    },
+    "https://www.nngroup.com/articles/crafting-ai-explanations/": {
+      "contentHash": "5605985ddc484d70b91f6e6eb7ea90a248fdf72357c94b3e7fd5856f5a162eaa",
+      "processedAt": "2026-07-04T03:24:27.354Z"
+    },
+    "https://react.statuscode.com/issues/481": {
+      "contentHash": "386cb7f5a61a742abacaf63831e5e38999842cf5c1a4a3bb6851c2a5a0134c2b",
+      "processedAt": "2026-07-04T03:24:28.096Z"
     }
   },
-  "lastRun": "2026-07-02T01:02:55.694Z"
+  "lastRun": "2026-07-04T03:24:28.096Z"
 }
