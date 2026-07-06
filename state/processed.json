@@ -31767,7 +31767,23 @@
     "https://react.statuscode.com/issues/481": {
       "contentHash": "386cb7f5a61a742abacaf63831e5e38999842cf5c1a4a3bb6851c2a5a0134c2b",
       "processedAt": "2026-07-04T03:24:28.096Z"
+    },
+    "https://adrianroselli.com/2026/07/focusgroup-tests.html": {
+      "contentHash": "9c640bb4840c72247751e6e1848a74d3ae49e1cea9229ad41bd8ee13850ebc36",
+      "processedAt": "2026-07-06T03:46:21.020Z"
+    },
+    "https://a11yweekly.com/issue/507/": {
+      "contentHash": "1a60875595841b56c7605ab39e0215512a7e769b82269c4f6f92e31e61d997ce",
+      "processedAt": "2026-07-06T03:46:21.103Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-adds-twilio-adapter-support": {
+      "contentHash": "cda639a8eeb2e04ac40c62379823bb0a68d202271231a34734c8eb17dc66f465",
+      "processedAt": "2026-07-06T03:46:21.624Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-july-5-2026/": {
+      "contentHash": "5b24551a67f1dba53bcdc150df470335a92d64c33944f95a892a299e010a1ed2",
+      "processedAt": "2026-07-06T03:46:22.941Z"
     }
   },
-  "lastRun": "2026-07-05T03:38:31.391Z"
+  "lastRun": "2026-07-06T03:46:22.941Z"
 }
