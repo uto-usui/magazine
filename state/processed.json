@@ -31767,7 +31767,71 @@
     "https://react.statuscode.com/issues/481": {
       "contentHash": "386cb7f5a61a742abacaf63831e5e38999842cf5c1a4a3bb6851c2a5a0134c2b",
       "processedAt": "2026-07-04T03:24:28.096Z"
+    },
+    "https://addyosmani.com/blog/career-advice-age-of-agents/": {
+      "contentHash": "c2649863f0924ab6aea94e530c536adb1eea9d5c770c0b5f821182ae579d9240",
+      "processedAt": "2026-07-07T03:37:32.463Z"
+    },
+    "https://addyosmani.com/blog/agentic-autonomy-levels/": {
+      "contentHash": "1c245edaccf86c78b0008970d96bf6e10a982705b21e66cc031933d2091fe65e",
+      "processedAt": "2026-07-07T03:37:32.873Z"
+    },
+    "https://adrianroselli.com/2026/07/focusgroup-tests.html": {
+      "contentHash": "dfa5b1a8ac6209862391a5ded1f31c484ac57bbf42972eb5974bb18387b639b9",
+      "processedAt": "2026-07-07T03:37:33.563Z"
+    },
+    "https://a11yweekly.com/issue/507/": {
+      "contentHash": "1a60875595841b56c7605ab39e0215512a7e769b82269c4f6f92e31e61d997ce",
+      "processedAt": "2026-07-07T03:37:37.591Z"
+    },
+    "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html": {
+      "contentHash": "ce8813389b101b539f20c95bfd012f7855a410da7d99a855d3eedd6658172296",
+      "processedAt": "2026-07-07T03:37:38.283Z"
+    },
+    "https://www.greyscala.xyz/": {
+      "contentHash": "e9e4797d3413dbf143a5722546f988ff5f5e4763dbaee2289d8b84af1f6c511b",
+      "processedAt": "2026-07-07T03:37:43.060Z"
+    },
+    "https://www.lesswrong.com/posts/XhrmcafXqFn3e6nd8/when-should-you-know-the-point": {
+      "contentHash": "501005429fc60fa70e35e863af8cecc1a07d3cc6f6480f2cc19bfc6e2a1a1c8b",
+      "processedAt": "2026-07-07T03:37:49.594Z"
+    },
+    "https://swizec.com/blog/code-is-the-easy-part-or-how-we-refactored-half-the-business-to-fix-a-janky-script/": {
+      "contentHash": "6ad7f78a3e9fa045d2d0c9edcce32e91f238d849a45b2fa19ceda753f1ab7d0e",
+      "processedAt": "2026-07-07T03:37:50.290Z"
+    },
+    "https://mandy.dev/posts/design-systems-ai/": {
+      "contentHash": "ee4f17194600ddc412a6c5f53b967bcce147b4858e731fe315bce1b4a91bb36a",
+      "processedAt": "2026-07-07T03:37:50.419Z"
+    },
+    "https://www.joshwcomeau.com/css/anchor-positioning/": {
+      "contentHash": "284bf987d538e9d20004ff84a8f1b8151dada754acbcd8ddb25aea8e449d3c7a",
+      "processedAt": "2026-07-07T03:37:51.065Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-adds-twilio-adapter-support": {
+      "contentHash": "cda639a8eeb2e04ac40c62379823bb0a68d202271231a34734c8eb17dc66f465",
+      "processedAt": "2026-07-07T03:37:51.449Z"
+    },
+    "https://zenn.dev/uhyo/articles/react-profession-bench-10": {
+      "contentHash": "56b4345dd2a82786e98ba8f1e3d41ab55a2d794866f8af4fe2048696e40711ae",
+      "processedAt": "2026-07-07T03:37:51.981Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/07/07/110000": {
+      "contentHash": "150717cf8dddd0a33328b1b7f6cfe8a9a0e100dd51aafefa88859c20b7cb7470",
+      "processedAt": "2026-07-07T03:37:52.806Z"
+    },
+    "https://tech.layerx.co.jp/entry/snowflake-outbound-wif-to-google-cloud": {
+      "contentHash": "6bc11ca60de05c7d2c2e39bc4ab01011e7f2d83bc1e2866869c1ac5b64299854",
+      "processedAt": "2026-07-07T03:37:53.828Z"
+    },
+    "https://newsletter.uxdesign.cc/p/figma-just-made-your-design-system": {
+      "contentHash": "9dc1e42246630e07fb7373e788a68602a94575217f9bb3182130974e36598cae",
+      "processedAt": "2026-07-07T03:37:54.136Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-july-5-2026/": {
+      "contentHash": "5b24551a67f1dba53bcdc150df470335a92d64c33944f95a892a299e010a1ed2",
+      "processedAt": "2026-07-07T03:37:55.472Z"
     }
   },
-  "lastRun": "2026-07-05T03:38:31.391Z"
+  "lastRun": "2026-07-07T03:37:55.472Z"
 }
