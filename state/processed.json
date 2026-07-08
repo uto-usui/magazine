@@ -31831,7 +31831,79 @@
     "https://stephaniewalter.design/blog/pixels-of-the-week-july-5-2026/": {
       "contentHash": "5b24551a67f1dba53bcdc150df470335a92d64c33944f95a892a299e010a1ed2",
       "processedAt": "2026-07-07T03:37:55.472Z"
+    },
+    "https://bencallahan.com/product-craft-in-the-age-of-ai-and-design-systems": {
+      "contentHash": "07e97055c973aa191bddeef900339c04528bdf9793ff27b5514e6b0d0e3a0eab",
+      "processedAt": "2026-07-08T02:52:58.339Z"
+    },
+    "https://bambamramfan.github.io/ai-compass/": {
+      "contentHash": "fe43422c9fc73368fd69f639cf4b8a670a2841a4d738f4484f4246fcd44210fd",
+      "processedAt": "2026-07-08T02:53:04.234Z"
+    },
+    "https://marcelochaman.ca/s/design-engineering": {
+      "contentHash": "3d54e07712d858f757f8726118d85d5667d4673fcc55e47d70ef9ab4bfd84585",
+      "processedAt": "2026-07-08T02:53:04.657Z"
+    },
+    "https://openalternative.co/": {
+      "contentHash": "17fbc9306658b924a15c08f86c744a8718b0f30c00f7cc7e2bd93852dbcd59f2",
+      "processedAt": "2026-07-08T02:53:06.331Z"
+    },
+    "https://diamond.jaydip.me/read/": {
+      "contentHash": "01d57e1ba9e45b02870a06b8c5c8721540706c62a81820ed65f8efbd0c643587",
+      "processedAt": "2026-07-08T02:53:06.697Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/tech-jobs-market-in-2026-part-3-hiring": {
+      "contentHash": "6439930b993f73ee5a2cdbee5d970bd91d569b8c8fe73c6037db7b835496afaa",
+      "processedAt": "2026-07-08T02:53:07.086Z"
+    },
+    "https://tympanus.net/codrops/2026/07/07/building-a-scroll-driven-3d-gallery-using-a-blender-camera-path-with-three-js-and-gsap/": {
+      "contentHash": "2cbfa34f64421e3045a8d56916de0a5858375f497c5283f2cbc2eebb96975039",
+      "processedAt": "2026-07-08T02:53:08.551Z"
+    },
+    "https://smashingmagazine.com/2026/07/kirki-wordpress-visual-builder-infinite-canvas/": {
+      "contentHash": "f5b296738ae0ffb913afb7f6b3368313ced8dc7b14d60643e1ae0d3bba7b0c1f",
+      "processedAt": "2026-07-08T02:53:09.940Z"
+    },
+    "https://vercel.com/changelog/eve-chat-sdk-channel": {
+      "contentHash": "bdcf0d9a8554243a184cd88157e175d13adb3be4288d1d3225fab16780a73cc6",
+      "processedAt": "2026-07-08T02:53:10.392Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-vercel-connect": {
+      "contentHash": "382e61d48a526facf88d8b8f863fd242b75d68d0d6904cd056f178b14fa9d70d",
+      "processedAt": "2026-07-08T02:53:10.763Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-adds-dial-support": {
+      "contentHash": "f5c6f81971839cca8600aba1515efed9dae8c357184ea1e7ccb1de7db7ea45c8",
+      "processedAt": "2026-07-08T02:53:11.228Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-adds-photon-support": {
+      "contentHash": "5fc219999663ef29496e113fdea6fa789dcea55afca78682d0adcf40701305a8",
+      "processedAt": "2026-07-08T02:53:11.578Z"
+    },
+    "https://vercel.com/changelog/you-can-now-view-the-activity-log-at-a-project-level": {
+      "contentHash": "8c95aed48493731452d2cf8bc46a50745af15f16cccad1aabb962cd89e0d9b53",
+      "processedAt": "2026-07-08T02:53:12.066Z"
+    },
+    "https://vercel.com/blog/vercel-acquires-better-auth": {
+      "contentHash": "0d001fedceafdebc94b8a54cfaf7e1dcb1bb38e1a41f7cca799a8fe75f692a10",
+      "processedAt": "2026-07-08T02:53:12.403Z"
+    },
+    "https://vercel.com/changelog/more-granular-observability-for-vercel-sandbox": {
+      "contentHash": "f3dcd9b8105deaa30a007723b0db66cc80a8b1a34a645d0c242849530d58fbc8",
+      "processedAt": "2026-07-08T02:53:12.731Z"
+    },
+    "https://vercel.com/changelog/github-tools-eve": {
+      "contentHash": "4bf7ad84a8b733dc56456d060265336072da1385fe33ecfe82201ccbdb0ce85d",
+      "processedAt": "2026-07-08T02:53:13.107Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/07/08/115034": {
+      "contentHash": "52123c22b067ea0ad5980df6bfdf899333271fb49ed0eb749a9e6436334a621c",
+      "processedAt": "2026-07-08T02:53:14.132Z"
+    },
+    "https://www.writewithdrkat.com/blog/ux-writing-the-actual-scope-of-the-discipline": {
+      "contentHash": "a07992e5bb8c689f8046c72e848d7e0edb17078ebc24da77380075f1c66d9427",
+      "processedAt": "2026-07-08T02:53:14.589Z"
     }
   },
-  "lastRun": "2026-07-07T03:37:55.472Z"
+  "lastRun": "2026-07-08T02:53:14.589Z"
 }
