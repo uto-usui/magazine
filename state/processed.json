@@ -31971,7 +31971,79 @@
     "https://thisweekinreact.com/newsletter/289": {
       "contentHash": "a3f6ed9704d2caffd22e5a572d56792ccd6c946c6b72529a9378c130a89875e7",
       "processedAt": "2026-07-09T03:31:51.228Z"
+    },
+    "https://adrianroselli.com/2026/07/link-popover-navigation.html": {
+      "contentHash": "e2cd6992f1cc88187784d6b09120a94ceb3fd115c96a2206259c607f2f0e20ab",
+      "processedAt": "2026-07-10T03:33:16.240Z"
+    },
+    "https://whynothugo.nl/journal/2026/07/03/98-isnt-very-much/": {
+      "contentHash": "f35476482a283c257d82af69fa3d5a247d15de74a516f407ec8eee14537ec578",
+      "processedAt": "2026-07-10T03:33:16.841Z"
+    },
+    "https://ileivoivm.github.io/inkField/gallery/index.html": {
+      "contentHash": "d48f6a3b17af66b09cda4e14d049e2c3284171bd8dd24ae0c29cc59b2221039a",
+      "processedAt": "2026-07-10T03:33:17.054Z"
+    },
+    "https://tomtunguz.com/ai-execution-routing/": {
+      "contentHash": "7311756f3153788647b0e56bf2367d9a2beb73e57681df82b23a2281fa536a20",
+      "processedAt": "2026-07-10T03:33:17.362Z"
+    },
+    "https://shaders.paper.design/": {
+      "contentHash": "817412a76f1e1b720dad939bdd230eb218734c04456851475eeb4f20e505ee7c",
+      "processedAt": "2026-07-10T03:33:24.851Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-what-can-we-learn-from": {
+      "contentHash": "c44e4a2f79d81fe16fed746e37cad0edeb744d54012e1a1d3ff0fce9e4ea4e55",
+      "processedAt": "2026-07-10T03:33:25.083Z"
+    },
+    "https://tympanus.net/codrops/2026/07/09/building-an-interactive-wave-propagation-cube-grid-with-three-js/": {
+      "contentHash": "2d476f6895c16e7b29c28b965e40ad3c56a723e1f9c79002cda319d5464c7bec",
+      "processedAt": "2026-07-10T03:33:26.792Z"
+    },
+    "https://smashingmagazine.com/2026/07/designing-distressed-users-mental-health-apps-ui/": {
+      "contentHash": "d5ce551ca015bedd312086e5555bb16354ea248b117e82cffdee07fd4491df97",
+      "processedAt": "2026-07-10T03:33:28.740Z"
+    },
+    "https://ics.media/entry/260709/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-07-10T03:33:28.996Z"
+    },
+    "https://piccalil.li/blog/proxy-and-reflect/": {
+      "contentHash": "35c64d4df6c9a7cdfe09e1e2c874c327e9cdd7d6666d4d9ea9af4ad4769383ca",
+      "processedAt": "2026-07-10T03:33:29.476Z"
+    },
+    "https://vercel.com/changelog/build-logs-now-redact-sensitive-environment-variable-values": {
+      "contentHash": "c5d30eac0e2da37a0659af67c9e9b701f88ca188b1d1d9bb06cba95f7597bb44",
+      "processedAt": "2026-07-10T03:33:29.913Z"
+    },
+    "https://vercel.com/changelog/muse-spark-1-1-is-now-available-on-ai-gateway": {
+      "contentHash": "0e26f6fdaa4101f57d158cd9fc5101bd86047f2089cd465cf1703186f2db6f39",
+      "processedAt": "2026-07-10T03:33:30.285Z"
+    },
+    "https://vercel.com/changelog/gpt-5-6-now-available-on-ai-gateway": {
+      "contentHash": "727a89921262184c270cfa0bbe79a212387de86ca1f4dbb318f5d636d6f77601",
+      "processedAt": "2026-07-10T03:33:30.688Z"
+    },
+    "https://www.figma.com/blog/jen-dunnam-lead-design-teams/": {
+      "contentHash": "0d566063aa3042dc497c53a3beaee4fc7e266056ef8ac0a1ee5e1ffcbdabf142",
+      "processedAt": "2026-07-10T03:34:12.734Z"
+    },
+    "https://www.figma.com/blog/gpt-5-6-is-now-available-in-figma-make/": {
+      "contentHash": "8f0fff042f44f0f2bec78db82f08371c1d40d296426ce59fa23286f095fca605",
+      "processedAt": "2026-07-10T03:34:39.008Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/07/10/105119": {
+      "contentHash": "0c9e60396075aa08a270fc36d6d6d915fa04501b528343134643b0d8d1471e27",
+      "processedAt": "2026-07-10T03:34:40.118Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/07/10/103000": {
+      "contentHash": "a2ffa0dee319f180c3b91a98151a50e97c24019001b32eaf8bc859ff7ce4d392",
+      "processedAt": "2026-07-10T03:34:40.843Z"
+    },
+    "https://tech.layerx.co.jp/entry/how-we-doubled-throughput": {
+      "contentHash": "32fc434f62acae99779d2960efcd4af4b087f84670d0f59940c3aee8f50d3904",
+      "processedAt": "2026-07-10T03:34:41.598Z"
     }
   },
-  "lastRun": "2026-07-09T03:31:51.228Z"
+  "lastRun": "2026-07-10T03:34:41.599Z"
 }
