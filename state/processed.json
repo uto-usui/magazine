@@ -31971,7 +31971,151 @@
     "https://thisweekinreact.com/newsletter/289": {
       "contentHash": "a3f6ed9704d2caffd22e5a572d56792ccd6c946c6b72529a9378c130a89875e7",
       "processedAt": "2026-07-09T03:31:51.228Z"
+    },
+    "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/": {
+      "contentHash": "32801f5be297f2ad7cb7867d02ff02ab8426111ee9ecc95694bec3c19f3c49e7",
+      "processedAt": "2026-07-12T02:57:32.137Z"
+    },
+    "https://adrianroselli.com/2026/07/link-popover-navigation.html": {
+      "contentHash": "85334b2fc740bf20d92ca2b07f3ceb78ca0340d254195aa67bada1fd87fad225",
+      "processedAt": "2026-07-12T02:57:32.634Z"
+    },
+    "https://www.alecscollon.com/blog/llm-burnout/": {
+      "contentHash": "88df3e6143f040d20863e818575c6fd9739115774717f210f827ad307c879391",
+      "processedAt": "2026-07-12T02:57:32.873Z"
+    },
+    "https://getdesign.md/": {
+      "contentHash": "333b0384a0168ccd0e0b5bd4fcd1b685939cc921f6fe5dfa645d8eacb8899989",
+      "processedAt": "2026-07-12T02:57:35.721Z"
+    },
+    "https://www.carmenansio.com/articles/css-easing-explained/": {
+      "contentHash": "e65897178a5c3912523e367d61f0898ed1f5e434b567a9492367c4506c7240fb",
+      "processedAt": "2026-07-12T02:57:36.117Z"
+    },
+    "https://soullessmusic.com/": {
+      "contentHash": "f2fded7344337f6f290b35beb4839f4a98130c0aea1aaa8cfb997b5c017aa010",
+      "processedAt": "2026-07-12T02:57:41.066Z"
+    },
+    "https://seldo.com/posts/ai-has-torched-the-market-for-junior-programmers/": {
+      "contentHash": "569c9364f25dff8d17792d754fc5c2729ca1bc6fb49039dbb09d69c691b483c4",
+      "processedAt": "2026-07-12T02:57:41.808Z"
+    },
+    "https://whynothugo.nl/journal/2026/07/03/98-isnt-very-much/": {
+      "contentHash": "f35476482a283c257d82af69fa3d5a247d15de74a516f407ec8eee14537ec578",
+      "processedAt": "2026-07-12T02:57:42.369Z"
+    },
+    "https://ileivoivm.github.io/inkField/gallery/index.html": {
+      "contentHash": "d48f6a3b17af66b09cda4e14d049e2c3284171bd8dd24ae0c29cc59b2221039a",
+      "processedAt": "2026-07-12T02:57:42.505Z"
+    },
+    "https://tomtunguz.com/ai-execution-routing/": {
+      "contentHash": "7311756f3153788647b0e56bf2367d9a2beb73e57681df82b23a2281fa536a20",
+      "processedAt": "2026-07-12T02:57:42.828Z"
+    },
+    "https://shaders.paper.design/": {
+      "contentHash": "817412a76f1e1b720dad939bdd230eb218734c04456851475eeb4f20e505ee7c",
+      "processedAt": "2026-07-12T02:57:47.804Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-what-can-we-learn-from": {
+      "contentHash": "b2f7b222c08789179fd11daf775a64026374d3f1bfcaf3f36f38816a81f8aaf0",
+      "processedAt": "2026-07-12T02:57:48.107Z"
+    },
+    "https://tympanus.net/codrops/2026/07/10/the-sleepers-creating-an-atmospheric-webgl-experience-with-lightweight-techniques/": {
+      "contentHash": "ed43c08b81d2106d19b6b7f0ca4a428a15168d5fbac8610f834833f86cabb7e9",
+      "processedAt": "2026-07-12T02:57:49.554Z"
+    },
+    "https://tympanus.net/codrops/2026/07/09/building-an-interactive-wave-propagation-cube-grid-with-three-js/": {
+      "contentHash": "2d476f6895c16e7b29c28b965e40ad3c56a723e1f9c79002cda319d5464c7bec",
+      "processedAt": "2026-07-12T02:57:50.846Z"
+    },
+    "https://smashingmagazine.com/2026/07/how-turn-brand-strategy-into-visual-direction/": {
+      "contentHash": "8873b17f6e04ed9fe551911c822bde95c8d9ba8d176ba4c97aa6f792cfa44a42",
+      "processedAt": "2026-07-12T02:57:52.360Z"
+    },
+    "https://smashingmagazine.com/2026/07/designing-distressed-users-mental-health-apps-ui/": {
+      "contentHash": "d5ce551ca015bedd312086e5555bb16354ea248b117e82cffdee07fd4491df97",
+      "processedAt": "2026-07-12T02:57:53.646Z"
+    },
+    "https://ics.media/entry/260709/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-07-12T02:57:53.881Z"
+    },
+    "https://piccalil.li/the-index/190/": {
+      "contentHash": "884ee449bcad444cfdd3a696371fde22afa75835f1f7bafe002bc825425ea6bb",
+      "processedAt": "2026-07-12T02:57:54.138Z"
+    },
+    "https://piccalil.li/blog/proxy-and-reflect/": {
+      "contentHash": "35c64d4df6c9a7cdfe09e1e2c874c327e9cdd7d6666d4d9ea9af4ad4769383ca",
+      "processedAt": "2026-07-12T02:57:55.691Z"
+    },
+    "https://vercel.com/changelog/seedream-5-0-pro-is-now-available-on-ai-gateway": {
+      "contentHash": "58f85a35b3cb66b4c506f5bdf003af846394e89aa03d23dfc100692389252fca",
+      "processedAt": "2026-07-12T02:57:56.146Z"
+    },
+    "https://vercel.com/changelog/traces-now-support-tree-and-waterfall-views": {
+      "contentHash": "a9b87ad76a39c33f507202770ef1e5e2d21228d3af053dcd9f7c2fbb37212266",
+      "processedAt": "2026-07-12T02:57:56.901Z"
+    },
+    "https://vercel.com/changelog/you-can-now-deploy-lovable-apps-to-vercel": {
+      "contentHash": "b4d7237ec6211125fec228724ca48f54f6f84c636e6cfeac93ec64523c9c2929",
+      "processedAt": "2026-07-12T02:57:57.294Z"
+    },
+    "https://vercel.com/changelog/build-logs-now-redact-sensitive-environment-variable-values": {
+      "contentHash": "c5d30eac0e2da37a0659af67c9e9b701f88ca188b1d1d9bb06cba95f7597bb44",
+      "processedAt": "2026-07-12T02:57:57.642Z"
+    },
+    "https://vercel.com/changelog/muse-spark-1-1-is-now-available-on-ai-gateway": {
+      "contentHash": "0e26f6fdaa4101f57d158cd9fc5101bd86047f2089cd465cf1703186f2db6f39",
+      "processedAt": "2026-07-12T02:57:58.013Z"
+    },
+    "https://vercel.com/changelog/gpt-5-6-now-available-on-ai-gateway": {
+      "contentHash": "727a89921262184c270cfa0bbe79a212387de86ca1f4dbb318f5d636d6f77601",
+      "processedAt": "2026-07-12T02:57:58.481Z"
+    },
+    "https://www.figma.com/blog/how-decagon-uses-ai-for-design-system-saturation/": {
+      "contentHash": "2cca7913d1a8f3024c7a5c572056e025f3b0d61526d813f6f6818c13fdfc0b6d",
+      "processedAt": "2026-07-12T02:58:28.624Z"
+    },
+    "https://www.figma.com/blog/jen-dunnam-lead-design-teams/": {
+      "contentHash": "0d566063aa3042dc497c53a3beaee4fc7e266056ef8ac0a1ee5e1ffcbdabf142",
+      "processedAt": "2026-07-12T02:59:10.634Z"
+    },
+    "https://www.figma.com/blog/gpt-5-6-is-now-available-in-figma-make/": {
+      "contentHash": "8f0fff042f44f0f2bec78db82f08371c1d40d296426ce59fa23286f095fca605",
+      "processedAt": "2026-07-12T02:59:36.448Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/07/10/170000": {
+      "contentHash": "9e206c324abf558fef62b6f6b32b7a9351664479f7b4aa49ab3abb20118422e8",
+      "processedAt": "2026-07-12T02:59:38.760Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/07/10/161316": {
+      "contentHash": "173edce31d559476fdd606a74979389b618c2490f2e5542a3dadc96d95674b96",
+      "processedAt": "2026-07-12T02:59:39.195Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/07/10/105119": {
+      "contentHash": "fed57f6935fb8bab538fcdbe649d79e139abe1acc385f6fa724cf5e65af09752",
+      "processedAt": "2026-07-12T02:59:39.644Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/07/10/103000": {
+      "contentHash": "a2ffa0dee319f180c3b91a98151a50e97c24019001b32eaf8bc859ff7ce4d392",
+      "processedAt": "2026-07-12T02:59:40.290Z"
+    },
+    "https://tech.layerx.co.jp/entry/how-we-doubled-throughput": {
+      "contentHash": "32fc434f62acae99779d2960efcd4af4b087f84670d0f59940c3aee8f50d3904",
+      "processedAt": "2026-07-12T02:59:41.107Z"
+    },
+    "https://www.nngroup.com/articles/dimensions-of-ai-chatbots/": {
+      "contentHash": "86f80fbebe581aa8f4e1dafd5fe92c69a41795dd5f1f535511cc19076b3dc108",
+      "processedAt": "2026-07-12T02:59:43.104Z"
+    },
+    "https://www.nngroup.com/articles/design-system-maturity/": {
+      "contentHash": "64e7b659464ea71481c2bfaa3b0798a89e0ab3aa9e9a0e98096dccdad176a184",
+      "processedAt": "2026-07-12T02:59:43.870Z"
+    },
+    "https://react.statuscode.com/issues/482": {
+      "contentHash": "485f8e1786b567bdfc7234b675774dac2ea573d42aa62edaddce3d3eccec1686",
+      "processedAt": "2026-07-12T02:59:44.421Z"
     }
   },
-  "lastRun": "2026-07-09T03:31:51.228Z"
+  "lastRun": "2026-07-12T02:59:44.421Z"
 }
