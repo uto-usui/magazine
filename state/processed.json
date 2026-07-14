@@ -32115,7 +32115,79 @@
     "https://react.statuscode.com/issues/482": {
       "contentHash": "485f8e1786b567bdfc7234b675774dac2ea573d42aa62edaddce3d3eccec1686",
       "processedAt": "2026-07-12T02:59:44.421Z"
+    },
+    "https://engineering.fb.com/2026/07/13/ml-applications/modernizing-the-meta-ads-service-with-an-open-source-kernel-scheduler/": {
+      "contentHash": "bbb30d9cb1520213fe876366228f3b48b8099136f6686cb60ec22f56d4725819",
+      "processedAt": "2026-07-14T02:43:10.507Z"
+    },
+    "https://a11yweekly.com/issue/508/": {
+      "contentHash": "7fe6030e5ed48be2989d63cc2382d4456d85cb799cc35f46f025e670f3c496a3",
+      "processedAt": "2026-07-14T02:43:10.574Z"
+    },
+    "https://bit.ly/side-flo1": {
+      "contentHash": "1e73d371e48e9687f3cb1696fde5a76c161315fc586cd4ba81d76a6b8f3c05c4",
+      "processedAt": "2026-07-14T02:43:11.088Z"
+    },
+    "https://hvpandya.com/hard-things-about-design": {
+      "contentHash": "42e482009957878eee68bbc392e3582864e2cdd38c73c4eb3817fd73025efe72",
+      "processedAt": "2026-07-14T02:43:11.272Z"
+    },
+    "https://rexa-developer.github.io/tiks/": {
+      "contentHash": "76253a2ae5918b8b7183a199eead4de3a086ba75e13b67943704d0ab8797a96a",
+      "processedAt": "2026-07-14T02:43:11.552Z"
+    },
+    "https://a11y.quest/": {
+      "contentHash": "1ce492b8e0da56d4d1b94dca231ed14535e34384c90936245aafb0b64cadbdf9",
+      "processedAt": "2026-07-14T02:43:16.556Z"
+    },
+    "https://herbertlui.net/creative-focus/": {
+      "contentHash": "81f0d36e5edc683b5c682a09a77cc0e6c4d04757d977b64841374a4fd9a6ebb2",
+      "processedAt": "2026-07-14T02:43:16.975Z"
+    },
+    "https://lea.verou.me/blog/2026/polyfills/": {
+      "contentHash": "050471bc0e2f69eac1d369dce781cd75bb2cb39f304a44ea63ac1bd44e68f769",
+      "processedAt": "2026-07-14T02:43:24.066Z"
+    },
+    "https://tympanus.net/codrops/2026/07/13/where-stories-become-interactive-worlds-how-makemepulse-brings-ideas-to-life-across-web-xr-and-beyond/": {
+      "contentHash": "3b41dd1be329a46bcfa71f415af057e7e19ec3e7e5958ac57b2cd63d40b1a3cf",
+      "processedAt": "2026-07-14T02:43:25.932Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-adds-x-adapter-support": {
+      "contentHash": "673dd7ebcce01a5e0b4bd8aa6c2d379b5e633215338cb6ead3873fd2c5e1be41",
+      "processedAt": "2026-07-14T02:43:26.470Z"
+    },
+    "https://vercel.com/blog/ai-gateway-production-index-july-2026": {
+      "contentHash": "f7d758a021eb24f5575017d746e318b69662161343e78cff9e4b7a15f69ada1b",
+      "processedAt": "2026-07-14T02:43:27.011Z"
+    },
+    "https://vercel.com/changelog/agent-runs-now-show-subagent-activity-on-eve-projects": {
+      "contentHash": "31a915d41fbc6f48fcb6cf8200bfe7aaa1463983c1ccfbae77dbba12095b083d",
+      "processedAt": "2026-07-14T02:43:27.966Z"
+    },
+    "https://vercel.com/changelog/manage-vercel-flags-targeting-rules-from-the-cli": {
+      "contentHash": "571e6558a92a99544e1f302199ec32c67f2f634474c37ec76efb30adffe58835",
+      "processedAt": "2026-07-14T02:43:28.386Z"
+    },
+    "https://vercel.com/changelog/configure-which-sources-can-create-deployments-with-deployment-policies": {
+      "contentHash": "7f5474faf7fcc8fba3ab3570f7b82f9a506d6c76963086a748a9aeebb2d53e1f",
+      "processedAt": "2026-07-14T02:43:28.939Z"
+    },
+    "https://vercel.com/changelog/web-analytics-and-speed-insights-are-now-more-cost-efficient": {
+      "contentHash": "e567eb0d5987a4a248890009d34d1704c3ea2579b78d5c0a4aa7a882efb4c5a5",
+      "processedAt": "2026-07-14T02:43:29.337Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/07/14/110000": {
+      "contentHash": "65c4ca6c6220b91d7d407c35421c950993b964b64ae2cd692cdb97aa06f2796e",
+      "processedAt": "2026-07-14T02:43:30.099Z"
+    },
+    "https://newsletter.uxdesign.cc/p/wait-who-made-this": {
+      "contentHash": "8968f90b1463ac5d86fc06e0342e446e7b0326f2b4c877ffe7f2afde4f412de6",
+      "processedAt": "2026-07-14T02:43:30.321Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-july-12-2026/": {
+      "contentHash": "530952dfab317bbc1b26d680647f25849809168dceb724475d7796d19277c50a",
+      "processedAt": "2026-07-14T02:43:31.480Z"
     }
   },
-  "lastRun": "2026-07-12T02:59:44.421Z"
+  "lastRun": "2026-07-14T02:43:31.480Z"
 }
