@@ -32187,7 +32187,67 @@
     "https://stephaniewalter.design/blog/pixels-of-the-week-july-12-2026/": {
       "contentHash": "530952dfab317bbc1b26d680647f25849809168dceb724475d7796d19277c50a",
       "processedAt": "2026-07-14T02:43:31.480Z"
+    },
+    "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?gift=bmvUiu0ra57xGI0zOa4kGmINu--qpr8lFEbQYPTWWTQ": {
+      "contentHash": "f65800d6027aeb0cc28edacdc565d143499932655b7f14897ce4176f7f6db854",
+      "processedAt": "2026-07-15T02:39:10.466Z"
+    },
+    "https://dotmatrix.zzzzshawn.cloud/": {
+      "contentHash": "2294a07d5875c2cd5aa9445d93c093a44887a021ab22093c80b1895a0867899c",
+      "processedAt": "2026-07-15T02:39:13.848Z"
+    },
+    "https://stevekrouse.com/learn-to-code": {
+      "contentHash": "62ee5b06960ebf3ff3cd8a09480c2a1ca954ce41c358d235846dd03359c15400",
+      "processedAt": "2026-07-15T02:39:14.352Z"
+    },
+    "https://neal.fun/wiki-spy/": {
+      "contentHash": "2a3b6e71d5986aba51b94259b47aecc6c2ab41bb55dffbbcb3c6c54c88154d24",
+      "processedAt": "2026-07-15T02:39:19.864Z"
+    },
+    "https://thinkingmachines.ai/blog/the-future-worth-building-is-human/": {
+      "contentHash": "3631058266258c6062623cc74223fcab2c1c24c54f3722934b38b6173313e988",
+      "processedAt": "2026-07-15T02:39:20.050Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/what-is-loop-engineering": {
+      "contentHash": "f54bdaf48237b588c9cba254b1066cbc3b7b5726f874c05e986910272ab0b7a1",
+      "processedAt": "2026-07-15T02:39:20.345Z"
+    },
+    "https://vercel.com/changelog/vercel-blob-now-supports-consistent-reads-on-private-storage": {
+      "contentHash": "ffb4292b116af2933d4d0f0bcaf88124c022f1fe3bd8d9f4853cfb7366698f22",
+      "processedAt": "2026-07-15T02:39:20.789Z"
+    },
+    "https://vercel.com/changelog/vercel-plugin-now-available-in-vs-code-and-github-copilot-cli": {
+      "contentHash": "6d1f266d5145f74568e59f70e16ee4eabf5ed0d6dae6e2a329652c7917432129",
+      "processedAt": "2026-07-15T02:39:21.323Z"
+    },
+    "https://vercel.com/changelog/node-js-20-is-being-deprecated": {
+      "contentHash": "1caa53f2bbeb5b51bac41ff4e79d89473a5e044f470108531e70279d9c347440",
+      "processedAt": "2026-07-15T02:39:21.647Z"
+    },
+    "https://vercel.com/changelog/endform-joins-the-vercel-marketplace": {
+      "contentHash": "5a3d396618ec27fd7bee18ded1482cf41ad150b13403010c3ed1c414ef9b89c2",
+      "processedAt": "2026-07-15T02:39:21.908Z"
+    },
+    "https://vercel.com/changelog/agentmail-vercel-marketplace": {
+      "contentHash": "1716125ae0958d86b2d88289b261348038cdc373684228935b978efa334f878c",
+      "processedAt": "2026-07-15T02:39:22.331Z"
+    },
+    "https://vercel.com/changelog/open-data-and-shareable-charts-for-ai-gateway-leaderboards": {
+      "contentHash": "181768f8dff29a2c6c1e7b001c51c977dbca3b690240abcb5aed3d934654aba4",
+      "processedAt": "2026-07-15T02:39:22.761Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/07/15/104843": {
+      "contentHash": "fc66689ea09989ac5533b3b3cc74963ce21e4e6b968309a7ae7c244a9f98da1c",
+      "processedAt": "2026-07-15T02:39:23.602Z"
+    },
+    "https://amyhupe.co.uk/articles/design-system-strategies/": {
+      "contentHash": "e8be923452ebd43b4742d7458af22791e00f86da5d98e6fb549472d6428439d0",
+      "processedAt": "2026-07-15T02:39:23.996Z"
+    },
+    "https://uxmovement.medium.com/why-you-should-never-split-text-field-inputs-28d7dc977092": {
+      "contentHash": "1dfb8120f24043d49518cf541244e5b30c149da553a49c7fc40cb48e050c6a8d",
+      "processedAt": "2026-07-15T02:39:24.663Z"
     }
   },
-  "lastRun": "2026-07-14T02:43:31.480Z"
+  "lastRun": "2026-07-15T02:39:24.663Z"
 }
