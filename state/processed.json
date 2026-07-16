@@ -32247,7 +32247,107 @@
     "https://uxmovement.medium.com/why-you-should-never-split-text-field-inputs-28d7dc977092": {
       "contentHash": "1dfb8120f24043d49518cf541244e5b30c149da553a49c7fc40cb48e050c6a8d",
       "processedAt": "2026-07-15T02:39:24.663Z"
+    },
+    "https://engineering.fb.com/2026/07/15/ai-research/exploring-hierarchical-interest-representation-for-meta-ads-deep-funnel-optimization/": {
+      "contentHash": "7bdd598a9d72aa14d870310cff01c3e5856574ccec5571fd8e17c18ada4a8a66",
+      "processedAt": "2026-07-16T02:46:20.086Z"
+    },
+    "https://uxdesign.cc/taste-cannot-be-delegated-1706847a0b4b": {
+      "contentHash": "fc0886eb253957cec69201b89caed37e9890bc046cba22a41322af97a5cdea6a",
+      "processedAt": "2026-07-16T02:46:21.741Z"
+    },
+    "https://museum.parallel.ai/introduction": {
+      "contentHash": "5aab9cc683df8fe5976f2c7c14212559b7ca83f0e7b20d19dfa317d9935721d0",
+      "processedAt": "2026-07-16T02:46:22.128Z"
+    },
+    "https://handwritten.danieljanus.pl/2022-10-01-hyperlinks-in-handwriting.html": {
+      "contentHash": "5a5ec28369bd4ce623690597bda1657f06511f9438213dce74c6727d20a60a8b",
+      "processedAt": "2026-07-16T02:46:27.415Z"
+    },
+    "https://ai-2040.com/": {
+      "contentHash": "b85b18be8e5a3896f5bd00e660e314377d9adbe0df92428c55ced6dd754bf285",
+      "processedAt": "2026-07-16T02:46:28.075Z"
+    },
+    "https://weblog.rogueamoeba.com/2026/06/26/free-the-icons/": {
+      "contentHash": "902c847d263cf2933c75924e1c19b41f9e6e3ed265042c224d4303d0aeff4fca",
+      "processedAt": "2026-07-16T02:46:28.769Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/context-engineering-with-dex-horthy": {
+      "contentHash": "feb123ecf3d77dcb6ee0f2268acbcd3c85eec1a56a1e08d1b2f266e389cf81b6",
+      "processedAt": "2026-07-16T02:46:29.499Z"
+    },
+    "https://tympanus.net/codrops/2026/07/15/the-architecture-behind-trionn-coordinating-gsap-three-js-lenis-and-web-audio/": {
+      "contentHash": "687ee56c16e3823beb93ab7ae36f1e92269507deec202d0152b94de6712f84d7",
+      "processedAt": "2026-07-16T02:46:31.107Z"
+    },
+    "https://smashingmagazine.com/2026/07/people-dont-want-more-ai/": {
+      "contentHash": "60b94bb88ffcfb4d0c6222730356dbbeaa07b90a76fe26004f7e68523d3d4cdf",
+      "processedAt": "2026-07-16T02:46:32.909Z"
+    },
+    "https://ics.media/entry/260715/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-07-16T02:46:33.781Z"
+    },
+    "https://vercel.com/blog/how-speechify-serves-50000-dynamic-pages-to-60-million-users-on-vercel": {
+      "contentHash": "e8ef2333f1b3424c0f2226d2cb3406d3cc69ed2647fcd2c61cd921a0b6aa8366",
+      "processedAt": "2026-07-16T02:46:34.382Z"
+    },
+    "https://vercel.com/changelog/vercel-connect-support-in-github-tools": {
+      "contentHash": "5bde54993eedbfc92808c41953d742bc953f3a47940f1e6aa82cd27d31b7686c",
+      "processedAt": "2026-07-16T02:46:34.857Z"
+    },
+    "https://vercel.com/changelog/faster-predictable-project-linking-in-the-vercel-cli": {
+      "contentHash": "4b602cc134bcdc66d2344cd870b2fd1c38432e8f334f3fb5f8b3f1ecf842000c",
+      "processedAt": "2026-07-16T02:46:35.294Z"
+    },
+    "https://vercel.com/changelog/inkling-from-thinking-machines-is-now-available-on-ai-gateway": {
+      "contentHash": "16f6ac0f1ab116dd9c72f765ae9b5841b4dcd1a4449cd7ef91fcc89ec3e8bf85",
+      "processedAt": "2026-07-16T02:46:35.752Z"
+    },
+    "https://vercel.com/changelog/vercel-workflows-trace-viewer-now-has-a-minimap": {
+      "contentHash": "769e8b65dbf58bb639171d466f062ffc7867860e9add02335c54ab98f8c05618",
+      "processedAt": "2026-07-16T02:46:36.444Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-adds-discord-components-v2-support": {
+      "contentHash": "cb275b8872ee220a7352f8fdeb3212b948777f2f8db606e66bbe803b78fb54f1",
+      "processedAt": "2026-07-16T02:46:36.894Z"
+    },
+    "https://vercel.com/changelog/web-analytics-api": {
+      "contentHash": "6fbcef4731fd17904464cac09b87257bb0392413013b3ece7fd8d2a5d5287e05",
+      "processedAt": "2026-07-16T02:46:37.293Z"
+    },
+    "https://frontendfoc.us/issues/750": {
+      "contentHash": "5a4ae9fa85832b385bf6d65564b1bdd93c10a3bf978b02a87f9ce0a71997d763",
+      "processedAt": "2026-07-16T02:46:37.974Z"
+    },
+    "https://zenn.dev/uhyo/articles/react-profession-bench-11": {
+      "contentHash": "cf6d57130dc03a06cf7313579016ae5b0ad38f66ed0abe48c5117b3a46480a55",
+      "processedAt": "2026-07-16T02:46:38.547Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/07/15/142756": {
+      "contentHash": "bff6f8100a868a3d57bcf844824630fc5729510a7d9f368bab3c5dc3b01b9841",
+      "processedAt": "2026-07-16T02:46:43.251Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/07/15/141909": {
+      "contentHash": "819d0f7c371b055b1546f468b65ea63ff2c9472afdf3a554cce1eeea0a0a8b36",
+      "processedAt": "2026-07-16T02:46:44.579Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/07/15/120839": {
+      "contentHash": "3980ce85e153675611bb8a67d559a1a833f09fad2aa8037f9423a981bf2d31ae",
+      "processedAt": "2026-07-16T02:46:45.237Z"
+    },
+    "https://tech.layerx.co.jp/entry/agent-inbox-for-human-judgment": {
+      "contentHash": "5876a3194b7c35a8d2baea46245025a3997306dafac4f15331fd412eb570d4a7",
+      "processedAt": "2026-07-16T02:46:47.150Z"
+    },
+    "https://www.nngroup.com/training/october/": {
+      "contentHash": "722581f3c4c9cb9350f6e99f9c83d70921b381ffca504c20b6f5e79f8d64b99d",
+      "processedAt": "2026-07-16T02:46:49.146Z"
+    },
+    "https://thisweekinreact.com/newsletter/290": {
+      "contentHash": "ed386f3be1c31344352c37eeffd69870db4df3b962ec44d5728201da9ad90494",
+      "processedAt": "2026-07-16T02:46:49.825Z"
     }
   },
-  "lastRun": "2026-07-15T02:39:24.663Z"
+  "lastRun": "2026-07-16T02:46:49.825Z"
 }
