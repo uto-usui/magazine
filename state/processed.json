@@ -32347,7 +32347,79 @@
     "https://thisweekinreact.com/newsletter/290": {
       "contentHash": "ed386f3be1c31344352c37eeffd69870db4df3b962ec44d5728201da9ad90494",
       "processedAt": "2026-07-16T02:46:49.825Z"
+    },
+    "https://addyosmani.com/blog/own-the-outer-loop/": {
+      "contentHash": "a307db4118fd7fd4635e0677290eeca4c131659c016785cea22b4d59e8e8733d",
+      "processedAt": "2026-07-17T02:48:44.338Z"
+    },
+    "https://addyosmani.com/blog/earning-judgment/": {
+      "contentHash": "105bab4a984fe6a2d0424386f8a3ac627dd5fba3c6990392915c6fe751f2367b",
+      "processedAt": "2026-07-17T02:48:44.510Z"
+    },
+    "https://adi.bio/reality": {
+      "contentHash": "750482db1a3085c69c1255a79dca75e521f803247e0ba4a114481844685f4692",
+      "processedAt": "2026-07-17T02:48:45.134Z"
+    },
+    "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/": {
+      "contentHash": "c117ae67e2bcc8ac25f472e50f6f3b3ba98cb50ba72db22378fdeefe33536b5f",
+      "processedAt": "2026-07-17T02:48:59.652Z"
+    },
+    "https://garritfra.github.io/pac-hunt/": {
+      "contentHash": "7e64b20bd9ca537c38193ee42e690f09026e4b909c070a1db79656c2081b33c0",
+      "processedAt": "2026-07-17T02:48:59.794Z"
+    },
+    "https://namethatui.com/": {
+      "contentHash": "2c3a5c2fcaca0a84b434a7a385593b10700802002029f2ba3a9340941bc97c0c",
+      "processedAt": "2026-07-17T02:49:05.314Z"
+    },
+    "https://blakewatson.com/journal/if-i-want-more-irl-i-must-go-afk/": {
+      "contentHash": "300d91440a2a23c86901fa5c96057c6338481b7a0dfb107e2e829f4b3a60f80a",
+      "processedAt": "2026-07-17T02:49:05.574Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-groks-cli-caught-uploading": {
+      "contentHash": "796a634fe449f8536a67543dec283708f151058f6496ea74536bf5667e897b3e",
+      "processedAt": "2026-07-17T02:49:05.831Z"
+    },
+    "https://tympanus.net/codrops/2026/07/16/meet-the-speakers-of-the-first-three-js-conference/": {
+      "contentHash": "98f129d7dcd690cbb6318c20235fa69a768c160e63a26554ea3887dae4fef6a8",
+      "processedAt": "2026-07-17T02:49:07.304Z"
+    },
+    "https://piccalil.li/blog/use-cases-for-aria-expanded/": {
+      "contentHash": "12a43a6ac872d2683aeee3ce6b0ff8302c3837c747550a991c7be7dd20f6adf4",
+      "processedAt": "2026-07-17T02:49:07.761Z"
+    },
+    "https://vercel.com/changelog/runtime-logs-now-show-cache-reasons": {
+      "contentHash": "2e9b694300739429cbce46bb0636bfa9a8342cea5df12483f2633b9b6e56bf93",
+      "processedAt": "2026-07-17T02:49:08.281Z"
+    },
+    "https://vercel.com/changelog/write-utilization-now-available-in-isr-observability": {
+      "contentHash": "1a31387d8cb66969986d61b8c8d74f6eb491af545cf6c16579711a1728ffbc99",
+      "processedAt": "2026-07-17T02:49:08.688Z"
+    },
+    "https://vercel.com/changelog/kimi-k3-is-now-available-on-ai-gateway": {
+      "contentHash": "c7ff4a46c6c7f62ca1eb68394760f5d6f9788081aeb26b2cb655860971604607",
+      "processedAt": "2026-07-17T02:49:09.055Z"
+    },
+    "https://www.figma.com/blog/sightlines-issue-no1/": {
+      "contentHash": "cf41e919fed0dcbcef14d9cec1b0dca44ac5d83920197510d9a3141fd7d81fa0",
+      "processedAt": "2026-07-17T02:49:30.779Z"
+    },
+    "https://www.figma.com/blog/workflow-lab-deploying-designs-directly-with-figma-make/": {
+      "contentHash": "fa94fa0ede41d81e4437e2da8ba0e625e450b50551d4f9960f427628d9719a8f",
+      "processedAt": "2026-07-17T02:50:04.400Z"
+    },
+    "https://zenn.dev/uhyo/articles/react-profession-bench-13": {
+      "contentHash": "32893608f5a664a99d279c302bcc7b0297d1ff922b5a3ce96c5ce665b6b78d1b",
+      "processedAt": "2026-07-17T02:50:04.958Z"
+    },
+    "https://zenn.dev/uhyo/articles/react-profession-bench-12": {
+      "contentHash": "c5e3951b6c7d5a06ecc5afdb6eac73099ddb535100fe827c0410f0e68590c682",
+      "processedAt": "2026-07-17T02:50:05.583Z"
+    },
+    "https://tech.layerx.co.jp/entry/langfuse-clickhouse-read-skip": {
+      "contentHash": "2280327cfd1e01e20dc619b752e9aac3aae3aa882ac104766ba181921d0549f5",
+      "processedAt": "2026-07-17T02:50:07.069Z"
     }
   },
-  "lastRun": "2026-07-16T02:46:49.825Z"
+  "lastRun": "2026-07-17T02:50:07.069Z"
 }
