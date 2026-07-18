@@ -32347,7 +32347,159 @@
     "https://thisweekinreact.com/newsletter/290": {
       "contentHash": "ed386f3be1c31344352c37eeffd69870db4df3b962ec44d5728201da9ad90494",
       "processedAt": "2026-07-16T02:46:49.825Z"
+    },
+    "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/": {
+      "contentHash": "b48488f1b6bb2720eb397556bcc958dbb8ec373a8d940e8f6dd2a7aca4cbdc8b",
+      "processedAt": "2026-07-18T02:40:12.708Z"
+    },
+    "https://addyosmani.com/blog/own-the-outer-loop/": {
+      "contentHash": "a307db4118fd7fd4635e0677290eeca4c131659c016785cea22b4d59e8e8733d",
+      "processedAt": "2026-07-18T02:40:13.510Z"
+    },
+    "https://addyosmani.com/blog/earning-judgment/": {
+      "contentHash": "105bab4a984fe6a2d0424386f8a3ac627dd5fba3c6990392915c6fe751f2367b",
+      "processedAt": "2026-07-18T02:40:13.692Z"
+    },
+    "https://vaughntan.org/bigness": {
+      "contentHash": "9e077216fb6f7e5f9b57358635a87b91bdad217c1a97939886dc69fa49ea3f8f",
+      "processedAt": "2026-07-18T02:40:14.154Z"
+    },
+    "https://yesbrainer.ai/about": {
+      "contentHash": "2a0d0283d9d8bed7783766a2d9febe9b375abab9ba6c7898e750d9effe019a69",
+      "processedAt": "2026-07-18T02:40:20.629Z"
+    },
+    "https://www.itsnicethat.com/articles/creative-career-conundrums-if-you-could-jobs-advice-130726": {
+      "contentHash": "5823f5a15b72a5854be46b23196606127639ed92ba3e6982d14c719282f366a7",
+      "processedAt": "2026-07-18T02:40:21.271Z"
+    },
+    "https://justvibe.com/": {
+      "contentHash": "35edde148210348c0502d075da83bb3df0364bc3b596f9d0f11236067bbee62e",
+      "processedAt": "2026-07-18T02:40:25.663Z"
+    },
+    "https://blog.murphytrueman.com/design-systems-need-evals/": {
+      "contentHash": "db516a592a49280f0cd087a8ad96cdb447fee567f72b2d9c6f540186f5f4e397",
+      "processedAt": "2026-07-18T02:40:25.972Z"
+    },
+    "https://adi.bio/reality": {
+      "contentHash": "750482db1a3085c69c1255a79dca75e521f803247e0ba4a114481844685f4692",
+      "processedAt": "2026-07-18T02:40:26.544Z"
+    },
+    "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/": {
+      "contentHash": "c117ae67e2bcc8ac25f472e50f6f3b3ba98cb50ba72db22378fdeefe33536b5f",
+      "processedAt": "2026-07-18T02:40:40.701Z"
+    },
+    "https://garritfra.github.io/pac-hunt/": {
+      "contentHash": "7e64b20bd9ca537c38193ee42e690f09026e4b909c070a1db79656c2081b33c0",
+      "processedAt": "2026-07-18T02:40:40.936Z"
+    },
+    "https://namethatui.com/": {
+      "contentHash": "2c3a5c2fcaca0a84b434a7a385593b10700802002029f2ba3a9340941bc97c0c",
+      "processedAt": "2026-07-18T02:40:46.377Z"
+    },
+    "https://blakewatson.com/journal/if-i-want-more-irl-i-must-go-afk/": {
+      "contentHash": "300d91440a2a23c86901fa5c96057c6338481b7a0dfb107e2e829f4b3a60f80a",
+      "processedAt": "2026-07-18T02:40:46.642Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-groks-cli-caught-uploading": {
+      "contentHash": "796a634fe449f8536a67543dec283708f151058f6496ea74536bf5667e897b3e",
+      "processedAt": "2026-07-18T02:40:46.922Z"
+    },
+    "https://tympanus.net/codrops/2026/07/17/zero-the-engineering-behind-a-defiant-interactive-narrative/": {
+      "contentHash": "e8a978ef1275a6ac215c853a80cfc6d349687183e649788050c25c057c0d99c2",
+      "processedAt": "2026-07-18T02:40:48.348Z"
+    },
+    "https://tympanus.net/codrops/2026/07/16/meet-the-speakers-of-the-first-three-js-conference/": {
+      "contentHash": "98f129d7dcd690cbb6318c20235fa69a768c160e63a26554ea3887dae4fef6a8",
+      "processedAt": "2026-07-18T02:40:49.463Z"
+    },
+    "https://smashingmagazine.com/2026/07/when-makes-sense-block-main-thread/": {
+      "contentHash": "d4f6f912d1240f35c1c1bfc9d9160471a944d7c890719a6bc87521659932ceb0",
+      "processedAt": "2026-07-18T02:40:50.859Z"
+    },
+    "https://piccalil.li/the-index/191/": {
+      "contentHash": "d9708329bcdb88df19f0e63881c695ae92b395bdec32f37f3633c0562896af94",
+      "processedAt": "2026-07-18T02:40:51.000Z"
+    },
+    "https://piccalil.li/blog/use-cases-for-aria-expanded/": {
+      "contentHash": "12a43a6ac872d2683aeee3ce6b0ff8302c3837c747550a991c7be7dd20f6adf4",
+      "processedAt": "2026-07-18T02:40:51.351Z"
+    },
+    "https://vercel.com/changelog/data-downloaded-by-vercel-sandbox-is-now-free": {
+      "contentHash": "4ca5a0dbd1689b7f5b7992197bea4ff5a9d7ac6e90f1b8e12792d8c2c262f895",
+      "processedAt": "2026-07-18T02:40:51.746Z"
+    },
+    "https://vercel.com/changelog/runtime-logs-now-show-cache-reasons": {
+      "contentHash": "2e9b694300739429cbce46bb0636bfa9a8342cea5df12483f2633b9b6e56bf93",
+      "processedAt": "2026-07-18T02:40:52.347Z"
+    },
+    "https://vercel.com/changelog/glm-5-2-is-35-off-via-novita-on-ai-gateway": {
+      "contentHash": "d35ed1ef3e4b39fb397f7195d26fdd4ece11023c1abcd279ab636cf5da8f5ae6",
+      "processedAt": "2026-07-18T02:40:52.650Z"
+    },
+    "https://vercel.com/changelog/optimized-cdn-caching-and-deploying-of-immutable-static-assets": {
+      "contentHash": "ef1264c6841ff8cf82d386b1fd46fd5daf7d9e5b4e4ac1a22650e3d8a4e434ca",
+      "processedAt": "2026-07-18T02:40:52.961Z"
+    },
+    "https://vercel.com/changelog/vercel-plugin-now-available-in-kimi-code-cli": {
+      "contentHash": "2a09f63e7d6548e84e98266671b8d53881713ddd7afb124b387020abb4d59361",
+      "processedAt": "2026-07-18T02:40:53.536Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-adds-native-slack-agent-support": {
+      "contentHash": "c2f43a326c56be866743f1eceb8bc74defedcc431076551ab5e897275350ff1d",
+      "processedAt": "2026-07-18T02:40:54.412Z"
+    },
+    "https://vercel.com/changelog/write-utilization-now-available-in-isr-observability": {
+      "contentHash": "1a31387d8cb66969986d61b8c8d74f6eb491af545cf6c16579711a1728ffbc99",
+      "processedAt": "2026-07-18T02:40:55.242Z"
+    },
+    "https://vercel.com/changelog/kimi-k3-is-now-available-on-ai-gateway": {
+      "contentHash": "c7ff4a46c6c7f62ca1eb68394760f5d6f9788081aeb26b2cb655860971604607",
+      "processedAt": "2026-07-18T02:40:55.591Z"
+    },
+    "https://www.figma.com/blog/sightlines-issue-no1/": {
+      "contentHash": "cf41e919fed0dcbcef14d9cec1b0dca44ac5d83920197510d9a3141fd7d81fa0",
+      "processedAt": "2026-07-18T02:41:17.033Z"
+    },
+    "https://www.figma.com/blog/workflow-lab-deploying-designs-directly-with-figma-make/": {
+      "contentHash": "fa94fa0ede41d81e4437e2da8ba0e625e450b50551d4f9960f427628d9719a8f",
+      "processedAt": "2026-07-18T02:41:49.744Z"
+    },
+    "https://zenn.dev/uhyo/articles/react-profession-bench-13": {
+      "contentHash": "32893608f5a664a99d279c302bcc7b0297d1ff922b5a3ce96c5ce665b6b78d1b",
+      "processedAt": "2026-07-18T02:41:50.329Z"
+    },
+    "https://zenn.dev/uhyo/articles/react-profession-bench-12": {
+      "contentHash": "c5e3951b6c7d5a06ecc5afdb6eac73099ddb535100fe827c0410f0e68590c682",
+      "processedAt": "2026-07-18T02:41:50.820Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/07/17/181055": {
+      "contentHash": "5922a193d9d4606c571bfd7db75c57004969699be5c418a42cfd0173d85887f9",
+      "processedAt": "2026-07-18T02:41:52.042Z"
+    },
+    "https://tech.smarthr.jp/entry/qa_summit": {
+      "contentHash": "e86531f5aa07423a13cbeb4a6931b7b1f45e392a499e6aee3b0a8f229db8ace9",
+      "processedAt": "2026-07-18T02:41:53.046Z"
+    },
+    "https://tech.layerx.co.jp/entry/langfuse-clickhouse-read-skip": {
+      "contentHash": "2280327cfd1e01e20dc619b752e9aac3aae3aa882ac104766ba181921d0549f5",
+      "processedAt": "2026-07-18T02:41:54.262Z"
+    },
+    "https://www.writewithdrkat.com/blog/ux-writing-in-2026-skills-to-win-the-race": {
+      "contentHash": "62013f28d38485e2f95400951b39bda5954c975f5bf2b2be12fdf5ad7a7c831a",
+      "processedAt": "2026-07-18T02:41:54.694Z"
+    },
+    "https://www.nngroup.com/articles/dropdown-list/": {
+      "contentHash": "c6d42a6ca59ce0a9adcf70ff1cdbdb1ef1a421a8f9b45d9845fb81ad4e49f8c3",
+      "processedAt": "2026-07-18T02:41:55.987Z"
+    },
+    "https://www.nngroup.com/articles/human-led-research-still-matters/": {
+      "contentHash": "36b8d41b095f32dce4ca0dae1f949ea57dc17db54c986de060e80d76777eca76",
+      "processedAt": "2026-07-18T02:41:56.604Z"
+    },
+    "https://react.statuscode.com/issues/483": {
+      "contentHash": "321b3d9f4e39dd203c66aa60a1614905680b93fb702dbdee5a539415c9e36485",
+      "processedAt": "2026-07-18T02:41:57.020Z"
     }
   },
-  "lastRun": "2026-07-16T02:46:49.825Z"
+  "lastRun": "2026-07-18T02:41:57.020Z"
 }
