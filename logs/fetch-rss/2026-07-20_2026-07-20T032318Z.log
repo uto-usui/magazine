@@ -1,0 +1,32 @@
+articles_dir=2026-07-20
+exit_code=0
+timestamp_utc=2026-07-20T03:23:18Z
+
+---- issue lines ----
+10:❌ Playwright failed for Adrian Roselli: HTTP 403
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+🤖 Bot protection detected for Adrian Roselli, trying Playwright...
+⏳ Retry feed fetch 1/3 for Accessibility Weekly after transient error: read ECONNRESET
+❌ Playwright failed for Adrian Roselli: HTTP 403
+📰 Found 5472 total articles
+✨ New articles: 3
+⏭️ Skipped (already processed): 556
+📥 Processing: On the Semantic Web
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-20/on-the-semantic-web.md
+📥 Processing: ImportLintの紹介: import専門の高速なリンター
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-20/importlint-import.md
+📥 Processing: Pixels of the Week – July 19, 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-20/pixels-of-the-week-july-19-2026.md
+
+📊 Summary:
+   ✅ Success: 3
+   ❌ Errors: 0
+🏁 Done!
