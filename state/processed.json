@@ -32499,7 +32499,59 @@
     "https://react.statuscode.com/issues/483": {
       "contentHash": "321b3d9f4e39dd203c66aa60a1614905680b93fb702dbdee5a539415c9e36485",
       "processedAt": "2026-07-18T02:41:57.020Z"
+    },
+    "https://engineering.atspotify.com/2026/7/content-ingestion-and-podcast-video-incident-report/": {
+      "contentHash": "cd9c45564e35989759cbe346a641f9af3a13ec2694beaa5099706964693029e1",
+      "processedAt": "2026-07-21T02:51:42.685Z"
+    },
+    "https://a11yweekly.com/issue/509/": {
+      "contentHash": "54230eb342df0bc5fadcae95a0c7ea7f6044465fba1de777a933e9da27b0368b",
+      "processedAt": "2026-07-21T02:51:52.540Z"
+    },
+    "https://uxdesign.cc/designing-with-web-standards-the-playbook-for-this-ai-moment-92394884dc0d": {
+      "contentHash": "19f1c10a0b6a0f6dec7aec4a127b4c9b21e00ed614ad0c71396a77d47b8421e8",
+      "processedAt": "2026-07-21T02:51:54.624Z"
+    },
+    "https://colorsym.com/": {
+      "contentHash": "25eab2d52f5aae1f9af72d0d0fcca1715b91cfc17ecb6f7d28b7177e78d50c62",
+      "processedAt": "2026-07-21T02:52:01.729Z"
+    },
+    "https://pudding.cool/2026/06/menu-story/": {
+      "contentHash": "ad59c96c0c8b3eda2e3153122b52bb2fbc131330ace2f490497cebfb7ed611bc",
+      "processedAt": "2026-07-21T02:52:06.543Z"
+    },
+    "https://olliewilliams.xyz/blog/no-build/": {
+      "contentHash": "d5ae20e71e10f1c513c77fae042c9de9fe11d70060293fffff6ca5017678ef1d",
+      "processedAt": "2026-07-21T02:52:06.889Z"
+    },
+    "https://tympanus.net/codrops/2026/07/20/the-craft-behind-memorable-digital-experiences-inside-unseen-studio/": {
+      "contentHash": "4ee1c3ecf273dc7abc2bb5f56f100c02f8894bfe393e41c489979142d0aff4f8",
+      "processedAt": "2026-07-21T02:52:08.411Z"
+    },
+    "https://vercel.com/changelog/configure-where-run-state-lives-in-vercel-workflows": {
+      "contentHash": "f048a2d1c4b3e0d7ed4f268b40d1f7e7720e551158653157ca40a4c21d758ad8",
+      "processedAt": "2026-07-21T02:52:08.801Z"
+    },
+    "https://vercel.com/changelog/purge-your-remote-caches-build-and-ci-artifacts": {
+      "contentHash": "3bac209e92d1489c7870558d85f06eccedf65521d74e6c65f32d74da5a0c0378",
+      "processedAt": "2026-07-21T02:52:09.422Z"
+    },
+    "https://zenn.dev/uhyo/articles/async-react-action-queue": {
+      "contentHash": "1ff9f37efbdb2bd80f17ccb8c2989f9690013aad3cb5b1fa45051a7ccfe84339",
+      "processedAt": "2026-07-21T02:52:10.007Z"
+    },
+    "https://zenn.dev/uhyo/articles/import-lint-intro": {
+      "contentHash": "588602a1b8740ffd4220ff355bd5566b159e85644a305e7cdd3e563f4d6786e8",
+      "processedAt": "2026-07-21T02:52:10.515Z"
+    },
+    "https://newsletter.uxdesign.cc/p/taste-cannot-be-delegated": {
+      "contentHash": "63933d4185a8d2ab35593b3250d53c470c70b3831994f952c3573a0ab1592055",
+      "processedAt": "2026-07-21T02:52:10.842Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-july-19-2026/": {
+      "contentHash": "88736ac2e5e698a9545693d38f1bd4146d163898c84257cd5b4a85d9fcd24f43",
+      "processedAt": "2026-07-21T02:52:12.100Z"
     }
   },
-  "lastRun": "2026-07-19T02:54:45.765Z"
+  "lastRun": "2026-07-21T02:52:12.100Z"
 }
