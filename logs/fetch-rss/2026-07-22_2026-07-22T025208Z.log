@@ -1,0 +1,58 @@
+articles_dir=2026-07-22
+exit_code=0
+timestamp_utc=2026-07-22T02:52:08Z
+
+---- issue lines ----
+9:Failed to fetch feed Dan Abramov: 
+
+---- tail (last 50 lines) ----
+📥 Processing: Magnetic Commerce: Building the Dash Creative Website
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-22/magnetic-commerce-building-the-dash-creative-website.md
+📥 Processing: The Craft Behind Memorable Digital Experiences: Inside Unseen Studio
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-22/the-craft-behind-memorable-digital-experiences-inside-unseen-studio.md
+📥 Processing: Weaponizing And Defending The React Flight Protocol: Deserialization Sinks In RSCs
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-22/weaponizing-and-defending-the-react-flight-protocol-deserialization-sinks-in-rscs.md
+📥 Processing: How Searchable ships customer-requested features in 30 minutes on Vercel 
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-22/how-searchable-ships-customer-requested-features-in-30-minutes-on-vercel.md
+📥 Processing: Python function bundles now include precompiled bytecode
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-22/python-function-bundles-now-include-precompiled-bytecode.md
+📥 Processing: Vercel Connect adds 90+ preset connectors
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-22/vercel-connect-adds-90-preset-connectors.md
+📥 Processing: Vercel MCP now supports purchases
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-22/vercel-mcp-now-supports-purchases.md
+📥 Processing: Laguna S 2.1 is now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-22/laguna-s-21-is-now-available-on-ai-gateway.md
+📥 Processing: Gemini 3.6 Flash and Gemini 3.5 Flash-Lite are now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-22/gemini-36-flash-and-gemini-35-flash-lite-are-now-available-on-ai-gateway.md
+📥 Processing: Service tiers now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-22/service-tiers-now-available-on-ai-gateway.md
+📥 Processing: Configure where run state lives in Vercel Workflows
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-22/configure-where-run-state-lives-in-vercel-workflows.md
+📥 Processing: Purge your Remote Cache's build and CI artifacts
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-22/purge-your-remote-caches-build-and-ci-artifacts.md
+📥 Processing: Analyzing the evidence that helps businesses win “product not received” disputes
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-22/analyzing-the-evidence-that-helps-businesses-win-product-not-received-disputes.md
+📥 Processing: Async React時代の宣言的UI 3: useActionStateでユーザーの操作を妨げないUXを作る
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-22/async-reactui-3-useactionstateux.md
+📥 Processing: ImportLintの紹介: import専門の高速なリンター
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-22/importlint-import.md
+📥 Processing: プロダクトエンジニアのAI機能開発の取り組み
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-22/ai.md
+📥 Processing: Taste cannot be delegated
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-22/taste-cannot-be-delegated.md
+📥 Processing: Pixels of the Week – July 19, 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-22/pixels-of-the-week-july-19-2026.md
+📥 Processing: Prefactoring: Clear the Way for Your New Feature
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-22/prefactoring-clear-the-way-for-your-new-feature.md
+
+📊 Summary:
+   ✅ Success: 33
+   ❌ Errors: 0
+🏁 Done!
