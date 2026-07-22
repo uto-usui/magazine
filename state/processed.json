@@ -32499,7 +32499,139 @@
     "https://react.statuscode.com/issues/483": {
       "contentHash": "321b3d9f4e39dd203c66aa60a1614905680b93fb702dbdee5a539415c9e36485",
       "processedAt": "2026-07-18T02:41:57.020Z"
+    },
+    "https://engineering.atspotify.com/2026/7/content-ingestion-and-podcast-video-incident-report/": {
+      "contentHash": "cd9c45564e35989759cbe346a641f9af3a13ec2694beaa5099706964693029e1",
+      "processedAt": "2026-07-22T02:50:45.102Z"
+    },
+    "https://csswizardry.com/2026/07/low-and-mid-tier-mobile-for-the-real-world-2026/": {
+      "contentHash": "5354e63391e07b3628153693368d897fcf6bd4f7d9ee4de2f457c48e0d38c055",
+      "processedAt": "2026-07-22T02:50:47.102Z"
+    },
+    "https://addyosmani.com/blog/software-factories/": {
+      "contentHash": "f9e50f85de6b1dcbd14daf7a4e502bc447f8df25ffd361b6426a14e800321a3b",
+      "processedAt": "2026-07-22T02:51:17.504Z"
+    },
+    "https://a11yweekly.com/issue/509/": {
+      "contentHash": "54230eb342df0bc5fadcae95a0c7ea7f6044465fba1de777a933e9da27b0368b",
+      "processedAt": "2026-07-22T02:51:17.812Z"
+    },
+    "https://hermit-tech.com/blog/ai-mania-is-eviscerating-global-decisionmaking": {
+      "contentHash": "62588c0be5bd5df9dc804f659ab5587464f0a86028fce941536b3b48b5c3eef4",
+      "processedAt": "2026-07-22T02:51:18.407Z"
+    },
+    "https://www.doc.cc/five": {
+      "contentHash": "4b216f7acbd801ae51152b69b17bb443bf08c6e12db73332cb5e160d7aceb943",
+      "processedAt": "2026-07-22T02:51:32.541Z"
+    },
+    "https://replit.com/blog/self-driving-company": {
+      "contentHash": "ebea2d0ec5e601277ae59d1eb8e2253fb8fb98cd8c2bf60f4f8ed7ebe0c37baf",
+      "processedAt": "2026-07-22T02:51:35.727Z"
+    },
+    "https://loading-ui.com/": {
+      "contentHash": "3399634a98e769ca3b5977c6f6f485c32b252a92da70fb9838bdbf02d42cbf9e",
+      "processedAt": "2026-07-22T02:51:37.264Z"
+    },
+    "https://www.itsnicethat.com/articles/matter-of-new-new-typography-graphic-design-publication-project-150726": {
+      "contentHash": "c063290539ef2fa52a449fae63bc5ea50870f24171f134266a066fdd4620c9fe",
+      "processedAt": "2026-07-22T02:51:37.670Z"
+    },
+    "https://uxdesign.cc/designing-with-web-standards-the-playbook-for-this-ai-moment-92394884dc0d": {
+      "contentHash": "19f1c10a0b6a0f6dec7aec4a127b4c9b21e00ed614ad0c71396a77d47b8421e8",
+      "processedAt": "2026-07-22T02:51:40.353Z"
+    },
+    "https://colorsym.com/": {
+      "contentHash": "25eab2d52f5aae1f9af72d0d0fcca1715b91cfc17ecb6f7d28b7177e78d50c62",
+      "processedAt": "2026-07-22T02:51:47.263Z"
+    },
+    "https://pudding.cool/2026/06/menu-story/": {
+      "contentHash": "ad59c96c0c8b3eda2e3153122b52bb2fbc131330ace2f490497cebfb7ed611bc",
+      "processedAt": "2026-07-22T02:51:51.932Z"
+    },
+    "https://olliewilliams.xyz/blog/no-build/": {
+      "contentHash": "d5ae20e71e10f1c513c77fae042c9de9fe11d70060293fffff6ca5017678ef1d",
+      "processedAt": "2026-07-22T02:51:52.628Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/pushing-software-engineering-limits": {
+      "contentHash": "296498fe89b76f41d639524fd387777a2c44d516e4d24d08d35b10733fd30e20",
+      "processedAt": "2026-07-22T02:51:53.431Z"
+    },
+    "https://tympanus.net/codrops/2026/07/21/magnetic-commerce-building-the-dash-creative-website/": {
+      "contentHash": "7b9fd55a9673aa05e992cc77c7df9c9dddc70d5e32eb9cd658602100f97ca472",
+      "processedAt": "2026-07-22T02:51:54.782Z"
+    },
+    "https://tympanus.net/codrops/2026/07/20/the-craft-behind-memorable-digital-experiences-inside-unseen-studio/": {
+      "contentHash": "4ee1c3ecf273dc7abc2bb5f56f100c02f8894bfe393e41c489979142d0aff4f8",
+      "processedAt": "2026-07-22T02:51:55.901Z"
+    },
+    "https://smashingmagazine.com/2026/07/weaponizing-defending-react-flight-protocol/": {
+      "contentHash": "1a9bc101e502c216b27b6b7fa40ceeb47307b8e3d2097695a556dee1aa544d4d",
+      "processedAt": "2026-07-22T02:51:57.252Z"
+    },
+    "https://vercel.com/blog/how-searchable-ships-customer-requested-features-in-30-minutes-on-vercel": {
+      "contentHash": "5ddeb3eaa4c5fc51d9b511e38d18cb88f63a9544af4222764ce0841911c96656",
+      "processedAt": "2026-07-22T02:51:57.700Z"
+    },
+    "https://vercel.com/changelog/python-function-bundles-now-include-precompiled-bytecode": {
+      "contentHash": "9780c21172eae822ac339e07eb33130bc219ef61bac71da2b105a488df131300",
+      "processedAt": "2026-07-22T02:51:58.057Z"
+    },
+    "https://vercel.com/changelog/vercel-connect-preset-connectors": {
+      "contentHash": "4cf32c762e8e0f0e2146cf4f01d1ffbf554ffcb3a8d9ad352e934192759bf72f",
+      "processedAt": "2026-07-22T02:51:58.484Z"
+    },
+    "https://vercel.com/changelog/vercel-mcp-now-supports-purchases": {
+      "contentHash": "94ab0b2008ce82265f729366b7538064dc22c98f644d7fe9f199c1699e9dfeb8",
+      "processedAt": "2026-07-22T02:51:58.840Z"
+    },
+    "https://vercel.com/changelog/laguna-s-2-1-is-now-available-on-ai-gateway": {
+      "contentHash": "9f280a247f4fbe14a0a5cc298ae3069063235018c5c48927d7b7bfa84fa631cf",
+      "processedAt": "2026-07-22T02:51:59.234Z"
+    },
+    "https://vercel.com/changelog/gemini-3-6-flash-3-5-flash-lite-on-ai-gateway": {
+      "contentHash": "46ea4930a057f8312111b4f4060682c3bd9d62ad07407cb64480367530c63da1",
+      "processedAt": "2026-07-22T02:51:59.575Z"
+    },
+    "https://vercel.com/changelog/service-tiers-now-available-on-ai-gateway": {
+      "contentHash": "ebbe5e88ca83fd45d19c9242c4f8e44bb7b8831c444d414ff21aa5ca3db993e5",
+      "processedAt": "2026-07-22T02:51:59.979Z"
+    },
+    "https://vercel.com/changelog/configure-where-run-state-lives-in-vercel-workflows": {
+      "contentHash": "f048a2d1c4b3e0d7ed4f268b40d1f7e7720e551158653157ca40a4c21d758ad8",
+      "processedAt": "2026-07-22T02:52:00.341Z"
+    },
+    "https://vercel.com/changelog/purge-your-remote-caches-build-and-ci-artifacts": {
+      "contentHash": "3bac209e92d1489c7870558d85f06eccedf65521d74e6c65f32d74da5a0c0378",
+      "processedAt": "2026-07-22T02:52:00.787Z"
+    },
+    "https://stripe.com/blog/analyzing-the-evidence-that-helps-businesses-win-product-not-received-disputes": {
+      "contentHash": "c2dc525dc0a8f9818d891128a58654404099216a74faa8beb58ff3994ee986c1",
+      "processedAt": "2026-07-22T02:52:01.426Z"
+    },
+    "https://zenn.dev/uhyo/articles/async-react-action-queue": {
+      "contentHash": "1ff9f37efbdb2bd80f17ccb8c2989f9690013aad3cb5b1fa45051a7ccfe84339",
+      "processedAt": "2026-07-22T02:52:02.461Z"
+    },
+    "https://zenn.dev/uhyo/articles/import-lint-intro": {
+      "contentHash": "588602a1b8740ffd4220ff355bd5566b159e85644a305e7cdd3e563f4d6786e8",
+      "processedAt": "2026-07-22T02:52:02.949Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/07/21/162031": {
+      "contentHash": "c2c4cdc164e76e22fbe928429816781b2b316febd3393d74437f8c6228d4f458",
+      "processedAt": "2026-07-22T02:52:04.787Z"
+    },
+    "https://newsletter.uxdesign.cc/p/taste-cannot-be-delegated": {
+      "contentHash": "63933d4185a8d2ab35593b3250d53c470c70b3831994f952c3573a0ab1592055",
+      "processedAt": "2026-07-22T02:52:05.732Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-july-19-2026/": {
+      "contentHash": "88736ac2e5e698a9545693d38f1bd4146d163898c84257cd5b4a85d9fcd24f43",
+      "processedAt": "2026-07-22T02:52:07.038Z"
+    },
+    "http://testing.googleblog.com/2026/07/prefactoring-clear-way-for-your-new.html": {
+      "contentHash": "25cd131bf4f702f51b866e165328129c3cef72710d10f1d0ee43cb9cbc262fd9",
+      "processedAt": "2026-07-22T02:52:07.800Z"
     }
   },
-  "lastRun": "2026-07-19T02:54:45.765Z"
+  "lastRun": "2026-07-22T02:52:07.800Z"
 }
