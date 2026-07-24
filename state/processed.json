@@ -32631,7 +32631,119 @@
     "http://testing.googleblog.com/2026/07/prefactoring-clear-way-for-your-new.html": {
       "contentHash": "25cd131bf4f702f51b866e165328129c3cef72710d10f1d0ee43cb9cbc262fd9",
       "processedAt": "2026-07-22T02:52:07.800Z"
+    },
+    "https://uxdesign.cc/ai-personality-is-a-design-problem-58fbc7926a3d?sk=b159b61f2abcb25776fd87985724be7e": {
+      "contentHash": "56ce2de0dba0c4a2db85881c47fcca4c6d3f079baf38ddbbb3b12f3276511ccc",
+      "processedAt": "2026-07-24T02:50:25.330Z"
+    },
+    "https://uncovered.ink/": {
+      "contentHash": "990b6707cc393fc2536ea363c3e3067b79fef9e3f555c5dbc4e8d7e9320d0f30",
+      "processedAt": "2026-07-24T02:50:25.778Z"
+    },
+    "https://www.philmorton.co/a-side-project-is-the-fastest-way-to-upskill-in-the-age-of-ai/": {
+      "contentHash": "cda21e6e33ca7532ce428a018a805789d38ab6b6119f420452f78bc0bc8d300e",
+      "processedAt": "2026-07-24T02:50:25.973Z"
+    },
+    "https://www.youtube.com/watch?v=ZqGSg4b_cZA": {
+      "contentHash": "9f0509e146a828cdff5df03c4d9cdc23294607b374d422ef483dec5de36bdf14",
+      "processedAt": "2026-07-24T02:50:37.145Z"
+    },
+    "https://www.carmenansio.com/articles/editorial-typography-css/": {
+      "contentHash": "92ea0b2815ec9eeba9c3f148cd9306ea89bc23cce13e2585e104b22b7cad1f02",
+      "processedAt": "2026-07-24T02:50:37.485Z"
+    },
+    "https://parakeet.co/blog/the-shape-of-apps/": {
+      "contentHash": "eb070be638aa4e7a51f6971c9ddb46255af35b260ae06f997823bcd479c41ef2",
+      "processedAt": "2026-07-24T02:50:38.362Z"
+    },
+    "https://noclip.website/": {
+      "contentHash": "94b67ef1818142e05732330640aa5aa953fc5e2b1c2138956fd91df484d86edc",
+      "processedAt": "2026-07-24T02:50:43.692Z"
+    },
+    "https://karolinaszczur.com/journal/against-design-system-federation/": {
+      "contentHash": "aa8a69c574957c00edf54a0e20db0250b03e9fda7656767f917327a4071b2c29",
+      "processedAt": "2026-07-24T02:50:44.206Z"
+    },
+    "https://franktisellano.github.io/datatype/": {
+      "contentHash": "73254573891ecdae3ee5e61e1b294d1f4d18533860205145ff46b0593ff02a2b",
+      "processedAt": "2026-07-24T02:50:44.405Z"
+    },
+    "https://layers.jamiemill.com/": {
+      "contentHash": "55e5e4e99994e2d654dd1448bd03e456921c0be7859d80717fe0023793b99f58",
+      "processedAt": "2026-07-24T02:50:44.744Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-quitting-spotify-podcasts": {
+      "contentHash": "3883c46be913a45220cffaea48c653a3e644a2b86348ac15480d2d919928f017",
+      "processedAt": "2026-07-24T02:50:44.913Z"
+    },
+    "https://tympanus.net/codrops/2026/07/23/building-cerebrium-making-serverless-infrastructure-tangible/": {
+      "contentHash": "0d53c36aedf1cefe42943dc41ff2baba51527bedb75791dd7b56e9d35ab9381a",
+      "processedAt": "2026-07-24T02:50:46.295Z"
+    },
+    "https://tympanus.net/codrops/2026/07/22/building-ridgeline-engineering-a-real-time-3d-experience-in-webflow/": {
+      "contentHash": "9b36f253da1f99c527ef6557511a58b1695918389749ec2760781a08cedaefdb",
+      "processedAt": "2026-07-24T02:50:47.276Z"
+    },
+    "https://bradfrost.com/blog/post/coming-up-for-air/": {
+      "contentHash": "ed2563efb70a09b95745899be69163a269f9ebafd330752aeb577bedffb35b87",
+      "processedAt": "2026-07-24T02:50:47.712Z"
+    },
+    "https://bradfrost.com/links/post/design-system-maturity-model-zeroheight/": {
+      "contentHash": "235a7c393c99b0ff17a676edea6794ecd1f8ce758633e96a5b6af5193b6c5ae6",
+      "processedAt": "2026-07-24T02:50:47.976Z"
+    },
+    "https://vercel.com/changelog/evaluation-metrics-for-vercel-flags": {
+      "contentHash": "6cbe72ecd203f311e19b105aacf1dfe6c6a9c62395da7b54a33bb851a36a2d24",
+      "processedAt": "2026-07-24T02:50:48.375Z"
+    },
+    "https://vercel.com/changelog/connect-to-and-manage-sandboxes-from-the-dashboard": {
+      "contentHash": "84be06a012d45f306bbbea471f28f9adc15c8dacbd8b24c66a1a8281d1104ce0",
+      "processedAt": "2026-07-24T02:50:49.165Z"
+    },
+    "https://vercel.com/changelog/inspect-feature-flag-history-with-vercel-cli": {
+      "contentHash": "785b3032846912a729558e7ff58bc2e9619df23f755c6ecb0c9e008a0a3d7a17",
+      "processedAt": "2026-07-24T02:50:49.437Z"
+    },
+    "https://vercel.com/changelog/github-tools-eve-extension": {
+      "contentHash": "a78c3857f71ead95d47a0d028ef57f3a74f1ce9e0c4af7d04e0503d54123f813",
+      "processedAt": "2026-07-24T02:50:49.790Z"
+    },
+    "https://vercel.com/changelog/ling-3-0-flash-is-now-available-on-ai-gateway": {
+      "contentHash": "9e9cb8d6a99235f46dec31ca603d33b832c8dcdb5d8d339c4787865d1ce8a533",
+      "processedAt": "2026-07-24T02:50:50.097Z"
+    },
+    "https://vercel.com/changelog/vercel-mcp-can-now-deploy-code": {
+      "contentHash": "9534bef6329d0d9fc0388b1dc428c8973b610ffcdee1ae3dc2d538e1308d5440",
+      "processedAt": "2026-07-24T02:50:50.460Z"
+    },
+    "https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription": {
+      "contentHash": "cd36441906a3206f39009e3d71f3d4a169e0b052b9a5448e9f97ef90ba662802",
+      "processedAt": "2026-07-24T02:50:50.754Z"
+    },
+    "https://vercel.com/changelog/eve-extensions": {
+      "contentHash": "cb4c0df1866739554499f423195a09d861bf19c1fc6b9d21d633a9180f02399c",
+      "processedAt": "2026-07-24T02:50:51.077Z"
+    },
+    "https://www.figma.com/blog/how-figma-stays-ahead-of-vulnerabilities-with-agents/": {
+      "contentHash": "42f9fbf9cd1277a23ccec2098b7f16186b76198bf6f2e1e45ee434c1c6b515d5",
+      "processedAt": "2026-07-24T02:51:21.291Z"
+    },
+    "https://frontendfoc.us/issues/751": {
+      "contentHash": "7b15bdf3aceb901d8ccf85b3c0e1f60fe8d08ea7762ef6e488eaa991393eb0e2",
+      "processedAt": "2026-07-24T02:51:21.935Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/07/24/104500": {
+      "contentHash": "f3c9a6aa817e8177c9a2f82b6faca0ec12032d91deaf6455789718b906a84776",
+      "processedAt": "2026-07-24T02:51:24.951Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/07/22/150006": {
+      "contentHash": "ad7b530bdce39a8f1bb5b0afec4c4036cbd01f817aa880eedba63a9ac02ebd16",
+      "processedAt": "2026-07-24T02:51:25.762Z"
+    },
+    "https://thisweekinreact.com/newsletter/291": {
+      "contentHash": "847f31e3cff2b2074dc2680a5c37f70a6006cbc322e24c78cd9c670fa0be6bba",
+      "processedAt": "2026-07-24T02:51:26.347Z"
     }
   },
-  "lastRun": "2026-07-22T02:52:07.800Z"
+  "lastRun": "2026-07-24T02:51:26.347Z"
 }
