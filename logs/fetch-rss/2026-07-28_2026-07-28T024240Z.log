@@ -1,0 +1,58 @@
+articles_dir=2026-07-28
+exit_code=0
+timestamp_utc=2026-07-28T02:42:40Z
+
+---- issue lines ----
+12:Failed to fetch feed Sidebar: Status code 502
+
+---- tail (last 50 lines) ----
+⏳ Retry feed fetch 1/3 for Accessibility Weekly after transient error: Request timed out after 15000ms
+⏳ Retry feed fetch 1/3 for Sidebar after transient error: Request timed out after 15000ms
+⏳ Retry feed fetch 1/3 for CSS IRL after transient error: Request timed out after 15000ms
+⏳ Retry feed fetch 1/3 for Frontend Weekly Tokyo after transient error: Request timed out after 15000ms
+Failed to fetch feed Sidebar: Status code 502
+📰 Found 5494 total articles
+✨ New articles: 16
+⏭️ Skipped (already processed): 596
+📥 Processing: Indexing the Data Lake for Online Point Queries
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-28/indexing-the-data-lake-for-online-point-queries.md
+📥 Processing: Measuring Component Performance with the Container Timing API
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-28/measuring-component-performance-with-the-container-timing-api.md
+📥 Processing: Artificial Intelligence, History, and Blindness: Lessons and Musings
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-28/artificial-intelligence-history-and-blindness-lessons-and-musings.md
+📥 Processing: Between Print and Digital: The Making of MERSI’s Website
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-28/between-print-and-digital-the-making-of-mersis-website.md
+📥 Processing: AIがChromeを自分で見る時代へ。Chrome DevTools for agents入門
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-28/aichromechrome-devtools-for-agents.md
+📥 Processing: Regional inference now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-28/regional-inference-now-available-on-ai-gateway.md
+📥 Processing: eve adds new Slack event hooks and session controls
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-28/eve-adds-new-slack-event-hooks-and-session-controls.md
+📥 Processing: DeepsecBench: evaluating model performance in finding cybersecurity vulnerabilities
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-28/deepsecbench-evaluating-model-performance-in-finding-cybersecurity-vulnerabilities.md
+📥 Processing: WebSocket support for OpenAI Responses API live on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-28/websocket-support-for-openai-responses-api-live-on-ai-gateway.md
+📥 Processing: Nuxt July 2026 security advisory
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-28/nuxt-july-2026-security-advisory.md
+📥 Processing: Kimi K3 and Kimi K3 Fast with ZDR and US-based providers now on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-28/kimi-k3-and-kimi-k3-fast-with-zdr-and-us-based-providers-now-on-ai-gateway.md
+📥 Processing: Run Claude Managed Agents with Chat SDK
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-28/run-claude-managed-agents-with-chat-sdk.md
+📥 Processing: 【速報】Opus 5、React習熟度ベンチマークで余裕のFable 5超え
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-28/opus-5reactfable-5.md
+📥 Processing: SigmaでMicrosoft Entra IDによるSingle Sign-On及びSCIMプロビジョニングを有効化する
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-28/sigmamicrosoft-entra-idsingle-sign-onscim.md
+📥 Processing: We’ve rebuilt our Fundamentals of UX Writing course
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-28/weve-rebuilt-our-fundamentals-of-ux-writing-course.md
+📥 Processing: Designers after the badge comes off
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-28/designers-after-the-badge-comes-off.md
+
+📊 Summary:
+   ✅ Success: 16
+   ❌ Errors: 0
+🏁 Done!
