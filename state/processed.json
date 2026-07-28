@@ -32799,7 +32799,71 @@
     "https://react.statuscode.com/issues/484": {
       "contentHash": "b1e7d0af732d66d5f65608b1ce2759c1bdb58c5adcce7a901aab95ca2f159933",
       "processedAt": "2026-07-25T02:51:33.408Z"
+    },
+    "https://engineering.atspotify.com/2026/7/indexing-the-data-lake-for-online-point-queries/": {
+      "contentHash": "3cbd2341ad7e776ba82ff5cb7ef64aa159e1490b41f7d4a12be67ad7add9962f",
+      "processedAt": "2026-07-28T02:42:28.293Z"
+    },
+    "https://csswizardry.com/2026/07/meaasuring-component-performance-with-the-container-timing-api/": {
+      "contentHash": "b95498ed3f4f87613d1f1514f908e041337fe67462d4ad0203d9c9f523374234",
+      "processedAt": "2026-07-28T02:42:29.367Z"
+    },
+    "https://a11yweekly.com/issue/510/": {
+      "contentHash": "526e9464daa7305251e5c8666ebac4b2f0e7af4f4f7da4d3bef36d2af4d2f22d",
+      "processedAt": "2026-07-28T02:42:29.643Z"
+    },
+    "https://tympanus.net/codrops/2026/07/27/between-print-and-digital-the-making-of-mersis-website/": {
+      "contentHash": "e6cf92a15dbd466ea2eeaa787489e78795a752ece0dc087f8303120086915bca",
+      "processedAt": "2026-07-28T02:42:31.250Z"
+    },
+    "https://ics.media/entry/260727/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-07-28T02:42:32.340Z"
+    },
+    "https://vercel.com/changelog/regional-inference-now-available-on-ai-gateway": {
+      "contentHash": "4099ee09251690284a86f12b5fa1f02285898c38c1f5c7b1766fabde7fe49f54",
+      "processedAt": "2026-07-28T02:42:32.819Z"
+    },
+    "https://vercel.com/changelog/eve-adds-new-slack-event-hooks-and-session-controls": {
+      "contentHash": "eb4569bf013731846dcf6c784335bdd3add95519d41aad7bcf124bd4868d11f8",
+      "processedAt": "2026-07-28T02:42:33.426Z"
+    },
+    "https://vercel.com/blog/deepsecbench-evaluating-model-performance-in-finding-cybersecurity-vulnerabilities": {
+      "contentHash": "b844945525bfb792496603c6f74a2078f2205f3e9a76468038a53a718083882e",
+      "processedAt": "2026-07-28T02:42:34.116Z"
+    },
+    "https://vercel.com/changelog/websocket-support-for-openai-responses-api-live-on-ai-gateway": {
+      "contentHash": "a1156d7681052e5c5e2c64e258e53fa201d4d19d16b0735fc4d0194756759ca1",
+      "processedAt": "2026-07-28T02:42:34.579Z"
+    },
+    "https://vercel.com/changelog/nuxt-july-2026-security-advisory": {
+      "contentHash": "a4c431a2e64e8f00bd902c5c500ed5570e734ae7b1c4284a0e0abdb450ebe794",
+      "processedAt": "2026-07-28T02:42:35.019Z"
+    },
+    "https://vercel.com/changelog/kimi-k3-and-kimi-k3-fast-on-ai-gateway": {
+      "contentHash": "100285a34de76a99606aad44cb291559059ff169197cb7221a93e1c726076b23",
+      "processedAt": "2026-07-28T02:42:35.556Z"
+    },
+    "https://vercel.com/changelog/claude-managed-agents-with-chat-sdk": {
+      "contentHash": "3a9783e3414d61d16235dfee8e3a0b5507af8dad18a236306219ec3551bfe643",
+      "processedAt": "2026-07-28T02:42:35.967Z"
+    },
+    "https://zenn.dev/uhyo/articles/react-profession-bench-14": {
+      "contentHash": "272fccae85075dbe8f43596e76edb973a578fe8c653988ba4dc4ebd9435870aa",
+      "processedAt": "2026-07-28T02:42:36.499Z"
+    },
+    "https://tech.layerx.co.jp/entry/sigma-sso-scim": {
+      "contentHash": "6e0ea00163e19685bb7b4460dfc7e29841709702df891828435ab1c483432aae",
+      "processedAt": "2026-07-28T02:42:37.666Z"
+    },
+    "https://uxcontent.com/weve-rebuilt-our-fundamentals-of-ux-writing-course/": {
+      "contentHash": "1eb5ce444149f7d2773322c117ec4e63f13bb47e6e5e4bed6f697274d95fd89e",
+      "processedAt": "2026-07-28T02:42:39.075Z"
+    },
+    "https://newsletter.uxdesign.cc/p/designers-after-the-badge-comes-off": {
+      "contentHash": "37db7708ee7f0bdb2de5552f5c27c5f896cf66492719620ab852b55349d7a4c6",
+      "processedAt": "2026-07-28T02:42:39.374Z"
     }
   },
-  "lastRun": "2026-07-26T02:57:46.748Z"
+  "lastRun": "2026-07-28T02:42:39.374Z"
 }
