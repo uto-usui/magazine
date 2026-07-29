@@ -32863,7 +32863,87 @@
     "https://newsletter.uxdesign.cc/p/designers-after-the-badge-comes-off": {
       "contentHash": "37db7708ee7f0bdb2de5552f5c27c5f896cf66492719620ab852b55349d7a4c6",
       "processedAt": "2026-07-28T02:42:39.374Z"
+    },
+    "https://pydantic.dev/articles/the-human-in-the-loop-is-tired": {
+      "contentHash": "859dae7dac6a759a8275e8f39df9b68ed8a5ffa58e4eab87dd7132e2c2f3b42e",
+      "processedAt": "2026-07-29T02:48:46.694Z"
+    },
+    "https://www.larp.website/": {
+      "contentHash": "0fa9a6687e612937478ae9e6bdad7b76069895225d71aabdd2bc2c8ddec73560",
+      "processedAt": "2026-07-29T02:48:47.004Z"
+    },
+    "https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok": {
+      "contentHash": "d7c2e016e7237ddd3ad6363a5120a8619cbffb59eae85ba144705dc0b52bd80b",
+      "processedAt": "2026-07-29T02:48:51.953Z"
+    },
+    "https://www.ciggies.app/": {
+      "contentHash": "900719cfe46416c65c38500b1452ec1c0cd14e9724a6dc23385a61b322ae837f",
+      "processedAt": "2026-07-29T02:48:57.937Z"
+    },
+    "https://rauno.me/notes/2": {
+      "contentHash": "96e9af27b8c1db09d397da779bf0d5c90966b1d06645e1a9ee27750767b20467",
+      "processedAt": "2026-07-29T02:48:58.496Z"
+    },
+    "https://bit.ly/uxc-dre1": {
+      "contentHash": "c9c5f1734cf0899daf4ddf153761a05c0b662fe0cbedbcc26b485b8b509add70",
+      "processedAt": "2026-07-29T02:48:59.735Z"
+    },
+    "https://allen.hutchison.org/2025/11/28/the-era-of-personal-software/": {
+      "contentHash": "354f8cb9ac9842b781910c09b06ae40ebf6f69b77ecf0e3e9e9ed078ba9a6c05",
+      "processedAt": "2026-07-29T02:49:00.124Z"
+    },
+    "https://platform.claude.com/cookbook/": {
+      "contentHash": "bbdbb2ea4dd746f182429be7fd40ab3ea600afb566cb6ef3de85e5d807f81d3f",
+      "processedAt": "2026-07-29T02:49:00.979Z"
+    },
+    "https://www.pigeonsandplanes.com/read/music-piracy-what-cd-oink-nine-inch-nails-streaming": {
+      "contentHash": "1f3ce1faa972012cc2357405c8af8d080573e5b3fadb8d86cdb96fe28523996f",
+      "processedAt": "2026-07-29T02:49:01.484Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/inside-anthropic": {
+      "contentHash": "8a561c85edbb2dd637d7a7f32cab270a2600510d565cc4ea828bc085cd59432b",
+      "processedAt": "2026-07-29T02:49:01.867Z"
+    },
+    "https://smashingmagazine.com/2026/07/digital-design-ai-era/": {
+      "contentHash": "cd6ecbb6945d6bb5eb9046c95346de605afbca87b8caa0e1b21d853a00ba5d7a",
+      "processedAt": "2026-07-29T02:49:03.234Z"
+    },
+    "https://www.bitovi.com/blog/using-ai-to-speed-up-npm-package-upgrades": {
+      "contentHash": "e1d48d999ba11e339d4d523c27328d23f1159ea1408ea6c7e0f6912fd7d07882",
+      "processedAt": "2026-07-29T02:49:03.401Z"
+    },
+    "https://jakearchibald.com/2026/my-tooltip-a11y-mistake/": {
+      "contentHash": "69225f5f9a9a2f0634cf003c99fd0e8ee4455b15fc382bb24d1b8b714c0887f8",
+      "processedAt": "2026-07-29T02:49:03.527Z"
+    },
+    "https://vercel.com/changelog/vercel-sandbox-supports-forking": {
+      "contentHash": "5c8f33a6404058463a0ebfe692793591c21061f8fc7620a88f062f7bb9df36c7",
+      "processedAt": "2026-07-29T02:49:03.924Z"
+    },
+    "https://vercel.com/changelog/vercel-connect-now-supports-custom-environments": {
+      "contentHash": "e31e849948cf1256e96a5dcf8f1b8ee03069380e618332e6f7e4ee7121dee46b",
+      "processedAt": "2026-07-29T02:49:04.259Z"
+    },
+    "https://vercel.com/blog/how-sandstone-grew-40x-in-147-days-on-vercel": {
+      "contentHash": "ce40b0c2bec29b3781110421c01e458e326e3dccc32cb00bfe8dcfeeac7dc173",
+      "processedAt": "2026-07-29T02:49:04.984Z"
+    },
+    "https://vercel.com/changelog/websocket-support-is-now-available-for-python-functions": {
+      "contentHash": "a717380df8a409a69ea47a4142fd16a87001978c31101f87343b444e18ca098d",
+      "processedAt": "2026-07-29T02:49:05.340Z"
+    },
+    "https://www.figma.com/blog/the-visual-identity-behind-config-2026/": {
+      "contentHash": "25176a59c342f04d0245473497be3713c80c588de46b5cd74118f5d40de1b877",
+      "processedAt": "2026-07-29T02:49:47.491Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/07/28/114357": {
+      "contentHash": "b88657584b6ba6a5c98b7759863d27e89067651bca1ffc75f1a939502507285f",
+      "processedAt": "2026-07-29T02:49:48.277Z"
+    },
+    "https://feeds.baymard.com/link/9825/17390037/internet-service-providers-ux-benchmark-2026": {
+      "contentHash": "4c3adb8b000b4897cdcaa8e4a31adc91b273618c3f706d2a8fd5c49c7999ffea",
+      "processedAt": "2026-07-29T02:49:55.314Z"
     }
   },
-  "lastRun": "2026-07-28T02:42:39.374Z"
+  "lastRun": "2026-07-29T02:49:55.314Z"
 }
