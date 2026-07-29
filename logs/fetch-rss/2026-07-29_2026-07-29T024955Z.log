@@ -1,0 +1,60 @@
+articles_dir=2026-07-29
+exit_code=0
+timestamp_utc=2026-07-29T02:49:55Z
+
+---- issue lines ----
+10:❌ Playwright failed for Nielsen Norman Group: HTTP 403
+22:⚠️ Readability bug detected ([object Object]): https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok
+25:⚠️ Readability bug detected ([object Object]): https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-29/rauno-freibergs-field-note-2.md
+📥 Processing: Visualize striking 3D embellishment mockups
+Image unavailable (HTTP 404), skipping: https://bit.ly/_app/immutable/assets/dreamcomposer-mockup.PlbAMvi8.png
+Image unavailable (HTTP 404), skipping: https://bit.ly/_app/immutable/assets/pdf-model.D6muFUv0.png
+Image unavailable (HTTP 404), skipping: https://bit.ly/_app/immutable/assets/champagne.B8uPLCPR.png
+Image unavailable (HTTP 404), skipping: https://bit.ly/_app/immutable/assets/champagne-variations.Dxf5ra5P.png
+Image unavailable (HTTP 404), skipping: https://bit.ly/_app/immutable/assets/constantin.DlRTX2hp.png
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-29/visualize-striking-3d-embellishment-mockups.md
+📥 Processing: The era of personal software
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-29/the-era-of-personal-software.md
+📥 Processing: Claude Cookbook
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-29/claude-cookbook.md
+📥 Processing: The lost joy of music piracy
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-29/the-lost-joy-of-music-piracy.md
+📥 Processing: How building software is changing at Anthropic
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-29/how-building-software-is-changing-at-anthropic.md
+📥 Processing: Thinking Outside The Box: Digital Design In The AI Era
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-29/thinking-outside-the-box-digital-design-in-the-ai-era.md
+📥 Processing: Using AI to Speed up NPM Package Upgrades
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-29/using-ai-to-speed-up-npm-package-upgrades.md
+📥 Processing: Fixing my tooltip accessibility mistake
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-29/fixing-my-tooltip-accessibility-mistake.md
+📥 Processing: Vercel Sandbox supports forking
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-29/vercel-sandbox-supports-forking.md
+📥 Processing: Vercel Connect now supports Custom Environments
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-29/vercel-connect-now-supports-custom-environments.md
+📥 Processing: How Sandstone grew 40x in 147 days on Vercel
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-29/how-sandstone-grew-40x-in-147-days-on-vercel.md
+📥 Processing: WebSocket support is now available for Python Functions
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-29/websocket-support-is-now-available-for-python-functions.md
+📥 Processing: Digital tools, human expression: The visual identity behind Config 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-29/digital-tools-human-expression-the-visual-identity-behind-config-2026.md
+📥 Processing: ディスカバリーリードに挑戦して学んだこと 〜プロダクトエンジニアが上流工程を主導するまで〜
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-29/smarthr-07-28-114357.md
+📥 Processing: Internet Service Providers UX Benchmark: 1,700+ Performance Scores and 1,100+ Best Practice Examples
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-07-29/internet-service-providers-ux-benchmark-1700-performance-scores-and-1100-best-practice-examples.md
+
+📊 Summary:
+   ✅ Success: 20
+   ❌ Errors: 0
+🏁 Done!
