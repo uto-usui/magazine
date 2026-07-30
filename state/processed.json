@@ -32943,7 +32943,83 @@
     "https://feeds.baymard.com/link/9825/17390037/internet-service-providers-ux-benchmark-2026": {
       "contentHash": "4c3adb8b000b4897cdcaa8e4a31adc91b273618c3f706d2a8fd5c49c7999ffea",
       "processedAt": "2026-07-29T02:49:55.314Z"
+    },
+    "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/": {
+      "contentHash": "fffb4272340d19b746c17599ab3ae4b24be2c25ed95873247973fcecef8daba7",
+      "processedAt": "2026-07-30T02:33:36.405Z"
+    },
+    "https://uxdesign.cc/information-architecture-is-the-foundation-artificial-intelligence-is-starving-for-1d91fb5bf59f": {
+      "contentHash": "2d876877efe58df22e0b17080f3d72d7af437af71998d795851ee01c9ad5dbc8",
+      "processedAt": "2026-07-30T02:33:37.894Z"
+    },
+    "https://www.compactmag.com/article/how-podcasts-ruined-america/": {
+      "contentHash": "e72c72440d9a450ea9b2d99064b89894173b173e771bff101e29abdd6fcd99ba",
+      "processedAt": "2026-07-30T02:33:38.170Z"
+    },
+    "https://www.philschmid.de/evocode-bench": {
+      "contentHash": "aac6946229d056fe2da726a4d1f29a8f57f7755c0d9935533e121660f5db1a3a",
+      "processedAt": "2026-07-30T02:33:38.571Z"
+    },
+    "https://www.jstools.space/blog/url-design-routing-query-parameters-fragments/": {
+      "contentHash": "93ee129d09dbcb0ac9c6c9534b60af436d75ad26673bdb00cc26b5a3f306bfe7",
+      "processedAt": "2026-07-30T02:33:39.459Z"
+    },
+    "https://www.adamhjk.com/blog/a-practical-guide-to-reducing-token-spend/": {
+      "contentHash": "6e8a02443636c97f6b04fd2ee3d61b8d080068ca03112a9b9c6cdb6d413d832b",
+      "processedAt": "2026-07-30T02:33:39.685Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/formal-methods-with-hillel-wayne": {
+      "contentHash": "c31a11099bbd01abef5da7d18b3e59b1df62049693b2057029c76cd45e2cae91",
+      "processedAt": "2026-07-30T02:33:40.053Z"
+    },
+    "https://tympanus.net/codrops/2026/07/29/studio-freight-moving-missions-forward/": {
+      "contentHash": "cbbcd40a7ee8a679b37041ec8af785a2747c7d209a55ac99327e32c94dba252d",
+      "processedAt": "2026-07-30T02:33:41.341Z"
+    },
+    "https://smashingmagazine.com/2026/07/bull-and-bear-case-digital-design-age-ai/": {
+      "contentHash": "f51017d99073d9ec3ce2eecd9817440c94b197e1c9d27a92cfc80226b1959500",
+      "processedAt": "2026-07-30T02:33:42.749Z"
+    },
+    "https://vercel.com/changelog/edge-config-is-now-global-config": {
+      "contentHash": "9c8b00c41105cb3505201c56d5f3ec8dfc3819c4975f481652f8edce46983e43",
+      "processedAt": "2026-07-30T02:33:43.506Z"
+    },
+    "https://vercel.com/changelog/ai-gateway-adds-unified-fast-mode-support": {
+      "contentHash": "27443e512f98138d3460bee814ae2646a55a97e0d299a2810abc2550b070d9e7",
+      "processedAt": "2026-07-30T02:33:43.899Z"
+    },
+    "https://vercel.com/changelog/sign-in-with-chatgpt-is-now-available-on-vercel": {
+      "contentHash": "ba8b7cd76a810426212d2a5b6bd5c036a0312c244a386927f3271fa8384c1688",
+      "processedAt": "2026-07-30T02:33:44.353Z"
+    },
+    "https://vercel.com/changelog/additional-custom-environments-can-now-be-purchased": {
+      "contentHash": "e234fc8046999dbfae54ed1b9b98d45459bbe3935e03ab96312dd0a7126a6add",
+      "processedAt": "2026-07-30T02:33:44.662Z"
+    },
+    "https://vercel.com/changelog/discover-and-install-eve-integrations-from-the-cli": {
+      "contentHash": "b57220d7e0cdf64f7e58903fcad12f53f10bfaaf97f954ff52b0e8f0e9ad3cd2",
+      "processedAt": "2026-07-30T02:33:44.996Z"
+    },
+    "https://www.figma.com/blog/how-we-secure-figmas-internal-systems-with-agents/": {
+      "contentHash": "feb765200feef7055d8d1377f794167973c3b6d46f894c7172ea1b365489733c",
+      "processedAt": "2026-07-30T02:34:21.770Z"
+    },
+    "https://frontendfoc.us/issues/752": {
+      "contentHash": "3531e33d0d8a852477fe2ccae5101834fe38eea1224f6cb313b3f8d8841d7feb",
+      "processedAt": "2026-07-30T02:34:22.396Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/07/30/110000": {
+      "contentHash": "5ac1ba580ff1fdb49ef2082a295ebcf4efaab08aba6ff45488970bd0d17d94c2",
+      "processedAt": "2026-07-30T02:34:24.100Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/07/29/144331": {
+      "contentHash": "dd3eafe0748e27dbf72d27f4a332e1e82e94e276f869deb60ca0701c4f4c5cca",
+      "processedAt": "2026-07-30T02:34:25.275Z"
+    },
+    "https://thisweekinreact.com/newsletter/292": {
+      "contentHash": "1a107351387563844c399958c4263c71972ff150afb49efd8c61c1e427e9bf5b",
+      "processedAt": "2026-07-30T02:34:25.748Z"
     }
   },
-  "lastRun": "2026-07-29T02:49:55.314Z"
+  "lastRun": "2026-07-30T02:34:25.748Z"
 }
