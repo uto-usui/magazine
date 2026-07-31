@@ -33019,7 +33019,103 @@
     "https://thisweekinreact.com/newsletter/292": {
       "contentHash": "1a107351387563844c399958c4263c71972ff150afb49efd8c61c1e427e9bf5b",
       "processedAt": "2026-07-30T02:34:25.748Z"
+    },
+    "https://www.seangoedecke.com/you-dont-have-to-be-smart-if-you-think-clearly/": {
+      "contentHash": "9e8b9a555842df4a9194b4545d4c81595cc033c56cba96e6f3b2b4eacafe1334",
+      "processedAt": "2026-07-31T02:59:02.326Z"
+    },
+    "https://www.originkit.dev/": {
+      "contentHash": "6b307c917f3e368b137cc5e900d22aa3cbc24bf570791d5f6de7b82502b43c95",
+      "processedAt": "2026-07-31T02:59:10.097Z"
+    },
+    "https://www.0xkato.xyz/how-to-research-technical-topics-with-ai": {
+      "contentHash": "38e6d390105c97564f8c6122e66a3fec7c28adc3acc36d60fc49e1f1ac13f046",
+      "processedAt": "2026-07-31T02:59:10.597Z"
+    },
+    "https://www.hudsandguis.com/home/2026/jurassic-world-rebirth": {
+      "contentHash": "80a08960938b7e6688773954517ed1dd26d5fb2059be0da7e8b46d221bdb8eb6",
+      "processedAt": "2026-07-31T02:59:11.047Z"
+    },
+    "https://agenticeconomytreatise.com/": {
+      "contentHash": "24bb6709ffd88fbce155b8392cee6d9b9014199e28ba08a4f15f02fbf6c36796",
+      "processedAt": "2026-07-31T02:59:11.416Z"
+    },
+    "https://tympanus.net/codrops/2026/07/30/building-an-infinite-gsap-scroll-gallery-with-parallax-and-flip-transitions/": {
+      "contentHash": "874d08fe5ca76c145be110f0a82847cb6250a24f0ea0b0a611d62e3e405b1a14",
+      "processedAt": "2026-07-31T02:59:13.085Z"
+    },
+    "https://piccalil.li/projects/personal-site/8/": {
+      "contentHash": "81059c2b617656be38c652a051f09eceedccfcb4743a3f44fc62d67c08e9aa38",
+      "processedAt": "2026-07-31T02:59:14.652Z"
+    },
+    "https://vercel.com/changelog/server-timing-header": {
+      "contentHash": "61934f9ee86ce6a1a047f3ea2fa91d4687801d624ec1097a376eaadc93741244",
+      "processedAt": "2026-07-31T02:59:15.340Z"
+    },
+    "https://vercel.com/blog/shopify-and-vercel-are-rebuilding-hydrogen-for-faster-storefronts": {
+      "contentHash": "bae7a1e58df980f77528592d12b5fae353d6c30b6ba9c68172fb7a692a771d3f",
+      "processedAt": "2026-07-31T02:59:15.867Z"
+    },
+    "https://vercel.com/changelog/run-multiple-isolated-agents-in-a-single-sandbox": {
+      "contentHash": "bf7f263aa24a100a8cc1b20cd4c5915186ad2499579f03f0fd1825b59009b0bf",
+      "processedAt": "2026-07-31T02:59:16.307Z"
+    },
+    "https://vercel.com/changelog/minimax-h3-now-available-on-vercel-ai-gateway": {
+      "contentHash": "8e408e0c858bb4df1a1a02cdd346337c1c621ea8bfb362992818a90414887850",
+      "processedAt": "2026-07-31T02:59:16.735Z"
+    },
+    "https://vercel.com/changelog/inkling-small-now-available-on-ai-gateway": {
+      "contentHash": "d77a3d2f77a66fc16051a805e03be6cec72a7dc8cb33149026f76b48be4c0362",
+      "processedAt": "2026-07-31T02:59:17.126Z"
+    },
+    "https://vercel.com/changelog/turborepo-and-remote-cache-now-support-openid-connect-oidc": {
+      "contentHash": "62b3f3c44e7f4ea622ee7435a6478cb8a6c497ac7f8003d42cf58af2fc2808b4",
+      "processedAt": "2026-07-31T02:59:17.467Z"
+    },
+    "https://vercel.com/changelog/ai-gateway-gpt-5-6-pricing-speed-updates": {
+      "contentHash": "57448a876433ba9a0ed925134dada75f5d063ef8140e8d0ce8750b3592b49987",
+      "processedAt": "2026-07-31T02:59:17.814Z"
+    },
+    "https://vercel.com/changelog/deployments-are-now-up-to-7-seconds-faster": {
+      "contentHash": "abc54e6b2a5cc019f4891d7e385d29c3a86118698d372c601616785b164741b5",
+      "processedAt": "2026-07-31T02:59:18.149Z"
+    },
+    "https://vercel.com/changelog/latest-mcp-spec-now-supported-in-mcp-handler": {
+      "contentHash": "c6d9eaa113b450b83cbbf6f7a28f1466f05a06a14e70b3bbe05dd95403e61f85",
+      "processedAt": "2026-07-31T02:59:18.595Z"
+    },
+    "https://vercel.com/changelog/introducing-enterprise-flexible-commitment-for-vercel-marketplace": {
+      "contentHash": "f73c7407fd6a47e1a7b1cf1c39e8c3f26526da7ffbce36918ddce4b2766edf06",
+      "processedAt": "2026-07-31T02:59:18.965Z"
+    },
+    "https://vercel.com/changelog/project-scoped-tokens": {
+      "contentHash": "714866d8ee77231f947e5dc59d4f1c366dd1197cab851adf5847079b07acd6a4",
+      "processedAt": "2026-07-31T02:59:19.303Z"
+    },
+    "https://vercel.com/changelog/grok-voice-think-fast-2-0-now-available-on-ai-gateway": {
+      "contentHash": "cfdd8f5c33e88487a554dd9d56ceb4d558e10032a6b120f551b96ec21c0f1a1b",
+      "processedAt": "2026-07-31T02:59:19.709Z"
+    },
+    "https://www.figma.com/blog/properties-panel-and-annotations-now-in-figma-make/": {
+      "contentHash": "62feb7fa67dada5b6a18df4e511997fed6119382d15a2244c884e0564d560d96",
+      "processedAt": "2026-07-31T02:59:50.870Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/07/31/070000": {
+      "contentHash": "3c433fc4dac93d2895e38204a5508bec77a3dceb9cc3cfd7357afb582b6209aa",
+      "processedAt": "2026-07-31T02:59:51.532Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/07/30/120000": {
+      "contentHash": "406688f998040fda4d759ba2d224e40954a9b5feb54e14e049c2613d8018d517",
+      "processedAt": "2026-07-31T02:59:54.722Z"
+    },
+    "https://tech.layerx.co.jp/entry/ai-workforce-gitops-for-hackathon2026": {
+      "contentHash": "6149ad0e6d7b12ee2cf3084559514203b80c5d2804b1d428fcbb9448ba49af54",
+      "processedAt": "2026-07-31T02:59:55.551Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/07/30/171421": {
+      "contentHash": "3bd191c19a4203c88b3337b077a0982910497b2a6f4a525f3fcba502cb8ecc92",
+      "processedAt": "2026-07-31T02:59:56.620Z"
     }
   },
-  "lastRun": "2026-07-30T02:34:25.748Z"
+  "lastRun": "2026-07-31T02:59:56.620Z"
 }
