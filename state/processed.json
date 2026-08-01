@@ -33115,7 +33115,91 @@
     "https://tech.layerx.co.jp/entry/2026/07/30/171421": {
       "contentHash": "3bd191c19a4203c88b3337b077a0982910497b2a6f4a525f3fcba502cb8ecc92",
       "processedAt": "2026-07-31T02:59:56.620Z"
+    },
+    "https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/": {
+      "contentHash": "84ca2b74c6b7e0b151c12d031570d7ee99bb4cad66c9703115663f7fb80236d8",
+      "processedAt": "2026-08-01T03:02:51.372Z"
+    },
+    "https://blog.jim-nielsen.com/2026/ai-aesthetic/": {
+      "contentHash": "65fd4c98df05bf37c8066fed98bd9a6f1a5fb777e711e83805345ab170337f0b",
+      "processedAt": "2026-08-01T03:02:52.120Z"
+    },
+    "https://www.pcjs.org/": {
+      "contentHash": "7fc9c29003ce26125d604b60d9b76bb6a1ac862a6fcc8756bbf50718ef5adc76",
+      "processedAt": "2026-08-01T03:02:53.450Z"
+    },
+    "https://survey.devographics.com/en-US/survey/state-of-devs/2026": {
+      "contentHash": "6167f4508b831292e5c400e48cd93d544cd9f6523942d3e1365b1e9bf3a51871",
+      "processedAt": "2026-08-01T03:03:00.439Z"
+    },
+    "https://www.workersdecide.tech/bingo/": {
+      "contentHash": "983cd99f7e01cdf218c5111fd3b0b69ee8315575d9e030e04d0e373a70672d09",
+      "processedAt": "2026-08-01T03:03:00.768Z"
+    },
+    "https://cassidoo.co/post/clustering-tiles/": {
+      "contentHash": "c6d090ce124e1aa4891c1509c46c2b9a1c4657fc6c258fae0a3de4fcea817280",
+      "processedAt": "2026-08-01T03:03:01.046Z"
+    },
+    "https://bradfrost.com/blog/post/things-take-the-time-they-take-a-42nd-thought-at-42/": {
+      "contentHash": "0081b608af5097a0de059053bfc456ebd71cc063180652370f801d61f52f7e46",
+      "processedAt": "2026-08-01T03:03:01.636Z"
+    },
+    "https://smashingmagazine.com/2026/07/desktop-wallpaper-calendars-august-2026/": {
+      "contentHash": "9457e84bb7ec831de95c9e5b627be70b8fad27d65258e801554dbce33c0e5b14",
+      "processedAt": "2026-08-01T03:03:03.836Z"
+    },
+    "https://piccalil.li/the-index/192/": {
+      "contentHash": "5cedff3b52c0d41881a3907a6b032bb6a5e44f648013a43d7fc2084db1167ddc",
+      "processedAt": "2026-08-01T03:03:04.144Z"
+    },
+    "https://vercel.com/changelog/ai-gateway-spend-budgets-and-alerts": {
+      "contentHash": "8afe174fce29739d1c0606b52d86e508e5e13ef8018231aea642e695b0e4bd5a",
+      "processedAt": "2026-08-01T03:03:04.759Z"
+    },
+    "https://vercel.com/changelog/deepseek-v4-flash-now-runs-updated-weights-on-ai-gateway": {
+      "contentHash": "bbafd414c74f11ccfcd1e9eca58f344e5ae523d32e59c522691c01c8c5a3eed7",
+      "processedAt": "2026-08-01T03:03:05.187Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-reactions-and-ephemeral-messages-on-teams": {
+      "contentHash": "2f51d30f353f6ccfd162fff33f23a736ad719bdad87c5a25dc48f2db948a45f4",
+      "processedAt": "2026-08-01T03:03:05.762Z"
+    },
+    "https://vercel.com/changelog/ai-gateway-logs": {
+      "contentHash": "f6c888cb731d29ee7e277cd34848b08ce455f7a58a3c2307f8ce2123feb41343",
+      "processedAt": "2026-08-01T03:03:06.234Z"
+    },
+    "https://vercel.com/changelog/vercel-mcp-now-supports-the-2026-07-28-mcp-specification": {
+      "contentHash": "f7db0cf8dbe847de6a2e93ad931b95e78396b65b2d6e2aea6787bddf6ed0edc3",
+      "processedAt": "2026-08-01T03:03:06.670Z"
+    },
+    "https://vercel.com/changelog/expanded-search-for-workflow-runs-in-vercel-observability": {
+      "contentHash": "132e937b789ae3b29fbffda91fc4c10d7b2cd316bdafd786db8b4e642cb4d68b",
+      "processedAt": "2026-08-01T03:03:07.056Z"
+    },
+    "https://vercel.com/changelog/10x-more-capacity-for-laguna-s-2-1-on-ai-gateway": {
+      "contentHash": "e308c752d7a1530c5a544d4c4465d88b9a8b34f2593ed280a7b343b838ac3b08",
+      "processedAt": "2026-08-01T03:03:07.519Z"
+    },
+    "https://vercel.com/changelog/vercel-passport-generally-available": {
+      "contentHash": "a73556817ef9d3daccda0f854e8b9c45f333411572779c544fd4fcdfbd64f0d0",
+      "processedAt": "2026-08-01T03:03:08.094Z"
+    },
+    "https://www.figma.com/blog/ai-fluency-isnt-the-finish-line/": {
+      "contentHash": "458623b985616d327332d0ed5b8f5b3a365520ae9674f3f9d825e489644ccb0b",
+      "processedAt": "2026-08-01T03:03:39.665Z"
+    },
+    "https://www.nngroup.com/articles/no-new-name-ux/": {
+      "contentHash": "3d3a3565afb4016ddb89bcb20963eb5e102064b24f50aa62c412597e47d3d9d9",
+      "processedAt": "2026-08-01T03:03:41.582Z"
+    },
+    "https://www.nngroup.com/articles/mentorship/": {
+      "contentHash": "33ce2f16f3f9a65fdd1d0038c071962937eb87cf5d14b905d61af9dde32e4733",
+      "processedAt": "2026-08-01T03:03:42.941Z"
+    },
+    "https://react.statuscode.com/issues/485": {
+      "contentHash": "d30bbaf84694a9189969ab49537f7c193a4c5cab9028aaed8e5b6b8bab3750c0",
+      "processedAt": "2026-08-01T03:03:43.819Z"
     }
   },
-  "lastRun": "2026-07-31T02:59:56.620Z"
+  "lastRun": "2026-08-01T03:03:43.819Z"
 }

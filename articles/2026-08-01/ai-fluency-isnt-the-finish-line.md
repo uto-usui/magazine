@@ -1,0 +1,51 @@
+---
+title: "AI fluency isn't the finish line"
+source: "https://www.figma.com/blog/ai-fluency-isnt-the-finish-line/"
+publishedDate: "2026-07-31"
+category: "design"
+feedName: "Figma Blog"
+---
+
+![black 93% text on light red background](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAAB6UlEQVR4nC2QXU9SAQCGzx9rgH2sKeAEjZAPDwc4IMi3hMI5igieFoKAg9Q0TSmmrtbUdVF2oZXWnWttrRvryvvu2rp4mmfdv3vf93mEd2qBrNWCaDLi6zOijtg5W5jneEYhMdCPx2DAbbhBdtBCLxmnJnpJDVqpuJx67qRUpBMM8Fmr8KfXRah53ZScDg7VAgdKHs09ynYswqvJNKthmQNlmu1kDHXYxtKYl7ok0oqEaQQldtNJduIT9DIpLlc7/N3rISj2IUouJ5/qVT4uPkJxjFD1ujnXKlzUqnwol3gsB1DtQ2yMh/WRVtBP3SfSlHw0/RJvZhUu11b43X2G0I1PUHSM0A7LtEMy8u1bLLic/Gi3+LnSZjedIGs168hH+SlO5ufYz2bYjEWpjnlpSCJbsSj7k2lO54sIX7QK6+MhOnKAZb9E2txPfczDuVbmW6PG16VFXj6YpGC38SKV4NfGGt9XO+zlsixJIst+H43/b7VRJ8K1/OuyrUSc9YkIpfv32IlF2UsleDIe4rhU5HU+hzJs1wuvtp5y0ayzEYvo7p4n4zQDfhpBP3nbEML7GYW0ZQCP0YDYZ9Lxz7QyR9M5onfvIPWZkG6ayFjMnJbnuNpc57AwRScsc159yNtZlcKwjZTVrD/8B9R3V8rSEIiTAAAAAElFTkSuQmCC)![black 93% text on light red background](https://cdn.sanity.io/images/599r6htc/regionalized/259a8dce0ebfb84d1f18337a70f7b823935d340d-648x228.png?w=648&h=228&q=75&fit=max&auto=format)
+
+of product builders say learning to work with AI is essential to future success in their roles. Learn what else they say in [Figma’s AI report.](https://www.figma.com/reports/2026-ai-report/)
+
+My LinkedIn and X feeds are full of posts about AI that go something like: Learn the tools or get left behind. Of course, tool fluency matters—it can help you get hired, work faster, and feel more confident in a shifting landscape. [Figma’s 2026 AI report](https://www.figma.com/blog/2026-ai-report/) makes that clear: The vast majority of the designers, developers, and PMs we surveyed say learning to use AI tools well is essential. But what about all the parts of work that go beyond tooling? Building shared systems everyone can use. Pushing and pulling on ideas with the right people. Working together toward a shared goal. These skills carry even more weight as AI reshapes how we work. Here’s how to hone them.
+
+[![Busy abstract illustration on a grey background: a dense composition of light-blue ovals, yellow and purple cubes, green bars, pink circles, and sweeping yellow and purple ribbons, interspersed with nested squares in pastel colors.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAHsIAAB7CAF4JB2hAAAC2UlEQVR4nAXBy3MadQDA8f1L/Ac8ePDgtede1NHRS6ejzmiPjnpoD45j2prW0SaZJAxB8uD9CMsjPJcFdhd+u7AL7AKBEig0NW3twdT+C18/H8m2LUp9jbBVId3QKWkj2oM06tXnxP77kNY/N/GmDzFEg7Q+IKg3yZsBOr0naKKKsIaYgy5tT9Bze0iaVSHlZgjaNULCJu1OKHlnhFZ3+OXNZwQv7lOzVWR3wc58xs+LEtHVE7T1JoWZTtZZUrRsqn2V9rCDpPaS5JxtEt0i8YmgeJlCmR5SmGwQmf9Iyk6Q7j8j/PKaR9dLvn8ls//cT/5KJvHqgsRkhawJSkaNptNCyvRiFESAtFAIXSjkX26iTrcwuxHG7X166im53ozI63/54+2Sn/5Osj8/IL3Wya6WGE4dzQiQEseEB1mkvWaSU6VIqqWxd66zs5YJeTK6UeVcSeIW46j1OsnhkN2lzf2nGfyTDImpQ3EwZCp8jN07HHq/sumdIG2Xc8hndWpKkbipszsc4Os2yYsSeSNBRolQr6SR60ccWzsE+j6O7CQhoZLTa4y7Dxmdf8OJ94BtN4K0IaJkdBmzdYJaLSBXXVK6INMrErBi7DdjlFWZmvYbRfsWZ+4PxO0j/EaGXCvEWH+ELh4Qto4oOFWkx+MoZ5MgnruBqRxQzvdRGy51SyEgYmzpKQrtCob9O4PxJ7iTr8nbUQ6cHOW+n744JGVE2eukaFg6UnbUQF1tMX7xMV33OyrNHI4qcLUqQRHlsXlI1j7GnN5j8eIGs8WXFO0E4bFMYXVEYVHiwEuxK/wo7VOk5qhH9pmP8tUXaItvMftx5nqZuRYm3f2Tv5y7iOlXrF7f4PLt+9jr21TsBAUnTXaWJzEziDpJMu1d2iKA1PEskpMsx1MfpVEIu1/hvBflqXuX7vgWHe9Tnq8/4t2797i8/gBteY/m4BTDiqOYNSqii2qUEGacQV/mfypprBg/xI4uAAAAAElFTkSuQmCC)![Busy abstract illustration on a grey background: a dense composition of light-blue ovals, yellow and purple cubes, green bars, pink circles, and sweeping yellow and purple ribbons, interspersed with nested squares in pastel colors.](https://cdn.sanity.io/images/599r6htc/regionalized/8ca1f5a5603ac375aedd98cc7840afa22bfa23ec-1682x918.png?w=1682&h=918&q=75&fit=max&auto=format)](https://www.figma.com/reports/2026-ai-report/)
+
+## [Become an internal product builder](#become-an-internal-product-builder)
+
+AI tools can help individuals move faster than ever, but that speed matters more when the whole team is pushing ahead together. That's where custom internal tools come in. By building a prototyping agent, brand plugin, or shared prompt library, one person’s knowledge turns into something an entire team can understand, trust, and build on.
+
+For example, when we were developing our AI report, Figma researcher Shane Johnston vibe-coded an interactive website to host the survey data, making it easier for cross-functional stakeholders to explore it. “The context and data weren’t just locked in my head or on my machine,” he says. “We used AI to accelerate the collaborative capacity of the team.” And when the Figma Brand Studio team designed [new visual effects for Config this year](https://www.figma.com/blog/the-visual-identity-behind-config-2026/)
+
+, they built an image-effect generator in Figma Make, allowing anyone on the team to add a custom, on-brand texture to any photo or design with just one click. We’ve also seen prototyping playgrounds become more common. One design manager we surveyed built a shared prototyping tool where anyone, regardless of role, could build something in code to test with customers.
+
+Spotting where people get stuck, coming up with a solution, and removing the friction are instincts good product work has always required. With AI, more people can use those instincts to build custom tools that help their teammates that have real impact across the team. Instead of one person moving 10x faster alone, the whole team can move 10x faster together.
+
+## [Guide people to a decision](#guide-people-to-a-decision)
+
+When AI makes it possible to easily generate dozens of directions, turning those directions into a decision has become a skill in itself. Being able to facilitate key conversations has always been important, but now it matters more than ever. This means pulling in the right people across the organization—not just the project leaders. Which stakeholders have contrarian opinions that could push the work in a stronger direction? Who has historical context that might eliminate one direction entirely? Who can spot risks before they happen? I spoke with one leader whose team vibe-coded an internal app, then noticed employees knew about company projects they shouldn't have. That's how the team realized the app was exposing sensitive information—and bringing in a data governance expert earlier could have caught it.
+
+But knowing who should weigh in is only one part of good facilitation. Deciding what to ship requires putting the right options in front of stakeholders and giving them [the context they need](https://www.figma.com/blog/prototypes-are-the-new-prds/?fuid=1547343084156984494)
+
+before a live review. At Figma, for example, PMs record a Loom video to demo each flow in a prototype, or share an annotated FigJam file illustrating how each direction might work. That way, when stakeholders come together to discuss the trade-offs as a group, the conversation can be less about the team explaining each direction and more about making the right call.
+
+During the meeting, the task is to push the group to a decision, instead of letting the conversation circle without ever landing on one. Prompt people to speak if they haven’t. Double-click on recommendations that are unclear. Ask questions that move the discussion forward. And before the meeting ends, make sure everyone is aware of the next steps. None of this is new—but the fundamentals matter more when the options are limitless.
+
+![black 47% text on light red background](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAAB9klEQVR4nB2RW0uTAQCGv19UUPc6s7MMrambrjm/bwd3cOb6NmVOa+6gc2tHN3dwObS5g1YQBUF1U+S6UKILIYmgpCCou4Kisp7YLl54rx4e3lf416jys1bheXAesUuB1NXJPdc1imMmpvp6MZ3u5uzxY0inFMRHdASGNPg0atJGiebSAvc902QNEvvxKEeNKsKvRpV3uQyrNgt6RSeO8+fYCfp5n8uyF4uw5rAxqexpA8p2G3GjRNZuI2ky0JCdFK0W7k67+VwucbRVQ2iVB14PKaOETzPIXL+KV9EwR9t1PhRzFKxjxMRRmpEwT3zXSYijxKVR4qKehKgnbTLwNOTn8FaRb5V1hIdeD2mDSN3lpGi34u1X0VwM8aNWYWchgF+jZtsl82V9jY+FFR7NzrDpnGTVbiV8Rctyy9wx3rZ9EZxHkJU9TPUqyZuNzPar0HV0UJedHBbz3HHL+AYHeLkY4k99k9+1Cl83yuylEpSvOtqGKYNITNS3jZe0QwhBjZqFYQ0RnRbzmW6UJ0+Qt4zxOpVo7xrSDrOfSvB3q0brwO/V2zwLBVixmGm4ZUp2KymzkYzFzHRfL8Lb5SRv0kl2b0bImAxMXLzAY98cB7kMGaNEZETHQTbdBrbyqVRgY2Kcgs3KTixKTXYyo7qMR3WJGwMq/gNxVGXTKsNqWgAAAABJRU5ErkJggg==)![black 47% text on light red background](https://cdn.sanity.io/images/599r6htc/regionalized/d927eb5778d4cadeaad77ca60a7ab6c24577d909-616x228.png?w=616&h=228&q=75&fit=max&auto=format)
+
+of respondents report that their teams and leaders aren't adopting AI at the same speed: 20% say ICs are pulling ahead without organizational support, and 27% say leadership is pushing AI while teams struggle to keep up.
+
+Not everyone on a team uses AI at the same pace—some people started experimenting with tools built on the very first LLMs, while others are still finding their footing. Left alone, that skill gap widens: Those who are already ahead keep moving faster, while everyone else tries to catch up. Closing that gap requires a shared curiosity and an openness to learning from everyone’s experiments—even the ones that fail.
+
+In a recent webinar, Adam Morris, VP of Design at The Economist, encourages teams to approach AI with “sustained curiosity—which can be both disorienting and energizing at the same time.”
+
+[Watch the whole webinar here.](https://fig-events.figma.com/state-of-the-designer-2026/)
+
+The way to do that is simple: Talk about your work. Make sharing your side projects a habit. Do a crit of your half-baked prototypes. On a larger scale, that might look like hosting a hackathon or AI week where people share prompts, trade insights, and learn from one another. At Figma, teams across the company are encouraged to share their AI challenges, learnings, and tips in a dedicated Slack channel and at all-hands meetings. This kind of openness can turn one person's discovery into an entire team's success.
+
+None of this makes AI tool proficiency itself less important. It’s just one part of the equation. When the tools are table stakes, the skills around them make the difference.
+
+Learn more about AI’s impact on product building teams by reading [Figma’s 2026 AI report.](https://www.figma.com/reports/2026-ai-report/)
