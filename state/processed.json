@@ -33199,7 +33199,83 @@
     "https://react.statuscode.com/issues/485": {
       "contentHash": "d30bbaf84694a9189969ab49537f7c193a4c5cab9028aaed8e5b6b8bab3750c0",
       "processedAt": "2026-08-01T03:03:43.819Z"
+    },
+    "https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model/": {
+      "contentHash": "57d7a8bda301f9293016c7ff579720902303afb3494f7aaf05962eaef6660bff",
+      "processedAt": "2026-08-04T02:43:02.804Z"
+    },
+    "https://a11yweekly.com/issue/511/": {
+      "contentHash": "6d80c9c9241fa7241a965797e94625e0d32e4911efde430f987a495c8affa554",
+      "processedAt": "2026-08-04T02:43:03.012Z"
+    },
+    "https://go.granola.ai/sidebar": {
+      "contentHash": "22785e6d4a024a584552d57c09eae858e2cc9c8483d03c7f7212292d120bcb12",
+      "processedAt": "2026-08-04T02:43:04.473Z"
+    },
+    "https://simone.computer/": {
+      "contentHash": "908571d2060ec1b8bcdf16acf524ff566ff41ecfafac7dfb6d12331cbc4ec6b8",
+      "processedAt": "2026-08-04T02:43:09.751Z"
+    },
+    "https://killthecookiebanner.eu/": {
+      "contentHash": "4d42f0566c3f25d1df7fc62d9dd35fd9beeb9b2cdaa7cfb0e45cbd86e03db5d2",
+      "processedAt": "2026-08-04T02:43:12.926Z"
+    },
+    "https://www.nytimes.com/2026/07/20/technology/google-ai-open-web.html?unlocked_article_code=1.2VA.tHaD.87T7tIi8zNbs&smid=url-share": {
+      "contentHash": "a5d9717cc5da84b4c0a8c2b86ecda886bc8cada4624ea08feb42d3df9bda0732",
+      "processedAt": "2026-08-04T02:43:17.376Z"
+    },
+    "https://tympanus.net/codrops/2026/08/03/the-story-is-in-the-interaction-bonhommes-digital-experiences-for-luxury-brands/": {
+      "contentHash": "9acaa48b95d9abd26a22798fd1d0e670a37a012bc69506d70aa703cee5112ec9",
+      "processedAt": "2026-08-04T02:43:18.546Z"
+    },
+    "https://ics.media/entry/260803/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-08-04T02:43:19.435Z"
+    },
+    "https://vercel.com/changelog/vercel-waf-for-blob-is-now-generally-available": {
+      "contentHash": "d32426ce256090f011108e466fc63542505a4dde811732c42473cde366b2277c",
+      "processedAt": "2026-08-04T02:43:19.825Z"
+    },
+    "https://vercel.com/blog/how-factory-scaled-its-cloud-backend-to-tens-of-millions-of-daily-requests": {
+      "contentHash": "e7eace503728255b83169c2644775d88682d3be809aec905479f687221e4e1d5",
+      "processedAt": "2026-08-04T02:43:20.844Z"
+    },
+    "https://vercel.com/changelog/share-vercel-container-registry-repositories-across-teams": {
+      "contentHash": "1f40d53b27e2da40612a1969ef7c2d4f5d0d13081a91d3760e6087b8e657ae8b",
+      "processedAt": "2026-08-04T02:43:21.227Z"
+    },
+    "https://vercel.com/changelog/qwen-3-8-max-now-available-on-vercel-ai-gateway": {
+      "contentHash": "bd60386c49585d2b687d1cbe5d1fa6d74d3f5ca0124894002a21cafd6f319bd0",
+      "processedAt": "2026-08-04T02:43:21.529Z"
+    },
+    "https://www.figma.com/blog/code-craft-and-the-making-of-nested-folders/": {
+      "contentHash": "fcbc9f0d964e91bab8584009046e5d30c18290a0902df32dbaf63df88d44703f",
+      "processedAt": "2026-08-04T02:43:48.342Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/08/04/091858": {
+      "contentHash": "cdb03dc8d2e6e6a70887634d1c05915936f7d7975fbd59ddbde788b8d92e4475",
+      "processedAt": "2026-08-04T02:43:49.622Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/08/03/163424": {
+      "contentHash": "e71edbb19a3d45a9c34fcac22b34cb4838645ec12231ec3d26a038b53af1ece5",
+      "processedAt": "2026-08-04T02:43:50.220Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/08/03/150000": {
+      "contentHash": "9477619cd13cce3ed0f2d4ccb77bb4830a703eba1fa14b93747e9183e9cf3a4a",
+      "processedAt": "2026-08-04T02:43:51.720Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/08/03/112823": {
+      "contentHash": "1bbd942ce69a4cebb3ca5bc2c84c56649569db1d1ae5edffd025aef7ce052cd3",
+      "processedAt": "2026-08-04T02:43:52.915Z"
+    },
+    "https://www.nngroup.com/news/item/people-culture-generalist-remote/": {
+      "contentHash": "c0d020743d2fc046a99d770d84caaeac79c9ff4264be3a8c88ab7f6efe671b2d",
+      "processedAt": "2026-08-04T02:43:53.241Z"
+    },
+    "https://newsletter.uxdesign.cc/p/the-algorithmic-atelier-c1c": {
+      "contentHash": "bda657462ddd8514b4396ab74f053fc6b16a034e54def47af113e93fd7abeebe",
+      "processedAt": "2026-08-04T02:43:53.607Z"
     }
   },
-  "lastRun": "2026-08-02T02:58:09.823Z"
+  "lastRun": "2026-08-04T02:43:53.607Z"
 }
