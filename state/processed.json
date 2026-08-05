@@ -33275,7 +33275,71 @@
     "https://newsletter.uxdesign.cc/p/the-algorithmic-atelier-c1c": {
       "contentHash": "bda657462ddd8514b4396ab74f053fc6b16a034e54def47af113e93fd7abeebe",
       "processedAt": "2026-08-04T02:43:53.607Z"
+    },
+    "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/": {
+      "contentHash": "804acba222d01da202a04f7fadec83c272e0fd050359c37358f6491aa64c9945",
+      "processedAt": "2026-08-05T02:41:46.710Z"
+    },
+    "https://uxdesign.cc/designing-for-the-proxy-2606ffac2335": {
+      "contentHash": "8e01e4267a11303bcc18540fef5aa6e50530e7a76b13942e8c75c4d10d270fcf",
+      "processedAt": "2026-08-05T02:41:48.219Z"
+    },
+    "https://anthropeum.com/": {
+      "contentHash": "4010599e0517dd6e711d0a4db62c99601520ada974dbcec918d6ab1175ea1208",
+      "processedAt": "2026-08-05T02:41:53.170Z"
+    },
+    "https://spectrum.ieee.org/colossus-computer-ieee-milestone": {
+      "contentHash": "bbd9c36498b7a5b5145d7b36a90cdd42b5563f5fa06545a886eea28bdf29337f",
+      "processedAt": "2026-08-05T02:42:49.192Z"
+    },
+    "https://misery.co/shaderpad/": {
+      "contentHash": "6281c4e9fbc195bef6582b5fd64c21d5635eee393f6921a6c5f47ac616e29d03",
+      "processedAt": "2026-08-05T02:42:49.638Z"
+    },
+    "https://dylancastillo.co/posts/pelicanmaxxing.html": {
+      "contentHash": "41513afb4379e3f5bc9c21ff32b7fd870980f014ddb2dfce9b7c41ac4d2181e2",
+      "processedAt": "2026-08-05T02:42:49.924Z"
+    },
+    "https://tympanus.net/codrops/2026/08/04/building-an-endless-interactive-glass-xylophone-with-three-js/": {
+      "contentHash": "b8ff93afbfbcf9b5159575d0925a94d0c8bcde22455789704f329e961e4ed1f9",
+      "processedAt": "2026-08-05T02:42:51.777Z"
+    },
+    "https://vercel.com/blog/vercel-supports-next-js-16-3": {
+      "contentHash": "ff36790f3f8c666b06791436b096458f23eaf790d1d7a38dbf09fa1da353ba88",
+      "processedAt": "2026-08-05T02:42:52.299Z"
+    },
+    "https://vercel.com/changelog/skill-packs-are-now-available": {
+      "contentHash": "3260a39dcb1cdf68c5d50e89d3b467d7ba40532383d3bf6775447b26e027f770",
+      "processedAt": "2026-08-05T02:42:52.695Z"
+    },
+    "https://vercel.com/changelog/deploys-are-now-up-to-33-faster-for-apps-with-many-isr-pages": {
+      "contentHash": "4ec5db72acd62aefa8b49d9cea96df93efcbf81be750614864ab86b53628eab7",
+      "processedAt": "2026-08-05T02:42:53.082Z"
+    },
+    "https://vercel.com/changelog/give-your-eve-agent-a-browser": {
+      "contentHash": "96902e6634fa9d3561c84d182dbf542b5a99bc2315ad5c4152809ada5060cbe9",
+      "processedAt": "2026-08-05T02:42:53.474Z"
+    },
+    "https://vercel.com/changelog/deepseek-v4-flash-is-90-off-through-novita": {
+      "contentHash": "30514dddb19b340a5f75f9b72640a12fa09255ce30998f75ad48f50a653b0324",
+      "processedAt": "2026-08-05T02:42:53.877Z"
+    },
+    "https://vercel.com/blog/how-factory-scaled-its-cloud-backend-to-one-billion-monthly-requests-on-vercel": {
+      "contentHash": "167633c24f3b9b194fe8ad543bbb399d14019955af7e41af514f83ff5c3d4148",
+      "processedAt": "2026-08-05T02:42:54.625Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/08/04/160016": {
+      "contentHash": "dad1a18bbebebb535e86edf58f4c7b3783669d4a1734f23ef5d56e9c5f98a536",
+      "processedAt": "2026-08-05T02:42:56.176Z"
+    },
+    "https://www.nngroup.com/training/october-eu/": {
+      "contentHash": "a2020cee068278a0e3b3390535de0714af4bce939d9bd6dd79dad48ed9dd1d13",
+      "processedAt": "2026-08-05T02:42:58.427Z"
+    },
+    "https://feeds.baymard.com/link/9825/17403157/ecommerce-quantitative-ux-insights-2026": {
+      "contentHash": "7c84596f4041920a1d0f5559d173c2a8a6965a30a5c64f38764ff0f946035efa",
+      "processedAt": "2026-08-05T02:43:05.850Z"
     }
   },
-  "lastRun": "2026-08-04T02:43:53.607Z"
+  "lastRun": "2026-08-05T02:43:05.850Z"
 }
