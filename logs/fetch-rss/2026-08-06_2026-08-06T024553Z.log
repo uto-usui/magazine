@@ -1,0 +1,58 @@
+articles_dir=2026-08-06
+exit_code=0
+timestamp_utc=2026-08-06T02:45:53Z
+
+---- issue lines ----
+30:❌ Playwright failed for https://yummy-design-sprint.notion.site/32762791470980f79c59f4580d377f3f?v=32762791470980f495ac000c95dece67: page.goto: Timeout 30000ms exceeded.
+
+---- tail (last 50 lines) ----
+⚠️ Content too short (35 chars < 200): https://ditherit.com/
+⚠️ Using RSS content as fallback for: https://ditherit.com/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-06/dither-it.md
+📥 Processing: The AI productivity gap
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-06/the-ai-productivity-gap.md
+📥 Processing: A Canvas for Individuality: Creating Websites That Feel Unmistakably Human with Readymag
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-06/a-canvas-for-individuality-creating-websites-that-feel-unmistakably-human-with-readymag.md
+📥 Processing: Backyard Designers: Draft Your Dream Design Team
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-06/backyard-designers-draft-your-dream-design-team.md
+📥 Processing: Set your own project avatars
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-06/set-your-own-project-avatars.md
+📥 Processing: New setup page after domain checkout
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-06/new-setup-page-after-domain-checkout.md
+📥 Processing: Export AI Gateway traces with Vercel Drains
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-06/export-ai-gateway-traces-with-vercel-drains.md
+📥 Processing: Introducing the new v0 API
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-06/introducing-the-new-v0-api.md
+📥 Processing: AI Gateway is now available on AWS Marketplace
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-06/ai-gateway-is-now-available-on-aws-marketplace.md
+📥 Processing: Muse Spark 1.2 is now available on Vercel AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-06/muse-spark-12-is-now-available-on-vercel-ai-gateway.md
+📥 Processing: Vercel Sandbox now supports 10,000 concurrent sandboxes and 5,000 vCPUs per minute
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-06/vercel-sandbox-now-supports-10000-concurrent-sandboxes-and-5000-vcpus-per-minute.md
+📥 Processing: Search and buy domains in the dashboard
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-06/search-and-buy-domains-in-the-dashboard.md
+📥 Processing: Measure time between steps in Vercel Workflows
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-06/measure-time-between-steps-in-vercel-workflows.md
+📥 Processing: Full Sandbox egress firewall now available on Hobby plan
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-06/full-sandbox-egress-firewall-now-available-on-hobby-plan.md
+📥 Processing: Vercel Sandbox now supports Devin Outposts
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-06/vercel-sandbox-now-supports-devin-outposts.md
+📥 Processing: Better code, fewer tokens: The benefits of Code Connect in MCP
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-06/better-code-fewer-tokens-the-benefits-of-code-connect-in-mcp.md
+📥 Processing: The new CSS feature devs love most but can't rely on yet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-06/the-new-css-feature-devs-love-most-but-cant-rely-on-yet.md
+📥 Processing: KubeCon + CloudNativeCon Japan 2026 に参加しました
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-06/kubecon-cloudnativecon-japan-2026.md
+📥 Processing: Claude Skills for content design: inside Intuit’s AI build
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-06/claude-skills-for-content-design-inside-intuits-ai-build.md
+📥 Processing: This Week In React #293: Next.js, TanStack, browser(), React Aria, MobX, SWR, WebMCP, R3F | PlainText, Vision Camera, Gesture Handler, Expo Simulators, Firebase, Voltra, AppControlBench | Stacked PRs, Flue, Node, scriptc, Vite, Hono, SolidStart
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-06/this-week-in-react-293-nextjs-tanstack-browser-react-aria-mobx-swr-webmcp-r3f-plaintext-vision-camer.md
+
+📊 Summary:
+   ✅ Success: 27
+   ❌ Errors: 0
+🏁 Done!
