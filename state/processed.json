@@ -33339,7 +33339,115 @@
     "https://feeds.baymard.com/link/9825/17403157/ecommerce-quantitative-ux-insights-2026": {
       "contentHash": "7c84596f4041920a1d0f5559d173c2a8a6965a30a5c64f38764ff0f946035efa",
       "processedAt": "2026-08-05T02:43:05.850Z"
+    },
+    "https://engineering.fb.com/2026/08/05/ml-applications/from-user-sequences-to-scaling-laws-a-multi-stage-architecture-for-metas-ads-ranking/": {
+      "contentHash": "393050caf78fbd26b032f8a342888b6f846cdfe29bec326cc7ff8a7792abef33",
+      "processedAt": "2026-08-06T02:44:12.654Z"
+    },
+    "https://csswizardry.com/2026/08/web-perf-wednesday-003-native-spa-metrics-have-arrived/": {
+      "contentHash": "8f099ea7c4a576f1df2555113771404fbbae6c58b79c4fc638c4f70a559f2297",
+      "processedAt": "2026-08-06T02:44:13.309Z"
+    },
+    "https://csswizardry.com/2026/07/web-perf-wednesday-002-the-metrics-dont-tell-the-whole-story/": {
+      "contentHash": "4a1b96a2502c5aef01bd827f4ad2f72828617d0057d3269c637d8703031a12ba",
+      "processedAt": "2026-08-06T02:44:13.847Z"
+    },
+    "https://csswizardry.com/2026/07/web-perf-wednesday-001-spas-are-finally-becoming-measurable/": {
+      "contentHash": "866bb8a163f0f3fbfe6eb31068894f70696d8ee88253c49ffddbe193e0b7dc3d",
+      "processedAt": "2026-08-06T02:44:14.378Z"
+    },
+    "https://yeseniaperezcruz.substack.com/p/the-plateau-of-sad-gray-icons": {
+      "contentHash": "2d660b6e8f3913a4f8b1624c741bdfe9ffccc684649431a1121b46d94e503dbd",
+      "processedAt": "2026-08-06T02:44:19.099Z"
+    },
+    "https://yummy-design-sprint.notion.site/32762791470980f79c59f4580d377f3f?v=32762791470980f495ac000c95dece67": {
+      "contentHash": "bcf0dcfaefda192a80e7b480c6a111b1fa9e9742c0f7a39273fe92d49d4a6bde",
+      "processedAt": "2026-08-06T02:44:49.674Z"
+    },
+    "https://stackoverflow.blog/2026/07/29/developers-are-attached-to-tools-because-tools-encode-trust/": {
+      "contentHash": "cbfb55bb16ee22bb10f1201ee31a9ce92864d5b85ffd81a33ff965725b03c446",
+      "processedAt": "2026-08-06T02:44:50.178Z"
+    },
+    "https://ditherit.com/": {
+      "contentHash": "3605b55be9b7f486f5a881d8a9bb64a5f643cb451cc7d4493fa4127e709a5d97",
+      "processedAt": "2026-08-06T02:45:02.968Z"
+    },
+    "https://bjorg.bjornroche.com/management/ai-productivity-gap/": {
+      "contentHash": "25b613234965634e9ad0865f5890ed0ba9c1427d9ce66734ef1befcf9c45d4e0",
+      "processedAt": "2026-08-06T02:45:03.242Z"
+    },
+    "https://tympanus.net/codrops/2026/08/05/a-canvas-for-individuality-creating-websites-that-feel-unmistakably-human-with-readymag/": {
+      "contentHash": "6d6a535f63e6dfa10d13996266cb03bed8b1b30470609282acd79f4255381ac3",
+      "processedAt": "2026-08-06T02:45:04.896Z"
+    },
+    "https://bradfrost.com/links/post/backyard-designers-draft-your-dream-design-team/": {
+      "contentHash": "7f5cee692006e75f37c2173d4bfbafc6cffc702a354eba181e70dda45201d183",
+      "processedAt": "2026-08-06T02:45:05.367Z"
+    },
+    "https://vercel.com/changelog/project-avatars": {
+      "contentHash": "9e8df0d9c6ee5d081e465f3c55f611e76f92bf6fd5bc936cca53c84f68ac299a",
+      "processedAt": "2026-08-06T02:45:05.827Z"
+    },
+    "https://vercel.com/changelog/new-setup-page-after-domain-checkout": {
+      "contentHash": "fdfa18f0d656642e4cbecf78eb9e23cb338cf04f0747546b17f1e2bbcd148879",
+      "processedAt": "2026-08-06T02:45:06.362Z"
+    },
+    "https://vercel.com/changelog/export-ai-gateway-traces-with-vercel-drains": {
+      "contentHash": "a67d243895711e8334c73ce4702467d480dc1a5d77bceb6e6a50e278ed48df68",
+      "processedAt": "2026-08-06T02:45:06.770Z"
+    },
+    "https://vercel.com/blog/introducing-the-new-v0-api": {
+      "contentHash": "220252bd8ff16c948adbd0e64905cd3f2ed8a73e14ae7f855cddc61c7c2b6c66",
+      "processedAt": "2026-08-06T02:45:07.813Z"
+    },
+    "https://vercel.com/changelog/ai-gateway-is-now-available-on-aws-marketplace": {
+      "contentHash": "d3eeadd152069a788690ef71249226a938d610638994b42ad9bbeb4ab4d308e1",
+      "processedAt": "2026-08-06T02:45:08.178Z"
+    },
+    "https://vercel.com/changelog/muse-spark-1-2-is-now-available-on-vercel-ai-gateway": {
+      "contentHash": "de4a95a9769c30fcafc6838c3279f921b8af0a5644713ada4599523cd4f645be",
+      "processedAt": "2026-08-06T02:45:08.601Z"
+    },
+    "https://vercel.com/changelog/vercel-sandbox-now-supports-10-000-concurrent-sandboxes-and-5-000-vcpus-per-minute": {
+      "contentHash": "c64ead3444fedb2a4a8c413694756b3b79fb12abb3fa58b65498035c92d274b3",
+      "processedAt": "2026-08-06T02:45:08.976Z"
+    },
+    "https://vercel.com/changelog/search-and-buy-domains-in-the-dashboard": {
+      "contentHash": "e5b87d6f896657fb2889aaa92dcea255d29f8521045240aee1b784744cd020ff",
+      "processedAt": "2026-08-06T02:45:09.473Z"
+    },
+    "https://vercel.com/changelog/measure-time-between-steps-in-vercel-workflows": {
+      "contentHash": "ceb54cdbd9e6ec1e764fdbfda4ad94075bfb90e09d9c700a4a3e33b7fa222a61",
+      "processedAt": "2026-08-06T02:45:09.845Z"
+    },
+    "https://vercel.com/changelog/full-sandbox-egress-firewall-now-available-on-hobby-plan": {
+      "contentHash": "26fb7882d2d53d98c9bfa864dd793b6dcdc575bb67cc90c7388fd13a5b22b89a",
+      "processedAt": "2026-08-06T02:45:10.219Z"
+    },
+    "https://vercel.com/changelog/vercel-sandbox-now-supports-devin-outposts": {
+      "contentHash": "0fe3dd71d80dc5f079db15d7db7f6d58a9ce4b3ba154a6fee44d185def2f5bfd",
+      "processedAt": "2026-08-06T02:45:10.527Z"
+    },
+    "https://www.figma.com/blog/the-benefits-of-code-connect-in-mcp/": {
+      "contentHash": "eee96ac4fe927164140a90472f5db760b85d69dc7d3c13bfdc4fd18cc73ca45b",
+      "processedAt": "2026-08-06T02:45:49.046Z"
+    },
+    "https://frontendfoc.us/issues/753": {
+      "contentHash": "b43188e3293ae77b9ce5d3cd255c28f95089c81699962b075abe28aad4a96fb7",
+      "processedAt": "2026-08-06T02:45:49.608Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/08/06/105240": {
+      "contentHash": "57ef4719a3c082addff0be3c1111ec0fc7c5e1914dbde94d3969ed007303e5bb",
+      "processedAt": "2026-08-06T02:45:50.946Z"
+    },
+    "https://uxcontent.com/claude-skills-for-content-design-inside-intuits-ai-build/": {
+      "contentHash": "0511d3f87d9a74981510f0d158c4b1d8bd4e350e9c4e1781e185eb806ad8ce72",
+      "processedAt": "2026-08-06T02:45:52.456Z"
+    },
+    "https://thisweekinreact.com/newsletter/293": {
+      "contentHash": "498e96e99dea26a733c5250a9c928e1d0f03b44aa05679f2eed65dee3b890348",
+      "processedAt": "2026-08-06T02:45:53.109Z"
     }
   },
-  "lastRun": "2026-08-05T02:43:05.850Z"
+  "lastRun": "2026-08-06T02:45:53.109Z"
 }
