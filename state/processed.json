@@ -33447,7 +33447,71 @@
     "https://thisweekinreact.com/newsletter/293": {
       "contentHash": "498e96e99dea26a733c5250a9c928e1d0f03b44aa05679f2eed65dee3b890348",
       "processedAt": "2026-08-06T02:45:53.109Z"
+    },
+    "https://writing.mariusz.cc/ultimate-product-design-tool/": {
+      "contentHash": "1e50646bfac121b4bfb9dac401e89147d09e3f99a653fc62adc4a81f9aba1e47",
+      "processedAt": "2026-08-07T02:46:49.611Z"
+    },
+    "https://benji.org/drawesome": {
+      "contentHash": "d58c56cc7b912307b75b111c56e778c32a47a64485a0ec838014c2d166fab084",
+      "processedAt": "2026-08-07T02:46:50.031Z"
+    },
+    "https://www.the-idea-machine.com/": {
+      "contentHash": "261a7c5230df5d052c1996eae57181ac20eb4fd3ed2695dde56ab0c0999793cc",
+      "processedAt": "2026-08-07T02:46:55.627Z"
+    },
+    "https://zachholman.com/posts/cold-email": {
+      "contentHash": "eb368cc98196c2c927449ba24cd4d741df6c32e212c3b0bd78787365c0872019",
+      "processedAt": "2026-08-07T02:46:55.767Z"
+    },
+    "https://lea.verou.me/blog/2026/dark-mode-toggles/": {
+      "contentHash": "61e626b34b9a638213a5fa576b7daad0d717a80e2c4c6f3fd446f75e3db63dbb",
+      "processedAt": "2026-08-07T02:46:56.023Z"
+    },
+    "https://tympanus.net/codrops/2026/08/06/garden-anomaly-a-tiny-webgpu-and-tsl-experiment/": {
+      "contentHash": "5dc52da0618ab9fe4d206b9531b38ba608a4c1af3c343441c00509ced3e30768",
+      "processedAt": "2026-08-07T02:46:57.381Z"
+    },
+    "https://ics.media/entry/260806/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-08-07T02:46:57.611Z"
+    },
+    "https://piccalil.li/blog/working-with-highlight-using-progressive-enhancement/": {
+      "contentHash": "4783bbb0627304b6ccaf4f173e02245629f2c00086636259520fd4138f5c82ec",
+      "processedAt": "2026-08-07T02:46:57.879Z"
+    },
+    "https://vercel.com/blog/introducing-agent-plugins": {
+      "contentHash": "907f253155cf608e4e9f0855b0413f49d8bcaa593f5f78e933979f89ef59b3bc",
+      "processedAt": "2026-08-07T02:46:58.317Z"
+    },
+    "https://vercel.com/changelog/vercel-marketplace-agent-skills": {
+      "contentHash": "ea2dcf84b18a0d4a1036474b0505f53c6033de3b113fa4b434a932af7cc2b30e",
+      "processedAt": "2026-08-07T02:46:58.691Z"
+    },
+    "https://vercel.com/changelog/ling-3-0-tiny-is-now-available-on-ai-gateway": {
+      "contentHash": "5e995f470713c3e4538601e757cc57874e939d6eb3969c2817a90439bdc32aeb",
+      "processedAt": "2026-08-07T02:46:59.016Z"
+    },
+    "https://vercel.com/changelog/introducing-agent-plugins-1-0-0": {
+      "contentHash": "79b51aa6325d8151199112d2bad363a9d5e1d9be4637d9f1de552ae5cbab63cd",
+      "processedAt": "2026-08-07T02:46:59.342Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-durable-approvals": {
+      "contentHash": "b41fcc06667435700e1ca8f64b1a98d54a0d8229708a6e4640cd889b3edbd7b0",
+      "processedAt": "2026-08-07T02:46:59.700Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/08/06/183011": {
+      "contentHash": "671433139bb1f2c41b6948be2e42bd911f91d01c83b2e0b7c5730f11ee4f59d9",
+      "processedAt": "2026-08-07T02:47:02.028Z"
+    },
+    "https://tech.smarthr.jp/entry/lt17": {
+      "contentHash": "906c6b390cc1b19e8d731fd452ab415613afa5346d20ffc04d9df830d22c6477",
+      "processedAt": "2026-08-07T02:47:03.427Z"
+    },
+    "https://tech.layerx.co.jp/entry/icml-2026": {
+      "contentHash": "06a0385bd324ee8f704619eceb98780fa24876effc61f542562792fbcb091409",
+      "processedAt": "2026-08-07T02:47:04.265Z"
     }
   },
-  "lastRun": "2026-08-06T02:45:53.109Z"
+  "lastRun": "2026-08-07T02:47:04.265Z"
 }
