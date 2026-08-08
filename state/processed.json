@@ -33447,7 +33447,147 @@
     "https://thisweekinreact.com/newsletter/293": {
       "contentHash": "498e96e99dea26a733c5250a9c928e1d0f03b44aa05679f2eed65dee3b890348",
       "processedAt": "2026-08-06T02:45:53.109Z"
+    },
+    "https://hvpandya.com/hierarchy-of-competence": {
+      "contentHash": "88ef7ac0da7a5d5288a29acb0f92e4880e52e3328ee4f7cde77bf81885fa6e1c",
+      "processedAt": "2026-08-08T01:47:36.562Z"
+    },
+    "https://crashcat.dev/": {
+      "contentHash": "61365b57cf9df1691c5d99dba1af54c266868db29c670fb0717821e81eb68e58",
+      "processedAt": "2026-08-08T01:47:44.481Z"
+    },
+    "https://microsoft.design/articles/the-naked-designer-what-happens-when-you-cant-hide-behind-craft/": {
+      "contentHash": "1afbde45d7985fa587a7530bec291d2b66337935068d80060dff72eb170688ad",
+      "processedAt": "2026-08-08T01:47:47.058Z"
+    },
+    "https://www.headlines.games/": {
+      "contentHash": "4a26790dec5136951805f516c02856873b896de2d816b79ba9d22631a827f2a2",
+      "processedAt": "2026-08-08T01:47:52.044Z"
+    },
+    "https://nicolo.xyz/note/something-is-changing-in-the-unit-economics-of-software/": {
+      "contentHash": "a714f1e7fcd42cbe0997bd1b22e7195d3a3c18245768c9ac4bfe8d4d2ded1347",
+      "processedAt": "2026-08-08T01:47:52.921Z"
+    },
+    "https://writing.mariusz.cc/ultimate-product-design-tool/": {
+      "contentHash": "1e50646bfac121b4bfb9dac401e89147d09e3f99a653fc62adc4a81f9aba1e47",
+      "processedAt": "2026-08-08T01:47:54.833Z"
+    },
+    "https://benji.org/drawesome": {
+      "contentHash": "d58c56cc7b912307b75b111c56e778c32a47a64485a0ec838014c2d166fab084",
+      "processedAt": "2026-08-08T01:47:55.500Z"
+    },
+    "https://www.the-idea-machine.com/": {
+      "contentHash": "261a7c5230df5d052c1996eae57181ac20eb4fd3ed2695dde56ab0c0999793cc",
+      "processedAt": "2026-08-08T01:48:00.598Z"
+    },
+    "https://zachholman.com/posts/cold-email": {
+      "contentHash": "eb368cc98196c2c927449ba24cd4d741df6c32e212c3b0bd78787365c0872019",
+      "processedAt": "2026-08-08T01:48:01.796Z"
+    },
+    "https://lea.verou.me/blog/2026/dark-mode-toggles/": {
+      "contentHash": "f316cc07fb3c58d8b2cf0b0117c2bd46ee05abd13111407a28c20303895572e0",
+      "processedAt": "2026-08-08T01:48:09.069Z"
+    },
+    "https://tympanus.net/codrops/2026/08/07/the-department-is-open-building-the-px-push-website/": {
+      "contentHash": "f1a9932fbe5492949ede3ce4b34cd22d68d7e6449df3c53cbb076a7106839e8d",
+      "processedAt": "2026-08-08T01:48:10.273Z"
+    },
+    "https://tympanus.net/codrops/2026/08/06/garden-anomaly-a-tiny-webgpu-and-tsl-experiment/": {
+      "contentHash": "5dc52da0618ab9fe4d206b9531b38ba608a4c1af3c343441c00509ced3e30768",
+      "processedAt": "2026-08-08T01:48:11.241Z"
+    },
+    "https://smashingmagazine.com/2026/08/how-baseline-can-help-ship-less-javascript/": {
+      "contentHash": "e066869ccdcb71203e386a62dbf443683ebcfcac77854f0b678ac088652b2658",
+      "processedAt": "2026-08-08T01:48:13.515Z"
+    },
+    "https://ics.media/entry/260806/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-08-08T01:48:14.246Z"
+    },
+    "https://piccalil.li/the-index/193/": {
+      "contentHash": "139724e931c580b572ac597f340399b58192781cdf9a941ed65545a9619f28f8",
+      "processedAt": "2026-08-08T01:48:14.892Z"
+    },
+    "https://piccalil.li/blog/working-with-highlight-using-progressive-enhancement/": {
+      "contentHash": "4783bbb0627304b6ccaf4f173e02245629f2c00086636259520fd4138f5c82ec",
+      "processedAt": "2026-08-08T01:48:16.692Z"
+    },
+    "https://vercel.com/changelog/vercel-ai-gateway-and-vercel-sandbox-now-available-on-hermes-agent": {
+      "contentHash": "3a4b8a4c29068b121a8043822edfa19152dff99698eb3bdb6ca420fccfaa9699",
+      "processedAt": "2026-08-08T01:48:18.196Z"
+    },
+    "https://vercel.com/changelog/vercel-container-registry-repositories-can-now-be-made-public": {
+      "contentHash": "2ac2719999cca1d4a402b4a80ee50e23688b3a1e901b5a5847fc3f9b4a6814cb",
+      "processedAt": "2026-08-08T01:48:19.576Z"
+    },
+    "https://vercel.com/changelog/audit-log-drains-now-support-datadog-splunk-and-panther": {
+      "contentHash": "8ada491db373d6727fbba582e0add9333391870b33fdb1bfa0018c7da82bd923",
+      "processedAt": "2026-08-08T01:48:20.571Z"
+    },
+    "https://vercel.com/changelog/free-domain-now-included-with-new-pro-subscriptions": {
+      "contentHash": "f45fbc8bd3ed79fb5c7267142650c0fe84520dfa99c11abc8199f572f46a48f3",
+      "processedAt": "2026-08-08T01:48:21.632Z"
+    },
+    "https://vercel.com/changelog/give-every-agent-in-herdr-its-own-vercel-sandbox": {
+      "contentHash": "c9cf140fa10a9ec3d1538cb583cf7eb0d4e0c62081e2fff118c8f101fd751e11",
+      "processedAt": "2026-08-08T01:48:22.023Z"
+    },
+    "https://vercel.com/blog/introducing-agent-plugins": {
+      "contentHash": "907f253155cf608e4e9f0855b0413f49d8bcaa593f5f78e933979f89ef59b3bc",
+      "processedAt": "2026-08-08T01:48:22.459Z"
+    },
+    "https://vercel.com/changelog/seedance-2-5-now-available-on-vercel-ai-gateway": {
+      "contentHash": "65143cab1c5c35399b3cddab17ee8ebe28890f24ae59c5ab7890d0d6ee60f78e",
+      "processedAt": "2026-08-08T01:48:23.349Z"
+    },
+    "https://vercel.com/changelog/vercel-marketplace-agent-skills": {
+      "contentHash": "ea2dcf84b18a0d4a1036474b0505f53c6033de3b113fa4b434a932af7cc2b30e",
+      "processedAt": "2026-08-08T01:48:24.204Z"
+    },
+    "https://vercel.com/changelog/ling-3-0-tiny-is-now-available-on-ai-gateway": {
+      "contentHash": "5e995f470713c3e4538601e757cc57874e939d6eb3969c2817a90439bdc32aeb",
+      "processedAt": "2026-08-08T01:48:25.627Z"
+    },
+    "https://vercel.com/changelog/introducing-agent-plugins-1-0-0": {
+      "contentHash": "79b51aa6325d8151199112d2bad363a9d5e1d9be4637d9f1de552ae5cbab63cd",
+      "processedAt": "2026-08-08T01:48:26.555Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-durable-approvals": {
+      "contentHash": "b41fcc06667435700e1ca8f64b1a98d54a0d8229708a6e4640cd889b3edbd7b0",
+      "processedAt": "2026-08-08T01:48:27.398Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/08/06/183011": {
+      "contentHash": "671433139bb1f2c41b6948be2e42bd911f91d01c83b2e0b7c5730f11ee4f59d9",
+      "processedAt": "2026-08-08T01:48:29.261Z"
+    },
+    "https://tech.smarthr.jp/entry/lt17": {
+      "contentHash": "906c6b390cc1b19e8d731fd452ab415613afa5346d20ffc04d9df830d22c6477",
+      "processedAt": "2026-08-08T01:48:32.552Z"
+    },
+    "https://tech.layerx.co.jp/entry/miru2026-report": {
+      "contentHash": "6ad49a1f86711c92880cf9f86388c515e4bbfdc93cc93449025da594be63f7f8",
+      "processedAt": "2026-08-08T01:48:34.491Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/08/07/140003": {
+      "contentHash": "91cfffb5d9d85a23e61a9e6a13b3adf5b38d49154a1076493531a13adb96444d",
+      "processedAt": "2026-08-08T01:48:34.919Z"
+    },
+    "https://tech.layerx.co.jp/entry/icml-2026": {
+      "contentHash": "06a0385bd324ee8f704619eceb98780fa24876effc61f542562792fbcb091409",
+      "processedAt": "2026-08-08T01:48:35.276Z"
+    },
+    "https://www.nngroup.com/articles/dogfooding/": {
+      "contentHash": "1387a67c21208273a99fe989d9028b18c779628172a19351a35982eeb33bce99",
+      "processedAt": "2026-08-08T01:48:36.722Z"
+    },
+    "https://www.nngroup.com/articles/prove-framework/": {
+      "contentHash": "1d90662654484dd92c84d776f659d2e245f07135f2dc7593f4a76d0677c25051",
+      "processedAt": "2026-08-08T01:48:37.533Z"
+    },
+    "https://react.statuscode.com/issues/486": {
+      "contentHash": "c73d780fe52c242c6cf9922dbe1d333682a6020ad910a0de040135f54a889c6b",
+      "processedAt": "2026-08-08T01:48:38.492Z"
     }
   },
-  "lastRun": "2026-08-06T02:45:53.109Z"
+  "lastRun": "2026-08-08T01:48:38.492Z"
 }
