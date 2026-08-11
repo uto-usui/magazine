@@ -33587,7 +33587,75 @@
     "https://react.statuscode.com/issues/486": {
       "contentHash": "c73d780fe52c242c6cf9922dbe1d333682a6020ad910a0de040135f54a889c6b",
       "processedAt": "2026-08-08T01:48:38.492Z"
+    },
+    "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/": {
+      "contentHash": "2c053aef6736cd41a65e07113cedd654c988aca2639475e93fd00823df37b07d",
+      "processedAt": "2026-08-11T01:53:56.777Z"
+    },
+    "https://a11yweekly.com/issue/512/": {
+      "contentHash": "dc08fc9b8721010a3015916a7ce173cb3a563689ba1c164ec8cdc2e9e03e9d4f",
+      "processedAt": "2026-08-11T01:53:57.052Z"
+    },
+    "https://bit.ly/side-gra1": {
+      "contentHash": "7ec777d4406542066bf2f057493c916f6ae0a1a1b27e2403157a109b1b37c1b2",
+      "processedAt": "2026-08-11T01:53:58.783Z"
+    },
+    "https://notashelf.dev/posts/taste-is-all-thats-left": {
+      "contentHash": "01a0d1689a07032f80308a650358589a1cbb2f27c09917735e7d224af18f3134",
+      "processedAt": "2026-08-11T01:53:59.738Z"
+    },
+    "https://agent-plugins.org/": {
+      "contentHash": "0872db7dc19fc0623be3f88249ba92a4676260876355e8e7714096b4a05d79f9",
+      "processedAt": "2026-08-11T01:54:00.026Z"
+    },
+    "https://jarango.com/2026/08/07/whats-the-purpose-of-information-architecture/": {
+      "contentHash": "519b833ce9917d401e6a88433ad0e9c95887da6cf62f2eef680501ebf7d0f046",
+      "processedAt": "2026-08-11T01:54:00.330Z"
+    },
+    "https://joost.blog/future-of-the-website/": {
+      "contentHash": "9709295b121fed8822ef2df4b9b1d3903bf7bfa92fe293213473e6f102a95531",
+      "processedAt": "2026-08-11T01:54:00.608Z"
+    },
+    "https://tympanus.net/codrops/2026/08/10/from-brand-systems-to-cultural-worlds-inside-antinomy-and-27b/": {
+      "contentHash": "eabb4a3fec3b4adb4535d18e57b8e86473a70b8419d5e7b070ae90b778b3a06a",
+      "processedAt": "2026-08-11T01:54:02.313Z"
+    },
+    "https://tympanus.net/codrops/2026/08/08/designing-a-flexible-digital-archive-for-chems-studios-creative-practice/": {
+      "contentHash": "1174118a4ebdfbdaa3457bfec4c6e2ecac3342b90855f43839368c65aaaaf63e",
+      "processedAt": "2026-08-11T01:54:03.891Z"
+    },
+    "https://vercel.com/blog/a-sandbox-without-a-network-boundary-is-only-half-a-sandbox": {
+      "contentHash": "dfcbe4cbc0f080ff9b19d82e2d485dd82f31fe399aad38503df4339d42e5388c",
+      "processedAt": "2026-08-11T01:54:04.366Z"
+    },
+    "https://vercel.com/changelog/vercel-sandbox-managed-images": {
+      "contentHash": "65b27fa651c632cf7c1a8bbac54ffe3d65210bb75da5f33b0fe0ffce693160a8",
+      "processedAt": "2026-08-11T01:54:04.808Z"
+    },
+    "https://vercel.com/changelog/simplified-onboarding-for-deepsec": {
+      "contentHash": "5ac5e4085937d0f4939d1044c070218462f390f128ca92f829d3834aba06b50c",
+      "processedAt": "2026-08-11T01:54:05.199Z"
+    },
+    "https://vercel.com/changelog/bun-serve-entrypoint-for-vercel-functions": {
+      "contentHash": "fe17802408a8810b6376c594e44dd2135a19493b48c1eea5b800acb680f2b502",
+      "processedAt": "2026-08-11T01:54:05.664Z"
+    },
+    "https://vercel.com/changelog/grok-imagine-image-2-0-preview-now-available-on-vercel-ai-gateway": {
+      "contentHash": "a970e567e88044a06e1f7b35db1b02ecd8fa08db40c59e33b04e567dbf37425f",
+      "processedAt": "2026-08-11T01:54:06.016Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/08/10/123922": {
+      "contentHash": "ab56e441ace8e3d0d46dc71c19429efef114bb2a6cafa633b2fa501b9f99d9d0",
+      "processedAt": "2026-08-11T01:54:06.972Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/08/10/110305": {
+      "contentHash": "08044573efe06ff934ef00343f77003ceb7165064fb6308dcc56c21689a73131",
+      "processedAt": "2026-08-11T01:54:07.601Z"
+    },
+    "https://newsletter.uxdesign.cc/p/bottle-your-judgment-and-make-it": {
+      "contentHash": "3be92e8acfa2c7a2d6867367211a352e97d5a5b70a22ba59277c6106870922b8",
+      "processedAt": "2026-08-11T01:54:08.060Z"
     }
   },
-  "lastRun": "2026-08-08T01:48:38.492Z"
+  "lastRun": "2026-08-11T01:54:08.060Z"
 }
