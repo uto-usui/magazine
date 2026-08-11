@@ -1,0 +1,58 @@
+articles_dir=2026-08-11
+exit_code=0
+timestamp_utc=2026-08-11T01:54:08Z
+
+---- issue lines ----
+8:Failed to fetch feed Stephanie Walter: Status code 500
+
+---- tail (last 50 lines) ----
+Image unavailable (HTTP 404), skipping: https://bit.ly/homepageAssets/logoWall/posthog.svg
+Image unavailable (HTTP 404), skipping: https://bit.ly/homepageAssets/logoWall/ramp.svg
+Image unavailable (HTTP 404), skipping: https://bit.ly/homepageAssets/logoWall/replit.svg
+Image unavailable (HTTP 404), skipping: https://bit.ly/homepageAssets/logoWall/lovable.svg
+Image unavailable (HTTP 404), skipping: https://bit.ly/homepageAssets/logoWall/bumble.svg
+Image unavailable (HTTP 404), skipping: https://bit.ly/homepageAssets/logoWall/cursor.svg
+Image unavailable (HTTP 404), skipping: https://bit.ly/homepageAssets/logoWall/asana.svg
+Image unavailable (HTTP 404), skipping: https://bit.ly/homepageAssets/logoWall/vanta.svg
+Image unavailable (HTTP 404), skipping: https://bit.ly/homepageAssets/logoWall/linear.svg
+Image unavailable (HTTP 404), skipping: https://bit.ly/_next/image?url=%2FhomepageAssets%2Ffeatures%2Ffeature-private.webp&w=3840&q=75
+Image unavailable (HTTP 404), skipping: https://bit.ly/_next/image?url=%2FhomepageAssets%2Ffeatures%2Ffeature-humans.webp&w=3840&q=75
+Image unavailable (HTTP 404), skipping: https://bit.ly/_next/image?url=%2FhomepageAssets%2Ffeatures%2Ffeature-mobile-left.webp&w=3840&q=75
+Image unavailable (HTTP 404), skipping: https://bit.ly/_next/image?url=%2FhomepageAssets%2Ffeatures%2Ffeature-mobile-right.webp&w=3840&q=75
+Image unavailable (HTTP 404), skipping: https://bit.ly/_next/image?url=%2FhomepageAssets%2Ffeatures%2Ffeature-calendar.webp&w=3840&q=75
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-11/the-ai-notepad-for-back-to-back-meetings.md
+📥 Processing: Taste is all that's left
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-11/taste-is-all-thats-left.md
+📥 Processing: Agent plugins
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-11/agent-plugins.md
+📥 Processing: What’s the purpose of information architecture?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-11/whats-the-purpose-of-information-architecture.md
+📥 Processing: The future of the website
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-11/the-future-of-the-website.md
+📥 Processing: From Brand Systems to Cultural Worlds: Inside Antinomy and 27b
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-11/from-brand-systems-to-cultural-worlds-inside-antinomy-and-27b.md
+📥 Processing: Designing a Flexible Digital Archive for Chems.Studio’s Creative Practice
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-11/designing-a-flexible-digital-archive-for-chemsstudios-creative-practice.md
+📥 Processing: A sandbox without a network boundary is only half a sandbox
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-11/a-sandbox-without-a-network-boundary-is-only-half-a-sandbox.md
+📥 Processing: Vercel Sandbox now runs on Vercel Managed Images
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-11/vercel-sandbox-now-runs-on-vercel-managed-images.md
+📥 Processing: Simplified onboarding for deepsec
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-11/simplified-onboarding-for-deepsec.md
+📥 Processing: Bun runtime for Vercel Functions now accepts Bun.serve as an entrypoint
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-11/bun-runtime-for-vercel-functions-now-accepts-bunserve-as-an-entrypoint.md
+📥 Processing: Grok Imagine Image 2.0 now available on Vercel AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-11/grok-imagine-image-20-now-available-on-vercel-ai-gateway.md
+📥 Processing: IT Women Summit —— テクノロジーの力で、組織と未来を動かす女性たちレポート
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-11/it-women-summit.md
+📥 Processing: 本を書くハッカソンイベントBookathon Vol.2レポート —— 週末だけで6冊が完成！
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-11/bookathon-vol2-6.md
+📥 Processing: Bottle your judgment and make it outlive you
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-11/bottle-your-judgment-and-make-it-outlive-you.md
+
+📊 Summary:
+   ✅ Success: 17
+   ❌ Errors: 0
+🏁 Done!
