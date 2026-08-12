@@ -1,0 +1,58 @@
+articles_dir=2026-08-12
+exit_code=0
+timestamp_utc=2026-08-12T02:07:36Z
+
+---- issue lines ----
+8:Failed to fetch feed Stephanie Walter: Status code 500
+
+---- tail (last 50 lines) ----
+⏭️ Skipped (already processed): 611
+📥 Processing: Bottle your judgment and make it outlive you
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxdesign.cc/bottle-your-judgment-and-make-it-outlive-you-14f422772262
+✅ Playwright successfully fetched: https://uxdesign.cc/bottle-your-judgment-and-make-it-outlive-you-14f422772262
+⚠️ Content too short (183 chars < 200): https://uxdesign.cc/bottle-your-judgment-and-make-it-outlive-you-14f422772262
+⚠️ Using RSS content as fallback for: https://uxdesign.cc/bottle-your-judgment-and-make-it-outlive-you-14f422772262
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-12/bottle-your-judgment-and-make-it-outlive-you.md
+📥 Processing: The HTML review 05
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-12/the-html-review-05.md
+📥 Processing: “Code was never the hard part” is an insult to all programmers
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-12/code-was-never-the-hard-part-is-an-insult-to-all-programmers.md
+📥 Processing: AI Potluck
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-12/ai-potluck.md
+📥 Processing: Systems and delays
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-12/systems-and-delays.md
+📥 Processing: Software engineering at a proprietary trading company: Optiver
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-12/software-engineering-at-a-proprietary-trading-company-optiver.md
+📥 Processing: Exploring Procedural Geometry with Three.js and WebGPU
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-12/exploring-procedural-geometry-with-threejs-and-webgpu.md
+📥 Processing: Just You Wait, by Chris Shiflett
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-12/just-you-wait-by-chris-shiflett.md
+📥 Processing: Building Tactile UX: Honoring Intentional Design With Lottie
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-12/building-tactile-ux-honoring-intentional-design-with-lottie.md
+📥 Processing: Temporal mTLS Certificate Rotation
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-12/temporal-mtls-certificate-rotation.md
+📥 Processing: Vercel Connect adds observability support
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-12/vercel-connect-adds-observability-support.md
+📥 Processing: Enterprise Managed Users is now generally available
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-12/enterprise-managed-users-is-now-generally-available.md
+📥 Processing: Vercel Connect now supports CLI setup for 100+ connectors
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-12/vercel-connect-now-supports-cli-setup-for-100-connectors.md
+📥 Processing: Everything hackable will get hacked
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-12/everything-hackable-will-get-hacked.md
+📥 Processing: DeepSeek overtakes Google on volume, cost per token falls 13.6%
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-12/deepseek-overtakes-google-on-volume-cost-per-token-falls-136.md
+📥 Processing: LaunchDarkly is now available on the Vercel Marketplace
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-12/launchdarkly-is-now-available-on-the-vercel-marketplace.md
+📥 Processing: Measuring time savings from Figma Make
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-12/measuring-time-savings-from-figma-make.md
+📥 Processing: 認証がプロダクトの足かせにならない世界へ —— 認証・認可基盤ユニットの発足と挑戦
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-12/smarthr-08-12-102806.md
+📥 Processing: React Native 0.87 - Strict TypeScript API, Metro Update, Swift Package Manager, AGP 9 Support
+Image download skipped for https://reactnative.dev/blog/assets/0.87-symbol-docs-before.png: read ECONNRESET
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-12/react-native-087-strict-typescript-api-metro-update-swift-package-manager-agp-9-support.md
+
+📊 Summary:
+   ✅ Success: 19
+   ❌ Errors: 0
+🏁 Done!
