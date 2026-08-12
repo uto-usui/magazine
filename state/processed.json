@@ -33655,7 +33655,83 @@
     "https://newsletter.uxdesign.cc/p/bottle-your-judgment-and-make-it": {
       "contentHash": "3be92e8acfa2c7a2d6867367211a352e97d5a5b70a22ba59277c6106870922b8",
       "processedAt": "2026-08-11T01:54:08.060Z"
+    },
+    "https://uxdesign.cc/bottle-your-judgment-and-make-it-outlive-you-14f422772262": {
+      "contentHash": "9625fbf461782a53d757c93d3800163a0b075b51f01fc4d48c4f50a43ee724e0",
+      "processedAt": "2026-08-12T02:06:40.257Z"
+    },
+    "https://thehtml.review/05/": {
+      "contentHash": "6a94f67997c26ff1c273282cf5f4d9adc0e337c83287c0ddde75087dc3574bc1",
+      "processedAt": "2026-08-12T02:06:41.098Z"
+    },
+    "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers": {
+      "contentHash": "352443042db1b3bbda64e7f0d092ccbad3cf9147da9151d400a9732ee325dc84",
+      "processedAt": "2026-08-12T02:06:41.482Z"
+    },
+    "https://www.aipotluck.org/map": {
+      "contentHash": "6e6666574238f7bea0badc27171a36b7fa1ff0004cb1442b8a8092aa2f539003",
+      "processedAt": "2026-08-12T02:06:42.694Z"
+    },
+    "https://martin.janiczek.cz/2026/07/24/systems-and-delays.html": {
+      "contentHash": "0b89834a473c9e11c06b0728a3d4066f403feb16f181466ebeb5b8fc54d2612b",
+      "processedAt": "2026-08-12T02:06:43.688Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/optiver": {
+      "contentHash": "4369e2ee42f4374a7e8ad594b751e4ac6f1454cbc9842beaff9243facf27fcd1",
+      "processedAt": "2026-08-12T02:06:44.121Z"
+    },
+    "https://tympanus.net/codrops/2026/08/11/exploring-procedural-geometry-with-three-js-and-webgpu/": {
+      "contentHash": "8053e27b8f6b372e6ac59fbfd809260d31eeda664b318f21d6e58ece4355c9d7",
+      "processedAt": "2026-08-12T02:06:46.059Z"
+    },
+    "https://bradfrost.com/links/post/just-you-wait-by-chris-shiflett/": {
+      "contentHash": "ad3fbd91bc7998a11bdda4ec2c2e644d30c759fa78337ff652262d88eb3df0d2",
+      "processedAt": "2026-08-12T02:06:46.452Z"
+    },
+    "https://smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/": {
+      "contentHash": "b7aec55beb3c88c3a489562c8f4b8a81f43bc11a26ee55424b3f85cb6947ad7a",
+      "processedAt": "2026-08-12T02:06:47.782Z"
+    },
+    "https://www.bitovi.com/blog/temporal-mtls-certificate-rotation": {
+      "contentHash": "cb6275d79c5d3f54d6a9415daa549f38c493247e55a95dd5a87596ebe2920fc4",
+      "processedAt": "2026-08-12T02:06:49.199Z"
+    },
+    "https://vercel.com/changelog/vercel-connect-adds-observability-support": {
+      "contentHash": "f8cccbae1905a5cb2a36deb2d61a22b5289800b04191b3a1a5aa7ef0a241dd8a",
+      "processedAt": "2026-08-12T02:06:49.663Z"
+    },
+    "https://vercel.com/changelog/enterprise-managed-users": {
+      "contentHash": "dfa5e73c462db49dbc2efa7ca197ac7e1311184b1acca744336cf589c791b425",
+      "processedAt": "2026-08-12T02:06:50.057Z"
+    },
+    "https://vercel.com/changelog/vercel-cli-100-services": {
+      "contentHash": "db7f7abf2efcdb2e23b591bdab1bb3163109c212230aa1289db858aaf11c89da",
+      "processedAt": "2026-08-12T02:06:50.436Z"
+    },
+    "https://vercel.com/blog/everything-hackable-will-get-hacked": {
+      "contentHash": "dfe17693e90e9fcaf9de8fa7532844a8410b6bbf770cb2a9d07ee32c141ae41b",
+      "processedAt": "2026-08-12T02:06:50.928Z"
+    },
+    "https://vercel.com/blog/deepseek-overtakes-google-on-volume-cost-per-token-falls": {
+      "contentHash": "442adf35d4615de047ba3b14c9ba10b17ece79ea9b5af36b5a539a1aed034759",
+      "processedAt": "2026-08-12T02:06:51.442Z"
+    },
+    "https://vercel.com/changelog/launchdarkly-is-now-available-on-the-vercel-marketplace": {
+      "contentHash": "d344cf8fc9121091fd67ad46204316d7ed39d154eb291b7dceb0c20c29037d33",
+      "processedAt": "2026-08-12T02:06:51.952Z"
+    },
+    "https://www.figma.com/blog/measuring-time-savings-from-figma-make/": {
+      "contentHash": "6af66086089258a0bc360aca9a2f18d872b4054692488612ac206f34c4ea9537",
+      "processedAt": "2026-08-12T02:07:28.317Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/08/12/102806": {
+      "contentHash": "ea7795afe3db2de7e08c5d7ba3de10f8ecaeba63f637388643681c604d6416ef",
+      "processedAt": "2026-08-12T02:07:28.892Z"
+    },
+    "https://reactnative.dev/blog/2026/08/11/react-native-0.87": {
+      "contentHash": "77a2950fc53e0f169fd7f5241db7bce076f0ff052dce6bd19bd75dda8f74de2f",
+      "processedAt": "2026-08-12T02:07:35.664Z"
     }
   },
-  "lastRun": "2026-08-11T01:54:08.060Z"
+  "lastRun": "2026-08-12T02:07:35.664Z"
 }
