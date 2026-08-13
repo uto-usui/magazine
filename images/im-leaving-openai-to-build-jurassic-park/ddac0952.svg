@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 674 345" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Horizontal bars counting disclosed security incidents by species, with a safety grade beside each. Humans run off the end of the scale at eleven thousand and score an F. Claude models sit at three and OpenAI models at one, both scoring in the C range. Tyrannosaurus rex, Triceratops and Stegosaurus all sit at zero and score A plus." width="674" height="345">
+<style>
+svg{color:#000}
+svg{font:13px sans-serif}
+.axis{font-size:12px;fill:currentColor;opacity:0.6}
+.grid{stroke:currentColor;stroke-opacity:0.12}
+.lab{font-size:12px;fill:currentColor}
+.lab-sm{font-size:10.5px;fill:currentColor;opacity:0.72}
+.lgd{fill:currentColor;font-size:13px}
+</style>
+<text class="lab-sm" x="112" y="48" text-anchor="end">species</text><text class="lab-sm" x="526" y="48" text-anchor="start">n</text><text class="lab-sm" x="646" y="48" text-anchor="end">grade</text>
+<line class="grid" x1="120" y1="52" x2="120" y2="250"/><line class="grid" x1="218.5" y1="52" x2="218.5" y2="250"/><line class="grid" x1="317" y1="52" x2="317" y2="250"/><line class="grid" x1="415.5" y1="52" x2="415.5" y2="250"/><line class="grid" x1="514" y1="52" x2="514" y2="250"/>
+<text class="axis" x="120" y="270" text-anchor="middle">0</text><text class="axis" x="218.5" y="270" text-anchor="middle">1</text><text class="axis" x="317" y="270" text-anchor="middle">2</text><text class="axis" x="415.5" y="270" text-anchor="middle">3</text><text class="axis" x="514" y="270" text-anchor="middle">4</text>
+<text class="lab" x="112" y="79" text-anchor="end">Humans</text><rect x="120" y="65" width="380" height="18" rx="2" fill="#dc2626" opacity="0.85"/><line x1="502" y1="84" x2="510" y2="64" stroke="currentColor" stroke-opacity="0.45"/><line x1="508" y1="84" x2="516" y2="64" stroke="currentColor" stroke-opacity="0.45"/><text class="lab-sm" x="526" y="79" text-anchor="start">11,000</text><text class="lab" x="646" y="80" text-anchor="end">F</text>
+<text class="lab" x="112" y="111" text-anchor="end">Claude models</text><rect x="120" y="97" width="295.5" height="18" rx="2" fill="#ca8a04" opacity="0.85"/><text class="lab-sm" x="526" y="111" text-anchor="start">3</text><text class="lab" x="646" y="112" text-anchor="end">C−</text>
+<text class="lab" x="112" y="143" text-anchor="end">OpenAI models</text><rect x="120" y="129" width="98.5" height="18" rx="2" fill="#ca8a04" opacity="0.85"/><text class="lab-sm" x="526" y="143" text-anchor="start">1</text><text class="lab" x="646" y="144" text-anchor="end">C+</text>
+<text class="lab" x="112" y="175" text-anchor="end">Tyrannosaurus rex</text><rect x="120" y="161" width="3" height="18" rx="1" fill="#16a34a"/><text class="lab-sm" x="526" y="175" text-anchor="start">0</text><text class="lab" x="646" y="176" text-anchor="end">A+</text>
+<text class="lab" x="112" y="207" text-anchor="end">Triceratops</text><rect x="120" y="193" width="3" height="18" rx="1" fill="#16a34a"/><text class="lab-sm" x="526" y="207" text-anchor="start">0</text><text class="lab" x="646" y="208" text-anchor="end">A+</text>
+<text class="lab" x="112" y="239" text-anchor="end">Stegosaurus</text><rect x="120" y="225" width="3" height="18" rx="1" fill="#16a34a"/><text class="lab-sm" x="526" y="239" text-anchor="start">0</text><text class="lab" x="646" y="240" text-anchor="end">A+</text>
+<text class="axis" x="317" y="292" text-anchor="middle">disclosed security incidents, all time</text>
+<rect x="86.3" y="317" width="14" height="14" rx="2" fill="#16a34a"/><text class="lgd" x="106.3" y="329">no incidents in 165 Myr</text><rect x="294.8" y="317" width="14" height="14" rx="2" fill="#ca8a04"/><text class="lgd" x="314.8" y="329">under investigation</text><rect x="474.7" y="317" width="14" height="14" rx="2" fill="#dc2626"/><text class="lgd" x="494.7" y="329">known hostile</text></svg>
