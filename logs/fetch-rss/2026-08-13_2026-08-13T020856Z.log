@@ -1,0 +1,58 @@
+articles_dir=2026-08-13
+exit_code=0
+timestamp_utc=2026-08-13T02:08:56Z
+
+---- issue lines ----
+8:Failed to fetch feed Stephanie Walter: Status code 500
+
+---- tail (last 50 lines) ----
+Image too large, skipping: https://blog.mozilla.org/ux/files/2026/08/Choosing-animation_1.5x.gif
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-13/let-your-designs-fail-for-the-right-reasons.md
+📥 Processing: State of AI in Design Systems
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-13/state-of-ai-in-design-systems.md
+📥 Processing: Beautiful UI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-13/beautiful-ui.md
+📥 Processing: I’m leaving OpenAI to build Jurassic Park
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-13/im-leaving-openai-to-build-jurassic-park.md
+📥 Processing: State of CSS 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-13/state-of-css-2026.md
+📥 Processing: Stop being skeptical about AI for development with Charity Majors
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-13/stop-being-skeptical-about-ai-for-development-with-charity-majors.md
+📥 Processing: Creating an Interactive 3D Cluster with Three.js, TSL and Three Start
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-13/creating-an-interactive-3d-cluster-with-threejs-tsl-and-three-start.md
+📥 Processing: DeepSeek V4 Pro now runs updated weights on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-13/deepseek-v4-pro-now-runs-updated-weights-on-ai-gateway.md
+📥 Processing: Exa web search free through August 31 on AI Gateway and eve
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-13/exa-web-search-free-through-august-31-on-ai-gateway-and-eve.md
+📥 Processing: Building a software factory for AI SDK
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-13/building-a-software-factory-for-ai-sdk.md
+📥 Processing: Set up coding agents in one command with AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-13/set-up-coding-agents-in-one-command-with-ai-gateway.md
+📥 Processing: Free domain for one year, now for all Pro teams
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-13/free-domain-for-one-year-now-for-all-pro-teams.md
+📥 Processing: Grok 4.6 now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-13/grok-46-now-available-on-ai-gateway.md
+📥 Processing: How we migrated the database behind every Vercel build
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-13/how-we-migrated-the-database-behind-every-vercel-build.md
+📥 Processing: Mapping the AI economy
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-13/mapping-the-ai-economy.md
+📥 Processing: Five CSS properties for eye-catching text designs
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-13/five-css-properties-for-eye-catching-text-designs.md
+📥 Processing: 2年かけてたどり着いた1on1の形 —— メンバーと一緒に1on1の最適解を探る
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-13/21on1-1on1.md
+📥 Processing: What vibe coding a Figma plugin taught me about content design 
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-13/what-vibe-coding-a-figma-plugin-taught-me-about-content-design.md
+📥 Processing: How we stopped outsourcing decision-making to AI
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-13/how-we-stopped-outsourcing-decision-making-to-ai.md
+
+📊 Summary:
+   ✅ Success: 22
+   ❌ Errors: 0
+🏁 Done!
