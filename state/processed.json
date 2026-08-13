@@ -33731,7 +33731,95 @@
     "https://reactnative.dev/blog/2026/08/11/react-native-0.87": {
       "contentHash": "77a2950fc53e0f169fd7f5241db7bce076f0ff052dce6bd19bd75dda8f74de2f",
       "processedAt": "2026-08-12T02:07:35.664Z"
+    },
+    "https://engineering.fb.com/2026/08/12/security/how-were-building-scam-alert-whatsapp/": {
+      "contentHash": "b376cb65c36afc95e6e4f9162b5eb48901c533264163ce67581dae0ac01aad56",
+      "processedAt": "2026-08-13T02:08:35.204Z"
+    },
+    "https://csswizardry.com/2026/08/web-perf-wednesday-004-a-quiet-week-is-time-to-investigate/": {
+      "contentHash": "a63f69d2a7830b2de982f5fb9ee98780342e9b9ca2779332f62915494c20d748",
+      "processedAt": "2026-08-13T02:08:35.993Z"
+    },
+    "https://adrianroselli.com/2026/08/should-a-dialog-close-when-clicked-outside.html": {
+      "contentHash": "1998a6d5ef603152ad1b199ac68ac157a90ae4555c1046efbd91819abc5b434a",
+      "processedAt": "2026-08-13T02:08:36.662Z"
+    },
+    "https://blog.mozilla.org/ux/2026/08/let-your-designs-fail-for-the-right-reasons/": {
+      "contentHash": "f9e4223f9545fbcb56c016b5e2b43b4108b9153288eb933d01106d653e522a7e",
+      "processedAt": "2026-08-13T02:08:37.237Z"
+    },
+    "https://state-of-ai-in-design-systems.netlify.app/": {
+      "contentHash": "e097fef30dc622d9d58fb6045aa6e75743cc567fa442d02d3cd4a5dc09f8e655",
+      "processedAt": "2026-08-13T02:08:38.061Z"
+    },
+    "https://www.beautifului.dev/": {
+      "contentHash": "ce555f33ca7614b799382a46878069cd08beef53e1ce46f7b23ac496e2306f84",
+      "processedAt": "2026-08-13T02:08:38.715Z"
+    },
+    "https://taylor.town/leaving-openai": {
+      "contentHash": "d391392fa65c89c0fa5f197060e5ff69c74e9d68dda71265044c053ae9cc893c",
+      "processedAt": "2026-08-13T02:08:39.215Z"
+    },
+    "https://2026.stateofcss.com/en-US/": {
+      "contentHash": "c8a353618c3261bd84619af742b7906cec4ae25cac0f8e18efa5e6f9f1ce16f2",
+      "processedAt": "2026-08-13T02:08:45.653Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/stop-being-skeptical-about-ai-for": {
+      "contentHash": "0ec84938fc09d17d39eb96f8c4d91433c0f7975044fde89ef846c8a16ce001f9",
+      "processedAt": "2026-08-13T02:08:46.093Z"
+    },
+    "https://tympanus.net/codrops/2026/08/12/creating-an-interactive-3d-cluster-with-three-js-tsl-and-three-start/": {
+      "contentHash": "393e9bf6e436ba1b03126789dc02c9bf089c94fb0c085b704ee8c2a9f269b785",
+      "processedAt": "2026-08-13T02:08:47.716Z"
+    },
+    "https://vercel.com/changelog/deepseek-v4-pro-now-runs-updated-weights-on-ai-gateway": {
+      "contentHash": "d8213efc90886ec93168104dcba96552edaaca9e715037a59b94aa28a89a46f9",
+      "processedAt": "2026-08-13T02:08:48.234Z"
+    },
+    "https://vercel.com/changelog/exa-web-search-free-through-august-31-on-ai-gateway-and-eve": {
+      "contentHash": "d0ed0be416fb03ef12d280eef4169fadb2fdae85c54bbdc2df0a0a2fc0b0eb21",
+      "processedAt": "2026-08-13T02:08:48.721Z"
+    },
+    "https://vercel.com/blog/building-a-software-factory-for-ai-sdk": {
+      "contentHash": "c04f8864c633b98afc3734fd2382a493f51a5f8f7b41b2b8ad41ae2b852c30d5",
+      "processedAt": "2026-08-13T02:08:49.412Z"
+    },
+    "https://vercel.com/changelog/set-up-coding-agents-in-one-command-with-ai-gateway": {
+      "contentHash": "c0bb0f586d22aef6e4b0b79f1e87a45daf2488a4618f9fb3ac39ca5a652aeaaa",
+      "processedAt": "2026-08-13T02:08:49.901Z"
+    },
+    "https://vercel.com/changelog/free-domain-for-one-year-now-for-all-pro-teams": {
+      "contentHash": "82d43da2dc811ec21a996940766fccf08270bd2ae35dcea693697ff9dd2ee213",
+      "processedAt": "2026-08-13T02:08:50.330Z"
+    },
+    "https://vercel.com/changelog/grok-4-6-now-available-on-ai-gateway": {
+      "contentHash": "41b07bd1d652e501946c04cee3a3368477caa44711ee92327043d5d81920bb91",
+      "processedAt": "2026-08-13T02:08:50.756Z"
+    },
+    "https://vercel.com/blog/how-we-migrated-the-database-behind-every-vercel-build": {
+      "contentHash": "1c66ae852d0debc977bee1e68a214248a0eb5046d9e5f4f8eeb1fa6cf3cfe2c3",
+      "processedAt": "2026-08-13T02:08:51.343Z"
+    },
+    "https://stripe.com/blog/mapping-the-ai-economy": {
+      "contentHash": "25eb9f9fd3e75dca5b4957debda96748dbf32c03045afe21312d08e33a8b6c76",
+      "processedAt": "2026-08-13T02:08:51.946Z"
+    },
+    "https://frontendfoc.us/issues/754": {
+      "contentHash": "00abacd71d0c41ced719e913385cde1f085258cfa58b19c6f7c0340ac41b05f6",
+      "processedAt": "2026-08-13T02:08:52.904Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/08/13/080000": {
+      "contentHash": "15237baf042193c29c9e2bce644abd3949b0b64bb50a2e62f421a691567104d3",
+      "processedAt": "2026-08-13T02:08:53.500Z"
+    },
+    "https://uxcontent.com/what-vibe-coding-a-figma-plugin-taught-me-about-content-design/": {
+      "contentHash": "70caf43320e8608d12bac9ddc15c1b239f5718223895b9ea6611ea7321d03c7e",
+      "processedAt": "2026-08-13T02:08:54.904Z"
+    },
+    "https://uxcontent.com/how-we-stopped-outsourcing-decision-making-to-ai/": {
+      "contentHash": "6d3c78ae6659e07599d9d00c842b02250acb94e0b2bc96f342691cf166c7c847",
+      "processedAt": "2026-08-13T02:08:55.994Z"
     }
   },
-  "lastRun": "2026-08-12T02:07:35.664Z"
+  "lastRun": "2026-08-13T02:08:55.994Z"
 }

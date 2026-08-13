@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 389" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Two projected lines of United States employment in millions from 2026 to 2040. Jobs remaining after AI fall in a straight line from 160 million to under 2 million, a 99 percent loss. Jurassic Park employment starts near zero and rises exponentially, crossing the falling line at about 36 million in 2037 and reaching 220 million by 2040." width="800" height="389">
+<style>
+svg{color:#000}
+svg{font:13px sans-serif}
+.axis{font-size:12px;fill:currentColor;opacity:0.6}
+.grid{stroke:currentColor;stroke-opacity:0.12}
+.lab{font-size:12px;fill:currentColor}
+.lab-sm{font-size:10.5px;fill:currentColor;opacity:0.72}
+.lgd{fill:currentColor;font-size:13px}
+</style>
+<line class="grid" x1="70" y1="300" x2="756" y2="300"/><line class="grid" x1="70" y1="246" x2="756" y2="246"/><line class="grid" x1="70" y1="192" x2="756" y2="192"/><line class="grid" x1="70" y1="138" x2="756" y2="138"/><line class="grid" x1="70" y1="84" x2="756" y2="84"/><line class="grid" x1="70" y1="30" x2="756" y2="30"/>
+<text class="axis" x="62" y="304" text-anchor="end">0</text><text class="axis" x="62" y="250" text-anchor="end">50</text><text class="axis" x="62" y="196" text-anchor="end">100</text><text class="axis" x="62" y="142" text-anchor="end">150</text><text class="axis" x="62" y="88" text-anchor="end">200</text><text class="axis" x="62" y="34" text-anchor="end">250</text>
+<text class="axis" x="70" y="320" text-anchor="middle">2026</text><text class="axis" x="168" y="320" text-anchor="middle">2028</text><text class="axis" x="266" y="320" text-anchor="middle">2030</text><text class="axis" x="364" y="320" text-anchor="middle">2032</text><text class="axis" x="462" y="320" text-anchor="middle">2034</text><text class="axis" x="560" y="320" text-anchor="middle">2036</text><text class="axis" x="658" y="320" text-anchor="middle">2038</text><text class="axis" x="756" y="320" text-anchor="middle">2040</text>
+<polyline points="70,127.2 94.5,133.3 119,139.4 143.5,145.5 168,151.6 192.5,157.7 217,163.9 241.5,170 266,176.1 290.5,182.2 315,188.3 339.5,194.4 364,200.5 388.5,206.6 413,212.7 437.5,218.8 462,225 486.5,231.1 511,237.2 535.5,243.3 560,249.4 584.5,255.5 609,261.6 633.5,267.7 658,273.8 682.5,279.9 707,286 731.5,292.2 756,298.3" fill="none" stroke="#2b6cb0" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="70,299.9 94.5,299.9 119,299.9 143.5,299.9 168,299.8 192.5,299.8 217,299.7 241.5,299.6 266,299.4 290.5,299.2 315,298.9 339.5,298.5 364,298 388.5,297.3 413,296.4 437.5,295.2 462,293.5 486.5,291.2 511,288.2 535.5,284 560,278.4 584.5,270.9 609,260.7 633.5,247 658,228.5 682.5,203.6 707,169.9 731.5,124.5 756,63.2" fill="none" stroke="#dc2626" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="609" y1="261" x2="609" y2="300" stroke="currentColor" stroke-opacity="0.3" stroke-dasharray="3 3"/><circle cx="609" cy="261" r="4.5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+<text class="lab-sm" x="742" y="290" text-anchor="end">99% gone</text>
+<text class="axis" x="413" y="344" text-anchor="middle">year</text><text class="axis" x="30" y="165" text-anchor="middle" transform="rotate(-90 30 165)">US employment (millions)</text>
+<rect x="200" y="361" width="14" height="14" rx="2" fill="#2b6cb0"/><text class="lgd" x="220" y="373">jobs remaining after AI</text><rect x="408" y="361" width="14" height="14" rx="2" fill="#dc2626"/><text class="lgd" x="428" y="373">Jurassic Park employment</text></svg>
