@@ -1,0 +1,58 @@
+articles_dir=2026-08-14
+exit_code=0
+timestamp_utc=2026-08-14T02:07:15Z
+
+---- issue lines ----
+8:Failed to fetch feed Stephanie Walter: Status code 500
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-14/middle-management-roles-are-also-a-trap.md
+📥 Processing: Backyard designers
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-14/backyard-designers.md
+📥 Processing: Everyone is designing with AI, not for it
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-14/everyone-is-designing-with-ai-not-for-it.md
+📥 Processing: From Motion to Meaning: Denis Avramenko’s Approach to Interactive Design
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-14/from-motion-to-meaning-denis-avramenkos-approach-to-interactive-design.md
+📥 Processing: New EU Guidelines For AI Labelling
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-14/new-eu-guidelines-for-ai-labelling.md
+📥 Processing: GSAP入門(第4回) - 高度な制御とユーティリティーを使いこなそう
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-14/gsap4.md
+📥 Processing: GSAP入門(第3回) - ScrollTrigger・MotionPath・FLIP・テキストモーション
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-14/gsap3-scrolltriggermotionpathflip.md
+📥 Processing: Personal website redesign project post: A little progressive enhancement as a treat
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-14/personal-website-redesign-project-post-a-little-progressive-enhancement-as-a-treat.md
+📥 Processing: Inside the Vercel intern experience
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-14/inside-the-vercel-intern-experience.md
+📥 Processing: GLM 5.2 free for eve agents through August 27 via Blackbox on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-14/glm-52-free-for-eve-agents-through-august-27-via-blackbox-on-ai-gateway.md
+📥 Processing: Gemini 3.7 Flash now available on AI Gateway for 50% off
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-14/gemini-37-flash-now-available-on-ai-gateway-for-50-off.md
+📥 Processing: One-click upgrade for deprecated Node.js versions
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-14/one-click-upgrade-for-deprecated-nodejs-versions.md
+📥 Processing: Grok Build is now available in the AI SDK harness layer
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-14/grok-build-is-now-available-in-the-ai-sdk-harness-layer.md
+📥 Processing: Use ACP-compatible harnesses with the AI SDK harness layer
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-14/use-acp-compatible-harnesses-with-the-ai-sdk-harness-layer.md
+📥 Processing: Exa joins the Vercel Agent Marketplace
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-14/exa-joins-the-vercel-agent-marketplace.md
+📥 Processing: Try these 10 skills—and show off your own
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-14/try-these-10-skillsand-show-off-your-own.md
+📥 Processing: SnowflakeのRow Access Policyをdbtで漏れなく適用する
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-14/snowflakerow-access-policydbt.md
+📥 Processing: Food Delivery & Takeout UX Benchmark: 3,100+ Performance Scores and 1,900+ Best Practice Examples
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-14/food-delivery-takeout-ux-benchmark-3100-performance-scores-and-1900-best-practice-examples.md
+
+📊 Summary:
+   ✅ Success: 21
+   ❌ Errors: 0
+🏁 Done!
