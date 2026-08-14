@@ -33819,7 +33819,91 @@
     "https://uxcontent.com/how-we-stopped-outsourcing-decision-making-to-ai/": {
       "contentHash": "6d3c78ae6659e07599d9d00c842b02250acb94e0b2bc96f342691cf166c7c847",
       "processedAt": "2026-08-13T02:08:55.994Z"
+    },
+    "https://engineering.atspotify.com/2026/8/when-can-llms-replace-humans-in-a-b-tests/": {
+      "contentHash": "2caf46e599eed266955390c74b9e6937616e5078f520cebed99caaa3f4f23dd2",
+      "processedAt": "2026-08-14T02:06:24.933Z"
+    },
+    "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/": {
+      "contentHash": "aa011e8bbc9a1becbc26b69134226eebc9b5f68cf9dd21f422e5154fa2979406",
+      "processedAt": "2026-08-14T02:06:25.469Z"
+    },
+    "https://kuber.studio/cookie/": {
+      "contentHash": "c9df3793f0de196a92a543dbca7c00b9d278ab87085b400474e42b67bbd000e0",
+      "processedAt": "2026-08-14T02:06:30.099Z"
+    },
+    "https://lethain.com/middle-management-roles-were-also-a-trap/": {
+      "contentHash": "c9c62c8584806579397aeee2a5aae321224321f8559cf515287d8f54c4b84fc4",
+      "processedAt": "2026-08-14T02:06:30.261Z"
+    },
+    "https://backyarddesigners.club/": {
+      "contentHash": "e3e3001dac2926298abd35b8ac4b0454ac1666715fb09b975f312292cafd6b7c",
+      "processedAt": "2026-08-14T02:06:30.367Z"
+    },
+    "https://www.imkylelambert.com/articles/everyone-is-designing-with-ai-not-for-it": {
+      "contentHash": "5344dbd75996cb1f70f90c67c389f0a412c8bdb869749eae4f54636aa6405d7b",
+      "processedAt": "2026-08-14T02:06:30.506Z"
+    },
+    "https://tympanus.net/codrops/2026/08/13/from-motion-to-meaning-denis-avramenkos-approach-to-interactive-design/": {
+      "contentHash": "6d3f36ec0a57a9762dce4271078a059965c2d216172108f57447c59d1cc32df3",
+      "processedAt": "2026-08-14T02:06:31.845Z"
+    },
+    "https://smashingmagazine.com/2026/08/eu-guidelines-ai-labelling/": {
+      "contentHash": "cfd42f190518ded0624edf15344e188af25ae71cd9ebe0647c71c2e01e8282b7",
+      "processedAt": "2026-08-14T02:06:33.239Z"
+    },
+    "https://ics.media/entry/220827/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-08-14T02:06:35.581Z"
+    },
+    "https://ics.media/entry/220826/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-08-14T02:06:37.287Z"
+    },
+    "https://piccalil.li/projects/personal-site/9/": {
+      "contentHash": "62a11572f9cb60dca3006aabcfa9464e593d06a03e4a96108aaa60219b57432b",
+      "processedAt": "2026-08-14T02:06:37.818Z"
+    },
+    "https://vercel.com/blog/inside-the-vercel-intern-experience": {
+      "contentHash": "e252208888c59d30eccdbf38187c7669c4dfbf576abcd71bb58b485342424883",
+      "processedAt": "2026-08-14T02:06:38.562Z"
+    },
+    "https://vercel.com/changelog/glm-5-2-free-for-eve-agents-through-august-27-via-blackbox-on-ai-gateway": {
+      "contentHash": "d2b8877ecd70c2abbcaa338c4b1b6997b66f1e5bde158f33970c644c4493b594",
+      "processedAt": "2026-08-14T02:06:38.867Z"
+    },
+    "https://vercel.com/changelog/gemini-3-7-flash-now-available-on-ai-gateway-for-50-off": {
+      "contentHash": "38946db6df0c4f8aabfa45f7ce8678c66e1a57a9a53b879c6b3bc89b1cd6cd2e",
+      "processedAt": "2026-08-14T02:06:39.316Z"
+    },
+    "https://vercel.com/changelog/one-click-upgrade-for-deprecated-node-js-versions": {
+      "contentHash": "c80f1faf2004888a9b27e4ea877119a55152abecff87311abc49bcbdf57a95e2",
+      "processedAt": "2026-08-14T02:06:39.778Z"
+    },
+    "https://vercel.com/changelog/grok-build-harness-adapter": {
+      "contentHash": "186b692870bacae636258be9d63b9fd3a7d2e61fc9a2c5b040cee39034a74b44",
+      "processedAt": "2026-08-14T02:06:40.117Z"
+    },
+    "https://vercel.com/changelog/use-acp-compatible-harnesses-with-the-ai-sdk-harness-layer": {
+      "contentHash": "5ae588a8a1f289416d2e669a2d699109c25ec5d296a6bf1daddc19799637d732",
+      "processedAt": "2026-08-14T02:06:40.523Z"
+    },
+    "https://vercel.com/changelog/exa-joins-the-vercel-agent-marketplace": {
+      "contentHash": "35337b0870f7d353428f1724faad4ed8d42a3519327ca30ad4b68f5cffc0f383",
+      "processedAt": "2026-08-14T02:06:40.884Z"
+    },
+    "https://www.figma.com/blog/try-these-10-skills-and-show-off-your-own/": {
+      "contentHash": "223d7c566fb8e375dc6761667478b09a42a31ad3eab5aa1e52e43d993d9dc40b",
+      "processedAt": "2026-08-14T02:07:12.317Z"
+    },
+    "https://tech.layerx.co.jp/entry/dbt-snowflake-rap-enforcement": {
+      "contentHash": "15f9da5b619a32d940a51b82319f325649425f9655bda65c37eeecff43233508",
+      "processedAt": "2026-08-14T02:07:13.199Z"
+    },
+    "https://feeds.baymard.com/link/9825/17417083/food-delivery-and-takeout-ux-benchmark-2026": {
+      "contentHash": "f41d585a9b658f5b003e668a0ef8ebc683544c4e592405ccc0854926d509d0cd",
+      "processedAt": "2026-08-14T02:07:14.438Z"
     }
   },
-  "lastRun": "2026-08-13T02:08:55.994Z"
+  "lastRun": "2026-08-14T02:07:14.438Z"
 }
