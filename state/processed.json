@@ -33903,7 +33903,63 @@
     "https://feeds.baymard.com/link/9825/17417083/food-delivery-and-takeout-ux-benchmark-2026": {
       "contentHash": "f41d585a9b658f5b003e668a0ef8ebc683544c4e592405ccc0854926d509d0cd",
       "processedAt": "2026-08-14T02:07:14.438Z"
+    },
+    "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html": {
+      "contentHash": "5b2eae6a73bbd24596837f9bb1dce92b45bf953158ea528fb5665634c5be17ca",
+      "processedAt": "2026-08-15T01:21:05.523Z"
+    },
+    "https://gooey.jakubantalik.com/": {
+      "contentHash": "76585c0ee6218f80fa1aba605a9ffc410fbbac16cd6937e409d3b1d3718742e1",
+      "processedAt": "2026-08-15T01:21:11.725Z"
+    },
+    "https://mattrothenberg.com/notes/you-dont-have-a-design-system/": {
+      "contentHash": "bb4711a0d90c270bac486a56a5e6daac1d4abf50504b9b39235667393787d87f",
+      "processedAt": "2026-08-15T01:21:17.167Z"
+    },
+    "https://stolen-thoughts.com/": {
+      "contentHash": "56649f70fea7daa56617d2ccff045ef187d2077892d99683def8ee0b3493f7be",
+      "processedAt": "2026-08-15T01:21:17.463Z"
+    },
+    "https://yaronschoen.com/blog/claude-code-101-for-designers/": {
+      "contentHash": "b34b9a6cd710d2958c727688e9be972173854310ca65e1818bf39723f2e65420",
+      "processedAt": "2026-08-15T01:21:17.807Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-metas-self-inflicted-resignation": {
+      "contentHash": "315b420f14274d444fc3e62c6738e9817b49b7615962d14e6391107bca975056",
+      "processedAt": "2026-08-15T01:21:17.941Z"
+    },
+    "https://piccalil.li/the-index/194/": {
+      "contentHash": "75cc164a5f86c7c4d55f3a22292dd723f275739068cddb100c89d8722962f0da",
+      "processedAt": "2026-08-15T01:21:18.211Z"
+    },
+    "https://vercel.com/changelog/encrypted-client-hello-now-supported-on-vercel-cdn": {
+      "contentHash": "aeba03bb06d0e6ed273165d0411836c4aec0f38b1cab52d7e19edbc1b403046c",
+      "processedAt": "2026-08-15T01:21:18.657Z"
+    },
+    "https://www.figma.com/blog/how-to-move-fast-toward-the-right-thing/": {
+      "contentHash": "d2203dbd46b461176aff8539de6aa97be6784c1d24e41f4ba1daeeceb6705ed8",
+      "processedAt": "2026-08-15T01:21:46.522Z"
+    },
+    "https://www.nngroup.com/articles/eval-ai-output/": {
+      "contentHash": "7716ab5646ba4b59337c5506a7b206d80586e562edcd74c4fa6b15c0337d494b",
+      "processedAt": "2026-08-15T01:21:47.806Z"
+    },
+    "https://www.nngroup.com/articles/psychological-ownership/": {
+      "contentHash": "f27a71e0961e7b039ab6f09e78315ce64bf0f785fb80cbb2e3f0a77c23b357a6",
+      "processedAt": "2026-08-15T01:21:48.703Z"
+    },
+    "https://remix.run/blog/react-router-v6%2E4": {
+      "contentHash": "b99c2f35226f4e185038335c796fc0d700cbe5c15b9ec5c0ac52f4f4d8022e43",
+      "processedAt": "2026-08-15T01:21:48.830Z"
+    },
+    "https://remix.run/blog/react-router-v6%2E3%2E0": {
+      "contentHash": "372bee4c3534f66b51b26311f1974e9924eff76c4c69e50138bf8ddc7bafab1d",
+      "processedAt": "2026-08-15T01:21:48.905Z"
+    },
+    "https://react.statuscode.com/issues/487": {
+      "contentHash": "b2f47042b676f5bda22610ac5b54d8c9fc1ba42e03d8a56a8afc67bfad99de9f",
+      "processedAt": "2026-08-15T01:21:49.649Z"
     }
   },
-  "lastRun": "2026-08-14T02:07:14.438Z"
+  "lastRun": "2026-08-15T01:21:49.649Z"
 }
