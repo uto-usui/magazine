@@ -33959,7 +33959,23 @@
     "https://react.statuscode.com/issues/487": {
       "contentHash": "b2f47042b676f5bda22610ac5b54d8c9fc1ba42e03d8a56a8afc67bfad99de9f",
       "processedAt": "2026-08-15T01:21:49.649Z"
+    },
+    "https://a11yweekly.com/issue/513/": {
+      "contentHash": "d6384a01e605aab5b7578d3c13b1f5a19f2b845f9391a2c7856da7a6e6b8dacd",
+      "processedAt": "2026-08-17T01:23:04.539Z"
+    },
+    "https://tympanus.net/codrops/2026/08/15/inside-haoqi-design-letting-dom-and-webgl-share-a-retro-futurist-stage/": {
+      "contentHash": "bd8c523146e3d32543b74901ce129de896e1bacd451733461830fd586ba8120a",
+      "processedAt": "2026-08-17T01:23:06.023Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/08/17/080914": {
+      "contentHash": "e988c584d4a2698baf42eb3ec6d1e29adea57f3225813025cd0de86c4178dd82",
+      "processedAt": "2026-08-17T01:23:06.987Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-august-16-2026/": {
+      "contentHash": "7ddc9277cd3fd66b8a127a1cea3d952ca80778d65f3dc645301231a36ab92569",
+      "processedAt": "2026-08-17T01:23:08.074Z"
     }
   },
-  "lastRun": "2026-08-15T01:21:49.649Z"
+  "lastRun": "2026-08-17T01:23:08.074Z"
 }
