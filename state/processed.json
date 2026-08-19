@@ -33959,7 +33959,131 @@
     "https://react.statuscode.com/issues/487": {
       "contentHash": "b2f47042b676f5bda22610ac5b54d8c9fc1ba42e03d8a56a8afc67bfad99de9f",
       "processedAt": "2026-08-15T01:21:49.649Z"
+    },
+    "https://csswizardry.com/2026/08/introducing-lux-sidecar/": {
+      "contentHash": "5afe31272e7578b38e46458d1f30b1c7e8b09703c7edcc8fbf6d2f5a515dee3e",
+      "processedAt": "2026-08-19T01:24:04.450Z"
+    },
+    "https://csswizardry.com/2026/08/when-safaris-ignore-cache-ignored-cache-control/": {
+      "contentHash": "91d3f28d2a41b6a9a4ada112722998476a764c72718775862dfcc68b97bd7d72",
+      "processedAt": "2026-08-19T01:24:05.199Z"
+    },
+    "https://a11yweekly.com/issue/513/": {
+      "contentHash": "d6384a01e605aab5b7578d3c13b1f5a19f2b845f9391a2c7856da7a6e6b8dacd",
+      "processedAt": "2026-08-19T01:24:05.475Z"
+    },
+    "https://brentfitzgerald.com/posts/the-human-is-the-loop/": {
+      "contentHash": "d1d6d64db17d76a96dbe2990a6f6d40958c14fbd5a511a9c9d5d54cb8cd17c55",
+      "processedAt": "2026-08-19T01:24:05.634Z"
+    },
+    "https://www.morphicons.com/": {
+      "contentHash": "fc8c5430d9b08eb5dfdf08a0b69e5191aef341ee1c7d03507aa1e66db34dfef4",
+      "processedAt": "2026-08-19T01:24:05.988Z"
+    },
+    "https://medium.com/design-bootcamp/how-to-make-your-design-system-agent-ready-ea4cfc062270": {
+      "contentHash": "d81297ee912fbe302e15baf4a4d9a6995c34bcd2221d1503d5a5bb4d3a69f2cf",
+      "processedAt": "2026-08-19T01:24:10.589Z"
+    },
+    "https://azgaar.github.io/Fantasy-Map-Generator/": {
+      "contentHash": "b630c36a0acbe60f7c3f095022ba9493cbc71e3aa6379eb1a34c4b46200e3762",
+      "processedAt": "2026-08-19T01:24:12.406Z"
+    },
+    "https://patronview.com/news/99-percent-of-my-website-traffic-is-bots/": {
+      "contentHash": "901e0c086caa9afd0c78cb0afaf6f632af46fc425f5789f50925779cbe2025cf",
+      "processedAt": "2026-08-19T01:24:13.834Z"
+    },
+    "https://bit.ly/side-gra2": {
+      "contentHash": "e0d152ca0fffb148cb94dcec582c579d9f6fb06fd873605d30212723d2330353",
+      "processedAt": "2026-08-19T01:24:15.454Z"
+    },
+    "https://superposition.jem.computer/design-is-how-it-tastes/": {
+      "contentHash": "05f82b0ddb9c4bd3253fc3c3435b45a3545062e92a10c2829051fb1a44cf25f1",
+      "processedAt": "2026-08-19T01:24:15.730Z"
+    },
+    "https://eigendrum.com/": {
+      "contentHash": "5dbabaf4a19cd1d9104e89f2b6214020efb6773deb4febce2d1a2f3ba4f9f482",
+      "processedAt": "2026-08-19T01:24:15.985Z"
+    },
+    "https://buttondown.com/nic-steenhout/archive/accessibility-getting-dropped-in-the-process/": {
+      "contentHash": "2f23e7925faf1e5cd9d7f9a16c49f4f9e84e5c5f4aa37b62247e2e60a0705b6e",
+      "processedAt": "2026-08-19T01:24:16.439Z"
+    },
+    "https://www.minoradventures.co/blog/the-making-of-cursors-icons": {
+      "contentHash": "345e6293dbf4fb35f1396a863043976c6a745813141b146a188496fa7593aab0",
+      "processedAt": "2026-08-19T01:24:18.089Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-great-engineering-leader-career-break": {
+      "contentHash": "87843c1f14808dc79f36ce3e95c9476e7fbb84729536bd3acb64c8c349fa662c",
+      "processedAt": "2026-08-19T01:24:18.428Z"
+    },
+    "https://tympanus.net/codrops/2026/08/18/building-an-animated-testimonial-hero-using-the-gsap-timeline-and-dynamic-cms-data/": {
+      "contentHash": "90fe83c97425d85ff543970357ed8921a9ba33bcac6cf590a994b1423379bf8d",
+      "processedAt": "2026-08-19T01:24:20.013Z"
+    },
+    "https://tympanus.net/codrops/2026/08/17/creativity-at-enterprise-scale-without-compromise-the-offbrand-story/": {
+      "contentHash": "12972a97650a674a98482b0876ead98833d2af106cc0fcb62879c38fcace5887",
+      "processedAt": "2026-08-19T01:24:21.311Z"
+    },
+    "https://tympanus.net/codrops/2026/08/15/inside-haoqi-design-letting-dom-and-webgl-share-a-retro-futurist-stage/": {
+      "contentHash": "bd8c523146e3d32543b74901ce129de896e1bacd451733461830fd586ba8120a",
+      "processedAt": "2026-08-19T01:24:22.349Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-adds-instagram-adapter": {
+      "contentHash": "8af95eb271e9577c9534dbfd638695b23fbc7e4a9fd64ee87d45fe5fa0a1695b",
+      "processedAt": "2026-08-19T01:24:22.883Z"
+    },
+    "https://vercel.com/changelog/vercel-for-platforms-can-now-deploy-from-your-users-github-repositories": {
+      "contentHash": "c9e1d85041458e58a7ffd3ee40dbf58e5309215af9a58977fb6afddb228c1942",
+      "processedAt": "2026-08-19T01:24:23.284Z"
+    },
+    "https://vercel.com/blog/one-million-dollar-hacker-challenge-for-vercel-sandbox": {
+      "contentHash": "c839f4952fdd7125c43cd37e758c8d1ae451b5e09e8b4a186742925bcb0b0480",
+      "processedAt": "2026-08-19T01:24:23.661Z"
+    },
+    "https://vercel.com/changelog/cline-harness-adapter": {
+      "contentHash": "3c29c91a39615c437c5b2059976bd23f94296ead7afe1cec15f6306e56171087",
+      "processedAt": "2026-08-19T01:24:24.052Z"
+    },
+    "https://vercel.com/changelog/glm-5-3-now-available-on-ai-gateway": {
+      "contentHash": "1cbe9ec9ae14b1e96052302101cd29cc924844f9348ce5d2f9260e02f9242e70",
+      "processedAt": "2026-08-19T01:24:24.502Z"
+    },
+    "https://vercel.com/changelog/sign-jwts-from-your-functions-without-managing-private-keys": {
+      "contentHash": "d6d1b763398a3e268425a9759bfd4c85999a6ade3daa6e30ddcd71d519a0aaee",
+      "processedAt": "2026-08-19T01:24:25.032Z"
+    },
+    "https://vercel.com/changelog/deploy-cursor-origin-repositories-with-vercel-in-public-beta": {
+      "contentHash": "5d557eb5dd25c6fde432b7d12b494f24d024773fbdb3b3ffcbf4cde1c393a432",
+      "processedAt": "2026-08-19T01:24:25.539Z"
+    },
+    "https://vercel.com/changelog/gpt-5-6-sol-is-50-off-on-ai-gateway-for-the-next-month": {
+      "contentHash": "50b80541424e29cd9a689f15365e024bee367af37fbc02cddcc1d315b1759ec5",
+      "processedAt": "2026-08-19T01:24:25.866Z"
+    },
+    "https://vercel.com/changelog/imessage-support-for-eve-agents": {
+      "contentHash": "9e95804fcfb5ce9beff59ecc41ac6d68342a6642c80bf16861571b8ce94b9847",
+      "processedAt": "2026-08-19T01:24:26.284Z"
+    },
+    "https://stripe.com/blog/reduce-fx-costs-with-stripe": {
+      "contentHash": "97fbf653f6c12987ebe1fc715bde6012d34fac2ff8d63d0c47fe1d86fb410456",
+      "processedAt": "2026-08-19T01:24:27.218Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/08/17/080914": {
+      "contentHash": "e988c584d4a2698baf42eb3ec6d1e29adea57f3225813025cd0de86c4178dd82",
+      "processedAt": "2026-08-19T01:24:28.270Z"
+    },
+    "https://newsletter.uxdesign.cc/p/rethinking-design-leadership-with": {
+      "contentHash": "cc405c87296669ae659e01140bd163fc173f0b1069d708036fa0fac0c62af46b",
+      "processedAt": "2026-08-19T01:24:28.592Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-august-16-2026/": {
+      "contentHash": "7ddc9277cd3fd66b8a127a1cea3d952ca80778d65f3dc645301231a36ab92569",
+      "processedAt": "2026-08-19T01:24:29.699Z"
+    },
+    "https://tkdodo.eu/blog/reliable-query-prefetching-with-tanstack-router": {
+      "contentHash": "603f8187257f9b007429f85fe8e48becff174aa0569315232d831b0dcea8c363",
+      "processedAt": "2026-08-19T01:24:30.972Z"
     }
   },
-  "lastRun": "2026-08-15T01:21:49.649Z"
+  "lastRun": "2026-08-19T01:24:30.972Z"
 }
