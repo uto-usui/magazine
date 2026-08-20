@@ -34083,7 +34083,87 @@
     "https://tkdodo.eu/blog/reliable-query-prefetching-with-tanstack-router": {
       "contentHash": "603f8187257f9b007429f85fe8e48becff174aa0569315232d831b0dcea8c363",
       "processedAt": "2026-08-19T01:24:30.972Z"
+    },
+    "https://csswizardry.com/2026/08/uno-is-underrated/": {
+      "contentHash": "b556de124f3a94c82a6b41212be5a25d86b0dc19f8eb3293b7c922771d4f09a1",
+      "processedAt": "2026-08-20T01:22:08.412Z"
+    },
+    "https://csswizardry.com/2026/08/web-perf-wednesday-005-rum-needs-more-than-a-percentile/": {
+      "contentHash": "7a55f5ed264b032f37ed29b6c50995890b56b586635848b128e707dd36068e38",
+      "processedAt": "2026-08-20T01:22:09.081Z"
+    },
+    "https://uxdesign.cc/rethinking-design-leadership-with-swarms-and-flocks-9298db8c59d2": {
+      "contentHash": "d9f3882b036bc4554cafbda87b1020bcbeacee92288cc2febc49118597f0edda",
+      "processedAt": "2026-08-20T01:22:14.783Z"
+    },
+    "https://www.agentbehavior.dev/": {
+      "contentHash": "c0d759e87db407eb568f833759a9fb2d016ddaf9c4dde8c2c0847b305a0df935",
+      "processedAt": "2026-08-20T01:22:15.082Z"
+    },
+    "https://play.ertdfgcvb.xyz/": {
+      "contentHash": "b9e64eaea52eaec41bf6cfb802fe9e86d266f6981cfd5e82d681a3c6b8e35724",
+      "processedAt": "2026-08-20T01:22:15.990Z"
+    },
+    "https://blog.ronbronson.com/agent-experience-needs-failure-affordances": {
+      "contentHash": "23bfa4354a760b0cb765e7d08a1edcf9874fa88018874fe1438b007ed21ed338",
+      "processedAt": "2026-08-20T01:22:16.511Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/from-chrome-devtools-to-ai-engineering": {
+      "contentHash": "9952789f89c4bdf581772429a6caffa11647ce9fd12e973a6f0d37605900f0cf",
+      "processedAt": "2026-08-20T01:22:17.081Z"
+    },
+    "https://tympanus.net/codrops/2026/08/19/relighting-images-with-depth-maps-and-three-js/": {
+      "contentHash": "d9e3148338790a5e24ce0694d8f50d6a99d560703c42ffc3c095972b2f1eafaf",
+      "processedAt": "2026-08-20T01:22:18.567Z"
+    },
+    "https://kilianvalkhof.com/2026/css-html/my-take-on-a-link-to-a-random-post-with-only-html-css/": {
+      "contentHash": "7678e7564f67f8f7455999a7096542f064f30778f2974e4fb51f5dab2c55bafd",
+      "processedAt": "2026-08-20T01:22:18.858Z"
+    },
+    "https://vercel.com/changelog/algolia-vercel-marketplace": {
+      "contentHash": "a403ab4fe4202cde7e6748e0fff370baa2c5d5f554773b91299cff6ade3ae69c",
+      "processedAt": "2026-08-20T01:22:20.010Z"
+    },
+    "https://vercel.com/blog/introducing-vercel-for-slack": {
+      "contentHash": "7d32e16c81fe7a56d36a3de29b73d69c1a428f31f5103225bcc9d22fcb7c435a",
+      "processedAt": "2026-08-20T01:22:20.511Z"
+    },
+    "https://vercel.com/changelog/compliance-documents-are-now-available-in-team-settings": {
+      "contentHash": "327abb5a73c218cd9e3dab897b7467d5f7ff704a021a34c5f6d6b2276241ffd9",
+      "processedAt": "2026-08-20T01:22:21.559Z"
+    },
+    "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free": {
+      "contentHash": "164c0bb53bf5610f0276daf4c3b42134612499ef1d740348d2bfad0f5924d96b",
+      "processedAt": "2026-08-20T01:22:22.623Z"
+    },
+    "https://vercel.com/changelog/vercel-for-slack-now-in-public-beta": {
+      "contentHash": "2c254a88604c93d43ea2b716d73fe10088c210d055bb3724724dee142a39f8a5",
+      "processedAt": "2026-08-20T01:22:23.493Z"
+    },
+    "https://vercel.com/changelog/vercel-connect-supports-microsoft": {
+      "contentHash": "df86bc6195a5ec1f08ff018644696fc91be82d28696beeda83f2e0735133ac0e",
+      "processedAt": "2026-08-20T01:22:24.958Z"
+    },
+    "https://stripe.com/blog/why-global-workers-are-driving-demand-for-stablecoin-payouts": {
+      "contentHash": "3637096e4dca2787df850c5ed29b1b702315a446d4337dca467ae3f4b7e688dc",
+      "processedAt": "2026-08-20T01:22:25.462Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/08/20/092325": {
+      "contentHash": "7edb1d133575ced8745c430374e87407355ca34bb3ba9c9738cce3bc3e48be9c",
+      "processedAt": "2026-08-20T01:22:29.142Z"
+    },
+    "https://tech.layerx.co.jp/entry/coding-agent-driven-development": {
+      "contentHash": "f6f12562470e0707f968a3c0e4c20b9f10e4b161fbf4a451877fa9afba7889cd",
+      "processedAt": "2026-08-20T01:22:29.588Z"
+    },
+    "https://feeds.baymard.com/link/9825/17422770/hidden-cost-bad-ux-revenue-calculator": {
+      "contentHash": "d6bd94a869c021e1e2697cb0f0b1e7e9379d51f86052c402c878027aaa40efe8",
+      "processedAt": "2026-08-20T01:22:32.179Z"
+    },
+    "https://thisweekinreact.com/newsletter/294": {
+      "contentHash": "83a0da484309f40b7b408063942003dc1c7ae272c372c930acfdc25de96723af",
+      "processedAt": "2026-08-20T01:22:32.592Z"
     }
   },
-  "lastRun": "2026-08-19T01:24:30.972Z"
+  "lastRun": "2026-08-20T01:22:32.592Z"
 }
