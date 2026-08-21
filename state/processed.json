@@ -34163,7 +34163,79 @@
     "https://thisweekinreact.com/newsletter/294": {
       "contentHash": "83a0da484309f40b7b408063942003dc1c7ae272c372c930acfdc25de96723af",
       "processedAt": "2026-08-20T01:22:32.592Z"
+    },
+    "https://csswizardry.com/2026/08/how-to-find-an-exact-gmail-thread-with-codex-or-claude/": {
+      "contentHash": "e7254ad460c0f5f9891edd465acac71e310a1151cb35e0fce295e3199889c8f9",
+      "processedAt": "2026-08-21T01:25:09.484Z"
+    },
+    "https://adobe.design/ideas/is-design-dead-in-the-age-of-ai": {
+      "contentHash": "204658ba3d1814378c035310e8683ddb20c15bb77797300abf550a3910875129",
+      "processedAt": "2026-08-21T01:25:09.662Z"
+    },
+    "https://www.pi.fyi/welcome": {
+      "contentHash": "3bf5f88bfb4aba9c7229061950c8522051453c1c7577f0058baae57784d4d68f",
+      "processedAt": "2026-08-21T01:25:10.925Z"
+    },
+    "https://yeptype.com/article/inter-alternatives": {
+      "contentHash": "4b10d4e452fa5fa6bd2877e3e85e952021d6e6bffeb710ef2633d86d74da79ae",
+      "processedAt": "2026-08-21T01:25:19.628Z"
+    },
+    "https://meodai.github.io/poline/": {
+      "contentHash": "638ece2cdd08f94aa0436293fa67f9d691c145b682fc7d2eb9539e74cc9496ea",
+      "processedAt": "2026-08-21T01:25:19.962Z"
+    },
+    "https://blog.maximeheckel.com/posts/shading-motion/": {
+      "contentHash": "d057742c8c83e911dbbbae7fa9a943407d767853ddb134b308dd8d7e9f2e387f",
+      "processedAt": "2026-08-21T01:25:21.880Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-we-need-to-talk-about-migrations": {
+      "contentHash": "1ed63ecca8a80a3e285a8787e455f01dc98a9be0ee8acae6bc0bec5e2e3939f5",
+      "processedAt": "2026-08-21T01:25:22.046Z"
+    },
+    "https://tympanus.net/codrops/2026/08/20/run-rob-run-building-a-music-reactive-goo-with-three-js-and-webgpu/": {
+      "contentHash": "38535a7459d1e3e79c1e58c892fbb6dccb79cabf03ee2a0b25b8fb0ba2b25f2c",
+      "processedAt": "2026-08-21T01:25:23.208Z"
+    },
+    "https://smashingmagazine.com/2026/08/timing-charts-blueprint-smil-animations/": {
+      "contentHash": "4b1219ea8321a1ac0e621b93399357c282a223b224758c834caabaabecc061fb",
+      "processedAt": "2026-08-21T01:25:24.302Z"
+    },
+    "https://piccalil.li/blog/a-look-at-the-geolocation-html-element-and-how-it-works/": {
+      "contentHash": "6d52c1cc081b8cefa0e68ea30b7c65d8bf4ad85b22bc10f75bb89debd9e3c6e8",
+      "processedAt": "2026-08-21T01:25:25.784Z"
+    },
+    "https://vercel.com/changelog/manage-vercel-toolbar-comments-from-the-cli": {
+      "contentHash": "a34b533c3226ff458a56fda1399aaeb55d81b657e9d51d7cbd858648f91003ce",
+      "processedAt": "2026-08-21T01:25:26.210Z"
+    },
+    "https://vercel.com/changelog/custom-metrics-are-now-supported-in-vercel-observability": {
+      "contentHash": "6c435d48578e375035d44b600b39a925c3a546489a3341052eda3dc754b523eb",
+      "processedAt": "2026-08-21T01:25:26.440Z"
+    },
+    "https://vercel.com/blog/how-v0-authenticates-to-snowflake-without-exposing-the-users-oauth-token": {
+      "contentHash": "49c0e5c085b3363a6505dc355f2f4e2973544568fdef42c9ee6e17635fa00d91",
+      "processedAt": "2026-08-21T01:25:26.874Z"
+    },
+    "https://vercel.com/changelog/vercel-agent-is-now-available-in-slack-code-channels": {
+      "contentHash": "561c823bae24184ef157f31dace79833081a6c32f50e9924c7088bac298c9f06",
+      "processedAt": "2026-08-21T01:25:27.105Z"
+    },
+    "https://vercel.com/changelog/manage-vercel-container-registry-with-vercel-cli": {
+      "contentHash": "395d8ca33572533e7ce7e4c16747917fd23742121701ed62dc2a08e8a084a6dc",
+      "processedAt": "2026-08-21T01:25:27.340Z"
+    },
+    "https://vercel.com/changelog/bun-1-4-is-now-available-in-vercel-functions": {
+      "contentHash": "1648a7e8ad01b46c06b82fa4d6902dc6ec0284ae29b4053aa39b870b4998d83b",
+      "processedAt": "2026-08-21T01:25:27.590Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-adds-linq-adapter": {
+      "contentHash": "5414c70c52a5ab354eccf196ad4a1b49feeb0ea3022a5aadc1ecf08a750f0fa1",
+      "processedAt": "2026-08-21T01:25:27.913Z"
+    },
+    "https://www.figma.com/blog/sightlines-issue-no2/": {
+      "contentHash": "11747f00ad72d2f605f0eb95f79df679caf20f53bbd8c7e5195ca80d16d48005",
+      "processedAt": "2026-08-21T01:25:43.723Z"
     }
   },
-  "lastRun": "2026-08-20T01:22:32.592Z"
+  "lastRun": "2026-08-21T01:25:43.723Z"
 }

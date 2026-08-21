@@ -1,0 +1,138 @@
+---
+title: "How to Find an Exact Gmail Thread with Codex or Claude"
+source: "https://csswizardry.com/2026/08/how-to-find-an-exact-gmail-thread-with-codex-or-claude/"
+publishedDate: "2026-08-20"
+category: "css"
+feedName: "CSS Wizardry"
+---
+
+20 August, 2026
+
+Written by **Harry Roberts** on **CSS Wizardry**.
+
+[View this page as Markdown.](https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2026-08-20-how-to-find-an-exact-gmail-thread-with-codex-or-claude.md)
+
+Table of Contents
+
+Independent writing is brought to you via my wonderful [Supporters](https://csswizardry.com/supporters/).
+
+1.  [How to Copy a Gmail Email’s `Message-ID`](#how-to-copy-a-gmail-emails-message-id)
+2.  [Give This Prompt to Codex or Claude](#give-this-prompt-to-codex-or-claude)
+3.  [Why `Message-ID` Works Better Than a Subject](#why-message-id-works-better-than-a-subject)
+4.  [A Brief History of `Message-ID`](#a-brief-history-of-message-id)
+5.  [What `Message-ID` Can’t Promise](#what-message-id-cant-promise)
+
+I was organising flights and accommodation around a [speaking engagement](https://csswizardry.com/speaking/) and wanted an LLM (I have a virtual personal assistant in ChatGPT called _Luma_ who is trained on almost every facet of my working life) to pull the dates, times, and locations from the relevant Gmail conversation. It found an email about the correct event, but it wasn’t the specific email I had in mind. The answer _looked_ realistic while relying on the wrong source.
+
+Subjects, senders, dates, and snippets are all useful ways to _search_ a mailbox, but they’re poor ways to name _an_ exact email. It turns out, the solution was already inside the email itself: its [`Message-ID`](https://www.rfc-editor.org/rfc/rfc5322.html#section-3.6.4).
+
+Fuzzy requests are still safe and entirely natural. Find the email about the Austin conference is exactly how I’d expect anyone to use an LLM to search their inbox, and a likely match is usually all that the task needs. A fuzzy request can produce a fuzzy answer.
+
+The stakes are raised when the next bit of work relies on one specific email being the right one. Booking travel, agreeing dates, approving costs, or making a decision from a _potential_ match is risky business! When the source needs to be exact, give the LLM its exact `Message-ID`.
+
+A complete `Message-ID` gives the agent a precise email to find. Once Gmail finds that message, the agent can use Gmail’s own `threadId` to open the conversation around it. I tested this successfully with both Codex and Claude’s Gmail integrations.
+
+## How to Copy a Gmail Email’s `Message-ID`
+
+In Gmail, on a computer:
+
+1.  Open the individual email you want the agent to use.
+2.  Next to _Reply_, select _More_ (the three dots), then _Show original_.
+3.  Find `Message-ID` and copy its complete value.
+
+It should look something like this:
+
+```
+<20260820.204553.7f3a@example.com>
+```
+
+Keep the whole thing, including everything before and after the `@`. I also leave the angle brackets intact so there’s no ambiguity about what I copied. Google actually documents the [_Show original_ route](https://support.google.com/mail/answer/29436?hl=en) for viewing an email’s full header.
+
+## Give This Prompt to Codex or Claude
+
+Replace the invented `Message-ID` below with the one you copied:
+
+```
+Using the connected Gmail account, locate the exact email whose complete
+Message-ID header is <20260820.204553.7f3a@example.com>, then retrieve its
+complete Gmail thread, including replies. Tell me the subject, sender, and date,
+then summarise the conversation. Do not reply, forward, label, archive, or
+delete anything.
+```
+
+That last sentence keeps lookup and action separate. Once the agent has found the right conversation, ask whatever you actually wanted to know about it.
+
+Need Some Help?
+
+I help companies find and fix site-speed issues. **Performance audits**, **training**, **consultancy**, and more.
+
+## Why `Message-ID` Works Better Than a Subject
+
+While a subject _describes_ an email, it doesn’t identify it. Replies normally reuse the same subject, unrelated conversations can share one, and a frequent sender may account for hundreds of messages. And although a Gmail browser URL can contain details that make sense to the interface, they aren’t useful to an integration.
+
+`Message-ID` was designed to give one particular version of one particular message a machine-readable identity. Gmail even documents an [`rfc822msgid:` search operator](https://support.google.com/mail/answer/7190?hl=en-GB) specifically for finding email with a given message-ID header.
+
+The important sequence is:
+
+1.  Message-ID.
+2.  exact email,
+3.  Gmail threadId,
+4.  complete Gmail conversation.
+
+The `Message-ID` identifies the email, **not the thread**. Gmail’s API returns a separate `threadId` for the conversation containing that message. Its [`threads` resource](https://developers.google.com/workspace/gmail/api/guides/threads) then provides the messages Gmail has grouped into that conversation, in order.
+
+The RFC gives us a portable way to refer to an email, and Gmail gives us its own view of the surrounding conversation. There is no universal email-thread identifier, and another provider may group the same messages differently.
+
+## A Brief History of `Message-ID`
+
+The family tree is older than I first realised. [RFC 561](https://www.rfc-editor.org/info/rfc561/) began standardising network mail headers in **September 1973**, although its named fields were `From`, `Date`, and `Subject`; `Message-ID` wasn’t among them.
+
+[RFC 680](https://www.rfc-editor.org/info/rfc680/) added `Message-ID` in April 1975, describing it as a unique reference to a message. This means the field itself is now more than **half a century old**. [RFC 724](https://www.rfc-editor.org/info/rfc724/) refined the idea in May 1977: the identifier referred to one particular version of a message, and later revisions should receive new ones.
+
+[RFC 733](https://www.rfc-editor.org/info/rfc733/) replaced RFC 724 in November 1977, then [RFC 822](https://www.rfc-editor.org/info/rfc822/) replaced RFC 733 in August 1982. [RFC 2822](https://www.rfc-editor.org/info/rfc2822/) superseded RFC 822 in April 2001 before [RFC 5322](https://www.rfc-editor.org/rfc/rfc5322.html#section-3.6.4) superseded it in October 2008. That is where the _current_ `Message-ID` rules live, but make no mistake, they were born much, much earlier!
+
+There’s also a lovely bit of standards language hiding here. RFC 5322 says every message **SHOULD** have a `Message-ID`; in other words, you may still encounter an old, broken, or unusual email without one. When a system does generate an ID, however, that identifier **MUST** be globally unique, and the system generating it must guarantee that uniqueness.
+
+There’s no central registry handing these out. A sending system typically combines a locally unique value with a domain it controls, which explains why they often look vaguely like an email address while being quite meaningless to a human:
+
+```
+Message-ID: <20260820.204553.7f3a@example.com>
+```
+
+The angle brackets are part of the header’s syntax. The useful identity is the complete value inside them; copying everything avoids any accidental damage.
+
+## What `Message-ID` Can’t Promise
+
+This method makes the target more precise, but it doesn’t make email infallible. A mailbox may contain several stored copies of the same message carrying the same ID, and broken software can create malformed or duplicate IDs. Gmail may also return a whole conversation because one email inside it matched the search — which, for our purposes, is actually exactly what we want.
+
+A forwarded email will also normally be a new message with a new `Message-ID`. If someone attaches the original email, the attached copy can retain its old ID while the outer forwarding message has another. It’s safer to copy the ID from the exact email you want to discuss than to assume one ID follows every future version around.
+
+Finally, a `Message-ID` is neither a password nor proof of authorship. The agent still needs permission to read the connected Gmail account, and the message still needs to exist there. The identifier helps it find the right thing inside data it can already access; it grants no access of its own.
+
+Fuzzy requests still belong in everyday email searches; ask ChatGPT to find the email about a subject when a likely match is enough. When later work depends on the answer, use the complete `Message-ID`, ask the agent to retrieve Gmail’s returned thread, then ask what you need to know.
+
+It takes a little more effort, sure, but it gives the LLM one exact email to work from. Much safer!
+
+* * *
+
+## Frequently Asked Questions
+
+How do I point Codex or Claude at one exact Gmail email?
+
+Copy the email’s complete Message-ID from Gmail’s Show original view, then ask the agent to find that email and retrieve its Gmail thread.
+
+Where can I find a Gmail email’s Message-ID?
+
+Open the email in Gmail on a computer, select More next to Reply, then select Show original. Find Message-ID and copy its complete value, including everything on both sides of the @ sign.
+
+Is Message-ID the same as a Gmail thread ID?
+
+No. Message-ID identifies one particular email. Gmail’s own threadId identifies the conversation that Gmail has grouped around that email.
+
+Does knowing a Message-ID give an AI access to an email?
+
+No. The agent still needs an authorised Gmail connection to an account containing the email. A Message-ID improves lookup; it is not a password or proof of who sent the message.
+
+Do I need a Message-ID for every Gmail request?
+
+No. A natural-language request is perfectly reasonable when a likely result is good enough. Use a complete Message-ID when later work depends on the agent finding one specific email.
