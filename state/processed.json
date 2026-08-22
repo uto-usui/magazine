@@ -34235,7 +34235,87 @@
     "https://www.figma.com/blog/sightlines-issue-no2/": {
       "contentHash": "11747f00ad72d2f605f0eb95f79df679caf20f53bbd8c7e5195ca80d16d48005",
       "processedAt": "2026-08-21T01:25:43.723Z"
+    },
+    "https://sunilpai.dev/posts/the-task-isnt-the-job/": {
+      "contentHash": "a5fad60aec8c4457fcfeca5b7060ee27344b246f2b239b3ca34c5a2575089ccd",
+      "processedAt": "2026-08-22T01:20:43.583Z"
+    },
+    "https://www.doc.cc/syntax": {
+      "contentHash": "5c051cdb0460453a729b49e68739e4caa16078000008dd1535e77148cfb23bbe",
+      "processedAt": "2026-08-22T01:20:47.966Z"
+    },
+    "https://academy.claude.com/": {
+      "contentHash": "0470eb99affbcc6d559c5a7838905d8a1c8dc58fe140b0a52573443301471769",
+      "processedAt": "2026-08-22T01:20:48.415Z"
+    },
+    "https://rip.so/": {
+      "contentHash": "00d5e28636063a7d2c6e122d41452f7a056deb6096857329605d300eae22f2db",
+      "processedAt": "2026-08-22T01:20:54.962Z"
+    },
+    "https://uxdesign.cc/how-to-become-an-ai-designer-ff8ee8aed205": {
+      "contentHash": "b87e5c0378c4d276e26255265edc879f03ae6823a45d69b9c7e0ad7d21183f35",
+      "processedAt": "2026-08-22T01:20:59.464Z"
+    },
+    "https://piccalil.li/the-index/195/": {
+      "contentHash": "eaf28799ef8020fd0522e3be57ade6d033086e0131d3e56fce0fedf6629bb149",
+      "processedAt": "2026-08-22T01:20:59.766Z"
+    },
+    "https://vercel.com/blog/how-ora-benchmarks-every-major-ai-agent-on-vercel": {
+      "contentHash": "933cd7286cee4e2b0e43b57e227e694a3c72e7a5f66f72b6c1d0f0553a9b4851",
+      "processedAt": "2026-08-22T01:21:00.877Z"
+    },
+    "https://vercel.com/changelog/deployment-storage-keeps-your-deployments-rollback-ready": {
+      "contentHash": "7dc8ad6dc207f96c5707f706e6609bc0d55d07573bfa000ea196f548b3e2f01a",
+      "processedAt": "2026-08-22T01:21:01.336Z"
+    },
+    "https://vercel.com/changelog/vercel-cli-expands-support-for-dns-domains-and-project-commands": {
+      "contentHash": "2084fc15bedc4c5a328e066407adcafa36a71e9ec2aed14fa7c1e957ef8a62b1",
+      "processedAt": "2026-08-22T01:21:01.882Z"
+    },
+    "https://vercel.com/changelog/gpt-5-6-sol-is-now-50-percent-off-a-lower-price": {
+      "contentHash": "bb1a5ab302b26bfdc83a0c70083efb1f554e46475af62fa4c4538291486c7352",
+      "processedAt": "2026-08-22T01:21:02.297Z"
+    },
+    "https://vercel.com/changelog/deepseek-v4-flash-with-vision-now-available-on-ai-gateway": {
+      "contentHash": "b9c7bd27a48c9614eaccc3624ba2a1e079b088fee7f7adcb0ac3f786e8db6e0f",
+      "processedAt": "2026-08-22T01:21:02.808Z"
+    },
+    "https://vercel.com/changelog/connect-v0-apps-to-slack-google-and-100-other-services": {
+      "contentHash": "ec8a01c7a5c8cf45f997a514f6efa28a2d223ceeadaa46a46187e8fd34e8adf1",
+      "processedAt": "2026-08-22T01:21:03.436Z"
+    },
+    "https://vercel.com/changelog/always-on-tracing-for-production-and-preview-traffic": {
+      "contentHash": "3fadb766eb91168a41c1c1ef0f5539849792a3277c243169810d8953399ab4d6",
+      "processedAt": "2026-08-22T01:21:03.961Z"
+    },
+    "https://vercel.com/changelog/the-vercel-sandbox-cli-is-now-more-agent-friendly": {
+      "contentHash": "4e6bdfd1cc0536154cd62bb49a1459d5345a79ecf83d1ff85e5bad507d5fce73",
+      "processedAt": "2026-08-22T01:21:04.583Z"
+    },
+    "https://vercel.com/changelog/run-background-tasks-with-celery-on-vercel": {
+      "contentHash": "db624fbe4f0e7ac856dc8e6e1fea5810f5b29df724da3c32a12600a388758153",
+      "processedAt": "2026-08-22T01:21:05.139Z"
+    },
+    "https://vercel.com/changelog/microfrontends-previews-now-link-across-repositories": {
+      "contentHash": "56cb57816d169fb13d451d37cd4fcc0614aac659e3030c2c9ae181b90c4b3ee3",
+      "processedAt": "2026-08-22T01:21:05.829Z"
+    },
+    "https://zenn.dev/uhyo/articles/react-use-browser-usage": {
+      "contentHash": "bacafcf955724af63fa17254c17e2cc1e41e2d3dfc60a7632c22b0fc204573d0",
+      "processedAt": "2026-08-22T01:21:06.269Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/08/21/155452": {
+      "contentHash": "af9cfdf8108004be54864a4298f2ba3f1bb85b80c517ab3b369e9047f0e5bcf1",
+      "processedAt": "2026-08-22T01:21:07.749Z"
+    },
+    "https://www.nngroup.com/articles/artificial-intelligence-glossary/": {
+      "contentHash": "414a190ded9a84c80fd84b2a6d39b7da7eb9e8aad4301295df0c68735d0f64d1",
+      "processedAt": "2026-08-22T01:21:09.548Z"
+    },
+    "https://www.nngroup.com/articles/ai-generated-images/": {
+      "contentHash": "41fa4e8ae7985ba47e2100339262044c7bdbf89c3e00d782f1d839209820f888",
+      "processedAt": "2026-08-22T01:21:10.980Z"
     }
   },
-  "lastRun": "2026-08-21T01:25:43.723Z"
+  "lastRun": "2026-08-22T01:21:10.980Z"
 }
