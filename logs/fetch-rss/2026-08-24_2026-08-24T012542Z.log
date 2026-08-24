@@ -1,0 +1,58 @@
+articles_dir=2026-08-24
+exit_code=0
+timestamp_utc=2026-08-24T01:25:42Z
+
+---- issue lines ----
+10:Failed to fetch feed Adrian Roselli after 3 attempts: Request timed out after 15000ms
+
+---- tail (last 50 lines) ----
+📥 Processing: RIP.so: the digital graveyard
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://rip.so/
+✅ Playwright successfully fetched: https://rip.so/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-24/ripso-the-digital-graveyard.md
+📥 Processing: How to become an AI Designer
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxdesign.cc/how-to-become-an-ai-designer-ff8ee8aed205
+✅ Playwright successfully fetched: https://uxdesign.cc/how-to-become-an-ai-designer-ff8ee8aed205
+⚠️ Content too short (183 chars < 200): https://uxdesign.cc/how-to-become-an-ai-designer-ff8ee8aed205
+⚠️ Using RSS content as fallback for: https://uxdesign.cc/how-to-become-an-ai-designer-ff8ee8aed205
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-24/how-to-become-an-ai-designer.md
+📥 Processing: Sixty Frames for the Record: A Three.js Game, Seven Fly-Throughs, and a Wall of CRTs
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-24/sixty-frames-for-the-record-a-threejs-game-seven-fly-throughs-and-a-wall-of-crts.md
+📥 Processing: The Index: Issue #195
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-24/the-index-issue-195.md
+📥 Processing: How Ora benchmarks every major AI agent on Vercel
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-24/how-ora-benchmarks-every-major-ai-agent-on-vercel.md
+📥 Processing: Deployment Storage keeps your deployments rollback-ready
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-24/deployment-storage-keeps-your-deployments-rollback-ready.md
+📥 Processing: Vercel CLI expands support for DNS, domains, and project commands
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-24/vercel-cli-expands-support-for-dns-domains-and-project-commands.md
+📥 Processing: GPT-5.6 Sol is now 50% off a lower price
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-24/gpt-56-sol-is-now-50-off-a-lower-price.md
+📥 Processing: DeepSeek V4 Flash Vision Experimental now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-24/deepseek-v4-flash-vision-experimental-now-available-on-ai-gateway.md
+📥 Processing: Connect v0 apps to Slack, Google, and 100+ other services
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-24/connect-v0-apps-to-slack-google-and-100-other-services.md
+📥 Processing: Always-on tracing for production and preview traffic
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-24/always-on-tracing-for-production-and-preview-traffic.md
+📥 Processing: The Vercel Sandbox CLI is now more agent-friendly
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-24/the-vercel-sandbox-cli-is-now-more-agent-friendly.md
+📥 Processing: Run background tasks with Celery on Vercel
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-24/run-background-tasks-with-celery-on-vercel.md
+📥 Processing: Microfrontends previews now link across repositories
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-24/microfrontends-previews-now-link-across-repositories.md
+📥 Processing: React 19.3 browser() APIの使いみち～FUNSTACK Routerの場合～
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-24/react-193-browser-apifunstack-router.md
+📥 Processing: 「エージェントが対応し、人間が評価する」——SmartHR CREが開発する「DESK AIエージェント」
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-24/smarthr-credesk-ai.md
+📥 Processing: Artificial Intelligence: Glossary
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-24/artificial-intelligence-glossary.md
+📥 Processing: AI-Generated Images Can Perform as Well as Stock Photography
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-24/ai-generated-images-can-perform-as-well-as-stock-photography.md
+📥 Processing: Pixels of the Week – August 23, 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-08-24/pixels-of-the-week-august-23-2026.md
+
+📊 Summary:
+   ✅ Success: 26
+   ❌ Errors: 0
+🏁 Done!
