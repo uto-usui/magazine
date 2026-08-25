@@ -34339,7 +34339,83 @@
     "https://stephaniewalter.design/blog/pixels-of-the-week-august-23-2026/": {
       "contentHash": "ea6ae1b87bdc628b172518fd76f8f28f4c4f3584cbff18257afa7ca3a7417dd2",
       "processedAt": "2026-08-24T01:25:42.597Z"
+    },
+    "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/": {
+      "contentHash": "d06475891bd676b8db2cf156e2eaf5a47ad660ec5e0d0790716cfb63aff88206",
+      "processedAt": "2026-08-25T01:22:26.822Z"
+    },
+    "https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/": {
+      "contentHash": "4f486f3629754128967cb6ef430c3ba3f79129726f7f20ef9386b7564081a8c7",
+      "processedAt": "2026-08-25T01:22:27.059Z"
+    },
+    "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/": {
+      "contentHash": "42b983b988f5185597db6bb86dcb62028822953faf292378c318c588fc5541aa",
+      "processedAt": "2026-08-25T01:22:27.516Z"
+    },
+    "https://bit.ly/side-gra3": {
+      "contentHash": "aa009253500dd0a4529f55222c788b744912f26101677ce8f412e821db6773e8",
+      "processedAt": "2026-08-25T01:22:29.336Z"
+    },
+    "https://var0.xyz/posts/perfection-is-not-over-engineering.html": {
+      "contentHash": "24ab91efd3f69251829a11cad7615d455a604d1c42950bd2664b410adc7d4cb6",
+      "processedAt": "2026-08-25T01:22:29.612Z"
+    },
+    "https://elliotjaystocks.com/blog/keeping-type-consistent": {
+      "contentHash": "1c1de69557e2764b8e6e3086fa2b0916f2280d257c2b3b5cb6835b7bd98c945d",
+      "processedAt": "2026-08-25T01:22:30.904Z"
+    },
+    "https://utopia.fyi/type/calculator/": {
+      "contentHash": "4320307461dc4003340ee1ace0ed4378986e4c954452ad71442df04b3c423287",
+      "processedAt": "2026-08-25T01:22:31.248Z"
+    },
+    "https://how.complexsystems.fail/": {
+      "contentHash": "06d9694afa5e35293920f5eba834b906fe2fb3f495ae06464751e3bf3d5ad94b",
+      "processedAt": "2026-08-25T01:22:31.671Z"
+    },
+    "https://tympanus.net/codrops/2026/08/24/blender-to-three-js-and-back-10-tips-for-a-better-workflow/": {
+      "contentHash": "f7de16a6f4c200b45355f201054200ded4dcfd7838ff5e921af2eade14ecd782",
+      "processedAt": "2026-08-25T01:22:33.296Z"
+    },
+    "https://vercel.com/changelog/elastic-build-machines-now-use-turborepo-cache-hits-to-prevent-downgrades": {
+      "contentHash": "7f3f99c5e6795572f417e3dab5b76260ce6aecfefe16946f13922ddbd2356bcf",
+      "processedAt": "2026-08-25T01:22:34.299Z"
+    },
+    "https://vercel.com/changelog/vercel-sandbox-is-now-globally-available": {
+      "contentHash": "6922d453161b624f1861a3f763762b77d7bde30f0ffe43f0d3762515b932bd84",
+      "processedAt": "2026-08-25T01:22:35.426Z"
+    },
+    "https://vercel.com/changelog/environment-variables-now-use-config-and-secret-types": {
+      "contentHash": "fc20c76ea0ec05392a494bc281e96d9301e8fdeaa3b606cc675546b0e4909f5c",
+      "processedAt": "2026-08-25T01:22:36.493Z"
+    },
+    "https://vercel.com/changelog/bun-runtime-now-supports-large-functions-and-extended-max-duration": {
+      "contentHash": "f5cd3cfa441a67bc6b30f01028be9cdbdb0c66a65d7557abf52059a4344d41c2",
+      "processedAt": "2026-08-25T01:22:37.637Z"
+    },
+    "https://vercel.com/changelog/vercel-python-queues-sdk-is-now-available-in-beta": {
+      "contentHash": "b6a514e9e7ae6be288e4bf41374a469163cd2f513b1c0b1727b84efe63147716",
+      "processedAt": "2026-08-25T01:22:38.384Z"
+    },
+    "https://vercel.com/changelog/exa-joins-vercel-ai-gateway-agent-marketplace": {
+      "contentHash": "f5647238a4375dc15b29e5d4a6c87e183c702603e1a1074f9d5f436105f55e04",
+      "processedAt": "2026-08-25T01:22:39.870Z"
+    },
+    "https://stripe.com/blog/five-monetization-trends-from-global-pricing-leaders": {
+      "contentHash": "fb222f0a997d5e8f7e38bc430a345bb7a5ea2997c4d7cac3b7fceff8f8d2f73a",
+      "processedAt": "2026-08-25T01:22:41.259Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/08/24/133642": {
+      "contentHash": "898137d4963e5d3037ba06e6e3a4536b6ae581ac72a8e5da0565019ae88ab2d5",
+      "processedAt": "2026-08-25T01:22:42.440Z"
+    },
+    "https://www.nngroup.com/training/november/": {
+      "contentHash": "31a5e5f663037bd7265d34803195d53b6836470647d9e32c5a88c642471bcc9f",
+      "processedAt": "2026-08-25T01:22:44.828Z"
+    },
+    "https://newsletter.uxdesign.cc/p/we-used-to-log-off": {
+      "contentHash": "19e4ee77dd03421daf8dc8c1b438a0eaf71004741ba4e5892ec6fa6e3ee62a29",
+      "processedAt": "2026-08-25T01:22:45.357Z"
     }
   },
-  "lastRun": "2026-08-24T01:25:42.597Z"
+  "lastRun": "2026-08-25T01:22:45.357Z"
 }
