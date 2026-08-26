@@ -34415,7 +34415,103 @@
     "https://newsletter.uxdesign.cc/p/we-used-to-log-off": {
       "contentHash": "19e4ee77dd03421daf8dc8c1b438a0eaf71004741ba4e5892ec6fa6e3ee62a29",
       "processedAt": "2026-08-25T01:22:45.357Z"
+    },
+    "https://ilyabirman.net/meanwhile/all/vibe-coding-and-quality/": {
+      "contentHash": "8c677dba4d9f2ad5b021d782d385fdca8c3968d2bec8549232afc6a16938b0a6",
+      "processedAt": "2026-08-26T01:26:12.612Z"
+    },
+    "https://blog.murphytrueman.com/every-fork-looks-like-adoption/": {
+      "contentHash": "eab736ddc64902365a24c0130217fdc7e78fc5e60b8c8402f176a1f6d7d4b8cf",
+      "processedAt": "2026-08-26T01:26:13.534Z"
+    },
+    "https://is-agentic.com/": {
+      "contentHash": "d2ab202543340af1a53014811daac8b091b760b0a469ad4b2d6796581f9fa485",
+      "processedAt": "2026-08-26T01:26:13.788Z"
+    },
+    "https://balsa-ui.com/": {
+      "contentHash": "463f1472084cefdc015f1a7c1e0a03a5c6206d0f6b65a157ead2ddcf42aac185",
+      "processedAt": "2026-08-26T01:26:22.725Z"
+    },
+    "https://www.youtube.com/watch?v=YEvLKzsEwMw": {
+      "contentHash": "b60d4d1bfd99e46e586f9d2e84c32978e34f806c12f5325e4442e75b0126947f",
+      "processedAt": "2026-08-26T01:26:31.637Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/why-ramp-built-inspect": {
+      "contentHash": "1d83ecf43e73006d95b75487e491025547b094d68c8b14a8df020493e5e5ed5d",
+      "processedAt": "2026-08-26T01:26:31.924Z"
+    },
+    "https://tympanus.net/codrops/2026/08/25/building-a-mouse-following-square-lens-effect-with-three-js-and-glsl/": {
+      "contentHash": "293ae5017fec718b8572424f8234f6479aa7808078b0deba2720fa9c844592ec",
+      "processedAt": "2026-08-26T01:26:33.738Z"
+    },
+    "https://smashingmagazine.com/2026/08/why-website-should-never-stop-changing/": {
+      "contentHash": "9abbd383d92c765391f91ddc31604bd21bd4ca92adc7e62348b4ba2774f25c8d",
+      "processedAt": "2026-08-26T01:26:35.390Z"
+    },
+    "https://ics.media/entry/260825/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-08-26T01:26:36.740Z"
+    },
+    "https://vercel.com/changelog/nextjs-august-2026-security-release": {
+      "contentHash": "f5531316bc401351ef4c8ddc3dab4922b01d49990a594fefb27b2805a53defe0",
+      "processedAt": "2026-08-26T01:26:37.784Z"
+    },
+    "https://vercel.com/changelog/speed-insights-free-tier": {
+      "contentHash": "ed3cc71c3db98160792aa14b2617ae54a4eccaee5f97a254a227209bfe6e8268",
+      "processedAt": "2026-08-26T01:26:38.713Z"
+    },
+    "https://vercel.com/blog/introducing-run": {
+      "contentHash": "06f1b95c8eed1af4930ea52202d6cbc8bfd47662ec36032acd5a4d3f99621450",
+      "processedAt": "2026-08-26T01:26:39.350Z"
+    },
+    "https://vercel.com/blog/the-end-of-credential-sprawl-for-agents": {
+      "contentHash": "cde3e6facd896be8f9c71ddd68be70d6c2285cc3e4c677bb0df77d2c994967b8",
+      "processedAt": "2026-08-26T01:26:40.249Z"
+    },
+    "https://vercel.com/changelog/minimax-m3-and-m2-7-are-free-on-ai-gateway": {
+      "contentHash": "79f698720a126a203402c04dad6734a3894b0c0d7f4ba6c911ca8158d3a17103",
+      "processedAt": "2026-08-26T01:26:41.698Z"
+    },
+    "https://vercel.com/changelog/wan-3-0-now-available-on-ai-gateway": {
+      "contentHash": "8c094f39a80babd75f4df4763691cd8ce3bc22c588fd1dad8429604b04416796",
+      "processedAt": "2026-08-26T01:26:43.044Z"
+    },
+    "https://vercel.com/changelog/ai-gateway-now-supports-asynchronous-video-generation": {
+      "contentHash": "56a755498238822119fe1503606f7aa635f9e37cc4dba3fc658a7c300db8e024",
+      "processedAt": "2026-08-26T01:26:44.607Z"
+    },
+    "https://vercel.com/changelog/vercel-connect-ga": {
+      "contentHash": "e4b6f25cbfde80228d2928ba63d8e631c71cd13b578566e26f10a82729d7e9d4",
+      "processedAt": "2026-08-26T01:26:45.139Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-slack-enterprise-grid": {
+      "contentHash": "a1225d43a22ca130be1611f16151e84a002dc4da774e91963107be6711800d93",
+      "processedAt": "2026-08-26T01:26:46.060Z"
+    },
+    "https://vercel.com/changelog/vercel-connect-now-supports-linq": {
+      "contentHash": "d8f21787078ca8c8fa881ccad7af4e9c87fff80dec92cd19e59af2b07eff7f7e",
+      "processedAt": "2026-08-26T01:26:47.191Z"
+    },
+    "https://vercel.com/changelog/notion-chat-sdk": {
+      "contentHash": "2035d45be8b3be1f99b3592e00fdf08e8eafdf620df962efb3500b9d3fac06ce",
+      "processedAt": "2026-08-26T01:26:48.235Z"
+    },
+    "https://vercel.com/changelog/chat-sdk-now-supports-xchat": {
+      "contentHash": "e370a8ab00ddc46d4494a00974262c67e8339a7ce07fd737c8e18da019598242",
+      "processedAt": "2026-08-26T01:26:49.048Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/08/26/095844": {
+      "contentHash": "641a406caba1e1f451e556b8b8ce664a18c1f8337053eb5acea008d9dc10aa2a",
+      "processedAt": "2026-08-26T01:26:49.946Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/08/25/154917": {
+      "contentHash": "123c8157cbcd168519ec7bad47a3b13941dac40768f99baece6f141cba3ba202",
+      "processedAt": "2026-08-26T01:26:50.287Z"
+    },
+    "https://feeds.baymard.com/link/9825/17428024/insurance-ux-research-launch": {
+      "contentHash": "23346955da29eeee6dca6271900f29b5f438ab3e33e751d2df556072f7fb4f41",
+      "processedAt": "2026-08-26T01:26:52.095Z"
     }
   },
-  "lastRun": "2026-08-25T01:22:45.357Z"
+  "lastRun": "2026-08-26T01:26:52.095Z"
 }
