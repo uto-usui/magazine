@@ -1,0 +1,18 @@
+---
+title: "Susan Kare: Designing icons & graphics for the original Mac"
+source: "https://www.youtube.com/watch?v=YEvLKzsEwMw"
+publishedDate: "2026-08-25"
+category: "design"
+feedName: "Sidebar"
+fetchedBy: "playwright"
+---
+
+Susan Kare joined Apple as an art history PhD who barely knew anything about computers. She went on to design many of the icons, typefaces, and symbols that helped make the original Macintosh feel understandable and human, defining a visual language for personal computing that still influences software today. At Startup School 2026, Susan shares the stories behind the Happy Mac, Command key, Chicago font, and more, along with the design lessons she learned from Steve Jobs, Paul Rand, and the original Mac team: make things meaningful and memorable, embrace constraints, iterate constantly, and use just enough detail to make an idea instantly clear. Transcript: [https://www.ycrootaccess.com/p/susan-...](https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rUURKbUQzdGI4R2xNZzFiNm8zZFRKVXxBR3JiS2FrclhCaGVneERFR2RwdkRFTU5Lb3Q4VEtfcmFqRXk2eTNrN2NtX2FXZExkeWh0N3Z0dHRlZmFwMU9WNW5zNGhUdjRCeDA5NEFmYnUwZl95SUV3eHdyU3hSSFpaVUky&q=https%3A%2F%2Fwww.ycrootaccess.com%2Fp%2Fsusan-kare-on-designing-the-original&v=YEvLKzsEwMw) Apply to Y Combinator: [https://www.ycombinator.com/apply](https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rVGFfREhEdk1STG9GUkFoY3R1ck5tSHxBR3JiS2FsWVNfRm5lUHF1Ri1wOFVuQUpoelR4bVRhZ2lKNEEwLW9hZ1FiZ2ZYTWV3MVpNSkZ1UjVXdWlOcEU2M2p1RlJubllNeXBBZjBhN3E3WkJFU0NXRHNEQ01pM2w3dDJs&q=https%3A%2F%2Fwww.ycombinator.com%2Fapply&v=YEvLKzsEwMw) Work at a startup: [https://www.ycombinator.com/jobs](https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rUXlYalNacC1fT21jN1N3M1lmeG5XVXxBR3JiS2FuRFpidWFoZVZ6ODZuZW9CN1ItZzN3anczLXBFOHpXQTRxUDZpWG5BSGFPcExXYzJxYmo4SXhxcThkcEItOFFIV1JVaUJvMUhlakRsbjhSbHZEdFFlWXNXbE1KZHJM&q=https%3A%2F%2Fwww.ycombinator.com%2Fjobs&v=YEvLKzsEwMw) Chapters: [00:00](https://www.youtube.com/watch?v=YEvLKzsEwMw) — Making Things Meaningful and Memorable [01:51](https://www.youtube.com/watch?v=YEvLKzsEwMw&t=111s) — How Susan Joined Apple [05:01](https://www.youtube.com/watch?v=YEvLKzsEwMw&t=301s) — Designing the Original Macintosh [06:35](https://www.youtube.com/watch?v=YEvLKzsEwMw&t=395s) — A Computer Anyone Could Use [08:26](https://www.youtube.com/watch?v=YEvLKzsEwMw&t=506s) — Creating Chicago and the Mac Typefaces [11:47](https://www.youtube.com/watch?v=YEvLKzsEwMw&t=707s) — MacPaint and the First Icons [14:45](https://www.youtube.com/watch?v=YEvLKzsEwMw&t=885s) — The Story Behind the Happy Mac [17:08](https://www.youtube.com/watch?v=YEvLKzsEwMw&t=1028s) — Why Simple Icons Work Better [18:25](https://www.youtube.com/watch?v=YEvLKzsEwMw&t=1105s) — The Icons That Didn’t Work [21:23](https://www.youtube.com/watch?v=YEvLKzsEwMw&t=1283s) — Designing Symbols That Last [22:44](https://www.youtube.com/watch?v=YEvLKzsEwMw&t=1364s) — How the Command Key Got Its Symbol [25:20](https://www.youtube.com/watch?v=YEvLKzsEwMw&t=1520s) — What Ancient Symbols Can Teach Designers [30:18](https://www.youtube.com/watch?v=YEvLKzsEwMw&t=1818s) — Designing After Apple [36:32](https://www.youtube.com/watch?v=YEvLKzsEwMw&t=2192s) — Lessons From Steve Jobs, Paul Rand, and More
+
+How this was made
+
+Auto-dubbed
+
+Audio tracks for some languages were automatically generated. [Learn more](https://support.google.com/youtube/answer/15569972?hl=en)
+
+[](https://www.youtube.com/@ycombinator)
