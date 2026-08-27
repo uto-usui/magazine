@@ -34511,7 +34511,103 @@
     "https://feeds.baymard.com/link/9825/17428024/insurance-ux-research-launch": {
       "contentHash": "23346955da29eeee6dca6271900f29b5f438ab3e33e751d2df556072f7fb4f41",
       "processedAt": "2026-08-26T01:26:52.095Z"
+    },
+    "https://csswizardry.com/2026/08/web-perf-wednesday-006-faster-browser-releases-change-your-rum-population/": {
+      "contentHash": "d0cb90acfe33bb5058301c1e09f7da6db8b7dbaf555e83d23f2e0bb29a20c659",
+      "processedAt": "2026-08-27T08:07:59.548Z"
+    },
+    "https://adrianroselli.com/2026/08/the-2-1-1-specific-timings-clause.html": {
+      "contentHash": "755ffc17a78a2a17de12315a03f540fa34f413a8f4ffffd39ce1709f972b8a5d",
+      "processedAt": "2026-08-27T08:07:59.978Z"
+    },
+    "https://www.petermerholz.com/newsletter/designs-legibility-gap/": {
+      "contentHash": "00eff3649e7391495c57e7020880529a573cdf88a5c2e64d646445544e7a40ab",
+      "processedAt": "2026-08-27T08:08:00.556Z"
+    },
+    "https://cssunits.com/": {
+      "contentHash": "10d2827334c66eda1dbea15be0b34f3fdb073f1e28a2d76f9fd562ca3f9ad29a",
+      "processedAt": "2026-08-27T08:08:01.385Z"
+    },
+    "https://henry.codes/writing/i-dream-of-quieter-computing/": {
+      "contentHash": "e667e5e3e7c09de75703c1c765822ee1da1f00d10fc6cc99c4f5377c8ef103be",
+      "processedAt": "2026-08-27T08:08:01.663Z"
+    },
+    "https://plotter.cc/": {
+      "contentHash": "26266b4ac20546b7633b43864dc05402cf7360ef2fcca453b19673ab43dffa43",
+      "processedAt": "2026-08-27T08:08:02.358Z"
+    },
+    "https://ilyabirman.net/meanwhile/all/let-me-click/": {
+      "contentHash": "7e24ff66ead098aee1c03ddc555c70202f12437014fa2216eb48d733106179a0",
+      "processedAt": "2026-08-27T08:08:04.077Z"
+    },
+    "https://uxdesign.cc/what-is-the-purpose-of-software-410e155567e3": {
+      "contentHash": "5ce3b32cb00a1371cbdec61ef609eae93a2829efa113b0b462d49126e908e473",
+      "processedAt": "2026-08-27T08:08:10.152Z"
+    },
+    "https://gkurt.com/tegaki/": {
+      "contentHash": "ac6c06faa77d9ceec6746315075929fd1e17b057a6f9504bf0f092824cc6cfa7",
+      "processedAt": "2026-08-27T08:08:10.377Z"
+    },
+    "https://karlkoch.me/writing/on-teaching-ai-how-you-work/": {
+      "contentHash": "563904e1d13dbb9f8b94fcbdf473d28616df86d8379f28d9a78ccc3c29c92d4f",
+      "processedAt": "2026-08-27T08:08:10.553Z"
+    },
+    "https://interfaces.kylejeong.com/": {
+      "contentHash": "5c4bab85e7f865209b06df0939b1615ed4ef8b4b8c188b056883981bf8bd4e50",
+      "processedAt": "2026-08-27T08:08:15.679Z"
+    },
+    "https://about.gitlab.com/blog/when-code-is-abundant/": {
+      "contentHash": "25014bb46fe86f56b2e95455371f4d0f84887d16362c4ddcea465f760785f659",
+      "processedAt": "2026-08-27T08:08:16.325Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/why-performant-code-matters-but-gets": {
+      "contentHash": "f0fede6dae043d4e18abacc25a5a83fdef03b27ea927727c5ed9b75b8f66c4d3",
+      "processedAt": "2026-08-27T08:08:16.732Z"
+    },
+    "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/": {
+      "contentHash": "98423bfc5b9df5761c1b08c6aadb44e3fc1ae9aa31dc2051406adc7e91f48e0d",
+      "processedAt": "2026-08-27T08:08:18.197Z"
+    },
+    "https://jakearchibald.com/2026/css-custom-property-compute-time/": {
+      "contentHash": "6a1d436051b516d4438ac1d9cca70ca572c6b724ef393f01a39ed3ef364afe1b",
+      "processedAt": "2026-08-27T08:08:18.454Z"
+    },
+    "https://vercel.com/changelog/muse-image-now-available-on-ai-gateway": {
+      "contentHash": "1dfafbc6f6d4ac36083661105eb2cb6cf80e2ed854558383d11c49c0edbb6e05",
+      "processedAt": "2026-08-27T08:08:18.979Z"
+    },
+    "https://vercel.com/changelog/gemini-3-5-transcribe-now-available-on-ai-gateway": {
+      "contentHash": "2ab9ae79eaebc61843eb0513c976bb224860e0e130899489106a9d47d993b25e",
+      "processedAt": "2026-08-27T08:08:19.413Z"
+    },
+    "https://vercel.com/changelog/qwen-3-8-flash-now-available-on-ai-gateway": {
+      "contentHash": "7738601bff964a4af302e6f37e1f8d90890750b3e74f65029d7e7ea46f4759e9",
+      "processedAt": "2026-08-27T08:08:19.680Z"
+    },
+    "https://vercel.com/changelog/glm-5-3-flash-now-available-on-ai-gateway": {
+      "contentHash": "9e7ade602c3a647e4c9f0a9ffdee22466ace438fc7057ef80a8c9257554e8c6c",
+      "processedAt": "2026-08-27T08:08:20.087Z"
+    },
+    "https://vercel.com/changelog/vercel-security-dashboard-is-now-generally-available": {
+      "contentHash": "e7095a3c0746ebe6d0730c143c400f018f5906e7dd2a93f34e98a65ff0f43ac1",
+      "processedAt": "2026-08-27T08:08:20.547Z"
+    },
+    "https://vercel.com/changelog/python-projects-now-support-routing-rules": {
+      "contentHash": "f1fed781066c31a5ce803c48cfb7b65c12471fc29ab86fa0ded62a37cee4643a",
+      "processedAt": "2026-08-27T08:08:20.998Z"
+    },
+    "https://frontendfoc.us/issues/755": {
+      "contentHash": "51fb64be76c61827e725e5f664b6791cb3b1434b2d7f48a2345d5ec6599f793e",
+      "processedAt": "2026-08-27T08:08:21.590Z"
+    },
+    "https://tech.layerx.co.jp/entry/typespec-in-aiworkforce": {
+      "contentHash": "b0192a796737f7b5195a80cfc3fe71f64ee2646e833cc49e9a955a3ca658da90",
+      "processedAt": "2026-08-27T08:08:22.836Z"
+    },
+    "https://uxcontent.com/survivors-guilt-and-tech-layoffs/": {
+      "contentHash": "40c429c0778e8a551a1fec6175a64d22d3dc60e9afcbbb911ce47ffe8e5f8d4b",
+      "processedAt": "2026-08-27T08:08:23.973Z"
     }
   },
-  "lastRun": "2026-08-26T01:26:52.095Z"
+  "lastRun": "2026-08-27T08:08:23.973Z"
 }
