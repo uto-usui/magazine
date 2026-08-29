@@ -34607,7 +34607,107 @@
     "https://uxcontent.com/survivors-guilt-and-tech-layoffs/": {
       "contentHash": "40c429c0778e8a551a1fec6175a64d22d3dc60e9afcbbb911ce47ffe8e5f8d4b",
       "processedAt": "2026-08-27T08:08:23.973Z"
+    },
+    "https://www.ajwaxman.com/writing/software-for-one": {
+      "contentHash": "4bca5526f744cb588d512b6b5cbe0649b271604b58e05e018e1fc433e8359bdd",
+      "processedAt": "2026-08-29T06:09:08.017Z"
+    },
+    "https://www.itsnicethat.com/features/teddy-blanks-chips-film-title-typography-graphic-design-spotlight-240826": {
+      "contentHash": "1838778e3f664b3d9ccf28f304e52cebbc4a39b626afcd97bfca64232f11dbc3",
+      "processedAt": "2026-08-29T06:09:08.555Z"
+    },
+    "https://borretti.me/article/futurism-is-always-extreme": {
+      "contentHash": "3336816f262dbf6625bfefe248a926c5704dd0994cd12332c78bbdb352595f26",
+      "processedAt": "2026-08-29T06:09:08.843Z"
+    },
+    "https://claude.com/blog/the-ai-native-sdlc-playbook": {
+      "contentHash": "5cf3d439ec81dab2c33676c090c816c71f36857847410bb67532adbb8c800f6d",
+      "processedAt": "2026-08-29T06:09:10.002Z"
+    },
+    "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make": {
+      "contentHash": "da548f7739b7d7921eead29725de511ed655942295ff442493622d31327637de",
+      "processedAt": "2026-08-29T06:09:14.540Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-meta-wanted-to-reduce-teams": {
+      "contentHash": "283be1aee94676a0da1387d6f0d756697bdf3672536049a42dcd3d11cdf1ca9f",
+      "processedAt": "2026-08-29T06:09:14.816Z"
+    },
+    "https://tympanus.net/codrops/2026/08/27/goodgrowth-boot-sequences-spinning-discs-and-the-art-of-the-portfolio/": {
+      "contentHash": "90a36f31ec7a48cb784aa1ae6ffa50767c2a4643a670905a108a0ab340743b8c",
+      "processedAt": "2026-08-29T06:09:16.249Z"
+    },
+    "https://piccalil.li/the-index/196/": {
+      "contentHash": "eddf221899ce871b586e6627efb09301dcc0b97de75a06330adeb5348dd87cb5",
+      "processedAt": "2026-08-29T06:09:16.502Z"
+    },
+    "https://piccalil.li/projects/personal-site/10/": {
+      "contentHash": "2a53214b2b398a4af3115ac7bb5ed5b336ae2dca127055c5912cec80393fa612",
+      "processedAt": "2026-08-29T06:09:18.373Z"
+    },
+    "https://vercel.com/changelog/hy4-preview-now-available-on-ai-gateway": {
+      "contentHash": "4789dd812194623e6e48c2d4adaf3d07c2b7922efc06d2ded53e3669df639ec1",
+      "processedAt": "2026-08-29T06:09:18.874Z"
+    },
+    "https://vercel.com/changelog/build-and-deploy-eve-agents-from-the-vercel-dashboard": {
+      "contentHash": "52eef4e930f3874e2b70ee3c3f48e3427c0928452cbd885cd5ac592a1a899e48",
+      "processedAt": "2026-08-29T06:09:19.198Z"
+    },
+    "https://vercel.com/changelog/vercel-cli-expands-commands-for-dns-domains-and-projects": {
+      "contentHash": "049d3fa3772f95cc1e8cbbb40987e95bcff3efe769ccba7b86d82b78704c009a",
+      "processedAt": "2026-08-29T06:09:19.678Z"
+    },
+    "https://vercel.com/changelog/cursor-ai-sdk-harness-adapter": {
+      "contentHash": "97cfb91a60a10ab6d9ca9c537b35f59e6e0ff6596b8f117b776ef7c69278d29b",
+      "processedAt": "2026-08-29T06:09:20.063Z"
+    },
+    "https://vercel.com/changelog/find-deployments-faster-with-redesigned-filters": {
+      "contentHash": "840503071d1cecaddfcdaa647c3c5b0646b6f4ff0043d29b26f78423b81f3014",
+      "processedAt": "2026-08-29T06:09:20.651Z"
+    },
+    "https://vercel.com/blog/the-best-workflow-engine-is-a-programming-language": {
+      "contentHash": "dc5616fc1710182ef7cf2ee0dcc63701c7e41c41867f9d0f5dfc765093f369a2",
+      "processedAt": "2026-08-29T06:09:21.249Z"
+    },
+    "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free": {
+      "contentHash": "f006400592ba4bab89c8db35ab2baf9756cc4fb67e6f4616935713294da3cb5e",
+      "processedAt": "2026-08-29T06:09:21.675Z"
+    },
+    "https://www.figma.com/blog/measuring-the-impact-of-ai/": {
+      "contentHash": "149ff03941fdc5958e866c642acf48f8cf8f32cb5f30eb487a3e6b545b185221",
+      "processedAt": "2026-08-29T06:09:59.166Z"
+    },
+    "https://www.figma.com/blog/source-material-i-d-magazine-editor-in-chief-thom-bettridge/": {
+      "contentHash": "35e7ec641d5f0efa4d205cc23638cc4ea8600bd9bca66b2ab78bc08641b60bab",
+      "processedAt": "2026-08-29T06:10:20.982Z"
+    },
+    "https://www.figma.com/blog/workflow-lab-moving-between-design-and-code-with-agents/": {
+      "contentHash": "ba93ee7ba7ff535cd287604a00946e1f0a4b25995022dfa5add29a80ab861c29",
+      "processedAt": "2026-08-29T06:10:56.045Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/08/28/111116": {
+      "contentHash": "325169b65762bc60ddc4e6c7414c23bee6fb18dff041d2f8bc0304367222aeda",
+      "processedAt": "2026-08-29T06:10:58.371Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/08/28/180027": {
+      "contentHash": "8b1fb6a12cd1d7eb03858b1a1329aa6c7ccfef4e8b81530b1a4901d155e3ae02",
+      "processedAt": "2026-08-29T06:10:59.778Z"
+    },
+    "https://www.nngroup.com/articles/ai-empathy-mapping/": {
+      "contentHash": "39b3acdd5cae736ed0d6534c739a923cbc70c4b7bd1379db70fd3ccdec199f35",
+      "processedAt": "2026-08-29T06:11:01.540Z"
+    },
+    "https://www.nngroup.com/articles/ai-ux-debt/": {
+      "contentHash": "168696fa64eb8f6c7b2ad67f19f270d97731b912eb4d5269bd273603dfb6e5eb",
+      "processedAt": "2026-08-29T06:11:03.138Z"
+    },
+    "https://uxmovement.medium.com/why-saturated-colors-are-terrible-for-your-icons-3d6258bea410": {
+      "contentHash": "023d981ced8a518570cc48d74957a038a7f53b1d91bcc544ea03c7ad28a48b93",
+      "processedAt": "2026-08-29T06:11:07.564Z"
+    },
+    "https://react.statuscode.com/issues/488": {
+      "contentHash": "d73eca633d14c2afcfe23bb26cb60d3eb5795cf503dbf1646e22c4e905c27131",
+      "processedAt": "2026-08-29T06:11:08.263Z"
     }
   },
-  "lastRun": "2026-08-27T08:08:23.973Z"
+  "lastRun": "2026-08-29T06:11:08.263Z"
 }

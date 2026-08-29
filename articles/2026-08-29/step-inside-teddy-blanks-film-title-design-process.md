@@ -1,0 +1,13 @@
+---
+title: "Step inside Teddy Blanks’ film title design process"
+source: "https://www.itsnicethat.com/features/teddy-blanks-chips-film-title-typography-graphic-design-spotlight-240826"
+publishedDate: "2026-08-28"
+category: "design"
+feedName: "Sidebar"
+---
+
+But film titles can still present an opportunity for a filmmaker who cares about them – to help set the mood, create a memorable moment or inject a dash of humour through clever design gymnastics. “There are a lot of great films with bad titles, and they are still great films. And there are a lot of bad films that have really cool titles, and the titles don’t necessarily help the film get better. It’s important, at least to me, to not have any grand illusions.” For Teddy, titles are a very small part of the film, their role limited to creating a special moment that, for all practical purposes, might go unnoticed.
+
+His own body of work, though, is hard to ignore. For the end credits of Greta Gerwig’s _Barbie_, he cut up Mattel’s high-res packaging scans by hand and animated the elements; a VFX company, PowerHouse VFX, shot 360-degree photography of the actual dolls and sent him the animated doll elements to layer on top. For the film’s main logo, he had to revive a logotype that Mattel discontinued more than 30 years ago. “There were various versions that people had made online with auto-tracing in Illustrator, but they weren’t at the fidelity required for the film,” he says. “It had to be redrawn, first of all, from an original source. I found a _Barbie_ magazine from the late-80s, so I ordered a few copies. It had really big, high-resolution versions of the logo that I could trace and turn into a well-drawn vector object. The first thing was just getting a digital version of the logo that we could use and then building that out into a full font.”
+
+The process didn’t end at Barbie. Barbie had lots of friends too – Skipper, Ken, the works. All of them had custom logos in the same Barbie style from the mid-70s to the early 90s. These were pieces of custom lettering, not based on an actual typeface, because they changed slightly over the years – letters slightly thicker here, thinner there. He went on eBay and bought every Barbie-related doll he could find from those years. By doing so, he had about “half an alphabet to start with”, and he could use that to extrapolate and build an entire font based on that style.
