@@ -34707,7 +34707,87 @@
     "https://react.statuscode.com/issues/488": {
       "contentHash": "d73eca633d14c2afcfe23bb26cb60d3eb5795cf503dbf1646e22c4e905c27131",
       "processedAt": "2026-08-29T06:11:08.263Z"
+    },
+    "https://webaim.org/blog/if-you-have-to-ask-is-it-accessible/": {
+      "contentHash": "1d44af8ec8d14c33ed0ce1ac1c0b4cfe8e471f623f6de81e567e49941ee79a87",
+      "processedAt": "2026-09-01T04:07:48.516Z"
+    },
+    "https://a11yweekly.com/issue/515/": {
+      "contentHash": "39821c2e0bd2df56cb93f1126d7177c5b9dfdba13d7f3273fb45f685aca9dfa9",
+      "processedAt": "2026-09-01T04:07:48.612Z"
+    },
+    "https://clarity.addy.ie/": {
+      "contentHash": "11e60a9595e0037d98347e8cb197ad3066e64f01aea234893cc329e10fc16aae",
+      "processedAt": "2026-09-01T04:07:49.012Z"
+    },
+    "https://bit.ly/side-grid1": {
+      "contentHash": "c558d413ec42ea52e791f0477e52bfd8a59d8df09ddd7ce35841c067aa030afe",
+      "processedAt": "2026-09-01T04:07:55.978Z"
+    },
+    "https://www.doc.cc/articles/we-used-to-log-off": {
+      "contentHash": "55b829f6c3cae22aac90e2b467696503c3eb0c962b17ce15aa863a3c2960b924",
+      "processedAt": "2026-09-01T04:08:00.453Z"
+    },
+    "https://ordinaryabundance.com/": {
+      "contentHash": "5e936b9c317e1d84bfdfc082f6d737c548940563345c7c9a5457dfe3752de5e3",
+      "processedAt": "2026-09-01T04:08:00.704Z"
+    },
+    "https://buzzusborne.com/writing/ai-operating-principles/": {
+      "contentHash": "0df6c79b74dbe29e399efe85d0a018bae0878514ea82d3c4e11c7d8d1b663429",
+      "processedAt": "2026-09-01T04:08:01.700Z"
+    },
+    "https://allinframestock.com/": {
+      "contentHash": "b39f1337dcfeb1c128aad97258db61156c7729c19bf0f616ef290ece6e359724",
+      "processedAt": "2026-09-01T04:08:06.871Z"
+    },
+    "https://tympanus.net/codrops/2026/08/31/volatile-nexus-tinkering-with-glass-caustics-cubes-and-sound-in-three-js/": {
+      "contentHash": "537947675a544743f1ead7f05b5e49856b1ddc12d5630a2ca4692e4a7a458a00",
+      "processedAt": "2026-09-01T04:08:08.447Z"
+    },
+    "https://smashingmagazine.com/2026/08/desktop-wallpaper-calendars-september-2026/": {
+      "contentHash": "d575733160e65569c83ee9e1d157f79d32e80e8002a60b0e50c2b2565b9cdc3b",
+      "processedAt": "2026-09-01T04:08:10.296Z"
+    },
+    "https://vercel.com/changelog/fx-ai-sdk-harness-adapter": {
+      "contentHash": "2d8781546adbb410df94ffab2a43f32715f6018bdf4a7e09412003f5fe373da8",
+      "processedAt": "2026-09-01T04:08:10.717Z"
+    },
+    "https://vercel.com/changelog/set-per-user-budgets-on-ai-gateway": {
+      "contentHash": "ce9cae595dbb28aced1d3326627d2842ebc7e27867b49e2f3c7e7c840f825e93",
+      "processedAt": "2026-09-01T04:08:11.140Z"
+    },
+    "https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md": {
+      "contentHash": "be22fec3529bd7c399b0abdd4d0e5374d682b1cc44c88cae39b6dfe6133841f0",
+      "processedAt": "2026-09-01T04:08:11.882Z"
+    },
+    "https://vercel.com/changelog/vercel-sandbox-now-calculates-snapshot-storage-costs-daily": {
+      "contentHash": "9081170667517c2e7e2a6b4039053f1598a1f6d33a0d73b8b6aa9e281f110f76",
+      "processedAt": "2026-09-01T04:08:12.247Z"
+    },
+    "https://vercel.com/changelog/minimax-h3-and-h3-max-are-50-off-on-ai-gateway": {
+      "contentHash": "246fe13c9527f8c0178e0c8c86c1c2c5ae2931ed462c83cf21ba0dedfc262ecd",
+      "processedAt": "2026-09-01T04:08:12.623Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/01/070000": {
+      "contentHash": "21f7b80fababa944ce1c52a2d11d0cc7b4f3e4411974ef0eeb249af5f0c60186",
+      "processedAt": "2026-09-01T04:08:13.496Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/08/31/095924": {
+      "contentHash": "2590cababde5d57f97ca0688be0f29302f187b8e73f1dae67a60542185b98801",
+      "processedAt": "2026-09-01T04:08:13.849Z"
+    },
+    "https://newsletter.uxdesign.cc/p/nobody-wants-a-blank-page-nobody": {
+      "contentHash": "1c589b54ea2399e0bfb3a03f3dd64c78ea2caf64317cbd070179e651a9935618",
+      "processedAt": "2026-09-01T04:08:14.131Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-august-30-2026/": {
+      "contentHash": "6856aff2c448b729736ebe296aaa6dda844f19bd68f8566cbc2ef55c0de74111",
+      "processedAt": "2026-09-01T04:08:15.894Z"
+    },
+    "https://remix.run/blog/remix-3-release-candidate": {
+      "contentHash": "69264f3c5ef641657d538d75efcb244e49a5a64327472e613ff94a062317d0d0",
+      "processedAt": "2026-09-01T04:08:16.185Z"
     }
   },
-  "lastRun": "2026-08-30T04:17:21.716Z"
+  "lastRun": "2026-09-01T04:08:16.185Z"
 }
