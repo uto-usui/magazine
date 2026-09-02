@@ -34787,7 +34787,55 @@
     "https://remix.run/blog/remix-3-release-candidate": {
       "contentHash": "69264f3c5ef641657d538d75efcb244e49a5a64327472e613ff94a062317d0d0",
       "processedAt": "2026-09-01T04:08:16.185Z"
+    },
+    "https://adrianroselli.com/2026/09/evaluating-a-success-criterion.html": {
+      "contentHash": "1ad55fbe6126a5f1f9a3e8b817aa2d3353c03b399069cca4703c4807d1839b1b",
+      "processedAt": "2026-09-02T03:30:40.033Z"
+    },
+    "https://www.seangoedecke.com/you-have-to-beat-the-models-at-something/": {
+      "contentHash": "5e33d4de4a475b2bd2817680c122d91ca82d336666061c6c5b1052fd49d5fa4d",
+      "processedAt": "2026-09-02T03:30:40.526Z"
+    },
+    "https://www.davesresearch.com/good-move-enabling/": {
+      "contentHash": "b9ec4bb43ee72b168900e83e97cd93dde75a158bc4e056b8bafb4a35efadbe74",
+      "processedAt": "2026-09-02T03:30:40.935Z"
+    },
+    "https://wayofmarkdown.com/markdown-database": {
+      "contentHash": "f6592810b797001a6ba6153749a150b80e90e77f9612b82e268ae0cd9c21c6fe",
+      "processedAt": "2026-09-02T03:30:42.143Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-five-years": {
+      "contentHash": "63cfabe7931a99288f8336b187edd81292401d04fcfa34f1e62c5ca5e49fbb31",
+      "processedAt": "2026-09-02T03:30:42.621Z"
+    },
+    "https://tympanus.net/codrops/2026/09/01/bend-aim-fling-turning-the-eiffel-tower-into-a-catapult-with-three-js/": {
+      "contentHash": "e073f1ce892109b3f38a84b5008c3058b348ce1e941bcc83651d474727e68af4",
+      "processedAt": "2026-09-02T03:30:44.326Z"
+    },
+    "https://vercel.com/blog/fluid-compute-takes-any-shape": {
+      "contentHash": "983fe78b3a6608982ca2440722ac574532182022802fb22f9a8f5f564122d702",
+      "processedAt": "2026-09-02T03:30:44.696Z"
+    },
+    "https://vercel.com/changelog/claude-fable-5-1-now-available-on-ai-gateway": {
+      "contentHash": "0e37f92ffb4846794317cb09bd0c7d48696c356cd1b2abec1e6e6460b13a3c57",
+      "processedAt": "2026-09-02T03:30:44.959Z"
+    },
+    "https://vercel.com/changelog/aws-privatelink-is-now-available-on-pro-and-enterprise": {
+      "contentHash": "1b9be1da9e53662dd7e05468807a2ac4dfc749a1fd2e588a3c8062e4aef71b0f",
+      "processedAt": "2026-09-02T03:30:45.201Z"
+    },
+    "https://www.figma.com/blog/how-we-built-generative-plugins-and-shaders/": {
+      "contentHash": "275bc0191e45e7a91e860d25d6d901355e9c496e7f3ed60d5525e3510dc5fcb4",
+      "processedAt": "2026-09-02T03:31:21.303Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/02/120000": {
+      "contentHash": "2e0ba2ff56eb46799aa1eb984902d05d7b83ffd33ca548901fa29e7203cd15d7",
+      "processedAt": "2026-09-02T03:31:21.858Z"
+    },
+    "https://feeds.baymard.com/link/9825/17436208/telco-ux-benchmark-2026": {
+      "contentHash": "0fcb3c92561e85ade54fd66284cf6cdf2e798400c420994e0029e9124f2ab126",
+      "processedAt": "2026-09-02T03:31:23.213Z"
     }
   },
-  "lastRun": "2026-09-01T04:08:16.185Z"
+  "lastRun": "2026-09-02T03:31:23.213Z"
 }
