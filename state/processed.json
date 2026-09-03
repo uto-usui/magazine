@@ -34787,7 +34787,147 @@
     "https://remix.run/blog/remix-3-release-candidate": {
       "contentHash": "69264f3c5ef641657d538d75efcb244e49a5a64327472e613ff94a062317d0d0",
       "processedAt": "2026-09-01T04:08:16.185Z"
+    },
+    "https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/": {
+      "contentHash": "6d69bc3198faefa4ae20897800c4d16511af06ca64cd0c1a6768e7f76f338e53",
+      "processedAt": "2026-09-03T03:30:40.364Z"
+    },
+    "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/": {
+      "contentHash": "cb9ffd207b6f426ead08c1a9cd94e1168571acd388b285ba21d76f288339e6b3",
+      "processedAt": "2026-09-03T03:30:41.154Z"
+    },
+    "https://csswizardry.com/2026/09/web-perf-wednesday-007-chrome-makes-busy-workers-measurable/": {
+      "contentHash": "2bd9b9770970962da0baf90a495967f6460b1b0c386ec49abee7ec988f659902",
+      "processedAt": "2026-09-03T03:30:42.130Z"
+    },
+    "https://adrianroselli.com/2026/09/evaluating-a-success-criterion.html": {
+      "contentHash": "1ad55fbe6126a5f1f9a3e8b817aa2d3353c03b399069cca4703c4807d1839b1b",
+      "processedAt": "2026-09-03T03:30:42.760Z"
+    },
+    "https://christophhellmuth.com/open-design-system-bench/": {
+      "contentHash": "8654bae243c6af1739326b0e1517d00540468aa2c755173829b186dd75e69f59",
+      "processedAt": "2026-09-03T03:30:43.455Z"
+    },
+    "https://ngrok.com/blog/compression-is-prediction": {
+      "contentHash": "98cf2e8accdc8a74ca9c23ac388487e4c35e4332b105b144a1017703eb52c63d",
+      "processedAt": "2026-09-03T03:30:44.270Z"
+    },
+    "https://people.kernel.org/monsieuricon/creepy-crawlies": {
+      "contentHash": "51f30837c81c8c9b26b44e9d0e23a637d750ecf6f21b5a790ab4878e2d02b0f8",
+      "processedAt": "2026-09-03T03:30:45.377Z"
+    },
+    "https://www.creativeboom.com/inspiration/gabriel-diogo/": {
+      "contentHash": "0561abcab1ac7bc604d1fa9cfcda75acf0484d079f2ec7fcea02e50ba0b46937",
+      "processedAt": "2026-09-03T03:30:46.522Z"
+    },
+    "https://www.pipshea.net/manifesto": {
+      "contentHash": "e04d0b4e3ce58e3de61736cba13241693390bc4aa23ac3868686d8854886d0c6",
+      "processedAt": "2026-09-03T03:30:46.876Z"
+    },
+    "https://www.seangoedecke.com/you-have-to-beat-the-models-at-something/": {
+      "contentHash": "5e33d4de4a475b2bd2817680c122d91ca82d336666061c6c5b1052fd49d5fa4d",
+      "processedAt": "2026-09-03T03:30:47.392Z"
+    },
+    "https://www.davesresearch.com/good-move-enabling/": {
+      "contentHash": "b9ec4bb43ee72b168900e83e97cd93dde75a158bc4e056b8bafb4a35efadbe74",
+      "processedAt": "2026-09-03T03:30:48.284Z"
+    },
+    "https://wayofmarkdown.com/markdown-database": {
+      "contentHash": "f6592810b797001a6ba6153749a150b80e90e77f9612b82e268ae0cd9c21c6fe",
+      "processedAt": "2026-09-03T03:30:49.739Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-five-years": {
+      "contentHash": "63cfabe7931a99288f8336b187edd81292401d04fcfa34f1e62c5ca5e49fbb31",
+      "processedAt": "2026-09-03T03:30:50.335Z"
+    },
+    "https://lea.verou.me/blog/2026/dark-mode-toggles-2/": {
+      "contentHash": "fabaf4701fb628970cedf74adc41eeec0fdfa9a847bdfbb654f617933163adc3",
+      "processedAt": "2026-09-03T03:30:51.339Z"
+    },
+    "https://tympanus.net/codrops/2026/09/02/breaking-the-frame-building-a-real-time-datamosh-effect-with-three-js/": {
+      "contentHash": "e1a7085f3c7ab938a0f5d68fd68e1218319086f4320e8169fb696e583c6aeebc",
+      "processedAt": "2026-09-03T03:30:52.672Z"
+    },
+    "https://tympanus.net/codrops/2026/09/01/bend-aim-fling-turning-the-eiffel-tower-into-a-catapult-with-three-js/": {
+      "contentHash": "e073f1ce892109b3f38a84b5008c3058b348ce1e941bcc83651d474727e68af4",
+      "processedAt": "2026-09-03T03:30:53.815Z"
+    },
+    "https://bradfrost.com/links/post/github-cli-media-in-issues-pull-requests-and-comments-github-changelog/": {
+      "contentHash": "c14ea9b70ef1f12a3bb4d4fad4f1ccea9b06b493454d766f2f0d88ca8caeb094",
+      "processedAt": "2026-09-03T03:30:54.505Z"
+    },
+    "https://vercel.com/changelog/app-and-dev-domains-included-with-free-domain-for-pro": {
+      "contentHash": "39d5f975207407b7d043233e7496690dbc7161393f8df76b738a5d4acd7945d8",
+      "processedAt": "2026-09-03T03:30:55.285Z"
+    },
+    "https://vercel.com/changelog/muse-spark-1-3-now-available-on-ai-gateway": {
+      "contentHash": "00c3374e5f53572191c0bf56bc3e14415dce98023320b9e049372c14aeb54bf5",
+      "processedAt": "2026-09-03T03:30:55.742Z"
+    },
+    "https://vercel.com/changelog/glm-5-3-is-50-off-through-digitalocean-on-ai-gateway": {
+      "contentHash": "06a62270bc77f87b968792486acb224eb09019111724df73a1e42d046c0f8f62",
+      "processedAt": "2026-09-03T03:30:56.218Z"
+    },
+    "https://vercel.com/changelog/gemini-3-8-flash-now-available-on-ai-gateway": {
+      "contentHash": "0d12082a077a45743ef67a69a02de8a269f084832e62dce5cd06b58c5fe8c971",
+      "processedAt": "2026-09-03T03:30:56.664Z"
+    },
+    "https://vercel.com/blog/fluid-compute-takes-any-shape": {
+      "contentHash": "983fe78b3a6608982ca2440722ac574532182022802fb22f9a8f5f564122d702",
+      "processedAt": "2026-09-03T03:30:57.126Z"
+    },
+    "https://vercel.com/changelog/qwen-3-8-max-0902-now-available-on-ai-gateway": {
+      "contentHash": "7e40761bb30dfc3d0b1a70a48f00e8b5931fac64ff138f2f32f7007d3808db48",
+      "processedAt": "2026-09-03T03:30:57.585Z"
+    },
+    "https://vercel.com/changelog/claude-fable-5-1-now-available-on-ai-gateway": {
+      "contentHash": "0e37f92ffb4846794317cb09bd0c7d48696c356cd1b2abec1e6e6460b13a3c57",
+      "processedAt": "2026-09-03T03:30:58.042Z"
+    },
+    "https://vercel.com/changelog/aws-privatelink-is-now-available-on-pro-and-enterprise": {
+      "contentHash": "1b9be1da9e53662dd7e05468807a2ac4dfc749a1fd2e588a3c8062e4aef71b0f",
+      "processedAt": "2026-09-03T03:30:58.695Z"
+    },
+    "https://www.figma.com/blog/how-coinbase-used-code-connect-to-shrink-token-costs/": {
+      "contentHash": "d1ebf8331c902bbd8339ee645e712107e424ddb6c10b4d5a5826ed095870ce62",
+      "processedAt": "2026-09-03T03:31:29.261Z"
+    },
+    "https://www.figma.com/blog/how-we-built-generative-plugins-and-shaders/": {
+      "contentHash": "275bc0191e45e7a91e860d25d6d901355e9c496e7f3ed60d5525e3510dc5fcb4",
+      "processedAt": "2026-09-03T03:32:10.166Z"
+    },
+    "https://frontendfoc.us/issues/756": {
+      "contentHash": "744628901aaa5abf7aec5fb3a07c32e8fb059c17705331414182137dc3f2f1a1",
+      "processedAt": "2026-09-03T03:32:13.234Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/03/121627": {
+      "contentHash": "ab6fcdb30e7752717f297ee0235d1873519fe6ce5bc02fc0125d919e9e32b0a3",
+      "processedAt": "2026-09-03T03:32:13.863Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/03/070000": {
+      "contentHash": "ba594c95baa4016b534e9b369f53c5d66237627725267b43f91e9b511f0082c6",
+      "processedAt": "2026-09-03T03:32:14.084Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/02/170221": {
+      "contentHash": "8b561d0a6842b0a345d806076ad7932cabf6cb36bd2f57e38c30a6f62fbc4cdf",
+      "processedAt": "2026-09-03T03:32:14.371Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/02/120000": {
+      "contentHash": "ee4bb9ef99a11d1e4af0a8ecd31532bdb5d65dbe54bd3bae30f4aaeb75f2fdf0",
+      "processedAt": "2026-09-03T03:32:14.584Z"
+    },
+    "https://feeds.baymard.com/link/9825/17436208/telco-ux-benchmark-2026": {
+      "contentHash": "0fcb3c92561e85ade54fd66284cf6cdf2e798400c420994e0029e9124f2ab126",
+      "processedAt": "2026-09-03T03:32:17.187Z"
+    },
+    "https://www.speedcurve.com/blog/august-synthetic-test-agent-updates-chrome-firefox-and-lighthouse": {
+      "contentHash": "dc16856d8607200609e7933d04ba6409672e82ddabc21ee21bef2bd0549b9ae1",
+      "processedAt": "2026-09-03T03:32:18.114Z"
+    },
+    "https://thisweekinreact.com/newsletter/295": {
+      "contentHash": "b1328367a795b6521162eb7fc3f8df0922c575a52b77ec00d9e442fa5636a444",
+      "processedAt": "2026-09-03T03:32:18.983Z"
     }
   },
-  "lastRun": "2026-09-01T04:08:16.185Z"
+  "lastRun": "2026-09-03T03:32:18.983Z"
 }
