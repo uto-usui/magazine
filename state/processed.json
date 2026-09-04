@@ -34927,7 +34927,91 @@
     "https://thisweekinreact.com/newsletter/295": {
       "contentHash": "b1328367a795b6521162eb7fc3f8df0922c575a52b77ec00d9e442fa5636a444",
       "processedAt": "2026-09-03T03:32:18.983Z"
+    },
+    "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90/": {
+      "contentHash": "518178e21fea01fe8a6ce8732cb7e188a6a1ddff41fc9242b4c46b8ae84e529a",
+      "processedAt": "2026-09-04T03:28:22.621Z"
+    },
+    "https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta/": {
+      "contentHash": "551d560cfa9bc2b2ef3b2e5a52ed05162f3733292f428372f7183a38bbc87bb4",
+      "processedAt": "2026-09-04T03:28:23.007Z"
+    },
+    "https://medium.com/design-bootcamp/ai-is-making-product-development-faster-57a86bc3ffa0": {
+      "contentHash": "cbbe6e6da47e4cda578089516a1748df7e1029a555279cbe9f868f91f55679ff",
+      "processedAt": "2026-09-04T03:28:28.109Z"
+    },
+    "https://the-brandidentity.com/typeface/ren%C3%A9-bieders-neurath-x-is-a-geometric-typeface-made-for-the-age-of-ai": {
+      "contentHash": "16f72ebf8f76f4791368642ac1e38d45d8fb3c3ddf7370a90c28d388703ec7aa",
+      "processedAt": "2026-09-04T03:28:37.533Z"
+    },
+    "https://www.normaltools.com/": {
+      "contentHash": "c5978c384c9149a501edf32e8f2bafb608acb565a872978253de62a2b1415466",
+      "processedAt": "2026-09-04T03:28:37.973Z"
+    },
+    "https://rebeccawilliams.info/unwinding-the-great-tech-power-grab/": {
+      "contentHash": "1b5869203be65074d52a0b826fae4d0267f1dc60fbc59af0239edd76f0304515",
+      "processedAt": "2026-09-04T03:28:38.120Z"
+    },
+    "https://judgmentkit.ai/": {
+      "contentHash": "b41938f3484056365097d89ef4aab9cd9499e50a1d58c9c5599eeefdde8359b2",
+      "processedAt": "2026-09-04T03:28:38.240Z"
+    },
+    "https://uxdesign.cc/the-call-for-an-agentic-standard-we-need-to-stop-shipping-the-same-form-four-different-times-be5b9d40e370": {
+      "contentHash": "119cede5b22b430b9c7ffa6f471efb7d572656c6d49dcb4fa3812c506cf2e959",
+      "processedAt": "2026-09-04T03:28:42.591Z"
+    },
+    "https://www.soverybright.com/": {
+      "contentHash": "3ee46ce8d432d7c5916d006e503712913ac8a9aa4ee5d634185cd3ee87b26474",
+      "processedAt": "2026-09-04T03:28:42.799Z"
+    },
+    "https://commandline.microsoft.com/design-product-simplicity-seamless-ux-ui-agentic-ai-azure-developer-services-foundry/": {
+      "contentHash": "15458a112bb961a75a0f8751c360c287cb788905b4ca69f299b4d1eb912c2795",
+      "processedAt": "2026-09-04T03:28:43.119Z"
+    },
+    "https://mesurer.dev/": {
+      "contentHash": "510dc5f553aa87c94d939ecb24b19cbc28fc43604da16a5d047b787e5312ba5e",
+      "processedAt": "2026-09-04T03:28:48.047Z"
+    },
+    "https://www.stripeeconomics.com/p/ai-and-the-city": {
+      "contentHash": "4baa263cb2ed2506ce55595d1fc99bf17273052914143e4e4052bc3c67b79aea",
+      "processedAt": "2026-09-04T03:28:48.515Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-tech-companies-move-to": {
+      "contentHash": "3dffd0259e1dc3fb935be15fbf8ae3125b32eda3e23b72e313f74864735e5b08",
+      "processedAt": "2026-09-04T03:28:48.654Z"
+    },
+    "https://tympanus.net/codrops/2026/09/03/from-rays-to-meshes-building-vercels-prism-with-vgpu/": {
+      "contentHash": "32fcad21094117d2cbd25d3c9b938c19affcc36b872fdbd78bb835c7808be9e7",
+      "processedAt": "2026-09-04T03:28:50.229Z"
+    },
+    "https://tympanus.net/codrops/2026/09/03/more-three-js-speakers-more-ideas-from-paris/": {
+      "contentHash": "4a05cbcc960e976039e598822ed86034b4bb68bab8e3f7c4732f5f1f8134b9db",
+      "processedAt": "2026-09-04T03:28:51.522Z"
+    },
+    "https://ics.media/entry/260903/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-09-04T03:28:51.768Z"
+    },
+    "https://vercel.com/changelog/run-cursor-cloud-agents-vercel-sandbox": {
+      "contentHash": "24b5729d6524f0d1dcc472fc4f7c1c9abcefecb1a1dd3b5a4aa7635261d2eeee",
+      "processedAt": "2026-09-04T03:28:52.125Z"
+    },
+    "https://vercel.com/changelog/basic-build-machines": {
+      "contentHash": "f4cb36186e367d7e5763be648a796de1a05e24337a30f5ed868a8c12aa859737",
+      "processedAt": "2026-09-04T03:28:52.447Z"
+    },
+    "https://zenn.dev/uhyo/articles/react-profession-bench-15": {
+      "contentHash": "dba73689b3d0d65b88716c395e7d94f0fc1d586f25186f968360174e5635863e",
+      "processedAt": "2026-09-04T03:28:53.098Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/04/120000": {
+      "contentHash": "30602560f5bb00cad46d12dc7adf988de3b91a3642b943828d9935708874cca2",
+      "processedAt": "2026-09-04T03:28:54.472Z"
+    },
+    "https://www.nngroup.com/training/nov-asia-au/": {
+      "contentHash": "db1d96194591c549e96f87a5f9ecd9ee0b23e60df04d4f92627445b0c825f6b3",
+      "processedAt": "2026-09-04T03:28:55.674Z"
     }
   },
-  "lastRun": "2026-09-03T03:32:18.983Z"
+  "lastRun": "2026-09-04T03:28:55.675Z"
 }
