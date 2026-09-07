@@ -35011,7 +35011,67 @@
     "https://www.nngroup.com/training/nov-asia-au/": {
       "contentHash": "db1d96194591c549e96f87a5f9ecd9ee0b23e60df04d4f92627445b0c825f6b3",
       "processedAt": "2026-09-04T03:28:55.674Z"
+    },
+    "https://ref.wisprflow.ai/sidebar": {
+      "contentHash": "5bd1e2b35e7c36ea10350905bc403084fa75aa54c2f379a96f5cb393836980e9",
+      "processedAt": "2026-09-07T03:30:20.646Z"
+    },
+    "https://blog.mastykarz.nl/your-product-didnt-get-worse/": {
+      "contentHash": "96291af6a8ca46c5fddde2ef054159d8d03bf7c033e15fd09dd2b3f063900155",
+      "processedAt": "2026-09-07T03:30:20.998Z"
+    },
+    "https://looogos.com/": {
+      "contentHash": "22a24df4d92bf818d7617d34da7b0cfd7e55e6d308ab5d45562b9d6202a32ae0",
+      "processedAt": "2026-09-07T03:30:21.912Z"
+    },
+    "https://fourmodes.teybannerman.com/": {
+      "contentHash": "ca9ab7cc296e536a6930510f27b3b680b104388ebc37eaafe6eed50e0c5a864f",
+      "processedAt": "2026-09-07T03:30:22.109Z"
+    },
+    "https://www.nyn.me/blog/the-singular-viable-product": {
+      "contentHash": "e7fe429c7adac7135f988f3bf7a11d3f8b3167907e14b613bd1ee2bda9a24584",
+      "processedAt": "2026-09-07T03:30:22.532Z"
+    },
+    "https://tympanus.net/codrops/2026/09/06/building-a-real-time-3d-face-mask-with-mediapipe-threlte-and-three-js/": {
+      "contentHash": "68963a58c9b23f0c9cbd3b83be8bc3473623fac974bf1b0aac5c993b89d892cf",
+      "processedAt": "2026-09-07T03:30:23.945Z"
+    },
+    "https://tympanus.net/codrops/2026/09/05/building-an-infinite-loom-unravelling-images-into-threads-with-three-js/": {
+      "contentHash": "418ddb80224356bf51921b1b0c3018325c519e6349d9247fea754e171b6c8e33",
+      "processedAt": "2026-09-07T03:30:24.898Z"
+    },
+    "https://tympanus.net/codrops/2026/09/04/beyond-the-luminance-ramp-a-shape-aware-ascii-renderer-in-three-js/": {
+      "contentHash": "b858db972eff3ee19214830c4e9d751791692dd05ef3aeb24feb253e286740a9",
+      "processedAt": "2026-09-07T03:30:25.973Z"
+    },
+    "https://vercel.com/changelog/ling-3-0-flash-sante-is-now-available-on-ai-gateway-for-free": {
+      "contentHash": "ef84ce2f4166f954af16b989904fcf0532a8f7f7f0cebe14ce71b161242b1970",
+      "processedAt": "2026-09-07T03:30:26.509Z"
+    },
+    "https://vercel.com/changelog/gpt-6-astra-now-available-on-vercel-ai-gateway": {
+      "contentHash": "5edca12d4be53295dedf300de340fddc31d3f087efb5e019f5c373998bb55c54",
+      "processedAt": "2026-09-07T03:30:26.926Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/09/07/120044": {
+      "contentHash": "2fdc3f767bacce395b972a057e5fc06bd02ceef60aad00dbb8096e22f0253e84",
+      "processedAt": "2026-09-07T03:30:27.743Z"
+    },
+    "https://www.nngroup.com/articles/ai-work-study-guide/": {
+      "contentHash": "54c7ca3f1925d6d532ac6f2ab75bf5f0d5eb5f9a56e87d799660062d3007b5c1",
+      "processedAt": "2026-09-07T03:30:28.811Z"
+    },
+    "https://newsletter.uxdesign.cc/p/when-the-canvas-starts-acting-whos": {
+      "contentHash": "9f35ddbea1fc52b515a2238ce66007598452ea816dc3d8fd567dc77fb49dbe71",
+      "processedAt": "2026-09-07T03:30:29.355Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-september-6-2026/": {
+      "contentHash": "8d7b828d7aaa7b2b2719aa9f52cee51753bb2eac303e321255c5ead608491a42",
+      "processedAt": "2026-09-07T03:30:30.590Z"
+    },
+    "https://react.statuscode.com/issues/489": {
+      "contentHash": "0bc3466dd5d68ad855b0db3fe7eabadde33de77fdc22e5a2a34b25909d12dd78",
+      "processedAt": "2026-09-07T03:30:31.307Z"
     }
   },
-  "lastRun": "2026-09-04T03:28:55.675Z"
+  "lastRun": "2026-09-07T03:30:31.307Z"
 }
