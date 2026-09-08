@@ -35071,7 +35071,51 @@
     "https://react.statuscode.com/issues/489": {
       "contentHash": "0bc3466dd5d68ad855b0db3fe7eabadde33de77fdc22e5a2a34b25909d12dd78",
       "processedAt": "2026-09-07T03:30:31.307Z"
+    },
+    "https://a11yweekly.com/issue/516/": {
+      "contentHash": "63c7065abac6d43c2757a5e3d080115bf2b2bbfc854c6598051efe2d5ea6f0e1",
+      "processedAt": "2026-09-08T03:36:35.308Z"
+    },
+    "https://uxdesign.cc/when-the-canvas-starts-acting-whos-really-in-control-0128f641223c": {
+      "contentHash": "da357389986a2daadeefc437db8ec44a5b5f024a1eb793095eaf52557eb978cb",
+      "processedAt": "2026-09-08T03:36:40.159Z"
+    },
+    "https://calpaterson.com/memoryfields.html": {
+      "contentHash": "0ec3fd44d8ad718b3bed90ccaa7c39ba3cdf5e03599a6ef242f5c456449770e5",
+      "processedAt": "2026-09-08T03:36:40.546Z"
+    },
+    "https://recipetables.com/": {
+      "contentHash": "9383bed73980133a42aaadb9abdaf1008f3c7e8fd2069ee6ef65821abdfe20cd",
+      "processedAt": "2026-09-08T03:36:41.547Z"
+    },
+    "https://lucet.design/": {
+      "contentHash": "76660ba6d69e7cb7bde1d419be1a095f5f57b092a69e97bd3944edfaf3e39979",
+      "processedAt": "2026-09-08T03:36:47.326Z"
+    },
+    "https://jennywanger.com/articles/burnt-out-on-a-three-day-week/": {
+      "contentHash": "dff77f93c7677fe3446aaa2ad1c04e03345398168e2b6ade7425ff9eec3871be",
+      "processedAt": "2026-09-08T03:36:47.889Z"
+    },
+    "https://tympanus.net/codrops/2026/09/07/drawing-with-light-an-exploration-of-lit-gpu-tubes-with-tsl-and-webgpu/": {
+      "contentHash": "00e4d4186356d1d4e72381cdca71c71d1097e69a5b3899a27011632cb509c7ce",
+      "processedAt": "2026-09-08T03:36:49.266Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/08/093129": {
+      "contentHash": "ec798fedc2d3394e1dde0b6bd48cda9f7b902e510eb08a72128577b717119b19",
+      "processedAt": "2026-09-08T03:36:50.155Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/07/175234": {
+      "contentHash": "115de3e138fe6694fef6e48414f1dfdf637692b212a8cae97fb5f17b3305f809",
+      "processedAt": "2026-09-08T03:36:52.515Z"
+    },
+    "https://uxcontent.com/building-a-content-architect-role-from-scratch/": {
+      "contentHash": "29664d64d20f0a16eeaa4142d6d222510fc4d9f5ccf0cf2dbea2cac09e8fbd7a",
+      "processedAt": "2026-09-08T03:36:53.784Z"
+    },
+    "https://uxcontent.com/nobody-will-care-that-you-used-ai-but-theyll-care-if-your-writing-sucks/": {
+      "contentHash": "f49ab43ff8eec23e1fad86c46fde3d89bfe1ba17ea2caee66497f30b4ba7d2f1",
+      "processedAt": "2026-09-08T03:36:54.767Z"
     }
   },
-  "lastRun": "2026-09-07T03:30:31.307Z"
+  "lastRun": "2026-09-08T03:36:54.767Z"
 }
