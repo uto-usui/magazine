@@ -35071,7 +35071,111 @@
     "https://react.statuscode.com/issues/489": {
       "contentHash": "0bc3466dd5d68ad855b0db3fe7eabadde33de77fdc22e5a2a34b25909d12dd78",
       "processedAt": "2026-09-07T03:30:31.307Z"
+    },
+    "https://engineering.atspotify.com/2026/9/why-spotify-is-not-using-bayesian-a-b-testing/": {
+      "contentHash": "86ad864d2c6fb6501e4d81667ab9cc03a0b8639f34238402ba0363d8158c00ab",
+      "processedAt": "2026-09-09T03:40:36.598Z"
+    },
+    "https://adrianroselli.com/2026/09/support-for-headers-attribute.html": {
+      "contentHash": "58c834b8cae7eaf64128db0c6fd863e3cb83854c060476e4d9d154b73a70222a",
+      "processedAt": "2026-09-09T03:40:37.187Z"
+    },
+    "https://a11yweekly.com/issue/516/": {
+      "contentHash": "63c7065abac6d43c2757a5e3d080115bf2b2bbfc854c6598051efe2d5ea6f0e1",
+      "processedAt": "2026-09-09T03:40:37.391Z"
+    },
+    "https://design.lightspark.com/limit-the-number-of-details": {
+      "contentHash": "417a75624fa3a2e393887ff3ea7a37264e39fede862ac37d97f0fb7750b98b74",
+      "processedAt": "2026-09-09T03:40:38.202Z"
+    },
+    "https://www.worldlabs.ai/blog/atlas": {
+      "contentHash": "5b8e87f1c6b6450666e42cd6799750cefee4b6c84e8d7929e51e08d5cb4e3938",
+      "processedAt": "2026-09-09T03:40:38.731Z"
+    },
+    "https://opensourceui.in/": {
+      "contentHash": "e4e550183e27901b94b646eb91d08123a9f7e2379848b6826f9c49ce7ca172f9",
+      "processedAt": "2026-09-09T03:40:44.360Z"
+    },
+    "https://www.casestudy.club/marek-minor-interview": {
+      "contentHash": "55d651f353abe0ff98957c25c8ce981ab82861eb2bba720aa3af070083fcbe46",
+      "processedAt": "2026-09-09T03:40:44.575Z"
+    },
+    "https://voiceinthemachine.com/2026/09/07/four-questions-about-agi/": {
+      "contentHash": "e6ad4996cf04edf28ed49a644750f57db5b6ee2c6bfff4c17b183fea1b9d93cc",
+      "processedAt": "2026-09-09T03:40:44.858Z"
+    },
+    "https://uxdesign.cc/when-the-canvas-starts-acting-whos-really-in-control-0128f641223c": {
+      "contentHash": "da357389986a2daadeefc437db8ec44a5b5f024a1eb793095eaf52557eb978cb",
+      "processedAt": "2026-09-09T03:40:49.280Z"
+    },
+    "https://calpaterson.com/memoryfields.html": {
+      "contentHash": "0ec3fd44d8ad718b3bed90ccaa7c39ba3cdf5e03599a6ef242f5c456449770e5",
+      "processedAt": "2026-09-09T03:40:49.529Z"
+    },
+    "https://recipetables.com/": {
+      "contentHash": "9383bed73980133a42aaadb9abdaf1008f3c7e8fd2069ee6ef65821abdfe20cd",
+      "processedAt": "2026-09-09T03:40:49.940Z"
+    },
+    "https://lucet.design/": {
+      "contentHash": "76660ba6d69e7cb7bde1d419be1a095f5f57b092a69e97bd3944edfaf3e39979",
+      "processedAt": "2026-09-09T03:40:55.010Z"
+    },
+    "https://jennywanger.com/articles/burnt-out-on-a-three-day-week/": {
+      "contentHash": "dff77f93c7677fe3446aaa2ad1c04e03345398168e2b6ade7425ff9eec3871be",
+      "processedAt": "2026-09-09T03:40:55.342Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/what-is-happening-with-code-reviews": {
+      "contentHash": "453c9953812aa57f3a8ebf5bd51b70dd492ada736af4988119e79c3a668cd5a5",
+      "processedAt": "2026-09-09T03:40:55.615Z"
+    },
+    "https://tympanus.net/codrops/2026/09/08/building-an-infinite-liquid-glass-grid-with-three-js-webgpu-and-tsl/": {
+      "contentHash": "9857fc05b564478f6d9f8e890e7d8a282ee9e00c376eadcafcddf02933adbe73",
+      "processedAt": "2026-09-09T03:40:56.840Z"
+    },
+    "https://tympanus.net/codrops/2026/09/07/drawing-with-light-an-exploration-of-lit-gpu-tubes-with-tsl-and-webgpu/": {
+      "contentHash": "00e4d4186356d1d4e72381cdca71c71d1097e69a5b3899a27011632cb509c7ce",
+      "processedAt": "2026-09-09T03:40:57.951Z"
+    },
+    "https://kentcdodds.com/blog/introducing-kody-your-personal-software-factory": {
+      "contentHash": "5e2175a40030d6ae9ada608b08303046b94a76f0fa956cec2239ce8b5a840eec",
+      "processedAt": "2026-09-09T03:40:58.469Z"
+    },
+    "https://vercel.com/changelog/vercel-sandbox-routing-is-now-18x-faster-globally": {
+      "contentHash": "d4aa045fd503a8ce57ddbc7a1654b5cb178ad48ed7bc51d0a24f625eae670cc3",
+      "processedAt": "2026-09-09T03:40:58.790Z"
+    },
+    "https://vercel.com/blog/introducing-flat-rate-cdn": {
+      "contentHash": "36c18f55a15d61f9d2a503bd90cd675e4c08dac7e3300357ee1b3dd2cab020c8",
+      "processedAt": "2026-09-09T03:40:59.373Z"
+    },
+    "https://vercel.com/changelog/gpt-image-2-5-flare-and-sunburst-now-available-on-ai-gateway": {
+      "contentHash": "66fa9e70f20eb7c0a3362eaf66a2fa43e9abef30b7a2c83cc4affe4996d91025",
+      "processedAt": "2026-09-09T03:40:59.728Z"
+    },
+    "https://vercel.com/changelog/flat-rate-cdn-is-now-ga-for-pro-teams": {
+      "contentHash": "47d3887737cda3c0d7e642c0397f72ecd7b2d3e3d24ef55934161b5476f50a95",
+      "processedAt": "2026-09-09T03:41:00.074Z"
+    },
+    "https://www.figma.com/blog/source-material-creative-technologist-marisa-chentakul-meshtimes/": {
+      "contentHash": "a6c82f081cc4a1bbdbdc5bce6c207a3a797fe1b76dba48ae6481b937b441d460",
+      "processedAt": "2026-09-09T03:41:21.347Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/08/093129": {
+      "contentHash": "ec798fedc2d3394e1dde0b6bd48cda9f7b902e510eb08a72128577b717119b19",
+      "processedAt": "2026-09-09T03:41:22.170Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/07/175234": {
+      "contentHash": "115de3e138fe6694fef6e48414f1dfdf637692b212a8cae97fb5f17b3305f809",
+      "processedAt": "2026-09-09T03:41:23.130Z"
+    },
+    "https://uxcontent.com/building-a-content-architect-role-from-scratch/": {
+      "contentHash": "29664d64d20f0a16eeaa4142d6d222510fc4d9f5ccf0cf2dbea2cac09e8fbd7a",
+      "processedAt": "2026-09-09T03:41:24.368Z"
+    },
+    "https://uxcontent.com/nobody-will-care-that-you-used-ai-but-theyll-care-if-your-writing-sucks/": {
+      "contentHash": "f49ab43ff8eec23e1fad86c46fde3d89bfe1ba17ea2caee66497f30b4ba7d2f1",
+      "processedAt": "2026-09-09T03:41:25.328Z"
     }
   },
-  "lastRun": "2026-09-07T03:30:31.307Z"
+  "lastRun": "2026-09-09T03:41:25.328Z"
 }
