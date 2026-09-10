@@ -35175,7 +35175,91 @@
     "https://uxcontent.com/nobody-will-care-that-you-used-ai-but-theyll-care-if-your-writing-sucks/": {
       "contentHash": "f49ab43ff8eec23e1fad86c46fde3d89bfe1ba17ea2caee66497f30b4ba7d2f1",
       "processedAt": "2026-09-09T03:41:25.328Z"
+    },
+    "https://csswizardry.com/2026/09/web-perf-wednesday-008-good-inp-rates-keep-falling/": {
+      "contentHash": "1dc99b9406c01e0f01d1865752ca55c261ad0bbd078934dd3c3b27aed3b45e62",
+      "processedAt": "2026-09-10T03:38:07.879Z"
+    },
+    "https://www.distributedthoughts.org/2026-09-07-one-floor-up/": {
+      "contentHash": "801a625631a308ad657ad9b2bb1bda269edaa57cc07c5b0c305d4b9ac9551666",
+      "processedAt": "2026-09-10T03:38:08.177Z"
+    },
+    "https://the-brandidentity.com/project/skogen-borrows-from-scouting-not-tech-for-gridscouts-identity": {
+      "contentHash": "c15b421b596c31c9bac4c9d03d76d62baaa77f18eec3781f64bfee05e202a170",
+      "processedAt": "2026-09-10T03:38:18.526Z"
+    },
+    "https://newsletter.baselinedesign.com/naming-the-middle/": {
+      "contentHash": "a63c28166e1ea2685e91e02b138ddaac9eb34896fb054380a837745e3c28605a",
+      "processedAt": "2026-09-10T03:38:18.772Z"
+    },
+    "https://www.dialkit.dev/": {
+      "contentHash": "5e14c88068846bfebe70570d0d95f40d53c72938587b2085ec3d95bcc6e5d7be",
+      "processedAt": "2026-09-10T03:38:19.389Z"
+    },
+    "https://ibelick.com/anatomy-ai-input": {
+      "contentHash": "ed9175b8ca5969c824336638ff3cc80bb23b775bd2442ad028c4679a526bfe5c",
+      "processedAt": "2026-09-10T03:38:19.596Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/building-codex-with-tibo-sottiaux": {
+      "contentHash": "d8cda945e0b8101f768e6495128e9a478f3d61f85300bc2b04bda00b256de217",
+      "processedAt": "2026-09-10T03:38:19.964Z"
+    },
+    "https://tympanus.net/codrops/2026/09/09/still-from-akira-to-ink-wash-building-a-generative-garden-in-webgpu/": {
+      "contentHash": "7861b3618ef23a0f3baa5be228ca52c12e170e91217e20428593aee24d00757b",
+      "processedAt": "2026-09-10T03:38:21.803Z"
+    },
+    "https://bradfrost.com/blog/post/our-ai-design-systems-course-is-complete/": {
+      "contentHash": "0fea65b2080d76234e2526aaccaf1717793705388b7c2132b152c51e27b27471",
+      "processedAt": "2026-09-10T03:38:22.287Z"
+    },
+    "https://smashingmagazine.com/2026/09/death-button-why-best-interface-is-no-interface/": {
+      "contentHash": "d2bcbfe6ddf96d51e791e2dd7c43abdd997cd76ae835c7537329a805cd764ad9",
+      "processedAt": "2026-09-10T03:38:23.729Z"
+    },
+    "https://piccalil.li/links/pricefall-2026/": {
+      "contentHash": "b168ff3acfff5618113f378e8b2fdd8e63aa2068e14784c57e29f9abc69a497f",
+      "processedAt": "2026-09-10T03:38:23.929Z"
+    },
+    "https://vercel.com/changelog/password-protection-now-costs-20-per-project-per-month-on-pro": {
+      "contentHash": "ee7fad54234e50b37d41b0bd13bd6c106c68aa78cd1de1194ced6fdc09f39cb7",
+      "processedAt": "2026-09-10T03:38:24.243Z"
+    },
+    "https://vercel.com/changelog/protect-production-deployments-for-free-on-every-plan": {
+      "contentHash": "0a1efa022af910494d2218efb7cc1f25fbd9b88d05ffd339273e4f194caf6536",
+      "processedAt": "2026-09-10T03:38:24.553Z"
+    },
+    "https://vercel.com/changelog/you-can-now-read-and-search-changelogs-from-the-cli": {
+      "contentHash": "037b6437054de56704dcd86eb3319c03e5713a0811ee217d3e7aab97dba1e517",
+      "processedAt": "2026-09-10T03:38:24.861Z"
+    },
+    "https://vercel.com/changelog/persistent-memory-for-eve-agents": {
+      "contentHash": "0d90501f07a6c5b9a6c87ebf5fc5ac9fb52a1594af169de6af000f5c9fee0f33",
+      "processedAt": "2026-09-10T03:38:25.259Z"
+    },
+    "https://vercel.com/changelog/v0-adds-one-click-integrations-for-email-auth-search-and-databases": {
+      "contentHash": "03f3c2c81aae6cbdcf5098a666b3bc93abf71088551ab4efba32c09f420e9250",
+      "processedAt": "2026-09-10T03:38:25.569Z"
+    },
+    "https://vercel.com/changelog/deployment-step-now-10-faster": {
+      "contentHash": "d06e0aee8e1f860bb2941b11a93bfb65b16ad4ba53af3ca93aa978109a747699",
+      "processedAt": "2026-09-10T03:38:26.000Z"
+    },
+    "https://frontendfoc.us/issues/757": {
+      "contentHash": "e1c8d83ddce4010c9210f4b2897c047318f01d14a0531cc6a1413e5b77a7f1fe",
+      "processedAt": "2026-09-10T03:38:26.570Z"
+    },
+    "https://tech.layerx.co.jp/entry/fde-is-fun": {
+      "contentHash": "3dfc3b582d9151fa77b7eaeac912587293d0a2c58024785d99533c3ca6da4865",
+      "processedAt": "2026-09-10T03:38:27.354Z"
+    },
+    "https://feeds.baymard.com/link/9825/17443305/accounts-and-self-service-ux-research-2026": {
+      "contentHash": "9aa24a2a96857b6d67e3a511f7f9aec65fe09bbf63568a4bfdcce2edfce8a34d",
+      "processedAt": "2026-09-10T03:38:34.718Z"
+    },
+    "https://thisweekinreact.com/newsletter/296": {
+      "contentHash": "849907ebe2f458e7031390b462f2703aa5eb7161e648e0f6cc340ee04997640f",
+      "processedAt": "2026-09-10T03:38:35.141Z"
     }
   },
-  "lastRun": "2026-09-09T03:41:25.328Z"
+  "lastRun": "2026-09-10T03:38:35.141Z"
 }
