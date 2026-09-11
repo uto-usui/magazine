@@ -35259,7 +35259,75 @@
     "https://thisweekinreact.com/newsletter/296": {
       "contentHash": "849907ebe2f458e7031390b462f2703aa5eb7161e648e0f6cc340ee04997640f",
       "processedAt": "2026-09-10T03:38:35.141Z"
+    },
+    "https://sjg.io/writing/ai-is-making-us-build-too-much/": {
+      "contentHash": "1973166c51ebc2dbc72f1071bf9a527bca068e4184b73e793bb8a04042a36ea6",
+      "processedAt": "2026-09-11T03:36:16.417Z"
+    },
+    "https://edoardolunardi.github.io/kugiri/": {
+      "contentHash": "562b3000eb53b7a54870b5ce8aa84475622c68158f7ed2dded1e8354e44e9f4f",
+      "processedAt": "2026-09-11T03:36:16.677Z"
+    },
+    "https://dontasktoask.com/": {
+      "contentHash": "2413ec4cf08dd17b3bd10ec37b61d6c3959898306dcf08b06d9ad4613653ffd6",
+      "processedAt": "2026-09-11T03:36:16.946Z"
+    },
+    "https://www.worseonpurpose.com/p/on-quality": {
+      "contentHash": "f50ec11349f8f75ea446820525721c4b281f6d46c9d87b16b12f2c2f74af45b1",
+      "processedAt": "2026-09-11T03:36:35.350Z"
+    },
+    "https://ky.fyi/posts/data-driven": {
+      "contentHash": "817057b98934ccd5c2249bcbddf8b70e88dce5e8cbbcdd2803c0a3e3569eb6c6",
+      "processedAt": "2026-09-11T03:36:36.170Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-191-a-new-trend-of-cpu": {
+      "contentHash": "9cec1b0f371240fbefe55f70229b6b6e13c2971088c0878af8f9f9d88cbcac6b",
+      "processedAt": "2026-09-11T03:36:36.448Z"
+    },
+    "https://tympanus.net/codrops/2026/09/10/inside-the-first-three-js-conference-in-paris/": {
+      "contentHash": "b6346d3356df29cec462083c0b7556821a930164eb5aac2d3a775c98e63b6a0d",
+      "processedAt": "2026-09-11T03:36:38.920Z"
+    },
+    "https://bradfrost.com/links/post/code-snack/": {
+      "contentHash": "a4fe4f3f2fdc0dcb09cce7b25b193a2bebfdf97899b278d22e019383205d7bf7",
+      "processedAt": "2026-09-11T03:36:39.530Z"
+    },
+    "https://vercel.com/changelog/vercel-sandbox-64-gb-storage": {
+      "contentHash": "218a5d903b485ca2fb2d972ede1886290a83a320bccb5c7f703b05f724c7e61e",
+      "processedAt": "2026-09-11T03:36:40.133Z"
+    },
+    "https://vercel.com/changelog/github-copilot-ai-sdk-harness-adapter": {
+      "contentHash": "063b3ce94ccda6e18913d8a90f5ed721d7a4987728d33a102c5a584f942f0114",
+      "processedAt": "2026-09-11T03:36:40.513Z"
+    },
+    "https://vercel.com/changelog/fastapi-frontends-and-static-files-served-from-the-cdn": {
+      "contentHash": "bb8f766ffebe561e39a7b0194297e6e523592cf52ff50447c9a2be7e44921d97",
+      "processedAt": "2026-09-11T03:36:40.924Z"
+    },
+    "https://vercel.com/blog/how-we-cut-cdn-metadata-lookup-latency-by-91-percent": {
+      "contentHash": "2a7ed1f828268902373a13ca9012ee52197a69fa90e0611a17ef4221db67ff37",
+      "processedAt": "2026-09-11T03:36:41.593Z"
+    },
+    "https://vercel.com/changelog/build-with-openai-agents-api-on-vercel": {
+      "contentHash": "a5538c605bc37ada2c7487d764646857f7eacad63411a8cccfaa6c6043885e92",
+      "processedAt": "2026-09-11T03:36:41.924Z"
+    },
+    "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th": {
+      "contentHash": "4c185c3f11b770424035ed40bccbb4100aa4fb0d4dd92b40cbc11d98727b274b",
+      "processedAt": "2026-09-11T03:36:42.325Z"
+    },
+    "https://vercel.com/changelog/vercel-sandbox-is-now-available-in-all-regions": {
+      "contentHash": "2513b69cd2be708149c4f1117613c6f5a3b4fc436cda3580aa3a254d86bcfaeb",
+      "processedAt": "2026-09-11T03:36:42.753Z"
+    },
+    "https://vercel.com/changelog/deepseek-v4-1-flash-now-available-on-ai-gateway": {
+      "contentHash": "18ddc12bec764b51c3c509c2cd8f8cff23166da970176c2f6c3a9999d2ee17d7",
+      "processedAt": "2026-09-11T03:36:43.207Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/10/150748": {
+      "contentHash": "351437da9efc820609b076792ca0fdbdb2ab7cf78b7553671ea43c21c8dd2bb1",
+      "processedAt": "2026-09-11T03:36:44.772Z"
     }
   },
-  "lastRun": "2026-09-10T03:38:35.141Z"
+  "lastRun": "2026-09-11T03:36:44.772Z"
 }
