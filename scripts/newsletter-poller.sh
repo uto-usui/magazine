@@ -49,13 +49,13 @@ launch_newsletter() {
 
   cd "$PROJECT_DIR"
   git checkout master >> "$LOG_FILE" 2>&1
-  git pull --rebase --autostash origin master >> "$LOG_FILE" 2>&1
+  git pull --rebase origin master >> "$LOG_FILE" 2>&1
   log "Git pull completed"
 
   osascript -e "
     tell application \"Terminal\"
       activate
-      do script \"cd $PROJECT_DIR && claude -p '/create-newsletter-auto $target_date' --dangerously-skip-permissions && $PROJECT_DIR/scripts/sync-push.sh newsletter; echo 'Done - press any key to close'; read\"
+      do script \"cd $PROJECT_DIR && claude -p '/create-newsletter-auto $target_date' --dangerously-skip-permissions && git pull --rebase origin master && git push origin master; echo 'Done - press any key to close'; read\"
     end tell
   " >> "$LOG_FILE" 2>&1
 }
@@ -166,7 +166,7 @@ if [[ "$NEW_MERGED" > "$LAST_MERGED" ]]; then
 
   cd "$PROJECT_DIR"
   git checkout master >> "$LOG_FILE" 2>&1
-  git pull --rebase --autostash origin master >> "$LOG_FILE" 2>&1
+  git pull --rebase origin master >> "$LOG_FILE" 2>&1
   log "Git pull completed"
 
   LATEST_ARTICLES=$(ls -d "$PROJECT_DIR/articles/"[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9] 2>/dev/null | sort -r | head -1)

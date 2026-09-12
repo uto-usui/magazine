@@ -23,7 +23,7 @@ flowchart TB
         POLLER["📜 newsletter-poller.sh<br/>gh CLIでマージ検知"]
         PULL["⬇️ git pull<br/>最新masterを取得"]
         CLAUDE["🤖 Claude Code<br/>/create-newsletter-auto"]
-        COMMIT["📤 commit → sync-push.sh<br/>rebase pull してから push"]
+        COMMIT["📤 commit → rebase pull → push<br/>newsletters/*.md"]
     end
 
     subgraph Obsidian_Vault["📓 Obsidian Vault"]

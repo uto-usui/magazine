@@ -11,7 +11,7 @@
 #   1. 「直近過去の日曜21:00 (JST)」以降に生成された pickup があれば skip
 #   2. git pull で master を最新化、pull 後も再判定
 #   3. Terminal.app を開き claude -p '/curate-articles-auto 今週' を実行
-#      → 同 Terminal 内で続けて git push origin master
+#      → 同 Terminal 内で続けて git pull --rebase && git push origin master
 #   4. Moshi へ開始通知
 #
 
@@ -91,7 +91,7 @@ if ! git checkout master >> "$LOG_FILE" 2>&1; then
   notify "Pickup ❌" "git checkout master に失敗しました"
   exit 1
 fi
-if ! git pull --rebase --autostash origin master >> "$LOG_FILE" 2>&1; then
+if ! git pull --rebase origin master >> "$LOG_FILE" 2>&1; then
   log "ERROR: git pull --rebase origin master failed"
   notify "Pickup ❌" "git pull --rebase origin master に失敗しました"
   exit 1
@@ -120,7 +120,7 @@ log "Launching Terminal for curate-articles-auto"
 osascript -e "
   tell application \"Terminal\"
     activate
-    do script \"cd $PROJECT_DIR && claude -p '/curate-articles-auto 今週' --dangerously-skip-permissions && $PROJECT_DIR/scripts/sync-push.sh pickup; echo 'Done - press any key to close'; read\"
+    do script \"cd $PROJECT_DIR && claude -p '/curate-articles-auto 今週' --dangerously-skip-permissions && git pull --rebase origin master && git push origin master; echo 'Done - press any key to close'; read\"
   end tell
 " >> "$LOG_FILE" 2>&1
 

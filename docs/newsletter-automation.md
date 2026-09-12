@@ -16,7 +16,7 @@ flowchart TD
     G -->|No| H[Terminal を開く]
     H --> I[Claude Code 実行]
     I --> J[ニュースレター作成]
-    J --> K[コミット → sync-push.sh<br/>rebase pull → push]
+    J --> K[コミット → rebase pull → push]
     K --> L[メール送信]
 ```
 
@@ -26,7 +26,6 @@ flowchart TD
 |---------|------|
 | `scripts/newsletter-poller.sh` | GitHub をポーリングしてマージを検出 |
 | `scripts/create-newsletter.sh` | 手動実行用ワンタッチスクリプト |
-| `scripts/sync-push.sh` | 作成後の push（rebase で最新を取り込んでから push） |
 | `.claude/commands/create-newsletter-auto.md` | Claude Code 非対話版コマンド |
 | `~/Library/LaunchAgents/<label>.plist` | launchd 設定 |
 

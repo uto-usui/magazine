@@ -27,7 +27,7 @@ git checkout master
 
 # 最新の状態を取得
 echo "2. git pull で最新化..."
-git pull --rebase --autostash origin master
+git pull --rebase origin master
 
 # Claude Code で /create-newsletter-auto を実行
 echo "3. Claude Code でニュースレター作成 → コミット → メール送信..."
