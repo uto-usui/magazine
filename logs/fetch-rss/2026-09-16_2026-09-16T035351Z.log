@@ -1,0 +1,58 @@
+articles_dir=2026-09-16
+exit_code=0
+timestamp_utc=2026-09-16T03:53:51Z
+
+---- issue lines ----
+8:Failed to fetch feed Codrops: Status code 410
+
+---- tail (last 50 lines) ----
+✨ New articles: 15
+⏭️ Skipped (already processed): 673
+📥 Processing: We must pace the frontier
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-16/we-must-pace-the-frontier.md
+📥 Processing: Bencho
+🔄 Readability failed, trying Playwright: https://bencho.dev/
+✅ Playwright successfully fetched: https://bencho.dev/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-16/bencho.md
+📥 Processing: Optical vs. mathematical alignment
+Image download skipped for data:;base64,<svg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201360%20800'></svg>: Invalid URL
+Image download skipped for data:;base64,<svg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201360%20800'></svg>: Invalid URL
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-16/optical-vs-mathematical-alignment.md
+📥 Processing: Planning with agents
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-16/planning-with-agents.md
+📥 Processing: If coding is solved, what now?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-16/if-coding-is-solved-what-now.md
+📥 Processing: Inside OpenAI’s agentic software factory
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-16/inside-openais-agentic-software-factory.md
+📥 Processing: Is Agentic now tailors its audit by site type
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-16/is-agentic-now-tailors-its-audit-by-site-type.md
+📥 Processing: How Delphi ships 100 times a day with its Python backend on Vercel
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-16/how-delphi-ships-100-times-a-day-with-its-python-backend-on-vercel.md
+📥 Processing: Gemini 3.8 Live models now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-16/gemini-38-live-models-now-available-on-ai-gateway.md
+📥 Processing: What Stripe data shows about fraud at AI startups
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-16/what-stripe-data-shows-about-fraud-at-ai-startups.md
+📥 Processing: Source material: Artist and educator Zach Lieberman likes to break things
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-16/source-material-artist-and-educator-zach-lieberman-likes-to-break-things.md
+📥 Processing: Claude Codeで開発期間を2.5か月から1か月に縮めた「ハーネス」の設計手法
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-16/claude-code251.md
+📥 Processing: 「あつまれ！若手エンジニアのLT＆ゆるっと交流会」に参加・登壇してきました！
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-16/lt.md
+📥 Processing: JaSST'26 Niigata にゴールドスポンサーとして協賛し、メンバー4名が登壇します！ブースも出展します #JaSST
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-16/jasst26-niigata-4-jasst.md
+📥 Processing: B2B Medical & Pharma UX Benchmark: 3,400+ Performance Scores and 2,600+ Best Practice Examples
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-16/b2b-medical-pharma-ux-benchmark-3400-performance-scores-and-2600-best-practice-examples.md
+
+📊 Summary:
+   ✅ Success: 15
+   ❌ Errors: 0
+🏁 Done!
