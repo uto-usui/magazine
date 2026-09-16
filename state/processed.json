@@ -35435,7 +35435,67 @@
     "https://newsletter.uxdesign.cc/p/five-eras-of-ux-design-and-the-lessons": {
       "contentHash": "8fef431ee951a1e001ab53254a2adadb1afaa67fa225d573a575b1e9f3f134f0",
       "processedAt": "2026-09-15T03:56:24.966Z"
+    },
+    "https://darioamodei.com/post/we-must-pace-the-frontier": {
+      "contentHash": "739e3e64219969f06e8ffeb8dff3dc72c435d9c6516762dc442958db3b9a7a8e",
+      "processedAt": "2026-09-16T03:53:09.856Z"
+    },
+    "https://bencho.dev/": {
+      "contentHash": "6a772126c6fd23441f22c444f532750b9e5206c06ec834dab159328596b73851",
+      "processedAt": "2026-09-16T03:53:16.296Z"
+    },
+    "https://pangrampangram.com/blogs/journal/optical-vs-mathematical-alignment": {
+      "contentHash": "cdd4662e0d069836ebdba938d89a9912ed50ffd0cbf0954f58fb80aa132e906b",
+      "processedAt": "2026-09-16T03:53:16.898Z"
+    },
+    "https://maggieappleton.com/planning-agents": {
+      "contentHash": "8b9aadb2085848eed7f15341004b66f8df209c287ec1120c34ec611794918674",
+      "processedAt": "2026-09-16T03:53:19.111Z"
+    },
+    "https://earendil.com/posts/measuring-code-sloppiness/": {
+      "contentHash": "ded13bc1c5b8891358528e19ab26f84ed1c9b09039514876fac1e2ba632c4994",
+      "processedAt": "2026-09-16T03:53:19.344Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/openai-software-factory": {
+      "contentHash": "e4670c0cf438aa895a19b28a142f679c760e87fbb5a99081afdb63334ca2201c",
+      "processedAt": "2026-09-16T03:53:19.678Z"
+    },
+    "https://vercel.com/changelog/is-agentic-report-categories": {
+      "contentHash": "6ed12fccd8b3ff44c8d9b74f5480576c1900df03d5e6375c01f2095deffe4319",
+      "processedAt": "2026-09-16T03:53:20.078Z"
+    },
+    "https://vercel.com/blog/how-delphi-ships-100-times-a-day-with-its-python-backend-on-vercel": {
+      "contentHash": "c776ced38f949359c3d3fc2a9ea523dbda9cb6a084857dd8f65ba343bb7993b6",
+      "processedAt": "2026-09-16T03:53:20.727Z"
+    },
+    "https://vercel.com/changelog/gemini-3-8-live-models-now-available-on-ai-gateway": {
+      "contentHash": "965bec68a776347ea025d5aec82e5243b5d71101a3493667d6c4f7285492d50d",
+      "processedAt": "2026-09-16T03:53:21.372Z"
+    },
+    "https://stripe.com/blog/what-stripe-data-shows-about-fraud-at-ai-startups": {
+      "contentHash": "848238c23b21aaf1725c66d620aae073bd1784f0b35cf3be2cad710563417003",
+      "processedAt": "2026-09-16T03:53:22.117Z"
+    },
+    "https://www.figma.com/blog/source-material-zach-lieberman/": {
+      "contentHash": "41aa7045fa3e816bb0d41f6921edf254d08dcbe7397249924ab06b3fa5bb783d",
+      "processedAt": "2026-09-16T03:53:40.986Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/16/110205": {
+      "contentHash": "65657d3875ceed653e5a2b95e0d2b4ffd0e4286dac9a124e469707aa97dbbf29",
+      "processedAt": "2026-09-16T03:53:42.756Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/15/161337": {
+      "contentHash": "7d12b8fcbfeee5d185d6c519b0dd9138364fbbb15bd889ad3df036d60ea81c0a",
+      "processedAt": "2026-09-16T03:53:43.420Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/09/15/180022": {
+      "contentHash": "2dabc1040c8f09ae250eed38c6ab3b3d35b35ef5570d6f54a41877d6530c8864",
+      "processedAt": "2026-09-16T03:53:44.104Z"
+    },
+    "https://feeds.baymard.com/link/9825/17462397/b2b-medical-pharma-ux-benchmark-2026": {
+      "contentHash": "3e1797da128aa763ba88a55a8d2e4a75574027b5ed70cdd743e9a1913f57ae38",
+      "processedAt": "2026-09-16T03:53:51.422Z"
     }
   },
-  "lastRun": "2026-09-15T03:56:24.966Z"
+  "lastRun": "2026-09-16T03:53:51.422Z"
 }
