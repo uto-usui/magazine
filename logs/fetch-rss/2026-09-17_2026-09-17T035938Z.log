@@ -1,0 +1,58 @@
+articles_dir=2026-09-17
+exit_code=0
+timestamp_utc=2026-09-17T03:59:38Z
+
+---- issue lines ----
+8:Failed to fetch feed Codrops: Status code 410
+
+---- tail (last 50 lines) ----
+Failed to fetch feed Codrops: Status code 410
+📰 Found 5751 total articles
+✨ New articles: 15
+⏭️ Skipped (already processed): 679
+📥 Processing: Web-Perf Wednesday 009 – CrUX Makes Ad Weight Public
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-17/web-perf-wednesday-009-crux-makes-ad-weight-public.md
+📥 Processing: Dario, please
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-17/dario-please.md
+📥 Processing: Let’s talk about gradients
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-17/lets-talk-about-gradients.md
+📥 Processing: Opusfived
+⚠️ Content too short (74 chars < 200): https://opusfived.dev/
+🔄 Readability failed, trying Playwright: https://opusfived.dev/
+✅ Playwright successfully fetched: https://opusfived.dev/
+⚠️ Content too short (74 chars < 200): https://opusfived.dev/
+⚠️ Using RSS content as fallback for: https://opusfived.dev/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-17/opusfived.md
+📥 Processing: Rauno's field notes: 5
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-17/raunos-field-notes-5.md
+📥 Processing: Sidebranch: worktree visual diffing
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-17/sidebranch-worktree-visual-diffing.md
+📥 Processing: Stop Treating CSS Container Queries Like Traditional Media Queries
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-17/stop-treating-css-container-queries-like-traditional-media-queries.md
+📥 Processing: Hobby projects now retain fewer deployments to free up storage
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-17/hobby-projects-now-retain-fewer-deployments-to-free-up-storage.md
+📥 Processing: Secure Compute and Static IP builds start 64% faster
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-17/secure-compute-and-static-ip-builds-start-64-faster.md
+📥 Processing: Mem0 joins the Vercel Marketplace
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-17/mem0-joins-the-vercel-marketplace.md
+📥 Processing: TypeSafe AI's Jev now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-17/typesafe-ais-jev-now-available-on-ai-gateway.md
+📥 Processing: Try these 5 Weave tools—and share your own
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-17/try-these-5-weave-toolsand-share-your-own.md
+📥 Processing: When CSS could run JavaScript
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-17/when-css-could-run-javascript.md
+📥 Processing: UX Conference December Announced (Dec 2 - Dec 15)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-17/ux-conference-december-announced-dec-2-dec-15.md
+📥 Processing: This Week In React #297: DevTools, Motion, Apollo, React Router, Hook Form, shadcn lint | Shopify, Expo 58 beta, ExecuTorch, Screenmap, Voltra, SPM, Stim, Lynx, Metro, AI | pnpm, oj, Zod, Devframe, Safari, Webpack
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-17/this-week-in-react-297-devtools-motion-apollo-react-router-hook-form-shadcn-lint-shopify-expo-58-bet.md
+
+📊 Summary:
+   ✅ Success: 15
+   ❌ Errors: 0
+🏁 Done!
