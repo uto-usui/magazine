@@ -35495,7 +35495,67 @@
     "https://feeds.baymard.com/link/9825/17462397/b2b-medical-pharma-ux-benchmark-2026": {
       "contentHash": "3e1797da128aa763ba88a55a8d2e4a75574027b5ed70cdd743e9a1913f57ae38",
       "processedAt": "2026-09-16T03:53:51.422Z"
+    },
+    "https://csswizardry.com/2026/09/web-perf-wednesday-009-crux-makes-ad-weight-public/": {
+      "contentHash": "d84db291aa3bbe358810a291c37fa8c78fef52734585c5a7683cab5b5aaebb4f",
+      "processedAt": "2026-09-17T03:59:06.218Z"
+    },
+    "https://pop.rdi.sh/dario-please/": {
+      "contentHash": "36881c95d4c76cf16c3e4915a05d0be865ebe3bc5d45b7c77923e4a41c7163ab",
+      "processedAt": "2026-09-17T03:59:06.911Z"
+    },
+    "https://brainfunctioncollapse.com/projects/gradients": {
+      "contentHash": "01433b493ee66aaa1732bce519555753356f0d6b8b4569dcc36115b0ffefd1f3",
+      "processedAt": "2026-09-17T03:59:07.168Z"
+    },
+    "https://opusfived.dev/": {
+      "contentHash": "e20d60d73d445ce5b75ddd4e660fa4b34f924d28ae7bcec5363ba5929ad94c70",
+      "processedAt": "2026-09-17T03:59:13.714Z"
+    },
+    "https://rauno.me/notes/5": {
+      "contentHash": "b1a53bd23a74723b9e5fe553256e3825a6c9f1d63033fe6261b1c425513f08ff",
+      "processedAt": "2026-09-17T03:59:14.088Z"
+    },
+    "https://sidebranch.dev/": {
+      "contentHash": "39f884c511bc20d3a644a068faae46a8df1055c73e9c57973f4ee9eea8f08279",
+      "processedAt": "2026-09-17T03:59:14.383Z"
+    },
+    "https://smashingmagazine.com/2026/09/stop-treating-css-container-queries-traditional-media-queries/": {
+      "contentHash": "8c5d3a579ef561e36795e8da05f244c6a2d714e7efc9eadf3034e0327d6d26de",
+      "processedAt": "2026-09-17T03:59:15.599Z"
+    },
+    "https://vercel.com/changelog/hobby-projects-now-retain-fewer-deployments-to-free-up-storage": {
+      "contentHash": "c70a9e431801b57faa569faf7cae0c1fc8c0d1a0f20b516da143b2fa043cf03b",
+      "processedAt": "2026-09-17T03:59:15.952Z"
+    },
+    "https://vercel.com/changelog/secure-compute-and-static-ip-builds-start-64-faster": {
+      "contentHash": "e24c7fc447ddda6ae04a51c19d54352a862365ec1b070bf99f3cd2179b7a356c",
+      "processedAt": "2026-09-17T03:59:16.265Z"
+    },
+    "https://vercel.com/changelog/mem0-joins-the-vercel-marketplace": {
+      "contentHash": "345f7d92636c03f8b68f0c2e55545bda6550bfc68d1dcffbfd6d4efa73d33103",
+      "processedAt": "2026-09-17T03:59:16.681Z"
+    },
+    "https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway": {
+      "contentHash": "4b1f8304f3370d10b06d380e29f535c53372f0eafadb223748d9138e9691e53d",
+      "processedAt": "2026-09-17T03:59:17.020Z"
+    },
+    "https://www.figma.com/blog/try-these-5-weave-tools-and-share-your-own/": {
+      "contentHash": "b2b9d9c7f6c976f230c1cd33e4ea07408c4ba2b8bd8fcc9c95ade88b0be022f4",
+      "processedAt": "2026-09-17T03:59:34.754Z"
+    },
+    "https://frontendfoc.us/issues/758": {
+      "contentHash": "282d760d42da9f8d1e69890b9c9091e54ebac186a8bd059333333d3840d9b3d1",
+      "processedAt": "2026-09-17T03:59:35.409Z"
+    },
+    "https://www.nngroup.com/training/december/": {
+      "contentHash": "d960a769e84592a38ee1108ed929c78471cd9116d8bfdd5c5ad199724ce9b7b5",
+      "processedAt": "2026-09-17T03:59:37.598Z"
+    },
+    "https://thisweekinreact.com/newsletter/297": {
+      "contentHash": "8a7fe5fd6f5fdef169a33ded123acaed6bb53c9e8204492fcf9a456ab4700930",
+      "processedAt": "2026-09-17T03:59:38.035Z"
     }
   },
-  "lastRun": "2026-09-16T03:53:51.422Z"
+  "lastRun": "2026-09-17T03:59:38.035Z"
 }
