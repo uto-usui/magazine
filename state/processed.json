@@ -35555,7 +35555,83 @@
     "https://thisweekinreact.com/newsletter/297": {
       "contentHash": "8a7fe5fd6f5fdef169a33ded123acaed6bb53c9e8204492fcf9a456ab4700930",
       "processedAt": "2026-09-17T03:59:38.035Z"
+    },
+    "https://engineering.atspotify.com/2026/9/ai-changed-how-spotify-builds-what-we-learned-and-fixed-about-quality-at-higher-velocity/": {
+      "contentHash": "b66d54f9bbc5afba540389dacbd3d5ecf00881966e2e090c2a226cdf9bd3066a",
+      "processedAt": "2026-09-18T03:45:56.248Z"
+    },
+    "https://uxdesign.cc/five-eras-of-ux-design-and-the-lessons-to-keep-in-the-ai-era-d76a548747a9": {
+      "contentHash": "cd333a152de207caaf8eb4f1342f51c3edece8c0b55d78da00beba850aa741a1",
+      "processedAt": "2026-09-18T03:46:01.099Z"
+    },
+    "https://emesstyle.com/a11y-design/": {
+      "contentHash": "ebaa1ec1ab963b4c4559530c4fb49488b2f537d6eb27df8bffdd344c992fb7dd",
+      "processedAt": "2026-09-18T03:46:05.958Z"
+    },
+    "https://martinfowler.com/rachels-ramblings/code-review.html": {
+      "contentHash": "a5e371694fcc1fa1300682e017ec4beddc9f3662277cdc3c8ce10c18e4bafa30",
+      "processedAt": "2026-09-18T03:46:06.240Z"
+    },
+    "https://liamnugent.me/posts/what-you-dont-build/": {
+      "contentHash": "6228ca51abbfd5f01bbb77b2849ee16fd8fa0636df4e221bc4b4b1fa02ce298b",
+      "processedAt": "2026-09-18T03:46:06.502Z"
+    },
+    "https://yegge.ai/essays/seats-and-sunsets/": {
+      "contentHash": "2688a121a5953d227d33c493489ab1c655120bb06cf74258554477c69bc8bab9",
+      "processedAt": "2026-09-18T03:46:06.935Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/ai-skills-with-matt-pocock": {
+      "contentHash": "722a31f3d645bedad472b1afebae4f965151309462b30adb5404d02bbc6cc59f",
+      "processedAt": "2026-09-18T03:46:07.755Z"
+    },
+    "https://ics.media/entry/260917/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-09-18T03:46:08.573Z"
+    },
+    "https://piccalil.li/blog/a-decent-custom-checkbox-for-until-checkmark-is-ready/": {
+      "contentHash": "6adc1305be283510e7b7abfc54a2884bab0ce451d3e97d85086ea738e993a66f",
+      "processedAt": "2026-09-18T03:46:09.979Z"
+    },
+    "https://vercel.com/changelog/sub-second-artifact-deployments-are-now-supported-in-vercel-cli": {
+      "contentHash": "3e48b13a27c5392637d6e261ef6fc3cf13afebfc43aab656c9675e63d8066b8c",
+      "processedAt": "2026-09-18T03:46:10.503Z"
+    },
+    "https://vercel.com/changelog/turbo-build-machines-can-now-be-enabled-per-deployment": {
+      "contentHash": "8803c81fd2b2222a0a9808bb764dd08aa6278e75d383ab8ec90700ee656708f4",
+      "processedAt": "2026-09-18T03:46:11.078Z"
+    },
+    "https://vercel.com/changelog/run-terminal-bench-and-other-harbor-evals-on-vercel-sandbox": {
+      "contentHash": "48ed772d672cd389987ede3f9142d58e2d6af91757f042c6cccf39d582797beb",
+      "processedAt": "2026-09-18T03:46:11.524Z"
+    },
+    "https://vercel.com/changelog/skills-cli-notion-skills": {
+      "contentHash": "c6a6d8ba179cacd29ee337570327c4f886795bdfa6362ec4eac8d5004db5e8b1",
+      "processedAt": "2026-09-18T03:46:11.930Z"
+    },
+    "https://vercel.com/blog/ai-gateway-production-index-september-2026": {
+      "contentHash": "7e1dc9677430812e68ae37d036150bfbdb1474165622efe52ec4c176eef8566a",
+      "processedAt": "2026-09-18T03:46:12.466Z"
+    },
+    "https://vercel.com/changelog/custom-environments-support-for-marketplace-integrations": {
+      "contentHash": "28ad32f9d0f4a25f7eeb35ce0dff0987e0936aa9840f00f3555b5229be1909e0",
+      "processedAt": "2026-09-18T03:46:12.881Z"
+    },
+    "https://stripe.com/blog/saas-platforms-are-surging-despite-the-saaspocalypse": {
+      "contentHash": "770ae8fd89f4727eca4604af8c1fcc56971d02ce1f6325b3966415e4d8b7e402",
+      "processedAt": "2026-09-18T03:46:13.721Z"
+    },
+    "https://www.figma.com/blog/show-your-work/": {
+      "contentHash": "2b4a9f026823491c3511f291c64cc081a40f9b9a8ff9b71ad9d68276112314d9",
+      "processedAt": "2026-09-18T03:46:41.035Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/18/113623": {
+      "contentHash": "f9bd871acf4b5078c69e88ed6ef4166edfc55b39d77ed6b878ae6fa3263bdb4e",
+      "processedAt": "2026-09-18T03:46:42.114Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/09/18/100000": {
+      "contentHash": "94b6aecf7602db8e6f52bc4625d69596690e8776cf4b1e2e66c5b6ee0e6a3193",
+      "processedAt": "2026-09-18T03:46:42.962Z"
     }
   },
-  "lastRun": "2026-09-17T03:59:38.035Z"
+  "lastRun": "2026-09-18T03:46:42.962Z"
 }
