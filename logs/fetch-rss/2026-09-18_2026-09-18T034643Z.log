@@ -1,0 +1,58 @@
+articles_dir=2026-09-18
+exit_code=0
+timestamp_utc=2026-09-18T03:46:43Z
+
+---- issue lines ----
+8:Failed to fetch feed Codrops: Status code 410
+
+---- tail (last 50 lines) ----
+⏭️ Skipped (already processed): 701
+📥 Processing: AI Changed How Spotify Builds. What We Learned (and Fixed) About Quality at Higher Velocity
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-18/ai-changed-how-spotify-builds-what-we-learned-and-fixed-about-quality-at-higher-velocity.md
+📥 Processing: Five eras of UX design and the lessons to keep in the AI era
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxdesign.cc/five-eras-of-ux-design-and-the-lessons-to-keep-in-the-ai-era-d76a548747a9
+✅ Playwright successfully fetched: https://uxdesign.cc/five-eras-of-ux-design-and-the-lessons-to-keep-in-the-ai-era-d76a548747a9
+⚠️ Content too short (183 chars < 200): https://uxdesign.cc/five-eras-of-ux-design-and-the-lessons-to-keep-in-the-ai-era-d76a548747a9
+⚠️ Using RSS content as fallback for: https://uxdesign.cc/five-eras-of-ux-design-and-the-lessons-to-keep-in-the-ai-era-d76a548747a9
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-18/five-eras-of-ux-design-and-the-lessons-to-keep-in-the-ai-era.md
+📥 Processing: WCAG Accessibility Guidelines Explorer
+🔄 Readability failed, trying Playwright: https://emesstyle.com/a11y-design/
+✅ Playwright successfully fetched: https://emesstyle.com/a11y-design/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-18/wcag-accessibility-guidelines-explorer.md
+📥 Processing: Maybe we shouldn’t be reviewing all this code
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-18/maybe-we-shouldnt-be-reviewing-all-this-code.md
+📥 Processing: The most important product decision is what you don’t build
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-18/the-most-important-product-decision-is-what-you-dont-build.md
+📥 Processing: Seats and sunsets
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-18/seats-and-sunsets.md
+📥 Processing: AI Skills with Matt Pocock
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-18/ai-skills-with-matt-pocock.md
+📥 Processing: Three.jsでの3Dガウシアンスプラッティング入門
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-18/threejs3d.md
+📥 Processing: A decent custom checkbox pattern for until ::checkmark is ready
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-18/a-decent-custom-checkbox-pattern-for-until-checkmark-is-ready.md
+📥 Processing: Sub-second artifact deployments are now supported in Vercel CLI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-18/sub-second-artifact-deployments-are-now-supported-in-vercel-cli.md
+📥 Processing: Turbo build machines can now be enabled per deployment
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-18/turbo-build-machines-can-now-be-enabled-per-deployment.md
+📥 Processing: Run Terminal-Bench and other Harbor evals on Vercel Sandbox
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-18/run-terminal-bench-and-other-harbor-evals-on-vercel-sandbox.md
+📥 Processing: The skills CLI now supports Notion hosted skills
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-18/the-skills-cli-now-supports-notion-hosted-skills.md
+📥 Processing: Open-weight models take 56% of token volume, Astra doubles Fable 5.1 spend
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-18/open-weight-models-take-56-of-token-volume-astra-doubles-fable-51-spend.md
+📥 Processing: Native Marketplace integrations now support custom environments
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-18/native-marketplace-integrations-now-support-custom-environments.md
+📥 Processing: SaaS platforms are surging despite the SaaSpocalypse
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-18/saas-platforms-are-surging-despite-the-saaspocalypse.md
+📥 Processing: Issue no.18: Show your work
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-18/issue-no18-show-your-work.md
+📥 Processing: AIアシスタントにレッドチーミングを導入して学んだこと
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-18/ai.md
+📥 Processing: Go Conference 2026 に Go ルドスポンサーとして参加しました！
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-18/go-conference-2026-go.md
+
+📊 Summary:
+   ✅ Success: 19
+   ❌ Errors: 0
+🏁 Done!
