@@ -35631,7 +35631,159 @@
     "https://tech.layerx.co.jp/entry/2026/09/18/100000": {
       "contentHash": "94b6aecf7602db8e6f52bc4625d69596690e8776cf4b1e2e66c5b6ee0e6a3193",
       "processedAt": "2026-09-18T03:46:42.962Z"
+    },
+    "https://addyosmani.com/blog/brownfield-agentic-engineering/": {
+      "contentHash": "2f9bcd186e1e8318413111e3d316512141625e5ff69546c7cdd98e210840135c",
+      "processedAt": "2026-09-21T03:55:16.350Z"
+    },
+    "https://addyosmani.com/blog/agentic-skill-decay/": {
+      "contentHash": "3b10800e4669f82004a9e85c3975c54003044ca65833acb48bbc341a3e4951fb",
+      "processedAt": "2026-09-21T03:55:16.653Z"
+    },
+    "https://addyosmani.com/blog/audit-your-agent-files/": {
+      "contentHash": "fcaadf7bb4a0f8db48f42cf61e63b1700b6e127ef9046956e18b032bb86dd16a",
+      "processedAt": "2026-09-21T03:55:16.825Z"
+    },
+    "https://a11yweekly.com/issue/518/": {
+      "contentHash": "b4df9bc031092c75727a5840ba7e4967b2f8944460594ea859361fb23d4d331c",
+      "processedAt": "2026-09-21T03:55:16.899Z"
+    },
+    "https://uxdesign.cc/for-the-designless-0d3e7936a70c": {
+      "contentHash": "804f6876cf55af975800360e0864b9a456b58079df00c9fd100ec404bd15677a",
+      "processedAt": "2026-09-21T03:55:22.354Z"
+    },
+    "https://craft.gustavofior.com/": {
+      "contentHash": "06154a6f3ab94fb759c1b54a0957972e854525d77894dff48fb743f8ddfd91cd",
+      "processedAt": "2026-09-21T03:55:22.848Z"
+    },
+    "https://seldo.com/posts/we-are-all-product-engineers-now/": {
+      "contentHash": "cc2c7f8ab51bb940c4893bb39f017f4e2b3d6c122366a9559de8876c3d97aa96",
+      "processedAt": "2026-09-21T03:55:23.078Z"
+    },
+    "https://www.carmenansio.com/articles/opentype-features-css/": {
+      "contentHash": "26ca9254e0eccf7c743a598d8bb45d0e59797fa0f2b72f297aaa902a7fbae2ad",
+      "processedAt": "2026-09-21T03:55:23.345Z"
+    },
+    "https://buzzusborne.com/work/designing-with-ai/": {
+      "contentHash": "bb71685a9f4a724d680f0f2a2e8b518df81339bd122b27a9e843418a93192838",
+      "processedAt": "2026-09-21T03:55:25.821Z"
+    },
+    "https://bradfrost.com/links/post/periodic-table-of-html-elements/": {
+      "contentHash": "ccf5ea0de719b20a36a27733acd34347b61ecfeee81d7e939741bee3d0cbabcb",
+      "processedAt": "2026-09-21T03:55:26.215Z"
+    },
+    "https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/": {
+      "contentHash": "47e36e843fc54a717e551b77ace750a0fa8623839b2cc90ce52783a297cd5a4c",
+      "processedAt": "2026-09-21T03:55:26.751Z"
+    },
+    "https://piccalil.li/the-index/198/": {
+      "contentHash": "045979c15e39a347157c85dd879c69d18183684cc80b44488182d8e2e2285bde",
+      "processedAt": "2026-09-21T03:55:27.078Z"
+    },
+    "https://vercel.com/changelog/spend-management-enterprise-flex": {
+      "contentHash": "c27e88ee51ec3f9d65b0e51ac089bb1c2652129a9dbb76422de3ae3708fa9600",
+      "processedAt": "2026-09-21T03:55:27.363Z"
+    },
+    "https://vercel.com/changelog/webmcp-mcp-handler": {
+      "contentHash": "bd2b06525d810c2c97e1a13f285ec7bce9ce35e0ca4937e64fc88450051d6ed3",
+      "processedAt": "2026-09-21T03:55:27.604Z"
+    },
+    "https://vercel.com/changelog/v0-now-reads-npm-credentials-from-shared-environment-variables": {
+      "contentHash": "82bbf6a77280e3c67f5eb7a8b7fca37c39d2bc5c4f4eb39c1c077f52d7e2797d",
+      "processedAt": "2026-09-21T03:55:27.805Z"
+    },
+    "https://vercel.com/blog/ai-gateway-jev-model-launch": {
+      "contentHash": "26491201a245bee93350ba1a4cf0aeef13e0aa10ed0b924ea7d7fea02229c2c3",
+      "processedAt": "2026-09-21T03:55:28.029Z"
+    },
+    "https://vercel.com/blog/reproducing-disclosing-and-fixing-the-libheif-vulnerability-with-hacktron-and-the-maintainers": {
+      "contentHash": "c4afc4de0b8bd8223715c6a4167b5d1a99f02d7f8b6564c637d3e9bee608ae4e",
+      "processedAt": "2026-09-21T03:55:28.296Z"
+    },
+    "https://vercel.com/changelog/glm-5-3-flashx-now-available-on-ai-gateway": {
+      "contentHash": "7336749f9f284f28ce8bbb4cc2e6741e05e5fdc4b5412b88efae2d5f41506aa5",
+      "processedAt": "2026-09-21T03:55:28.542Z"
+    },
+    "https://vercel.com/changelog/gpt-live-1-now-available-on-ai-gateway": {
+      "contentHash": "0eed4dab32c7f75e3452abeef1d5ff8b6c8a06d5e40b9ab183d669b5d24dec83",
+      "processedAt": "2026-09-21T03:55:28.948Z"
+    },
+    "https://stripe.com/blog/analyzing-rising-fraud-attempts-among-travel-and-leisure-businesses-on-stripe": {
+      "contentHash": "1d3dadf3715c63ebfaa48a8898b132effbe02738df4d8e9ffda42f23d09105c7",
+      "processedAt": "2026-09-21T03:55:29.802Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/18/143604": {
+      "contentHash": "9fc6e6b0ba98d16148247467b3299d7e5f6591919baaee9f737d994fe72a1038",
+      "processedAt": "2026-09-21T03:55:30.565Z"
+    },
+    "https://tech.layerx.co.jp/entry/snowflake-world-tour-tokyo-2026": {
+      "contentHash": "08d67df2b504cc41f56882dcdcff55c2b23900d60461d04d0a2611160f229626",
+      "processedAt": "2026-09-21T03:55:34.202Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/09/18/185816": {
+      "contentHash": "49c62528590ec42ab96c6b878fa05599404de6da7b603af49a307e0b7faee1d1",
+      "processedAt": "2026-09-21T03:55:34.569Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/09/18/145656": {
+      "contentHash": "73a525583f94f1f8094b3fd8f15b94b2f8a27389cd2d0f05d4abc4b975fecbe4",
+      "processedAt": "2026-09-21T03:55:36.352Z"
+    },
+    "https://tech.layerx.co.jp/entry/betaiday_2026": {
+      "contentHash": "246a5d988d43a58c20f09d5aeaff26e2d2ae9d692918896200c84312c728bd7e",
+      "processedAt": "2026-09-21T03:55:37.867Z"
+    },
+    "https://www.nngroup.com/articles/designing-ai-study-guide/": {
+      "contentHash": "a8ef7a33ec2ea626e5a2f2f800895be6e3adfe327dbe39023af119e9a3450afa",
+      "processedAt": "2026-09-21T03:55:38.662Z"
+    },
+    "https://www.nngroup.com/articles/3-agent-context-roles/": {
+      "contentHash": "c3c0b83eefad14cf500009434b375c03ea12e78ba417d3f8e7bcd40f40914645",
+      "processedAt": "2026-09-21T03:55:40.044Z"
+    },
+    "https://feeds.baymard.com/link/9825/17465879/b2b-medical-pharma-ux-benchmark-2026": {
+      "contentHash": "22f63ef610268adf7a11066bdae0bd236c773ab1b49801315343a68f08a20012",
+      "processedAt": "2026-09-21T03:55:42.314Z"
+    },
+    "https://feeds.baymard.com/link/9825/17465876/accounts-and-self-service-ux-research-2026": {
+      "contentHash": "ec1e7d85ccabab7a3ac165ee1ae2871662680eec5bbec1b9edb0215bd8edca0a",
+      "processedAt": "2026-09-21T03:55:44.971Z"
+    },
+    "https://feeds.baymard.com/link/9825/17465874/telco-ux-benchmark-2026": {
+      "contentHash": "b6124e40fc0bb2fbff67d87a338d3cc0e459385be1e5dace1156dccb1a70d960",
+      "processedAt": "2026-09-21T03:55:46.431Z"
+    },
+    "https://feeds.baymard.com/link/9825/17465872/insurance-ux-research-launch": {
+      "contentHash": "0f972a19a9ac898912febd12bcd48d8d23c5acbeaf15c48a752466522e1b06fb",
+      "processedAt": "2026-09-21T03:55:47.897Z"
+    },
+    "https://feeds.baymard.com/link/9825/17465870/hidden-cost-bad-ux-revenue-calculator": {
+      "contentHash": "bd4a029d9fb770cea1e98c259ccd313865cf9f8fc957dc582a2775b74f8bdf53",
+      "processedAt": "2026-09-21T03:55:49.498Z"
+    },
+    "https://feeds.baymard.com/link/9825/17465881/food-delivery-and-takeout-ux-benchmark-2026": {
+      "contentHash": "3b6e5222dc1cce7aaa62c24d0329cf7e42caf917952a48682d024a9471f42fe7",
+      "processedAt": "2026-09-21T03:55:50.987Z"
+    },
+    "https://feeds.baymard.com/link/9825/17465882/ecommerce-quantitative-ux-insights-2026": {
+      "contentHash": "d88e845017ccd7e71696cb1b7b799822079344349f3c72ac9059a8d43b6426f9",
+      "processedAt": "2026-09-21T03:55:52.739Z"
+    },
+    "https://feeds.baymard.com/link/9825/17465883/internet-service-providers-ux-benchmark-2026": {
+      "contentHash": "5252a74bb4b598b944de7a194c572a45eaa11bd0617b31bb8de2b1b1801711e8",
+      "processedAt": "2026-09-21T03:55:54.010Z"
+    },
+    "https://feeds.baymard.com/link/9825/17465884/ux-research-cost-saving-calculator": {
+      "contentHash": "4125e1efd2291f30d3c6b6d62f14d90b84c9163a991a81bf4b1d9937b544e03b",
+      "processedAt": "2026-09-21T03:55:55.044Z"
+    },
+    "https://feeds.baymard.com/link/9825/17465885/flight-booking-and-airlines-quantitative-ux-insights-2026": {
+      "contentHash": "b1e59202d4ea1a3a172b6bb1cd7c94126c9841b0cbeef566d63c9d168fd5b4ab",
+      "processedAt": "2026-09-21T03:55:57.131Z"
+    },
+    "https://react.statuscode.com/issues/491": {
+      "contentHash": "192046f68334f777042807696ebc92a2a27a3b8160cd1c7b03c429582c7ed097",
+      "processedAt": "2026-09-21T03:55:57.659Z"
     }
   },
-  "lastRun": "2026-09-18T03:46:42.962Z"
+  "lastRun": "2026-09-21T03:55:57.659Z"
 }
