@@ -1,0 +1,58 @@
+articles_dir=2026-09-21
+exit_code=0
+timestamp_utc=2026-09-21T03:55:57Z
+
+---- issue lines ----
+8:Failed to fetch feed Codrops: Status code 410
+
+---- tail (last 50 lines) ----
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-21/ecommerce-quantitative-ux-3-high-level-trends-takeaways-from-20-charts.md
+📥 Processing: Internet Service Providers UX Benchmark: 1,700+ Performance Scores and 1,100+ Best Practice Examples
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-21/internet-service-providers-ux-benchmark-1700-performance-scores-and-1100-best-practice-examples.md
+📥 Processing: Time is Money: How Pre-Validated UX Research Protects Your Resources & Budget
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-21/time-is-money-how-pre-validated-ux-research-protects-your-resources-budget.md
+📥 Processing: Flight Booking & Airlines Quantitative UX: 3 High-Level Takeaways from 30+ Charts
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-21/flight-booking-airlines-quantitative-ux-3-high-level-takeaways-from-30-charts.md
+📥 Processing: Why Lovable built a Vite-compatible dev server in Rust
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-21/why-lovable-built-a-vite-compatible-dev-server-in-rust.md
+
+📊 Summary:
+   ✅ Success: 38
+   ❌ Errors: 0
+🏁 Done!
