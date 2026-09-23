@@ -1,0 +1,58 @@
+articles_dir=2026-09-23
+exit_code=0
+timestamp_utc=2026-09-23T03:51:18Z
+
+---- issue lines ----
+8:Failed to fetch feed Codrops: Status code 410
+
+---- tail (last 50 lines) ----
+Image unavailable (HTTP 404), skipping: https://bit.ly/_next/image?url=%2FhomepageAssets%2Ffeatures%2Ffeature-calendar.webp&w=3840&q=75
+Image unavailable (HTTP 404), skipping: https://bit.ly/homepageAssets/logoWall/brex.svg
+Image unavailable (HTTP 404), skipping: https://bit.ly/homepageAssets/logoWall/figma.svg
+Image unavailable (HTTP 404), skipping: https://bit.ly/homepageAssets/logoWall/ramp.svg
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-23/the-ai-notepad-for-back-to-back-meetings.md
+📥 Processing: Making software hurts now
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-23/making-software-hurts-now.md
+📥 Processing: How Rob Farmer turns half-baked sketches into New York Times covers
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-23/how-rob-farmer-turns-half-baked-sketches-into-new-york-times-covers.md
+📥 Processing: Walking Men
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-23/walking-men.md
+📥 Processing: Email has never been free
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-23/email-has-never-been-free.md
+📥 Processing: How will AI change operating systems? Part 2: Windows
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-23/how-will-ai-change-operating-systems-part-2-windows.md
+📥 Processing: How to document your design system: best practices & tools
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-23/how-to-document-your-design-system-best-practices-tools.md
+📥 Processing: Component testing: a practical guide for frontend developers
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-23/component-testing-a-practical-guide-for-frontend-developers.md
+📥 Processing: GPT-6 Sol and Luna now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-23/gpt-6-sol-and-luna-now-available-on-ai-gateway.md
+📥 Processing: Drives for Vercel Sandbox are now in public beta
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-23/drives-for-vercel-sandbox-are-now-in-public-beta.md
+📥 Processing: Claude Opus 5.5 now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-23/claude-opus-55-now-available-on-ai-gateway.md
+📥 Processing: Vercel Connect now supports Microsoft Teams
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-23/vercel-connect-now-supports-microsoft-teams.md
+📥 Processing: Deployments now show billable duration and CPU minutes
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-23/deployments-now-show-billable-duration-and-cpu-minutes.md
+📥 Processing: MiMo V2.6 models now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-23/mimo-v26-models-now-available-on-ai-gateway.md
+📥 Processing: AI Gateway now supports TypeSafe clients and an HTTP API for Jev
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-23/ai-gateway-now-supports-typesafe-clients-and-an-http-api-for-jev.md
+📥 Processing: Grok 4.7 now available and 40% off on AI Gateway, fx, and eve
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-23/grok-47-now-available-and-40-off-on-ai-gateway-fx-and-eve.md
+📥 Processing: New trends in global card fraud: How 3D Secure and regional mandates are affecting risk 
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-23/new-trends-in-global-card-fraud-how-3d-secure-and-regional-mandates-are-affecting-risk.md
+📥 Processing: Source material: Graphic designer Aitana Picó wants us to appreciate bad trends
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-23/source-material-graphic-designer-aitana-pic-wants-us-to-appreciate-bad-trends.md
+📥 Processing: For the Designless
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-23/for-the-designless.md
+
+📊 Summary:
+   ✅ Success: 26
+   ❌ Errors: 0
+🏁 Done!
