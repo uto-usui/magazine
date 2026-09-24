@@ -35887,7 +35887,67 @@
     "https://newsletter.uxdesign.cc/p/for-the-designless": {
       "contentHash": "8f0d654d94d499ccb48261a0a73c0007ba21a9c1f3c4f5f6dc772357c57da3a2",
       "processedAt": "2026-09-23T03:51:17.818Z"
+    },
+    "https://engineering.fb.com/2026/09/23/security/private-processing-meta-ai-glasses/": {
+      "contentHash": "3bf807cba02b50705c0d66655c26426e26e4378a32784562dc7b1f5feca37ce0",
+      "processedAt": "2026-09-24T03:43:40.227Z"
+    },
+    "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/": {
+      "contentHash": "8221ca2253eceaae73b8836bf364696ddb5e624bf6790a752493ef1a01df3a3e",
+      "processedAt": "2026-09-24T03:43:40.586Z"
+    },
+    "https://csswizardry.com/2026/09/web-perf-wednesday-010-safari-keeps-scrolled-content-in-place/": {
+      "contentHash": "b22227cd564d73cc3444084a16307ab0563fe0354339b2aba78d77ba5770a359",
+      "processedAt": "2026-09-24T03:43:41.474Z"
+    },
+    "https://blog.exe.dev/caring-vs-knowing": {
+      "contentHash": "2fa6ec1f0752b4de462e7f4b157be31d7e99ffb6b543e3a7fa527ef7e77297e9",
+      "processedAt": "2026-09-24T03:43:41.796Z"
+    },
+    "https://petdex.dev/": {
+      "contentHash": "aef71dcb483ea808069e78fa46702b4229eb6cf2247aaf87aff2cd4ac5973b02",
+      "processedAt": "2026-09-24T03:43:43.006Z"
+    },
+    "https://imagetoascii.art/": {
+      "contentHash": "60214d7d955931025c92fc3ad6334e84b4d7ee14ed0743549b3584498be6c562",
+      "processedAt": "2026-09-24T03:43:43.462Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/design-engineering-with-maggie-appleton": {
+      "contentHash": "081accb89959b463b84275ed61446ef0b0d36dda5dcd0abe540ea19d37e77e72",
+      "processedAt": "2026-09-24T03:43:43.876Z"
+    },
+    "https://bradfrost.com/blog/post/last-chance-to-get-our-courses-at-pre-release-prices/": {
+      "contentHash": "9558f228c882d4207ac3205cc62446d90ad0afd1c175ccfcc1d7dfaba112d0bb",
+      "processedAt": "2026-09-24T03:43:44.761Z"
+    },
+    "https://piccalil.li/blog/stop-buttons-triggering-zoom-when-theyre-double-tapped/": {
+      "contentHash": "5ecdbdfb02422c154a54307c5638df5eea4f7c8d88bf4f34a717fe221b5a0032",
+      "processedAt": "2026-09-24T03:43:45.169Z"
+    },
+    "https://vercel.com/changelog/vercel-connect-tanstack-ai": {
+      "contentHash": "e2b0479d126133ea67c1c637e7f81f2e75f2d06f15641b9deac144de1f6b56c1",
+      "processedAt": "2026-09-24T03:43:45.713Z"
+    },
+    "https://vercel.com/changelog/unlimited-vercel-blob-stores-on-every-plan": {
+      "contentHash": "2dfd17e29414a64e35286425352ae04f46cfde91deb52c4f5d788bbad65956c0",
+      "processedAt": "2026-09-24T03:43:46.099Z"
+    },
+    "https://vercel.com/changelog/gemini-3-8-text-to-speech-models-now-available-on-ai-gateway": {
+      "contentHash": "5cb0e8b0fae37972ef6ff8a3888c0bc7067d3309be7c33822abba078ba1ae508",
+      "processedAt": "2026-09-24T03:43:46.513Z"
+    },
+    "https://www.figma.com/blog/the-power-of-product-based-learning/": {
+      "contentHash": "dbc345d71e9dc368c0a3c7997e5ad5dfa6a57c9f76effdcf1de81ef0d4e498a4",
+      "processedAt": "2026-09-24T03:44:25.932Z"
+    },
+    "https://frontendfoc.us/issues/759": {
+      "contentHash": "26ec3f69a4ccdfdb238ce8c51271ac127b47072180ef6672850c9aaa570288f6",
+      "processedAt": "2026-09-24T03:44:26.540Z"
+    },
+    "https://thisweekinreact.com/newsletter/298": {
+      "contentHash": "bf04bf241b8457e6aa4f5505dc15e176645bc19ae66cc5ccbe94bcd41f1f7f26",
+      "processedAt": "2026-09-24T03:44:27.014Z"
     }
   },
-  "lastRun": "2026-09-23T03:51:17.819Z"
+  "lastRun": "2026-09-24T03:44:27.014Z"
 }
