@@ -1,0 +1,55 @@
+articles_dir=2026-09-24
+exit_code=0
+timestamp_utc=2026-09-24T03:44:27Z
+
+---- issue lines ----
+8:Failed to fetch feed Codrops: Status code 410
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+Failed to fetch feed Codrops: Status code 410
+📰 Found 5782 total articles
+✨ New articles: 15
+⏭️ Skipped (already processed): 687
+📥 Processing: Bringing Private Processing to Meta AI Glasses
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-24/bringing-private-processing-to-meta-ai-glasses.md
+📥 Processing: Rendering huge pull requests in the GitHub Copilot app
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-24/rendering-huge-pull-requests-in-the-github-copilot-app.md
+📥 Processing: Web-Perf Wednesday 010 – Safari Keeps Scrolled Content in Place
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-24/web-perf-wednesday-010-safari-keeps-scrolled-content-in-place.md
+📥 Processing: Caring vs. knowing
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-24/caring-vs-knowing.md
+📥 Processing: Petdex
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-24/petdex.md
+📥 Processing: Image to ASCII converter
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-24/image-to-ascii-converter.md
+📥 Processing: Design Engineering with Maggie Appleton
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-24/design-engineering-with-maggie-appleton.md
+📥 Processing: Last chance to get our courses at pre-release prices!
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-24/last-chance-to-get-our-courses-at-pre-release-prices.md
+📥 Processing: Stop buttons triggering zoom when they’re double tapped
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-24/stop-buttons-triggering-zoom-when-theyre-double-tapped.md
+📥 Processing: Vercel Connect now supports TanStack AI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-24/vercel-connect-now-supports-tanstack-ai.md
+📥 Processing: Unlimited Vercel Blob stores on every plan
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-24/unlimited-vercel-blob-stores-on-every-plan.md
+📥 Processing: Gemini 3.8 text-to-speech models now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-24/gemini-38-text-to-speech-models-now-available-on-ai-gateway.md
+📥 Processing: The power of product-based learning
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-24/the-power-of-product-based-learning.md
+📥 Processing: 12 CSS features that can retire your dependencies
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-24/12-css-features-that-can-retire-your-dependencies.md
+📥 Processing: This Week In React #298: Astro, Redux, img, Hotkeys, R3F, Next.js, AI, Redact | Reanimated, Worklets, Helix, Screens, SecondaryRuntime, Arrangement View, View Shot | TC39, Node, pnpm, Turborepo, jsdom, responsive iframes
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-24/this-week-in-react-298-astro-redux-img-hotkeys-r3f-nextjs-ai-redact-reanimated-worklets-helix-screen.md
+
+📊 Summary:
+   ✅ Success: 15
+   ❌ Errors: 0
+🏁 Done!
