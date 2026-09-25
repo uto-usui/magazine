@@ -35887,7 +35887,123 @@
     "https://newsletter.uxdesign.cc/p/for-the-designless": {
       "contentHash": "8f0d654d94d499ccb48261a0a73c0007ba21a9c1f3c4f5f6dc772357c57da3a2",
       "processedAt": "2026-09-23T03:51:17.818Z"
+    },
+    "https://engineering.fb.com/2026/09/23/security/private-processing-meta-ai-glasses/": {
+      "contentHash": "3bf807cba02b50705c0d66655c26426e26e4378a32784562dc7b1f5feca37ce0",
+      "processedAt": "2026-09-25T03:59:21.961Z"
+    },
+    "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/": {
+      "contentHash": "8221ca2253eceaae73b8836bf364696ddb5e624bf6790a752493ef1a01df3a3e",
+      "processedAt": "2026-09-25T03:59:22.196Z"
+    },
+    "https://csswizardry.com/2026/09/web-perf-wednesday-010-safari-keeps-scrolled-content-in-place/": {
+      "contentHash": "b22227cd564d73cc3444084a16307ab0563fe0354339b2aba78d77ba5770a359",
+      "processedAt": "2026-09-25T03:59:22.766Z"
+    },
+    "https://voiceinthemachine.com/2026/09/21/the-fear-of-ai/": {
+      "contentHash": "ace03bb8fa261e2e99d9f95a64a28a781ff6fa125783d1e3fefa0a02cd4ccf88",
+      "processedAt": "2026-09-25T03:59:22.959Z"
+    },
+    "https://www.paulbakaus.com/i-gave-my-website-a-boss-fight/": {
+      "contentHash": "4960224d2912c0efa9430bff012768110fa19cd26c13887b4e6d3f8e39255a0e",
+      "processedAt": "2026-09-25T03:59:23.242Z"
+    },
+    "https://categorycolors.com/": {
+      "contentHash": "716e83cf02d17121d14b874227cb75de880e5179d116a0a84f770162fd898284",
+      "processedAt": "2026-09-25T03:59:28.068Z"
+    },
+    "https://loading.dev/": {
+      "contentHash": "04b1aaa6318d58edf97641955e6fb2b401015854bc0235d714fc51f7465ed1e9",
+      "processedAt": "2026-09-25T03:59:33.305Z"
+    },
+    "https://www.tonyward.dev/articles/code-as-the-source-of-truth": {
+      "contentHash": "821b66d8bc6e2e75ac0a492271e36d435332d0ba26ee887bc3c86072539730bd",
+      "processedAt": "2026-09-25T03:59:33.468Z"
+    },
+    "https://blog.exe.dev/caring-vs-knowing": {
+      "contentHash": "2fa6ec1f0752b4de462e7f4b157be31d7e99ffb6b543e3a7fa527ef7e77297e9",
+      "processedAt": "2026-09-25T03:59:33.911Z"
+    },
+    "https://petdex.dev/": {
+      "contentHash": "aef71dcb483ea808069e78fa46702b4229eb6cf2247aaf87aff2cd4ac5973b02",
+      "processedAt": "2026-09-25T03:59:34.524Z"
+    },
+    "https://imagetoascii.art/": {
+      "contentHash": "60214d7d955931025c92fc3ad6334e84b4d7ee14ed0743549b3584498be6c562",
+      "processedAt": "2026-09-25T03:59:34.827Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-end-of-coding-by-hand": {
+      "contentHash": "adfe5fffa52496fc1c70a536aea184e83ddbfcdf2cf6f9f48a6845b43c5a9428",
+      "processedAt": "2026-09-25T03:59:35.047Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/design-engineering-with-maggie-appleton": {
+      "contentHash": "081accb89959b463b84275ed61446ef0b0d36dda5dcd0abe540ea19d37e77e72",
+      "processedAt": "2026-09-25T03:59:35.314Z"
+    },
+    "https://bradfrost.com/blog/post/last-chance-to-get-our-courses-at-pre-release-prices/": {
+      "contentHash": "9558f228c882d4207ac3205cc62446d90ad0afd1c175ccfcc1d7dfaba112d0bb",
+      "processedAt": "2026-09-25T03:59:35.879Z"
+    },
+    "https://kentcdodds.com/blog/you-own-the-outcome": {
+      "contentHash": "b42cd76162e9e28f2cbd02c39aac00619b2ba44c931cdeb1e92e5f48b34f5f01",
+      "processedAt": "2026-09-25T03:59:36.158Z"
+    },
+    "https://piccalil.li/blog/stop-buttons-triggering-zoom-when-theyre-double-tapped/": {
+      "contentHash": "5ecdbdfb02422c154a54307c5638df5eea4f7c8d88bf4f34a717fe221b5a0032",
+      "processedAt": "2026-09-25T03:59:36.425Z"
+    },
+    "https://vercel.com/blog/the-vercel-bug-bounty-program-is-now-publicly-available": {
+      "contentHash": "b24c88ff074356f9fc27bfb9bf6555f809d46f090a2448ea6674b1a59e4190f1",
+      "processedAt": "2026-09-25T03:59:36.723Z"
+    },
+    "https://vercel.com/blog/how-klaviyo-shipped-356-internal-apps-in-two-weeks-on-vercel": {
+      "contentHash": "b3c87f39a6ba06e910585ad5023a28a884a819dfb172543d5798edbd40e9e3f1",
+      "processedAt": "2026-09-25T03:59:37.252Z"
+    },
+    "https://vercel.com/changelog/vercel-connect-tanstack-ai": {
+      "contentHash": "e2b0479d126133ea67c1c637e7f81f2e75f2d06f15641b9deac144de1f6b56c1",
+      "processedAt": "2026-09-25T03:59:38.024Z"
+    },
+    "https://vercel.com/changelog/unlimited-vercel-blob-stores-on-every-plan": {
+      "contentHash": "2dfd17e29414a64e35286425352ae04f46cfde91deb52c4f5d788bbad65956c0",
+      "processedAt": "2026-09-25T03:59:38.338Z"
+    },
+    "https://vercel.com/changelog/gemini-3-8-text-to-speech-models-now-available-on-ai-gateway": {
+      "contentHash": "5cb0e8b0fae37972ef6ff8a3888c0bc7067d3309be7c33822abba078ba1ae508",
+      "processedAt": "2026-09-25T03:59:38.652Z"
+    },
+    "https://www.figma.com/blog/what-it-takes-to-build-great-products-now/": {
+      "contentHash": "2540e34d8a47ba7466fbd195905ebcec494dcad0a39e5b137231e9b28dfd93f9",
+      "processedAt": "2026-09-25T04:00:09.678Z"
+    },
+    "https://www.figma.com/blog/the-power-of-product-based-learning/": {
+      "contentHash": "dbc345d71e9dc368c0a3c7997e5ad5dfa6a57c9f76effdcf1de81ef0d4e498a4",
+      "processedAt": "2026-09-25T04:00:43.658Z"
+    },
+    "https://frontendfoc.us/issues/759": {
+      "contentHash": "26ec3f69a4ccdfdb238ce8c51271ac127b47072180ef6672850c9aaa570288f6",
+      "processedAt": "2026-09-25T04:00:44.226Z"
+    },
+    "https://zenn.dev/uhyo/articles/react-profession-bench-17": {
+      "contentHash": "c0c1c2b08393903df5d872d9c5a5835eac2d1ef21c13313a182e3275f03f8962",
+      "processedAt": "2026-09-25T04:00:44.789Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/24/175842": {
+      "contentHash": "cf38354ae115fe4819f9fc15016c5c6e4d16e6df90fa7cbe236e51e7a3f0c640",
+      "processedAt": "2026-09-25T04:00:45.697Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/24/165718": {
+      "contentHash": "e55405b3fed581b0506a921115b9145cc1a88d0b6c4c3a1915c3dd64c76f1ad6",
+      "processedAt": "2026-09-25T04:00:46.188Z"
+    },
+    "https://feeds.baymard.com/link/9825/17472042/event-ticketing-ux-research-launch": {
+      "contentHash": "82ecb156197cfcab1bd975e976449265e19312a26c0a2e869c5ce917b2467948",
+      "processedAt": "2026-09-25T04:00:47.897Z"
+    },
+    "https://thisweekinreact.com/newsletter/298": {
+      "contentHash": "bf04bf241b8457e6aa4f5505dc15e176645bc19ae66cc5ccbe94bcd41f1f7f26",
+      "processedAt": "2026-09-25T04:00:48.324Z"
     }
   },
-  "lastRun": "2026-09-23T03:51:17.819Z"
+  "lastRun": "2026-09-25T04:00:48.324Z"
 }
