@@ -1,0 +1,58 @@
+articles_dir=2026-09-25
+exit_code=0
+timestamp_utc=2026-09-25T04:00:48Z
+
+---- issue lines ----
+8:Failed to fetch feed Codrops: Status code 410
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-25/the-pulse-ror-creator-sparks-new-death-of-coding-by-hand-debate.md
+📥 Processing: Design Engineering with Maggie Appleton
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-25/design-engineering-with-maggie-appleton.md
+📥 Processing: Last chance to get our courses at pre-release prices!
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-25/last-chance-to-get-our-courses-at-pre-release-prices.md
+📥 Processing: You Own the Outcome: Product Engineering in the Age of AI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-25/you-own-the-outcome-product-engineering-in-the-age-of-ai.md
+📥 Processing: Stop buttons triggering zoom when they’re double tapped
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-25/stop-buttons-triggering-zoom-when-theyre-double-tapped.md
+📥 Processing: The Vercel Bug Bounty Program is now publicly available
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-25/the-vercel-bug-bounty-program-is-now-publicly-available.md
+📥 Processing: How Klaviyo shipped 356 internal apps in two weeks on Vercel 
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-25/how-klaviyo-shipped-356-internal-apps-in-two-weeks-on-vercel.md
+📥 Processing: Vercel Connect now supports TanStack AI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-25/vercel-connect-now-supports-tanstack-ai.md
+📥 Processing: Unlimited Vercel Blob stores on every plan
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-25/unlimited-vercel-blob-stores-on-every-plan.md
+📥 Processing: Gemini 3.8 text-to-speech models now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-25/gemini-38-text-to-speech-models-now-available-on-ai-gateway.md
+📥 Processing: What it takes to build great products now
+Image too large, skipping: https://cdn.sanity.io/images/599r6htc/regionalized/d6b5115bb3fc17ee7d5cdb4192a7a3b99d60679a-3264x1836.png?w=3264&h=1836&q=75&fit=crop&crop=focalpoint&auto=format
+Image too large, skipping: https://cdn.sanity.io/images/599r6htc/regionalized/2dbfca45495b256366d2fdb0c245da4ea11c36fe-3841x2161.png?w=3841&h=2161&q=75&fit=crop&crop=focalpoint&auto=format
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-25/what-it-takes-to-build-great-products-now.md
+📥 Processing: The power of product-based learning
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-25/the-power-of-product-based-learning.md
+📥 Processing: 12 CSS features that can retire your dependencies
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-25/12-css-features-that-can-retire-your-dependencies.md
+📥 Processing: 王の凱旋—Opus 5.5 React習熟度ベンチマーク—
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-25/opus-55-react.md
+📥 Processing: 新卒エンジニアの1on1行脚 —— 立場を越えて話して広がった視座
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-25/1on1.md
+📥 Processing: SmartHRは「技育プロジェクト」に協賛しています ── 学生エンジニアの挑戦を応援
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-25/smarthr.md
+📥 Processing: New Event Ticketing UX Research: 3 Key Takeaways
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-25/new-event-ticketing-ux-research-3-key-takeaways.md
+📥 Processing: This Week In React #298: Astro, Redux, img, Hotkeys, R3F, Next.js, AI, Redact | Reanimated, Worklets, Helix, Screens, SecondaryRuntime, Arrangement View, View Shot | TC39, Node, pnpm, Turborepo, jsdom, responsive iframes
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-25/this-week-in-react-298-astro-redux-img-hotkeys-r3f-nextjs-ai-redact-reanimated-worklets-helix-screen.md
+
+📊 Summary:
+   ✅ Success: 29
+   ❌ Errors: 0
+🏁 Done!
