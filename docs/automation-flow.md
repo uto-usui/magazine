@@ -182,7 +182,7 @@ tail -f ~/Library/Logs/newsletter-poller.log
 | **トリガー** | `articles/**` が master にプッシュされたとき |
 | **ワークフロー** | `.github/workflows/sync-to-obsidian.yml` |
 | **同期先** | `uto-usui/obsidian` リポジトリの `Articles/` |
-| **方法** | rsync で差分同期 |
+| **方法** | `src/sync-to-obsidian.ts` で合成。本文とソース由来の frontmatter（`SOURCE_KEYS`）はソース、Obsidian 側で足した frontmatter（tags / summary など）と末尾の Related Articles 節は Obsidian 側を残す。合成できない記事が 1 件でもあれば何も書かずに失敗する |
 
 ### 7️⃣ Obsidian での知識管理（手動）
 
