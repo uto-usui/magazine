@@ -35887,7 +35887,187 @@
     "https://newsletter.uxdesign.cc/p/for-the-designless": {
       "contentHash": "8f0d654d94d499ccb48261a0a73c0007ba21a9c1f3c4f5f6dc772357c57da3a2",
       "processedAt": "2026-09-23T03:51:17.818Z"
+    },
+    "https://engineering.fb.com/2026/09/23/security/private-processing-meta-ai-glasses/": {
+      "contentHash": "3bf807cba02b50705c0d66655c26426e26e4378a32784562dc7b1f5feca37ce0",
+      "processedAt": "2026-09-26T04:04:33.545Z"
+    },
+    "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/": {
+      "contentHash": "bd422e6abf0923e22bbcdc34c89cd000065b2a6a6ed74e207ebb215857ec6909",
+      "processedAt": "2026-09-26T04:04:34.378Z"
+    },
+    "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/": {
+      "contentHash": "8221ca2253eceaae73b8836bf364696ddb5e624bf6790a752493ef1a01df3a3e",
+      "processedAt": "2026-09-26T04:04:34.635Z"
+    },
+    "https://csswizardry.com/2026/09/web-perf-wednesday-010-safari-keeps-scrolled-content-in-place/": {
+      "contentHash": "b22227cd564d73cc3444084a16307ab0563fe0354339b2aba78d77ba5770a359",
+      "processedAt": "2026-09-26T04:04:35.322Z"
+    },
+    "https://michaelheap.com/i-dont-want-the-details/": {
+      "contentHash": "4e883d77bb7f4032601444037f48a3518ceb00769255cf39a3aac4860f34baaf",
+      "processedAt": "2026-09-26T04:04:35.474Z"
+    },
+    "https://www.realworth.io/anatomy-of-a-100-dollar-bill": {
+      "contentHash": "384c34554eebba5d22ce67ebae0b1c85c6758ac49c700bed42b05608f7d1ac56",
+      "processedAt": "2026-09-26T04:04:35.811Z"
+    },
+    "https://walzr.com/IMG_0001/": {
+      "contentHash": "29882a1a2ca14548960d6772d32c1e4534ddccc470f28ffc1780eca3480bac63",
+      "processedAt": "2026-09-26T04:04:41.882Z"
+    },
+    "https://www.lukew.com/ff/entry.asp?2163": {
+      "contentHash": "838846197ac2e62f030ba8e11e8d82676f4548db13839093589e3669c3f610fa",
+      "processedAt": "2026-09-26T04:04:42.650Z"
+    },
+    "https://cannoneyed.com/isometric-nyc/": {
+      "contentHash": "73e139f8c0045292d00ed4d500312955f2324dd6712a1606ce4ffdcbfa615283",
+      "processedAt": "2026-09-26T04:04:47.454Z"
+    },
+    "https://voiceinthemachine.com/2026/09/21/the-fear-of-ai/": {
+      "contentHash": "ace03bb8fa261e2e99d9f95a64a28a781ff6fa125783d1e3fefa0a02cd4ccf88",
+      "processedAt": "2026-09-26T04:04:47.701Z"
+    },
+    "https://www.paulbakaus.com/i-gave-my-website-a-boss-fight/": {
+      "contentHash": "4960224d2912c0efa9430bff012768110fa19cd26c13887b4e6d3f8e39255a0e",
+      "processedAt": "2026-09-26T04:04:47.977Z"
+    },
+    "https://categorycolors.com/": {
+      "contentHash": "716e83cf02d17121d14b874227cb75de880e5179d116a0a84f770162fd898284",
+      "processedAt": "2026-09-26T04:04:52.793Z"
+    },
+    "https://loading.dev/": {
+      "contentHash": "04b1aaa6318d58edf97641955e6fb2b401015854bc0235d714fc51f7465ed1e9",
+      "processedAt": "2026-09-26T04:04:58.055Z"
+    },
+    "https://www.tonyward.dev/articles/code-as-the-source-of-truth": {
+      "contentHash": "821b66d8bc6e2e75ac0a492271e36d435332d0ba26ee887bc3c86072539730bd",
+      "processedAt": "2026-09-26T04:04:58.287Z"
+    },
+    "https://blog.exe.dev/caring-vs-knowing": {
+      "contentHash": "2fa6ec1f0752b4de462e7f4b157be31d7e99ffb6b543e3a7fa527ef7e77297e9",
+      "processedAt": "2026-09-26T04:04:58.684Z"
+    },
+    "https://petdex.dev/": {
+      "contentHash": "aef71dcb483ea808069e78fa46702b4229eb6cf2247aaf87aff2cd4ac5973b02",
+      "processedAt": "2026-09-26T04:04:59.444Z"
+    },
+    "https://imagetoascii.art/": {
+      "contentHash": "60214d7d955931025c92fc3ad6334e84b4d7ee14ed0743549b3584498be6c562",
+      "processedAt": "2026-09-26T04:04:59.824Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-end-of-coding-by-hand": {
+      "contentHash": "adfe5fffa52496fc1c70a536aea184e83ddbfcdf2cf6f9f48a6845b43c5a9428",
+      "processedAt": "2026-09-26T04:05:00.114Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/design-engineering-with-maggie-appleton": {
+      "contentHash": "081accb89959b463b84275ed61446ef0b0d36dda5dcd0abe540ea19d37e77e72",
+      "processedAt": "2026-09-26T04:05:00.542Z"
+    },
+    "https://bradfrost.com/blog/post/last-chance-to-get-our-courses-at-pre-release-prices/": {
+      "contentHash": "9558f228c882d4207ac3205cc62446d90ad0afd1c175ccfcc1d7dfaba112d0bb",
+      "processedAt": "2026-09-26T04:05:00.956Z"
+    },
+    "https://ics.media/entry/260925/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-09-26T04:05:01.851Z"
+    },
+    "https://kentcdodds.com/blog/you-own-the-outcome": {
+      "contentHash": "b42cd76162e9e28f2cbd02c39aac00619b2ba44c931cdeb1e92e5f48b34f5f01",
+      "processedAt": "2026-09-26T04:05:02.138Z"
+    },
+    "https://piccalil.li/the-index/199/": {
+      "contentHash": "0f07821218d9ec9040b4bd6370d4ad05b8eb9e438b5de46d1b81112399013a91",
+      "processedAt": "2026-09-26T04:05:02.303Z"
+    },
+    "https://piccalil.li/blog/stop-buttons-triggering-zoom-when-theyre-double-tapped/": {
+      "contentHash": "5ecdbdfb02422c154a54307c5638df5eea4f7c8d88bf4f34a717fe221b5a0032",
+      "processedAt": "2026-09-26T04:05:03.159Z"
+    },
+    "https://vercel.com/changelog/vcr-login-github-action": {
+      "contentHash": "7524c823554033bb2a1cb32d47f42f997324f1c44edd299db8e9a22f185ba45a",
+      "processedAt": "2026-09-26T04:05:03.579Z"
+    },
+    "https://vercel.com/blog/state-of-agent-skills": {
+      "contentHash": "bca14b7c033ce0b41dcd72888c34da31b7234aa011ebe70d9e4128122b667f4d",
+      "processedAt": "2026-09-26T04:05:03.991Z"
+    },
+    "https://vercel.com/changelog/pixel-canary-is-now-available-in-stealth-for-free-on-ai-gateway": {
+      "contentHash": "0230b69099e0e0ee9c38c011465257a58215c429f1fced213c6b8d8cf6539180",
+      "processedAt": "2026-09-26T04:05:04.370Z"
+    },
+    "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability": {
+      "contentHash": "3d8493ce58037e5e8d130d2f275affac398c3490ea2e8702fb42e8a279c6c47a",
+      "processedAt": "2026-09-26T04:05:04.907Z"
+    },
+    "https://vercel.com/blog/the-vercel-bug-bounty-program-is-now-publicly-available": {
+      "contentHash": "b24c88ff074356f9fc27bfb9bf6555f809d46f090a2448ea6674b1a59e4190f1",
+      "processedAt": "2026-09-26T04:05:05.266Z"
+    },
+    "https://vercel.com/blog/how-klaviyo-shipped-356-internal-apps-in-two-weeks-on-vercel": {
+      "contentHash": "b3c87f39a6ba06e910585ad5023a28a884a819dfb172543d5798edbd40e9e3f1",
+      "processedAt": "2026-09-26T04:05:05.919Z"
+    },
+    "https://vercel.com/changelog/vercel-connect-tanstack-ai": {
+      "contentHash": "e2b0479d126133ea67c1c637e7f81f2e75f2d06f15641b9deac144de1f6b56c1",
+      "processedAt": "2026-09-26T04:05:06.307Z"
+    },
+    "https://vercel.com/changelog/unlimited-vercel-blob-stores-on-every-plan": {
+      "contentHash": "2dfd17e29414a64e35286425352ae04f46cfde91deb52c4f5d788bbad65956c0",
+      "processedAt": "2026-09-26T04:05:06.629Z"
+    },
+    "https://vercel.com/changelog/gemini-3-8-text-to-speech-models-now-available-on-ai-gateway": {
+      "contentHash": "5cb0e8b0fae37972ef6ff8a3888c0bc7067d3309be7c33822abba078ba1ae508",
+      "processedAt": "2026-09-26T04:05:06.984Z"
+    },
+    "https://www.figma.com/blog/what-it-takes-to-build-great-products-now/": {
+      "contentHash": "2540e34d8a47ba7466fbd195905ebcec494dcad0a39e5b137231e9b28dfd93f9",
+      "processedAt": "2026-09-26T04:05:41.930Z"
+    },
+    "https://www.figma.com/blog/the-power-of-product-based-learning/": {
+      "contentHash": "dbc345d71e9dc368c0a3c7997e5ad5dfa6a57c9f76effdcf1de81ef0d4e498a4",
+      "processedAt": "2026-09-26T04:06:20.675Z"
+    },
+    "https://frontendfoc.us/issues/759": {
+      "contentHash": "26ec3f69a4ccdfdb238ce8c51271ac127b47072180ef6672850c9aaa570288f6",
+      "processedAt": "2026-09-26T04:06:21.084Z"
+    },
+    "https://zenn.dev/uhyo/articles/react-profession-bench-17": {
+      "contentHash": "c0c1c2b08393903df5d872d9c5a5835eac2d1ef21c13313a182e3275f03f8962",
+      "processedAt": "2026-09-26T04:06:21.704Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/25/200000": {
+      "contentHash": "958a43eb82cf49d47d189ea2000569d325aa6323ec75db4c248ea2fc3df80547",
+      "processedAt": "2026-09-26T04:06:22.511Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/24/175842": {
+      "contentHash": "cf38354ae115fe4819f9fc15016c5c6e4d16e6df90fa7cbe236e51e7a3f0c640",
+      "processedAt": "2026-09-26T04:06:22.761Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/24/165718": {
+      "contentHash": "b58078e36a07375bfd96e4253eb3b4dd5496878603271f356b3d7e28b736e76f",
+      "processedAt": "2026-09-26T04:06:23.237Z"
+    },
+    "https://www.nngroup.com/articles/ai-functionality-study-guide/": {
+      "contentHash": "d6b6954bea79801882c5fd59c03d9360a0c86fe18aff85a65e10f919bf16638c",
+      "processedAt": "2026-09-26T04:06:23.901Z"
+    },
+    "https://www.nngroup.com/articles/disclose-ai-paced/": {
+      "contentHash": "777c61facdaa8b4c7ff9d637b1469f351b6c7830c93aee9255d701222c91764b",
+      "processedAt": "2026-09-26T04:06:24.748Z"
+    },
+    "https://feeds.baymard.com/link/9825/17472042/event-ticketing-ux-research-launch": {
+      "contentHash": "82ecb156197cfcab1bd975e976449265e19312a26c0a2e869c5ce917b2467948",
+      "processedAt": "2026-09-26T04:06:27.114Z"
+    },
+    "https://thisweekinreact.com/newsletter/298": {
+      "contentHash": "bf04bf241b8457e6aa4f5505dc15e176645bc19ae66cc5ccbe94bcd41f1f7f26",
+      "processedAt": "2026-09-26T04:06:27.507Z"
+    },
+    "https://react.statuscode.com/issues/492": {
+      "contentHash": "3742ddfb9ed07b4f77daf197e8d7c3e80bf23780bbd40318cc62e709e24712ec",
+      "processedAt": "2026-09-26T04:06:27.937Z"
     }
   },
-  "lastRun": "2026-09-23T03:51:17.819Z"
+  "lastRun": "2026-09-26T04:06:27.937Z"
 }
