@@ -1,0 +1,58 @@
+articles_dir=2026-09-29
+exit_code=0
+timestamp_utc=2026-09-29T04:53:01Z
+
+---- issue lines ----
+10:Failed to fetch feed Codrops after 3 attempts: Request timed out after 15000ms
+
+---- tail (last 50 lines) ----
+Image unavailable (HTTP 404), skipping: https://bit.ly/homepageAssets/logoWall/brex.svg
+Image unavailable (HTTP 404), skipping: https://bit.ly/homepageAssets/logoWall/ramp.svg
+Image unavailable (HTTP 404), skipping: https://bit.ly/homepageAssets/logoWall/replit.svg
+Image unavailable (HTTP 404), skipping: https://bit.ly/homepageAssets/logoWall/lovable.svg
+Image unavailable (HTTP 404), skipping: https://bit.ly/homepageAssets/logoWall/cursor.svg
+Image unavailable (HTTP 404), skipping: https://bit.ly/homepageAssets/logoWall/bumble.svg
+Image unavailable (HTTP 404), skipping: https://bit.ly/homepageAssets/logoWall/asana.svg
+Image unavailable (HTTP 404), skipping: https://bit.ly/homepageAssets/logoWall/vanta.svg
+Image unavailable (HTTP 404), skipping: https://bit.ly/homepageAssets/logoWall/linear.svg
+Image unavailable (HTTP 404), skipping: https://bit.ly/_next/image?url=%2FhomepageAssets%2Ffeatures%2Ffeature-humans.webp&w=3840&q=75
+Image unavailable (HTTP 404), skipping: https://bit.ly/_next/image?url=%2FhomepageAssets%2Ffeatures%2Ffeature-private.webp&w=3840&q=75
+Image unavailable (HTTP 404), skipping: https://bit.ly/_next/image?url=%2FhomepageAssets%2Ffeatures%2Ffeature-mobile-right.webp&w=3840&q=75
+Image unavailable (HTTP 404), skipping: https://bit.ly/_next/image?url=%2FhomepageAssets%2Ffeatures%2Ffeature-calendar.webp&w=3840&q=75
+Image unavailable (HTTP 404), skipping: https://bit.ly/_next/image?url=%2FhomepageAssets%2Ffeatures%2Ffeature-mobile-left.webp&w=3840&q=75
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-29/productivity-for-people-with-back-to-back-meetings.md
+📥 Processing: 12 CSS features you can use today with no build step
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://flaviocopes.com/modern-css-features/
+✅ Playwright successfully fetched: https://flaviocopes.com/modern-css-features/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-29/12-css-features-you-can-use-today-with-no-build-step.md
+📥 Processing: The four tiers of tab importance
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-29/the-four-tiers-of-tab-importance.md
+📥 Processing: Is your app ready for iPhone Duo?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-29/is-your-app-ready-for-iphone-duo.md
+📥 Processing: A eulogy for the software engineer
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-29/a-eulogy-for-the-software-engineer.md
+📥 Processing: Search domains without authentication
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-29/search-domains-without-authentication.md
+📥 Processing: Claude Sonnet 5.5 now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-29/claude-sonnet-55-now-available-on-ai-gateway.md
+📥 Processing: Ember-1 from Fireworks now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-29/ember-1-from-fireworks-now-available-on-ai-gateway.md
+📥 Processing: Vercel Marketplace database browser now supports Redis
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-29/vercel-marketplace-database-browser-now-supports-redis.md
+📥 Processing: Travel’s AI dilemma at Skift Global Forum
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-29/travels-ai-dilemma-at-skift-global-forum.md
+📥 Processing: SREコミュニティイベントでLT登壇5連発！ CREが参加して見えてきたこと
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-29/srelt5-cre.md
+📥 Processing: 脅威をチームで洗い出す ── STRIDEを使った脅威モデリングワークショップ
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-29/stride.md
+📥 Processing: Apollo Routerで途切れた分散トレースをつなぐ —— W3C Trace Contextとカスタムヘッダーを両立するまで
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-29/apollo-router-w3c-trace-context.md
+📥 Processing: コーディングエージェントはスプレッドシートをどう操作しているか
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-29/co-entry-coding-agent-for-spreadsheet.md
+📥 Processing: The lie we keep telling ourselves about regulating AI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-29/the-lie-we-keep-telling-ourselves-about-regulating-ai.md
+
+📊 Summary:
+   ✅ Success: 22
+   ❌ Errors: 0
+🏁 Done!
