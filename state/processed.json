@@ -36067,7 +36067,95 @@
     "https://react.statuscode.com/issues/492": {
       "contentHash": "3742ddfb9ed07b4f77daf197e8d7c3e80bf23780bbd40318cc62e709e24712ec",
       "processedAt": "2026-09-26T04:06:27.937Z"
+    },
+    "https://adrianroselli.com/2026/09/corpowid-and-skynet-technologies-will-get-you-sued.html": {
+      "contentHash": "14f6415ff02d6533ca98cd1b1cf0ac1a8550ce620150d26e9a846a869fb4b985",
+      "processedAt": "2026-09-29T04:52:35.731Z"
+    },
+    "https://a11yweekly.com/issue/519/": {
+      "contentHash": "a36b11d1c4ff69d4b18890403192fcbaf357175c5e771d5f45b1e526e1f518e3",
+      "processedAt": "2026-09-29T04:52:36.055Z"
+    },
+    "https://www.hipuku.dev/writing/the-default-is-not-a-design-decision": {
+      "contentHash": "4a1cf7f5d143a5818ef7b9c7fc7fdc43787d3d734c326ccc2bfb6693a18f6adc",
+      "processedAt": "2026-09-29T04:52:36.531Z"
+    },
+    "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html": {
+      "contentHash": "43f740de7ec0d2cb77c6b967d542b9486b9e35038e6bccadbc32c2ee24252d53",
+      "processedAt": "2026-09-29T04:52:36.759Z"
+    },
+    "https://rudyfaile.com/2026/09/24/the-age-of-the-soft-skill/": {
+      "contentHash": "df7f4b49bda3709460bbe2f9d93a8ed98dd75474b7f1a1e97d19d7e7a428cee5",
+      "processedAt": "2026-09-29T04:52:37.160Z"
+    },
+    "https://anas-sabbar.ca/writing/what-your-phone-is-made-of/": {
+      "contentHash": "4f9ba50b7ad5793ac0d11ea0429511e1f6c34603925127df2392ea4eaa801ff5",
+      "processedAt": "2026-09-29T04:52:37.285Z"
+    },
+    "https://www.youtube.com/watch?v=GLvFTMtw4Jk": {
+      "contentHash": "6af0ef0e0907c8a786f45f37927141a6f37988700312b960280efe5a0aab4df0",
+      "processedAt": "2026-09-29T04:52:47.447Z"
+    },
+    "https://bit.ly/side-gra6": {
+      "contentHash": "d3b8d41d2614c8ecc9c5641e4ac7922f337a7082722ac0c2449ce1f559934f72",
+      "processedAt": "2026-09-29T04:52:49.384Z"
+    },
+    "https://flaviocopes.com/modern-css-features/": {
+      "contentHash": "9482de21a997c85e147b0b37594c946f91e4ea0d3008af98b608dae0cbed356b",
+      "processedAt": "2026-09-29T04:52:53.964Z"
+    },
+    "https://chriscoyier.net/2026/09/15/the-four-tiers-of-tab-importance/": {
+      "contentHash": "f7fbb91399b336c248ac440c35f62846c583b3d5f2b4f3eb5c5c4b03228c3bff",
+      "processedAt": "2026-09-29T04:52:54.185Z"
+    },
+    "https://codewithbeto.dev/blog/is-your-app-ready-for-iphone-duo": {
+      "contentHash": "c33da473c734e3378df739c7d2c8a06f30088b28eef5ef5ea31d677cfb70da47",
+      "processedAt": "2026-09-29T04:52:55.144Z"
+    },
+    "https://davekiss.com/blog/eulogy-for-the-software-engineer/": {
+      "contentHash": "dc7cbe2799a06c3a0bef7c7bf123a2db26c89847640a4caa9ea3b59d52fa47cc",
+      "processedAt": "2026-09-29T04:52:55.371Z"
+    },
+    "https://vercel.com/changelog/search-domains-without-authentication": {
+      "contentHash": "b211e157ae00a48afd07fb493c895f67111f3b8320effb33ab6757a79a59b5e5",
+      "processedAt": "2026-09-29T04:52:55.728Z"
+    },
+    "https://vercel.com/changelog/claude-sonnet-5-5-now-available-on-ai-gateway": {
+      "contentHash": "f85750ff0e208f435806756acaee0a496f6ac58237ad17074623241422031431",
+      "processedAt": "2026-09-29T04:52:56.103Z"
+    },
+    "https://vercel.com/changelog/ember-1-from-fireworks-now-available-on-ai-gateway": {
+      "contentHash": "23e9008e7d301027e6d3a43ddef67127d148101b91e64d64e0fc960f3ab5b1ea",
+      "processedAt": "2026-09-29T04:52:56.475Z"
+    },
+    "https://vercel.com/changelog/vercel-marketplace-database-browser-now-supports-redis": {
+      "contentHash": "6d7f5ca443e1e352d6c0fb9d2cbb5cc6f3c09515913eec62188bb573c459f7fc",
+      "processedAt": "2026-09-29T04:52:56.849Z"
+    },
+    "https://stripe.com/blog/travels-ai-dilemma-at-skift-global-forum": {
+      "contentHash": "b382e1211c8d06a84604ea7919fe7a5dde4b02419698fe86b016b747cf74f99c",
+      "processedAt": "2026-09-29T04:52:57.244Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/29/110748": {
+      "contentHash": "bd01117a473fc1745e17d409a0f341e993399d1399961e1075cf2da5b3f5e432",
+      "processedAt": "2026-09-29T04:52:58.007Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/29/070000": {
+      "contentHash": "d007b359632bd408d7a118ccd5038bde73880b3d7dcc16d944901b7e06ac7093",
+      "processedAt": "2026-09-29T04:52:58.365Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/28/103804": {
+      "contentHash": "c600dda19849e67c4a821c00ba06a4bfbd3f7503edb60d4c2301077184b1a8c9",
+      "processedAt": "2026-09-29T04:52:58.569Z"
+    },
+    "https://tech.layerx.co.jp/entry/coding-agent-for-spreadsheet": {
+      "contentHash": "c5758982f143da3d8af2a371bd179a2fcf78c86df7cb1c17c1e0cb1e4ed919d8",
+      "processedAt": "2026-09-29T04:53:00.264Z"
+    },
+    "https://newsletter.uxdesign.cc/p/the-lie-we-keep-telling-ourselves": {
+      "contentHash": "5b32c24f07ca478555bdfa169e4eb6e9d03e5265353e264960dcc3a0f62c249d",
+      "processedAt": "2026-09-29T04:53:00.623Z"
     }
   },
-  "lastRun": "2026-09-26T04:06:27.937Z"
+  "lastRun": "2026-09-29T04:53:00.623Z"
 }
