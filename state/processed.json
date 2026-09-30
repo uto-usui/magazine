@@ -36155,7 +36155,63 @@
     "https://newsletter.uxdesign.cc/p/the-lie-we-keep-telling-ourselves": {
       "contentHash": "5b32c24f07ca478555bdfa169e4eb6e9d03e5265353e264960dcc3a0f62c249d",
       "processedAt": "2026-09-29T04:53:00.623Z"
+    },
+    "https://www.chrbutler.com/ai-is-a-boring-technology": {
+      "contentHash": "5b484aea1a9d6d8df4dbe0b449f45e6d160055df035d507d68a95a652ef15682",
+      "processedAt": "2026-09-30T04:45:58.597Z"
+    },
+    "https://vincent.bernat.ch/en/blog/2026-css-sidenotes": {
+      "contentHash": "8f9958d9457eb4bbf7fb5f64b84ba0e28c60ab76498aef2b094e6f432faf7cd2",
+      "processedAt": "2026-09-30T04:45:59.855Z"
+    },
+    "https://hacker-simulator.com/": {
+      "contentHash": "60c046856c711ffd421dcb1ca118c46a8a1605373ec9087dfcb35c738c399ad3",
+      "processedAt": "2026-09-30T04:46:05.878Z"
+    },
+    "https://vgpu.sh/examples": {
+      "contentHash": "2091603e39aee970639bcec94f8b8f1a260c6b4715e4f2e05305a6418a29e511",
+      "processedAt": "2026-09-30T04:46:07.866Z"
+    },
+    "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705": {
+      "contentHash": "39b9e9352d733d73f610d9a9eeddbf933be5461715aa1f8b0368309091ef4090",
+      "processedAt": "2026-09-30T04:46:13.922Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/shopify-native-mobile": {
+      "contentHash": "a0fe984bc12e9e88ca6dbcdbc744b65c767ee2c90281052b8b78b6a3a65493d4",
+      "processedAt": "2026-09-30T04:46:14.375Z"
+    },
+    "https://vercel.com/changelog/vercel-connect-service-submissions": {
+      "contentHash": "df95abc375363feaa23f0600b0c7b6f5577c4452fdc6329329196ca230ebc252",
+      "processedAt": "2026-09-30T04:46:14.794Z"
+    },
+    "https://vercel.com/changelog/search-trace-spans-from-the-vercel-cli": {
+      "contentHash": "ad9e697cb898cd97500e80282fb98497aa8d256d63898262643a67dde4dbb863",
+      "processedAt": "2026-09-30T04:46:15.180Z"
+    },
+    "https://vercel.com/changelog/gpt-6-1-sol-now-available-on-ai-gateway": {
+      "contentHash": "120eaa9b7eb3cecb6e2bf9495fec98eea6ffbb113ea32667c66aa2185e04c343",
+      "processedAt": "2026-09-30T04:46:15.557Z"
+    },
+    "https://stripe.com/blog/helping-personal-agents-shop-more-intelligently-and-reliably-with-link": {
+      "contentHash": "ecf0febefc0363fe32fc445da0da68a93ba6bb594e4ea629633c4ff97aaee113",
+      "processedAt": "2026-09-30T04:46:16.119Z"
+    },
+    "https://www.figma.com/blog/london-office-expansion/": {
+      "contentHash": "e619fc8df58ddd59281c3230043f0d050cb51601b33b949ef021d69a7603c172",
+      "processedAt": "2026-09-30T04:46:39.224Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/30/132755": {
+      "contentHash": "399ce5e895712f7d877d2ef859b0a6e311f690b1537ffe93580b81d18e9560ea",
+      "processedAt": "2026-09-30T04:46:40.937Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/29/144136": {
+      "contentHash": "aaf0f35984ea8dc761f55ff91a7c63b33164bd534ea0020c1fef7edd75231099",
+      "processedAt": "2026-09-30T04:46:42.113Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/29/142202": {
+      "contentHash": "fbfc04e5bdeb70593cc2dc4312d05f252dc4fdc2f70fe8a5f92e3add0478fad7",
+      "processedAt": "2026-09-30T04:46:43.053Z"
     }
   },
-  "lastRun": "2026-09-29T04:53:00.623Z"
+  "lastRun": "2026-09-30T04:46:43.053Z"
 }
