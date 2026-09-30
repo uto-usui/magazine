@@ -1,0 +1,57 @@
+articles_dir=2026-09-30
+exit_code=0
+timestamp_utc=2026-09-30T04:46:43Z
+
+---- issue lines ----
+9:❌ Playwright failed for Codrops: Feed not recognized as RSS 1 or 2.
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+🤖 Bot protection detected for Codrops, trying Playwright...
+❌ Playwright failed for Codrops: Feed not recognized as RSS 1 or 2.
+📰 Found 5800 total articles
+✨ New articles: 14
+⏭️ Skipped (already processed): 690
+📥 Processing: AI is a boring technology
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-30/ai-is-a-boring-technology.md
+📥 Processing: Sidenotes with CSS anchor positioning
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-30/sidenotes-with-css-anchor-positioning.md
+📥 Processing: Online hacker simulator
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://hacker-simulator.com/
+✅ Playwright successfully fetched: https://hacker-simulator.com/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-30/online-hacker-simulator.md
+📥 Processing: The WebGPU library, designed for agents
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-30/the-webgpu-library-designed-for-agents.md
+📥 Processing: How to keep enjoying programming in a world of LLMs
+🔄 Readability failed, trying Playwright: https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705
+✅ Playwright successfully fetched: https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-30/how-to-keep-enjoying-programming-in-a-world-of-llms.md
+📥 Processing: Why has Shopify dropped React Native?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-30/why-has-shopify-dropped-react-native.md
+📥 Processing: Vercel Connect now accepts service submissions
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-30/vercel-connect-now-accepts-service-submissions.md
+📥 Processing: Search trace spans from the Vercel CLI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-30/search-trace-spans-from-the-vercel-cli.md
+📥 Processing: GPT-6.1 Sol now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-30/gpt-61-sol-now-available-on-ai-gateway.md
+📥 Processing: Helping personal agents shop more intelligently and reliably with Link 
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-30/helping-personal-agents-shop-more-intelligently-and-reliably-with-link.md
+📥 Processing: Figma invests in the UK with expanded London office
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-30/figma-invests-in-the-uk-with-expanded-london-office.md
+📥 Processing: Roppongi.rb #46 がSmartHRで開催されました
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-30/roppongirb-46-smarthr.md
+📥 Processing: Cloudflare Workers Tech Talks in Fukuokaに参加し、登壇しました！
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-30/cloudflare-workers-tech-talks-in-fukuoka.md
+📥 Processing: 他職種の専門性を開発プロセスにつなぐ —— QAエンジニアとカスタマーサポートの協業で見えた、工程に応じた関わり方
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-09-30/qa.md
+
+📊 Summary:
+   ✅ Success: 14
+   ❌ Errors: 0
+🏁 Done!
