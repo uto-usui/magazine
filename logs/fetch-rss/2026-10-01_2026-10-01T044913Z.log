@@ -1,0 +1,58 @@
+articles_dir=2026-10-01
+exit_code=0
+timestamp_utc=2026-10-01T04:49:13Z
+
+---- issue lines ----
+9:❌ Playwright failed for Codrops: Feed not recognized as RSS 1 or 2.
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-01/ai-gateway-adds-browserbase-search-and-fetch-tools.md
+📥 Processing: Edge Requests are now called CDN Requests
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-01/edge-requests-are-now-called-cdn-requests.md
+📥 Processing: Vercel Sandbox now supports Secure Compute
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-01/vercel-sandbox-now-supports-secure-compute.md
+📥 Processing: Ling 3.1 Flash is now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-01/ling-31-flash-is-now-available-on-ai-gateway.md
+📥 Processing: Vercel CDN no longer caches responses with Vary: Cookie
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-01/vercel-cdn-no-longer-caches-responses-with-vary-cookie.md
+📥 Processing: Vercel Connect now accepts service submissions
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-01/vercel-connect-now-accepts-service-submissions.md
+📥 Processing: Search trace spans from the Vercel CLI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-01/search-trace-spans-from-the-vercel-cli.md
+📥 Processing: GPT-6.1 Sol now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-01/gpt-61-sol-now-available-on-ai-gateway.md
+📥 Processing: OUSD is now the default stablecoin on Stripe
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-01/ousd-is-now-the-default-stablecoin-on-stripe.md
+📥 Processing: Helping personal agents shop more intelligently and reliably with Link 
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-01/helping-personal-agents-shop-more-intelligently-and-reliably-with-link.md
+📥 Processing: Figma invests in the UK with expanded London office
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-01/figma-invests-in-the-uk-with-expanded-london-office.md
+📥 Processing: Why GitHub now ships more CSS, not less
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-01/why-github-now-ships-more-css-not-less.md
+📥 Processing: Claude Sonnet 5.5がReact習熟度ベンチマークで見せた一風変わった性質
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-01/claude-sonnet-55react.md
+📥 Processing: 第92回 Ruby関西 勉強会レポート
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-01/92-ruby.md
+📥 Processing: Roppongi.rb #46 がSmartHRで開催されました
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-01/roppongirb-46-smarthr.md
+📥 Processing: Cloudflare Workers Tech Talks in Fukuokaに参加し、登壇しました！
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-01/cloudflare-workers-tech-talks-in-fukuoka.md
+📥 Processing: 他職種の専門性を開発プロセスにつなぐ —— QAエンジニアとカスタマーサポートの協業で見えた、工程に応じた関わり方
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-01/qa.md
+📥 Processing: AI に伴走してもらうチームマネジメントの試み
+Image too large, skipping: https://cdn-ak.f.st-hatena.com/images/fotolife/m/mootoh-lx/20261001/20261001104136.gif
+Image too large, skipping: https://cdn-ak.f.st-hatena.com/images/fotolife/m/mootoh-lx/20261001/20261001104232.gif
+Image too large, skipping: https://cdn-ak.f.st-hatena.com/images/fotolife/m/mootoh-lx/20261001/20261001104022.gif
+Image too large, skipping: https://cdn-ak.f.st-hatena.com/images/fotolife/m/mootoh-lx/20261001/20261001103733.gif
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-01/ai.md
+📥 Processing: LayerXのFDEインターンに参加した話
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-01/layerxfde.md
+📥 Processing: The 10 Minute Test Plan Generate. Claudeと社内ナレッジでテスト計画の叩き台を10分で生成する仕組み
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-01/the-10-minute-test-plan-generate-claude10.md
+📥 Processing: This Week In React #299: Panda, Vinext, Next.js, Preact, Design Systems, RTK | Variable font, Activity Result, Lynx, Lucent, macOS, Plain Text, Navigation, Angular Native, Re.Pack | TC39, Composites, WebSkills, MSW, upm, pnpm
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-01/this-week-in-react-299-panda-vinext-nextjs-preact-design-systems-rtk-variable-font-activity-result-l.md
+
+📊 Summary:
+   ✅ Success: 31
+   ❌ Errors: 0
+🏁 Done!
