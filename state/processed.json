@@ -36155,7 +36155,131 @@
     "https://newsletter.uxdesign.cc/p/the-lie-we-keep-telling-ourselves": {
       "contentHash": "5b32c24f07ca478555bdfa169e4eb6e9d03e5265353e264960dcc3a0f62c249d",
       "processedAt": "2026-09-29T04:53:00.623Z"
+    },
+    "https://csswizardry.com/2026/09/web-perf-wednesday-011-speedcurves-inp-observer-missed-its-threshold/": {
+      "contentHash": "f20795ce6d4f054625c3c0c7f1808a40ae977f71046dcee62d007762af82ade0",
+      "processedAt": "2026-10-01T04:48:23.103Z"
+    },
+    "https://www.chrbutler.com/ai-is-a-boring-technology": {
+      "contentHash": "5b484aea1a9d6d8df4dbe0b449f45e6d160055df035d507d68a95a652ef15682",
+      "processedAt": "2026-10-01T04:48:23.644Z"
+    },
+    "https://vincent.bernat.ch/en/blog/2026-css-sidenotes": {
+      "contentHash": "8f9958d9457eb4bbf7fb5f64b84ba0e28c60ab76498aef2b094e6f432faf7cd2",
+      "processedAt": "2026-10-01T04:48:24.216Z"
+    },
+    "https://hacker-simulator.com/": {
+      "contentHash": "60c046856c711ffd421dcb1ca118c46a8a1605373ec9087dfcb35c738c399ad3",
+      "processedAt": "2026-10-01T04:48:30.572Z"
+    },
+    "https://vgpu.sh/examples": {
+      "contentHash": "2091603e39aee970639bcec94f8b8f1a260c6b4715e4f2e05305a6418a29e511",
+      "processedAt": "2026-10-01T04:48:31.730Z"
+    },
+    "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705": {
+      "contentHash": "39b9e9352d733d73f610d9a9eeddbf933be5461715aa1f8b0368309091ef4090",
+      "processedAt": "2026-10-01T04:48:37.704Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/distributed-databases-with-peter": {
+      "contentHash": "2f05217a6280f58be5490871d3869c02e6b35b3c85731e0ba9acc90504689bd6",
+      "processedAt": "2026-10-01T04:48:40.133Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/shopify-native-mobile": {
+      "contentHash": "a0fe984bc12e9e88ca6dbcdbc744b65c767ee2c90281052b8b78b6a3a65493d4",
+      "processedAt": "2026-10-01T04:48:40.379Z"
+    },
+    "https://smashingmagazine.com/2026/09/desktop-wallpaper-calendars-october-2026/": {
+      "contentHash": "4b5007008bdbbad395dd27d798db2ae0e43c2034a8f31d7b5c10d9319ec62765",
+      "processedAt": "2026-10-01T04:48:42.334Z"
+    },
+    "https://vercel.com/changelog/vercel-agent-now-installs-private-packages-from-npm-and-custom-registries": {
+      "contentHash": "e12937401c305f10a3b651e93516d93719d941221fffb7002ba930310181f7bb",
+      "processedAt": "2026-10-01T04:48:42.873Z"
+    },
+    "https://vercel.com/changelog/ai-gateway-adds-browserbase-search-and-fetch-tools": {
+      "contentHash": "a6d117741c91b5c57c95cd32e814c9bb6eabcb213192aa41d0ba5c60c6ac04fc",
+      "processedAt": "2026-10-01T04:48:43.237Z"
+    },
+    "https://vercel.com/changelog/edge-requests-are-now-called-cdn-requests": {
+      "contentHash": "9d580afc8c8545b026679f1605ddfeabb4093f32591eed2d336bc3e2f673802d",
+      "processedAt": "2026-10-01T04:48:43.512Z"
+    },
+    "https://vercel.com/changelog/vercel-sandbox-now-supports-secure-compute": {
+      "contentHash": "86c99a5ed60b3730781e428427a52b52a4a3147214686927123b4b72a1eb735c",
+      "processedAt": "2026-10-01T04:48:43.839Z"
+    },
+    "https://vercel.com/changelog/ling-3-1-flash-is-now-available-on-ai-gateway": {
+      "contentHash": "6c7b9f596a29a5939d22293c5b15b391f9d88c3352d34968f4e222f235d865c8",
+      "processedAt": "2026-10-01T04:48:44.110Z"
+    },
+    "https://vercel.com/changelog/vary-cookie-responses-no-longer-cached": {
+      "contentHash": "fd149d42a793a8ef626fd75e481ef4a44dd2dae8c43e73f7d1e02dd92bead460",
+      "processedAt": "2026-10-01T04:48:44.564Z"
+    },
+    "https://vercel.com/changelog/vercel-connect-service-submissions": {
+      "contentHash": "df95abc375363feaa23f0600b0c7b6f5577c4452fdc6329329196ca230ebc252",
+      "processedAt": "2026-10-01T04:48:44.869Z"
+    },
+    "https://vercel.com/changelog/search-trace-spans-from-the-vercel-cli": {
+      "contentHash": "ad9e697cb898cd97500e80282fb98497aa8d256d63898262643a67dde4dbb863",
+      "processedAt": "2026-10-01T04:48:45.229Z"
+    },
+    "https://vercel.com/changelog/gpt-6-1-sol-now-available-on-ai-gateway": {
+      "contentHash": "120eaa9b7eb3cecb6e2bf9495fec98eea6ffbb113ea32667c66aa2185e04c343",
+      "processedAt": "2026-10-01T04:48:45.554Z"
+    },
+    "https://stripe.com/blog/ousd-now-live-on-stripe": {
+      "contentHash": "e746e89d634fd933729ac34436bb701c20bb5400610eb292b1bba06e2120a95b",
+      "processedAt": "2026-10-01T04:48:45.936Z"
+    },
+    "https://stripe.com/blog/helping-personal-agents-shop-more-intelligently-and-reliably-with-link": {
+      "contentHash": "ecf0febefc0363fe32fc445da0da68a93ba6bb594e4ea629633c4ff97aaee113",
+      "processedAt": "2026-10-01T04:48:46.463Z"
+    },
+    "https://www.figma.com/blog/london-office-expansion/": {
+      "contentHash": "e619fc8df58ddd59281c3230043f0d050cb51601b33b949ef021d69a7603c172",
+      "processedAt": "2026-10-01T04:49:05.217Z"
+    },
+    "https://frontendfoc.us/issues/760": {
+      "contentHash": "44854a2bf78d165542ba8cd0e63f4d155a7651cfa48e1d750addf75d0019133f",
+      "processedAt": "2026-10-01T04:49:06.156Z"
+    },
+    "https://zenn.dev/uhyo/articles/react-profession-bench-18": {
+      "contentHash": "790755e7795ea451016eba51ba0e45ea123cb57fb99f4d4b5fb596b00d007702",
+      "processedAt": "2026-10-01T04:49:06.799Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/30/170000": {
+      "contentHash": "fa1019be685c44f0f768c4f0006866b473d9985fce89675ce426a6db38ee1665",
+      "processedAt": "2026-10-01T04:49:07.935Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/30/132755": {
+      "contentHash": "399ce5e895712f7d877d2ef859b0a6e311f690b1537ffe93580b81d18e9560ea",
+      "processedAt": "2026-10-01T04:49:09.330Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/29/144136": {
+      "contentHash": "aaf0f35984ea8dc761f55ff91a7c63b33164bd534ea0020c1fef7edd75231099",
+      "processedAt": "2026-10-01T04:49:09.765Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/09/29/142202": {
+      "contentHash": "fbfc04e5bdeb70593cc2dc4312d05f252dc4fdc2f70fe8a5f92e3add0478fad7",
+      "processedAt": "2026-10-01T04:49:11.173Z"
+    },
+    "https://tech.layerx.co.jp/entry/ai-empowered-team-management": {
+      "contentHash": "52087ba1f23e4e5b3261efe04c90560929e94a3bf215b3cc76e85d82aa97afd5",
+      "processedAt": "2026-10-01T04:49:12.003Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/09/30/200852": {
+      "contentHash": "08ce6b68b969759b797c3849f569a0ce2bcb234eae571e9baaf3c18ff9b1e377",
+      "processedAt": "2026-10-01T04:49:12.393Z"
+    },
+    "https://tech.layerx.co.jp/entry/10minute_test_plan_gen": {
+      "contentHash": "e5b63a5ea13ac4df2e82b474b89cb0c62059a0fcc882f48286d72eaa970a8dc2",
+      "processedAt": "2026-10-01T04:49:13.077Z"
+    },
+    "https://thisweekinreact.com/newsletter/299": {
+      "contentHash": "36a7c4ff545d6c641af458efa64dbac85bad3863705f7c06c2e0c04e7f6974a1",
+      "processedAt": "2026-10-01T04:49:13.674Z"
     }
   },
-  "lastRun": "2026-09-29T04:53:00.623Z"
+  "lastRun": "2026-10-01T04:49:13.674Z"
 }
