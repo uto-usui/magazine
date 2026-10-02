@@ -1,0 +1,58 @@
+articles_dir=2026-10-02
+exit_code=0
+timestamp_utc=2026-10-02T04:39:07Z
+
+---- issue lines ----
+9:❌ Playwright failed for Codrops: Feed not recognized as RSS 1 or 2.
+
+---- tail (last 50 lines) ----
+🤖 Bot protection detected for Codrops, trying Playwright...
+❌ Playwright failed for Codrops: Feed not recognized as RSS 1 or 2.
+📰 Found 5811 total articles
+✨ New articles: 14
+⏭️ Skipped (already processed): 692
+📥 Processing: The lie we keep telling ourselves about regulating AI
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxdesign.cc/the-lie-we-keep-telling-ourselves-about-regulating-ai-61e0163d795e
+✅ Playwright successfully fetched: https://uxdesign.cc/the-lie-we-keep-telling-ourselves-about-regulating-ai-61e0163d795e
+⚠️ Content too short (183 chars < 200): https://uxdesign.cc/the-lie-we-keep-telling-ourselves-about-regulating-ai-61e0163d795e
+⚠️ Using RSS content as fallback for: https://uxdesign.cc/the-lie-we-keep-telling-ourselves-about-regulating-ai-61e0163d795e
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-02/the-lie-we-keep-telling-ourselves-about-regulating-ai.md
+📥 Processing: Google's 3D emoji design process
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-02/googles-3d-emoji-design-process.md
+📥 Processing: I can’t tell who’s teaching who anymore
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-02/i-cant-tell-whos-teaching-who-anymore.md
+📥 Processing: Agent skill: Libraries.dev
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-02/agent-skill-librariesdev.md
+📥 Processing: State of Devs 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-02/state-of-devs-2026.md
+📥 Processing: The Pulse: Firebase’s global outage & poor response
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-02/the-pulse-firebases-global-outage-poor-response.md
+📥 Processing: CSSのrandom()関数でつくる、不規則なデザイン表現
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-02/cssrandom.md
+📥 Processing: Laya decision model now available on AI Gateway, free through October 31
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-02/laya-decision-model-now-available-on-ai-gateway-free-through-october-31.md
+📥 Processing: Microsoft AI models are now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-02/microsoft-ai-models-are-now-available-on-ai-gateway.md
+📥 Processing: Why I tried to kill token billing (and why we kept it)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-02/why-i-tried-to-kill-token-billing-and-why-we-kept-it.md
+📥 Processing: Workflow lab: From design system to campaign in Figma Weave
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-02/workflow-lab-from-design-system-to-campaign-in-figma-weave.md
+📥 Processing: RubyKaigi 2026 follow upレポート —— SmartHRから3名が登壇し、ブースも出展！
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-02/rubykaigi-2026-follow-up-smarthr3.md
+📥 Processing: JaSST'26 Niigata 参加レポート：基調講演・事例発表でLayerXメンバー4名がお話ししました #JaSST
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-02/jasst26-niigata-layerx4-jasst.md
+📥 Processing: B2B Electronic Components & Machinery UX Benchmark: 2,600+ Performance Scores and 2,000+ Best Practice Examples
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-02/b2b-electronic-components-machinery-ux-benchmark-2600-performance-scores-and-2000-best-practice-exam.md
+
+📊 Summary:
+   ✅ Success: 14
+   ❌ Errors: 0
+🏁 Done!
