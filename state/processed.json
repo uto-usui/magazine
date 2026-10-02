@@ -36279,7 +36279,63 @@
     "https://thisweekinreact.com/newsletter/299": {
       "contentHash": "36a7c4ff545d6c641af458efa64dbac85bad3863705f7c06c2e0c04e7f6974a1",
       "processedAt": "2026-10-01T04:49:13.674Z"
+    },
+    "https://uxdesign.cc/the-lie-we-keep-telling-ourselves-about-regulating-ai-61e0163d795e": {
+      "contentHash": "b576e7b398084b6a2a5d26040452625078310692bc606f70f666de916c078ec3",
+      "processedAt": "2026-10-02T04:38:11.050Z"
+    },
+    "https://design.google/library/noto-3d-emoji-design": {
+      "contentHash": "0e061bd3c1a84e435f88d1ee3e2d43305491a8a366f239967d5fc92f1f724ede",
+      "processedAt": "2026-10-02T04:38:11.460Z"
+    },
+    "https://blog.murphytrueman.com/i-cant-tell-whos-teaching-who-anymore/": {
+      "contentHash": "a2e93c9aeab6426a7eef2aa066258e3fb322e90e66ad4d21ff097907edb751c8",
+      "processedAt": "2026-10-02T04:38:11.788Z"
+    },
+    "https://libraries.dev/skill": {
+      "contentHash": "942ac72abe8f564e476f19685b4a8fe2347ec3fcc330d3945fa73bd617a65695",
+      "processedAt": "2026-10-02T04:38:12.052Z"
+    },
+    "https://2026.stateofdevs.com/en-US/": {
+      "contentHash": "e468b85bc7334a4b55449abbc39ac99f5bd247cedb55a592f8e9d4181bcdaade",
+      "processedAt": "2026-10-02T04:38:22.583Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-firebases-global-outage": {
+      "contentHash": "8f1a767b5f8aed9c6f44111684ead28de87043f2b852e631d1177c0b78c6f3a5",
+      "processedAt": "2026-10-02T04:38:22.723Z"
+    },
+    "https://ics.media/entry/261001/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-10-02T04:38:23.231Z"
+    },
+    "https://vercel.com/changelog/laya-decision-model-now-available-on-ai-gateway-free-through-october-31": {
+      "contentHash": "2591cd6c069aa82a91e262af3824669b78da831e46300ba76a2aeeb3fab50d40",
+      "processedAt": "2026-10-02T04:38:23.682Z"
+    },
+    "https://vercel.com/changelog/microsoft-ai-models-are-now-available-on-ai-gateway": {
+      "contentHash": "c54ae797a980b10ead73e3c1b7a8d3de5c93d8cb1a959d9c3d988ebf7a3a4eed",
+      "processedAt": "2026-10-02T04:38:24.365Z"
+    },
+    "https://stripe.com/blog/where-pricing-is-headed": {
+      "contentHash": "e925901cd38131bde6909af9788980949e33e5345fa9dfc149a83957579c9bef",
+      "processedAt": "2026-10-02T04:38:24.770Z"
+    },
+    "https://www.figma.com/blog/workflow-lab-from-design-system-to-campaign-in-figma-weave/": {
+      "contentHash": "35ac859548894f330358bf0081c1e5fba584c81808d4cb94686789c1d61b3904",
+      "processedAt": "2026-10-02T04:38:59.528Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/10/01/140512": {
+      "contentHash": "02cca2f26a8b61360cb6b3b745a66f44db328bb3f4202f110e784bf67d67a6f7",
+      "processedAt": "2026-10-02T04:39:01.465Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/10/02/110935": {
+      "contentHash": "22d4e2e4529de4872cd198e2892dae7b8df45932c1a57f76c7c9b3c8863e09e4",
+      "processedAt": "2026-10-02T04:39:03.911Z"
+    },
+    "https://feeds.baymard.com/link/9825/17482990/b2b-electronic-components-machinery-ux-benchmark-2026": {
+      "contentHash": "16b2cb51714b3800b69c0272d6b814a639dd63b4420a017725e3b9e7c145bfc4",
+      "processedAt": "2026-10-02T04:39:06.727Z"
     }
   },
-  "lastRun": "2026-10-01T04:49:13.674Z"
+  "lastRun": "2026-10-02T04:39:06.728Z"
 }
