@@ -1,0 +1,54 @@
+articles_dir=2026-10-03
+exit_code=0
+timestamp_utc=2026-10-03T04:21:19Z
+
+---- issue lines ----
+9:❌ Playwright failed for Codrops: Feed not recognized as RSS 1 or 2.
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+🤖 Bot protection detected for Codrops, trying Playwright...
+❌ Playwright failed for Codrops: Feed not recognized as RSS 1 or 2.
+📰 Found 5814 total articles
+✨ New articles: 12
+⏭️ Skipped (already processed): 705
+📥 Processing: What happens when you can build it all yourself
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-03/what-happens-when-you-can-build-it-all-yourself.md
+📥 Processing: Thinking orbs
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-03/thinking-orbs.md
+📥 Processing: Blume
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-03/blume.md
+📥 Processing: Modern web types
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-03/modern-web-types.md
+📥 Processing: Do frameworks matter anymore?
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://brookslybrand.com/posts/do-frameworks-matter-anymore/
+✅ Playwright successfully fetched: https://brookslybrand.com/posts/do-frameworks-matter-anymore/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-03/do-frameworks-matter-anymore.md
+📥 Processing: The Index: Issue #200
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-03/the-index-issue-200.md
+📥 Processing: Jev for Python engineers
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-03/jev-for-python-engineers.md
+📥 Processing: How Rogo ships agent-written code to production in 5 minutes on Vercel
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-03/how-rogo-ships-agent-written-code-to-production-in-5-minutes-on-vercel.md
+📥 Processing: Speed Insights deprecates First Input Delay on November 1st
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-03/speed-insights-deprecates-first-input-delay-on-november-1st.md
+📥 Processing: The new basics: questions content designers should be able to answer in 2026
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-03/the-new-basics-questions-content-designers-should-be-able-to-answer-in-2026.md
+📥 Processing: The New Big Ball of Mud: Why Agentic AI Systems Turn Fragile
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-03/the-new-big-ball-of-mud-why-agentic-ai-systems-turn-fragile.md
+📥 Processing: Empathy Mapping: The First Step in Design Thinking
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-03/empathy-mapping-the-first-step-in-design-thinking.md
+
+📊 Summary:
+   ✅ Success: 12
+   ❌ Errors: 0
+🏁 Done!
