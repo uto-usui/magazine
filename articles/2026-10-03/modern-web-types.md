@@ -1,0 +1,125 @@
+---
+title: "Modern web types"
+source: "https://philipwalton.com/articles/modern-web-types/"
+publishedDate: "2026-10-02"
+category: "design"
+feedName: "Sidebar"
+---
+
+One of my biggest annoyances with TypeScript is that any time you use it on a project with newer web features, you inevitably run into type errors.
+
+For example, here’s a screenshot of an error I got just the other day when trying to use [element-scoped view transitions](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API/Using_element-scoped): _“Property ‘startViewTransition’ does not exist on type ‘HTMLElement’.”_
+
+[![A TypeScript error reading: Property 'startViewTransition' does not exist on type 'HTMLElement'.](https://philipwalton.com/static/modern-web-types-element-vt.BBa_sJja_ZIuwwx.webp)](https://philipwalton.com/static/modern-web-types-element-vt.BBa_sJja_ZIuwwx.webp)
+
+Or this error when trying to use the [Long Animation Frame API](https://developer.mozilla.org/en-US/docs/Web/API/Performance_API/Long_animation_frame_timing) to measure and optimize JavaScript execution performance: _“Property ‘scripts’ does not exist on type ‘PerformanceEntry’.”_
+
+[![A TypeScript error reading: Property 'scripts' does not exist on type 'PerformanceEntry'.](https://philipwalton.com/static/modern-web-types-loaf.CZ8toSDE_1ITMm0.webp)](https://philipwalton.com/static/modern-web-types-loaf.CZ8toSDE_1ITMm0.webp)
+
+Or yet another one when trying to feature-detect and use [fetchLater()](https://developer.mozilla.org/en-US/docs/Web/API/Window/fetchLater) to batch and reduce the overall number of analytics beacons: _“Property ‘fetchLater’ does not exist on type ‘Window & typeof globalThis’.”_
+
+[![A TypeScript error reading: Property 'fetchLater' does not exist on type 'Window & typeof globalThis'.](https://philipwalton.com/static/modern-web-types-fetchlater.kEaNLem-_Z1Tz3TX.webp)](https://philipwalton.com/static/modern-web-types-fetchlater.kEaNLem-_Z1Tz3TX.webp)
+
+All of these APIs are available in Chrome, and all of them can be safely used now as progressive enhancements. Still, TypeScript makes it seem like using them is some sort of error.
+
+The reason these newer APIs are missing from TypeScript’s built-in libraries is a [policy decision](https://github.com/microsoft/TypeScript-DOM-lib-generator#why-is-my-fancy-api-still-not-available-here): its web API type generator only includes APIs supported by at least two browser engines.
+
+Of course, it’s possible to manually add types for these APIs, and for many years that’s exactly what I did. But eventually I got so annoyed at constantly having to copy and paste types from one project to the next that I went looking for a real fix.
+
+After exploring a number of different ideas, I landed on what became [modern-web-types](https://github.com/philipwalton/modern-web-types).
+
+## Introducing `modern-web-types`
+
+[modern-web-types](https://github.com/philipwalton/modern-web-types) is a drop-in replacement for TypeScript’s official “DOM” and “WebWorker” libraries, built on TypeScript’s own generator but with a single-engine support threshold.
+
+The recommended way to use `modern-web-types` on most web projects is to install it under the `@typescript/lib-dom` alias, which is the name TypeScript looks for when it resolves its DOM library:
+
+```
+npm install --save-dev @typescript/lib-dom@npm:modern-web-types
+```
+
+If you’re using TypeScript 6 or newer, you’ll also need to set [`libReplacement`](https://www.typescriptlang.org/tsconfig/#libReplacement) to `true` in your `tsconfig.json`:
+
+```
+{
+  "compilerOptions": {
++   "libReplacement": true
+  }
+}
+```
+
+And that’s it! Now you get full type support for any API that’s shipped in a modern browser, meaning all of the above errors magically go away!
+
+For more advanced installation options, including how to use this in worker projects, see the project [README](https://github.com/philipwalton/modern-web-types).
+
+## How many new type definitions does this package have?
+
+Before starting this project, I knew there were a lot of APIs that were not in TypeScript’s official libraries, but even I was surprised to discover just how big that number was.
+
+The following table shows how many additional declarations are generated (at the time of this writing) when the browser-engine threshold is lowered from two to one, across both DOM and WebWorker:
+
+Category
+
+DOM
+
+WebWorker
+
+New interfaces
+
+433
+
+144
+
+New type aliases
+
+96
+
+35
+
+New globals
+
+223
+
+56
+
+Members added to existing interfaces
+
+311
+
+64
+
+For me, that last row is particularly interesting, because these aren’t APIs for obscure features that you’ll likely never need. These are properties and methods missing from interfaces you already use all the time, like `Document`, `Element`, `Navigator`, `Request`, and many others.
+
+See the repo’s [report.md](https://github.com/philipwalton/modern-web-types/blob/main/report.md) for the full and up-to-date list.
+
+## How are these types being generated?
+
+The best part about `modern-web-types` is that it’s not a hand-authored project that requires me to make constant manual updates in order to stay current.
+
+`modern-web-types` uses the same [TypeScript-DOM-lib-generator](https://github.com/microsoft/TypeScript-DOM-lib-generator) and the same [w3c/webref](https://github.com/w3c/webref) data sources that TypeScript itself uses. The main difference is that this project lowers the two-engine threshold to one, generating types for APIs that have shipped in _any_ stable browser.
+
+To ensure type definitions stay current, the generation step is also [automated](https://github.com/philipwalton/modern-web-types/blob/main/.github/workflows/update.yml) via GitHub Actions. A weekly job runs the type generator against the latest data and compares the result against the previously published version. If there are changes, a PR is opened and (once approved) a new version is published. PR approval is the only thing that’s manual right now, though I may also automate that in the future if no major issues pop up with the generation process.
+
+## But isn’t the two-engine policy a good thing?
+
+> …and isn’t it protecting me from using features before they’re ready, or accidentally shipping code that breaks in some browsers?
+
+While I fully support the goal of not shipping code that breaks in some browsers, TypeScript’s two-engine policy doesn’t actually protect you from that. On the flip side, the absence of official types _does_ mean that folks who choose to use new APIs are far more likely to do so with incomplete or even incorrect types.
+
+For context, millions of sites already do use APIs that are only available in one browser engine, and I think it’s better if those sites have access to accurate and up-to-date type information. It’s certainly much better than using `@ts-ignore` or `as any`, which is what I often see done instead.
+
+The decision about whether to use a new API should always be made on a case-by-case basis. The truth is there are many APIs that are available in two browser engines but are NOT safe to use unconditionally on the web. At the same time, there are also many APIs that are only available in one browser engine but are safe to use as a progressive enhancement. And for many of these single-engine APIs, it often does make sense to use them now because they improve the experience for users on those browsers.
+
+Some good examples of this from my own experience are the performance APIs used to measure and improve [Core Web Vitals](https://web.dev/articles/vitals), including `LargestContentfulPaint`, `PerformanceEventTiming`, `LayoutShift`, `fetchpriority`, and `speculationrules`. All of these APIs were initially only available in Chrome; still, many sites chose to use them because of the benefits that they provided. The performance of the web as a whole has improved dramatically in recent years, in part _because_ so many sites chose to use APIs that were only available in Chrome.
+
+Of course, sites that do choose to use single-engine APIs need to ensure that they don’t break the experience for users on other browsers. I believe the best way to do that is to have tests that run in all the browsers you support. And to catch potential issues earlier in the feedback loop, you can also configure linter plugins like [`eslint-plugin-baseline-js`](https://baselinejs.vercel.app/) based on your site’s Baseline target.
+
+## Should I use `modern-web-types`?
+
+If you’ve never encountered missing type definitions when using new web features, then you probably don’t need `modern-web-types`.
+
+But if you _have_ encountered this problem, it’s probably better to reach for a library like this than it is to add the types yourself.
+
+Adding your own type definitions is tedious and error-prone, and there’s always the risk that the type definitions will conflict once TypeScript eventually adds support for them. Using the same upstream generator reduces that risk, so it’s safer and requires less effort on your part.
+
+And who knows, if enough people start using this package, maybe TypeScript will relax its two-engine policy, and this library will no longer be necessary.
