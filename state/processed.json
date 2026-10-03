@@ -36335,7 +36335,55 @@
     "https://feeds.baymard.com/link/9825/17482990/b2b-electronic-components-machinery-ux-benchmark-2026": {
       "contentHash": "16b2cb51714b3800b69c0272d6b814a639dd63b4420a017725e3b9e7c145bfc4",
       "processedAt": "2026-10-02T04:39:06.727Z"
+    },
+    "https://www.renatovaldes.com/essays/what-happens-when-you-can-build-it-all-yourself/": {
+      "contentHash": "da91a36e8dd4adb7b0be337b28a6ea7de07255bd80a349b557d3097cd11643e0",
+      "processedAt": "2026-10-03T04:21:05.693Z"
+    },
+    "https://www.thinkingorbs.com/": {
+      "contentHash": "f9be95ce39e1abc78dad758124eb4df7dc37603aacf27ed27c5a1994f33ece18",
+      "processedAt": "2026-10-03T04:21:06.041Z"
+    },
+    "https://useblume.dev/": {
+      "contentHash": "69b18a26c536bfae536720e5516db88ca695b8106527ab9258c37fab0202c74f",
+      "processedAt": "2026-10-03T04:21:07.614Z"
+    },
+    "https://philipwalton.com/articles/modern-web-types/": {
+      "contentHash": "d590323e1674cc0dcf80c69fe02b775ad4bb9c4db6b49aafcfe4fa030ca7cd29",
+      "processedAt": "2026-10-03T04:21:07.982Z"
+    },
+    "https://brookslybrand.com/posts/do-frameworks-matter-anymore/": {
+      "contentHash": "f4c1e11f6731aa8efb80635895d5263185f2019073c7154440731163264e7a93",
+      "processedAt": "2026-10-03T04:21:12.761Z"
+    },
+    "https://piccalil.li/the-index/200/": {
+      "contentHash": "31f10fb98da830e3d82661af1724754da5a76ec59c9cf2a334341e9f75370eee",
+      "processedAt": "2026-10-03T04:21:13.006Z"
+    },
+    "https://vercel.com/blog/jev-for-python-engineers": {
+      "contentHash": "857c8b6922face3a55cd852357336f4e4d5f33e2e85a8936d7fe2290d8708cf9",
+      "processedAt": "2026-10-03T04:21:13.645Z"
+    },
+    "https://vercel.com/blog/how-rogo-ships-agent-written-code-to-production-in-5-minutes-on-vercel": {
+      "contentHash": "6d4dd832970eb30aeb473bb2de20d9a102157db6032e21dd3214a8d869349e21",
+      "processedAt": "2026-10-03T04:21:14.433Z"
+    },
+    "https://vercel.com/changelog/speed-insights-deprecates-first-input-delay-on-november-first": {
+      "contentHash": "80c8b0a3c97de55dc12c1dc50de3dc221402f348e454f31b06a8fb56943d39d9",
+      "processedAt": "2026-10-03T04:21:15.414Z"
+    },
+    "https://uxcontent.com/the-new-basics-questions-content-designers-should-be-able-to-answer-in-2026/": {
+      "contentHash": "e8be9bb5eaacbbf4cac5ba23a74060895f44719e2136b20a352ef25735ac877f",
+      "processedAt": "2026-10-03T04:21:17.332Z"
+    },
+    "https://www.nngroup.com/articles/big-ball-of-mud-ai/": {
+      "contentHash": "c87132bfda4b24bc9049bbd122b306e36680a0962ef31fd0b6cba4f218c1bf00",
+      "processedAt": "2026-10-03T04:21:18.150Z"
+    },
+    "https://www.nngroup.com/articles/empathy-mapping/": {
+      "contentHash": "f6d1e2466cc0a73beab988566d8e9a24329d42b657abbe34c08bb45ed001bad3",
+      "processedAt": "2026-10-03T04:21:19.383Z"
     }
   },
-  "lastRun": "2026-10-02T04:39:06.728Z"
+  "lastRun": "2026-10-03T04:21:19.383Z"
 }
