@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 410" width="800" height="410" font-family="'Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans JP','Yu Gothic',sans-serif">
+  <title>記憶を分けて、権限で制御する</title>
+  <desc>営業と人事のエージェントはそれぞれ専用の記憶を読み書きし、会社の記憶は権限つきで共有する。個人の記憶は本人だけが使い、エージェントには見せない。</desc>
+  <defs>
+    <marker id="arrow5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6e6680"/>
+    </marker>
+  </defs>
+  <rect width="800" height="410" fill="#ffffff"/>
+
+  <!-- 上段：使う側 -->
+  <g text-anchor="middle">
+    <rect x="44" y="40" width="160" height="46" rx="23" fill="#221d2e"/>
+    <text x="124" y="68" font-size="13.5" font-weight="700" fill="#ffffff">営業のエージェント</text>
+
+    <rect x="412" y="40" width="160" height="46" rx="23" fill="#221d2e"/>
+    <text x="492" y="68" font-size="13.5" font-weight="700" fill="#ffffff">人事のエージェント</text>
+
+    <rect x="616" y="40" width="120" height="46" rx="23" fill="#ffffff" stroke="#221d2e" stroke-width="1.5"/>
+    <text x="676" y="68" font-size="13.5" font-weight="700" fill="#221d2e">本人</text>
+  </g>
+
+  <!-- 矢印 -->
+  <g stroke="#6e6680" stroke-width="1.8" fill="none" marker-end="url(#arrow5)">
+    <line x1="124" y1="88" x2="124" y2="234"/>
+    <line x1="170" y1="88" x2="282" y2="234"/>
+    <line x1="492" y1="88" x2="492" y2="234"/>
+    <line x1="446" y1="88" x2="334" y2="234"/>
+    <line x1="676" y1="88" x2="676" y2="234"/>
+  </g>
+  <!-- 見せない（破線と×） -->
+  <line x1="540" y1="88" x2="640" y2="228" stroke="#b4530a" stroke-width="1.8" stroke-dasharray="6 5"/>
+  <circle cx="590" cy="158" r="11" fill="#ffffff" stroke="#b4530a" stroke-width="1.8"/>
+  <path d="M585,153 L595,163 M595,153 L585,163" stroke="#b4530a" stroke-width="2" fill="none"/>
+
+  <!-- 矢印のラベル -->
+  <g font-size="11.5" fill="#221d2e" text-anchor="middle">
+    <rect x="88" y="150" width="72" height="20" rx="10" fill="#ffffff"/><text x="124" y="164">読む・書く</text>
+    <rect x="196" y="150" width="60" height="20" rx="10" fill="#ffffff"/><text x="226" y="164">読むだけ</text>
+    <rect x="354" y="150" width="72" height="20" rx="10" fill="#ffffff"/><text x="390" y="164">読む・書く</text>
+    <rect x="456" y="150" width="72" height="20" rx="10" fill="#ffffff"/><text x="492" y="164">読む・書く</text>
+    <rect x="646" y="150" width="60" height="20" rx="10" fill="#ffffff"/><text x="676" y="164">本人だけ</text>
+  </g>
+  <text x="556" y="186" font-size="11.5" fill="#b4530a" text-anchor="end">見せない</text>
+
+  <!-- 下段：記憶 -->
+  <g text-anchor="middle">
+    <rect x="40" y="238" width="168" height="86" rx="10" fill="#e6f4ec" stroke="#1e7a4c"/>
+    <text x="124" y="268" font-size="12.5" font-weight="700" fill="#1e7a4c">営業エージェントの記憶</text>
+    <text x="124" y="290" font-size="11" fill="#6e6680">そのエージェント専用</text>
+    <text x="124" y="308" font-size="11" fill="#6e6680">ほかからは見えない</text>
+
+    <rect x="224" y="238" width="168" height="86" rx="10" fill="#efe9ff" stroke="#6510f4"/>
+    <text x="308" y="268" font-size="12.5" font-weight="700" fill="#6510f4">会社の記憶</text>
+    <text x="308" y="290" font-size="11" fill="#6e6680">複数のエージェントで共有</text>
+    <text x="308" y="308" font-size="11" fill="#6e6680">読み書きは権限で決める</text>
+
+    <rect x="408" y="238" width="168" height="86" rx="10" fill="#e6f4ec" stroke="#1e7a4c"/>
+    <text x="492" y="268" font-size="12.5" font-weight="700" fill="#1e7a4c">人事エージェントの記憶</text>
+    <text x="492" y="290" font-size="11" fill="#6e6680">そのエージェント専用</text>
+    <text x="492" y="308" font-size="11" fill="#6e6680">ほかからは見えない</text>
+
+    <rect x="592" y="238" width="168" height="86" rx="10" fill="#fff3e0" stroke="#b4530a"/>
+    <text x="676" y="268" font-size="12.5" font-weight="700" fill="#b4530a">個人の記憶</text>
+    <text x="676" y="290" font-size="11" fill="#6e6680">本人の作業にだけ使う</text>
+    <text x="676" y="308" font-size="11" fill="#6e6680">エージェントには出さない</text>
+  </g>
+
+  <!-- 下の帯 -->
+  <rect x="40" y="348" width="720" height="40" rx="8" fill="#f3f0f8" stroke="#d9d3e3"/>
+  <text x="400" y="373" font-size="12.5" fill="#221d2e" text-anchor="middle">権限は記憶そのものの機能。記憶ごとに「読む・書く・消す・共有する」を決め、必要ならデータベースごと分ける</text>
+</svg>
