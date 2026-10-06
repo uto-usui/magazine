@@ -36335,7 +36335,103 @@
     "https://feeds.baymard.com/link/9825/17482990/b2b-electronic-components-machinery-ux-benchmark-2026": {
       "contentHash": "16b2cb51714b3800b69c0272d6b814a639dd63b4420a017725e3b9e7c145bfc4",
       "processedAt": "2026-10-02T04:39:06.727Z"
+    },
+    "https://a11yweekly.com/issue/520/": {
+      "contentHash": "cb0e65cc96eb4f9588c9a77b47c772e68782bbd82a54e3d08acc7de1ebb8fb33",
+      "processedAt": "2026-10-06T05:27:04.547Z"
+    },
+    "https://bit.ly/side-wis1": {
+      "contentHash": "28eeb2da0d6cfa564cde452de2361d901f8c4c75feaaaecc5ffbd6511ce694a7",
+      "processedAt": "2026-10-06T05:27:06.860Z"
+    },
+    "https://uxdesign.cc/how-to-de-slopify-your-designs-4c40c57c1dc9": {
+      "contentHash": "93624869d19ea99bca1551f0bf9bfbb3359baf3edee6ae36f0b2bff2e11ceb3e",
+      "processedAt": "2026-10-06T05:27:11.547Z"
+    },
+    "https://tomacco.github.io/amazing-glass/": {
+      "contentHash": "512f981fc6bea3c3f714f5e2afcbd486924aad8dd9171db25c7ad9fb7f48dd9d",
+      "processedAt": "2026-10-06T05:27:11.776Z"
+    },
+    "https://unsung.aresluna.org/a-loading-state-within-a-loading-state/": {
+      "contentHash": "8772efa809a22522345c0b0da8bda5ec3b0448073d8cdd5f7aa4fe1d2b699011",
+      "processedAt": "2026-10-06T05:27:12.034Z"
+    },
+    "https://hitesh.in/2026/best-ai-still-feels-broken/": {
+      "contentHash": "f1860a555d9bc9f77d608b886081ae77e98c987c2daef4801442267a43280b3d",
+      "processedAt": "2026-10-06T05:27:12.272Z"
+    },
+    "https://www.renatovaldes.com/essays/what-happens-when-you-can-build-it-all-yourself/": {
+      "contentHash": "da91a36e8dd4adb7b0be337b28a6ea7de07255bd80a349b557d3097cd11643e0",
+      "processedAt": "2026-10-06T05:27:12.775Z"
+    },
+    "https://www.thinkingorbs.com/": {
+      "contentHash": "f9be95ce39e1abc78dad758124eb4df7dc37603aacf27ed27c5a1994f33ece18",
+      "processedAt": "2026-10-06T05:27:12.965Z"
+    },
+    "https://useblume.dev/": {
+      "contentHash": "69b18a26c536bfae536720e5516db88ca695b8106527ab9258c37fab0202c74f",
+      "processedAt": "2026-10-06T05:27:14.603Z"
+    },
+    "https://philipwalton.com/articles/modern-web-types/": {
+      "contentHash": "d590323e1674cc0dcf80c69fe02b775ad4bb9c4db6b49aafcfe4fa030ca7cd29",
+      "processedAt": "2026-10-06T05:27:15.115Z"
+    },
+    "https://brookslybrand.com/posts/do-frameworks-matter-anymore/": {
+      "contentHash": "f4c1e11f6731aa8efb80635895d5263185f2019073c7154440731163264e7a93",
+      "processedAt": "2026-10-06T05:27:19.832Z"
+    },
+    "https://piccalil.li/the-index/200/": {
+      "contentHash": "31f10fb98da830e3d82661af1724754da5a76ec59c9cf2a334341e9f75370eee",
+      "processedAt": "2026-10-06T05:27:20.113Z"
+    },
+    "https://vercel.com/blog/jev-for-python-engineers": {
+      "contentHash": "857c8b6922face3a55cd852357336f4e4d5f33e2e85a8936d7fe2290d8708cf9",
+      "processedAt": "2026-10-06T05:27:20.600Z"
+    },
+    "https://vercel.com/blog/how-rogo-ships-agent-written-code-to-production-in-5-minutes-on-vercel": {
+      "contentHash": "6d4dd832970eb30aeb473bb2de20d9a102157db6032e21dd3214a8d869349e21",
+      "processedAt": "2026-10-06T05:27:21.161Z"
+    },
+    "https://vercel.com/changelog/speed-insights-deprecates-first-input-delay-on-november-first": {
+      "contentHash": "80c8b0a3c97de55dc12c1dc50de3dc221402f348e454f31b06a8fb56943d39d9",
+      "processedAt": "2026-10-06T05:27:21.627Z"
+    },
+    "https://vercel.com/changelog/voyage-rerank-3-and-rerank-3-lite-are-now-available-on-ai-gateway": {
+      "contentHash": "85d6618623274565c49132acc17b6e9df765ba5c582353d6897a19bc82b41b72",
+      "processedAt": "2026-10-06T05:27:21.990Z"
+    },
+    "https://tech.layerx.co.jp/entry/enterprise-llm-wiki-ops": {
+      "contentHash": "e4398e5d09c1477043526a340dfa168a40eb24e2606e93134fd6513acf3a3fba",
+      "processedAt": "2026-10-06T05:27:22.504Z"
+    },
+    "https://tech.layerx.co.jp/entry/cognee-kg": {
+      "contentHash": "be78c29d1dde266bc42e1b1c9ef08cd49153b7e1800eac78c8f0dfd68360982c",
+      "processedAt": "2026-10-06T05:27:23.115Z"
+    },
+    "https://uxcontent.com/the-new-basics-questions-content-designers-should-be-able-to-answer-in-2026/": {
+      "contentHash": "f709530f0cff4dd60ba8cbd3c359e5239d7ac99af840665f117cbb5a34f16982",
+      "processedAt": "2026-10-06T05:27:26.262Z"
+    },
+    "https://www.nngroup.com/articles/big-ball-of-mud-ai/": {
+      "contentHash": "c87132bfda4b24bc9049bbd122b306e36680a0962ef31fd0b6cba4f218c1bf00",
+      "processedAt": "2026-10-06T05:27:27.282Z"
+    },
+    "https://www.nngroup.com/articles/empathy-mapping/": {
+      "contentHash": "f6d1e2466cc0a73beab988566d8e9a24329d42b657abbe34c08bb45ed001bad3",
+      "processedAt": "2026-10-06T05:27:28.562Z"
+    },
+    "https://newsletter.uxdesign.cc/p/prompting-as-self-portrait": {
+      "contentHash": "10f61134b96f09ec3767138be241a1513afe9316f89a3805c4e71e7f7c4d5020",
+      "processedAt": "2026-10-06T05:27:29.032Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-october-4-2026/": {
+      "contentHash": "74f71f0055794c2fc1ca1b3552a0467e50f24666c42624d03f6ed70206c9db98",
+      "processedAt": "2026-10-06T05:27:29.964Z"
+    },
+    "http://testing.googleblog.com/2026/10/two-way-doors-dont-code-yourself-into.html": {
+      "contentHash": "0b337dd03f5b9b14807d992bb8da4ff6842d6235568ac4e3d5cff8b123fa7ae1",
+      "processedAt": "2026-10-06T05:27:34.873Z"
     }
   },
-  "lastRun": "2026-10-02T04:39:06.728Z"
+  "lastRun": "2026-10-06T05:27:34.873Z"
 }

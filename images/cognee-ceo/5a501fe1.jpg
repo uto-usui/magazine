@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380" font-family="'Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans JP','Yu Gothic',sans-serif">
+  <title>従来のログとContext Graphの違い</title>
+  <desc>左は時刻と出来事が並ぶだけのログ。右は判断を中心に、根拠・ルール・関係者がつながったグラフ。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6e6680"/>
+    </marker>
+  </defs>
+  <rect width="800" height="380" fill="#ffffff"/>
+
+  <!-- 左：従来のログ -->
+  <rect x="24" y="24" width="352" height="332" rx="12" fill="#f3f0f8" stroke="#d9d3e3"/>
+  <text x="48" y="60" font-size="18" font-weight="700" fill="#221d2e">従来のログ</text>
+  <text x="48" y="84" font-size="13" fill="#6e6680">「何が起きたか」だけが残る</text>
+
+  <g font-size="13" fill="#221d2e">
+    <rect x="48" y="104" width="304" height="40" rx="6" fill="#ffffff" stroke="#d9d3e3"/>
+    <text x="62" y="129"><tspan fill="#6e6680" font-family="Menlo,monospace">14:32</tspan><tspan dx="12">与信枠の増額を却下</tspan></text>
+    <rect x="48" y="154" width="304" height="40" rx="6" fill="#ffffff" stroke="#d9d3e3"/>
+    <text x="62" y="179"><tspan fill="#6e6680" font-family="Menlo,monospace">14:35</tspan><tspan dx="12">担当者へエスカレーション</tspan></text>
+    <rect x="48" y="204" width="304" height="40" rx="6" fill="#ffffff" stroke="#d9d3e3"/>
+    <text x="62" y="229"><tspan fill="#6e6680" font-family="Menlo,monospace">15:10</tspan><tspan dx="12">上長が承認</tspan></text>
+  </g>
+  <text x="48" y="292" font-size="13" fill="#6e6680">行どうしのつながりがない</text>
+  <text x="48" y="314" font-size="13" fill="#6e6680">なぜ却下し、なぜ承認したかが残らない</text>
+  <text x="48" y="336" font-size="13" fill="#6e6680">理由は会話やチャットの中に埋もれる</text>
+
+  <!-- 右：Context Graph -->
+  <rect x="424" y="24" width="352" height="332" rx="12" fill="#efe9ff" stroke="#d9d3e3"/>
+  <text x="448" y="60" font-size="18" font-weight="700" fill="#221d2e">Context Graph</text>
+  <text x="448" y="84" font-size="13" fill="#6e6680">「なぜそうなったか」までつながる</text>
+
+  <!-- エッジ -->
+  <g stroke="#6e6680" stroke-width="1.5" fill="none" marker-end="url(#arrow)">
+    <line x1="600" y1="196" x2="600" y2="140"/>
+    <line x1="567" y1="212" x2="492" y2="190"/>
+    <line x1="633" y1="212" x2="708" y2="190"/>
+    <line x1="567" y1="238" x2="492" y2="282"/>
+    <line x1="633" y1="238" x2="708" y2="282"/>
+  </g>
+  <!-- 中心ノード -->
+  <rect x="534" y="196" width="132" height="54" rx="27" fill="#6510f4"/>
+  <text x="600" y="218" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">判断</text>
+  <text x="600" y="236" font-size="12" fill="#ffffff" text-anchor="middle">却下 → 承認</text>
+  <!-- 周辺ノード -->
+  <g font-size="12" fill="#221d2e" text-anchor="middle">
+    <rect x="536" y="96" width="128" height="44" rx="22" fill="#ffffff" stroke="#6510f4"/>
+    <text x="600" y="114">根拠</text>
+    <text x="600" y="130" fill="#6e6680">過去の不正フラグ</text>
+
+    <rect x="432" y="150" width="134" height="44" rx="22" fill="#ffffff" stroke="#6510f4"/>
+    <text x="499" y="168">ルール</text>
+    <text x="499" y="184" fill="#6e6680">一定額超は人が承認</text>
+
+    <rect x="634" y="150" width="134" height="44" rx="22" fill="#ffffff" stroke="#6510f4"/>
+    <text x="701" y="168">顧客</text>
+    <text x="701" y="184" fill="#6e6680">取引履歴につながる</text>
+
+    <rect x="432" y="266" width="134" height="44" rx="22" fill="#ffffff" stroke="#6510f4"/>
+    <text x="499" y="284">担当者</text>
+    <text x="499" y="300" fill="#6e6680">誰がいつ判断したか</text>
+
+    <rect x="634" y="266" width="134" height="44" rx="22" fill="#ffffff" stroke="#6510f4"/>
+    <text x="701" y="284">やりとり</text>
+    <text x="701" y="300" fill="#6e6680">チャットでの承認理由</text>
+  </g>
+  <text x="600" y="340" font-size="13" fill="#6e6680" text-anchor="middle">経緯と因果をたどれて、検索できる</text>
+</svg>

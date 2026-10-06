@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="'Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans JP','Yu Gothic',sans-serif">
+  <title>2つの文書が1つのグラフにつながる</title>
+  <desc>職務経歴書と契約書から、人・契約・日付・条項・銀行口座を取り出し、種類ごとに結びつけたグラフ。2つの文書は「契約」と「人」でつながる。</desc>
+  <defs>
+    <marker id="arrow4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6e6680"/>
+    </marker>
+  </defs>
+  <rect width="800" height="400" fill="#ffffff"/>
+
+  <!-- 文書A -->
+  <rect x="24" y="52" width="176" height="124" rx="10" fill="#e6f4ec" stroke="#1e7a4c"/>
+  <text x="40" y="80" font-size="14" font-weight="700" fill="#1e7a4c">職務経歴書</text>
+  <text x="40" y="98" font-size="11" fill="#6e6680">社員のCV（英語）</text>
+  <g font-size="12" fill="#221d2e">
+    <text x="40" y="124">・名前、役割</text>
+    <text x="40" y="144">・在籍した期間（日付）</text>
+    <text x="40" y="164">・関わった契約や案件</text>
+  </g>
+
+  <!-- 文書B -->
+  <rect x="24" y="212" width="176" height="124" rx="10" fill="#fff3e0" stroke="#b4530a"/>
+  <text x="40" y="240" font-size="14" font-weight="700" fill="#b4530a">契約書</text>
+  <text x="40" y="258" font-size="11" fill="#6e6680">協業契約（ドイツ語）</text>
+  <g font-size="12" fill="#221d2e">
+    <text x="40" y="284">・当事者（人、会社）</text>
+    <text x="40" y="304">・契約期間（日付）</text>
+    <text x="40" y="324">・条項、銀行口座</text>
+  </g>
+
+  <!-- 取り出す矢印 -->
+  <g stroke="#6e6680" stroke-width="1.8" fill="none" marker-end="url(#arrow4)">
+    <path d="M204,114 C240,114 250,194 286,194"/>
+    <path d="M204,274 C240,274 250,194 286,194"/>
+  </g>
+  <text x="246" y="182" font-size="11" fill="#6e6680" text-anchor="middle">取り出して</text>
+  <text x="246" y="196" font-size="11" fill="#6e6680" text-anchor="middle">結びつける</text>
+
+  <!-- グラフのエッジ -->
+  <g stroke="#6e6680" stroke-width="1.6" fill="none">
+    <line x1="430" y1="110" x2="560" y2="194"/>
+    <line x1="690" y1="110" x2="560" y2="194"/>
+    <line x1="690" y1="282" x2="560" y2="194"/>
+    <line x1="430" y1="282" x2="560" y2="194"/>
+    <line x1="430" y1="110" x2="690" y2="110"/>
+  </g>
+  <g font-size="11" fill="#6e6680">
+    <rect x="470" y="136" width="44" height="18" rx="9" fill="#ffffff"/>
+    <text x="492" y="149" text-anchor="middle">当事者</text>
+    <rect x="610" y="136" width="36" height="18" rx="9" fill="#ffffff"/>
+    <text x="628" y="149" text-anchor="middle">期間</text>
+    <rect x="530" y="92" width="60" height="18" rx="9" fill="#ffffff"/>
+    <text x="560" y="105" text-anchor="middle">在籍期間</text>
+  </g>
+
+  <!-- 中心ノード：契約 -->
+  <rect x="505" y="172" width="110" height="44" rx="22" fill="#6510f4"/>
+  <text x="560" y="192" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">契約</text>
+  <text x="560" y="208" font-size="10" fill="#ffffff" text-anchor="middle">両方の文書に登場</text>
+
+  <!-- 周辺ノード -->
+  <g text-anchor="middle">
+    <rect x="365" y="88" width="130" height="44" rx="22" fill="#ffffff" stroke="#6510f4"/>
+    <text x="430" y="106" font-size="13" fill="#221d2e">人：エンジニア</text>
+    <text x="430" y="122" font-size="10" fill="#6e6680">両方の文書に登場</text>
+
+    <rect x="625" y="88" width="130" height="44" rx="22" fill="#ffffff" stroke="#6510f4"/>
+    <text x="690" y="106" font-size="13" fill="#221d2e">日付：期間</text>
+    <text x="690" y="122" font-size="10" fill="#6e6680">両方の文書に登場</text>
+
+    <rect x="625" y="260" width="130" height="44" rx="22" fill="#ffffff" stroke="#b4530a"/>
+    <text x="690" y="278" font-size="13" fill="#221d2e">条項</text>
+    <text x="690" y="294" font-size="10" fill="#6e6680">契約書から</text>
+
+    <rect x="365" y="260" width="130" height="44" rx="22" fill="#ffffff" stroke="#b4530a"/>
+    <text x="430" y="278" font-size="13" fill="#221d2e">銀行口座</text>
+    <text x="430" y="294" font-size="10" fill="#6e6680">契約書から</text>
+  </g>
+
+  <!-- スキーマの帯 -->
+  <rect x="300" y="332" width="476" height="44" rx="8" fill="#f3f0f8" stroke="#d9d3e3"/>
+  <text x="314" y="350" font-size="11" fill="#6e6680">スキーマ（取り出す種類と関係）</text>
+  <text x="314" y="368" font-size="12" fill="#221d2e">人 ・ 契約 ・ 日付 ・ 条項 ・ 銀行口座　── 最初はゆるく決め、使いながら直す</text>
+</svg>

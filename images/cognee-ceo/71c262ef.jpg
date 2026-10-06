@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="'Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans JP','Yu Gothic',sans-serif">
+  <title>cogneeの全体像：remember・improve・recall</title>
+  <desc>入力のドキュメントや会話を remember で取り込んでグラフと埋め込みにし、improve で強化し、recall でエージェントに返す流れ。</desc>
+  <defs>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6e6680"/>
+    </marker>
+  </defs>
+  <rect width="800" height="400" fill="#ffffff"/>
+
+  <!-- 入力 -->
+  <rect x="20" y="120" width="120" height="150" rx="10" fill="#f3f0f8" stroke="#d9d3e3"/>
+  <text x="80" y="150" font-size="14" font-weight="700" fill="#221d2e" text-anchor="middle">入力</text>
+  <g font-size="12" fill="#6e6680" text-anchor="middle">
+    <text x="80" y="180">ドキュメント</text>
+    <text x="80" y="202">会話・実行履歴</text>
+    <text x="80" y="224">Slack・Drive</text>
+    <text x="80" y="246">RDB・JSON</text>
+  </g>
+
+  <!-- 記憶の箱 -->
+  <rect x="172" y="60" width="436" height="300" rx="14" fill="none" stroke="#6510f4" stroke-dasharray="6 5"/>
+  <text x="390" y="88" font-size="13" fill="#6510f4" text-anchor="middle" font-weight="700">cogneeの記憶 ＝ グラフ ＋ 埋め込み（ベクトル）</text>
+
+  <!-- remember -->
+  <rect x="190" y="110" width="190" height="160" rx="10" fill="#e6f4ec" stroke="#1e7a4c"/>
+  <text x="285" y="138" font-size="15" font-weight="700" fill="#1e7a4c" text-anchor="middle">remember</text>
+  <text x="285" y="156" font-size="12" fill="#1e7a4c" text-anchor="middle">記憶する</text>
+  <g font-size="12" fill="#221d2e" text-anchor="middle">
+    <text x="285" y="190">チャンクに分割</text>
+    <text x="285" y="212">エンティティと関係を抽出</text>
+    <text x="285" y="234">グラフと埋め込みに保存</text>
+  </g>
+
+  <!-- improve -->
+  <rect x="400" y="110" width="190" height="160" rx="10" fill="#efe9ff" stroke="#6510f4"/>
+  <text x="495" y="138" font-size="15" font-weight="700" fill="#6510f4" text-anchor="middle">improve</text>
+  <text x="495" y="156" font-size="12" fill="#6510f4" text-anchor="middle">良くする</text>
+  <g font-size="12" fill="#221d2e" text-anchor="middle">
+    <text x="495" y="190">概念や関係を導き出す</text>
+    <text x="495" y="212">フィードバックで重みを更新</text>
+    <text x="495" y="234">セッションの学びを取り込む</text>
+  </g>
+
+  <!-- recall -->
+  <rect x="640" y="110" width="140" height="160" rx="10" fill="#f3f0f8" stroke="#d9d3e3"/>
+  <text x="710" y="138" font-size="15" font-weight="700" fill="#221d2e" text-anchor="middle">recall</text>
+  <text x="710" y="156" font-size="12" fill="#6e6680" text-anchor="middle">思い出す</text>
+  <g font-size="12" fill="#221d2e" text-anchor="middle">
+    <text x="710" y="190">グラフ探索</text>
+    <text x="710" y="212">＋ ベクトル検索</text>
+    <text x="710" y="234">根拠つきで返す</text>
+  </g>
+
+  <!-- 矢印 -->
+  <g stroke="#6e6680" stroke-width="1.8" fill="none" marker-end="url(#arrow2)">
+    <line x1="142" y1="190" x2="186" y2="190"/>
+    <line x1="382" y1="190" x2="396" y2="190"/>
+    <line x1="592" y1="190" x2="636" y2="190"/>
+  </g>
+
+  <!-- エージェント（下） -->
+  <rect x="300" y="310" width="200" height="40" rx="20" fill="#221d2e"/>
+  <text x="400" y="335" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">AIエージェント</text>
+  <g stroke="#6e6680" stroke-width="1.8" fill="none" marker-end="url(#arrow2)">
+    <path d="M710,272 L710,330 L504,330"/>
+    <path d="M296,330 L285,330 L285,276"/>
+  </g>
+  <text x="620" y="322" font-size="11" fill="#6e6680" text-anchor="middle">質問 → 回答</text>
+  <text x="222" y="300" font-size="11" fill="#6e6680" text-anchor="middle">会話や評価が</text>
+  <text x="222" y="314" font-size="11" fill="#6e6680" text-anchor="middle">記憶に戻る</text>
+
+  <text x="400" y="384" font-size="12" fill="#6e6680" text-anchor="middle">forget：データやデータセットを明示的に消す</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360" font-family="'Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans JP','Yu Gothic',sans-serif">
+  <title>使われるほど良くなる記憶のループ</title>
+  <desc>エージェントが記憶を使う、信号を集める、重みを付け替える、次の想起が良くなる、の4段階が円環をなす。</desc>
+  <defs>
+    <marker id="arrow3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6510f4"/>
+    </marker>
+  </defs>
+  <rect width="800" height="360" fill="#ffffff"/>
+
+  <!-- 4つの箱を結ぶ矢印（時計回り） -->
+  <g fill="none" stroke="#6510f4" stroke-width="2" marker-end="url(#arrow3)">
+    <path d="M506,62 C570,62 612,98 646,144"/>
+    <path d="M646,216 C612,262 570,298 506,298"/>
+    <path d="M294,298 C230,298 188,262 154,216"/>
+    <path d="M154,144 C188,98 230,62 294,62"/>
+  </g>
+
+  <!-- 中央 -->
+  <text x="400" y="172" font-size="16" font-weight="700" fill="#221d2e" text-anchor="middle">増えるだけでなく、</text>
+  <text x="400" y="196" font-size="16" font-weight="700" fill="#6510f4" text-anchor="middle">良くなる</text>
+
+  <!-- 上：使う -->
+  <rect x="300" y="30" width="200" height="60" rx="10" fill="#efe9ff" stroke="#6510f4"/>
+  <text x="400" y="55" font-size="14" font-weight="700" fill="#221d2e" text-anchor="middle">エージェントが記憶を使う</text>
+  <text x="400" y="76" font-size="12" fill="#6e6680" text-anchor="middle">recall で答え、作業する</text>
+
+  <!-- 右：集める -->
+  <rect x="560" y="150" width="210" height="60" rx="10" fill="#efe9ff" stroke="#6510f4"/>
+  <text x="665" y="175" font-size="14" font-weight="700" fill="#221d2e" text-anchor="middle">信号を集める</text>
+  <text x="665" y="196" font-size="12" fill="#6e6680" text-anchor="middle">評価・訂正・どれが使われたか</text>
+
+  <!-- 下：付け替える -->
+  <rect x="300" y="270" width="200" height="60" rx="10" fill="#6510f4"/>
+  <text x="400" y="295" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">つながりの重みを付け替える</text>
+  <text x="400" y="316" font-size="12" fill="#ffffff" text-anchor="middle">強める・弱める。データは消さない</text>
+
+  <!-- 左：良くなる -->
+  <rect x="30" y="150" width="210" height="60" rx="10" fill="#efe9ff" stroke="#6510f4"/>
+  <text x="135" y="175" font-size="14" font-weight="700" fill="#221d2e" text-anchor="middle">次の想起が良くなる</text>
+  <text x="135" y="196" font-size="12" fill="#6e6680" text-anchor="middle">同じ間違いを繰り返さない</text>
+</svg>
