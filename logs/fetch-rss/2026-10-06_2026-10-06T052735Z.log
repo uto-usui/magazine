@@ -1,0 +1,58 @@
+articles_dir=2026-10-06
+exit_code=0
+timestamp_utc=2026-10-06T05:27:35Z
+
+---- issue lines ----
+8:Failed to fetch feed Codrops: Non-whitespace before first tag.
+
+---- tail (last 50 lines) ----
+📥 Processing: Google has the best AI money can buy. Its products still feel broken.
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-06/google-has-the-best-ai-money-can-buy-its-products-still-feel-broken.md
+📥 Processing: What happens when you can build it all yourself
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-06/what-happens-when-you-can-build-it-all-yourself.md
+📥 Processing: Thinking orbs
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-06/thinking-orbs.md
+📥 Processing: Blume
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-06/blume.md
+📥 Processing: Modern web types
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-06/modern-web-types.md
+📥 Processing: Do frameworks matter anymore?
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://brookslybrand.com/posts/do-frameworks-matter-anymore/
+✅ Playwright successfully fetched: https://brookslybrand.com/posts/do-frameworks-matter-anymore/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-06/do-frameworks-matter-anymore.md
+📥 Processing: The Index: Issue #200
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-06/the-index-issue-200.md
+📥 Processing: Jev for Python engineers
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-06/jev-for-python-engineers.md
+📥 Processing: How Rogo ships agent-written code to production in 5 minutes on Vercel
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-06/how-rogo-ships-agent-written-code-to-production-in-5-minutes-on-vercel.md
+📥 Processing: Speed Insights deprecates First Input Delay on November 1st
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-06/speed-insights-deprecates-first-input-delay-on-november-1st.md
+📥 Processing: Voyage Rerank 3 and Rerank 3 Lite are now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-06/voyage-rerank-3-and-rerank-3-lite-are-now-available-on-ai-gateway.md
+📥 Processing: LLM Wikiの組織運用に向けて ── 陳腐化を防ぐ更新の仕組み
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-06/llm-wiki.md
+📥 Processing: cognee CEOの講演で聞いたナレッジグラフの話 ── エージェントの記憶は「増える」から「良くなる」へ
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-06/cognee-ceo.md
+📥 Processing: The new basics: questions content designers should be able to answer in 2026
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-06/the-new-basics-questions-content-designers-should-be-able-to-answer-in-2026.md
+📥 Processing: The New Big Ball of Mud: Why Agentic AI Systems Turn Fragile
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-06/the-new-big-ball-of-mud-why-agentic-ai-systems-turn-fragile.md
+📥 Processing: Empathy Mapping: The First Step in Design Thinking
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-06/empathy-mapping-the-first-step-in-design-thinking.md
+📥 Processing: Prompting as self-portrait
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-06/prompting-as-self-portrait.md
+📥 Processing: Pixels of the Week – October 4, 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-06/pixels-of-the-week-october-4-2026.md
+📥 Processing: Two-Way Doors: Don’t Code Yourself into a Corner
+🤖 Bot protection detected (HTTP 429), trying Playwright: http://testing.googleblog.com/2026/10/two-way-doors-dont-code-yourself-into.html
+✅ Playwright successfully fetched: http://testing.googleblog.com/2026/10/two-way-doors-dont-code-yourself-into.html
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-06/two-way-doors-dont-code-yourself-into-a-corner.md
+
+📊 Summary:
+   ✅ Success: 24
+   ❌ Errors: 0
+🏁 Done!
