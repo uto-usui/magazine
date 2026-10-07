@@ -1,0 +1,58 @@
+articles_dir=2026-10-07
+exit_code=0
+timestamp_utc=2026-10-07T04:57:29Z
+
+---- issue lines ----
+8:Failed to fetch feed Codrops: Non-whitespace before first tag.
+
+---- tail (last 50 lines) ----
+📥 Processing: Design is a nice-to-have
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-07/design-is-a-nice-to-have.md
+📥 Processing: Prompting as self-portrait
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-07/prompting-as-self-portrait.md
+📥 Processing: Leadership folios
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-07/leadership-folios.md
+📥 Processing: Is Meta’s new AI agent easier to trust because it’s cute?
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxdesign.cc/is-metas-new-ai-agent-easier-to-trust-because-it-s-cute-c8de13aefc6f?sk=2ea73b57436da9bbef1d1f149f1218e2
+✅ Playwright successfully fetched: https://uxdesign.cc/is-metas-new-ai-agent-easier-to-trust-because-it-s-cute-c8de13aefc6f?sk=2ea73b57436da9bbef1d1f149f1218e2
+⚠️ Content too short (183 chars < 200): https://uxdesign.cc/is-metas-new-ai-agent-easier-to-trust-because-it-s-cute-c8de13aefc6f?sk=2ea73b57436da9bbef1d1f149f1218e2
+⚠️ Using RSS content as fallback for: https://uxdesign.cc/is-metas-new-ai-agent-easier-to-trust-because-it-s-cute-c8de13aefc6f?sk=2ea73b57436da9bbef1d1f149f1218e2
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-07/is-metas-new-ai-agent-easier-to-trust-because-its-cute.md
+📥 Processing: Many agents, many views
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-07/many-agents-many-views.md
+📥 Processing: In defense of the detour
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://www.nytimes.com/interactive/2026/09/27/opinion/ai-art-creativity.html?unlocked_article_code=1.FlE.ew95.hRKwQHd_aTem
+✅ Playwright successfully fetched: https://www.nytimes.com/interactive/2026/09/27/opinion/ai-art-creativity.html?unlocked_article_code=1.FlE.ew95.hRKwQHd_aTem
+⚠️ Using RSS content as fallback for: https://www.nytimes.com/interactive/2026/09/27/opinion/ai-art-creativity.html?unlocked_article_code=1.FlE.ew95.hRKwQHd_aTem
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-07/in-defense-of-the-detour.md
+📥 Processing: The state of the tech industry in 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-07/the-state-of-the-tech-industry-in-2026.md
+📥 Processing: Laser Storm
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-07/laser-storm.md
+📥 Processing: A Practical Guide To Naming Things
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-07/a-practical-guide-to-naming-things.md
+📥 Processing: AI Gateway adds confidence-based decision fallbacks
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-07/ai-gateway-adds-confidence-based-decision-fallbacks.md
+📥 Processing: Nano Banana 2.1 now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-07/nano-banana-21-now-available-on-ai-gateway.md
+📥 Processing: Mistral Large 4 now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-07/mistral-large-4-now-available-on-ai-gateway.md
+📥 Processing: 3 ways product designers use the Figma agent for craft, speed, and creative expression
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-07/3-ways-product-designers-use-the-figma-agent-for-craft-speed-and-creative-expression.md
+📥 Processing: Workflow lab: Staying in the flow with Figma’s agent
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-07/workflow-lab-staying-in-the-flow-with-figmas-agent.md
+📥 Processing: How to lighten design system upkeep with the Figma agent
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-07/how-to-lighten-design-system-upkeep-with-the-figma-agent.md
+📥 Processing: YAPC::Tokyo 2026にydahが登壇します
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-07/yapctokyo-2026ydah.md
+📥 Processing: How to Make Creation Forms Faster to Fill Out
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxmovement.medium.com/how-to-make-creation-forms-faster-to-fill-out-dcc8087a7ea7
+✅ Playwright successfully fetched: https://uxmovement.medium.com/how-to-make-creation-forms-faster-to-fill-out-dcc8087a7ea7
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-07/how-to-make-creation-forms-faster-to-fill-out.md
+📥 Processing: This Week In React #300: Next.js, TanStack, React Foundation, Compiler, Ink, Streamdown, Shaders | Skia, Live Activities, Lucent, Voltra, Apex, Coinbase, Stim Desktop, Unistyles | TC39, e2e, Effect, Remix, h3, SvelteKit, TypeScript
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-07/this-week-in-react-300-nextjs-tanstack-react-foundation-compiler-ink-streamdown-shaders-skia-live-ac.md
+
+📊 Summary:
+   ✅ Success: 24
+   ❌ Errors: 0
+🏁 Done!
