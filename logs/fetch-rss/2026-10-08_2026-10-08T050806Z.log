@@ -1,0 +1,58 @@
+articles_dir=2026-10-08
+exit_code=0
+timestamp_utc=2026-10-08T05:08:06Z
+
+---- issue lines ----
+9:❌ Playwright failed for Codrops: HTTP 403
+
+---- tail (last 50 lines) ----
+📥 Processing: Claude Haiku 5.5 now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-08/claude-haiku-55-now-available-on-ai-gateway.md
+📥 Processing: Glyph Cluster is now available in stealth for free on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-08/glyph-cluster-is-now-available-in-stealth-for-free-on-ai-gateway.md
+📥 Processing: Timestamp attributes are now supported in Vercel Flags
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-08/timestamp-attributes-are-now-supported-in-vercel-flags.md
+📥 Processing: AI Gateway adds confidence-based decision fallbacks
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-08/ai-gateway-adds-confidence-based-decision-fallbacks.md
+📥 Processing: Nano Banana 2.1 now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-08/nano-banana-21-now-available-on-ai-gateway.md
+📥 Processing: Mistral Large 4 now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-08/mistral-large-4-now-available-on-ai-gateway.md
+📥 Processing: OpenAI Ultrafast mode now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-08/openai-ultrafast-mode-now-available-on-ai-gateway.md
+📥 Processing: FLUX 3 Image now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-08/flux-3-image-now-available-on-ai-gateway.md
+📥 Processing: 3 ways product designers use the Figma agent for craft, speed, and creative expression
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-08/3-ways-product-designers-use-the-figma-agent-for-craft-speed-and-creative-expression.md
+📥 Processing: Workflow lab: Staying in the flow with Figma’s agent
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-08/workflow-lab-staying-in-the-flow-with-figmas-agent.md
+📥 Processing: How to lighten design system upkeep with the Figma agent
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-08/how-to-lighten-design-system-upkeep-with-the-figma-agent.md
+📥 Processing: JPEG XL finally ships in Chrome
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-08/jpeg-xl-finally-ships-in-chrome.md
+📥 Processing: YAPC::Tokyo 2026にydahが登壇します
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-08/yapctokyo-2026ydah.md
+📥 Processing: E-cigarette & Vaping UX Benchmark: 3,600+ Performance Scores and 2,500+ Best Practice Examples 
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-08/e-cigarette-vaping-ux-benchmark-3600-performance-scores-and-2500-best-practice-examples.md
+📥 Processing: How to Make Creation Forms Faster to Fill Out
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxmovement.medium.com/how-to-make-creation-forms-faster-to-fill-out-dcc8087a7ea7
+✅ Playwright successfully fetched: https://uxmovement.medium.com/how-to-make-creation-forms-faster-to-fill-out-dcc8087a7ea7
+⚠️ Content too short (193 chars < 200): https://uxmovement.medium.com/how-to-make-creation-forms-faster-to-fill-out-dcc8087a7ea7
+⚠️ Using RSS content as fallback for: https://uxmovement.medium.com/how-to-make-creation-forms-faster-to-fill-out-dcc8087a7ea7
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-08/how-to-make-creation-forms-faster-to-fill-out.md
+📥 Processing: This Week In React #300: Next.js, TanStack, React Foundation, Compiler, Ink, Streamdown, Shaders | Skia, Live Activities, Lucent, Voltra, Apex, Coinbase, Stim Desktop, Unistyles | TC39, e2e, Effect, Remix, h3, SvelteKit, TypeScript
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-08/this-week-in-react-300-nextjs-tanstack-react-foundation-compiler-ink-streamdown-shaders-skia-live-ac.md
+
+📊 Summary:
+   ✅ Success: 35
+   ❌ Errors: 0
+🏁 Done!
