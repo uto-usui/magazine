@@ -1,0 +1,128 @@
+---
+title: "Agents don’t need memory. They need documentation."
+source: "https://liao.gg/blog/agents-dont-need-memory"
+publishedDate: "2026-10-08"
+category: "design"
+feedName: "Sidebar"
+fetchedBy: "playwright"
+---
+
+![A tangle of colorful wires](https://liao.gg/images/blog/agents-dont-need-memory/tangled-800.jpg)
+
+A memory plugin analyzes your conversations. It generates 1,000 isolated snippets and inserts them into a vector database. With your every prompt, it attaches the five most similar snippets; if the agent is confused (which it is), it manually searches for more. That’s the product they call “memory.”
+
+It’s a strange thing to use when you think about what problem you’re trying to solve. You want your agent to understand your project. To know where a feature is, why it was built, what you agreed on, and what you care about. Instead, you get a lottery over RAG snippets, injected on every prompt, hoping the right ones float up.
+
+Even when it does work, the agent still doesn’t understand your project. The entire memory plugin ecosystem is solving the wrong problem.
+
+**Because agents don’t need memory. They need documentation.**
+
+## It’s All Just RAG
+
+Every memory plugin on the market works the same way:
+
+1.  Go through session transcripts
+2.  Generate snippets of “memories”
+3.  Insert into a RAG database
+4.  On every prompt, retrieve the top 5 and inject
+5.  Need more? Give the agents a tool to search through the RAG database
+
+That’s the whole architecture. Some tools are extra fancy; they let the agent search through past transcripts word for word. Or they implement some kind of multi-tier memory system that classifies short or long-term memory. Or they add a bunch of background daemons to review, merge, or deduplicate memories. “Dreamers” that rewrite memories overnight. Continuous context compression. Rerankers. Et cetera.
+
+Each plugin tries to add new token-burning “features” to fix the same flawed architecture underneath. And that’s why none of them reliably work.
+
+## The Problem with Recall
+
+All of these memory plugins suffer from the same broad set of problems.
+
+-   **Memories are surfaced by similarity.** Similarity search ranks how close two snippets are in embedding space. That’s it. You don’t know which is correct, current, or what’s missing.
+-   **Memories are stored without context.** A RAG snippet can only contain so much. You lose everything else: context, motivations, lessons, environment, and more.
+-   **The past is treated as truth.** All of these plugins rely on recall; whether it’s search through transcripts or a vector database. But the codebase changes every day; so how accurate is each of the 500 snippets about authentication?
+-   **Agents can’t search for what they don’t know.** Even if you do expose a search tool to the agent, how would the agent know when to use it? The agent doesn’t know what it doesn’t know.
+-   **The store is unauditable.** There are 10,000 embeddings in SQLite. Which memories exist? Which are stale? Which have never been retrieved? Which are incorrect and secretly affecting the way your agent works?
+
+These are only five of the many problems that memory plugins face, attempt, and fail to fix, because they all make the same assumption:
+
+> _Agents forget: that’s the problem. So the fix is to remember. To remember better, we should capture more, index better, retrieve smarter._
+
+Their entire thesis revolves around capturing and recalling the past. But that’s not how anyone else handles knowledge. No one rewatches a team meeting from 3 years ago to remember constraints around a feature. People write things down and use those records instead.
+
+Similarly, the solution is _NOT_ to give an agent a search tool that it uses to search over the past 10 million tokens worth of conversations, reconstructing fragments of what happens.
+
+The solution, is documentation.
+
+## Documentation Over Recall
+
+Today, people use AI to pump out products, features, and slop at the speed of light, all without reading or understanding a single line of code. Under these circumstances, it’s easy to see how documentation ends up as an afterthought when it’s more important than ever.
+
+People already knew agents needed context. That’s why they invented `AGENTS.md` files: so agents don’t jump into a codebase blind. It works. But times have changed, and a single `AGENTS.md` file is no longer sufficient for anything more than a vibecoded POC generated for a hackathon.
+
+What the agent needs is **an entire brain**: a structured workspace of instructions, specs, research, mappings, and more that it reads before working and maintains afterwards.
+
+I recognized this problem over a year ago when I first started programming with AI. I wanted a way for an agent to remember work across sessions. I started by creating an `internal/` folder where I asked the agent to write everything down: specs, plans, indexes; I tasked the agent with always reading the appropriate documents and index before doing work and updating afterwards.
+
+This set of rudimentary instructions slowly transformed into a formal system, and then into a plugin called **Operator Memory** that I’ve been using regularly within all of my projects.
+
+In the time since, this same idea has been rediscovered across the industry: agent-maintained “wikis”, Google’s Open Knowledge Format, other people’s versions of my `internal/` folder concept.
+
+![Diagram comparing the prompt, build, forget loop with Operator Memory's prompt, consult, build, update loop](https://liao.gg/images/blog/agents-dont-need-memory/change-the-loop.png)
+
+**Operator** is not a traditional memory plugin. Operator is a **context engine**: it provides a brain for the agent and fundamentally alters the agentic loop so that consulting documentation before work and maintaining it afterwards becomes structural phases of every task. With Operator, the agent automatically commits and updates knowledge without prompt or reminders; and through documentation, the agent gains “memory”.
+
+Operator is free and open source: [https://github.com/aerovato/operator-memory](https://github.com/aerovato/operator-memory)
+
+## Inside the Brain
+
+But an ideal brain must be more than a folder of scattered notes. In order for the brain to be useful and not another summary of existing code, four things must be right:
+
+### Contents
+
+The codebase already tells you what the code does. Operator’s brain documents everything else: requirements, decisions, constraints, as well as mappings, reusable research, and standards; meta-information that guides your agent and prevents features from drifting over time.
+
+If you don’t document these things and simply infer everything from code, then every future session will start with 80k tokens worth of exploration that end up providing a lossy reverse engineered approximation of original intents.
+
+That’s also why you can’t just say _“the code is the documentation”_; because every thoughtful system is a set of requirements, decisions, philosophies that code alone cannot meaningfully capture.
+
+Case in point: Operator’s harness adapter plugins are extremely lean; the Claude Code adapter is less than 100 lines of TS code. That’s because a deliberate architectural decision was made to offload as much logic as possible to the CLI; if I never documented and enforced this philosophy at the beginning, an agent may easily decide to take the lazy path and bake logic into the harness itself, making future harness implementations difficult.
+
+### Discovery
+
+With up to hundreds of files on disk, the brain is worthless if the agent can’t find the correct documents. Operator implements a **catalog** that describes what each document or group of documents cover and when to open it. At the start of every session, Operator only injects this lean catalog into context; the agent decides when to open deeper material relevant to the task.
+
+Documents can then naturally link to other documents, creating a rich web of knowledge hidden behind a simple directory of files and folders, something that plain database entries can simply not do.
+
+The codebase gets the same treatment; Operator generates lean codebase indexes and subindexes and provides their paths to the agent. When the agent needs to explore a specific module, the agent can simply read the appropriate index instead of blindly running `ls` and `grep` commands for multiple tool call loops.
+
+### Freshness
+
+Now, the classic complaint: _“Documentation goes stale too!”_
+
+It goes stale for _human projects_ because for lazy humans, documentation is treated as a chore. Agents do not have this same problem. Like writing tests, agents are perfectly happy to read and update boring old documentation.
+
+Two additional rules are enforced by Operator:
+
+1.  Documentation should be written by the working agent while the full picture is still in context. Not some background “dreamer” agent. This ensures full and accurate capture of intent.
+2.  Facts should be rewritten when truth changes. No appending. This prevents bloat, drift, and hallucinations that may be caused by stale references.
+
+### Discipline
+
+The biggest failure mode of agent-written documentation is bloat. If left alone, agents will happily summarize and resummarize code, logging each and every tweak that was made, invent requirements nobody asked for, turning each document into unreadable slop.
+
+Like bloat in AI-generated code, this is a problem that can only be solved with tuned instructions and review. Operator’s fine-tuned guidance directs agents to record **only** what the code cannot provide, keep documents lean, and proactively split or consolidate when documents drift out of scope.
+
+Unfortunately, most agents prefer the status quo and will not split or consolidate documents. Luckily, because the brain is just Markdown, brain review works exactly like code review. If you spot any documentation deficiencies, you can simply ask to update the document.
+
+## More Than Database Entries
+
+Operator’s document-based memory model also comes with other distinct advantages.
+
+-   **Committable memory.** Memory can be diffed, reviewed, updated, reverted, just like regular code. If you need to see a document in the past, simply use Git.
+-   **Sharable memory.** Operator also provides an explicit `.operator-shared/` shared partition that you can commit with the repository, so that specs, guides, and standards can be shared with every coworker, intern, or cloud AI agent.
+-   **No harness lock-in.** Operator is harness agnostic. Use Operator with Claude Code, Codex, OpenCode, Pi, or any other harness with a basic plugin system. Operator knowledge follows you wherever you go.
+-   **Zero infrastructure.** No vector databases, no embeddings, no rerankers, no dreamers, curators, updators, or any other background daemon. The entire system is Markdown on disk + a fine-tuned prompt.
+
+## A Year in the Making
+
+What started as my `internal/` folder in August 2025 has been continuously refined into the deceptively simple system you see today. If you want to try Operator out, it’s free and open source: [https://github.com/aerovato/operator-memory](https://github.com/aerovato/operator-memory)
+
+I won’t say that Operator is perfect; there are many times where I have to manually intervene to ask to create, rewrite, or trim documents. But as AI continues to improve, I believe that Operator would too.
