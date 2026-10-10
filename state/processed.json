@@ -36431,7 +36431,283 @@
     "http://testing.googleblog.com/2026/10/two-way-doors-dont-code-yourself-into.html": {
       "contentHash": "0b337dd03f5b9b14807d992bb8da4ff6842d6235568ac4e3d5cff8b123fa7ae1",
       "processedAt": "2026-10-06T05:27:34.873Z"
+    },
+    "https://engineering.atspotify.com/2026/10/introducing-spotify-technology-proven-at-spotify-now-yours/": {
+      "contentHash": "204c46cb424e3ef002769b943a1297289259d99259f78c28baa9f243c7784478",
+      "processedAt": "2026-10-10T04:57:23.943Z"
+    },
+    "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/": {
+      "contentHash": "f8ed842bfad942af522a1a41d2b6277a198bb629144e612c096c7f80d2e4ccac",
+      "processedAt": "2026-10-10T04:57:24.352Z"
+    },
+    "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/": {
+      "contentHash": "3c9a532632b495fcccf140e4cb7ade4a5d58f2f862ea3ec6f5748d125d04610b",
+      "processedAt": "2026-10-10T04:57:24.865Z"
+    },
+    "https://csswizardry.com/2026/10/web-perf-wednesday-012-return-to-the-unresolved-trace/": {
+      "contentHash": "af684c9b661ed2cc580b340ec11f5c873355d29029c93cc3cca1821a6972e5b0",
+      "processedAt": "2026-10-10T04:57:25.571Z"
+    },
+    "https://adrianroselli.com/2026/10/decorative-images.html": {
+      "contentHash": "45a3c8da86e16583131933331328d772ff6114d57120c310f0c4c74f2279919c",
+      "processedAt": "2026-10-10T04:57:26.029Z"
+    },
+    "https://jovo.design/writing/ai-invasive-design": {
+      "contentHash": "ea70a1c4cc417d7e899ed4f12ed1c7da3fa3cdb8844e2941d4ba20a35514adf6",
+      "processedAt": "2026-10-10T04:57:26.222Z"
+    },
+    "https://contralabs.com/creative-intelligence-report-2026": {
+      "contentHash": "d952c0d9cc6aa5d11b1147e941a8ce95f53bdd33b7efd97540583cb465ce069d",
+      "processedAt": "2026-10-10T04:57:44.446Z"
+    },
+    "https://matthenry.fyi/posts/a-system-is-what-it-does/": {
+      "contentHash": "3c605483ebb965f15472da2977ce79920c116e9f5fa5a11ec08cbd7dee2aaa6d",
+      "processedAt": "2026-10-10T04:57:44.998Z"
+    },
+    "https://ldlr.design/field-notes": {
+      "contentHash": "64079660ed83001bfa5ff4ed368d9f270c3d7f084531285a8cc93da658c2bbb2",
+      "processedAt": "2026-10-10T04:57:45.537Z"
+    },
+    "https://www.itsnicethat.com/features/the-view-from-sao-paulo-retro-bar-and-restaurant-branding-graphic-design-140926": {
+      "contentHash": "3b5dbcf63c0719ad307fbf0dcd87a2308c5a7a9a92eec3d54618fbe745fb0761",
+      "processedAt": "2026-10-10T04:57:46.622Z"
+    },
+    "https://liao.gg/blog/agents-dont-need-memory": {
+      "contentHash": "5550b8cc812ccbb6e3be62a2d613a1bd8c6ca76cebcbb610f7ea704503671bb1",
+      "processedAt": "2026-10-10T04:57:51.253Z"
+    },
+    "https://12axes.vercel.app/en": {
+      "contentHash": "78db57ee09ba21a65d03fe861dd452444e286cd94b1412de92b2bb7abe3762d6",
+      "processedAt": "2026-10-10T04:57:55.971Z"
+    },
+    "https://design.lightspark.com/money-as-a-file": {
+      "contentHash": "e9e896d753ccf429595097a273efebb1b22b1bbe4bf42f269deb517e5a42c081",
+      "processedAt": "2026-10-10T04:57:56.315Z"
+    },
+    "https://agentic.littleplains.com/": {
+      "contentHash": "b2a064110ea7883347190d2a765d9500e65238522ed0f7635e7f8b105257f2c0",
+      "processedAt": "2026-10-10T04:57:57.220Z"
+    },
+    "https://wattenberger.com/thoughts/ai-is-still-in-its-terminal-era/": {
+      "contentHash": "827a1ae3db519d71a150c67512dd42b22d12ed836795fda477630920a4db796f",
+      "processedAt": "2026-10-10T04:57:57.509Z"
+    },
+    "https://blog.ronbronson.com/on-being-anything-other-than-a-designer": {
+      "contentHash": "efc32ffefebec450c36035adf04228da5cb63d01ac5639270b0929840adaeb99",
+      "processedAt": "2026-10-10T04:57:58.300Z"
+    },
+    "https://fglibs.com/": {
+      "contentHash": "bd87b4ba33a2e4763166ca8b5280459fc8571bee91bdad0171ba82a8de6bba60",
+      "processedAt": "2026-10-10T04:58:05.898Z"
+    },
+    "https://www.emergingpatterns.design/": {
+      "contentHash": "17890b6913f2c1b5f071a53f86d61340bc33dfaa103c78d4206458d1faeb6c79",
+      "processedAt": "2026-10-10T04:58:06.357Z"
+    },
+    "https://era-of-cmd-tab.vercel.app/": {
+      "contentHash": "38d4c0768c6e758c496423836b942114a47e20f4196b5feadb18acbb2f921726",
+      "processedAt": "2026-10-10T04:58:06.561Z"
+    },
+    "https://draganbabic.com/blog/design-is-a-nice-to-have/": {
+      "contentHash": "d41f01aa91a6cd4ab02ef25fd64b5bb8c7d94f6dd56968c435802dc889c08b1a",
+      "processedAt": "2026-10-10T04:58:09.059Z"
+    },
+    "https://www.doc.cc/humankind/self-portrait": {
+      "contentHash": "6b28abc68593958c6556d654c2b8eac009f8fe84670f56b8d6385afa3363e522",
+      "processedAt": "2026-10-10T04:58:12.971Z"
+    },
+    "https://www.leadershipfolios.com/": {
+      "contentHash": "89cd9f15547893057cb5ea153ec6b7e3d89c23211ac81a3cc4e2f44f9d4f19f2",
+      "processedAt": "2026-10-10T04:58:13.541Z"
+    },
+    "https://uxdesign.cc/is-metas-new-ai-agent-easier-to-trust-because-it-s-cute-c8de13aefc6f?sk=2ea73b57436da9bbef1d1f149f1218e2": {
+      "contentHash": "f53356bc13c424f4f779507d8cc9d1ce0c20356612b5d307751ac8773eeaae59",
+      "processedAt": "2026-10-10T04:58:17.960Z"
+    },
+    "https://www.lukew.com/ff/2165/many-agents-many-views": {
+      "contentHash": "0d20a7c579fe4dfd1c946d8776af885fe0e367198a3f13aaadba9abcc514dcca",
+      "processedAt": "2026-10-10T04:58:18.745Z"
+    },
+    "https://www.nytimes.com/interactive/2026/09/27/opinion/ai-art-creativity.html?unlocked_article_code=1.FlE.ew95.hRKwQHd_aTem": {
+      "contentHash": "690e1df136ccbc0df325c1739d41e596dd6f229e2eb3fe6ad4e20757007c7f59",
+      "processedAt": "2026-10-10T04:58:23.229Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-new-trend-of-building-internal": {
+      "contentHash": "42920bea06e8a3c8dddda496e9cf25ddb63f2c80f1c185fb918a709db8edfc00",
+      "processedAt": "2026-10-10T04:58:23.517Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/building-resilient-systems-with-sam": {
+      "contentHash": "80112710431c1296bc99189c64b8d5c542b9c366c73658beba0c1a866e73cda7",
+      "processedAt": "2026-10-10T04:58:24.062Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-state-of-the-tech-industry-in": {
+      "contentHash": "a4f29a6cedfddf9467d2b29f11f1bc5e784d33e3637b71ff2fc6c255ff51f209",
+      "processedAt": "2026-10-10T04:58:24.504Z"
+    },
+    "https://bradfrost.com/blog/post/laser-storm/": {
+      "contentHash": "6a02f592a422b97475151820be266fc862e4e5e3c97ffb6104f80d70ba6fcb03",
+      "processedAt": "2026-10-10T04:58:26.068Z"
+    },
+    "https://smashingmagazine.com/2026/10/how-name-things/": {
+      "contentHash": "f2486713abe92e92af0a09a15bafcfc7486c36e4ef05d3d96033337886fcf498",
+      "processedAt": "2026-10-10T04:58:27.887Z"
+    },
+    "https://kilianvalkhof.com/2026/css-html/id-like-to-have-a-universal-pseudo-selector-in-css/": {
+      "contentHash": "d39e02f10f08754b461e624396bce125873cfa609fbbb8fae6bb4606b03ee8d7",
+      "processedAt": "2026-10-10T04:58:28.563Z"
+    },
+    "https://piccalil.li/the-index/201/": {
+      "contentHash": "dc35f2664f7d1e24cce84033846c839b575998b2fbd87797f1cf6bc792031932",
+      "processedAt": "2026-10-10T04:58:28.877Z"
+    },
+    "https://vercel.com/changelog/agents-can-now-buy-domains-with-the-vercel-cli": {
+      "contentHash": "5149056aa394c0a3f2fcc465763e5d8886f0ed9be28e691909e810bdeebe6772",
+      "processedAt": "2026-10-10T04:58:29.391Z"
+    },
+    "https://vercel.com/changelog/new-pro-teams-now-default-to-30-day-deployment-retention": {
+      "contentHash": "1fe852143be1d70772b36d3d80b4ce2d9850320ecb415999ffc1a63559153b5b",
+      "processedAt": "2026-10-10T04:58:29.715Z"
+    },
+    "https://vercel.com/changelog/deployment-storage-pricing-expands-to-existing-teams": {
+      "contentHash": "d538012e5f28ff2ae51c8de78e75dedba7b0131b06aff59bc722604f871945a4",
+      "processedAt": "2026-10-10T04:58:30.014Z"
+    },
+    "https://vercel.com/blog/how-rillet-ships-3-faster-with-ai-agents-on-vercel": {
+      "contentHash": "ec4a4325949cad34197e7a1bfc6c50093ed5ff8f34d4358309c7d3840f1a1abd",
+      "processedAt": "2026-10-10T04:58:30.786Z"
+    },
+    "https://vercel.com/changelog/microsoft-decision-1-now-available-on-ai-gateway": {
+      "contentHash": "572a95d4420e8c20c79585b62d6ca2d3a9e7e921961707cc0717976cf0560361",
+      "processedAt": "2026-10-10T04:58:31.135Z"
+    },
+    "https://vercel.com/changelog/liquid-ai-d1-is-available-on-ai-gateway": {
+      "contentHash": "1cf76523d8d9621b15459f1f42ce5c7e03e4deda616be2898935a806c3a28806",
+      "processedAt": "2026-10-10T04:58:31.553Z"
+    },
+    "https://vercel.com/changelog/skip-sending-request-bodies-to-routing-middleware": {
+      "contentHash": "a17ee9c1c58892a5bb17f590f151f77eec183ce2946a0757a25ae906dd61bc73",
+      "processedAt": "2026-10-10T04:58:31.980Z"
+    },
+    "https://vercel.com/changelog/sandbox-create-waits-until-ready": {
+      "contentHash": "74b2529f38f73337797812b917cfe057457c71e5541843b872aee3a263e9bf6c",
+      "processedAt": "2026-10-10T04:58:32.307Z"
+    },
+    "https://vercel.com/changelog/grok-imagine-video-1-5-lite-on-ai-gateway": {
+      "contentHash": "eb15bf13c08fe676fbe647783a8f905fd610856f5c927c13edf28fae435facbf",
+      "processedAt": "2026-10-10T04:58:32.641Z"
+    },
+    "https://vercel.com/changelog/step-5-preview-now-available-on-ai-gateway": {
+      "contentHash": "f053097959f53f4d3be84e001824e00bc7e4fe6e9c7ff446558032baf9b3cf84",
+      "processedAt": "2026-10-10T04:58:33.020Z"
+    },
+    "https://vercel.com/changelog/openai-ultrafast-mode-now-available-on-ai-gateway": {
+      "contentHash": "9fb15f11c33b0a959ea3b50cee6d5c1ab5974f6992006e8d563326c4e09e03e7",
+      "processedAt": "2026-10-10T04:58:33.419Z"
+    },
+    "https://vercel.com/changelog/flux-3-image-now-available-on-ai-gateway": {
+      "contentHash": "cdc0375c593844b36947067859fd7b0eb9c3c236b44c43b5f19786d3dfc3e80f",
+      "processedAt": "2026-10-10T04:58:33.851Z"
+    },
+    "https://vercel.com/changelog/microfrontends-routing-is-now-free-for-firewall-mitigated-traffic": {
+      "contentHash": "27fe2f702ea0f60ba86596e1f2e6b380509f67752e1b3f4aac4a6c19263f66cf",
+      "processedAt": "2026-10-10T04:58:34.427Z"
+    },
+    "https://vercel.com/changelog/openai-decisions-api-now-available-on-ai-gateway": {
+      "contentHash": "71b514ee077f48710287a051c6d4ae5be9b435a6be2cac49778cdd29a595c6fd",
+      "processedAt": "2026-10-10T04:58:34.800Z"
+    },
+    "https://vercel.com/changelog/claude-haiku-5-5-now-available-on-ai-gateway": {
+      "contentHash": "5358dd8a420124da2d7419ae097248542020d74331a23e5ce93fc9636bca6038",
+      "processedAt": "2026-10-10T04:58:35.204Z"
+    },
+    "https://vercel.com/changelog/glyph-cluster-is-now-available-in-stealth-for-free-on-ai-gateway": {
+      "contentHash": "d5668b730af98e41597832fa413234f5b096a4f7d5b743826c6db158b3d88f6d",
+      "processedAt": "2026-10-10T04:58:35.557Z"
+    },
+    "https://vercel.com/changelog/timestamp-attributes-are-now-supported-in-vercel-flags": {
+      "contentHash": "da763adcec419fa36d8926348fafff54ace274fb451116bc9c1a0e273b5b6714",
+      "processedAt": "2026-10-10T04:58:36.110Z"
+    },
+    "https://vercel.com/changelog/confidence-based-decision-fallbacks": {
+      "contentHash": "4aeea0e005045e1b8c6c303dc579a2c5486d5feeaad14a027b466e87a4f5af8f",
+      "processedAt": "2026-10-10T04:58:36.481Z"
+    },
+    "https://vercel.com/changelog/nano-banana-2-1-now-available-on-ai-gateway": {
+      "contentHash": "a1084fff38c974381e7df9dd77c4a9ee925f5e3a88d0a6cbcc69002274b763ac",
+      "processedAt": "2026-10-10T04:58:36.822Z"
+    },
+    "https://vercel.com/changelog/mistral-large-4-now-available-on-ai-gateway": {
+      "contentHash": "1647bb0cd40c6590fc98168e46dc145651a044f66f94eb218c23240e0b6e4e29",
+      "processedAt": "2026-10-10T04:58:37.159Z"
+    },
+    "https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/": {
+      "contentHash": "104c5f81d553e4d40625c655a789d7b11ed2e0599d9b01420c0ed778a5cee4a5",
+      "processedAt": "2026-10-10T04:59:15.519Z"
+    },
+    "https://www.figma.com/blog/sightlines-issue-no3/": {
+      "contentHash": "682bf93e42c604f31ec3c725ab44535fe871a36f5439604eb14b66aac3737323",
+      "processedAt": "2026-10-10T04:59:42.543Z"
+    },
+    "https://www.figma.com/blog/3-ways-product-designers-use-the-figma-agent/": {
+      "contentHash": "d3cc9bcd2e7968a81a996d4869bd1ef95296a8d97f3d746922e4120c2e1d4370",
+      "processedAt": "2026-10-10T05:00:41.058Z"
+    },
+    "https://www.figma.com/blog/workflow-lab-staying-in-the-flow-with-the-figma-agent/": {
+      "contentHash": "ea5df16c53291bbc7f0d05723a74260417b9a3cde0ee707feb7ec783f25310ab",
+      "processedAt": "2026-10-10T05:01:20.165Z"
+    },
+    "https://www.figma.com/blog/figma-agent-and-design-systems/": {
+      "contentHash": "0fe87d1798857df1bdc14e9f2ead61caec1b8acb3785deab7ee5f60ac55b945a",
+      "processedAt": "2026-10-10T05:01:49.207Z"
+    },
+    "https://frontendfoc.us/issues/761": {
+      "contentHash": "678b629d6c0001b20a1e7397090515d382a176bd6bcc8b318280d056fbc4b199",
+      "processedAt": "2026-10-10T05:01:49.863Z"
+    },
+    "https://zenn.dev/uhyo/articles/react-profession-bench-19": {
+      "contentHash": "edd76530ef13ca2283269801db77856cbefd6aa161395e77e85c0796b838d412",
+      "processedAt": "2026-10-10T05:01:50.560Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/10/09/134458": {
+      "contentHash": "7ea3b460438eeab913f006b4bd1848131dc5a82d287f65aebc5b8d72fb0018d1",
+      "processedAt": "2026-10-10T05:01:52.090Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/10/08/150000": {
+      "contentHash": "0d6a97407dcc9a0747985b8d216abbf4c8718cdb1cb08609853e8f4baafb1945",
+      "processedAt": "2026-10-10T05:01:52.720Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/10/07/090000": {
+      "contentHash": "2edfe90ee108163975f1419c0fdfdbea287d7200cb6e3bc77f8d0946a96117e7",
+      "processedAt": "2026-10-10T05:01:52.962Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/10/09/162114": {
+      "contentHash": "0292e98d3f2e8de0f06ebe12f5559555f11c690d7e90cb4364e0aa5af453dda7",
+      "processedAt": "2026-10-10T05:01:53.862Z"
+    },
+    "https://www.nngroup.com/articles/ai-assistant-context/": {
+      "contentHash": "7247c0c85937c46aae7625d0bdac9f1c1daf9589797d1cdf41a664448895dd3e",
+      "processedAt": "2026-10-10T05:02:12.090Z"
+    },
+    "https://www.nngroup.com/articles/context-libraries/": {
+      "contentHash": "895a7bb37fc2b605fdbea48277f59f8c78a5b10ae777cafd34cab8bba9939244",
+      "processedAt": "2026-10-10T05:02:12.897Z"
+    },
+    "https://feeds.baymard.com/link/9825/17491220/e-cigarette-and-vaping-ux-benchmark-2026": {
+      "contentHash": "8b9cdbca8354f8ca23d8da39a755ecf5af6d60f81831645a5ae46463bfaebd10",
+      "processedAt": "2026-10-10T05:02:15.419Z"
+    },
+    "https://uxmovement.medium.com/how-to-make-creation-forms-faster-to-fill-out-dcc8087a7ea7": {
+      "contentHash": "f1641a700bc5f65bb39511cb53573d5fd0fb281b0cdfa0ac01f06853a9d85a49",
+      "processedAt": "2026-10-10T05:02:19.788Z"
+    },
+    "https://thisweekinreact.com/newsletter/300": {
+      "contentHash": "0d0fe7ae515971d106ccac4fbb57b1b223425354ff911c7bc042fce656ff5cba",
+      "processedAt": "2026-10-10T05:02:20.636Z"
+    },
+    "https://react.statuscode.com/issues/493": {
+      "contentHash": "2b97b7469b4d507b3bc5f1270acc35bb6e75779074b92317dbe10a5972517288",
+      "processedAt": "2026-10-10T05:02:21.260Z"
     }
   },
-  "lastRun": "2026-10-06T05:27:34.873Z"
+  "lastRun": "2026-10-10T05:02:21.260Z"
 }
