@@ -1,0 +1,58 @@
+articles_dir=2026-10-14
+exit_code=0
+timestamp_utc=2026-10-14T04:02:37Z
+
+---- issue lines ----
+9:❌ Playwright failed for Codrops: HTTP 403
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-14/deployment-storage-billing-begins-for-existing-pro-teams.md
+📥 Processing: How Rillet ships 3× faster with AI agents on Vercel
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-14/how-rillet-ships-3-faster-with-ai-agents-on-vercel.md
+📥 Processing: Microsoft Decision-1 now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-14/microsoft-decision-1-now-available-on-ai-gateway.md
+📥 Processing: Liquid AI's d1 is available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-14/liquid-ais-d1-is-available-on-ai-gateway.md
+📥 Processing: Skip sending request bodies to Routing Middleware
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-14/skip-sending-request-bodies-to-routing-middleware.md
+📥 Processing: Vercel Sandbox creation now returns a ready sandbox
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-14/vercel-sandbox-creation-now-returns-a-ready-sandbox.md
+📥 Processing: Grok Imagine Video 1.5 Lite on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-14/grok-imagine-video-15-lite-on-ai-gateway.md
+📥 Processing: Step 5 Preview now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-14/step-5-preview-now-available-on-ai-gateway.md
+📥 Processing: The “alien” economics of AI monetization
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-14/the-alien-economics-of-ai-monetization.md
+📥 Processing: Source material: Creative director Manon Macasaet’s spirituality shapes her process
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-14/source-material-creative-director-manon-macasaets-spirituality-shapes-her-process.md
+📥 Processing: 4 team rituals that drive AI adoption
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-14/4-team-rituals-that-drive-ai-adoption.md
+📥 Processing: Sightlines issue no.3: Raise the bar for how teams use AI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-14/sightlines-issue-no3-raise-the-bar-for-how-teams-use-ai.md
+📥 Processing: React習熟度ベンチマークでHaiku 5.5が見せた底力
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-14/reacthaiku-55.md
+📥 Processing: React習熟度ベンチマーク GPT最新号
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-14/react-gpt.md
+📥 Processing: SmartHRはKaigi on Rails 2026に協賛し、30名が参加、3名が登壇、2名がオーガナイザーを務めます！ そして、ブース出展と、学生参加支援、事後勉強会も実施します!! 渋谷でハチ合わせ!!!
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-14/smarthrkaigi-on-rails-20263032.md
+📥 Processing: PicoRubyKaigi 2026 Assembleにydahが登壇します —— オーガナイザーが紹介する当日の見どころ
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-14/picorubykaigi-2026-assembleydah.md
+📥 Processing: ソフトウェアサプライチェーン攻撃演習から学ぶ、インシデント対応に必要な5つの視点
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-14/co-10-09-162114.md
+📥 Processing: The New Siri’s Biggest Strength Is Not Intelligence
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-14/the-new-siris-biggest-strength-is-not-intelligence.md
+📥 Processing: Context Libraries: How AI Power Users Manage Context Engineering
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-14/context-libraries-how-ai-power-users-manage-context-engineering.md
+📥 Processing: AI-generated UI is fast design, not UX
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-14/ai-generated-ui-is-fast-design-not-ux.md
+📥 Processing: Pixels of the Week – October 11, 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-14/pixels-of-the-week-october-11-2026.md
+📥 Processing: This Week In React #301: TanStack Start, React Aria, Base UI, Satori, Next.js, Vitest RSC, MobX | RN Web, Tamagui, One, Skia, Observe, Screens, Hot Updater, Nano Icons | Deno, Bun, TS, JPEG XL, AsyncContext, Playwright, pnpm, Partytown
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-14/this-week-in-react-301-tanstack-start-react-aria-base-ui-satori-nextjs-vitest-rsc-mobx-rn-web-tamagu.md
+📥 Processing: Next.js 16.4, and a new way to visualize React apps
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-14/nextjs-164-and-a-new-way-to-visualize-react-apps.md
+
+📊 Summary:
+   ✅ Success: 73
+   ❌ Errors: 0
+🏁 Done!
