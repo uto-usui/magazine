@@ -36571,7 +36571,455 @@
     "https://thisweekinreact.com/newsletter/300": {
       "contentHash": "0d0fe7ae515971d106ccac4fbb57b1b223425354ff911c7bc042fce656ff5cba",
       "processedAt": "2026-10-08T05:08:05.812Z"
+    },
+    "https://engineering.atspotify.com/2026/10/introducing-spotify-technology-proven-at-spotify-now-yours/": {
+      "contentHash": "204c46cb424e3ef002769b943a1297289259d99259f78c28baa9f243c7784478",
+      "processedAt": "2026-10-16T03:39:52.672Z"
+    },
+    "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering/": {
+      "contentHash": "15d2e9907e6a83b17c622c88a7cac5217f21f5ad40ff2959ec1d708cde62af1c",
+      "processedAt": "2026-10-16T03:39:53.114Z"
+    },
+    "https://engineering.fb.com/2026/10/15/production-engineering/2026-world-cup-record-traffic-reliability-at-scale/": {
+      "contentHash": "00cce9682efae72fff45887f0f2e13ead2c23e7427f60e51044654a16a2a1568",
+      "processedAt": "2026-10-16T03:39:53.343Z"
+    },
+    "https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta/": {
+      "contentHash": "851b45333b33c07eeb4326ad31de7a46de3922303de405191eefd88156e8ceb7",
+      "processedAt": "2026-10-16T03:39:53.465Z"
+    },
+    "https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai/": {
+      "contentHash": "5a5ef9f020e33c2351640b598e20b1c5af57cff1e9ffabab9d9ff07f8541bc60",
+      "processedAt": "2026-10-16T03:39:53.792Z"
+    },
+    "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/": {
+      "contentHash": "49b6093801c01068c52f82205a9a3c92e4f583fa44972ef3dbe6a28cba86dfcf",
+      "processedAt": "2026-10-16T03:39:54.022Z"
+    },
+    "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/": {
+      "contentHash": "6ff85fd212839194c9be9f8a73068a23a402f2ebdd5db03f5687957fca15eb1f",
+      "processedAt": "2026-10-16T03:39:54.165Z"
+    },
+    "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/": {
+      "contentHash": "e47af003864fa2c2f21a687a27a42931ac9b8d0f1b89b3eaf2a24cfe9418fc3b",
+      "processedAt": "2026-10-16T03:39:54.327Z"
+    },
+    "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/": {
+      "contentHash": "acf0367a9d70e69dc26bc307cb8a432a5eb0d2a7cb0787628165612f3ed850fe",
+      "processedAt": "2026-10-16T03:39:54.863Z"
+    },
+    "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/": {
+      "contentHash": "e86eb8b1ef2f9243054d641aec702ca484eb388e2b15866343dabc94a63d4594",
+      "processedAt": "2026-10-16T03:39:55.324Z"
+    },
+    "https://csswizardry.com/2026/10/web-perf-wednesday-013-crux-adds-soft-navigation-core-web-vitals/": {
+      "contentHash": "f6dce3084ec82db27124b29a87cd7bcb1345754aa357b19fd1ef1fdf57649f14",
+      "processedAt": "2026-10-16T03:39:56.295Z"
+    },
+    "https://web.dev/blog/web-platform-09-2026?hl=en": {
+      "contentHash": "fedce6cc29922aa8f8023ee4192bb244ec97b9a938775a7eab96d8438481c1ea",
+      "processedAt": "2026-10-16T03:39:57.281Z"
+    },
+    "https://web.dev/blog/baseline-digest-aug-2026?hl=en": {
+      "contentHash": "3db2848bc8adc103f943c2465b3132df0a082262b462df8596442f1256334c1b",
+      "processedAt": "2026-10-16T03:39:57.940Z"
+    },
+    "https://web.dev/blog/coding-agents-interop-proposals?hl=en": {
+      "contentHash": "95536d5514bb7b7830390068d349c652fdc6d98eb8114876fea92fca2f31c5a2",
+      "processedAt": "2026-10-16T03:39:58.515Z"
+    },
+    "https://web.dev/blog/interop-2027-proposals?hl=en": {
+      "contentHash": "e131e0a5ef988822d2e23247be3c351dabeae96af7b201646398e134352a76eb",
+      "processedAt": "2026-10-16T03:39:59.270Z"
+    },
+    "https://web.dev/blog/web-platform-08-2026?hl=en": {
+      "contentHash": "f46198be3cdc3e5b1f781e135b59becf6b3bd6dce13337f0016eaff10b3602ce",
+      "processedAt": "2026-10-16T03:40:01.530Z"
+    },
+    "https://web.dev/blog/baseline-digest-jul-2026?hl=en": {
+      "contentHash": "10650ee60309fb8ce767c2f07e3562888d5a2c123f6f53b52e4cdd4b55acc6b1",
+      "processedAt": "2026-10-16T03:40:04.722Z"
+    },
+    "https://web.dev/blog/web-platform-07-2026?hl=en": {
+      "contentHash": "b4e397ac2d28dde19549c635abb7b9af7ad6e5ed38dab5377d944fb20833330a",
+      "processedAt": "2026-10-16T03:40:05.542Z"
+    },
+    "https://web.dev/blog/baseline-lighthouse-features-audit?hl=en": {
+      "contentHash": "c9d6184e366d21a862cd25ea8bb02b857d27264e1de7275074405aa53eb2238e",
+      "processedAt": "2026-10-16T03:40:06.051Z"
+    },
+    "https://web.dev/blog/baseline-digest-jun-2026?hl=en": {
+      "contentHash": "4aeb4208c1f15c6c30829239c17ac63c474e53d42ffaa7b9d36faaac92eed0a5",
+      "processedAt": "2026-10-16T03:40:06.529Z"
+    },
+    "https://web.dev/blog/web-platform-06-2026?hl=en": {
+      "contentHash": "3f03cde825b8cbca159db04186bc8cbf3268fb65889b5b29d686760f21f2b77f",
+      "processedAt": "2026-10-16T03:40:07.140Z"
+    },
+    "https://adrianroselli.com/2026/10/decorative-images.html": {
+      "contentHash": "45a3c8da86e16583131933331328d772ff6114d57120c310f0c4c74f2279919c",
+      "processedAt": "2026-10-16T03:40:07.906Z"
+    },
+    "https://a11yweekly.com/issue/521/": {
+      "contentHash": "5aff6e3e6ea441c2eff31754d2d6dc9923bd1bb5637acd8bb4e7ee32e2e72e23",
+      "processedAt": "2026-10-16T03:40:08.148Z"
+    },
+    "https://www.petermerholz.com/newsletter/newsletter-design-owns-coherence/": {
+      "contentHash": "878df82051dc31ae1fcd95e9dadfe9fe927f50cf636d6ec8395fc453a0009146",
+      "processedAt": "2026-10-16T03:40:08.718Z"
+    },
+    "https://mattrothenberg.com/notes/pure-ui-agentic-era/": {
+      "contentHash": "591cf667a037de608e9a1e7b0d92f132e8f027d817e701306021b0dc96ccd4a1",
+      "processedAt": "2026-10-16T03:40:13.832Z"
+    },
+    "https://text-effects.colorion.co/": {
+      "contentHash": "f108f18d1c27d51ebfcfcd576cf917ecfca0c6e5d782f459d8cc25340b8861fc",
+      "processedAt": "2026-10-16T03:40:18.360Z"
+    },
+    "https://prompt-motion.com/": {
+      "contentHash": "d876519b2dff326351c93e07f97b36b90a5e8208c7e4fbbae3f25b122dbff7f5",
+      "processedAt": "2026-10-16T03:40:25.727Z"
+    },
+    "https://sightlessscribbles.com/posts/disability-dongle/": {
+      "contentHash": "420eaab6322d05a18b78448c758e56df98a926b8504885a7edfddcf044cfb763",
+      "processedAt": "2026-10-16T03:40:26.459Z"
+    },
+    "https://uxdesign.cc/what-the-ai-era-owes-you-d472b3859bf3": {
+      "contentHash": "da8984a3736f9f29c833b0c8c7a3d9e9cc152d51eec4a2fa3b27e63575c073fa",
+      "processedAt": "2026-10-16T03:40:30.920Z"
+    },
+    "https://giannirosato.com/blog/post/case-against-jxl/": {
+      "contentHash": "8e5b89cde5fd103d9e5e3df9c1a0446699732f21e0519f89de8ae945cd43a991",
+      "processedAt": "2026-10-16T03:40:31.388Z"
+    },
+    "https://blog.jim-nielsen.com/2026/macos-dock-icons-over-time/": {
+      "contentHash": "9e9e25891aeeab2a95d01ba341c7a0061ad653950d6b9276e96f11fd74986762",
+      "processedAt": "2026-10-16T03:40:31.675Z"
+    },
+    "https://scandiary.com/accessibility-statements": {
+      "contentHash": "c42990705c7b4f958de54e12c4085962792ae3afd8441a1b6be338a8300a8f33",
+      "processedAt": "2026-10-16T03:40:31.797Z"
+    },
+    "https://mamuso.dev/note/imperfection": {
+      "contentHash": "141fe8e9d96b9e991305c73d7ec0a1152a8c8750ba03dda763f6abbb3ffd6213",
+      "processedAt": "2026-10-16T03:40:32.145Z"
+    },
+    "https://purplesyringa.moe/blog/grieving-the-loss-of-details/": {
+      "contentHash": "9ecaf909d0d46d2a2de74cb4cbbadb11e882f8ab0ed1f4b9bea2ac321be9fdb8",
+      "processedAt": "2026-10-16T03:40:32.217Z"
+    },
+    "https://www.carmenansio.com/articles/matchstick-flame-canvas/": {
+      "contentHash": "71d2f8345ac27170cfdd16bd7600e1007289dc6f98fe9e305205adf8c993b5ad",
+      "processedAt": "2026-10-16T03:40:32.534Z"
+    },
+    "https://energyicons.com/": {
+      "contentHash": "5429d3abd7f85b11217834276ec9b0304d836002d60ad6ee921f082a2f9b93ce",
+      "processedAt": "2026-10-16T03:40:53.800Z"
+    },
+    "https://designerfund.com/blog/ai-design-anthropic": {
+      "contentHash": "9d4c7a17ddb0cca58cc6dd0e088ae09a79b38795244b483c1d41c57e7efc82b3",
+      "processedAt": "2026-10-16T03:40:58.086Z"
+    },
+    "https://skills.wheresryan.sh/anatomy": {
+      "contentHash": "1b3b56dd4b30d3bf9388e347c134587f2ec696fd1b2c1ad72e73584c06ff98d7",
+      "processedAt": "2026-10-16T03:40:58.465Z"
+    },
+    "https://www.lukew.com/ff/2166/the-convergence-of-design": {
+      "contentHash": "402161f7dd1ef005e290c2c1b2bf76bfdd6e2bb49ee2a59886653d50db284972",
+      "processedAt": "2026-10-16T03:40:59.085Z"
+    },
+    "https://microsoft.design/articles/designing-michelangelus/": {
+      "contentHash": "b2d2acc9fe5a6fa0e400d1c96ea2fff7150c87dc9143b5af1f5d2e577015754b",
+      "processedAt": "2026-10-16T03:41:00.204Z"
+    },
+    "https://www.quantamagazine.org/is-ai-the-end-of-math-as-we-know-it-20261005/": {
+      "contentHash": "b90b632aee1af9e708374f3034e5440f34c4312fcb96006b8d3b2264f66f96df",
+      "processedAt": "2026-10-16T03:41:00.589Z"
+    },
+    "https://ssgoi.dev/": {
+      "contentHash": "0b1bfdd9987f5f961843ec9fa0c82caf28756bda5e5a072516eb506efb293666",
+      "processedAt": "2026-10-16T03:41:09.212Z"
+    },
+    "https://sheets.works/data-viz/holding-up-the-internet": {
+      "contentHash": "4b71aab6bd2ccc7b45683508c1a3a1d86ba9c6fbe93a375fa4ca14ae979160f2",
+      "processedAt": "2026-10-16T03:41:10.182Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-openai-software-engineer": {
+      "contentHash": "97803b4e089bebf65d26a8214cb52ec0ae766106cf8bcaaa58587fc6979dbbd7",
+      "processedAt": "2026-10-16T03:41:10.490Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside": {
+      "contentHash": "25a25bed6322e49afcf951303ebe28c74340f5db229842590653b3a20a69267e",
+      "processedAt": "2026-10-16T03:41:10.796Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/building-resilient-systems": {
+      "contentHash": "bb3f23322645608adef48d14878996cda932790e5c8121118fb2770a499b7d3a",
+      "processedAt": "2026-10-16T03:41:11.175Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-new-trend-of-building-internal": {
+      "contentHash": "33eef6be29b412b0907eb975970b626447a297f96da0f350218211b39688efea",
+      "processedAt": "2026-10-16T03:41:11.511Z"
+    },
+    "https://lea.verou.me/blog/2026/icons/": {
+      "contentHash": "81d54598f6ec13f65239b7f72622d8a4c6757eb822ba492e326dc6ba16202597",
+      "processedAt": "2026-10-16T03:41:11.711Z"
+    },
+    "https://www.sarasoueidan.com/blog/interop-2027-rankings/": {
+      "contentHash": "0bdf27b02af77902b84edb049b2f6f917eabb2ef591264ee10d258eef42e6441",
+      "processedAt": "2026-10-16T03:41:11.888Z"
+    },
+    "https://kilianvalkhof.com/2026/css-html/id-like-to-have-a-universal-pseudo-selector-in-css/": {
+      "contentHash": "d39e02f10f08754b461e624396bce125873cfa609fbbb8fae6bb4606b03ee8d7",
+      "processedAt": "2026-10-16T03:41:12.304Z"
+    },
+    "https://jakearchibald.com/2026/jpeg-xl-vs-avif/": {
+      "contentHash": "253bc3e8fd04ebfdc6fae899b3993cb1525626491ae71528f16be54bd41e13d1",
+      "processedAt": "2026-10-16T03:41:13.628Z"
+    },
+    "https://piccalil.li/the-index/201/": {
+      "contentHash": "dc35f2664f7d1e24cce84033846c839b575998b2fbd87797f1cf6bc792031932",
+      "processedAt": "2026-10-16T03:41:13.974Z"
+    },
+    "https://vercel.com/blog/ai-gateway-production-index-october-2026": {
+      "contentHash": "fde11705e25f8a0f7f955b07720eb13288b54ed09b9a81e5ef27edfc11053612",
+      "processedAt": "2026-10-16T03:41:14.983Z"
+    },
+    "https://vercel.com/blog/vercel-for-enterprise": {
+      "contentHash": "468397d1926234c1191c340f7060f241e37b4119b3221d8dbbccdcd3f79c8310",
+      "processedAt": "2026-10-16T03:41:16.889Z"
+    },
+    "https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents": {
+      "contentHash": "fa239335dd3d28f870eef8b848fc6c7f7aba2fd35249e0c18236ba67b974869e",
+      "processedAt": "2026-10-16T03:41:17.351Z"
+    },
+    "https://vercel.com/blog/backends-on-vercel-python-containers-and-daemons": {
+      "contentHash": "916dbabef2cd73a98c94ff55090b1e81f62b6a36569883f34723b01c7aa70107",
+      "processedAt": "2026-10-16T03:41:17.890Z"
+    },
+    "https://vercel.com/blog/python-on-vercel-is-now-generally-available": {
+      "contentHash": "120a5fe7b2262a48c3fd225a9ed50d3805f6cdccca0ce63da3be8acff7fe187b",
+      "processedAt": "2026-10-16T03:41:19.217Z"
+    },
+    "https://vercel.com/changelog/introducing-token-pass": {
+      "contentHash": "ac909f155f5c033c2dff5ada4d7de8e497d34861c98060d83f3be5fa6f07db15",
+      "processedAt": "2026-10-16T03:41:19.519Z"
+    },
+    "https://vercel.com/changelog/vercel-daemons-is-now-in-public-beta": {
+      "contentHash": "c9bc91e0f3bbdc80e287d91dd873a008797afea8499748d11b569fde98e80959",
+      "processedAt": "2026-10-16T03:41:19.930Z"
+    },
+    "https://vercel.com/changelog/liquid-ais-d1-ultra-now-available-on-ai-gateway": {
+      "contentHash": "15edd4a3225efdb748e302a3984036c7d881a74702e9bc457be8c5ba0c84acc5",
+      "processedAt": "2026-10-16T03:41:20.372Z"
+    },
+    "https://vercel.com/changelog/muse-spark-open-now-available-on-ai-gateway": {
+      "contentHash": "597c843e19896bc9e3c91218f4fc3e506f1da93b100ca76cefad2d9c249a1c78",
+      "processedAt": "2026-10-16T03:41:20.816Z"
+    },
+    "https://vercel.com/changelog/vercel-connect-secure-compute": {
+      "contentHash": "ab07d91653ec09a97968868e1f578c1f77c7df1b4b333c021a6f1bcdee239a4f",
+      "processedAt": "2026-10-16T03:41:21.226Z"
+    },
+    "https://vercel.com/changelog/cat-jam-is-now-available-in-stealth-for-free-on-ai-gateway": {
+      "contentHash": "763246bda5c7428a2719e1bbc69117bb376e0789a3ea432cb0b898d3cb1399a2",
+      "processedAt": "2026-10-16T03:41:21.662Z"
+    },
+    "https://vercel.com/changelog/vercel-drives-is-now-generally-available": {
+      "contentHash": "b754bab722964406d80e6b0544b2acae71a73acf3c3f91377800e7d76b87cab9",
+      "processedAt": "2026-10-16T03:41:22.162Z"
+    },
+    "https://vercel.com/changelog/bring-your-own-cloud-on-aws-is-now-generally-available": {
+      "contentHash": "9a8308087406fa252da1b55269f6923f8b1ba854a7a99a4f0d7dc708aac4dc19",
+      "processedAt": "2026-10-16T03:41:22.452Z"
+    },
+    "https://vercel.com/changelog/vercel-connect-adds-enterprise-managed-authorization": {
+      "contentHash": "c79127401f93b6f3e47107fadc504f2d5acb27b8c648756e475d348ce4f6b388",
+      "processedAt": "2026-10-16T03:41:22.778Z"
+    },
+    "https://vercel.com/changelog/mcp-events-support-in-vercel-connect-is-now-in-public-beta": {
+      "contentHash": "d44af83b97180eaf57a281541e981babac5e763f8f8240b4c91aa40d55a37174",
+      "processedAt": "2026-10-16T03:41:23.234Z"
+    },
+    "https://vercel.com/changelog/python-on-vercel-is-now-generally-available": {
+      "contentHash": "d448647858cae36cbc55685b1fd83c30b04275983bf36ff3adb2196bc23ed5a9",
+      "processedAt": "2026-10-16T03:41:23.708Z"
+    },
+    "https://vercel.com/changelog/typesafe-ais-jev-1-14-is-now-available-on-ai-gateway": {
+      "contentHash": "b5b9af980930b8ba136952407013e426759411b07e8c40d3b01f7c3def26c37a",
+      "processedAt": "2026-10-16T03:41:24.240Z"
+    },
+    "https://vercel.com/blog/findings-from-the-1-million-dollar-vercel-sandbox-challenge": {
+      "contentHash": "833a422daed5d43e1b9fa6a5508bd4733eafb42fc33a20618b88fa98ee3b722b",
+      "processedAt": "2026-10-16T03:41:24.722Z"
+    },
+    "https://vercel.com/changelog/amazon-s3-joins-the-vercel-marketplace": {
+      "contentHash": "de013fc86e8268780d799697f82da3812a55285507458d912f58922170566cf1",
+      "processedAt": "2026-10-16T03:41:25.312Z"
+    },
+    "https://vercel.com/changelog/nemotron-3-5-lightning-now-available-on-ai-gateway-for-free": {
+      "contentHash": "899d0489ec4feca4b378c75e885d4d6c5e5b7aa8765a2307ce8c685af02b322b",
+      "processedAt": "2026-10-16T03:41:25.802Z"
+    },
+    "https://vercel.com/changelog/drama-3-now-available-on-ai-gateway": {
+      "contentHash": "359354beeff229e405e35f95c5a747ccec0dcaeaf23a14d17aa21bf0683d48be",
+      "processedAt": "2026-10-16T03:41:26.343Z"
+    },
+    "https://vercel.com/changelog/mai-image-2-6-and-mai-image-2-6-flash-now-available-on-ai-gateway": {
+      "contentHash": "7131a417fd818237c625a0fb2efb282b6bf2af65b86a65d18b532a489a56d52a",
+      "processedAt": "2026-10-16T03:41:26.869Z"
+    },
+    "https://vercel.com/changelog/repository-checkout-and-git-lfs-downloads-are-now-faster": {
+      "contentHash": "004e5b709daa513b48afcc92588d5e20bac28b44f266ebc2a4007cc00b0b1351",
+      "processedAt": "2026-10-16T03:41:27.254Z"
+    },
+    "https://vercel.com/changelog/gemini-4-argon-now-available-on-ai-gateway": {
+      "contentHash": "24d52adc54efa26d4fd2b254eaf9603853bdc557215e763aeba3780a09e2b2e5",
+      "processedAt": "2026-10-16T03:41:27.769Z"
+    },
+    "https://vercel.com/changelog/muse-wonder-now-available-on-ai-gateway": {
+      "contentHash": "9f3e95a16e1c85cd87321801bef30c2449b73594c878da6f374865daa179393b",
+      "processedAt": "2026-10-16T03:41:28.227Z"
+    },
+    "https://vercel.com/changelog/agents-can-now-buy-domains-with-the-vercel-cli": {
+      "contentHash": "5149056aa394c0a3f2fcc465763e5d8886f0ed9be28e691909e810bdeebe6772",
+      "processedAt": "2026-10-16T03:41:28.819Z"
+    },
+    "https://vercel.com/changelog/new-pro-teams-now-default-to-30-day-deployment-retention": {
+      "contentHash": "1fe852143be1d70772b36d3d80b4ce2d9850320ecb415999ffc1a63559153b5b",
+      "processedAt": "2026-10-16T03:41:29.258Z"
+    },
+    "https://vercel.com/changelog/deployment-storage-pricing-expands-to-existing-teams": {
+      "contentHash": "d538012e5f28ff2ae51c8de78e75dedba7b0131b06aff59bc722604f871945a4",
+      "processedAt": "2026-10-16T03:41:29.665Z"
+    },
+    "https://vercel.com/blog/how-rillet-ships-3-faster-with-ai-agents-on-vercel": {
+      "contentHash": "ec4a4325949cad34197e7a1bfc6c50093ed5ff8f34d4358309c7d3840f1a1abd",
+      "processedAt": "2026-10-16T03:41:31.023Z"
+    },
+    "https://vercel.com/changelog/microsoft-decision-1-now-available-on-ai-gateway": {
+      "contentHash": "96e8b4bcb1b7a2ab4cd3a34c83a5dc73e31c269103b6a21d25c74f83c7a71e62",
+      "processedAt": "2026-10-16T03:41:31.480Z"
+    },
+    "https://vercel.com/changelog/liquid-ai-d1-is-available-on-ai-gateway": {
+      "contentHash": "eba804638febef9cf7ec6ebe9496b56c8273e859aa5f4a41b9586cbcadb1dd24",
+      "processedAt": "2026-10-16T03:41:32.001Z"
+    },
+    "https://vercel.com/changelog/skip-sending-request-bodies-to-routing-middleware": {
+      "contentHash": "a17ee9c1c58892a5bb17f590f151f77eec183ce2946a0757a25ae906dd61bc73",
+      "processedAt": "2026-10-16T03:41:32.474Z"
+    },
+    "https://vercel.com/changelog/sandbox-create-waits-until-ready": {
+      "contentHash": "74b2529f38f73337797812b917cfe057457c71e5541843b872aee3a263e9bf6c",
+      "processedAt": "2026-10-16T03:41:33.121Z"
+    },
+    "https://vercel.com/changelog/grok-imagine-video-1-5-lite-on-ai-gateway": {
+      "contentHash": "eb15bf13c08fe676fbe647783a8f905fd610856f5c927c13edf28fae435facbf",
+      "processedAt": "2026-10-16T03:41:33.554Z"
+    },
+    "https://vercel.com/changelog/step-5-preview-now-available-on-ai-gateway": {
+      "contentHash": "f053097959f53f4d3be84e001824e00bc7e4fe6e9c7ff446558032baf9b3cf84",
+      "processedAt": "2026-10-16T03:41:34.013Z"
+    },
+    "https://stripe.com/blog/real-time-stripe-data-postgres": {
+      "contentHash": "4500fc37dcb9ccdfb647054c155d01272435910a8129809b701c6d2aa4e0ce4b",
+      "processedAt": "2026-10-16T03:41:34.507Z"
+    },
+    "https://stripe.com/blog/economics-of-ai-monetization": {
+      "contentHash": "8d79effd081222581ad1b1dae6ac1aef0d33b0ae9a6a4d269c131bf6e694aa9e",
+      "processedAt": "2026-10-16T03:41:34.843Z"
+    },
+    "https://www.figma.com/blog/figma-deepens-investment-in-india/": {
+      "contentHash": "93f6f283b2618b12223bcbeafd5af1035ac047f49f20d9a435331e2396a1a7ff",
+      "processedAt": "2026-10-16T03:42:00.006Z"
+    },
+    "https://www.figma.com/blog/build-by-design/": {
+      "contentHash": "d678e77fe655c19c021316e2b1ddf61a0a5dfa5700e8fb05306024bad13260e5",
+      "processedAt": "2026-10-16T03:42:29.411Z"
+    },
+    "https://www.figma.com/blog/design-together-with-code-layers/": {
+      "contentHash": "22faae6fc6b1637dbeafd159438ea1826da2b70276119d93fcf6cee1f279a6c5",
+      "processedAt": "2026-10-16T03:43:10.161Z"
+    },
+    "https://www.figma.com/blog/introducing-figma-specs/": {
+      "contentHash": "a5f9baf82561b2757a2f32829444f44b37ac7587a3f388b096f539b179877250",
+      "processedAt": "2026-10-16T03:43:52.764Z"
+    },
+    "https://www.figma.com/blog/websites-with-payload-in-figma/": {
+      "contentHash": "bd5ad7b45e52198a1d631e34f37ba6a9031c8d6ed46e75c851df92884dc41074",
+      "processedAt": "2026-10-16T03:44:29.458Z"
+    },
+    "https://www.figma.com/blog/source-material-manon-macasaet/": {
+      "contentHash": "f1337afe8a0b348f3e1813b93305a50737d9f5d0c5e8680c93ead479a17e2216",
+      "processedAt": "2026-10-16T03:44:48.656Z"
+    },
+    "https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/": {
+      "contentHash": "104c5f81d553e4d40625c655a789d7b11ed2e0599d9b01420c0ed778a5cee4a5",
+      "processedAt": "2026-10-16T03:45:22.872Z"
+    },
+    "https://www.figma.com/blog/sightlines-issue-no3/": {
+      "contentHash": "682bf93e42c604f31ec3c725ab44535fe871a36f5439604eb14b66aac3737323",
+      "processedAt": "2026-10-16T03:45:47.735Z"
+    },
+    "https://frontendfoc.us/issues/762": {
+      "contentHash": "a7a04efbe7fa69855466eb610ef3d9cf45df9cc99307cf6c8589dcf11fadee26",
+      "processedAt": "2026-10-16T03:45:48.321Z"
+    },
+    "https://zenn.dev/uhyo/articles/react-profession-bench-20": {
+      "contentHash": "53951bd7eecf231926c7b2b4fa4b4dc494bf345407ab20f6c0d3e86561663cd1",
+      "processedAt": "2026-10-16T03:45:49.061Z"
+    },
+    "https://zenn.dev/uhyo/articles/react-profession-bench-19": {
+      "contentHash": "386647029768d126480e2388da95c96d1b30796f0ab8408c6af0ad4b24eb6df3",
+      "processedAt": "2026-10-16T03:45:49.721Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/10/15/155815": {
+      "contentHash": "4cfec5361896058cc7f25673eb20212623bfc4445c3b24b17ecadd1662b0dc00",
+      "processedAt": "2026-10-16T03:45:50.892Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/10/15/142322": {
+      "contentHash": "bee1a3a01b184c1bafcdaa4855e2274747e69e0a3587079cb4dd7b1db7ca6d57",
+      "processedAt": "2026-10-16T03:45:51.394Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/10/14/145752": {
+      "contentHash": "872c07ac203c5573e6c253e05446e9c65b1d58568b3dbc2a1f5648dd7b79296f",
+      "processedAt": "2026-10-16T03:45:51.732Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/10/09/134458": {
+      "contentHash": "7ea3b460438eeab913f006b4bd1848131dc5a82d287f65aebc5b8d72fb0018d1",
+      "processedAt": "2026-10-16T03:45:52.779Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/10/08/150000": {
+      "contentHash": "0d6a97407dcc9a0747985b8d216abbf4c8718cdb1cb08609853e8f4baafb1945",
+      "processedAt": "2026-10-16T03:45:53.343Z"
+    },
+    "https://tech.layerx.co.jp/entry/2026/10/09/162114": {
+      "contentHash": "0292e98d3f2e8de0f06ebe12f5559555f11c690d7e90cb4364e0aa5af453dda7",
+      "processedAt": "2026-10-16T03:45:54.148Z"
+    },
+    "https://www.nngroup.com/articles/ai-assistant-context/": {
+      "contentHash": "7247c0c85937c46aae7625d0bdac9f1c1daf9589797d1cdf41a664448895dd3e",
+      "processedAt": "2026-10-16T03:45:56.755Z"
+    },
+    "https://www.nngroup.com/articles/context-libraries/": {
+      "contentHash": "895a7bb37fc2b605fdbea48277f59f8c78a5b10ae777cafd34cab8bba9939244",
+      "processedAt": "2026-10-16T03:45:57.501Z"
+    },
+    "https://newsletter.uxdesign.cc/p/ai-generated-ui-is-fast-design-not": {
+      "contentHash": "da1dd8191bf36b51febe577ef29ec26fc3faf889ad7e71ea0cdd76d118d3891e",
+      "processedAt": "2026-10-16T03:45:57.982Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-october-11-2026/": {
+      "contentHash": "e3954a37cc051fb0e33657216be689450f53839b0b75442deaebe4ee1b3a3a12",
+      "processedAt": "2026-10-16T03:45:59.109Z"
+    },
+    "https://thisweekinreact.com/newsletter/301": {
+      "contentHash": "24f33d874975463d53209b0d50a8954c4e503368cc2655ab70c282964ca6ed32",
+      "processedAt": "2026-10-16T03:45:59.505Z"
+    },
+    "https://react.statuscode.com/issues/493": {
+      "contentHash": "2b97b7469b4d507b3bc5f1270acc35bb6e75779074b92317dbe10a5972517288",
+      "processedAt": "2026-10-16T03:46:00.071Z"
     }
   },
-  "lastRun": "2026-10-08T05:08:05.812Z"
+  "lastRun": "2026-10-16T03:46:00.071Z"
 }
