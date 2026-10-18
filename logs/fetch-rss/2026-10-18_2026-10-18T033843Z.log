@@ -1,0 +1,59 @@
+articles_dir=2026-10-18
+exit_code=0
+timestamp_utc=2026-10-18T03:38:43Z
+
+---- issue lines ----
+10:❌ Playwright failed for Codrops: HTTP 403
+13:Failed to fetch feed Adrian Roselli after 3 attempts: Request timed out after 15000ms
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-18/vercel-connect-adds-enterprise-managed-authorization.md
+📥 Processing: MCP Events support in Vercel Connect is now in public beta
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-18/mcp-events-support-in-vercel-connect-is-now-in-public-beta.md
+📥 Processing: Python on Vercel is now generally available
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-18/python-on-vercel-is-now-generally-available-1.md
+📥 Processing: TypeSafe AI's Jev 1.14 is now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-18/typesafe-ais-jev-114-is-now-available-on-ai-gateway.md
+📥 Processing: Findings from the $1M Vercel Sandbox challenge
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-18/findings-from-the-1m-vercel-sandbox-challenge.md
+📥 Processing: Amazon S3 joins the Vercel Marketplace
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-18/amazon-s3-joins-the-vercel-marketplace.md
+📥 Processing: Nemotron 3.5 Lightning now available on AI Gateway for free
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-18/nemotron-35-lightning-now-available-on-ai-gateway-for-free.md
+📥 Processing: Auto-add Git committers now available for Enterprise teams
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-18/auto-add-git-committers-now-available-for-enterprise-teams.md
+📥 Processing: New ways for fintechs to move money and expand globally
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-18/new-ways-for-fintechs-to-move-money-and-expand-globally.md
+📥 Processing: Sync real-time Stripe data to Postgres with Stripe Data Pipeline
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-18/sync-real-time-stripe-data-to-postgres-with-stripe-data-pipeline.md
+📥 Processing: Figma deepens investment in India with largest international Config yet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-18/figma-deepens-investment-in-india-with-largest-international-config-yet.md
+📥 Processing: Build by design: New workflows for new ways of building
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-18/build-by-design-new-workflows-for-new-ways-of-building.md
+📥 Processing: Design together with code layers on the canvas
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-18/design-together-with-code-layers-on-the-canvas.md
+📥 Processing: Introducing Specs: Markdown as a medium
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-18/introducing-specs-markdown-as-a-medium.md
+📥 Processing: Create, ship, and manage data-backed websites with Payload in Figma
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-18/create-ship-and-manage-data-backed-websites-with-payload-in-figma.md
+📥 Processing: The best way to use icons in Web UIs
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-18/the-best-way-to-use-icons-in-web-uis.md
+📥 Processing: システムが正常でも、お客さまの業務は止まっているかもしれない。SmartHRのCREが挑む「顧客の可観測性」
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-18/smarthrcre.md
+📥 Processing: 名古屋Ruby会議05に協賛しました！——粋な出囃子と落語で彩られたトーク
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-18/ruby05.md
+📥 Processing: Kaigi on Rails 2026に向けて「きみはどのハチ公？ 開発タイプ診断！」社内お披露目会を開催しました！
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-18/kaigi-on-rails-2026.md
+📥 Processing: 点を線にして、QA組織の次の「当たり前」をつくっていく
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-18/qa.md
+📥 Processing: UX Maps: Glossary
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-18/ux-maps-glossary.md
+📥 Processing: Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-18/synthetic-users-vs-human-respondents-same-conclusion-less-variation.md
+📥 Processing: React Native 0.88 - Web-Based Event Dispatching, Variable Fonts, SceneDelegate, no breaking changes
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-18/react-native-088-web-based-event-dispatching-variable-fonts-scenedelegate-no-breaking-changes.md
+
+📊 Summary:
+   ✅ Success: 70
+   ❌ Errors: 0
+🏁 Done!
