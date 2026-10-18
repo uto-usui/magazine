@@ -36859,7 +36859,287 @@
     "https://react.statuscode.com/issues/493": {
       "contentHash": "2b97b7469b4d507b3bc5f1270acc35bb6e75779074b92317dbe10a5972517288",
       "processedAt": "2026-10-14T04:02:36.785Z"
+    },
+    "https://engineering.atspotify.com/2026/10/advancing-generative-recommendation-inference-our-collaboration-with-nvidia-on-tensorrt-llm/": {
+      "contentHash": "7823fbd66de08a6a6edacc917bed5d4f8275a83119172e3e83cbb1f0805b6f2b",
+      "processedAt": "2026-10-18T03:36:17.402Z"
+    },
+    "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering/": {
+      "contentHash": "15d2e9907e6a83b17c622c88a7cac5217f21f5ad40ff2959ec1d708cde62af1c",
+      "processedAt": "2026-10-18T03:36:17.749Z"
+    },
+    "https://engineering.fb.com/2026/10/15/production-engineering/2026-world-cup-record-traffic-reliability-at-scale/": {
+      "contentHash": "00cce9682efae72fff45887f0f2e13ead2c23e7427f60e51044654a16a2a1568",
+      "processedAt": "2026-10-18T03:36:17.914Z"
+    },
+    "https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta/": {
+      "contentHash": "851b45333b33c07eeb4326ad31de7a46de3922303de405191eefd88156e8ceb7",
+      "processedAt": "2026-10-18T03:36:18.008Z"
+    },
+    "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/": {
+      "contentHash": "acf0367a9d70e69dc26bc307cb8a432a5eb0d2a7cb0787628165612f3ed850fe",
+      "processedAt": "2026-10-18T03:36:18.882Z"
+    },
+    "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/": {
+      "contentHash": "e86eb8b1ef2f9243054d641aec702ca484eb388e2b15866343dabc94a63d4594",
+      "processedAt": "2026-10-18T03:36:19.217Z"
+    },
+    "https://csswizardry.com/2026/10/web-perf-wednesday-013-crux-adds-soft-navigation-core-web-vitals/": {
+      "contentHash": "f6dce3084ec82db27124b29a87cd7bcb1345754aa357b19fd1ef1fdf57649f14",
+      "processedAt": "2026-10-18T03:36:19.790Z"
+    },
+    "https://www.petermerholz.com/newsletter/newsletter-design-owns-coherence/": {
+      "contentHash": "878df82051dc31ae1fcd95e9dadfe9fe927f50cf636d6ec8395fc453a0009146",
+      "processedAt": "2026-10-18T03:36:20.423Z"
+    },
+    "https://mattrothenberg.com/notes/pure-ui-agentic-era/": {
+      "contentHash": "591cf667a037de608e9a1e7b0d92f132e8f027d817e701306021b0dc96ccd4a1",
+      "processedAt": "2026-10-18T03:36:25.210Z"
+    },
+    "https://text-effects.colorion.co/": {
+      "contentHash": "f108f18d1c27d51ebfcfcd576cf917ecfca0c6e5d782f459d8cc25340b8861fc",
+      "processedAt": "2026-10-18T03:36:28.293Z"
+    },
+    "https://prompt-motion.com/": {
+      "contentHash": "d876519b2dff326351c93e07f97b36b90a5e8208c7e4fbbae3f25b122dbff7f5",
+      "processedAt": "2026-10-18T03:36:34.708Z"
+    },
+    "https://sightlessscribbles.com/posts/disability-dongle/": {
+      "contentHash": "420eaab6322d05a18b78448c758e56df98a926b8504885a7edfddcf044cfb763",
+      "processedAt": "2026-10-18T03:36:35.141Z"
+    },
+    "https://uxdesign.cc/what-the-ai-era-owes-you-d472b3859bf3": {
+      "contentHash": "da8984a3736f9f29c833b0c8c7a3d9e9cc152d51eec4a2fa3b27e63575c073fa",
+      "processedAt": "2026-10-18T03:36:39.571Z"
+    },
+    "https://giannirosato.com/blog/post/case-against-jxl/": {
+      "contentHash": "8e5b89cde5fd103d9e5e3df9c1a0446699732f21e0519f89de8ae945cd43a991",
+      "processedAt": "2026-10-18T03:36:40.021Z"
+    },
+    "https://blog.jim-nielsen.com/2026/macos-dock-icons-over-time/": {
+      "contentHash": "9e9e25891aeeab2a95d01ba341c7a0061ad653950d6b9276e96f11fd74986762",
+      "processedAt": "2026-10-18T03:36:40.567Z"
+    },
+    "https://scandiary.com/accessibility-statements": {
+      "contentHash": "c42990705c7b4f958de54e12c4085962792ae3afd8441a1b6be338a8300a8f33",
+      "processedAt": "2026-10-18T03:36:40.789Z"
+    },
+    "https://mamuso.dev/note/imperfection": {
+      "contentHash": "141fe8e9d96b9e991305c73d7ec0a1152a8c8750ba03dda763f6abbb3ffd6213",
+      "processedAt": "2026-10-18T03:36:41.379Z"
+    },
+    "https://purplesyringa.moe/blog/grieving-the-loss-of-details/": {
+      "contentHash": "9ecaf909d0d46d2a2de74cb4cbbadb11e882f8ab0ed1f4b9bea2ac321be9fdb8",
+      "processedAt": "2026-10-18T03:36:41.671Z"
+    },
+    "https://www.carmenansio.com/articles/matchstick-flame-canvas/": {
+      "contentHash": "71d2f8345ac27170cfdd16bd7600e1007289dc6f98fe9e305205adf8c993b5ad",
+      "processedAt": "2026-10-18T03:36:42.022Z"
+    },
+    "https://energyicons.com/": {
+      "contentHash": "5429d3abd7f85b11217834276ec9b0304d836002d60ad6ee921f082a2f9b93ce",
+      "processedAt": "2026-10-18T03:36:58.363Z"
+    },
+    "https://designerfund.com/blog/ai-design-anthropic": {
+      "contentHash": "9d4c7a17ddb0cca58cc6dd0e088ae09a79b38795244b483c1d41c57e7efc82b3",
+      "processedAt": "2026-10-18T03:37:00.966Z"
+    },
+    "https://skills.wheresryan.sh/anatomy": {
+      "contentHash": "1b3b56dd4b30d3bf9388e347c134587f2ec696fd1b2c1ad72e73584c06ff98d7",
+      "processedAt": "2026-10-18T03:37:01.687Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-openai-software-engineer": {
+      "contentHash": "97803b4e089bebf65d26a8214cb52ec0ae766106cf8bcaaa58587fc6979dbbd7",
+      "processedAt": "2026-10-18T03:37:01.966Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside": {
+      "contentHash": "25a25bed6322e49afcf951303ebe28c74340f5db229842590653b3a20a69267e",
+      "processedAt": "2026-10-18T03:37:02.391Z"
+    },
+    "https://smashingmagazine.com/2026/10/is-your-organization-messing-up-ai-adoption/": {
+      "contentHash": "a96b5ce0afb61f058bb2b7c78f7f25b344b42b4aa03e07d18b995ec41e12c3f1",
+      "processedAt": "2026-10-18T03:37:03.394Z"
+    },
+    "https://ics.media/entry/261016/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-10-18T03:37:04.352Z"
+    },
+    "https://jakearchibald.com/2026/jpeg-xl-vs-avif/": {
+      "contentHash": "652c01c75f1652d79d38273159f75d102ba63b7ac1dd04e81aaf4cae9957e7fe",
+      "processedAt": "2026-10-18T03:37:05.478Z"
+    },
+    "https://piccalil.li/the-index/202/": {
+      "contentHash": "88995301849059343fba732a30c4b9712d275683d633c436494b92701ff7b11d",
+      "processedAt": "2026-10-18T03:37:05.746Z"
+    },
+    "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity": {
+      "contentHash": "4b5927d208747e4a055fcf056b6c6be0f4a2e8860914da62d150d0058c47f2f1",
+      "processedAt": "2026-10-18T03:37:06.126Z"
+    },
+    "https://vercel.com/changelog/deepseek-v4-1-flash-1017-now-available-on-ai-gateway": {
+      "contentHash": "a09c409f980803b1d6955f5f6770c9cd0a0114baf374b6ee4558ea34afa9dcf0",
+      "processedAt": "2026-10-18T03:37:06.449Z"
+    },
+    "https://vercel.com/blog/vercel-and-shopify-make-agents-first-class-shoppers": {
+      "contentHash": "0292f5f9cd5c5efab58ca09dc5ac233ccdff405c6193acc3d711109b96d2220b",
+      "processedAt": "2026-10-18T03:37:06.953Z"
+    },
+    "https://vercel.com/changelog/elorian-ai-glimpse-now-available-on-ai-gateway": {
+      "contentHash": "c6dc81d0f19d82f78b91e2a1103d13942acd7ff59d067d2a51686112ce838ac1",
+      "processedAt": "2026-10-18T03:37:07.294Z"
+    },
+    "https://vercel.com/changelog/perplexity-decider-v1-2-models-now-available-on-ai-gateway": {
+      "contentHash": "94e477628ea153aff2073d9286829106298b0584edab47365239e09b698b27d2",
+      "processedAt": "2026-10-18T03:37:07.598Z"
+    },
+    "https://vercel.com/changelog/reflection-ai-beam-now-available-on-ai-gateway-for-free": {
+      "contentHash": "514af837ef180f30abf9d820c344a397141705cbdb5d39026f61abf1151b5250",
+      "processedAt": "2026-10-18T03:37:07.907Z"
+    },
+    "https://vercel.com/blog/ai-gateway-production-index-october-2026": {
+      "contentHash": "fde11705e25f8a0f7f955b07720eb13288b54ed09b9a81e5ef27edfc11053612",
+      "processedAt": "2026-10-18T03:37:08.631Z"
+    },
+    "https://vercel.com/blog/vercel-for-enterprise": {
+      "contentHash": "468397d1926234c1191c340f7060f241e37b4119b3221d8dbbccdcd3f79c8310",
+      "processedAt": "2026-10-18T03:37:09.285Z"
+    },
+    "https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents": {
+      "contentHash": "fa239335dd3d28f870eef8b848fc6c7f7aba2fd35249e0c18236ba67b974869e",
+      "processedAt": "2026-10-18T03:37:09.622Z"
+    },
+    "https://vercel.com/blog/backends-on-vercel-python-containers-and-daemons": {
+      "contentHash": "916dbabef2cd73a98c94ff55090b1e81f62b6a36569883f34723b01c7aa70107",
+      "processedAt": "2026-10-18T03:37:10.035Z"
+    },
+    "https://vercel.com/blog/python-on-vercel-is-now-generally-available": {
+      "contentHash": "120a5fe7b2262a48c3fd225a9ed50d3805f6cdccca0ce63da3be8acff7fe187b",
+      "processedAt": "2026-10-18T03:37:10.621Z"
+    },
+    "https://vercel.com/changelog/introducing-token-pass": {
+      "contentHash": "ac909f155f5c033c2dff5ada4d7de8e497d34861c98060d83f3be5fa6f07db15",
+      "processedAt": "2026-10-18T03:37:10.908Z"
+    },
+    "https://vercel.com/changelog/vercel-daemons-is-now-in-public-beta": {
+      "contentHash": "c9bc91e0f3bbdc80e287d91dd873a008797afea8499748d11b569fde98e80959",
+      "processedAt": "2026-10-18T03:37:11.201Z"
+    },
+    "https://vercel.com/changelog/liquid-ais-d1-ultra-now-available-on-ai-gateway": {
+      "contentHash": "15edd4a3225efdb748e302a3984036c7d881a74702e9bc457be8c5ba0c84acc5",
+      "processedAt": "2026-10-18T03:37:11.531Z"
+    },
+    "https://vercel.com/changelog/muse-spark-open-now-available-on-ai-gateway": {
+      "contentHash": "597c843e19896bc9e3c91218f4fc3e506f1da93b100ca76cefad2d9c249a1c78",
+      "processedAt": "2026-10-18T03:37:11.853Z"
+    },
+    "https://vercel.com/changelog/vercel-connect-secure-compute": {
+      "contentHash": "ab07d91653ec09a97968868e1f578c1f77c7df1b4b333c021a6f1bcdee239a4f",
+      "processedAt": "2026-10-18T03:37:12.160Z"
+    },
+    "https://vercel.com/changelog/cat-jam-is-now-available-in-stealth-for-free-on-ai-gateway": {
+      "contentHash": "763246bda5c7428a2719e1bbc69117bb376e0789a3ea432cb0b898d3cb1399a2",
+      "processedAt": "2026-10-18T03:37:12.490Z"
+    },
+    "https://vercel.com/changelog/vercel-drives-is-now-generally-available": {
+      "contentHash": "b754bab722964406d80e6b0544b2acae71a73acf3c3f91377800e7d76b87cab9",
+      "processedAt": "2026-10-18T03:37:12.850Z"
+    },
+    "https://vercel.com/changelog/bring-your-own-cloud-on-aws-is-now-generally-available": {
+      "contentHash": "9a8308087406fa252da1b55269f6923f8b1ba854a7a99a4f0d7dc708aac4dc19",
+      "processedAt": "2026-10-18T03:37:13.141Z"
+    },
+    "https://vercel.com/changelog/vercel-connect-adds-enterprise-managed-authorization": {
+      "contentHash": "c79127401f93b6f3e47107fadc504f2d5acb27b8c648756e475d348ce4f6b388",
+      "processedAt": "2026-10-18T03:37:13.455Z"
+    },
+    "https://vercel.com/changelog/mcp-events-support-in-vercel-connect-is-now-in-public-beta": {
+      "contentHash": "777e032d6971767821d3a19f49e06dbef2654d78ca6ab1b981aefaf7ff240abd",
+      "processedAt": "2026-10-18T03:37:13.814Z"
+    },
+    "https://vercel.com/changelog/python-on-vercel-is-now-generally-available": {
+      "contentHash": "d448647858cae36cbc55685b1fd83c30b04275983bf36ff3adb2196bc23ed5a9",
+      "processedAt": "2026-10-18T03:37:14.162Z"
+    },
+    "https://vercel.com/changelog/typesafe-ais-jev-1-14-is-now-available-on-ai-gateway": {
+      "contentHash": "b5b9af980930b8ba136952407013e426759411b07e8c40d3b01f7c3def26c37a",
+      "processedAt": "2026-10-18T03:37:14.507Z"
+    },
+    "https://vercel.com/blog/findings-from-the-1-million-dollar-vercel-sandbox-challenge": {
+      "contentHash": "833a422daed5d43e1b9fa6a5508bd4733eafb42fc33a20618b88fa98ee3b722b",
+      "processedAt": "2026-10-18T03:37:14.847Z"
+    },
+    "https://vercel.com/changelog/amazon-s3-joins-the-vercel-marketplace": {
+      "contentHash": "de013fc86e8268780d799697f82da3812a55285507458d912f58922170566cf1",
+      "processedAt": "2026-10-18T03:37:15.196Z"
+    },
+    "https://vercel.com/changelog/nemotron-3-5-lightning-now-available-on-ai-gateway-for-free": {
+      "contentHash": "899d0489ec4feca4b378c75e885d4d6c5e5b7aa8765a2307ce8c685af02b322b",
+      "processedAt": "2026-10-18T03:37:15.538Z"
+    },
+    "https://vercel.com/changelog/auto-add-git-committers-now-available-for-enterprise-teams": {
+      "contentHash": "f70bd9c9684c9bceb1554b1ecbe67f045e5ecb948b5c8ccbaba2d0ca2efd6215",
+      "processedAt": "2026-10-18T03:37:16.031Z"
+    },
+    "https://stripe.com/blog/new-ways-for-fintechs-to-move-money-and-expand-globally": {
+      "contentHash": "a6008c9d5f333a9f818645876c7a733bbdcdd5ab47b2ada699bdd223ae35f853",
+      "processedAt": "2026-10-18T03:37:16.632Z"
+    },
+    "https://stripe.com/blog/real-time-stripe-data-postgres": {
+      "contentHash": "4500fc37dcb9ccdfb647054c155d01272435910a8129809b701c6d2aa4e0ce4b",
+      "processedAt": "2026-10-18T03:37:16.885Z"
+    },
+    "https://www.figma.com/blog/figma-deepens-investment-in-india/": {
+      "contentHash": "93f6f283b2618b12223bcbeafd5af1035ac047f49f20d9a435331e2396a1a7ff",
+      "processedAt": "2026-10-18T03:37:28.030Z"
+    },
+    "https://www.figma.com/blog/build-by-design/": {
+      "contentHash": "d678e77fe655c19c021316e2b1ddf61a0a5dfa5700e8fb05306024bad13260e5",
+      "processedAt": "2026-10-18T03:37:41.742Z"
+    },
+    "https://www.figma.com/blog/design-together-with-code-layers/": {
+      "contentHash": "22faae6fc6b1637dbeafd159438ea1826da2b70276119d93fcf6cee1f279a6c5",
+      "processedAt": "2026-10-18T03:38:00.122Z"
+    },
+    "https://www.figma.com/blog/introducing-figma-specs/": {
+      "contentHash": "a5f9baf82561b2757a2f32829444f44b37ac7587a3f388b096f539b179877250",
+      "processedAt": "2026-10-18T03:38:19.030Z"
+    },
+    "https://www.figma.com/blog/websites-with-payload-in-figma/": {
+      "contentHash": "bd5ad7b45e52198a1d631e34f37ba6a9031c8d6ed46e75c851df92884dc41074",
+      "processedAt": "2026-10-18T03:38:35.431Z"
+    },
+    "https://frontendfoc.us/issues/762": {
+      "contentHash": "a7a04efbe7fa69855466eb610ef3d9cf45df9cc99307cf6c8589dcf11fadee26",
+      "processedAt": "2026-10-18T03:38:36.160Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/10/16/164423": {
+      "contentHash": "7c63df11131b930eef3aca31545e9082366d8dc1907e988cffb92ebeba5591a3",
+      "processedAt": "2026-10-18T03:38:38.155Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/10/15/155815": {
+      "contentHash": "4cfec5361896058cc7f25673eb20212623bfc4445c3b24b17ecadd1662b0dc00",
+      "processedAt": "2026-10-18T03:38:39.809Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/10/15/142322": {
+      "contentHash": "bee1a3a01b184c1bafcdaa4855e2274747e69e0a3587079cb4dd7b1db7ca6d57",
+      "processedAt": "2026-10-18T03:38:40.246Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/10/14/145752": {
+      "contentHash": "872c07ac203c5573e6c253e05446e9c65b1d58568b3dbc2a1f5648dd7b79296f",
+      "processedAt": "2026-10-18T03:38:40.480Z"
+    },
+    "https://www.nngroup.com/articles/ux-maps-glossary/": {
+      "contentHash": "14b2be04a7f550477fdd02a7765059236c902a98b403d8647fcbe86ffbb6520f",
+      "processedAt": "2026-10-18T03:38:42.477Z"
+    },
+    "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/": {
+      "contentHash": "e703d120ea7b7efb9262aca2915d9b7ede5ba243577eead6edea29b922a96c57",
+      "processedAt": "2026-10-18T03:38:42.930Z"
+    },
+    "https://reactnative.dev/blog/2026/10/19/react-native-0.88": {
+      "contentHash": "c1e2f94cfde2ddf5cb3208c6fc4d20ccf9af778446713e853521829920b64dde",
+      "processedAt": "2026-10-18T03:38:43.234Z"
     }
   },
-  "lastRun": "2026-10-14T04:02:36.785Z"
+  "lastRun": "2026-10-18T03:38:43.234Z"
 }
