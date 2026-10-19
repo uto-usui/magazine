@@ -1,0 +1,37 @@
+articles_dir=2026-10-19
+exit_code=0
+timestamp_utc=2026-10-19T03:47:42Z
+
+---- issue lines ----
+9:❌ Playwright failed for Codrops: HTTP 403
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+🤖 Bot protection detected for Codrops, trying Playwright...
+❌ Playwright failed for Codrops: HTTP 403
+📰 Found 5884 total articles
+✨ New articles: 6
+⏭️ Skipped (already processed): 707
+📥 Processing: It's Time to Retire the Concept of Decorative Images
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-19/its-time-to-retire-the-concept-of-decorative-images.md
+📥 Processing: AI Gateway logs now show session affinity
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-19/ai-gateway-logs-now-show-session-affinity.md
+📥 Processing: DeepSeek V4.1 Flash 1017 now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-19/deepseek-v41-flash-1017-now-available-on-ai-gateway.md
+📥 Processing: Elorian AI's Glimpse now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-19/elorian-ais-glimpse-now-available-on-ai-gateway.md
+📥 Processing: ヘルプデスク管理を自前の仕組みからバクラクヘルプデスクに移行した話
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-19/co-entry-helpdesk-migration.md
+📥 Processing: Pixels of the Week – October 18, 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-19/pixels-of-the-week-october-18-2026.md
+
+📊 Summary:
+   ✅ Success: 6
+   ❌ Errors: 0
+🏁 Done!
