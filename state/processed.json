@@ -37127,7 +37127,83 @@
     "https://reactnative.dev/blog/2026/10/19/react-native-0.88": {
       "contentHash": "c1e2f94cfde2ddf5cb3208c6fc4d20ccf9af778446713e853521829920b64dde",
       "processedAt": "2026-10-17T03:32:59.240Z"
+    },
+    "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/": {
+      "contentHash": "538f857f95bec9135c1bbf7e4b7556403f4883136b1670e1bd6065c770806f7a",
+      "processedAt": "2026-10-20T03:58:19.154Z"
+    },
+    "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/": {
+      "contentHash": "d8ef149da7b44d0378fc36d33494214809dbb4f12bd9ad78e71591f0ad07ecd3",
+      "processedAt": "2026-10-20T03:58:19.408Z"
+    },
+    "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/": {
+      "contentHash": "51f87af113c9f5f3629d7015b8d6600dbbab9cd126210e383727245051ea57e7",
+      "processedAt": "2026-10-20T03:58:19.739Z"
+    },
+    "https://a11yweekly.com/issue/522/": {
+      "contentHash": "58d1a0eedd4b110e2c7e96cd997edc902a916f2af1d4ee7aefd844d3c38f8e1a",
+      "processedAt": "2026-10-20T03:58:19.984Z"
+    },
+    "https://bit.ly/side-hug1": {
+      "contentHash": "6e02cf9dfe4a64ef5eb9a06a693832147a6a3ddb9b00179c360b81a87de8be0b",
+      "processedAt": "2026-10-20T03:58:21.866Z"
+    },
+    "https://karrisaarinen.com/posts/someone-behind-the-software/": {
+      "contentHash": "e72ed60df034b6089c2ef74f83fbced2c9c4fb8f71366466e0a57f4337e3b1a4",
+      "processedAt": "2026-10-20T03:58:22.075Z"
+    },
+    "https://programasweights.com/claudish": {
+      "contentHash": "3c850fa13d29ecdc0d2fcf65dca16691d201d0c71a5fc9a3b1e0fc14ba4e1c52",
+      "processedAt": "2026-10-20T03:58:27.500Z"
+    },
+    "https://technooptimism.org/": {
+      "contentHash": "9689dfae23b7e90394e224c4f31ec67512f76d2f708307cd2699f9f924d1deb4",
+      "processedAt": "2026-10-20T03:58:28.233Z"
+    },
+    "https://marcabraham.com/2026/10/15/personal-agents-are-getting-their-own-computers/": {
+      "contentHash": "4452a37a0ff6db3d75c637e010bf6a31cbd5c8fc2c99add9c575523f744ed65c",
+      "processedAt": "2026-10-20T03:58:29.142Z"
+    },
+    "https://vercel.com/changelog/updates-to-hobby-and-pro-terms-of-service": {
+      "contentHash": "16e0e04c59b95a1a3f6b8b89016bfafe9b614cc511adbbf3c4f5abf08507957a",
+      "processedAt": "2026-10-20T03:58:29.625Z"
+    },
+    "https://vercel.com/changelog/mercury-3-now-available-on-ai-gateway": {
+      "contentHash": "7ac941ba86c171d519e03be97a1fa2d32a744c48d0c710bde7c5f4b538cc3c80",
+      "processedAt": "2026-10-20T03:58:30.179Z"
+    },
+    "https://vercel.com/changelog/minimax-m3-1-flash-now-available-on-ai-gateway-for-free": {
+      "contentHash": "e1572558c3d6ddc0c4798c89ea15605111d2e83015088b158a3a4a9d4d3c9cfb",
+      "processedAt": "2026-10-20T03:58:30.552Z"
+    },
+    "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity": {
+      "contentHash": "4b5927d208747e4a055fcf056b6c6be0f4a2e8860914da62d150d0058c47f2f1",
+      "processedAt": "2026-10-20T03:58:31.046Z"
+    },
+    "https://vercel.com/changelog/deepseek-v4-1-flash-1017-now-available-on-ai-gateway": {
+      "contentHash": "a09c409f980803b1d6955f5f6770c9cd0a0114baf374b6ee4558ea34afa9dcf0",
+      "processedAt": "2026-10-20T03:58:31.536Z"
+    },
+    "https://vercel.com/changelog/elorian-ai-glimpse-now-available-on-ai-gateway": {
+      "contentHash": "c6dc81d0f19d82f78b91e2a1103d13942acd7ff59d067d2a51686112ce838ac1",
+      "processedAt": "2026-10-20T03:58:32.106Z"
+    },
+    "https://stripe.com/blog/saas-platform-trends-in-AI-era": {
+      "contentHash": "67015e955be6a742a4cee503f442354a0c7183d524094b67d3a1773cc72ee79b",
+      "processedAt": "2026-10-20T03:58:32.617Z"
+    },
+    "https://tech.layerx.co.jp/entry/helpdesk-migration": {
+      "contentHash": "cf7b3027634f8adda2694a9bc65aa2ce18aa9f939f74709434c6e0cdc630a1c8",
+      "processedAt": "2026-10-20T03:58:33.495Z"
+    },
+    "https://newsletter.uxdesign.cc/p/nobody-feels-heard-by-a-report": {
+      "contentHash": "d672c82525612ebd0d99b26a8639886be0b3fb9d54bf1e9c523f0dad0856b6a3",
+      "processedAt": "2026-10-20T03:58:34.008Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-october-18-2026/": {
+      "contentHash": "573fe239603b8696825f4c44fc16c39833a77527ff120573485a2553d49b8022",
+      "processedAt": "2026-10-20T03:58:35.519Z"
     }
   },
-  "lastRun": "2026-10-17T03:32:59.240Z"
+  "lastRun": "2026-10-20T03:58:35.519Z"
 }
