@@ -1,0 +1,58 @@
+articles_dir=2026-10-20
+exit_code=0
+timestamp_utc=2026-10-20T03:58:35Z
+
+---- issue lines ----
+9:❌ Playwright failed for Codrops: HTTP 403
+
+---- tail (last 50 lines) ----
+✨ New articles: 19
+⏭️ Skipped (already processed): 708
+📥 Processing: GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-20/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary.md
+📥 Processing: The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-20/the-thin-orchestrator-how-we-made-our-ai-agents-more-reliable-by-giving-the-router-less-to-do.md
+📥 Processing: Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-20/inside-prometheus-metas-journey-to-a-gigawatt-scale-supercluster.md
+📥 Processing: It's Time to Retire the Concept of Decorative Images
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-20/its-time-to-retire-the-concept-of-decorative-images.md
+📥 Processing: Beautiful icons that make products feel premium
+Image unavailable (HTTP 404), skipping: https://bit.ly/assets/home/hero/y_combinator.png
+Image unavailable (HTTP 404), skipping: https://bit.ly/assets/home/hero/jimdo.png
+Image unavailable (HTTP 404), skipping: https://bit.ly/assets/home/hero/fiverr.png
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-20/beautiful-icons-that-make-products-feel-premium.md
+📥 Processing: Someone behind the software
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-20/someone-behind-the-software.md
+📥 Processing: English ↔ Claudish
+🔄 Readability failed, trying Playwright: https://programasweights.com/claudish
+✅ Playwright successfully fetched: https://programasweights.com/claudish
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-20/english-claudish.md
+📥 Processing: Techno-optimism archive
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-20/techno-optimism-archive.md
+📥 Processing: Personal agents are getting their own computers
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-20/personal-agents-are-getting-their-own-computers.md
+📥 Processing: Updates to Hobby and Pro Terms of Service
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-20/updates-to-hobby-and-pro-terms-of-service.md
+📥 Processing: Mercury 3 now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-20/mercury-3-now-available-on-ai-gateway.md
+📥 Processing: MiniMax M3.1 Flash now available on AI Gateway for free
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-20/minimax-m31-flash-now-available-on-ai-gateway-for-free.md
+📥 Processing: AI Gateway logs now show session affinity
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-20/ai-gateway-logs-now-show-session-affinity.md
+📥 Processing: DeepSeek V4.1 Flash 1017 now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-20/deepseek-v41-flash-1017-now-available-on-ai-gateway.md
+📥 Processing: Elorian AI's Glimpse now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-20/elorian-ais-glimpse-now-available-on-ai-gateway.md
+📥 Processing: Stripe survey: Four trends reshaping how SaaS platforms compete in the AI era
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-20/stripe-survey-four-trends-reshaping-how-saas-platforms-compete-in-the-ai-era.md
+📥 Processing: ヘルプデスク管理を自前の仕組みからバクラクヘルプデスクに移行した話
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-20/co-entry-helpdesk-migration.md
+📥 Processing: Nobody feels heard by a report
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-20/nobody-feels-heard-by-a-report.md
+📥 Processing: Pixels of the Week – October 18, 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-20/pixels-of-the-week-october-18-2026.md
+
+📊 Summary:
+   ✅ Success: 19
+   ❌ Errors: 0
+🏁 Done!
