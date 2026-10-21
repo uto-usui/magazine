@@ -37203,7 +37203,75 @@
     "https://stephaniewalter.design/blog/pixels-of-the-week-october-18-2026/": {
       "contentHash": "573fe239603b8696825f4c44fc16c39833a77527ff120573485a2553d49b8022",
       "processedAt": "2026-10-20T03:58:35.519Z"
+    },
+    "https://uxdesign.cc/design-in-the-material-you-ship-7adf198388ee": {
+      "contentHash": "9ea41f0803fdb9f80a7cd4ac799e8483bd57d6e4e642b87ba89818c17e303a33",
+      "processedAt": "2026-10-21T03:47:34.014Z"
+    },
+    "https://davedavies.dev/state-of-ecommerce-accessibility/": {
+      "contentHash": "776fe52b06c58513458c29c6bca667922c4b11fe639ab59186a809e607259e02",
+      "processedAt": "2026-10-21T03:47:34.496Z"
+    },
+    "https://world.hey.com/jorge/acceptance-8487bd37": {
+      "contentHash": "0c09bcffefd3c0b633938beadce08ddff32281d2c8040aec2abe2ff0c01e1090",
+      "processedAt": "2026-10-21T03:47:35.346Z"
+    },
+    "https://www.logo.dev/docs/mcp/introduction": {
+      "contentHash": "99e9cb08b47cf04e9a7c4ec553d48b9c95e15f1153ed2617d83f0f282765b20d",
+      "processedAt": "2026-10-21T03:47:35.819Z"
+    },
+    "https://newsletter.posthog.com/p/38-things-weve-learned-about-building": {
+      "contentHash": "ed527aa1c74a823516b4755e70e8dc0a48bd61c2fca39074cf3d8e48469f9db8",
+      "processedAt": "2026-10-21T03:47:36.224Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/whats-the-roi-of-software-engineers": {
+      "contentHash": "5184d105c84d5efab607566fa7e4b4f24e95052458d0d028e7991dee14af4d65",
+      "processedAt": "2026-10-21T03:47:36.646Z"
+    },
+    "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/": {
+      "contentHash": "f147beffd384c587ebdf3a5f6792e4f09fee3241b1616363e84e6edc0cacaeea",
+      "processedAt": "2026-10-21T03:47:38.281Z"
+    },
+    "https://www.joshwcomeau.com/css/interop-2027/": {
+      "contentHash": "12c5a92d05e88306bf96eecfa12c4781ba016376554f04779a8565a3dafe1da7",
+      "processedAt": "2026-10-21T03:47:39.351Z"
+    },
+    "https://vercel.com/changelog/websocket-support-is-now-generally-available": {
+      "contentHash": "83356bda9342e0a6d5d243c0e2118188d43e866c070b7845f292aceeb876ad11",
+      "processedAt": "2026-10-21T03:47:40.229Z"
+    },
+    "https://vercel.com/changelog/deepseek-v4-1-flash-is-now-available-in-token-pass": {
+      "contentHash": "57df86b8bc3d1436a481ef18ce409b5571169b5a9d706720f9f5a13aa91c5853",
+      "processedAt": "2026-10-21T03:47:40.660Z"
+    },
+    "https://vercel.com/blog/making-every-harness-durable": {
+      "contentHash": "a19ff47408a4d30e06686226dcaf31466e122578c4fb7e2ae467b180668827e1",
+      "processedAt": "2026-10-21T03:47:41.652Z"
+    },
+    "https://www.figma.com/blog/source-material-ben-ganz/": {
+      "contentHash": "eded696d6b2924c9fbc65ad33412af1960d4f0d993a9cfc7a53efc6bf47ae3b7",
+      "processedAt": "2026-10-21T03:48:05.537Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/10/21/123725": {
+      "contentHash": "c58fe5806beacbfbe702b03da2ad2de16714fa67959c68bb5345a7168a8ce7a8",
+      "processedAt": "2026-10-21T03:48:06.980Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/10/21/112027": {
+      "contentHash": "f216b42594ea5d8ee24a0d0eb1c1c7d336fde5c55690a2827af8b6c839542bfd",
+      "processedAt": "2026-10-21T03:48:08.379Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/10/20/132917": {
+      "contentHash": "b778e0775df20df16cf50d7f506ae03624ff3cf1efa791b12ccf53035e5d081a",
+      "processedAt": "2026-10-21T03:48:09.584Z"
+    },
+    "https://tech.layerx.co.jp/entry/engineer-as-director": {
+      "contentHash": "1706d20f7cc83dc10d6710af5e44742ba615de022622b31891e4711285dd2775",
+      "processedAt": "2026-10-21T03:48:10.275Z"
+    },
+    "https://tkdodo.eu/blog/dead-code-shouldnt-exist": {
+      "contentHash": "33925ea3ca9dbabb9a1ff494c6c27042ed578f5bddce5169bde5789515a56390",
+      "processedAt": "2026-10-21T03:48:10.953Z"
     }
   },
-  "lastRun": "2026-10-20T03:58:35.519Z"
+  "lastRun": "2026-10-21T03:48:10.953Z"
 }
