@@ -1,0 +1,58 @@
+articles_dir=2026-10-21
+exit_code=0
+timestamp_utc=2026-10-21T03:48:11Z
+
+---- issue lines ----
+9:❌ Playwright failed for Codrops: HTTP 403
+
+---- tail (last 50 lines) ----
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+🤖 Bot protection detected for Codrops, trying Playwright...
+❌ Playwright failed for Codrops: HTTP 403
+📰 Found 5893 total articles
+✨ New articles: 17
+⏭️ Skipped (already processed): 713
+📥 Processing: Design in the material you ship
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxdesign.cc/design-in-the-material-you-ship-7adf198388ee
+✅ Playwright successfully fetched: https://uxdesign.cc/design-in-the-material-you-ship-7adf198388ee
+⚠️ Content too short (183 chars < 200): https://uxdesign.cc/design-in-the-material-you-ship-7adf198388ee
+⚠️ Using RSS content as fallback for: https://uxdesign.cc/design-in-the-material-you-ship-7adf198388ee
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-21/design-in-the-material-you-ship.md
+📥 Processing: State of Ecommerce Accessibility 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-21/state-of-ecommerce-accessibility-2026.md
+📥 Processing: Acceptance
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-21/acceptance.md
+📥 Processing: Logo.dev MCP server
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-21/logodev-mcp-server.md
+📥 Processing: 38 things we’ve learned about building AI products
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-21/38-things-weve-learned-about-building-ai-products.md
+📥 Processing: What’s the ROI of software engineers’ spending on AI?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-21/whats-the-roi-of-software-engineers-spending-on-ai.md
+📥 Processing: Embracing Playful Imperfection With The CSS `random()` Function
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-21/embracing-playful-imperfection-with-the-css-random-function.md
+📥 Processing: The Future of CSS ✨
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-21/the-future-of-css.md
+📥 Processing: WebSocket support is now generally available
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-21/websocket-support-is-now-generally-available.md
+📥 Processing: DeepSeek V4.1 Flash is now available in Token Pass
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-21/deepseek-v41-flash-is-now-available-in-token-pass.md
+📥 Processing: Making every harness durable
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-21/making-every-harness-durable.md
+📥 Processing: Source material: Designer Ben Ganz on pushing the limits of what we can do
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-21/source-material-designer-ben-ganz-on-pushing-the-limits-of-what-we-can-do.md
+📥 Processing: データベースとコードの長期的なリファクタリングを安全に進めるための取り組み —— 従業員データの複雑さを解きほぐす
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-21/smarthr-10-21-123725.md
+📥 Processing: CPOとDirectorが語る、これからのプロダクト組織 —「AIの登場で、デザイナーの重要性はむしろ高まっている」—
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-21/cpodirector-ai.md
+📥 Processing: 「AIの審査」で締めるチームビルディング —— ファシリテーターの負担ほぼゼロで、もうひと盛り上がり！
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-21/ai.md
+📥 Processing: AI が書き、レビューし、QA する開発で、私は「監督」の役割を考え始めた
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-21/ai-qa.md
+📥 Processing: Dead Code Shouldn't Exist
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-21/dead-code-shouldnt-exist.md
+
+📊 Summary:
+   ✅ Success: 17
+   ❌ Errors: 0
+🏁 Done!
