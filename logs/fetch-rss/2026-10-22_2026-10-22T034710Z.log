@@ -1,0 +1,58 @@
+articles_dir=2026-10-22
+exit_code=0
+timestamp_utc=2026-10-22T03:47:10Z
+
+---- issue lines ----
+9:❌ Playwright failed for Codrops: HTTP 403
+
+---- tail (last 50 lines) ----
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-22/web-perf-wednesday-014-performance-budgets-need-a-representative-worst.md
+📥 Processing: The fastest gun in UX
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-22/the-fastest-gun-in-ux.md
+📥 Processing: Interfere Design System
+⚠️ Content too short (184 chars < 200): https://design.interfere.com/
+🔄 Readability failed, trying Playwright: https://design.interfere.com/
+✅ Playwright successfully fetched: https://design.interfere.com/
+⚠️ Content too short (176 chars < 200): https://design.interfere.com/
+⚠️ Using RSS content as fallback for: https://design.interfere.com/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-22/interfere-design-system.md
+📥 Processing: Everyone is starting over
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-22/everyone-is-starting-over.md
+📥 Processing: The Lightbulb Computer
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-22/the-lightbulb-computer.md
+📥 Processing: How employment is changing at Anthropic
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-22/how-employment-is-changing-at-anthropic.md
+📥 Processing: Your product is not the center of the universe
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-22/your-product-is-not-the-center-of-the-universe.md
+📥 Processing: AI is driving a boom in modestly successful software projects
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-22/ai-is-driving-a-boom-in-modestly-successful-software-projects.md
+📥 Processing: Toolcraft
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-22/toolcraft.md
+📥 Processing: EditUI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-22/editui.md
+📥 Processing: A simple guide to calm UI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-22/a-simple-guide-to-calm-ui.md
+📥 Processing: The revised rules of engineering management with Will Larson
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-22/the-revised-rules-of-engineering-management-with-will-larson.md
+📥 Processing: Routing Middleware now supports Python
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-22/routing-middleware-now-supports-python.md
+📥 Processing: Baseten's Mammoth-1 and Elephant-1 now available on AI Gateway for free
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-22/basetens-mammoth-1-and-elephant-1-now-available-on-ai-gateway-for-free.md
+📥 Processing: Skipped monorepo deployments no longer count against limits
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-22/skipped-monorepo-deployments-no-longer-count-against-limits.md
+📥 Processing: Ten CSS features worth voting for
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-22/ten-css-features-worth-voting-for.md
+📥 Processing: 給与計算を使う側だった私が、つくる側になって4ヶ月 —— 1社分の実務では見えなかったエンタープライズの難しさ
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-22/4-1.md
+📥 Processing: 内製 Background Coding Agent “haro” で拓く未来の開発体験
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-22/background-coding-agent-haro.md
+📥 Processing: AI Writes, Reviews, and Tests My Code. My Job Now Is to Taste It
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-22/ai-writes-reviews-and-tests-my-code-my-job-now-is-to-taste-it.md
+📥 Processing: This Week In React #302: Next.js, React Router, DevTools, Security, shadcn, Hydrogen, Vinext, Mutative, R3F | RN 0.88, Expo 58, Navigation, FastImage, Screens, Device Hub, Edge to Edge | TypeScript, PHP, CrUX, Rsdoctor, Astro
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-22/this-week-in-react-302-nextjs-react-router-devtools-security-shadcn-hydrogen-vinext-mutative-r3f-rn-.md
+
+📊 Summary:
+   ✅ Success: 21
+   ❌ Errors: 0
+🏁 Done!
