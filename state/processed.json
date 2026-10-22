@@ -37271,7 +37271,91 @@
     "https://tkdodo.eu/blog/dead-code-shouldnt-exist": {
       "contentHash": "33925ea3ca9dbabb9a1ff494c6c27042ed578f5bddce5169bde5789515a56390",
       "processedAt": "2026-10-21T03:48:10.953Z"
+    },
+    "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/": {
+      "contentHash": "f93e6a16a84368c3d9aececb9508c0f4e230ddd6dd7e4d1f3cae82093f44d1f6",
+      "processedAt": "2026-10-22T03:46:44.808Z"
+    },
+    "https://csswizardry.com/2026/10/web-perf-wednesday-014-performance-budgets-need-a-representative-worst/": {
+      "contentHash": "711f623331d4f5b900b4926cd80b9ca0c8ed147b8039487878d0601244eff33d",
+      "processedAt": "2026-10-22T03:46:45.937Z"
+    },
+    "https://www.doc.cc/articles/fastest-gun": {
+      "contentHash": "0474427d4d2ed161f0624aad2116a6d546f5c677dfe2ddf3ace83bb29b494494",
+      "processedAt": "2026-10-22T03:46:50.459Z"
+    },
+    "https://design.interfere.com/": {
+      "contentHash": "317d1f65454587fd2f765e9a0ebe92bdad721135cd52fa774758c6b5e934c9c8",
+      "processedAt": "2026-10-22T03:46:55.988Z"
+    },
+    "https://www.gabrielvaldivia.com/notes/everybody-is-starting-over": {
+      "contentHash": "667cd94971e3a4e720f1747c8d97a396ccf87bc3e35b534376fa1e5b914eddc6",
+      "processedAt": "2026-10-22T03:46:56.967Z"
+    },
+    "https://lightbulbcomputer.com/": {
+      "contentHash": "303e27c820f9d02bf14a28589d015575d466afdb88ddcff51de8fb3f859caa2f",
+      "processedAt": "2026-10-22T03:46:58.991Z"
+    },
+    "https://www.anthropic.com/research/employment-at-anthropic": {
+      "contentHash": "798f7a5ddf931a5f1bde00ec56635fa6441919052ca7ced43de4c9254809db42",
+      "processedAt": "2026-10-22T03:46:59.463Z"
+    },
+    "https://apeatling.com/2026/10/19/your-product-is-not-the-center-of-the-universe/": {
+      "contentHash": "0ab61b5410dd68ea811508c6f914cfcd6ab4a1e61ac4d36bd1f08c7a7c809ce0",
+      "processedAt": "2026-10-22T03:46:59.757Z"
+    },
+    "https://www.seangoedecke.com/ai-is-driving-a-boom-in-modestly-successful-software/": {
+      "contentHash": "3472edd2bce5165d073188e3f27318109eaaa5d300fcf3ab087035e2469d426e",
+      "processedAt": "2026-10-22T03:47:00.068Z"
+    },
+    "https://toolcraft.sh/": {
+      "contentHash": "9d7071bcbc430e6d3cb3782c55eb3d14f162787cae24907119ef7ae01c9518a1",
+      "processedAt": "2026-10-22T03:47:01.890Z"
+    },
+    "https://www.editui.app/": {
+      "contentHash": "50e87994e010e6579e87fcd37e9d3f5b57426d907d4891e1ff66d08013689388",
+      "processedAt": "2026-10-22T03:47:02.212Z"
+    },
+    "https://maxschmitt.me/posts/calm": {
+      "contentHash": "2fa29413ba55857232e802d070663c9994151e0dc636eacf454143f17cc0b4b0",
+      "processedAt": "2026-10-22T03:47:02.481Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-revised-rules-of-engineering": {
+      "contentHash": "9ba5a93c7d3daf4a1b3004f599d465220b66de13d541ec8e0e910664f5faf832",
+      "processedAt": "2026-10-22T03:47:02.908Z"
+    },
+    "https://vercel.com/changelog/routing-middleware-now-supports-python": {
+      "contentHash": "a3c04db6ad6bd8d2f145c7935a381dd25d58701ef6fb1490f677737e4bc0c4c2",
+      "processedAt": "2026-10-22T03:47:03.371Z"
+    },
+    "https://vercel.com/changelog/basetens-mammoth-1-and-elephant-1-now-available-on-ai-gateway-for-free": {
+      "contentHash": "f18d8a4699b52e7b29cd8a5086e43c1590fe69ecb2e6b970ef33a4aae3d9e6ec",
+      "processedAt": "2026-10-22T03:47:03.886Z"
+    },
+    "https://vercel.com/changelog/skipped-monorepo-deployments-no-longer-count-against-limits": {
+      "contentHash": "e1d512ed434ddf8b2d588895f53a6853fbcb0c426b895bef921e036b81588ab7",
+      "processedAt": "2026-10-22T03:47:04.226Z"
+    },
+    "https://frontendfoc.us/issues/763": {
+      "contentHash": "e8850a96473fd93ce953d54a8a728037f30a6b3565628e04af4ff504b09ec854",
+      "processedAt": "2026-10-22T03:47:05.011Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/10/22/112059": {
+      "contentHash": "f7626d414915e48a90a83bb20b69f2506fe5437f2936bcc22be7517b5a0b4468",
+      "processedAt": "2026-10-22T03:47:05.652Z"
+    },
+    "https://tech.layerx.co.jp/entry/why-we-built-our-background-agent": {
+      "contentHash": "c060cc63fbf1f90b9918a2542bc429b96280a7c4c844febbf6b28a87b5b11cf9",
+      "processedAt": "2026-10-22T03:47:08.011Z"
+    },
+    "https://tech.layerx.co.jp/entry/engineer-as-director-en": {
+      "contentHash": "478bd39be91358a4aca2721d6770c52fe910c6cbe8b62dcbc424f8f8ba2a53cf",
+      "processedAt": "2026-10-22T03:47:09.147Z"
+    },
+    "https://thisweekinreact.com/newsletter/302": {
+      "contentHash": "1b032b545e98c25d32292e8367c7591e42646e6c418a03e950b12f74e58a959c",
+      "processedAt": "2026-10-22T03:47:09.756Z"
     }
   },
-  "lastRun": "2026-10-21T03:48:10.953Z"
+  "lastRun": "2026-10-22T03:47:09.756Z"
 }
