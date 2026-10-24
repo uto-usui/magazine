@@ -37271,7 +37271,219 @@
     "https://tkdodo.eu/blog/dead-code-shouldnt-exist": {
       "contentHash": "33925ea3ca9dbabb9a1ff494c6c27042ed578f5bddce5169bde5789515a56390",
       "processedAt": "2026-10-21T03:48:10.953Z"
+    },
+    "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/": {
+      "contentHash": "f93e6a16a84368c3d9aececb9508c0f4e230ddd6dd7e4d1f3cae82093f44d1f6",
+      "processedAt": "2026-10-24T03:46:22.332Z"
+    },
+    "https://csswizardry.com/2026/10/web-perf-wednesday-014-performance-budgets-need-a-representative-worst/": {
+      "contentHash": "711f623331d4f5b900b4926cd80b9ca0c8ed147b8039487878d0601244eff33d",
+      "processedAt": "2026-10-24T03:46:23.205Z"
+    },
+    "https://shannadige.com/blog/performance-is-design/": {
+      "contentHash": "ce4b18608a6a50ef7ddc3009de9ac1e51c7a86538642ca274f18f93b0aa13964",
+      "processedAt": "2026-10-24T03:46:23.577Z"
+    },
+    "https://visualrambling.space/moving-objects-in-3d/": {
+      "contentHash": "62f10e6dece248ecb10314f22f3a7dcdf7361ab77aaa0414edcea4a02bf08c3e",
+      "processedAt": "2026-10-24T03:46:23.893Z"
+    },
+    "https://www.antonsten.com/articles/where-decisions-live/": {
+      "contentHash": "70636e363c334bb9d473c03f77f62b8edaf4890ad305e63bac6ceacfc2c60c93",
+      "processedAt": "2026-10-24T03:46:31.513Z"
+    },
+    "https://www.creativeboom.com/news/apple-musics-new-logo-was-shaped-by-fred-again-and-a-bath-of-mineral-oil/": {
+      "contentHash": "5970813206dea3e8de492015e4710ff83a9b3c6866c956eb56162d3f65c38ea1",
+      "processedAt": "2026-10-24T03:46:32.272Z"
+    },
+    "https://backgrounds.supply/gradient-lab": {
+      "contentHash": "a1dedd8afe16cc007a7de015855d8a63e789b6a9f585d4dd0a61ab83e11ef119",
+      "processedAt": "2026-10-24T03:47:03.153Z"
+    },
+    "https://www.doc.cc/articles/fastest-gun": {
+      "contentHash": "0474427d4d2ed161f0624aad2116a6d546f5c677dfe2ddf3ace83bb29b494494",
+      "processedAt": "2026-10-24T03:47:07.457Z"
+    },
+    "https://design.interfere.com/": {
+      "contentHash": "317d1f65454587fd2f765e9a0ebe92bdad721135cd52fa774758c6b5e934c9c8",
+      "processedAt": "2026-10-24T03:47:12.657Z"
+    },
+    "https://www.gabrielvaldivia.com/notes/everybody-is-starting-over": {
+      "contentHash": "667cd94971e3a4e720f1747c8d97a396ccf87bc3e35b534376fa1e5b914eddc6",
+      "processedAt": "2026-10-24T03:47:13.055Z"
+    },
+    "https://lightbulbcomputer.com/": {
+      "contentHash": "303e27c820f9d02bf14a28589d015575d466afdb88ddcff51de8fb3f859caa2f",
+      "processedAt": "2026-10-24T03:47:15.285Z"
+    },
+    "https://www.anthropic.com/research/employment-at-anthropic": {
+      "contentHash": "798f7a5ddf931a5f1bde00ec56635fa6441919052ca7ced43de4c9254809db42",
+      "processedAt": "2026-10-24T03:47:15.712Z"
+    },
+    "https://apeatling.com/2026/10/19/your-product-is-not-the-center-of-the-universe/": {
+      "contentHash": "0ab61b5410dd68ea811508c6f914cfcd6ab4a1e61ac4d36bd1f08c7a7c809ce0",
+      "processedAt": "2026-10-24T03:47:15.893Z"
+    },
+    "https://www.seangoedecke.com/ai-is-driving-a-boom-in-modestly-successful-software/": {
+      "contentHash": "3472edd2bce5165d073188e3f27318109eaaa5d300fcf3ab087035e2469d426e",
+      "processedAt": "2026-10-24T03:47:59.842Z"
+    },
+    "https://toolcraft.sh/": {
+      "contentHash": "9d7071bcbc430e6d3cb3782c55eb3d14f162787cae24907119ef7ae01c9518a1",
+      "processedAt": "2026-10-24T03:48:01.728Z"
+    },
+    "https://www.editui.app/": {
+      "contentHash": "50e87994e010e6579e87fcd37e9d3f5b57426d907d4891e1ff66d08013689388",
+      "processedAt": "2026-10-24T03:48:01.957Z"
+    },
+    "https://maxschmitt.me/posts/calm": {
+      "contentHash": "2fa29413ba55857232e802d070663c9994151e0dc636eacf454143f17cc0b4b0",
+      "processedAt": "2026-10-24T03:48:02.086Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-do-we-need-to-rethink-software": {
+      "contentHash": "0e8d4f0a9a226ee9f684ce52bdbbe0e2b10b7d40522ce93ce3d44af46dcaa875",
+      "processedAt": "2026-10-24T03:48:02.223Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-revised-rules-of-engineering": {
+      "contentHash": "01a2156892fef88489ac04e9c797cda5ddeab94db2dae84e811d6ee62d29a52f",
+      "processedAt": "2026-10-24T03:48:02.697Z"
+    },
+    "https://smashingmagazine.com/2026/10/accordion-icons-which-work-best/": {
+      "contentHash": "7be3bcf9ead0056674b03a83aff0cda7467a52b728838a765f6de439358107cf",
+      "processedAt": "2026-10-24T03:48:04.203Z"
+    },
+    "https://piccalil.li/the-index/203/": {
+      "contentHash": "6f6433608b1186f8a87dff6e97313c1792ff161e707fb0ae40ffa6d47c3340df",
+      "processedAt": "2026-10-24T03:48:55.238Z"
+    },
+    "https://piccalil.li/blog/native-masonry-layouts-with-css-grid-lanes/": {
+      "contentHash": "06b3439a4c910096c129a3fa38231dc7654ff12267442b1192c87b954d1dcc8d",
+      "processedAt": "2026-10-24T03:49:20.084Z"
+    },
+    "https://vercel.com/changelog/vercel-cli-adds-spend-management": {
+      "contentHash": "1097d6e2ff0779817dad4a8561113e7cc7d0a3ddfe1a754a775cf51fc7dcbfd3",
+      "processedAt": "2026-10-24T03:49:20.682Z"
+    },
+    "https://vercel.com/changelog/send-feedback-from-vercel-mcp": {
+      "contentHash": "2dd670e53044310b8efc32c8d5b6b2ff299ad5bcf781c54ba5fe3c8478e8e8d2",
+      "processedAt": "2026-10-24T03:49:21.149Z"
+    },
+    "https://vercel.com/blog/how-vercel-agent-accesses-production-safely": {
+      "contentHash": "62d9b5e4f285c8904727493a489fe4b9efaae283be481aae45ae4d961c2d77b4",
+      "processedAt": "2026-10-24T03:49:21.709Z"
+    },
+    "https://vercel.com/changelog/deployments-now-show-build-cache-size": {
+      "contentHash": "bdcde0e3bd5c6593a54013c92f26b4e30f8187a4657f73069a7e0c2621e95a85",
+      "processedAt": "2026-10-24T03:49:22.114Z"
+    },
+    "https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys": {
+      "contentHash": "60d27eec4967f9bf2636109edf573bf165c955e0dda924d3ab530bb62565f726",
+      "processedAt": "2026-10-24T03:49:22.607Z"
+    },
+    "https://vercel.com/blog/how-interfaze-serves-50-million-requests-a-month-on-vercel": {
+      "contentHash": "f87cb41b64dad25d4dd73975f7e04cd9a1f9ce1589b05e823b7329d33b525009",
+      "processedAt": "2026-10-24T03:49:23.344Z"
+    },
+    "https://vercel.com/changelog/send-feedback-from-vercel-cli": {
+      "contentHash": "c3c24894c2ba87359f4b7795c2219345c215fac72f3ce9f2126bc69e24dbb7bd",
+      "processedAt": "2026-10-24T03:49:23.785Z"
+    },
+    "https://vercel.com/changelog/kimi-k3-1-pro-and-kimi-k3-1-pro-highspeed-are-available-now-in-ai-gateway": {
+      "contentHash": "32214a2b86bde814dc59ceb935ba4324b557ca8ec884b80638b8896c02a23784",
+      "processedAt": "2026-10-24T03:49:24.249Z"
+    },
+    "https://vercel.com/changelog/eight-more-tlds-now-eligible-for-a-free-domain-with-pro": {
+      "contentHash": "d2d749d826792af3336b352a3c0dd154cd787253a654344f27b2588640e3ae51",
+      "processedAt": "2026-10-24T03:49:24.815Z"
+    },
+    "https://vercel.com/blog/death-to-long-lived-static-credentials": {
+      "contentHash": "377cd500258d6c78bce3fd95ce21210d535d2c162ac70a92f9a1aa4ff9342f8d",
+      "processedAt": "2026-10-24T03:49:25.340Z"
+    },
+    "https://vercel.com/changelog/deploy-without-an-account-using-vercel-cli": {
+      "contentHash": "d9ed9fb659880ac8eb3a527b1f53ebd2c2bc7d304a259b94a84b5c5d4b3beb18",
+      "processedAt": "2026-10-24T03:49:25.729Z"
+    },
+    "https://vercel.com/changelog/routing-middleware-now-supports-python": {
+      "contentHash": "a3c04db6ad6bd8d2f145c7935a381dd25d58701ef6fb1490f677737e4bc0c4c2",
+      "processedAt": "2026-10-24T03:49:26.225Z"
+    },
+    "https://vercel.com/changelog/basetens-mammoth-1-and-elephant-1-now-available-on-ai-gateway-for-free": {
+      "contentHash": "f18d8a4699b52e7b29cd8a5086e43c1590fe69ecb2e6b970ef33a4aae3d9e6ec",
+      "processedAt": "2026-10-24T03:49:26.647Z"
+    },
+    "https://vercel.com/changelog/skipped-monorepo-deployments-no-longer-count-against-limits": {
+      "contentHash": "e1d512ed434ddf8b2d588895f53a6853fbcb0c426b895bef921e036b81588ab7",
+      "processedAt": "2026-10-24T03:49:27.032Z"
+    },
+    "https://vercel.com/changelog/deploy-with-vercel-drop-without-an-account": {
+      "contentHash": "f0ca0126829d204047d00f48fc5120dab967c98951f2141f9d740c99d88ea621",
+      "processedAt": "2026-10-24T03:49:27.591Z"
+    },
+    "https://stripe.com/blog/trends-from-money20-20-2026-the-rise-of-hidden-financial-services": {
+      "contentHash": "46b47958055fd04570ae6a6f2973aaff1a9091b758cee9766bdd35b4eafd6af6",
+      "processedAt": "2026-10-24T03:49:28.152Z"
+    },
+    "https://www.figma.com/blog/6-ways-teams-are-experimenting-with-code-layers/": {
+      "contentHash": "077b83e079969c9a6fdae15d918ff6deb148f1e814cf34a622a43e360a926f38",
+      "processedAt": "2026-10-24T03:50:04.657Z"
+    },
+    "https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/": {
+      "contentHash": "d3829881f558b169037b87590af52382e020c535965dab684c5ff974b5db34e0",
+      "processedAt": "2026-10-24T03:50:34.771Z"
+    },
+    "https://www.figma.com/blog/lufthansa-figma-make/": {
+      "contentHash": "3914dfa94e8fcb2101d7ae906e3ee80376fedd1b10caacbf76838b442c691ef5",
+      "processedAt": "2026-10-24T03:51:17.628Z"
+    },
+    "https://frontendfoc.us/issues/763": {
+      "contentHash": "e8850a96473fd93ce953d54a8a728037f30a6b3565628e04af4ff504b09ec854",
+      "processedAt": "2026-10-24T03:51:18.493Z"
+    },
+    "https://efcl.info/2026/10/23/quick-input-translator/": {
+      "contentHash": "bbd399de70a58555ef92fdcd319bd2959dc088a6c003900a1d31deba76114cb9",
+      "processedAt": "2026-10-24T03:51:18.971Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/10/23/102753": {
+      "contentHash": "f4210f2b25fe495d282e3ca9c065dc4bf918cdf190d40ea8ee878b7193cbf4e7",
+      "processedAt": "2026-10-24T03:51:19.962Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/10/22/112059": {
+      "contentHash": "f7626d414915e48a90a83bb20b69f2506fe5437f2936bcc22be7517b5a0b4468",
+      "processedAt": "2026-10-24T03:51:20.400Z"
+    },
+    "https://tech.layerx.co.jp/entry/why-we-built-our-background-agent": {
+      "contentHash": "c060cc63fbf1f90b9918a2542bc429b96280a7c4c844febbf6b28a87b5b11cf9",
+      "processedAt": "2026-10-24T03:51:21.446Z"
+    },
+    "https://tech.layerx.co.jp/entry/engineer-as-director-en": {
+      "contentHash": "478bd39be91358a4aca2721d6770c52fe910c6cbe8b62dcbc424f8f8ba2a53cf",
+      "processedAt": "2026-10-24T03:51:21.871Z"
+    },
+    "https://www.nngroup.com/articles/ux-disciplines-glossary/": {
+      "contentHash": "d35e12f04efd385a58f2441737453dbbe86be12311b221b34744644630de2aae",
+      "processedAt": "2026-10-24T03:51:22.803Z"
+    },
+    "https://www.nngroup.com/articles/ai-in-ux-survey-26/": {
+      "contentHash": "8517429f71405bd9db77adeda9b68c07c8f281c4398fec6713c643e8b88ee61d",
+      "processedAt": "2026-10-24T03:51:23.154Z"
+    },
+    "https://feeds.baymard.com/link/9825/17502590/mass-merchant-ux-benchmark-2026": {
+      "contentHash": "320b347316b67f80f22810960b6c05457ebfdd7876e18f025b6d02952292d856",
+      "processedAt": "2026-10-24T03:51:25.796Z"
+    },
+    "https://medium.com/researchops-community/when-research-evidence-stops-surviving-product-decisions-183579089904": {
+      "contentHash": "ce0a85123404a039300cea127af78f98e8881282bc0b72e379841ea46cdebe58",
+      "processedAt": "2026-10-24T03:51:30.142Z"
+    },
+    "https://thisweekinreact.com/newsletter/302": {
+      "contentHash": "1b032b545e98c25d32292e8367c7591e42646e6c418a03e950b12f74e58a959c",
+      "processedAt": "2026-10-24T03:51:30.624Z"
+    },
+    "https://react.statuscode.com/issues/494": {
+      "contentHash": "e2e9612af90ccd4b5b66ef8592b593bdbe7eacd4836e7a0ae0b1f251a222f785",
+      "processedAt": "2026-10-24T03:51:31.227Z"
     }
   },
-  "lastRun": "2026-10-21T03:48:10.953Z"
+  "lastRun": "2026-10-24T03:51:31.228Z"
 }
