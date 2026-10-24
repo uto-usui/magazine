@@ -1,0 +1,60 @@
+articles_dir=2026-10-24
+exit_code=0
+timestamp_utc=2026-10-24T03:51:31Z
+
+---- issue lines ----
+9:❌ Playwright failed for Codrops: HTTP 403
+25:Failed to fetch https://www.antonsten.com/articles/where-decisions-live/ after 3 retries: Error
+73:Failed to fetch https://piccalil.li/the-index/203/ after 3 retries: timeout of 15000ms exceeded
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-24/how-to-put-your-design-system-to-work-with-the-figma-agent.md
+📥 Processing: How Lufthansa Systems prototypes realistic maps for the cockpit with Figma Make 
+Image too large, skipping: https://cdn.sanity.io/images/599r6htc/regionalized/3861158c9e1191f9b8b88c238bb272e679cc9499-1800x1800.png?w=1800&h=1800&q=75&fit=max&auto=format
+Image too large, skipping: https://cdn.sanity.io/images/599r6htc/regionalized/3861158c9e1191f9b8b88c238bb272e679cc9499-1800x1800.png?w=1800&h=1800&q=75&fit=max&auto=format
+Image too large, skipping: https://cdn.sanity.io/images/599r6htc/regionalized/3861158c9e1191f9b8b88c238bb272e679cc9499-1800x1800.png?w=1800&h=1800&q=75&fit=max&auto=format
+Image too large, skipping: https://cdn.sanity.io/images/599r6htc/regionalized/3861158c9e1191f9b8b88c238bb272e679cc9499-1800x1800.png?w=1800&h=1800&q=75&fit=max&auto=format
+Image too large, skipping: https://cdn.sanity.io/images/599r6htc/regionalized/3861158c9e1191f9b8b88c238bb272e679cc9499-1800x1800.png?w=1800&h=1800&q=75&fit=max&auto=format
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-24/how-lufthansa-systems-prototypes-realistic-maps-for-the-cockpit-with-figma-make.md
+📥 Processing: Ten CSS features worth voting for
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-24/ten-css-features-worth-voting-for.md
+📥 Processing: Quick Input Translator: 書いた文章を入力欄中でインライン翻訳するmacOSアプリ
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-24/quick-input-translator-macos.md
+📥 Processing: 新卒N年目の勉強会&交流会！#6 レポート
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-24/n6.md
+📥 Processing: 給与計算を使う側だった私が、つくる側になって4ヶ月 —— 1社分の実務では見えなかったエンタープライズの難しさ
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-24/4-1.md
+📥 Processing: 内製 Background Coding Agent “haro” で拓く未来の開発体験
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-24/background-coding-agent-haro.md
+📥 Processing: AI Writes, Reviews, and Tests My Code. My Job Now Is to Taste It
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-24/ai-writes-reviews-and-tests-my-code-my-job-now-is-to-taste-it.md
+📥 Processing: UX Disciplines: Glossary
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-24/ux-disciplines-glossary.md
+📥 Processing: AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-24/ai-in-ux-work-is-faster-but-practitioners-have-mixed-feelings.md
+📥 Processing: Mass Merchant UX Benchmark: 5,600+ Performance Scores and 4,600+ Best Practice Examples
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-24/mass-merchant-ux-benchmark-5600-performance-scores-and-4600-best-practice-examples.md
+📥 Processing: When Research Evidence Stops Surviving Product Decisions
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://medium.com/researchops-community/when-research-evidence-stops-surviving-product-decisions-183579089904
+✅ Playwright successfully fetched: https://medium.com/researchops-community/when-research-evidence-stops-surviving-product-decisions-183579089904
+⚠️ Content too short (182 chars < 200): https://medium.com/researchops-community/when-research-evidence-stops-surviving-product-decisions-183579089904
+⚠️ Using RSS content as fallback for: https://medium.com/researchops-community/when-research-evidence-stops-surviving-product-decisions-183579089904
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-24/when-research-evidence-stops-surviving-product-decisions.md
+📥 Processing: This Week In React #302: Next.js, React Router, DevTools, Security, shadcn, Hydrogen, Vinext, Mutative, R3F | RN 0.88, Expo 58, Navigation, FastImage, Screens, Device Hub, Edge to Edge | TypeScript, PHP, CrUX, Rsdoctor, Astro
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-24/this-week-in-react-302-nextjs-react-router-devtools-security-shadcn-hydrogen-vinext-mutative-r3f-rn-.md
+📥 Processing: TanStack Start is finally stable
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-24/tanstack-start-is-finally-stable.md
+
+📊 Summary:
+   ✅ Success: 53
+   ❌ Errors: 0
+🏁 Done!
