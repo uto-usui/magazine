@@ -1,0 +1,58 @@
+articles_dir=2026-10-25
+exit_code=0
+timestamp_utc=2026-10-25T03:43:46Z
+
+---- issue lines ----
+9:❌ Playwright failed for Codrops: HTTP 403
+
+---- tail (last 50 lines) ----
+📥 Processing: Moving objects in 3D space
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-25/moving-objects-in-3d-space.md
+📥 Processing: Where decisions live
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-25/where-decisions-live.md
+📥 Processing: Apple Music’s new logo was shaped by sound and mineral oil
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-25/apple-musics-new-logo-was-shaped-by-sound-and-mineral-oil.md
+📥 Processing: Gradient background generator
+⚠️ Content too short (32 chars < 200): https://backgrounds.supply/gradient-lab
+🔄 Readability failed, trying Playwright: https://backgrounds.supply/gradient-lab
+✅ Playwright successfully fetched: https://backgrounds.supply/gradient-lab
+⚠️ Content too short (32 chars < 200): https://backgrounds.supply/gradient-lab
+⚠️ Using RSS content as fallback for: https://backgrounds.supply/gradient-lab
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-25/gradient-background-generator.md
+📥 Processing: Accordion Icons: Which Work Best?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-25/accordion-icons-which-work-best.md
+📥 Processing: The Index: Issue #203
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-25/the-index-issue-203.md
+📥 Processing: Vercel CLI adds Spend Management
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-25/vercel-cli-adds-spend-management.md
+📥 Processing: Send feedback from the Vercel MCP
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-25/send-feedback-from-the-vercel-mcp.md
+📥 Processing: How Vercel Agent accesses production safely
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-25/how-vercel-agent-accesses-production-safely.md
+📥 Processing: Deployments now show build cache size
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-25/deployments-now-show-build-cache-size.md
+📥 Processing: Vercel Connect adds managed Stripe API keys
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-25/vercel-connect-adds-managed-stripe-api-keys.md
+📥 Processing: How Interfaze serves 50 million requests a month on Vercel
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-25/how-interfaze-serves-50-million-requests-a-month-on-vercel.md
+📥 Processing: Send feedback from the Vercel CLI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-25/send-feedback-from-the-vercel-cli.md
+📥 Processing: Kimi K3.1 Pro and Kimi K3.1 Pro Highspeed are available now in AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-25/kimi-k31-pro-and-kimi-k31-pro-highspeed-are-available-now-in-ai-gateway.md
+📥 Processing: Deploy without an account using Vercel CLI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-25/deploy-without-an-account-using-vercel-cli.md
+📥 Processing: Deploy with Vercel Drop without an account
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-25/deploy-with-vercel-drop-without-an-account.md
+📥 Processing: 6 ways teams are experimenting with code layers
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-25/6-ways-teams-are-experimenting-with-code-layers.md
+📥 Processing: UX Disciplines: Glossary
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-25/ux-disciplines-glossary.md
+📥 Processing: AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-25/ai-in-ux-work-is-faster-but-practitioners-have-mixed-feelings.md
+📥 Processing: TanStack Start is finally stable
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-25/tanstack-start-is-finally-stable.md
+
+📊 Summary:
+   ✅ Success: 21
+   ❌ Errors: 0
+🏁 Done!
