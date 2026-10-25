@@ -37399,7 +37399,91 @@
     "https://thisweekinreact.com/newsletter/302": {
       "contentHash": "1b032b545e98c25d32292e8367c7591e42646e6c418a03e950b12f74e58a959c",
       "processedAt": "2026-10-23T03:53:08.704Z"
+    },
+    "https://shannadige.com/blog/performance-is-design/": {
+      "contentHash": "ce4b18608a6a50ef7ddc3009de9ac1e51c7a86538642ca274f18f93b0aa13964",
+      "processedAt": "2026-10-25T03:43:14.728Z"
+    },
+    "https://visualrambling.space/moving-objects-in-3d/": {
+      "contentHash": "62f10e6dece248ecb10314f22f3a7dcdf7361ab77aaa0414edcea4a02bf08c3e",
+      "processedAt": "2026-10-25T03:43:15.092Z"
+    },
+    "https://www.antonsten.com/articles/where-decisions-live/": {
+      "contentHash": "70636e363c334bb9d473c03f77f62b8edaf4890ad305e63bac6ceacfc2c60c93",
+      "processedAt": "2026-10-25T03:43:15.568Z"
+    },
+    "https://www.creativeboom.com/news/apple-musics-new-logo-was-shaped-by-fred-again-and-a-bath-of-mineral-oil/": {
+      "contentHash": "5970813206dea3e8de492015e4710ff83a9b3c6866c956eb56162d3f65c38ea1",
+      "processedAt": "2026-10-25T03:43:16.330Z"
+    },
+    "https://backgrounds.supply/gradient-lab": {
+      "contentHash": "a1dedd8afe16cc007a7de015855d8a63e789b6a9f585d4dd0a61ab83e11ef119",
+      "processedAt": "2026-10-25T03:43:22.947Z"
+    },
+    "https://smashingmagazine.com/2026/10/accordion-icons-which-work-best/": {
+      "contentHash": "7be3bcf9ead0056674b03a83aff0cda7467a52b728838a765f6de439358107cf",
+      "processedAt": "2026-10-25T03:43:24.123Z"
+    },
+    "https://piccalil.li/the-index/203/": {
+      "contentHash": "6f6433608b1186f8a87dff6e97313c1792ff161e707fb0ae40ffa6d47c3340df",
+      "processedAt": "2026-10-25T03:43:24.402Z"
+    },
+    "https://vercel.com/changelog/vercel-cli-adds-spend-management": {
+      "contentHash": "1097d6e2ff0779817dad4a8561113e7cc7d0a3ddfe1a754a775cf51fc7dcbfd3",
+      "processedAt": "2026-10-25T03:43:24.775Z"
+    },
+    "https://vercel.com/changelog/send-feedback-from-vercel-mcp": {
+      "contentHash": "2dd670e53044310b8efc32c8d5b6b2ff299ad5bcf781c54ba5fe3c8478e8e8d2",
+      "processedAt": "2026-10-25T03:43:25.041Z"
+    },
+    "https://vercel.com/blog/how-vercel-agent-accesses-production-safely": {
+      "contentHash": "62d9b5e4f285c8904727493a489fe4b9efaae283be481aae45ae4d961c2d77b4",
+      "processedAt": "2026-10-25T03:43:25.798Z"
+    },
+    "https://vercel.com/changelog/deployments-now-show-build-cache-size": {
+      "contentHash": "bdcde0e3bd5c6593a54013c92f26b4e30f8187a4657f73069a7e0c2621e95a85",
+      "processedAt": "2026-10-25T03:43:26.031Z"
+    },
+    "https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys": {
+      "contentHash": "60d27eec4967f9bf2636109edf573bf165c955e0dda924d3ab530bb62565f726",
+      "processedAt": "2026-10-25T03:43:26.443Z"
+    },
+    "https://vercel.com/blog/how-interfaze-serves-50-million-requests-a-month-on-vercel": {
+      "contentHash": "f87cb41b64dad25d4dd73975f7e04cd9a1f9ce1589b05e823b7329d33b525009",
+      "processedAt": "2026-10-25T03:43:27.244Z"
+    },
+    "https://vercel.com/changelog/send-feedback-from-vercel-cli": {
+      "contentHash": "c3c24894c2ba87359f4b7795c2219345c215fac72f3ce9f2126bc69e24dbb7bd",
+      "processedAt": "2026-10-25T03:43:27.526Z"
+    },
+    "https://vercel.com/changelog/kimi-k3-1-pro-and-kimi-k3-1-pro-highspeed-are-available-now-in-ai-gateway": {
+      "contentHash": "32214a2b86bde814dc59ceb935ba4324b557ca8ec884b80638b8896c02a23784",
+      "processedAt": "2026-10-25T03:43:27.869Z"
+    },
+    "https://vercel.com/changelog/deploy-without-an-account-using-vercel-cli": {
+      "contentHash": "d9ed9fb659880ac8eb3a527b1f53ebd2c2bc7d304a259b94a84b5c5d4b3beb18",
+      "processedAt": "2026-10-25T03:43:28.143Z"
+    },
+    "https://vercel.com/changelog/deploy-with-vercel-drop-without-an-account": {
+      "contentHash": "f0ca0126829d204047d00f48fc5120dab967c98951f2141f9d740c99d88ea621",
+      "processedAt": "2026-10-25T03:43:28.506Z"
+    },
+    "https://www.figma.com/blog/6-ways-teams-are-experimenting-with-code-layers/": {
+      "contentHash": "077b83e079969c9a6fdae15d918ff6deb148f1e814cf34a622a43e360a926f38",
+      "processedAt": "2026-10-25T03:43:44.843Z"
+    },
+    "https://www.nngroup.com/articles/ux-disciplines-glossary/": {
+      "contentHash": "d35e12f04efd385a58f2441737453dbbe86be12311b221b34744644630de2aae",
+      "processedAt": "2026-10-25T03:43:45.279Z"
+    },
+    "https://www.nngroup.com/articles/ai-in-ux-survey-26/": {
+      "contentHash": "8517429f71405bd9db77adeda9b68c07c8f281c4398fec6713c643e8b88ee61d",
+      "processedAt": "2026-10-25T03:43:45.945Z"
+    },
+    "https://react.statuscode.com/issues/494": {
+      "contentHash": "e2e9612af90ccd4b5b66ef8592b593bdbe7eacd4836e7a0ae0b1f251a222f785",
+      "processedAt": "2026-10-25T03:43:46.690Z"
     }
   },
-  "lastRun": "2026-10-23T03:53:08.704Z"
+  "lastRun": "2026-10-25T03:43:46.690Z"
 }
