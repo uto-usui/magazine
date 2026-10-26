@@ -37483,7 +37483,15 @@
     "https://react.statuscode.com/issues/494": {
       "contentHash": "e2e9612af90ccd4b5b66ef8592b593bdbe7eacd4836e7a0ae0b1f251a222f785",
       "processedAt": "2026-10-25T03:43:46.690Z"
+    },
+    "https://a11yweekly.com/issue/523/": {
+      "contentHash": "abe22c8a46d39bf77cd2304d2842803dfbf5685c228d558089aa4fa9e482e965",
+      "processedAt": "2026-10-26T03:47:14.511Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-october-25-2026/": {
+      "contentHash": "3b9fbfb46f174801eab7c0a342456203d10f864e6362b291934a42dd5376b2ea",
+      "processedAt": "2026-10-26T03:47:15.960Z"
     }
   },
-  "lastRun": "2026-10-25T03:43:46.690Z"
+  "lastRun": "2026-10-26T03:47:15.960Z"
 }
