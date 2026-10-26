@@ -1,6 +1,6 @@
 import { readFile } from 'node:fs/promises'
 import { join } from 'node:path'
-import yaml from 'js-yaml'
+import { load } from 'js-yaml'
 import {
   RecipientsConfigSchema,
   type RecipientsConfig,
@@ -12,7 +12,7 @@ const CONFIG_DIR = join(process.cwd(), 'config')
 export async function loadRecipientsConfig(): Promise<RecipientsConfig> {
   const filePath = join(CONFIG_DIR, 'recipients.yml')
   const content = await readFile(filePath, 'utf-8')
-  const data = yaml.load(content)
+  const data = load(content)
 
   return RecipientsConfigSchema.parse(data)
 }
