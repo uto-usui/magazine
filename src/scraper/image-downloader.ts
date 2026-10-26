@@ -33,8 +33,8 @@ export class ImageDownloader {
         },
       })
 
-      const contentLength = response.headers['content-length']
-      if (contentLength && parseInt(contentLength) > this.options.maxSizeBytes) {
+      const contentLength = Number(response.headers['content-length'])
+      if (contentLength > this.options.maxSizeBytes) {
         console.log(`Image too large, skipping: ${url}`)
         return null
       }
