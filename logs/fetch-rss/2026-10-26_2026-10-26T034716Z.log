@@ -1,0 +1,29 @@
+articles_dir=2026-10-26
+exit_code=0
+timestamp_utc=2026-10-26T03:47:16Z
+
+---- issue lines ----
+9:❌ Playwright failed for Codrops: HTTP 403
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+🤖 Bot protection detected for Codrops, trying Playwright...
+❌ Playwright failed for Codrops: HTTP 403
+📰 Found 5913 total articles
+✨ New articles: 2
+⏭️ Skipped (already processed): 719
+📥 Processing: A Design System is What it Does
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-26/a-design-system-is-what-it-does.md
+📥 Processing: Pixels of the Week – October 25, 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-26/pixels-of-the-week-october-25-2026.md
+
+📊 Summary:
+   ✅ Success: 2
+   ❌ Errors: 0
+🏁 Done!
