@@ -1,0 +1,58 @@
+articles_dir=2026-10-27
+exit_code=0
+timestamp_utc=2026-10-27T04:10:56Z
+
+---- issue lines ----
+9:❌ Playwright failed for Codrops: HTTP 403
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-27/a-design-system-is-what-it-does.md
+📥 Processing: Craftwork: UI made by real designers
+⚠️ Content too short (20 chars < 200): https://craftwork.design/
+🔄 Readability failed, trying Playwright: https://craftwork.design/
+✅ Playwright successfully fetched: https://craftwork.design/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-27/craftwork-ui-made-by-real-designers.md
+📥 Processing: Who holds the off switch?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-27/who-holds-the-off-switch.md
+📥 Processing: Vintage AI
+🔄 Readability failed, trying Playwright: https://archive.org/details/vintageai
+✅ Playwright successfully fetched: https://archive.org/details/vintageai
+⚠️ Using RSS content as fallback for: https://archive.org/details/vintageai
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-27/vintage-ai.md
+📥 Processing: Design and engineering are the same thing
+🔄 Readability failed, trying Playwright: https://www.youtube.com/watch?v=AK8zLQeRI2M
+✅ Playwright successfully fetched: https://www.youtube.com/watch?v=AK8zLQeRI2M
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-27/design-and-engineering-are-the-same-thing.md
+📥 Processing: Intent Design System
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-27/intent-design-system.md
+📥 Processing: CSSだけでつくる！ スクロールトリガーアニメーション
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-27/css.md
+📥 Processing: Discover 1000+ services on Vercel Connect from the CLI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-27/discover-1000-services-on-vercel-connect-from-the-cli.md
+📥 Processing: Run Scale AI’s AgentEnv evals on Vercel Sandbox
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-27/run-scale-ais-agentenv-evals-on-vercel-sandbox.md
+📥 Processing: Create custom monitors in Vercel Observability
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-27/create-custom-monitors-in-vercel-observability.md
+📥 Processing: Vercel Agent can now validate alerts before paging
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-27/vercel-agent-can-now-validate-alerts-before-paging.md
+📥 Processing: Vercel Sandbox commands now support stdin
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-27/vercel-sandbox-commands-now-support-stdin.md
+📥 Processing: Customizable widgets for project cards
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-27/customizable-widgets-for-project-cards.md
+📥 Processing: GPT-6.1 Terra now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-27/gpt-61-terra-now-available-on-ai-gateway.md
+📥 Processing: Faster pnpm installs
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-27/faster-pnpm-installs.md
+📥 Processing: Deleted deployments are permanently removed sooner
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-27/deleted-deployments-are-permanently-removed-sooner.md
+📥 Processing: Why your team is telling the wrong story
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-27/why-your-team-is-telling-the-wrong-story.md
+📥 Processing: Pixels of the Week – October 25, 2026
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-27/pixels-of-the-week-october-25-2026.md
+
+📊 Summary:
+   ✅ Success: 19
+   ❌ Errors: 0
+🏁 Done!
