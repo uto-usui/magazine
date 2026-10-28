@@ -1,0 +1,58 @@
+articles_dir=2026-10-28
+exit_code=0
+timestamp_utc=2026-10-28T04:38:16Z
+
+---- issue lines ----
+9:❌ Playwright failed for Codrops: HTTP 403
+
+---- tail (last 50 lines) ----
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxdesign.cc/nobody-asked-for-the-sparkle-button-ae54ab5065c6
+✅ Playwright successfully fetched: https://uxdesign.cc/nobody-asked-for-the-sparkle-button-ae54ab5065c6
+⚠️ Content too short (183 chars < 200): https://uxdesign.cc/nobody-asked-for-the-sparkle-button-ae54ab5065c6
+⚠️ Using RSS content as fallback for: https://uxdesign.cc/nobody-asked-for-the-sparkle-button-ae54ab5065c6
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-28/nobody-asked-for-the-sparkle-button.md
+📥 Processing: Glashütte Trash Clock
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-28/glashtte-trash-clock.md
+📥 Processing: Design as a garden
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-28/design-as-a-garden.md
+📥 Processing: Russian and East European posters
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-28/russian-and-east-european-posters.md
+📥 Processing: Design systems should be fast by default
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-28/design-systems-should-be-fast-by-default.md
+📥 Processing: Knowing how is not knowing what
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-28/knowing-how-is-not-knowing-what.md
+📥 Processing: How sad is this chapter?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-28/how-sad-is-this-chapter.md
+📥 Processing: Code review was never about the code
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-28/code-review-was-never-about-the-code.md
+📥 Processing: André Britz’s landscapes, bound with a pink elastic band
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-28/andr-britzs-landscapes-bound-with-a-pink-elastic-band.md
+📥 Processing: Decoy Font: a TTF font that hides what you type
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-28/decoy-font-a-ttf-font-that-hides-what-you-type.md
+📥 Processing: AI SRE: what is it, how could it change on-call – and does it work?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-28/ai-sre-what-is-it-how-could-it-change-on-call-and-does-it-work.md
+📥 Processing: ElevenLabs on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-28/elevenlabs-on-ai-gateway.md
+📥 Processing: The fx adapter now runs the harness on the host
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-28/the-fx-adapter-now-runs-the-harness-on-the-host.md
+📥 Processing: Vercel Plugin now available in OpenCode
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-28/vercel-plugin-now-available-in-opencode.md
+📥 Processing: Deploy a container from a plain Dockerfile
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-28/deploy-a-container-from-a-plain-dockerfile.md
+📥 Processing: AI traffic insights now available in Vercel Observability
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-28/ai-traffic-insights-now-available-in-vercel-observability.md
+📥 Processing: Vercel Agent sessions now cost 67% less
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-28/vercel-agent-sessions-now-cost-67-less.md
+📥 Processing: HarnessAgent now supports image inputs for all harness adapters
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-28/harnessagent-now-supports-image-inputs-for-all-harness-adapters.md
+📥 Processing: How the fastest-growing enterprises on Stripe scale globally
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-28/how-the-fastest-growing-enterprises-on-stripe-scale-globally.md
+📥 Processing: 不具合の知見を、次のレビューへ —— レビュー観点を蓄積・活用する3層構造の運用
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-28/smarthr-10-28-112702.md
+📥 Processing: AI Engagement Quantitative UX: 2 High-Level Takeaways from 20+ Charts 
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-28/ai-engagement-quantitative-ux-2-high-level-takeaways-from-20-charts.md
+
+📊 Summary:
+   ✅ Success: 23
+   ❌ Errors: 0
+🏁 Done!
