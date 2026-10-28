@@ -37483,7 +37483,83 @@
     "https://react.statuscode.com/issues/494": {
       "contentHash": "e2e9612af90ccd4b5b66ef8592b593bdbe7eacd4836e7a0ae0b1f251a222f785",
       "processedAt": "2026-10-25T03:43:46.690Z"
+    },
+    "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks/": {
+      "contentHash": "a7f6a2876c9bdfc9e2a17d540fa77e923345680348adfd2dc7ec0821c98fe903",
+      "processedAt": "2026-10-27T04:10:27.853Z"
+    },
+    "https://a11yweekly.com/issue/523/": {
+      "contentHash": "abe22c8a46d39bf77cd2304d2842803dfbf5685c228d558089aa4fa9e482e965",
+      "processedAt": "2026-10-27T04:10:28.118Z"
+    },
+    "https://craftwork.design/": {
+      "contentHash": "de83da0d24dd957c478494885645a4938d0bcba65ed8c23629280ce200d69d9f",
+      "processedAt": "2026-10-27T04:10:35.380Z"
+    },
+    "https://hrih.si/articles/who-holds-the-off-switch/": {
+      "contentHash": "97d77b356a15913bcca16c3fa4c75d5e27e328f4ccaa73e0a4f6529b37845038",
+      "processedAt": "2026-10-27T04:10:35.701Z"
+    },
+    "https://archive.org/details/vintageai": {
+      "contentHash": "747321805d58c3aaf6eb74b53f8969c9fe3afbe54b25f8b9befd71c710e30207",
+      "processedAt": "2026-10-27T04:10:40.665Z"
+    },
+    "https://www.youtube.com/watch?v=AK8zLQeRI2M": {
+      "contentHash": "77345309523fd1630d4e2444c8cd4146d5ab73b2a765e51044a881409b2bbb4c",
+      "processedAt": "2026-10-27T04:10:48.800Z"
+    },
+    "https://intentapp.dev/design-system?dark-mode=": {
+      "contentHash": "168a7eef6553c3e68fb54a33ea4fae2643c67c23e1d05bd8b7f5873cf30d9445",
+      "processedAt": "2026-10-27T04:10:50.671Z"
+    },
+    "https://ics.media/entry/261027/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-10-27T04:10:51.001Z"
+    },
+    "https://vercel.com/changelog/discover-1000-services-on-vercel-connect-from-the-cli": {
+      "contentHash": "d46e35ded05a27fb5708000a56e2be59def46e4eaace1391000e6998272fc250",
+      "processedAt": "2026-10-27T04:10:51.386Z"
+    },
+    "https://vercel.com/changelog/run-scale-ais-agentenv-evals-on-vercel-sandbox": {
+      "contentHash": "dab4840d1a42809c560ad1651ee19728d563cef94969372f10d59f11a850afe8",
+      "processedAt": "2026-10-27T04:10:51.732Z"
+    },
+    "https://vercel.com/changelog/create-custom-monitors-in-vercel-observability": {
+      "contentHash": "c66baa24d348c6dcc064694d77eca858752a5f24334161381cee4c530ce6f09f",
+      "processedAt": "2026-10-27T04:10:52.330Z"
+    },
+    "https://vercel.com/changelog/vercel-agent-can-now-validate-alerts-before-paging-you": {
+      "contentHash": "9ab1adf848d0f3fb24631fc1f21a0ce75c991c0ab293a75138e123a95c539093",
+      "processedAt": "2026-10-27T04:10:52.621Z"
+    },
+    "https://vercel.com/changelog/vercel-sandbox-commands-now-support-stdin": {
+      "contentHash": "3bfc98aec4f0c63e854ea24ea72cd9f71191a1a05294ab8cee5569ceff52edb8",
+      "processedAt": "2026-10-27T04:10:53.040Z"
+    },
+    "https://vercel.com/changelog/customizable-widgets-for-project-cards": {
+      "contentHash": "acf5de85730b4a0641ad18578ec6402834998e84d5111340c55ea033b2d0a456",
+      "processedAt": "2026-10-27T04:10:53.355Z"
+    },
+    "https://vercel.com/changelog/gpt-6-1-terra-now-available-on-ai-gateway": {
+      "contentHash": "7029ea93966c2d91b2b2c69486ba177a2fd5a22de005e0e11e1c97cf8948e0f0",
+      "processedAt": "2026-10-27T04:10:53.679Z"
+    },
+    "https://vercel.com/changelog/faster-pnpm-installs": {
+      "contentHash": "eeae31aec6698a928a7342c000871526ef48a122eeb8279e8059000c0451a7af",
+      "processedAt": "2026-10-27T04:10:54.012Z"
+    },
+    "https://vercel.com/changelog/deleted-deployments-are-permanently-removed-sooner": {
+      "contentHash": "5c2de84a428ebc6ecba32bbc9800ef5d51d3dd6195bc069f79460e2070be9d78",
+      "processedAt": "2026-10-27T04:10:54.359Z"
+    },
+    "https://newsletter.uxdesign.cc/p/why-your-team-is-telling-the-wrong": {
+      "contentHash": "ccae90a7d947438cd359985e9c236b3203cb89c942df85ca45348e134b269536",
+      "processedAt": "2026-10-27T04:10:54.655Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-october-25-2026/": {
+      "contentHash": "3b9fbfb46f174801eab7c0a342456203d10f864e6362b291934a42dd5376b2ea",
+      "processedAt": "2026-10-27T04:10:55.834Z"
     }
   },
-  "lastRun": "2026-10-25T03:43:46.690Z"
+  "lastRun": "2026-10-27T04:10:55.834Z"
 }
