@@ -1,0 +1,58 @@
+articles_dir=2026-10-30
+exit_code=0
+timestamp_utc=2026-10-30T04:54:28Z
+
+---- issue lines ----
+10:❌ Playwright failed for Codrops: HTTP 403
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-30/introducing-vercel-ci.md
+📥 Processing: Virtual models now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-30/virtual-models-now-available-on-ai-gateway.md
+📥 Processing: Run Paseo agents on Vercel Sandbox
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-30/run-paseo-agents-on-vercel-sandbox.md
+📥 Processing: Particle-1 is now available on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-30/particle-1-is-now-available-on-ai-gateway.md
+📥 Processing: Agents can now enable Web Analytics and Observability Plus with Vercel CLI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-30/agents-can-now-enable-web-analytics-and-observability-plus-with-vercel-cli.md
+📥 Processing: fx is now available in T3 Code
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-30/fx-is-now-available-in-t3-code.md
+📥 Processing: Vercel Plugin now available in OpenCode
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-30/vercel-plugin-now-available-in-opencode.md
+📥 Processing: AI traffic insights now available in Vercel Observability
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-30/ai-traffic-insights-now-available-in-vercel-observability.md
+📥 Processing: ElevenLabs on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-30/elevenlabs-on-ai-gateway.md
+📥 Processing: Deploy a container from a plain Dockerfile
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-30/deploy-a-container-from-a-plain-dockerfile.md
+📥 Processing: Vercel Agent sessions now cost 67% less
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-30/vercel-agent-sessions-now-cost-67-less.md
+📥 Processing: HarnessAgent now supports image inputs for all harness adapters
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-30/harnessagent-now-supports-image-inputs-for-all-harness-adapters.md
+📥 Processing: How the fastest-growing enterprises on Stripe scale globally
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-30/how-the-fastest-growing-enterprises-on-stripe-scale-globally.md
+📥 Processing: How we’re training a Figma-fluent editing model
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-30/how-were-training-a-figma-fluent-editing-model.md
+📥 Processing: Making something human: 4 things we took away from Config India
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-30/making-something-human-4-things-we-took-away-from-config-india.md
+📥 Processing: Source material: "BRAT" Art Director Brent David Freaney finds design inspiration from everyday life
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-30/source-material-brat-art-director-brent-david-freaney-finds-design-inspiration-from-everyday-life.md
+📥 Processing: The spyware hiding in old script tags
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-30/the-spyware-hiding-in-old-script-tags.md
+📥 Processing: Chizu 🧀: リンクをルールに応じてブラウザとプロファイルへ振り分けるmacOSアプリ
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-30/chizu-macos.md
+📥 Processing: Chromaticのコストを下げたいっ！ —— TurboSnapが効かない原因と、その対策
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-30/chromatic-turbosnap.md
+📥 Processing: SmartHRはKomeKaigi 2026に協賛し、1名が登壇します！
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-30/smarthrkomekaigi-20261.md
+📥 Processing: 不具合の知見を、次のレビューへ —— レビュー観点を蓄積・活用する3層構造の運用
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-30/smarthr-10-28-112702.md
+📥 Processing: AI Engagement Quantitative UX: 2 High-Level Takeaways from 20+ Charts 
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-30/ai-engagement-quantitative-ux-2-high-level-takeaways-from-20-charts.md
+📥 Processing: This Week In React #303: TanStack, Next.js, Vinext, Motion, React Hook Form | Expo Desktop, Legend Spark, Nitro, Exact, Skia, Screens, Unistyles | Node.js, Bun, SWC, Content Mappers, pnpm, Biome
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-30/this-week-in-react-303-tanstack-nextjs-vinext-motion-react-hook-form-expo-desktop-legend-spark-nitro.md
+
+📊 Summary:
+   ✅ Success: 60
+   ❌ Errors: 0
+🏁 Done!
