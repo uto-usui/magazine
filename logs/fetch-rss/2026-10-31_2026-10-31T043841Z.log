@@ -1,0 +1,58 @@
+articles_dir=2026-10-31
+exit_code=0
+timestamp_utc=2026-10-31T04:38:41Z
+
+---- issue lines ----
+9:❌ Playwright failed for Codrops: HTTP 403
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-31/deploy-a-container-from-a-plain-dockerfile.md
+📥 Processing: Vercel Agent sessions now cost 67% less
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-31/vercel-agent-sessions-now-cost-67-less.md
+📥 Processing: HarnessAgent now supports image inputs for all harness adapters
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-31/harnessagent-now-supports-image-inputs-for-all-harness-adapters.md
+📥 Processing: Stripe on Stripe: What we learned moving $1B in vendor payments to Global Payouts
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-31/stripe-on-stripe-what-we-learned-moving-1b-in-vendor-payments-to-global-payouts.md
+📥 Processing: How the fastest-growing enterprises on Stripe scale globally
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-31/how-the-fastest-growing-enterprises-on-stripe-scale-globally.md
+📥 Processing: The TL;DR on Figma Weave: Make your creative process repeatable
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-31/the-tldr-on-figma-weave-make-your-creative-process-repeatable.md
+📥 Processing: How we’re training a Figma-fluent editing model
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-31/how-were-training-a-figma-fluent-editing-model.md
+📥 Processing: Making something human: 4 things we took away from Config India
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-31/making-something-human-4-things-we-took-away-from-config-india.md
+📥 Processing: Source material: "BRAT" Art Director Brent David Freaney finds design inspiration from everyday life
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-31/source-material-brat-art-director-brent-david-freaney-finds-design-inspiration-from-everyday-life.md
+📥 Processing: The spyware hiding in old script tags
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-31/the-spyware-hiding-in-old-script-tags.md
+📥 Processing: Chizu 🧀: リンクをルールに応じてブラウザとプロファイルへ振り分けるmacOSアプリ
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-31/chizu-macos.md
+📥 Processing: Chromaticのコストを下げたいっ！ —— TurboSnapが効かない原因と、その対策
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-31/chromatic-turbosnap.md
+📥 Processing: SmartHRはKomeKaigi 2026に協賛し、1名が登壇します！
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-31/smarthrkomekaigi-20261.md
+📥 Processing: 不具合の知見を、次のレビューへ —— レビュー観点を蓄積・活用する3層構造の運用
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-31/smarthr-10-28-112702.md
+📥 Processing: 「見た目はいいけど、伝わらない」AIスライドを改善する試行錯誤
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-31/ai.md
+📥 Processing: The Role of UX in Agentic Software Factories
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-31/the-role-of-ux-in-agentic-software-factories.md
+📥 Processing: Experience Design: Dropping the “User” from “User Experience”
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-31/experience-design-dropping-the-user-from-user-experience.md
+📥 Processing: AI Engagement Quantitative UX: 2 High-Level Takeaways from 20+ Charts 
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-31/ai-engagement-quantitative-ux-2-high-level-takeaways-from-20-charts.md
+📥 Processing: The Realities of Participant Panels
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://medium.com/researchops-community/the-realities-of-participant-panels-c41463fc9a14
+✅ Playwright successfully fetched: https://medium.com/researchops-community/the-realities-of-participant-panels-c41463fc9a14
+⚠️ Content too short (182 chars < 200): https://medium.com/researchops-community/the-realities-of-participant-panels-c41463fc9a14
+⚠️ Using RSS content as fallback for: https://medium.com/researchops-community/the-realities-of-participant-panels-c41463fc9a14
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-31/the-realities-of-participant-panels.md
+📥 Processing: This Week In React #303: TanStack, Next.js, Vinext, Motion, React Hook Form | Expo Desktop, Legend Spark, Nitro, Exact, Skia, Screens, Unistyles | Node.js, Bun, SWC, Content Mappers, pnpm, Biome
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-31/this-week-in-react-303-tanstack-nextjs-vinext-motion-react-hook-form-expo-desktop-legend-spark-nitro.md
+📥 Processing: TanStack's smaller React for the browser
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-10-31/tanstacks-smaller-react-for-the-browser.md
+
+📊 Summary:
+   ✅ Success: 81
+   ❌ Errors: 0
+🏁 Done!
