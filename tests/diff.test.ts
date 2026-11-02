@@ -94,4 +94,43 @@ describe('DiffDetector', () => {
 
     expect(hash1).toBe(hash2)
   })
+
+  describe('maxAgeDays', () => {
+    const now = new Date('2026-11-02T00:00:00Z')
+    const item = (link: string, pubDate: string | null): FeedItem => ({
+      title: link,
+      link,
+      pubDate,
+      author: null,
+      content: 'Content',
+      feedName: 'Test Feed',
+      category: 'test',
+    })
+
+    it('should skip unprocessed articles older than maxAgeDays', () => {
+      const result = diffDetector.detectChanges(
+        [item('https://example.com/new', '2026-10-20'), item('https://example.com/old', '2026-09-01')],
+        { maxAgeDays: 30, now }
+      )
+
+      expect(result.newArticles.map((a) => a.link)).toEqual(['https://example.com/new'])
+      expect(result.tooOldArticles.map((a) => a.link)).toEqual(['https://example.com/old'])
+    })
+
+    it('should keep articles whose pubDate is missing or unparsable', () => {
+      const result = diffDetector.detectChanges(
+        [item('https://example.com/none', null), item('https://example.com/bad', 'Invalid Date')],
+        { maxAgeDays: 30, now }
+      )
+
+      expect(result.newArticles).toHaveLength(2)
+      expect(result.tooOldArticles).toHaveLength(0)
+    })
+
+    it('should not filter by age when maxAgeDays is not given', () => {
+      const result = diffDetector.detectChanges([item('https://example.com/old', '2020-01-01')])
+
+      expect(result.newArticles).toHaveLength(1)
+    })
+  })
 })

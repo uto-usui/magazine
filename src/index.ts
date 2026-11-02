@@ -12,6 +12,7 @@ const ROOT_DIR = process.cwd()
 const ARTICLES_DIR = join(ROOT_DIR, 'articles')
 const IMAGES_DIR = join(ROOT_DIR, 'images')
 const STATE_DIR = join(ROOT_DIR, 'state')
+const MAX_ARTICLE_AGE_DAYS = 30
 
 async function main() {
   const fetchDate = new Date() // Use script execution timestamp for directory
@@ -38,8 +39,12 @@ async function main() {
   console.log(`📰 Found ${allItems.length} total articles`)
 
   // Detect new and updated articles
-  const { newArticles, updatedArticles } = diffDetector.detectChanges(allItems)
+  const { newArticles, updatedArticles, tooOldArticles } = diffDetector.detectChanges(allItems, {
+    maxAgeDays: MAX_ARTICLE_AGE_DAYS,
+    now: fetchDate,
+  })
   console.log(`✨ New articles: ${newArticles.length}`)
+  console.log(`🗓️ Skipped (published more than ${MAX_ARTICLE_AGE_DAYS} days ago): ${tooOldArticles.length}`)
   console.log(`⏭️ Skipped (already processed): ${updatedArticles.length}`)
 
   // Skip updated articles - only process new articles to reduce execution time
