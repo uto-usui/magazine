@@ -1,0 +1,27 @@
+---
+title: "The fx adapter now runs the harness on the host"
+source: "https://vercel.com/changelog/fx-harness-adapter-now-separates-host-and-sandbox"
+publishedDate: "2026-10-27"
+category: "frontend"
+feedName: "Vercel"
+author: "Felix Arntz"
+---
+
+The fx adapter for the AI SDK’s `HarnessAgent` now runs the harness and model requests in the same process as your application. Built-in filesystem and shell operations remain isolated in the sandbox.
+
+The adapter uses `libfx`, the TypeScript library for fx. It no longer needs to install fx inside the sandbox, run a sandbox bridge, or expose a sandbox port. Model credentials stay on the host rather than being forwarded into the sandbox.
+
+The rewrite also adds:
+
+-   **Built-in tool filtering:** choose which built-in tools the agent can use
+    
+-   **Mid-turn steering:** send new instructions while a turn is running
+    
+-   **Structured output:** generate responses that match a schema
+    
+-   **Image tool results:** return images to the model through `toModelOutput()`
+    
+
+Sessions can be saved and resumed in a new host process.
+
+Update `@ai-sdk/harness-fx` to the latest version to use the new adapter. Learn more in the [fx harness documentation](https://ai-sdk.dev/providers/ai-sdk-harnesses/fx).
