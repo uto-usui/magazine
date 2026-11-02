@@ -82,6 +82,7 @@ feeds:
   - url: https://tympanus.net/codrops/feed/
     name: Codrops
     category: design
+    enabled: false  # Cloudflare のチャレンジでローカル・CI とも HTTP 403（2026-09-15 以降取得できていない）
 
   - url: https://feeds.feedburner.com/brad-frosts-blog
     name: Brad Frost
