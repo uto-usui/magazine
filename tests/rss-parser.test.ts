@@ -67,4 +67,27 @@ describe('RssFetcher', () => {
 
     expect(items).toEqual([])
   })
+
+  it('should drop items whose URL path starts with excludePaths', () => {
+    const fetcher = new RssFetcher()
+    const feed: Feed = {
+      url: 'https://vercel.com/atom',
+      name: 'Vercel',
+      category: 'frontend',
+      enabled: true,
+      excludePaths: ['/changelog/'],
+    }
+    const mapItems = (fetcher as unknown as { mapItems: (items: unknown[], feed: Feed) => FeedItem[] }).mapItems.bind(fetcher)
+
+    const items = mapItems(
+      [
+        { title: 'Blog', link: 'https://vercel.com/blog/some-post' },
+        { title: 'Changelog', link: 'https://vercel.com/changelog/some-update' },
+        { title: 'No link' },
+      ],
+      feed
+    )
+
+    expect(items.map((i) => i.title)).toEqual(['Blog', 'No link'])
+  })
 })

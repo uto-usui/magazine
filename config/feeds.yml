@@ -164,6 +164,7 @@ feeds:
   - url: https://vercel.com/atom
     name: Vercel
     category: frontend
+    excludePaths: ['/changelog/']  # 8月以降の 337 本中 276 本が短い changelog。blog だけのフィードは無い
 
   - url: https://stripe.com/blog/feed.rss
     name: Stripe Blog

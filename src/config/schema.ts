@@ -13,6 +13,8 @@ export const FeedSchema = z.object({
   name: z.string().min(1),
   category: z.string().min(1),
   enabled: FeedEnabledSchema,
+  // 記事 URL のパスがこれらで始まる記事を取り込まない（例: Vercel の /changelog/）
+  excludePaths: z.array(z.string().startsWith('/')).optional(),
 })
 
 export const FeedConfigSchema = z.object({

@@ -191,7 +191,7 @@ export class RssFetcher {
   }
 
   private mapItems(items: Parser.Item[], feed: Feed): FeedItem[] {
-    return items.map((item) => ({
+    return items.filter((item) => !this.isExcludedPath(item.link, feed)).map((item) => ({
       title: item.title || 'Untitled',
       link: normalizeUrl(item.link || ''),
       pubDate: item.pubDate || item.isoDate || null,
@@ -200,6 +200,16 @@ export class RssFetcher {
       feedName: feed.name,
       category: feed.category,
     }))
+  }
+
+  private isExcludedPath(link: string | undefined, feed: Feed): boolean {
+    if (!link || !feed.excludePaths?.length) return false
+    try {
+      const { pathname } = new URL(link)
+      return feed.excludePaths.some((prefix) => pathname.startsWith(prefix))
+    } catch {
+      return false
+    }
   }
 
   private extractContent(item: Parser.Item): string | null {
