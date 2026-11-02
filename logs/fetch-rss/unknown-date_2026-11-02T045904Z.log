@@ -1,0 +1,22 @@
+articles_dir=unknown-date
+exit_code=0
+timestamp_utc=2026-11-02T04:59:04Z
+
+---- issue lines ----
+10:Failed to fetch feed Sidebar after 3 attempts: Request timed out after 15000ms
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 65 feeds
+📡 Fetching RSS feeds...
+⏳ Retry feed fetch 1/3 for Sidebar after transient error: Request timed out after 15000ms
+⏳ Retry feed fetch 2/3 for Sidebar after transient error: Request timed out after 15000ms
+Failed to fetch feed Sidebar after 3 attempts: Request timed out after 15000ms
+📰 Found 6305 total articles
+✨ New articles: 0
+⏭️ Skipped (already processed): 736
+✅ No new articles to process
