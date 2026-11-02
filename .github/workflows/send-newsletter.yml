@@ -68,7 +68,47 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           FILES: ${{ steps.get-files.outputs.files }}
         run: |
+          set -o pipefail
           for file in $FILES; do
             echo "Sending: $file"
-            pnpm run send-newsletter "$file"
+            pnpm run send-newsletter "$file" | tee -a sent.log
           done
+
+      # Resend が受け付けても、相手のサーバーで弾かれることがある（2026-10 に受信箱の容量超過で 1 か月気づかなかった）
+      - name: Check delivery
+        if: steps.get-files.outputs.has_files == 'true'
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          MOSHI_TOKEN: ${{ secrets.MOSHI_TOKEN }}
+        run: |
+          IDS=$(grep -oE '\(id: [0-9a-f-]+\)' sent.log | grep -oE '[0-9a-f-]{36}' || true)
+          [ -z "$IDS" ] && exit 0
+
+          # 配達結果が出るまで最大 10 分待つ
+          for i in $(seq 1 20); do
+            sleep 30
+            PENDING=""
+            RESULTS=""
+            for id in $IDS; do
+              EVENT=$(curl -s -H "Authorization: Bearer $RESEND_API_KEY" "https://api.resend.com/emails/$id" | jq -r '.last_event')
+              RESULTS="$RESULTS $id:$EVENT"
+              case "$EVENT" in
+                delivered|opened|clicked|bounced|complained|failed) ;;
+                *) PENDING="$PENDING $id" ;;
+              esac
+            done
+            [ -z "$PENDING" ] && break
+          done
+
+          echo "Results:$RESULTS"
+          BAD=$(echo "$RESULTS" | tr ' ' '\n' | grep -vE ':(delivered|opened|clicked)$' | grep . || true)
+          if [ -n "$BAD" ]; then
+            echo "::error::届いていないメールがあります: $BAD"
+            if [ -n "$MOSHI_TOKEN" ]; then
+              MESSAGE="届いていないメール: $(echo $BAD | tr '\n' ' ') https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+              jq -n --arg token "$MOSHI_TOKEN" --arg message "$MESSAGE" \
+                '{token: $token, title: "Newsletter 配達失敗 ❌", message: $message}' |
+                curl -s -X POST https://api.getmoshi.app/api/webhook -H "Content-Type: application/json" -d @-
+            fi
+            exit 1
+          fi
