@@ -7,6 +7,11 @@ on:
     paths:
       - 'newsletters/*.md'
       - 'newsletters/pickup/*.md'
+  workflow_dispatch:
+    inputs:
+      file:
+        description: '送信するファイル（例: newsletters/2026-10-29-130452.md）'
+        required: true
 
 jobs:
   send:
@@ -14,13 +19,24 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
 
       - name: Get new newsletter files
         id: get-files
+        env:
+          INPUT_FILE: ${{ inputs.file }}
+          BEFORE: ${{ github.event.before }}
         run: |
-          # Get newly added markdown files in newsletters/
-          NEW_FILES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'newsletters/*.md' 'newsletters/pickup/*.md' || true)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            NEW_FILES="$INPUT_FILE"
+          else
+            # 1 回の push に複数コミットが入ることがあるので、HEAD~1 ではなく push 前の位置から比べる
+            if [ -z "$BEFORE" ] || ! git cat-file -e "${BEFORE}^{commit}" 2>/dev/null; then
+              BEFORE="HEAD~1"
+            fi
+            NEW_FILES=$(git diff --name-only --diff-filter=A "$BEFORE" HEAD -- 'newsletters/*.md' 'newsletters/pickup/*.md' | tr '\n' ' ' || true)
+          fi
+          NEW_FILES=$(echo "$NEW_FILES" | xargs)
           echo "files=$NEW_FILES" >> $GITHUB_OUTPUT
           if [ -z "$NEW_FILES" ]; then
             echo "No new newsletter files found"
@@ -50,8 +66,9 @@ jobs:
         if: steps.get-files.outputs.has_files == 'true'
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          FILES: ${{ steps.get-files.outputs.files }}
         run: |
-          for file in ${{ steps.get-files.outputs.files }}; do
+          for file in $FILES; do
             echo "Sending: $file"
             pnpm run send-newsletter "$file"
           done
