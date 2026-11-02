@@ -1,0 +1,58 @@
+articles_dir=2026-11-02
+exit_code=0
+timestamp_utc=2026-11-02T03:26:06Z
+
+---- issue lines ----
+9:❌ Playwright failed for Codrops: HTTP 403
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-02/ling-31-flash-1019-now-available-on-ai-gateway-for-free.md
+📥 Processing: Add liveness checks to your Daemons
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-02/add-liveness-checks-to-your-daemons.md
+📥 Processing: Strix now supports Vercel AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-02/strix-now-supports-vercel-ai-gateway.md
+📥 Processing: IP geolocation now covers more visitors at higher resolution
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-02/ip-geolocation-now-covers-more-visitors-at-higher-resolution.md
+📥 Processing: Vercel Flags starts 7x faster and no longer extends function duration
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-02/vercel-flags-starts-7x-faster-and-no-longer-extends-function-duration.md
+📥 Processing: Node.js 26 LTS is now Generally Available on Vercel
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-02/nodejs-26-lts-is-now-generally-available-on-vercel.md
+📥 Processing: Vercel Connect adds webhook triggers for more providers
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-02/vercel-connect-adds-webhook-triggers-for-more-providers.md
+📥 Processing: Control AI crawlers and assistants separately in Vercel Firewall
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-02/control-ai-crawlers-and-assistants-separately-in-vercel-firewall.md
+📥 Processing: Vercel Plugin is now available in Antigravity
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-02/vercel-plugin-is-now-available-in-antigravity.md
+📥 Processing: Mistral Large 4 updated weights and lower pricing on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-02/mistral-large-4-updated-weights-and-lower-pricing-on-ai-gateway.md
+📥 Processing: Stripe on Stripe: What we learned moving $1B in vendor payments to Global Payouts
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-02/stripe-on-stripe-what-we-learned-moving-1b-in-vendor-payments-to-global-payouts.md
+📥 Processing: The TL;DR on Figma Weave: Make your creative process repeatable
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-02/the-tldr-on-figma-weave-make-your-creative-process-repeatable.md
+📥 Processing: How we’re training a Figma-fluent editing model
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-02/how-were-training-a-figma-fluent-editing-model.md
+📥 Processing: Making something human: 4 things we took away from Config India
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-02/making-something-human-4-things-we-took-away-from-config-india.md
+📥 Processing: Chromaticのコストを下げたいっ！ —— TurboSnapが効かない原因と、その対策
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-02/chromatic-turbosnap.md
+📥 Processing: 「見た目はいいけど、伝わらない」AIスライドを改善する試行錯誤
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-02/ai.md
+📥 Processing: The Role of UX in Agentic Software Factories
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-02/the-role-of-ux-in-agentic-software-factories.md
+📥 Processing: Experience Design: Dropping the “User” from “User Experience”
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-02/experience-design-dropping-the-user-from-user-experience.md
+📥 Processing: Pixels of the Week – November 1, 2026
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-02/pixels-of-the-week-november-1-2026.md
+📥 Processing: The Realities of Participant Panels
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://medium.com/researchops-community/the-realities-of-participant-panels-c41463fc9a14
+✅ Playwright successfully fetched: https://medium.com/researchops-community/the-realities-of-participant-panels-c41463fc9a14
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-02/the-realities-of-participant-panels.md
+📥 Processing: TanStack's smaller React for the browser
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-02/tanstacks-smaller-react-for-the-browser.md
+
+📊 Summary:
+   ✅ Success: 44
+   ❌ Errors: 0
+🏁 Done!
