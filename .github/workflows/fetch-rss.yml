@@ -8,6 +8,8 @@ on:
 
 env:
   NODE_VERSION: 22.15.1
+  # 新着記事 PR の記事数がこの数以上なら自動マージする
+  AUTO_MERGE_THRESHOLD: 20
 
 jobs:
   fetch-rss:
@@ -15,6 +17,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      actions: write # Sync to Obsidian の workflow_dispatch 用
 
     steps:
       - name: Checkout repository
@@ -93,6 +96,9 @@ jobs:
           # Check if there are article or image changes (not just state/processed.json)
           # Use git status --porcelain to detect both modified and new (untracked) files
           ARTICLE_CHANGES=$(git status --porcelain -- articles/ images/ | wc -l | tr -d ' ')
+          # 未マージの state は master に無いので、前回までの未マージ分もこの数に含まれる
+          ARTICLE_COUNT=$(git status --porcelain --untracked-files=all -- 'articles/*.md' | wc -l | tr -d ' ')
+          echo "article_count=$ARTICLE_COUNT" >> $GITHUB_OUTPUT
 
           if [ "$ARTICLE_CHANGES" -eq 0 ]; then
             echo "No article changes to commit"
@@ -174,6 +180,30 @@ jobs:
             --base master \
             --reviewer uto-usui
 
+      - name: Auto-merge when enough articles
+        id: auto-merge
+        if: steps.fetch-rss.outputs.exit_code == '0' && steps.check-changes.outputs.has_changes == 'true' && fromJSON(steps.check-changes.outputs.article_count) >= fromJSON(env.AUTO_MERGE_THRESHOLD)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ARTICLE_COUNT: ${{ steps.check-changes.outputs.article_count }}
+        run: |
+          NEW_PR=$(gh pr view "$BRANCH" --json number -q .number)
+          # --delete-branch はローカルの checkout も切り替えようとするので、リモートのブランチだけ API で消す
+          gh pr merge "$NEW_PR" --squash
+          gh api -X DELETE "repos/${GITHUB_REPOSITORY}/git/refs/heads/${BRANCH}" || true
+          echo "merged=true" >> $GITHUB_OUTPUT
+
+          # 古い未マージ PR の記事は今回の PR に含まれていて、state が競合するので閉じる
+          gh pr list --state open --base master --json number,headRefName \
+            -q '.[] | select(.headRefName | startswith("rss-updates/")) | "\(.number) \(.headRefName)"' |
+          while read -r n ref; do
+            gh pr close "$n" --comment "#${NEW_PR} に記事が含まれる形で自動マージしたため閉じます"
+            gh api -X DELETE "repos/${GITHUB_REPOSITORY}/git/refs/heads/${ref}" || true
+          done
+
+          # GITHUB_TOKEN による push では push トリガーの workflow が動かないため明示的に起動する
+          gh workflow run sync-to-obsidian.yml --ref master
+
       - name: Create issue log branch and commit
         if: steps.fetch-rss.outputs.has_issue_log == 'true'
         run: |
@@ -250,15 +280,22 @@ jobs:
             if [ "${{ steps.fetch-rss.outputs.exit_code }}" != "0" ]; then
               MESSAGE="RSS取得が失敗しました。Actions を確認してください: ${RUN_URL}"
             else
-              MESSAGE="新着記事のPR作成中に失敗しました。Actions を確認してください: ${RUN_URL}"
+              MESSAGE="新着記事のPR作成・自動マージ中に失敗しました。Actions を確認してください: ${RUN_URL}"
             fi
-          elif [ "${{ steps.fetch-rss.outputs.has_issue_log }}" = "true" ]; then
-            TITLE="Fetch RSS ⚠️"
-            MESSAGE="RSS取得で問題を検出し、issue log PR を作成しました: ${RUN_URL}"
-          elif [ "${{ steps.check-changes.outputs.has_changes }}" = "true" ]; then
-            MESSAGE="新着記事を取得して PR を作成しました: ${RUN_URL}"
           else
-            MESSAGE="新着記事はありませんでした: ${RUN_URL}"
+            if [ "${{ steps.auto-merge.outputs.merged }}" = "true" ]; then
+              MESSAGE="新着記事 ${{ steps.check-changes.outputs.article_count }} 件の PR を自動マージしました"
+            elif [ "${{ steps.check-changes.outputs.has_changes }}" = "true" ]; then
+              MESSAGE="新着記事 ${{ steps.check-changes.outputs.article_count }} 件の PR を作成しました（${AUTO_MERGE_THRESHOLD} 件未満のため未マージ）"
+            else
+              MESSAGE="新着記事はありませんでした"
+            fi
+            # issue log は毎日出ることがあるので、記事の状況を隠さないよう追記する
+            if [ "${{ steps.fetch-rss.outputs.has_issue_log }}" = "true" ]; then
+              TITLE="Fetch RSS ⚠️"
+              MESSAGE="${MESSAGE}。RSS取得で問題を検出し issue log PR を作成しました"
+            fi
+            MESSAGE="${MESSAGE}: ${RUN_URL}"
           fi
 
           curl -s -X POST https://api.getmoshi.app/api/webhook \
