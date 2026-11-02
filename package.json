@@ -9,7 +9,8 @@
     "test": "vitest",
     "fetch-rss": "node --import tsx src/index.ts",
     "send-newsletter": "node --import tsx src/send-newsletter.ts",
-    "sync-to-obsidian": "node --import tsx src/sync-to-obsidian.ts"
+    "sync-to-obsidian": "node --import tsx src/sync-to-obsidian.ts",
+    "feed-quality": "node --import tsx src/feed-quality.ts"
   },
   "dependencies": {
     "@mozilla/readability": "^0.6.0",

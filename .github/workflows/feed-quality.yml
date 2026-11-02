@@ -1,0 +1,64 @@
+name: Feed Quality Report
+
+on:
+  schedule:
+    # 毎月1日 JST 10:00（fetch-rss の後）
+    - cron: '0 1 1 * *'
+  workflow_dispatch:
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: '.node-version'
+          cache: 'pnpm'
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Build report
+        id: report
+        run: |
+          pnpm run -s feed-quality > report.md
+          # 「## 外す候補（N）」の N を通知に使う
+          CANDIDATES=$(grep -oE '^## 外す候補（[0-9]+）' report.md | grep -oE '[0-9]+' || echo 0)
+          echo "candidates=$CANDIDATES" >> "$GITHUB_OUTPUT"
+
+      - name: Open issue
+        id: issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          URL=$(gh issue create \
+            --title "📊 $(date -u +%Y-%m) フィード品質レポート（外す候補 ${{ steps.report.outputs.candidates }} 件）" \
+            --body-file report.md \
+            --assignee uto-usui)
+          echo "url=$URL" >> "$GITHUB_OUTPUT"
+
+      - name: Notify Moshi
+        if: always()
+        env:
+          MOSHI_TOKEN: ${{ secrets.MOSHI_TOKEN }}
+        run: |
+          if [ -z "$MOSHI_TOKEN" ]; then
+            exit 0
+          fi
+          if [ "${{ job.status }}" = "success" ]; then
+            TITLE="Feed Quality 📊"
+            MESSAGE="外す候補 ${{ steps.report.outputs.candidates }} 件: ${{ steps.issue.outputs.url }}"
+          else
+            TITLE="Feed Quality ❌"
+            MESSAGE="レポート作成に失敗しました: https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          fi
+          curl -s -X POST https://api.getmoshi.app/api/webhook \
+            -H "Content-Type: application/json" \
+            -d "{\"token\": \"$MOSHI_TOKEN\", \"title\": \"$TITLE\", \"message\": \"$MESSAGE\"}"
