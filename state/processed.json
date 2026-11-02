@@ -37719,7 +37719,183 @@
     "https://thisweekinreact.com/newsletter/303": {
       "contentHash": "5a1e46d0e7f4925a0cda8bece391b8ad8a722a052f2eba56cfdce10c438f164d",
       "processedAt": "2026-10-29T04:52:34.694Z"
+    },
+    "https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale/": {
+      "contentHash": "447b3c6b1f5562d4fd1b677126bd89cce46d696ba52f2572e6413c19bd41e189",
+      "processedAt": "2026-11-02T03:25:18.008Z"
+    },
+    "https://webaim.org/blog/captioned-doesnt-always-mean-accessible/": {
+      "contentHash": "dae0f634b622c2eef956bcdb09bce6e26a5e4147f468bb36f28ebfc135baa128",
+      "processedAt": "2026-11-02T03:25:18.202Z"
+    },
+    "https://a11yweekly.com/issue/524/": {
+      "contentHash": "ec3e32a23458567cf642ef26c82ce63ad1a035600233b381c516755310a40f77",
+      "processedAt": "2026-11-02T03:25:18.594Z"
+    },
+    "https://ryo.lu/journal/struggle-together": {
+      "contentHash": "f05a6f4e007534002cfe73308617380c31ad2f9f883ed4d9236451260f961464",
+      "processedAt": "2026-11-02T03:25:24.547Z"
+    },
+    "https://the-brandidentity.com/project/the-new-york-times-turns-175-with-an-identity-events-and-a-campaign": {
+      "contentHash": "ef77662caeabb0e4607e7ecaeb5b08e3c54ee6e58e7488cfa157d9f6f9032bde",
+      "processedAt": "2026-11-02T03:25:34.041Z"
+    },
+    "https://dri.es/website-migration-costs-are-going-to-zero": {
+      "contentHash": "9083f0b8aab8a77a727d4f0383ca567529e22f493b37527959186ffec9327677",
+      "processedAt": "2026-11-02T03:25:34.238Z"
+    },
+    "https://hairline.lucasmarkes.com/": {
+      "contentHash": "6766ddec22f8d1b1d3c7d52d05174e2d58af123eb262f880a51630b68b0c5f3f",
+      "processedAt": "2026-11-02T03:25:38.836Z"
+    },
+    "https://www.texttocad.dev/": {
+      "contentHash": "ed17b6464aca91cbe3ac13261b973b538c141c2a606c8c2e625b13fecf01d200",
+      "processedAt": "2026-11-02T03:25:39.154Z"
+    },
+    "https://atifaz.am/writing/the-software-factory-forgot-about-design": {
+      "contentHash": "2f0ba0862291ac0160fd3885c00c9808cb1d0933473bc6991b9fa3b67ac1c9a0",
+      "processedAt": "2026-11-02T03:25:39.604Z"
+    },
+    "https://the-brandidentity.com/project/microsofts-identity-for-copilot-positions-it-as-a-tool-for-work": {
+      "contentHash": "e45c9d0eac9369868a3d30cd597875d72285de525eea240046307d7b4a50b551",
+      "processedAt": "2026-11-02T03:25:43.964Z"
+    },
+    "https://avivbenyosef.com/shipping-the-roadmap-is-the-minimum/": {
+      "contentHash": "c2a463f04f45438fbd8bd111c5b75da2537b83d92cb8cf90acb02bfda88f18d7",
+      "processedAt": "2026-11-02T03:25:44.299Z"
+    },
+    "https://theremin.bizibah.com/": {
+      "contentHash": "bb5a35755b63d42ca791733f656b46285fb77c0c63e794e6c118a93cd244e13c",
+      "processedAt": "2026-11-02T03:25:45.091Z"
+    },
+    "https://karlkoch.me/writing/on-giving-people-an-undo-button-in-ai-products": {
+      "contentHash": "707df8ec9bd6162fe4f1020e4b7c20a29057d7214c40ea1977e8ceded12c4efa",
+      "processedAt": "2026-11-02T03:25:45.339Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-anthropic-kills-the-coding": {
+      "contentHash": "eaca42be338e5e00da8f95aa81bb580af63ef1ea5bc7b796978c475d10c4fe2d",
+      "processedAt": "2026-11-02T03:25:45.534Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/software-engineering-at-google-and": {
+      "contentHash": "520f43baaec92c9398885a0637549a6a6e733f63a0c8b898bccf7231c027c310",
+      "processedAt": "2026-11-02T03:25:45.896Z"
+    },
+    "https://smashingmagazine.com/2026/10/desktop-wallpaper-calendars-november-2026/": {
+      "contentHash": "145e55c5614c9210c6ba33eb011048863aee140b2be04ccc1e8b0e49f7a655f4",
+      "processedAt": "2026-11-02T03:25:47.006Z"
+    },
+    "https://ics.media/entry/261030/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-11-02T03:25:47.329Z"
+    },
+    "https://piccalil.li/the-index/204/": {
+      "contentHash": "f70d62c36cd3a18bb827fc8ff01c683834c8b4308a9988273cfaba56576f1d5a",
+      "processedAt": "2026-11-02T03:25:47.742Z"
+    },
+    "https://piccalil.li/blog/if-we-stop-we-lose/": {
+      "contentHash": "0762288a050686cff293651d6a0d4918be6f4d1a3c9be33a41ac1871f52f68b5",
+      "processedAt": "2026-11-02T03:25:47.937Z"
+    },
+    "https://vercel.com/blog/introducing-geist-serif": {
+      "contentHash": "713e98092a295dc7af9d4a17a9213b8d2b4ce043a1f29d883b2be47a2f944886",
+      "processedAt": "2026-11-02T03:25:48.600Z"
+    },
+    "https://vercel.com/blog/simplifying-runtime-caching-on-vercel": {
+      "contentHash": "f6ba62dc7110130f4fa821422bd81217a5852fa56ceb5c2be2e87c0f6626db04",
+      "processedAt": "2026-11-02T03:25:48.980Z"
+    },
+    "https://vercel.com/changelog/data-cache-is-moving-to-runtime-cache": {
+      "contentHash": "94c79cf7f8ef53197e3e4ca4e04d2688e358c2f17a58e1fcb5166874b0e31f35",
+      "processedAt": "2026-11-02T03:25:49.324Z"
+    },
+    "https://vercel.com/changelog/vercel-daemons-can-now-call-services-with-bindings": {
+      "contentHash": "55d7f815b24b208f666a1f92927f71180a7d731054a3679d66c349b9876e790d",
+      "processedAt": "2026-11-02T03:25:49.724Z"
+    },
+    "https://vercel.com/changelog/ling-3-1-flash-1019-now-available-on-ai-gateway-for-free": {
+      "contentHash": "84ea91c6114bfa34ff5aa00a21554f458a59e47fbdfbc619260ce4502de3852e",
+      "processedAt": "2026-11-02T03:25:50.086Z"
+    },
+    "https://vercel.com/changelog/add-liveness-checks-to-your-daemons": {
+      "contentHash": "bfcf9390614342e3459be12a49cdc70aa6e8c8975cc054a1f9f947c8d78acca1",
+      "processedAt": "2026-11-02T03:25:50.460Z"
+    },
+    "https://vercel.com/changelog/strix-now-supports-vercel-ai-gateway": {
+      "contentHash": "bc0bcfa0b5d39e2b7ca8aa5d60377cf629e162c45cbcb38c081f8bc4bf51ceef",
+      "processedAt": "2026-11-02T03:25:50.890Z"
+    },
+    "https://vercel.com/changelog/improved-ip-geolocation-data": {
+      "contentHash": "eadcb762c40a522dd6aad822fbb5a1604b0f8881147944b62abca372288ed596",
+      "processedAt": "2026-11-02T03:25:51.361Z"
+    },
+    "https://vercel.com/changelog/vercel-flags-starts-7x-faster-and-no-longer-extends-function-duration": {
+      "contentHash": "1a30726333bddfdd505b5fc35feb48111f924f05b08520821fc78ee8cd6fecdf",
+      "processedAt": "2026-11-02T03:25:51.695Z"
+    },
+    "https://vercel.com/changelog/node-js-26-lts-is-now-generally-available-on-vercel": {
+      "contentHash": "87f48261da3ac2aa3dabc959b79fc5e7c9774266026cc3337adf748e05e7fdfe",
+      "processedAt": "2026-11-02T03:25:52.060Z"
+    },
+    "https://vercel.com/changelog/vercel-connect-adds-webhook-triggers-for-more-providers": {
+      "contentHash": "76178c068498e974fdc434902bdc8c60fdf6e32597931870bc2e669313a13ea8",
+      "processedAt": "2026-11-02T03:25:52.447Z"
+    },
+    "https://vercel.com/changelog/block-ai-crawlers-and-assistants-independently-with-managed-rules": {
+      "contentHash": "84c314949b714470f5912f6a67e20c6b3619663e494d8b4dec22476a9367f535",
+      "processedAt": "2026-11-02T03:25:52.793Z"
+    },
+    "https://vercel.com/changelog/vercel-plugin-is-now-available-in-antigravity": {
+      "contentHash": "387ef6ed8e2fac80265eadcf2811ffa9577cbcde2955e423a5bda4e8f3d39378",
+      "processedAt": "2026-11-02T03:25:53.144Z"
+    },
+    "https://vercel.com/changelog/mistral-large-4-updated-weights-and-lower-pricing-on-ai-gateway": {
+      "contentHash": "7375ce112546f42c36d6aa6029e2addf2edb93859593f78206a537da95171d01",
+      "processedAt": "2026-11-02T03:25:53.523Z"
+    },
+    "https://stripe.com/blog/stripe-on-stripe-what-we-learned-moving-1b-in-vendor-payments-to-global-payouts": {
+      "contentHash": "f11095f94438be816c7dd3dbba55a6a5da851181d1dc5a3f793172733d3661df",
+      "processedAt": "2026-11-02T03:25:54.023Z"
+    },
+    "https://www.figma.com/blog/the-tldr-on-figma-weave/": {
+      "contentHash": "a866d2ca3e6036e40a61097d66d9013524e8f6d2c174c24576fb44136a9c9b6c",
+      "processedAt": "2026-11-02T03:25:55.054Z"
+    },
+    "https://www.figma.com/blog/training-a-figma-fluent-editing-model/": {
+      "contentHash": "b2ef2051ff8628b79605539c20260458ee5dd713cf01be88ff25de0a53089e22",
+      "processedAt": "2026-11-02T03:25:55.799Z"
+    },
+    "https://www.figma.com/blog/making-something-human-4-things-we-took-away-from-config-india/": {
+      "contentHash": "5354e1f1a401ec8e8c89cfa640e636901c83d594d5bc39cb51f80ba0573a5049",
+      "processedAt": "2026-11-02T03:25:57.415Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/10/29/163317": {
+      "contentHash": "8fa6b7eedb90de36f6763014df70baef4f2661cd59e1b20afead86cc48176ad5",
+      "processedAt": "2026-11-02T03:25:58.215Z"
+    },
+    "https://tech.layerx.co.jp/entry/ai-slide-challenge": {
+      "contentHash": "97bfc12a35e7ee0c26075f4c543ead109eb50ca4979bf62ee6210e0133cae262",
+      "processedAt": "2026-11-02T03:25:58.969Z"
+    },
+    "https://www.nngroup.com/articles/ux-agentic-software-factories/": {
+      "contentHash": "af5727474eb346c40f3138b2dfb5af3433c8cd85718000dcc170d02a531a68ca",
+      "processedAt": "2026-11-02T03:25:59.909Z"
+    },
+    "https://www.nngroup.com/articles/ux-vs-experience-design/": {
+      "contentHash": "e984d270e7bebdf2350c5a5e7e3e1cb977b4d0782209b9c62580c8c4d033f044",
+      "processedAt": "2026-11-02T03:26:00.055Z"
+    },
+    "https://stephaniewalter.design/blog/pixels-of-the-week-november-1-2026/": {
+      "contentHash": "0c9f6156631656e20e2bcafb727aaee7a7976d805fcba3bea08a5dd7715442ae",
+      "processedAt": "2026-11-02T03:26:00.857Z"
+    },
+    "https://medium.com/researchops-community/the-realities-of-participant-panels-c41463fc9a14": {
+      "contentHash": "6c29f5774747fba196df765b80213224072d894f6a484d925da6793ec87d8efc",
+      "processedAt": "2026-11-02T03:26:05.518Z"
+    },
+    "https://react.statuscode.com/issues/495": {
+      "contentHash": "11e7c7468e90b4b248d8890a9a64509a9381261bb7e8a629333b15cdbd4ccd5b",
+      "processedAt": "2026-11-02T03:26:06.134Z"
     }
   },
-  "lastRun": "2026-10-29T04:52:34.694Z"
+  "lastRun": "2026-11-02T03:26:06.134Z"
 }
