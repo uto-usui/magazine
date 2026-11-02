@@ -3,12 +3,11 @@ feeds:
   - url: https://netflixtechblog.com/feed
     name: Netflix Tech Blog
     category: engineering
-    enabled: false  # SSL certificate error
 
   - url: https://www.uber.com/blog/engineering/rss/
     name: Uber Engineering
     category: engineering
-    enabled: false  # Returns HTTP 406, blocking RSS readers
+    enabled: false  # 2026-11-02 時点で 404。フィードの移転先は未確認
 
   - url: https://engineering.atspotify.com/feed/
     name: Spotify Engineering
@@ -17,7 +16,6 @@ feeds:
   - url: https://medium.com/feed/airbnb-engineering
     name: Airbnb Engineering
     category: engineering
-    enabled: false  # HTTP 403 + no RSS content fallback available
 
   - url: https://engineering.fb.com/feed/
     name: Meta Engineering
@@ -55,7 +53,6 @@ feeds:
   - url: https://hidde.blog/feed.xml
     name: Hidde de Vries
     category: accessibility
-    enabled: false  # Empty response
 
   - url: https://www.scottohara.me/feed.xml
     name: Scott O'Hara
@@ -73,7 +70,7 @@ feeds:
   - url: https://uxwritinghub.com/feed
     name: UX Writing Hub
     category: ux-writing
-    enabled: local  # CI環境でHTTP 415エラー
+    enabled: false  # 2026-04 から更新が止まっている
 
   - url: https://lea.verou.me/feed.xml
     name: Lea Verou
@@ -119,7 +116,6 @@ feeds:
   - url: https://engineering.mercari.com/blog/feed.xml
     name: Mercari Engineering
     category: engineering
-    enabled: local
 
   - url: https://una.im/rss.xml
     name: Una Kravets
@@ -132,7 +128,6 @@ feeds:
   - url: https://css-tricks.com/feed/
     name: css-tricks
     category: css
-    enabled: local  # CI環境でHTTP 415エラー
 
   # Individual Expert Blogs
   - url: https://www.joshwcomeau.com/rss.xml
@@ -154,7 +149,6 @@ feeds:
   - url: https://ishadeed.com/feed.xml
     name: Ahmad Shadeed
     category: css
-    enabled: false  # Fetcher fails on CSS parsing for modern-attr post
 
   - url: https://piccalil.li/feed.xml
     name: Piccalilli
@@ -187,7 +181,6 @@ feeds:
   - url: https://blog.jxck.io/feeds/atom.xml
     name: blog.jxck.io
     category: web-standards
-    enabled: local  # CI環境でフィード取得失敗（ローカルでは正常）
 
   - url: https://efcl.info/feed/
     name: Web Scratch
@@ -262,7 +255,6 @@ feeds:
   - url: https://nextjs.org/feed.xml
     name: Next.js Blog
     category: frontend
-    enabled: false  # RSS feed removed (404)
 
   - url: https://tkdodo.eu/blog/rss.xml
     name: TkDodo
@@ -283,3 +275,44 @@ feeds:
   - url: https://cprss.s3.amazonaws.com/react.statuscode.com.xml
     name: React Status
     category: frontend
+
+  # Added 2026-11-02
+  - url: https://measuringu.com/feed/
+    name: MeasuringU
+    category: ux-research
+
+  - url: https://designnotes.blog.gov.uk/feed/
+    name: GOV.UK Design Notes
+    category: design
+
+  - url: https://www.lukew.com/ff/rss.xml
+    name: LukeW
+    category: design
+
+  - url: https://webkit.org/feed/
+    name: WebKit Blog
+    category: web-standards
+
+  - url: https://blog.master.dev/feed/
+    name: Frontend Masters Blog
+    category: css
+
+  - url: https://glebbahmutov.com/blog/atom.xml
+    name: Gleb Bahmutov
+    category: testing
+
+  - url: https://zenn.dev/topics/designsystem/feed
+    name: Zenn designsystem
+    category: design-systems
+
+  - url: https://goodpatch.com/blog/feed
+    name: Goodpatch Blog
+    category: design
+
+  - url: https://developers.cyberagent.co.jp/blog/feed/
+    name: CyberAgent Developers Blog
+    category: frontend
+
+  - url: https://zenn.dev/mizchi/feed
+    name: mizchi
+    category: testing
