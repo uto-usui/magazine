@@ -130,7 +130,7 @@ export function renderReport(rows: FeedQualityRow[], today: string, windowDays: 
     `取り込みが ${MIN_ARTICLES_TO_JUDGE} 本以上で 1 本も選ばれていないフィードを「外す候補」にしています。`,
     `まだ取り込みがないか、初めて取り込んでから ${WATCH_DAYS} 日未満のものは「観察中」、${STALLED_DAYS} 日以上取り込みがないものは「停止」です。`,
     '1 号のハイライトは 15 本なので、取り込みの半分ほどは選ばれるのが普通です。ピックアップのほうが選ぶ基準は厳しめです。',
-    '選定は LLM が行っていて、日本語の記事を拾いやすい偏りがあります（create-newsletter-auto の注意書き参照）。日本語フィードの採用率は高めに出ることがあります。',
+    '選定の基準は ai/docs/selection-rubric.md です。点数ごとの記録は newsletters/scores/ にあります。',
     '',
   ]
 
