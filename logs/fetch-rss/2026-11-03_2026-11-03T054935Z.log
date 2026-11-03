@@ -1,0 +1,62 @@
+articles_dir=2026-11-03
+exit_code=0
+timestamp_utc=2026-11-03T05:49:35Z
+
+---- issue lines ----
+9:Failed to fetch feed blog.jxck.io: 
+10:❌ Playwright failed for Mercari Engineering: HTTP 403
+11:Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+125:⚠️ Readability bug detected ([object Object]): https://benji.org/stageshow
+128:⚠️ Readability bug detected ([object Object]): https://benji.org/stageshow
+
+---- tail (last 50 lines) ----
+⚠️ Content too short (167 chars < 200): https://blog.master.dev/structured-output-with-tanstack-ai/
+⚠️ Using RSS content as fallback for: https://blog.master.dev/structured-output-with-tanstack-ai/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-03/structured-output-with-tanstack-ai.md
+📥 Processing: Unlocking AI in Your Apps with TanStack AI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-03/unlocking-ai-in-your-apps-with-tanstack-ai.md
+📥 Processing: Cypress Test For Optional Data
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-03/cypress-test-for-optional-data.md
+📥 Processing: Modal・Side panel・専用ページの使い分け：8つのデザインシステムとガイドラインを混ぜずに比べる
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-03/modalside-panel8.md
+📥 Processing: デザイナーのためのshadcn/ui入門
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-03/shadcnui.md
+📥 Processing: なぜデザインシステムを「デザインハーネス」として作っているのか
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-03/zenn-dev-xtm-blog-articles-design-system-as-design-harness.md
+📥 Processing: Zod の契約で BE と UI のずれをテストし、振る舞いまで守る Schema-Driven UI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-03/zod-be-ui-schema-driven-ui.md
+📥 Processing: デザインシステムから作る、Claude Code との個人ブログ改装
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-03/claude-code.md
+📥 Processing: AI 時代こそ、デザインシステムは泥臭く育てる ― スタートアップで半年運用して見えたこと
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-03/ai.md
+📥 Processing: 35日でフロントエンドの基礎を完全に理解する #18 - コンポーネント設計とデザインシステム（共通部品の切り方）
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-03/35-18.md
+📥 Processing: ベテランのレビューに頼らず、UIデザインの品質を揃える仕組みを作った話
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-03/ui.md
+📥 Processing: VS Code のモダンUIを見て、モダンとは何か考えた
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-03/vs-code-ui.md
+📥 Processing: Figma を SoT としてデザインシステムを作り、新 theme を全ページに一括適用しました
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-03/figma-sot-theme.md
+📥 Processing: コンポーネントを公開している海外テック企業のデザインシステムを55個集めた
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-03/zenn-dev-bigtree-articles-design-system-components-list.md
+📥 Processing: React Compiler 導入で画面が更新されなくなった話 〜既存SPAでの主要ライブラリとの衝突と解決の記録〜
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-03/react-compiler-spa.md
+📥 Processing: コピーではなく翻訳する 〜Amebaブログのレガシー Node.js アプリを止めずに Next.js / EKS へ移した話〜
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-03/ameba-nodejs-nextjs-eks.md
+📥 Processing: 生成AIと進める稼働中Lambdaの一括管理
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-03/ailambda.md
+📥 Processing: AI Nativeな生成クリエイティブ評価基盤の高速化と縦画面広告シーン分割アプリ開発
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-03/ai-native.md
+📥 Processing: GitHub Actions × AWS CodeBuild でつくる広告配信タグのハイブリッド CI 基盤
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-03/github-actions-aws-codebuild-ci.md
+📥 Processing: 「本物の紙」によって、UIデザインに手触り感を仕込む。-Amebaらしい親しみやすさをAI時代に探求する-
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-03/ui-amebaai.md
+📥 Processing: @mizchi/mutator で vitest の mutation test をする
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-03/mizchimutator-vitest-mutation-test.md
+📥 Processing: 俺のAIプログラミング手法(2026/10/05)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-03/ai20261005.md
+
+📊 Summary:
+   ✅ Success: 81
+   ❌ Errors: 0
+🏁 Done!
