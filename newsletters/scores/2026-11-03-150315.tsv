@@ -1,0 +1,82 @@
+url	feed	lang	A	B	C	D	total	selected	note
+https://nextjs.org/blog/improving-navigation-experience-in-v0-with-nextjs-16-4	Next.js Blog	en	2	2	2	2	8	yes	nextjs-164と同じリリース関連だが、v0での設計判断と本番計測を含む別記事として採点。コード例は取得できていない
+https://alfy.blog/2026/10/27/a-select-should-tell-you-something.html	Sidebar	en	2	2	1	2	7	yes	
+https://blog.master.dev/what-should-you-put-on-a-dynamic-custom-social-media-card-image/	Frontend Masters Blog	en	2	2	2	1	7	yes	取得失敗の注記があるが本文は末尾まで取れている。9アプリの展開表示を並べた棚卸しを調査としてC2
+https://zenn.dev/aldagram_tech/articles/figma-sot-design-system	Zenn designsystem	ja	2	2	2	1	7	yes	AIの検証基準(10px以内・ピクセル差分を使わない理由)はD=2と迷ったが低いほう
+https://zenn.dev/dress_code/articles/fe01d8baae2aa8	Zenn designsystem	ja	2	2	2	1	7	yes	Schema-Drivenという捉え直しはD=2と迷ったが低いほう
+https://zenn.dev/kifr/articles/108c948b2c99df	Zenn designsystem	ja	2	2	2	1	7	no	同一フィード3本までの上限で外した（Zenn designsystem の7点が4本並んだため）
+https://zenn.dev/lilpacy/articles/modal-side-panel-page-design-systems	Zenn designsystem	ja	2	2	2	1	7	yes	8資料の出典付き比較を調査としてC=2。新しい調査結果かは迷いD=1
+https://measuringu.com/digital-twins-systematically-overestimated-business-software-sus-scores/	MeasuringU	en	1	2	2	2	7	yes	
+https://blog.master.dev/overriding-heading-levels-with-the-headingoffset-html-attribute/	Frontend Masters Blog	en	2	1	1	2	6	yes	見出しレベルは支援技術の利用者の体験に直結し、A2の例『アクセシビリティの実装』に当たる。Firefox Nightlyのフラグ付き機能で、使いどころは『控えめに』程度なのでB1
+https://blog.master.dev/useful-custom-media-presets/	Frontend Masters Blog	en	1	2	1	2	6	yes	入力デバイス判定は操作感にも関わるがCSS構文の話が主なのでA1
+https://developers.cyberagent.co.jp/blog/archives/66439/	CyberAgent Developers Blog	ja	1	2	2	1	6	no	CI基盤寄りだがフロントエンド（広告タグ）のE2Eテストの話なのでA=1。6点同士の同点で、選んだ記事が少ないカテゴリを優先したため外れた
+https://developers.cyberagent.co.jp/blog/archives/66932/	CyberAgent Developers Blog	ja	1	2	2	1	6	no	大半はインフラだが、見た目・SEO・計測を外部契約として新旧比較する部分がフロントに関わるのでA0ではなくA1。6点同士の同点で、選んだ記事が少ないカテゴリを優先したため外れた
+https://developers.cyberagent.co.jp/blog/archives/67298/	CyberAgent Developers Blog	ja	1	2	2	1	6	yes	画面に出る不具合だが話の中心は実装側なのでA1。Compilerの落とし穴は既知でD1
+https://measuringu.com/using-ai-to-find-usability-problems-examining-task-failure/	MeasuringU	en	1	2	2	1	6	yes	連載3本目で結論は前2本とほぼ同じなのでD=1。動画1本・評価者1人の比較
+https://medium.com/researchops-community/participant-panels-why-research-teams-build-them-and-when-they-should-buy-instead-157b1b8e4060	ResearchOps Community	en	1	2	2	1	6	yes	冒頭に取得失敗の注記があるが本文は最後まで入っているので採点。工数・費用の数字はUser Interviews（ベンダー）のレポート由来
+https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015	Netflix Tech Blog	en	1	2	2	1	6	yes	本題はデータ基盤の障害診断。AI 応答を UI へ流す設計（毎回全文を送るストリーミング、障害単位のキャッシュ）と評価の CI ゲートの部分で A=1。0 と迷った
+https://nextjs.org/blog/ship-less-javascript-with-ai	Next.js Blog	en	1	1	2	2	6	yes	16.4関連だがバンドル解析という別機能で重複ではない。Skillの宣伝寄りだが本番の削減量があるので採点
+https://zenn.dev/mizchi/articles/introduce-mutator	mizchi	ja	1	2	2	1	6	yes	自作ツールの紹介だがベンチと設計の理由があるので採点。ベンチは条件をそろえた比較ではないと本人が明記
+https://zenn.dev/kyto64/articles/vscode-modern-ui-consideration	Zenn designsystem	ja	2	1	1	1	5	no	数字は公式記事の引用で自分の計測ではないためC=1。一次記事 https://code.visualstudio.com/blogs/2026/10/15/modern-ui
+https://zenn.dev/xtm_blog/articles/design-system-as-design-harness	Zenn designsystem	ja	2	1	1	1	5	no	視点はあるが具体的な仕組みは非公開でB=1。末尾に求人あり
+https://blog.master.dev/building-an-isolated-preview-for-ai-generated-html/	Frontend Masters Blog	en	1	2	1	1	5	no	取得失敗の注記があるが本文は末尾まで取れている。根拠はデモと筆者の出荷例1件で、計測ではないのでC1
+https://blog.master.dev/two-circles-one-connection-and-border-shape/	Frontend Masters Blog	en	1	1	1	2	5	no	デモ1本の作り方が中心で、使いどころの条件は薄いのでB1
+https://developers.cyberagent.co.jp/blog/archives/66775/	CyberAgent Developers Blog	ja	1	2	1	1	5	no	Figma のスタイル登録まででコード側の話がないので A=1。明るい色と濃い色で紙を使い分ける、横幅で 5 段階に分けるといった条件が書いてあるので B=2。効果の計測はない
+https://developers.cyberagent.co.jp/blog/archives/66969/	CyberAgent Developers Blog	ja	1	1	2	1	5	no	題材はインフラ（Lambda管理）。AIに手順書と承認制約を渡す働き方の話としてA=1。手順書と人の承認はよく聞く型なのでB=1
+https://developers.cyberagent.co.jp/blog/archives/67181/	CyberAgent Developers Blog	ja	1	1	2	1	5	no	題材はバックエンド性能（RLS・IdP）が中心。AIとの開発の進め方の部分でA=1
+https://ishadeed.com/article/fit-height-background-pattern-calc-size/	Ahmad Shadeed	en	1	2	1	1	5	no	calc-size()自体は既出で、背景タイルへの応用が新しい切り口なのでD1。up/downの使い分けが書いてあるのでB2
+https://measuringu.com/ux-and-nps-benchmarks-of-third-party-automotive-websites-2026/	MeasuringU	en	1	1	2	1	5	no	自動車サイト業界に限った結果で、持ち帰れるのは「信頼・広告・散らかり」の一般論にとどまる。有料レポートへの誘導あり
+https://medium.com/airbnb-engineering/beyond-synthetic-testing-capturing-and-replaying-real-database-workloads-at-airbnb-cea7ee9b1ab2	Airbnb Engineering	en	0	2	2	1	5	no	
+https://medium.com/airbnb-engineering/castle-training-natural-language-search-before-the-first-real-query-3818ef8b4828	Airbnb Engineering	en	0	1	2	2	5	no	検索 UX に関わるが中身は学習データ生成（ML）なので A=0
+https://netflixtechblog.com/behind-the-scenes-evolving-netflixs-ads-event-pipeline-for-live-part-ii-826ebf9ad9fb	Netflix Tech Blog	en	0	2	2	1	5	no	
+https://netflixtechblog.com/measuring-the-impact-of-personalized-recommendations-4c26be3a4d96	Netflix Tech Blog	en	0	1	2	2	5	no	推薦の効果を露出・選別・ターゲティングに分ける見方はプロダクト側にも参考になるが、本題は計量経済のモデルなので A=0
+https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163	Netflix Tech Blog	en	0	2	2	1	5	no	
+https://seldo.com/posts/a-proposal-how-to-hire-junior-engineers-in-the-age-of-ai/	Sidebar	en	0	2	1	2	5	no	採用面接の設計の話なので A=0。product engineer の職能の分解を取れば A=1 もあり得る。数字は背景の説明で、提案自体は未検証（本人も theoretical と書く）なので C=1
+https://zenn.dev/katsumata/articles/shadcn-ui-for-designers	Zenn designsystem	ja	2	1	0	1	4	no	公式ドキュメントの解説で書き手の実践がないためC=0。Figma対応の注意点はあるがB=1
+https://blog.master.dev/structured-output-with-tanstack-ai/	Frontend Masters Blog	en	1	1	1	1	4	no	取得失敗の注記があるが本文は末尾まで取れている。新ライブラリだが中身はドキュメントどおりの使い方なのでD1。unlockingの続編
+https://blog.master.dev/unlocking-ai-in-your-apps-with-tanstack-ai/	Frontend Masters Blog	en	1	1	1	1	4	no	新ライブラリの導入チュートリアル。ストリーミングや再開の考え方は既知なのでD1
+https://css-tricks.com/the-frankenstein-table/	css-tricks	en	1	1	1	1	4	no	表でないデータにtableを使う提案で、a11y面の検証はVoiceOverで動いたの一文だけ
+https://royfish.dev/fingerprints-are-the-new-cookies	Sidebar	en	1	1	1	1	4	no	フロントの API（Canvas/WebGL/Audio）の話として A=1。ただし利用者向けのプライバシー対策が中心で、作り手として持ち帰れるものは少ない
+https://www.chrbutler.com/faster-cheaper-better	Sidebar	en	1	1	1	1	4	no	「審査員と依頼主の評価は分かれる」「速さは料金の問題」は視点として B=2 も考えたが、成果報酬の話は知られているので低いほうにした。主流の「急げ」論への反論として D=2 も迷った
+https://www.doc.cc/humankind/doubt	Sidebar	en	1	1	1	1	4	no	「迷いを経ない選択は selection にすぎない」は B=2 の視点に近いが、AI で考える過程を飛ばすという話は聞いたことがあるので 1
+https://www.lukew.com/ff/2168/ask-lukew-instant-content-indexing	LukeW	en	1	1	1	1	4	no	大半は取り込みパイプラインの紹介。段落単位の索引が動画の該当箇所へのジャンプやスライドのインライン表示につながる点で A=1。足切り（機能紹介）と迷ったが「答えから始める」設計理由があるので採点
+https://zenn.dev/kitchy/articles/4ba04ac981aef7	Zenn designsystem	ja	1	1	1	1	4	no	個人ブログの改装でAIとの働き方の話としてA=1。「要約で実装させてずれ8件」は計測というより体験談
+https://zenn.dev/mizchi/articles/ai-coding-loop-formal	mizchi	ja	1	1	1	1	4	no	UIの話ではなくAIとの働き方でA=1。箇条書きのメモで条件の説明が薄くB=1
+https://measuringu.com/salary-survey2026/	MeasuringU	en	0	1	2	1	4	no	給与調査で作り手の仕事に直接関係しないためA=0。新しい調査だが傾向は2024年とほぼ同じなのでD=1。計算機部分は本文に入っていない
+https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90	Netflix Tech Blog	en	0	2	1	1	4	no	本文は Java/JVM ライブラリ中心。考え方はコンポーネントライブラリの破壊的変更にも使えるがフロントの話はないので A=0。数字は例示なので C=1
+https://netflixtechblog.com/integrating-netflixs-foundation-model-into-personalization-applications-cf176b5860eb	Netflix Tech Blog	en	0	2	1	1	4	no	本番で使っているが効果の数字がないので C=1
+https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf	Netflix Tech Blog	en	0	2	1	1	4	no	効果の計測はなく推論の流れも例示なので C=1
+https://netflixtechblog.com/timeseries-tiered-storage-journey-kafka-flink-streams-to-native-cassandra-cold-reads-e59d597c9d60	Netflix Tech Blog	en	0	1	2	1	4	no	
+https://www.noemamag.com/now-entering-the-era-of-bleh/	Sidebar	en	0	1	2	1	4	no	知識労働と組織戦略の話で A=0。調査の引用は多い（22 の LLM と 100 人超の比較、2,500 人調査など）が、Wenger の研究のリンク先が別の Cornell の記事になっている
+https://glebbahmutov.com/blog/cypress-test-for-optional-data/	Gleb Bahmutov	en	1	1	1	0	3	no	本物のレスポンスを検証しつつモックに差し替える手法はD=1と迷ったが低いほう
+https://zenn.dev/7tsu/articles/e0765a4dc1a9fc	Zenn designsystem	ja	1	1	1	0	3	no	Figma側だけの話でA=1
+https://netflixtechblog.com/datajunction-as-netflixs-answer-to-the-missing-piece-of-the-modern-data-stack-92af926b40a5	Netflix Tech Blog	en	0	1	1	1	3	no	
+https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marketing-2e6b42810f49	Netflix Tech Blog	en	0	1	1	1	3	no	本題は映像の自動トリミング（CV）。編集者向けツールへの組み込みは短い記述だけなので A=0。Auto Reframe との比較は数字なしで C=1
+https://zenn.dev/kipcop/articles/f35-vue-18-design-system	Zenn designsystem	ja	1	1	0	0	2	no	初学者向け教材。例は説明用で書き手の実務から出た話ではないためC=0
+https://tech.smarthr.jp/entry/2026/11/02/144409	SmartHR Tech Blog	ja	0	1	1	0	2	no	自己管理とマネジメントの本の書評で A=0。学び方（マイクロラーニング）の話もあるが一般論にとどまる
+https://www.lukew.com/ff/2169/technology-limits-are-temporary	LukeW	en	0	1	1	0	2	no	作り手の判断の話として A=1 も考えたが、技術トレンドの一般論なので低いほうにした
+https://www.lukew.com/ff/2167/building-blocks-for-intelligence	LukeW	en	0	0	0	1	1	no	脳と Transformer の類推で、読者の仕事に関係しない。Hawkins の本の紹介で書き手の経験はない
+https://benji.org/stageshow	Sidebar	en	-	-	-	-	-	no	足切り: 本文が取れていない
+https://bit.ly/side-gra8	Sidebar	en	-	-	-	-	-	no	足切り: 製品の宣伝（Granola）
+https://blog.master.dev/how-i-used-claude-code-to-speed-up-my-shell-startup-by-95/	Frontend Masters Blog	en	-	-	-	-	-	no	足切り: 本文が取れていない（コメント欄のみ）
+https://blog.master.dev/i-redesigned-vlc-after-25-years/	Frontend Masters Blog	en	-	-	-	-	-	no	足切り: 本文が数行（動画への短い紹介）
+https://blog.master.dev/the-vertical-codebase/	Frontend Masters Blog	en	-	-	-	-	-	no	足切り: 数行の紹介のみ。一次記事は https://tkdodo.eu/blog/the-vertical-codebase
+https://css-tricks.com/css-tricks-has-a-new-owner/	css-tricks	en	-	-	-	-	-	no	足切り: お知らせ
+https://css-tricks.com/whats-important-19/	css-tricks	en	-	-	-	-	-	no	足切り: ダイジェスト号
+https://css-tricks.com/whats-important-20/	css-tricks	en	-	-	-	-	-	no	足切り: ダイジェスト号
+https://github.com/deepfounder-ai/desigma	Sidebar	en	-	-	-	-	-	no	足切り: 製品の README（機能紹介とインストール手順）。設計理由は決定的レンダリングの一文くらいしかない
+https://jelly-ui.com/	Sidebar	en	-	-	-	-	-	no	足切り: 製品の紹介ページで本文が短い
+https://newsletter.uxdesign.cc/p/nobody-asked-for-the-sparkle-button	UX Collective	en	-	-	-	-	-	no	足切り: ダイジェスト号。一次記事候補: https://uxdesign.cc/nobody-asked-for-the-sparkle-button-ae54ab5065c6 / https://atifaz.am/writing/the-software-factory-forgot-about-design / https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2
+https://nextjs.org/blog/next-16-4	Next.js Blog	en	-	-	-	-	-	no	足切り: リリースノート。ensureStaticやnavigation()の動機は機能紹介に添えた一文で設計上のトレードオフではなく、数字（ディスクキャッシュ20〜25%減など）も開発ツールの性能値で製品の計測ではない。navigation()を本番でどう使い何が変わったかはimproving-navigation-experience-in-v0が扱う
+https://nextjs.org/blog/nextjs-security-update-october-14-2026	Next.js Blog	en	-	-	-	-	-	no	足切り: セキュリティアドバイザリのお知らせ
+https://nextjs.org/blog/upcoming-nextjs-security-release-november-2026	Next.js Blog	en	-	-	-	-	-	no	足切り: セキュリティリリースの予告
+https://nextjs.org/blog/upcoming-nextjs-security-update-october-2026	Next.js Blog	en	-	-	-	-	-	no	足切り: セキュリティリリースの予告
+https://webkit.org/blog/18420/release-notes-for-safari-technology-preview-254/	WebKit Blog	en	-	-	-	-	-	no	足切り: リリースノート
+https://webkit.org/blog/18438/blocking-identity-resolution-infrastructure/	WebKit Blog	en	-	-	-	-	-	no	足切り: Safariの新しい保護機能の告知。開発者向けの判断材料もなく、採点してもA0
+https://webkit.org/blog/18482/release-notes-for-safari-technology-preview-255/	WebKit Blog	en	-	-	-	-	-	no	足切り: リリースノート
+https://webkit.org/blog/18486/webkit-features-for-safari-27-1/	WebKit Blog	en	-	-	-	-	-	no	足切り: リリースの機能紹介
+https://webkit.org/blog/18515/webkit-features-for-safari-27-2/	WebKit Blog	en	-	-	-	-	-	no	足切り: リリースの機能紹介
+https://www.figma.com/blog/figma-and-sanrio-celebrate-hello-kitty-and-friends/	Figma Blog	en	-	-	-	-	-	no	足切り: コラボの告知。制作の話は how-we-brought-hello-kitty で採点
+https://www.figma.com/blog/hello-kitty-and-friends-in-figma/	Figma Blog	en	-	-	-	-	-	no	足切り: コラボ企画とポップアップイベントの告知。制作の裏話はあるが、設計判断や計測はない
+https://www.speedcurve.com/blog/thanks-speedcurve	SpeedCurve Blog	en	-	-	-	-	-	no	足切り: サービス統合のお知らせ
+https://zenn.dev/bigtree/articles/design-system-components-list	Zenn designsystem	ja	-	-	-	-	-	no	足切り: リンク集
