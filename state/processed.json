@@ -37895,7 +37895,331 @@
     "https://react.statuscode.com/issues/495": {
       "contentHash": "11e7c7468e90b4b248d8890a9a64509a9381261bb7e8a629333b15cdbd4ccd5b",
       "processedAt": "2026-11-02T03:26:06.134Z"
+    },
+    "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015": {
+      "contentHash": "c40bf4e10ef3bb8ad81f1535abe7f442a7e19521f1dcc2e495139b0bed237d45",
+      "processedAt": "2026-11-03T05:47:24.672Z"
+    },
+    "https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marketing-2e6b42810f49": {
+      "contentHash": "5fefdc5684feec3297814599d59d1ae5af74add0e6c775074964d803ef64933d",
+      "processedAt": "2026-11-03T05:47:29.187Z"
+    },
+    "https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90": {
+      "contentHash": "9fd619a7d4fc799507c72be176ea35f7f8b513db5eead770f66699a717007a33",
+      "processedAt": "2026-11-03T05:47:33.602Z"
+    },
+    "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163": {
+      "contentHash": "ecfadf7eff14dce6680f6b5b58fed9e9f28fa819b14b5a17847a33de6be7fc97",
+      "processedAt": "2026-11-03T05:47:38.044Z"
+    },
+    "https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf": {
+      "contentHash": "56ab6bed9c2f9231c8a4d56acdbe713cf216a152e65a120ebad2ce79b5acc8e7",
+      "processedAt": "2026-11-03T05:47:42.463Z"
+    },
+    "https://netflixtechblog.com/integrating-netflixs-foundation-model-into-personalization-applications-cf176b5860eb": {
+      "contentHash": "a70b7b374531905e5b10e765df3da9eb39eb1455591a003c0aba75e5d5198d39",
+      "processedAt": "2026-11-03T05:47:46.801Z"
+    },
+    "https://netflixtechblog.com/datajunction-as-netflixs-answer-to-the-missing-piece-of-the-modern-data-stack-92af926b40a5": {
+      "contentHash": "6f1a0b9c5f4a5b6c3b700c9453987de1575a539d11ff1c16039917b20e295e79",
+      "processedAt": "2026-11-03T05:47:51.154Z"
+    },
+    "https://netflixtechblog.com/measuring-the-impact-of-personalized-recommendations-4c26be3a4d96": {
+      "contentHash": "d2bb970e3a97d8602dea1db297a678877cb074bde0a79ca11710473af70bdb4f",
+      "processedAt": "2026-11-03T05:47:55.542Z"
+    },
+    "https://netflixtechblog.com/timeseries-tiered-storage-journey-kafka-flink-streams-to-native-cassandra-cold-reads-e59d597c9d60": {
+      "contentHash": "b90e09d8b002ffeea69e794e3c00e6f8ed55c9c158f9b0cfac2001815ad5edc3",
+      "processedAt": "2026-11-03T05:48:00.056Z"
+    },
+    "https://netflixtechblog.com/behind-the-scenes-evolving-netflixs-ads-event-pipeline-for-live-part-ii-826ebf9ad9fb": {
+      "contentHash": "ece15b99b03086695282567ca089deb0ce4e1b393ee3bf527b672a237f5a6886",
+      "processedAt": "2026-11-03T05:48:04.436Z"
+    },
+    "https://medium.com/airbnb-engineering/castle-training-natural-language-search-before-the-first-real-query-3818ef8b4828": {
+      "contentHash": "2b6593540cfdc6cf74ea1890d03639722056957b8bd3521d7d5f4961394a7a95",
+      "processedAt": "2026-11-03T05:48:08.745Z"
+    },
+    "https://medium.com/airbnb-engineering/beyond-synthetic-testing-capturing-and-replaying-real-database-workloads-at-airbnb-cea7ee9b1ab2": {
+      "contentHash": "6f6ffd25c8480c7c07ed93e51161fe22a063d51cc32fb93eee522e1a5ba8eef7",
+      "processedAt": "2026-11-03T05:48:14.215Z"
+    },
+    "https://royfish.dev/fingerprints-are-the-new-cookies": {
+      "contentHash": "9990b17c02e96e2d54b33b3d51a5a9b05fb81235d1bc7da7950c2b9f6b055e5e",
+      "processedAt": "2026-11-03T05:48:14.611Z"
+    },
+    "https://jelly-ui.com/": {
+      "contentHash": "270e0c9bf2c0ebacc598f67f9dea7c325230e81d5c4316632d8765ac6ecf408b",
+      "processedAt": "2026-11-03T05:48:14.840Z"
+    },
+    "https://www.chrbutler.com/faster-cheaper-better": {
+      "contentHash": "a6e557b9163c689bc5e2a3eec5ba9ba217934077bc23180618384c5f72cab9a1",
+      "processedAt": "2026-11-03T05:48:15.424Z"
+    },
+    "https://github.com/deepfounder-ai/desigma": {
+      "contentHash": "a365f4ada5121448a139e4de734177d0638315efe2447dda59d5296ce4533494",
+      "processedAt": "2026-11-03T05:48:17.690Z"
+    },
+    "https://seldo.com/posts/a-proposal-how-to-hire-junior-engineers-in-the-age-of-ai/": {
+      "contentHash": "b847ef1826ba3a15f165038e05bbff4620fec07fcdbeadb88783e5fde98ebdcf",
+      "processedAt": "2026-11-03T05:48:17.903Z"
+    },
+    "https://bit.ly/side-gra8": {
+      "contentHash": "1427c1489083d22cc97f02f2c6fd46991137faa1876b8b5337ff375f828358b7",
+      "processedAt": "2026-11-03T05:48:19.463Z"
+    },
+    "https://www.doc.cc/humankind/doubt": {
+      "contentHash": "3c5a63374fa88ce84a26160d189ace72a3d56efdb48c05916e0851efa60590df",
+      "processedAt": "2026-11-03T05:48:20.102Z"
+    },
+    "https://alfy.blog/2026/10/27/a-select-should-tell-you-something.html": {
+      "contentHash": "fa1acb5f05f63d4add531332a2b875e5ededdb7734cfd798f282fbd03f8e2170",
+      "processedAt": "2026-11-03T05:48:20.822Z"
+    },
+    "https://www.noemamag.com/now-entering-the-era-of-bleh/": {
+      "contentHash": "fa6ecd7ac3f36f7b49139c1481e95ae7203ede6c7d47ce88766f7616e27b888c",
+      "processedAt": "2026-11-03T05:48:21.213Z"
+    },
+    "https://benji.org/stageshow": {
+      "contentHash": "e200842fc1151d9b416e3776eb4938642c63de7b49190a8a98888549f95aa0e9",
+      "processedAt": "2026-11-03T05:48:29.042Z"
+    },
+    "https://css-tricks.com/whats-important-20/": {
+      "contentHash": "7c75fc29e3cd7fee08e047e9dd1c454dc34a00fe3ccbd1c9b9f04447cb5377c1",
+      "processedAt": "2026-11-03T05:48:29.439Z"
+    },
+    "https://css-tricks.com/the-frankenstein-table/": {
+      "contentHash": "c1b7f54cfa4730b24eee30ab765d9fce56f4fcac4674625c7b2436611aa01fc9",
+      "processedAt": "2026-11-03T05:48:29.577Z"
+    },
+    "https://css-tricks.com/whats-important-19/": {
+      "contentHash": "35e86161e914ebcb7a529494ec5c1a294b8b1b85c102da5dbd86d6762ceabf49",
+      "processedAt": "2026-11-03T05:48:29.800Z"
+    },
+    "https://css-tricks.com/css-tricks-has-a-new-owner/": {
+      "contentHash": "749b3dcc1b69347d96a32cb2948f176455477b484b112162dea8c7376fd08583",
+      "processedAt": "2026-11-03T05:48:29.977Z"
+    },
+    "https://ishadeed.com/article/fit-height-background-pattern-calc-size/": {
+      "contentHash": "e50bb14af4130d52e6bfab188b268252d762780677c3343452714dd979083f1e",
+      "processedAt": "2026-11-03T05:48:30.683Z"
+    },
+    "https://www.figma.com/blog/hello-kitty-and-friends-in-figma/": {
+      "contentHash": "23fa3854e513eb9f56fe4c327363326b31d730509b63d963194ff2c6e80f73e1",
+      "processedAt": "2026-11-03T05:48:32.299Z"
+    },
+    "https://www.figma.com/blog/figma-and-sanrio-celebrate-hello-kitty-and-friends/": {
+      "contentHash": "5a260c51de00d58868b55e05b39d75220e5e38ee6b2d96df8dd5fee41d66bab8",
+      "processedAt": "2026-11-03T05:48:33.085Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/02/144409": {
+      "contentHash": "00a55fe93acce049d56396f7effea845084db13983f6606adc3c8f778dffa345",
+      "processedAt": "2026-11-03T05:48:33.952Z"
+    },
+    "https://newsletter.uxdesign.cc/p/nobody-asked-for-the-sparkle-button": {
+      "contentHash": "3b26a87c6fa4ec93042241f40efcc8970ac074f1297b43898e4e608c1192e8b9",
+      "processedAt": "2026-11-03T05:48:34.346Z"
+    },
+    "https://medium.com/researchops-community/participant-panels-why-research-teams-build-them-and-when-they-should-buy-instead-157b1b8e4060": {
+      "contentHash": "c6a7df7d07b4ca6348cde0aff8d939a39087162224863b7d23889341254fea70",
+      "processedAt": "2026-11-03T05:48:38.656Z"
+    },
+    "https://www.speedcurve.com/blog/thanks-speedcurve": {
+      "contentHash": "b761cc10327ab849fa9544e33354db7639599fe92dca320a30fbf608689b8c2a",
+      "processedAt": "2026-11-03T05:48:39.183Z"
+    },
+    "https://nextjs.org/blog/ship-less-javascript-with-ai": {
+      "contentHash": "9116f36cf6f6d28a82be1137e96f12d329f9767742b6ab1f25beacac96c75820",
+      "processedAt": "2026-11-03T05:48:39.447Z"
+    },
+    "https://nextjs.org/blog/upcoming-nextjs-security-release-november-2026": {
+      "contentHash": "69e0fddb996e217bd5f0eb02a4170929571b5a4182c53b66584040069111fdce",
+      "processedAt": "2026-11-03T05:48:39.611Z"
+    },
+    "https://nextjs.org/blog/improving-navigation-experience-in-v0-with-nextjs-16-4": {
+      "contentHash": "f41c37c99ab1befcfdedec33a19625973acad0056002e7dd715cafed4aa33816",
+      "processedAt": "2026-11-03T05:48:39.854Z"
+    },
+    "https://nextjs.org/blog/nextjs-security-update-october-14-2026": {
+      "contentHash": "c6f617935581c784d852d6d4c754e381e2e632470f169ead2a3d54bc440d45ee",
+      "processedAt": "2026-11-03T05:48:39.999Z"
+    },
+    "https://nextjs.org/blog/upcoming-nextjs-security-update-october-2026": {
+      "contentHash": "a82291d97c5a016f2b5840d1274c7462c8f15e2fd9ffdc6b16c75346a516f0af",
+      "processedAt": "2026-11-03T05:48:40.123Z"
+    },
+    "https://nextjs.org/blog/next-16-4": {
+      "contentHash": "21a4b1753160418972634763b6043ebefdbd1e6722fe9bf9adbd54e847365bee",
+      "processedAt": "2026-11-03T05:48:40.468Z"
+    },
+    "https://measuringu.com/salary-survey2026/": {
+      "contentHash": "6c2f06f79321b72be4a4b6fbe544656411a5ab17e9c016e0da04dfa6be1df576",
+      "processedAt": "2026-11-03T05:48:40.975Z"
+    },
+    "https://measuringu.com/digital-twins-systematically-overestimated-business-software-sus-scores/": {
+      "contentHash": "dacc1015f94f85d2be9817dfa28ac5082728c7218918be548eccfd547abe2625",
+      "processedAt": "2026-11-03T05:48:41.297Z"
+    },
+    "https://measuringu.com/ux-and-nps-benchmarks-of-third-party-automotive-websites-2026/": {
+      "contentHash": "63a0d1314570cb8325393e6507cda1390f6112b44152b17399a2f61d47fabacf",
+      "processedAt": "2026-11-03T05:48:41.715Z"
+    },
+    "https://measuringu.com/using-ai-to-find-usability-problems-examining-task-failure/": {
+      "contentHash": "7c8926bf176a08a3078b4e4dcf14aed23631763bac3abf701e3b5dc9da8f11ef",
+      "processedAt": "2026-11-03T05:48:42.114Z"
+    },
+    "https://www.lukew.com/ff/2169/technology-limits-are-temporary": {
+      "contentHash": "fd4b96c27743a85741cbf64d4752e46948fa8f89e7040686de7de23cea689945",
+      "processedAt": "2026-11-03T05:48:42.770Z"
+    },
+    "https://www.lukew.com/ff/2168/ask-lukew-instant-content-indexing": {
+      "contentHash": "356e283b42caac5a86fd4b06adb231e3e3e244bfc169c4f9d88a9413915af26f",
+      "processedAt": "2026-11-03T05:48:43.005Z"
+    },
+    "https://www.lukew.com/ff/2167/building-blocks-for-intelligence": {
+      "contentHash": "b7334563224c1e8e75faca9f2206ec54a46bbd70bb6cbeebeb82a91ce6e07dc3",
+      "processedAt": "2026-11-03T05:48:43.297Z"
+    },
+    "https://webkit.org/blog/18515/webkit-features-for-safari-27-2/": {
+      "contentHash": "6c75f9e6d85bc0c88769cdbbda54aa32110cca8025261c61a0dc657c87f2f173",
+      "processedAt": "2026-11-03T05:48:43.867Z"
+    },
+    "https://webkit.org/blog/18486/webkit-features-for-safari-27-1/": {
+      "contentHash": "b1b2093136aba0986b1502669d7c6602d67c6840701657172e3f52050cdb9dfe",
+      "processedAt": "2026-11-03T05:48:44.757Z"
+    },
+    "https://webkit.org/blog/18482/release-notes-for-safari-technology-preview-255/": {
+      "contentHash": "5ffb31bccc5683d1fe1e0ec2388e340f8546cb512df318e8074e2c1ec487d850",
+      "processedAt": "2026-11-03T05:48:45.138Z"
+    },
+    "https://webkit.org/blog/18438/blocking-identity-resolution-infrastructure/": {
+      "contentHash": "f4afa85f52a8f2bf18cae72ab6ca7b071ac98bc4e37eccad2d531a174f1f4d0a",
+      "processedAt": "2026-11-03T05:48:45.825Z"
+    },
+    "https://webkit.org/blog/18420/release-notes-for-safari-technology-preview-254/": {
+      "contentHash": "48581ce35a98354581d048c997d7686f076095423db2ba5d5ca049ab00b802f4",
+      "processedAt": "2026-11-03T05:48:46.242Z"
+    },
+    "https://blog.master.dev/overriding-heading-levels-with-the-headingoffset-html-attribute/": {
+      "contentHash": "9b2817fca57a48b7416ddb717d4b63ccc8ee5544c050d40b631ceaee7c75b114",
+      "processedAt": "2026-11-03T05:48:46.575Z"
+    },
+    "https://blog.master.dev/two-circles-one-connection-and-border-shape/": {
+      "contentHash": "a898fd68a117af514b5f02e5033804ef07299a99a420205c79e825ef28f4fe3f",
+      "processedAt": "2026-11-03T05:48:46.918Z"
+    },
+    "https://blog.master.dev/useful-custom-media-presets/": {
+      "contentHash": "1bd756f0fb5c206cbf1c60c870bfa8b027be39e34903d160b35944078a24a64d",
+      "processedAt": "2026-11-03T05:48:47.021Z"
+    },
+    "https://blog.master.dev/how-i-used-claude-code-to-speed-up-my-shell-startup-by-95/": {
+      "contentHash": "8681ea903bff90566ac87fbc6fc6a318e32b8286082ff10ffcfe93feedb669b9",
+      "processedAt": "2026-11-03T05:48:47.100Z"
+    },
+    "https://blog.master.dev/what-should-you-put-on-a-dynamic-custom-social-media-card-image/": {
+      "contentHash": "c3edb1e21ef5f0a8b7b9af58ee6c00b108731a29fbb28586251fcbf5906f7390",
+      "processedAt": "2026-11-03T05:48:51.452Z"
+    },
+    "https://blog.master.dev/the-vertical-codebase/": {
+      "contentHash": "e4d0604a5cf13e625136a13486133ed3a830dd177b8d6ceee83c7bced89b1161",
+      "processedAt": "2026-11-03T05:48:52.190Z"
+    },
+    "https://blog.master.dev/building-an-isolated-preview-for-ai-generated-html/": {
+      "contentHash": "8df0f0447ea7e76e9e95780177f650a006f62118c3de25b8afda5886c4093da7",
+      "processedAt": "2026-11-03T05:48:56.644Z"
+    },
+    "https://blog.master.dev/i-redesigned-vlc-after-25-years/": {
+      "contentHash": "87082ae05c99e6130b4b2bf04bb3f07bdba7ad376dd4d325983fd940d7fba20e",
+      "processedAt": "2026-11-03T05:48:56.858Z"
+    },
+    "https://blog.master.dev/structured-output-with-tanstack-ai/": {
+      "contentHash": "eaee31c41880611416e6554db5b101755e7eceaa69c87b0c19df2ddcfd72a91c",
+      "processedAt": "2026-11-03T05:49:01.288Z"
+    },
+    "https://blog.master.dev/unlocking-ai-in-your-apps-with-tanstack-ai/": {
+      "contentHash": "48668c38ec0268a741a464736b778a451aa7c9407a58757847eec8cff43080f7",
+      "processedAt": "2026-11-03T05:49:02.458Z"
+    },
+    "https://glebbahmutov.com/blog/cypress-test-for-optional-data/": {
+      "contentHash": "6024d829bb0894cb8b9e7e01b0a29a2b2cc8f45d547763c8f0ab75fbea02b7de",
+      "processedAt": "2026-11-03T05:49:03.294Z"
+    },
+    "https://zenn.dev/lilpacy/articles/modal-side-panel-page-design-systems": {
+      "contentHash": "711c6643cd19e44531c4edc4b63298f320cf7059e04fc02d4419a6a6da94303f",
+      "processedAt": "2026-11-03T05:49:03.987Z"
+    },
+    "https://zenn.dev/katsumata/articles/shadcn-ui-for-designers": {
+      "contentHash": "40d3f9e8ab4312d98f0ae700d15125c6bf1a850cccabb7c396eab8aaa9b1a54e",
+      "processedAt": "2026-11-03T05:49:05.731Z"
+    },
+    "https://zenn.dev/xtm_blog/articles/design-system-as-design-harness": {
+      "contentHash": "177519af0efcfaf116328eeb3af2b0a3c7ff0b83d5cfe2e72c2d866be448efa7",
+      "processedAt": "2026-11-03T05:49:07.243Z"
+    },
+    "https://zenn.dev/dress_code/articles/fe01d8baae2aa8": {
+      "contentHash": "27055d2903d8ed3700672d00e90a587cd6995140742211c33197c5302a1b51f5",
+      "processedAt": "2026-11-03T05:49:08.508Z"
+    },
+    "https://zenn.dev/kitchy/articles/4ba04ac981aef7": {
+      "contentHash": "0a2e78460910b817b009c588b49c0c07039df15c9a60c1136ea1650cc273188a",
+      "processedAt": "2026-11-03T05:49:10.914Z"
+    },
+    "https://zenn.dev/kifr/articles/108c948b2c99df": {
+      "contentHash": "ef24545c86b90e8e90c7a3bd2648714c130fc55e67fa0b85bf901b25dfc68d30",
+      "processedAt": "2026-11-03T05:49:12.197Z"
+    },
+    "https://zenn.dev/kipcop/articles/f35-vue-18-design-system": {
+      "contentHash": "4f80d7812e58ee880cd2a937b7bfe4be616b32eaa75b18cd6cd1b40c08f24612",
+      "processedAt": "2026-11-03T05:49:13.112Z"
+    },
+    "https://zenn.dev/7tsu/articles/e0765a4dc1a9fc": {
+      "contentHash": "33a3fb085c2c03f540598b97be4eb1caee803139546cf4407c447020b9d85091",
+      "processedAt": "2026-11-03T05:49:14.557Z"
+    },
+    "https://zenn.dev/kyto64/articles/vscode-modern-ui-consideration": {
+      "contentHash": "b3a2fd76480bd2d30dc340fd1cfac19776326f688c46c8beccb3188a7ada0e6b",
+      "processedAt": "2026-11-03T05:49:15.074Z"
+    },
+    "https://zenn.dev/aldagram_tech/articles/figma-sot-design-system": {
+      "contentHash": "bcc776b9cb18f3bf60cfdd5385a4e53f8eee07cc68560262a58d4118cdc2aee3",
+      "processedAt": "2026-11-03T05:49:16.507Z"
+    },
+    "https://zenn.dev/bigtree/articles/design-system-components-list": {
+      "contentHash": "f1a6a9807a7e8cc3fad8ca6b7fef6f6d8515382cb43e2c1efbe7647e89680fee",
+      "processedAt": "2026-11-03T05:49:17.051Z"
+    },
+    "https://developers.cyberagent.co.jp/blog/archives/67298/": {
+      "contentHash": "ce3ca51c8c7fbe1dc70f28f7ee02fdf173e648d4c19c5e46385f2a84a9c00491",
+      "processedAt": "2026-11-03T05:49:21.397Z"
+    },
+    "https://developers.cyberagent.co.jp/blog/archives/66932/": {
+      "contentHash": "15c953e11cbf3052891ade534710fd0f0afc77b222881cdce18b28100b454b3b",
+      "processedAt": "2026-11-03T05:49:25.491Z"
+    },
+    "https://developers.cyberagent.co.jp/blog/archives/66969/": {
+      "contentHash": "a4b5b4c796369860923e91475abed3c00851e1e1c12b64ce20ccee522a6764ea",
+      "processedAt": "2026-11-03T05:49:28.559Z"
+    },
+    "https://developers.cyberagent.co.jp/blog/archives/67181/": {
+      "contentHash": "ff7e2f47155adca47c588df2cdb6f4aee9068306200b9413ccfa7455c2d59822",
+      "processedAt": "2026-11-03T05:49:29.356Z"
+    },
+    "https://developers.cyberagent.co.jp/blog/archives/66439/": {
+      "contentHash": "0b9e04328db092fdcd5e7fe7f283f1d474210d2da5f5d59c86cdce0c05d785c3",
+      "processedAt": "2026-11-03T05:49:30.511Z"
+    },
+    "https://developers.cyberagent.co.jp/blog/archives/66775/": {
+      "contentHash": "1ef2cec5c64093f9e2fb66b08e39cb3ef52be6cdc6c6d7c6cb8186218af3c860",
+      "processedAt": "2026-11-03T05:49:33.495Z"
+    },
+    "https://zenn.dev/mizchi/articles/introduce-mutator": {
+      "contentHash": "a84379e5051c2bb553151b2ac994bdc81adb0305e0db29641168f19fa7dabe37",
+      "processedAt": "2026-11-03T05:49:34.102Z"
+    },
+    "https://zenn.dev/mizchi/articles/ai-coding-loop-formal": {
+      "contentHash": "713e62b71c3a474c2305a298c40267d118f03cfe28ce4f1b9cf619e099b60c7c",
+      "processedAt": "2026-11-03T05:49:34.686Z"
     }
   },
-  "lastRun": "2026-11-02T04:59:04.655Z"
+  "lastRun": "2026-11-03T05:49:34.686Z"
 }
