@@ -38219,7 +38219,83 @@
     "https://zenn.dev/mizchi/articles/ai-coding-loop-formal": {
       "contentHash": "713e62b71c3a474c2305a298c40267d118f03cfe28ce4f1b9cf619e099b60c7c",
       "processedAt": "2026-11-03T05:49:34.686Z"
+    },
+    "https://engineering.fb.com/2026/11/03/ml-applications/f3-lightning-how-meta-accelerates-ads-ml-features-to-production/": {
+      "contentHash": "f5deac5778624a0664aae4ad66325db5895f9c5d4b2e301eb1e9369e3da9d833",
+      "processedAt": "2026-11-04T05:24:42.082Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/how-software-engineering-is-changing": {
+      "contentHash": "397f56c190cdadf954c29cf0cf01d2e49ae684d1cfd5fa0f08dd933028c183ed",
+      "processedAt": "2026-11-04T05:24:42.580Z"
+    },
+    "https://smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/": {
+      "contentHash": "272dfa134e16091772db0f89e29f3f7e76f0f424f5b1471773870eec9e06317f",
+      "processedAt": "2026-11-04T05:24:43.291Z"
+    },
+    "https://ics.media/entry/261104/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-11-04T05:24:44.031Z"
+    },
+    "https://css-tricks.com/re-implementing-nth-child-with-modern-css/": {
+      "contentHash": "de40a75ce147bd85f15c78f55f7b79dc8b12323a1d7cab2cb287ea97d4e6f2b9",
+      "processedAt": "2026-11-04T05:24:44.514Z"
+    },
+    "https://vercel.com/blog/how-zapier-turns-ideas-into-working-software-in-hours-with-vercel": {
+      "contentHash": "f99c0e7665ce2d42d7609f306c53c897ccbe1f16242867c877de3de7531ff684",
+      "processedAt": "2026-11-04T05:24:45.596Z"
+    },
+    "https://vercel.com/blog/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-platform": {
+      "contentHash": "59deb09456a0d6d1b916c2be0307197f0395df76dafbf68f74a24aa8b5c0d947",
+      "processedAt": "2026-11-04T05:24:46.050Z"
+    },
+    "https://vercel.com/blog/how-openevidence-scales-medical-search-for-doctors": {
+      "contentHash": "194e14bc0340ad34c8a19c15992314cf80e2c838dc8373d3cf24432c0c3f010c",
+      "processedAt": "2026-11-04T05:24:46.552Z"
+    },
+    "https://vercel.com/blog/vercel-security-review": {
+      "contentHash": "f7d87a905b7c0220c70a07f1faba96cbf7a8f8d6089dc0a2702ccdbd28e20d70",
+      "processedAt": "2026-11-04T05:24:46.990Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/04/141918": {
+      "contentHash": "8cea78f6fe661d3d4aea39a1f454e645af933ed08f46550372a09f97a4385dee",
+      "processedAt": "2026-11-04T05:24:48.523Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/04/131031": {
+      "contentHash": "a81ef1b637acf9b90151f2f7ace4b949ef7dcfb02ef29b322c4b09705971cfb8",
+      "processedAt": "2026-11-04T05:24:48.857Z"
+    },
+    "https://nextjs.org/blog/november-2026-security-release": {
+      "contentHash": "678a790713be55481b7fadfe02f1f6c687831a242a5c6bd7bbe47115c94fbf5d",
+      "processedAt": "2026-11-04T05:24:49.027Z"
+    },
+    "https://measuringu.com/do-participants-provide-the-same-depth-of-insight-to-human-and-ai-moderators/": {
+      "contentHash": "dfc39f37f17e9884849b2b425aef03af2e8ae13503ac42a6916aa5070ea4f18d",
+      "processedAt": "2026-11-04T05:24:49.615Z"
+    },
+    "https://designnotes.blog.gov.uk/2026/11/03/creating-tools-for-scaling-generated-content/": {
+      "contentHash": "d189247d19fda8cd679ce6a730c8ada1d2f0430c257d1c81c642e14c5f9690e8",
+      "processedAt": "2026-11-04T05:24:50.237Z"
+    },
+    "https://www.lukew.com/ff/2170/design-feedback-for-ai-agents": {
+      "contentHash": "b4bbab860fc9bb3b106ee23a34615ee46c481dd10de8562a76bd1a34d9a3fc62",
+      "processedAt": "2026-11-04T05:24:50.423Z"
+    },
+    "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/": {
+      "contentHash": "e5cdbf0b49f7849d0279dbe30be7c5f544510d31f8aa682a926f6a5c59526c5a",
+      "processedAt": "2026-11-04T05:24:51.068Z"
+    },
+    "https://blog.master.dev/multi-column-different-speed-scrolling/": {
+      "contentHash": "1b4baad2f7fe9d720649e3ae3e9ed43c6c228b758fc4df74bf5ccf16453619a1",
+      "processedAt": "2026-11-04T05:24:51.255Z"
+    },
+    "https://zenn.dev/howmanydesigns/articles/e8708fa1f4627b": {
+      "contentHash": "60110074976b69fc9a7cb9594be3f44d5d50230fcef05e9160ae476af57bfcff",
+      "processedAt": "2026-11-04T05:24:53.477Z"
+    },
+    "https://developers.cyberagent.co.jp/blog/archives/67267/": {
+      "contentHash": "679f1d70cd925fce7a206a4a68e596f2c14dc8701ae7a970829a1f27e64fc437",
+      "processedAt": "2026-11-04T05:24:56.603Z"
     }
   },
-  "lastRun": "2026-11-03T05:49:34.686Z"
+  "lastRun": "2026-11-04T05:24:56.604Z"
 }
