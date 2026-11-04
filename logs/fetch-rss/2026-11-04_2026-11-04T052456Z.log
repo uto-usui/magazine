@@ -1,0 +1,60 @@
+articles_dir=2026-11-04
+exit_code=0
+timestamp_utc=2026-11-04T05:24:56Z
+
+---- issue lines ----
+9:Failed to fetch feed blog.jxck.io: 
+10:Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+14:❌ Playwright failed for Mercari Engineering: HTTP 403
+
+---- tail (last 50 lines) ----
+Column: 134
+Char: =
+❌ Playwright failed for Mercari Engineering: HTTP 403
+📰 Found 5522 total articles
+✨ New articles: 19
+🗓️ Skipped (published more than 30 days ago): 376
+⏭️ Skipped (already processed): 553
+📥 Processing: F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-04/f3-lightning-how-meta-accelerates-ads-ml-features-to-production-at-scale.md
+📥 Processing: How software engineering is changing: a tale of two eras
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-04/how-software-engineering-is-changing-a-tale-of-two-eras.md
+📥 Processing: Modern CSS Might Make Your Front-End More Complex
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-04/modern-css-might-make-your-front-end-more-complex.md
+📥 Processing: CSSだけで横スクロールと見出し固定を両立！ 単一軸スクロールコンテナー
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-04/css.md
+📥 Processing: Re-Implementing :nth-child() With Modern CSS
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-04/re-implementing-nth-child-with-modern-css.md
+📥 Processing: How Zapier turns ideas into working software in hours with Vercel
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-04/how-zapier-turns-ideas-into-working-software-in-hours-with-vercel.md
+📥 Processing: How Mercor ships internal apps and billions of production tokens on one platform
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-04/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-platform.md
+📥 Processing: How OpenEvidence scales medical search for 650K doctors
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-04/how-openevidence-scales-medical-search-for-650k-doctors.md
+📥 Processing: Introducing Vercel Security Review
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-04/introducing-vercel-security-review.md
+📥 Processing: Fukuoka CRE Lounge 2nd イベントレポート —— 4社が語る、CREのはじめかた・育てかた
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-04/fukuoka-cre-lounge-2nd-4cre.md
+📥 Processing: 生成AIで軽くなる見積りとスプリント —— チームの学ぶ機会をどう残すか
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-04/ai.md
+📥 Processing: November 2026 Security Release
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-04/november-2026-security-release.md
+📥 Processing: Do AI Moderators Uncover as Much as Human Moderators?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-04/do-ai-moderators-uncover-as-much-as-human-moderators.md
+📥 Processing: Creating tools for scaling generated content
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-04/creating-tools-for-scaling-generated-content.md
+📥 Processing: Design Feedback for AI Agents
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-04/design-feedback-for-ai-agents.md
+📥 Processing: Introducing Adaptive Dark Mode
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-04/introducing-adaptive-dark-mode.md
+📥 Processing: Multi-Column Different-Speed Scrolling
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-04/multi-column-different-speed-scrolling.md
+📥 Processing: AIでReactのUIを作るとデザインがぶれる。DESIGN.mdとCSSトークンでどこまで防げるか
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-04/aireactuidesignmdcss.md
+📥 Processing: 【イベントレポート】PdMオフレコ会議「キャリアの壁編 〜次のステージに進む人は何を手放したのか〜」に参加してきました【DMM/CA/グッドパッチ合同】
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-04/pdm-dmmca.md
+
+📊 Summary:
+   ✅ Success: 19
+   ❌ Errors: 0
+🏁 Done!
