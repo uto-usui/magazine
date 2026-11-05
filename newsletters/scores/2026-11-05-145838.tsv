@@ -1,0 +1,35 @@
+url	feed	lang	A	B	C	D	total	selected	note
+https://zenn.dev/howmanydesigns/articles/e8708fa1f4627b	Zenn designsystem	ja	2	2	2	2	8	yes	自作キットの検証だが、条件をそろえた9回の比較と測定値、限界の明記があるのでC=2
+https://designnotes.blog.gov.uk/2026/11/03/creating-tools-for-scaling-generated-content/	GOV.UK Design Notes	en	2	2	1	2	7	yes	運用中の試みで数字はないのでC=1
+https://webkit.org/blog/18541/introducing-adaptive-dark-mode/	WebKit Blog	en	2	2	1	2	7	yes	新機能の告知だが、色変換・画像・プライバシーの設計理由が書いてあるので採点に回した。40%/10%の数字は背景説明なのでC=1
+https://measuringu.com/do-participants-provide-the-same-depth-of-insight-to-human-and-ai-moderators/	MeasuringU	en	1	2	2	2	7	yes	
+https://smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/	Smashing Magazine	en	1	2	2	2	7	yes	操作感とパフォーマンスにも触れるのでA=2と迷ったが、中心はCSSの移行なので1
+https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2	Sidebar	en	2	2	1	1	6	yes	コードを正とする考えは知られているが、GAPS.mdとparity checkは新しい。D=2と迷ったので低いほう
+https://ics.media/entry/261104/	ICS MEDIA	ja	1	2	1	2	6	yes	
+https://csswizardry.com/2026/11/web-perf-wednesday-016-lighthouse-13-6-can-lift-scores-without-a-faster-site/	CSS Wizardry	en	1	2	1	2	6	yes	週刊の連載だが他サイトの要約ではなく、書き手自身の解説と助言なので採点した
+https://www.lukew.com/ff/2170/design-feedback-for-ai-agents	LukeW	en	2	1	1	1	5	yes	後半は自社製品Intentの紹介
+https://tech.layerx.co.jp/entry/agent-table-design	LayerX エンジニアブログ	ja	1	2	1	1	5	yes	DB設計が中心だが、エージェントの書き込みを人が確定する体験の設計を含むのでA=1。PoC段階なのでC=1
+https://tech.smarthr.jp/entry/2026/11/04/131031	SmartHR Tech Blog	ja	1	2	1	1	5	yes	3つのアイデアは未検証
+https://buzzusborne.com/writing/pick-three/	Sidebar	en	1	2	1	1	5	yes	AIで仕事が増える話は知られているが、coherenceを4つ目の変数にした切り口は新しい。D=2と迷ったので低いほう
+https://newsletter.pragmaticengineer.com/p/how-software-engineering-is-changing	The Pragmatic Engineer	en	1	1	2	1	5	yes	本人のPR数などの実データがあるのでC=2
+https://css-tricks.com/re-implementing-nth-child-with-modern-css/	css-tricks	en	1	1	1	2	5	yes	
+https://blog.master.dev/multi-column-different-speed-scrolling/	Frontend Masters Blog	en	1	1	1	1	4	yes	取得失敗の注記があるが本文はほぼ取れている
+https://www.baselinedesign.com/posts/the-window-with-no-buttons	Sidebar	en	1	1	1	0	3	no	デザイナー向けのターミナル入門。内容は定番の知識なのでD=0
+https://blog.master.dev/data-access-testing-with-testcontainers/	Frontend Masters Blog	en	0	2	1	1	4	no	DBアクセスのテストの話なのでA=0
+https://engineering.fb.com/2026/11/03/ml-applications/f3-lightning-how-meta-accelerates-ads-ml-features-to-production/	Meta Engineering	en	0	1	2	2	5	no	広告MLの特徴量基盤なのでA=0
+https://www.figma.com/blog/how-figma-manages-sandboxes-at-scale/	Figma Blog	en	0	1	2	1	4	no	サンドボックスの基盤の話なのでA=0
+https://avantgarde.110west40th.com/	Sidebar	en	0	1	1	0	2	no	雑誌と書体の歴史でA=0
+https://developers.cyberagent.co.jp/blog/archives/67267/	CyberAgent Developers Blog	ja	0	1	1	1	3	no	PdMのキャリアの話でA=0
+https://tech.smarthr.jp/entry/2026/11/04/141918	SmartHR Tech Blog	ja	0	1	1	1	3	no	CRE組織の立ち上げの話でA=0
+https://tech.smarthr.jp/entry/2026/11/04/181146	SmartHR Tech Blog	ja	-	-	-	-	-	no	足切り: インタビュー公開のお知らせで本文が数行
+https://paper.design/mono	Sidebar	en	-	-	-	-	-	no	足切り: フォントの紹介ページ
+https://css-tricks.com/smashing-ai-conference/	css-tricks	en	-	-	-	-	-	no	足切り: イベント告知
+https://nextjs.org/blog/november-2026-security-release	Next.js Blog	en	-	-	-	-	-	no	足切り: セキュリティリリースのお知らせ
+https://webkit.org/blog/18602/release-notes-for-safari-technology-preview-256/	WebKit Blog	en	-	-	-	-	-	no	足切り: リリースノート
+https://thisweekinreact.com/newsletter/304	This Week In React	en	-	-	-	-	-	no	足切り: ダイジェスト号
+https://frontendfoc.us/issues/765	Frontend Focus	en	-	-	-	-	-	no	足切り: ダイジェスト号。一次記事のAdaptive Dark ModeとModern CSSは別に採点。https://www.abeautifulsite.net/posts/revisiting-buttons-and-cursors/ が気になる
+https://vercel.com/blog/vercel-security-review	Vercel	en	-	-	-	-	-	no	足切り: 製品の発表
+https://vercel.com/blog/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-platform	Vercel	en	-	-	-	-	-	no	足切り: 導入事例（製品の宣伝）
+https://vercel.com/blog/how-openevidence-scales-medical-search-for-doctors	Vercel	en	-	-	-	-	-	no	足切り: 導入事例（製品の宣伝）
+https://vercel.com/blog/how-zapier-turns-ideas-into-working-software-in-hours-with-vercel	Vercel	en	-	-	-	-	-	no	足切り: 導入事例（製品の宣伝）
+https://www.figma.com/blog/workflow-lab-build-with-code-on-the-canvas-using-the-figma-agent-and-code-layers/	Figma Blog	en	-	-	-	-	-	no	足切り: 製品機能の使い方の紹介。設計理由や計測はない
