@@ -1,0 +1,60 @@
+articles_dir=2026-11-05
+exit_code=0
+timestamp_utc=2026-11-05T05:42:13Z
+
+---- issue lines ----
+9:Failed to fetch feed blog.jxck.io: 
+10:❌ Playwright failed for Mercari Engineering: HTTP 403
+11:Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-05/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-platform.md
+📥 Processing: How OpenEvidence scales medical search for 650K doctors
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-05/how-openevidence-scales-medical-search-for-650k-doctors.md
+📥 Processing: Introducing Vercel Security Review
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-05/introducing-vercel-security-review.md
+📥 Processing: Workflow lab: Test ideas with code layers and the Figma agent
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-05/workflow-lab-test-ideas-with-code-layers-and-the-figma-agent.md
+📥 Processing: How Figma manages sandboxes at scale
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-05/how-figma-manages-sandboxes-at-scale.md
+📥 Processing: Safari will 'dark mode' your site for you
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-05/safari-will-dark-mode-your-site-for-you.md
+📥 Processing: VP of Engineering 齋藤への協賛企業インタビューが第16回 中高生Rubyプログラミングコンテスト 2026 公式サイトで公開されました
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-05/vp-of-engineering-16-ruby-2026.md
+📥 Processing: Fukuoka CRE Lounge 2nd イベントレポート —— 4社が語る、CREのはじめかた・育てかた
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-05/fukuoka-cre-lounge-2nd-4cre.md
+📥 Processing: 生成AIで軽くなる見積りとスプリント —— チームの学ぶ機会をどう残すか
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-05/ai.md
+📥 Processing: 業務ごとにデータ構造が変わるプラットフォームで、AIエージェントにテーブル設計を任せる
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-05/ai-1.md
+📥 Processing: November 2026 Security Release
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-05/november-2026-security-release.md
+📥 Processing: This Week In React #304: Next.js, Compiler, Redux Toolkit, Suspense, Resizable Panels, Preact, Redact | RN 0.89 RC, Vega OS, Screens, Hermes, WebView, Unistyles, tgfx, Pager View | Node.js, Parcel, Rspack, Actions, Vitest, jsdom, HTML-in-Canvas
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-05/this-week-in-react-304-nextjs-compiler-redux-toolkit-suspense-resizable-panels-preact-redact-rn-089-.md
+📥 Processing: Do AI Moderators Uncover as Much as Human Moderators?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-05/do-ai-moderators-uncover-as-much-as-human-moderators.md
+📥 Processing: Creating tools for scaling generated content
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-05/creating-tools-for-scaling-generated-content.md
+📥 Processing: Design Feedback for AI Agents
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-05/design-feedback-for-ai-agents.md
+📥 Processing: Release Notes for Safari Technology Preview 256
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-05/release-notes-for-safari-technology-preview-256.md
+📥 Processing: Introducing Adaptive Dark Mode
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-05/introducing-adaptive-dark-mode.md
+📥 Processing: Data Access Testing With @testcontainers
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-05/data-access-testing-with-testcontainers.md
+📥 Processing: Multi-Column Different-Speed Scrolling
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://blog.master.dev/multi-column-different-speed-scrolling/
+✅ Playwright successfully fetched: https://blog.master.dev/multi-column-different-speed-scrolling/
+⚠️ Content too short (167 chars < 200): https://blog.master.dev/multi-column-different-speed-scrolling/
+⚠️ Using RSS content as fallback for: https://blog.master.dev/multi-column-different-speed-scrolling/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-05/multi-column-different-speed-scrolling.md
+📥 Processing: AIでReactのUIを作るとデザインがぶれる。DESIGN.mdとCSSトークンでどこまで防げるか
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-05/aireactuidesignmdcss.md
+📥 Processing: 【イベントレポート】PdMオフレコ会議「キャリアの壁編 〜次のステージに進む人は何を手放したのか〜」に参加してきました【DMM/CA/グッドパッチ合同】
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-05/pdm-dmmca.md
+
+📊 Summary:
+   ✅ Success: 34
+   ❌ Errors: 0
+🏁 Done!
