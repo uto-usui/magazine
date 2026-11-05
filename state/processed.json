@@ -38219,7 +38219,143 @@
     "https://zenn.dev/mizchi/articles/ai-coding-loop-formal": {
       "contentHash": "713e62b71c3a474c2305a298c40267d118f03cfe28ce4f1b9cf619e099b60c7c",
       "processedAt": "2026-11-03T05:49:34.686Z"
+    },
+    "https://engineering.fb.com/2026/11/03/ml-applications/f3-lightning-how-meta-accelerates-ads-ml-features-to-production/": {
+      "contentHash": "f5deac5778624a0664aae4ad66325db5895f9c5d4b2e301eb1e9369e3da9d833",
+      "processedAt": "2026-11-05T05:41:36.512Z"
+    },
+    "https://csswizardry.com/2026/11/web-perf-wednesday-016-lighthouse-13-6-can-lift-scores-without-a-faster-site/": {
+      "contentHash": "dc6d88e7516f4e3b2ac5e24bfd0d9450f3e21d25d4645d526f80606c1f83d279",
+      "processedAt": "2026-11-05T05:41:36.826Z"
+    },
+    "https://buzzusborne.com/writing/pick-three/": {
+      "contentHash": "edeac7901b788b8f88f8bd36eb00ec0be91df64b3408175da1594c608d51bef4",
+      "processedAt": "2026-11-05T05:41:37.911Z"
+    },
+    "https://avantgarde.110west40th.com/": {
+      "contentHash": "d1cb11e2e9ee488f366a02050fb1f6f9f345f28b9223538482f48d374da63926",
+      "processedAt": "2026-11-05T05:41:38.315Z"
+    },
+    "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2": {
+      "contentHash": "4a547bd09aa9a9ff8295bcc6bd3fe073d0ed322f169eb5e44b34bdf654d50938",
+      "processedAt": "2026-11-05T05:41:45.489Z"
+    },
+    "https://www.baselinedesign.com/posts/the-window-with-no-buttons": {
+      "contentHash": "19ae49f8cd91ddcfa1473946aba02c1a34938ecef346de78e3b3dad40aaef0d5",
+      "processedAt": "2026-11-05T05:41:46.083Z"
+    },
+    "https://paper.design/mono": {
+      "contentHash": "b00732b05034c605ac1eeddd94887678c263019ce7d626fdfa47e9e5310a69dd",
+      "processedAt": "2026-11-05T05:41:46.698Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/how-software-engineering-is-changing": {
+      "contentHash": "397f56c190cdadf954c29cf0cf01d2e49ae684d1cfd5fa0f08dd933028c183ed",
+      "processedAt": "2026-11-05T05:41:47.110Z"
+    },
+    "https://smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/": {
+      "contentHash": "272dfa134e16091772db0f89e29f3f7e76f0f424f5b1471773870eec9e06317f",
+      "processedAt": "2026-11-05T05:41:47.757Z"
+    },
+    "https://ics.media/entry/261104/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-11-05T05:41:48.402Z"
+    },
+    "https://css-tricks.com/smashing-ai-conference/": {
+      "contentHash": "136a2b3231a0289cadfb995447542b1b78d5ffd888b50a8a13965e980f0471c0",
+      "processedAt": "2026-11-05T05:41:48.662Z"
+    },
+    "https://css-tricks.com/re-implementing-nth-child-with-modern-css/": {
+      "contentHash": "de40a75ce147bd85f15c78f55f7b79dc8b12323a1d7cab2cb287ea97d4e6f2b9",
+      "processedAt": "2026-11-05T05:41:48.988Z"
+    },
+    "https://vercel.com/blog/how-zapier-turns-ideas-into-working-software-in-hours-with-vercel": {
+      "contentHash": "f99c0e7665ce2d42d7609f306c53c897ccbe1f16242867c877de3de7531ff684",
+      "processedAt": "2026-11-05T05:41:49.853Z"
+    },
+    "https://vercel.com/blog/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-platform": {
+      "contentHash": "59deb09456a0d6d1b916c2be0307197f0395df76dafbf68f74a24aa8b5c0d947",
+      "processedAt": "2026-11-05T05:41:50.375Z"
+    },
+    "https://vercel.com/blog/how-openevidence-scales-medical-search-for-doctors": {
+      "contentHash": "194e14bc0340ad34c8a19c15992314cf80e2c838dc8373d3cf24432c0c3f010c",
+      "processedAt": "2026-11-05T05:41:50.983Z"
+    },
+    "https://vercel.com/blog/vercel-security-review": {
+      "contentHash": "f7d87a905b7c0220c70a07f1faba96cbf7a8f8d6089dc0a2702ccdbd28e20d70",
+      "processedAt": "2026-11-05T05:41:51.297Z"
+    },
+    "https://www.figma.com/blog/workflow-lab-build-with-code-on-the-canvas-using-the-figma-agent-and-code-layers/": {
+      "contentHash": "979e75bbd6d8c59c1b458e34f61c1845d21e341c5d9ce57cafbd265e28b9c713",
+      "processedAt": "2026-11-05T05:41:53.316Z"
+    },
+    "https://www.figma.com/blog/how-figma-manages-sandboxes-at-scale/": {
+      "contentHash": "cc6f9b693a7643494dd3987fe4af68b91a5b2e71a5532cd3164115cbfb436df8",
+      "processedAt": "2026-11-05T05:41:54.635Z"
+    },
+    "https://frontendfoc.us/issues/765": {
+      "contentHash": "d1833660dd71e336d31d61d1def39bace2c643849783c5247687562e41120dfe",
+      "processedAt": "2026-11-05T05:41:55.178Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/04/181146": {
+      "contentHash": "6e49ca8b39651e5fff3061e28f6e7a3e36d2b48c6756eb5c7454ef335d1d19d0",
+      "processedAt": "2026-11-05T05:41:56.044Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/04/141918": {
+      "contentHash": "8cea78f6fe661d3d4aea39a1f454e645af933ed08f46550372a09f97a4385dee",
+      "processedAt": "2026-11-05T05:41:56.591Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/04/131031": {
+      "contentHash": "a81ef1b637acf9b90151f2f7ace4b949ef7dcfb02ef29b322c4b09705971cfb8",
+      "processedAt": "2026-11-05T05:41:57.225Z"
+    },
+    "https://tech.layerx.co.jp/entry/agent-table-design": {
+      "contentHash": "1cbed328754b41346faaca3081d01100c496a6f3ed899edc30b1667956535c28",
+      "processedAt": "2026-11-05T05:41:57.971Z"
+    },
+    "https://nextjs.org/blog/november-2026-security-release": {
+      "contentHash": "678a790713be55481b7fadfe02f1f6c687831a242a5c6bd7bbe47115c94fbf5d",
+      "processedAt": "2026-11-05T05:41:58.294Z"
+    },
+    "https://thisweekinreact.com/newsletter/304": {
+      "contentHash": "81d834b4531fc36b000f4a9e8630fd9252cf718ee3303d39f2ea54719f3c9af5",
+      "processedAt": "2026-11-05T05:41:58.824Z"
+    },
+    "https://measuringu.com/do-participants-provide-the-same-depth-of-insight-to-human-and-ai-moderators/": {
+      "contentHash": "dfc39f37f17e9884849b2b425aef03af2e8ae13503ac42a6916aa5070ea4f18d",
+      "processedAt": "2026-11-05T05:41:59.198Z"
+    },
+    "https://designnotes.blog.gov.uk/2026/11/03/creating-tools-for-scaling-generated-content/": {
+      "contentHash": "d189247d19fda8cd679ce6a730c8ada1d2f0430c257d1c81c642e14c5f9690e8",
+      "processedAt": "2026-11-05T05:41:59.792Z"
+    },
+    "https://www.lukew.com/ff/2170/design-feedback-for-ai-agents": {
+      "contentHash": "b4bbab860fc9bb3b106ee23a34615ee46c481dd10de8562a76bd1a34d9a3fc62",
+      "processedAt": "2026-11-05T05:42:00.370Z"
+    },
+    "https://webkit.org/blog/18602/release-notes-for-safari-technology-preview-256/": {
+      "contentHash": "51609755c2ad66aba6a77024d784c3b9edbfbb8e8ac73057d78ca893484ade94",
+      "processedAt": "2026-11-05T05:42:00.975Z"
+    },
+    "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/": {
+      "contentHash": "e5cdbf0b49f7849d0279dbe30be7c5f544510d31f8aa682a926f6a5c59526c5a",
+      "processedAt": "2026-11-05T05:42:01.879Z"
+    },
+    "https://blog.master.dev/data-access-testing-with-testcontainers/": {
+      "contentHash": "7ff412728a2bfb24250094c131f456b6e46b5e570c86a325b5d6cb701d35ca24",
+      "processedAt": "2026-11-05T05:42:02.674Z"
+    },
+    "https://blog.master.dev/multi-column-different-speed-scrolling/": {
+      "contentHash": "1b4baad2f7fe9d720649e3ae3e9ed43c6c228b758fc4df74bf5ccf16453619a1",
+      "processedAt": "2026-11-05T05:42:06.984Z"
+    },
+    "https://zenn.dev/howmanydesigns/articles/e8708fa1f4627b": {
+      "contentHash": "60110074976b69fc9a7cb9594be3f44d5d50230fcef05e9160ae476af57bfcff",
+      "processedAt": "2026-11-05T05:42:09.888Z"
+    },
+    "https://developers.cyberagent.co.jp/blog/archives/67267/": {
+      "contentHash": "679f1d70cd925fce7a206a4a68e596f2c14dc8701ae7a970829a1f27e64fc437",
+      "processedAt": "2026-11-05T05:42:12.749Z"
     }
   },
-  "lastRun": "2026-11-03T05:49:34.686Z"
+  "lastRun": "2026-11-05T05:42:12.749Z"
 }
