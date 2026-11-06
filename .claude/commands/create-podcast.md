@@ -15,7 +15,7 @@ EPISODE=$(basename "$NEWSLETTER" .md)
 SCRIPT="podcasts/scripts/${EPISODE}.json"
 ```
 
-`podcasts/audio/${EPISODE}.mp3` がすでにあれば、何もせず終える。
+`podcasts/audio/${EPISODE}.mp3` がすでにあれば、台本と生成は飛ばして手順5のアップロードだけ行う（Release にもう同じ名前があれば何もせず終える）。
 
 ## 2. 台本を書く
 
@@ -68,9 +68,17 @@ pnpm run podcast "$SCRIPT"
 
 途中で失敗しても、作り終えたセグメントは `podcasts/audio/${EPISODE}/` に残っているので、同じコマンドで続きから作れる（二重に払わない）。
 
-## 5. 報告
+## 5. Release に上げる
 
-- MP3 のパスと長さ
+MP3 はリポジトリに入れず、GitHub の Release `podcast` に置く。公開リポジトリなので、誰でもダウンロードできる。
+
+```bash
+gh release upload podcast "podcasts/audio/${EPISODE}.mp3" --clobber
+```
+
+## 6. 報告
+
+- MP3 の長さと公開 URL（`https://github.com/uto-usui/magazine/releases/download/podcast/${EPISODE}.mp3`）
 - この回の料金と、今月の使用額（`pnpm run podcast:usage` の出力）
 
 コミットはしない。台本（`podcasts/scripts/`）と使用量の記録（`state/tts-usage.json`）はコミット対象、MP3 は `.gitignore` 済み。

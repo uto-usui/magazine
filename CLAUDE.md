@@ -70,7 +70,7 @@ state/
 
 podcasts/
 ├── scripts/                  # 音声版の会話台本
-└── audio/                    # MP3（git に入れない）
+└── audio/                    # MP3（git に入れず、GitHub Release `podcast` に置く）
 
 articles/
 └── YYYY-MM-DD/               # 取得日ごとのディレクトリ
