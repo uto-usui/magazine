@@ -15,7 +15,7 @@ EPISODE=$(basename "$NEWSLETTER" .md)
 SCRIPT="podcasts/scripts/${EPISODE}.json"
 ```
 
-`podcasts/audio/${EPISODE}.mp3` がすでにあれば、台本と生成は飛ばして手順5のアップロードだけ行う（Release にもう同じ名前があれば何もせず終える）。
+`podcasts/audio/${EPISODE}.mp3` がすでにあれば、台本と生成は飛ばして手順6のアップロードだけ行う（Release にもう同じ名前があれば何もせず終える）。
 
 ## 2. 台本を書く
 
@@ -31,8 +31,10 @@ SCRIPT="podcasts/scripts/${EPISODE}.json"
 耳で聞くための書き換え（TTS はそのまま読むので、台本の段階で直す）:
 
 - 英語のタイトルはそのまま読まず、日本語で内容を言う（例: 「Design systems should be fast by default」→「デザインシステムは最初から速くあるべき、という記事」）
-- 製品名・人名など短い英語はそのまま書いてよい（Figma、Claude、WCAG は正しく読める）
-- URL、コード、カラーコード（`#4f46e5` は「藍色」などに）、絵文字、記号は書かない
+- **技術の名前はぼかさない**。記号やかっこを外して英字のまま書く（`:has()` →「has セレクター」、`text-wrap: pretty` →「text-wrap の pretty」、`sibling-index()` →「sibling-index 関数」）。「親を選べるセレクター」「新しい CSS の関数」のように名前を消して説明だけにしない。説明は名前のあとに足す
+- 製品名・人名・サービス名も英字のまま書いてよい（Figma、Claude、WCAG、Lighthouse、PageSpeed Insights は正しく読める）
+- 1文字ずつ読まれてしまう名前はカタカナにする（`nth-child` は「エヌティーエイチ・チャイルド」と読まれたので「エンスチャイルド」）
+- URL、カラーコード（`#4f46e5` は「藍色」などに）、絵文字、関数の引数のような記号の並びは書かない
 - 出典名は「Zennの記事」「Smashing Magazine の記事」くらいに短く言う
 - 読みが分かれる漢字は言い換える（実際に「一行」が「いってん」と読まれた）
 
@@ -52,7 +54,28 @@ SCRIPT="podcasts/scripts/${EPISODE}.json"
 
 記事のセグメントは `a01`, `a02`, ... と順に振る。1セグメントが1回の TTS リクエストになる。
 
-## 3. 字数と予算を確かめる
+## 3. 台本をチェックする
+
+書き終えたら、記事の中身がちゃんと伝わる台本になっているかを確かめて直す。
+
+まず、3行まとめに出てくる名前が台本から抜けていないかを機械的に調べる:
+
+```bash
+pnpm run podcast:check "$SCRIPT"
+```
+
+挙がった名前は、1つずつ「台本に足す」か「言わなくても記事の中身は伝わる」かを決める。記事の主役の技術・製品・手法なら足す。例として出てくる値（`:nth-child(5)` や `light only` など）や、記事の要点に関わらない名前なら足さなくてよい。
+
+次に、記事のセグメントを1本ずつ、ニュースレターの3行まとめと詳細解説に照らして読み直す:
+
+1. **名前**: 記事の主役の技術・製品・手法を、名前で言っているか。「こういう技術」「新しい機能」「ある関数」で済ませていないか
+2. **中身**: それが何をするもので、記事で何が分かったか（数字や結論があれば）を具体的に言っているか。聞いた人が自分で調べ始められるだけの手がかりがあるか
+3. **正しさ**: 3行まとめや詳細解説と食い違う内容、言いすぎがないか
+4. **読み**: 耳で聞いて読めるか（記号、URL、カラーコード、読みが分かれる漢字、1文字ずつ読まれる名前が残っていないか）
+
+直したら `pnpm run podcast:check` をもう一度実行する。直した箇所と、足さないと決めた名前は手順7の報告に書く。
+
+## 4. 字数と予算を確かめる
 
 ```bash
 pnpm run podcast "$SCRIPT" --dry-run
@@ -60,7 +83,7 @@ pnpm run podcast "$SCRIPT" --dry-run
 
 `NG:` が出たら台本を直してもう一度確かめる。予算や1日の本数で止まった場合は、作らずにその理由を報告して終える。
 
-## 4. 音声を作る
+## 5. 音声を作る
 
 ```bash
 pnpm run podcast "$SCRIPT"
@@ -68,7 +91,7 @@ pnpm run podcast "$SCRIPT"
 
 途中で失敗しても、作り終えたセグメントは `podcasts/audio/${EPISODE}/` に残っているので、同じコマンドで続きから作れる（二重に払わない）。
 
-## 5. Release に上げる
+## 6. Release に上げる
 
 MP3 はリポジトリに入れず、GitHub の Release `podcast` に置く。公開リポジトリなので、誰でもダウンロードできる。
 
@@ -76,9 +99,10 @@ MP3 はリポジトリに入れず、GitHub の Release `podcast` に置く。�
 gh release upload podcast "podcasts/audio/${EPISODE}.mp3" --clobber
 ```
 
-## 6. 報告
+## 7. 報告
 
 - MP3 の長さと公開 URL（`https://github.com/uto-usui/magazine/releases/download/podcast/${EPISODE}.mp3`）
 - この回の料金と、今月の使用額（`pnpm run podcast:usage` の出力）
+- 手順3のチェックで直した箇所と、足さないと決めた名前
 
 コミットはしない。台本（`podcasts/scripts/`）と使用量の記録（`state/tts-usage.json`）はコミット対象、MP3 は `.gitignore` 済み。
