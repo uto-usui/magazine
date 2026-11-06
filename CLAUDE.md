@@ -21,6 +21,8 @@ pnpm test             # vitest実行
 pnpm test <file>      # 単一テストファイル実行 (例: pnpm test tests/converter.test.ts)
 pnpm run fetch-rss    # 記事取得の本番実行
 pnpm run send-newsletter <file>  # ニュースレターをメール送信
+pnpm run podcast <script> [--dry-run]  # 台本から MP3 を作る（予算を超えるなら止まる）
+pnpm run podcast:usage           # 今月の TTS 使用額
 ```
 
 ## ディレクトリ構成
@@ -50,6 +52,7 @@ src/
 │   ├── template.ts           # HTMLメールテンプレート
 │   ├── inline-css.ts         # CSSインライン化 (juice)
 │   └── sender.ts             # Resendでメール送信
+├── podcast/                  # 音声版（Gemini TTS）と予算の判定
 └── utils/
     └── logger.ts             # ロガー
 
@@ -58,10 +61,16 @@ tests/                        # vitestテストファイル (tests/*.test.ts)
 config/
 ├── feeds.yml                 # フィード定義 (enabled: true/false/'local' で制御)
 ├── categories.yml            # カテゴリマスター
-└── recipients.yml            # メール受信者設定
+├── recipients.yml            # メール受信者設定
+└── podcast.yml               # TTS のモデル・声・月の予算・料金表
 
 state/
-└── processed.json            # 処理済み記事のID・ハッシュ (重複排除用、gitで管理)
+├── processed.json            # 処理済み記事のID・ハッシュ (重複排除用、gitで管理)
+└── tts-usage.json            # TTS の使用額。`pnpm run podcast` 以外の Gemini 利用は入らない
+
+podcasts/
+├── scripts/                  # 音声版の会話台本
+└── audio/                    # MP3（git に入れない）
 
 articles/
 └── YYYY-MM-DD/               # 取得日ごとのディレクトリ
@@ -331,3 +340,4 @@ RESEND_API_KEY=re_xxxxxxxx
 
 - `/create-newsletter` - ニュースレター作成
 - `/send-newsletter <file>` - メール送信
+- `/create-podcast [file]` - 音声版（MP3）作成
