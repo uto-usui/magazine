@@ -21,6 +21,8 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 LOG_FILE="$HOME/Library/Logs/curate-articles.log"
 export TZ="Asia/Tokyo"
+# launchd はシェルの環境変数を引き継がないので、通知のトークンは .env から読む
+MOSHI_TOKEN="${MOSHI_TOKEN:-$(sed -n 's/^MOSHI_TOKEN=//p' "$PROJECT_DIR/.env" 2>/dev/null)}"
 
 log() {
   echo "$(date '+%Y-%m-%d %H:%M:%S') $1" >> "$LOG_FILE"

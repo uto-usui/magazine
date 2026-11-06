@@ -23,6 +23,8 @@ PENDING_FILE="$HOME/.newsletter-pending"
 LOG_FILE="$HOME/Library/Logs/newsletter-poller.log"
 REPO="uto-usui/magazine"
 MAX_RETRIES=3
+# launchd はシェルの環境変数を引き継がないので、通知のトークンは .env から読む
+MOSHI_TOKEN="${MOSHI_TOKEN:-$(sed -n 's/^MOSHI_TOKEN=//p' "$PROJECT_DIR/.env" 2>/dev/null)}"
 
 log() {
   echo "$(date '+%Y-%m-%d %H:%M:%S') $1" >> "$LOG_FILE"
