@@ -40,6 +40,15 @@ notify() {
   fi
 }
 
+# 別ブランチで未コミットの作業があると切り替えに失敗する。黙って止まらないよう通知する
+checkout_master() {
+  if ! git -C "$PROJECT_DIR" checkout master >> "$LOG_FILE" 2>&1; then
+    log "ERROR: git checkout master failed"
+    notify "Newsletter ❌" "master に切り替えられませんでした。未コミットの変更を確認してください"
+    exit 1
+  fi
+}
+
 # 対象日付のニュースレター commit があれば subject を返す（無ければ空）
 find_newsletter_commit() {
   git -C "$PROJECT_DIR" log --grep="^docs: Add newsletter for $1\$" --format=%s -1 2>/dev/null || true
@@ -50,7 +59,7 @@ launch_newsletter() {
   local target_date="$1"
 
   cd "$PROJECT_DIR"
-  git checkout master >> "$LOG_FILE" 2>&1
+  checkout_master
   git pull --rebase origin master >> "$LOG_FILE" 2>&1
   log "Git pull completed"
 
@@ -167,7 +176,7 @@ if [[ "$NEW_MERGED" > "$LAST_MERGED" ]]; then
   log "New merge detected!"
 
   cd "$PROJECT_DIR"
-  git checkout master >> "$LOG_FILE" 2>&1
+  checkout_master
   git pull --rebase origin master >> "$LOG_FILE" 2>&1
   log "Git pull completed"
 
