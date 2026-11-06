@@ -1,0 +1,186 @@
+---
+title: "example.com が刷新された話"
+source: "https://blog.jxck.io/entries/2026-10-17/example.com.html"
+publishedDate: "2026-10-17"
+category: "web-standards"
+feedName: "blog.jxck.io"
+---
+
+## [Intro](#intro)
+
+[http://example.com](http://example.com/) が刷新されてしまった。
+
+## [Example Domain](#example-domain)
+
+ドキュメントや書籍、スライドやコメントなどに、サンプルとして適当な URL を書くことがあるだろう。
+
+例えば、ネットワークでよく出てくる Alice になぞらえて `alice [dot] com` などと書くと、そのサイトは実在するため、開けばリクエストが飛ぶ。
+
+`bob [dot] com` のように今は存在しなくても、将来取得される可能性があるのだ。
+
+そこで、「このドメインはドキュメントの例示用に使って良い」というドメインが RFC に定義されている。
+
+-   RFC 6761 Special-Use Domain Names
+    -   [https://www.rfc-editor.org/info/rfc6761/](https://www.rfc-editor.org/info/rfc6761/)
+-   RFC 2606 Reserved Top Level DNS Names
+    -   [https://www.rfc-editor.org/info/rfc2606/](https://www.rfc-editor.org/info/rfc2606/)
+
+例えば、以下は例示用途で安心して使えるのだ。
+
+-   example.com
+-   example.net
+-   example.org
+
+筆者も、このサイトや書籍、雑誌への寄稿、スライド、研修資料、あらゆるところで `example.com` を使ってきた。
+
+## [example.com](#example.com)
+
+すると、このドメインは空のままで、何もデプロイされてないと思うかもしれない。
+
+しかし、実際には DNS がレコードを提供し、Web サイトがデプロイされている。
+
+-   [http://example.com](http://example.com/)
+
+  ![example.com before](https://blog.jxck.io/entries/2026-10-17/example.com.before.png?261017_175815)
+
+なんということのないサイトだが、このサイトは実は非常に便利だったのだ。
+
+筆者は、誇張ではなく一日一回くらい、URL バーに `e` を打ち、補完されるこのサイトを、様々な理由で開いていた。
+
+## [`http://` デプロイ](#http-デプロイ)
+
+世界は HTTPS へとシフトしている。
+
+http -> https のリダイレクトは当たり前で、一度リダイレクトすれば HSTS で固定する。
+
+Preload HSTS や HTTPS RR の提供、HTTPS First Mode などによって、`http://` へのトラフィックは極力消していくことになっていた。
+
+ところが、それは `http://` の接続を検証するためのデプロイも無くなっていくことを意味する。
+
+例えば、ブラウザが「平文通信は赤く警告を出す」という変更を入れても、実際にオンラインでどうなるか試すには、平文のままなサイトを探すか、自分で立てる必要があった。
+
+「このサイトは HTTPS にしない」といったコンセプトのサイトを、思いついたように立てる人は多々いた。
+
+しかし、いつしかサイトが落ちてたり、ドメインが失効したり、デプロイ先の都合で HTTPS になってしまったり、そんなずさんなサイトばかりだった。
+
+[http://example.com](http://example.com/) は、ずっと平文を提供していた。
+
+余計なリダイレクトはなく、余計な広告も出ず、余計なスクリプトも動かない。
+
+ただただ `http://` を提供しており、覚えやすい。
+
+`telnet example.com 80` ですら接続できるため、HTTP の研修などでも非常にお世話になった。
+
+平文通信をするということは、WiFi の Captive Portal を開くにも便利だ。
+
+とりあえず [http://example.com](http://example.com/) に繋げば、ほぼ間違いなく Captive Portal は開く。
+
+## [シンプルな HTML](#シンプルな-html)
+
+HTML は以下のようなシンプルなものだ。
+
+```
+<div>
+  <h1>Example Domain</h1>
+  <p>This domain is for use in documentation examples without needing permission. Avoid use in operations.</p>
+  <p><a href="https://iana.org/domains/example">Learn more</a></p>
+</div>
+```
+
+DevTools で `h1` をイジるワンライナーを何回書いただろう。
+
+何回 `div` に CSS を当てただろう。
+
+なんのエラーも出て無いまっさらな Console で、何回正規表現を試しただろう。
+
+example.com から example.net への fetch で、何度 CORS の解説をしただろう。
+
+example.com に example.net の iframe を、何度埋め込んだだろう。
+
+## [シンプルな DNS](#シンプルな-dns)
+
+正確なところは忘れたが、長いこと A レコード 1 つ、IPv4 1 つだけでデプロイされてたと思う。
+
+dig の教材としてもシンプルで良かった。
+
+途中から v4 アドレスが増えたり、AAAA を出し始めたような記憶もあるが、今は HTTPS レコードまで吐いている。
+
+## [刷新](#刷新)
+
+いつしか、example.com を開くのは手癖になっていた。
+
+URL バーに e を入れれば、補完は example.com だ。
+
+そんなある日、いつものように [http://example.com](http://example.com/) を開いたら [https://example.com](https://example.com/) にリダイレクトされた。
+
+これ自体は結構前だ。
+
+HTTP Header を見たところ、取得先サーバと中間証明書が Cloudflare になっていた。
+
+こんなところにまで Cloudflare の影響が及んでくるとは思ってなかった。
+
+1.1.1.1 も、ノイズが多すぎて持て余していた APNIC から、負荷をすべて肩代わりする代わりに研究用途をサポートする利害の一致で Cloudflare が取得した。
+
+IANA にも相当の負荷があることを考えると、最近の流れでは妥当な移行だろう。
+
+そしてしばらくしてから、今月に入り見た目も刷新された。
+
+  ![example.com afeter](https://blog.jxck.io/entries/2026-10-17/example.com.after.png?261017_175825)
+
+ダークモードに対応し、シンプルなメッセージは多言語翻訳されて JS で切り替わり、ちょっとした SVG が埋め込まれた。
+
+JS でのアニメーションはすぐ消され、今は多言語翻訳が縦にならんでいる。
+
+これまで通り、IANA へのリンクが 1 つ。
+
+こうして話題にしなければ、気にするような人はほとんどいないだろう刷新かもしれない。
+
+## [問い合わせ](#問い合わせ)
+
+別に刷新するのは構わないが、その意図は正直よくわからなかった。
+
+そこで IANA に、どういう意図なのかをメールで問い合わせてみることにした。
+
+http:// が維持されてたのは意図的ではなかったのか、JS を用いるコンテンツにする意味はあるのか、アニメーションは必須なのか。
+
+ついでに、自分が普段 example.com について期待していた挙動についても、ユースケースとして説明しつつメールを送った。
+
+回答はシンプルだ「example.com は例示用のドメインで、サイトはあくまでおまけだ。そのサイトの挙動に依存することは望んでない。詳細はブログを近日出す。」
+
+まあ、そのとおりだ。
+
+10/1 に刷新に気づき、その日の夜メールして、翌日に返信が来て、10/6 に公開されたのが以下のブログだ。
+
+-   Being Exemplary
+    -   [https://kimdavies.com/being-exemplary](https://kimdavies.com/being-exemplary)
+
+まあ、だいたい想像していた通りの内容が、IANA の VP から公開された形だ。
+
+異を唱える部分は何もない。
+
+ツールのテストに入れて CI で回しているような人もいただろう。さすがに、そういう使い方が増やす負荷は頂けないだろう。
+
+そうではない自分の使い方も、Example Domain の使い方としては決して正しくなく、IANA が受ける負荷の微々たる部分としてもノイズだったことは否めないだろう。
+
+## [アーカイブ](#アーカイブ)
+
+決してドメインが切れることもなく、うっかり HTTPS 対応されることもなく、`http://` での表示を試し続けられると思っていた example.com は無くなってしまった。
+
+非常にシンプルなページで、変なエラーでコンソールを汚されることもなく、様々な JS スニペットやブラウザの挙動が試せた便利なサイトもなくなってしまった。
+
+`telnet example.com 80` でアクセスし、`GET /` がレスポンスを返す、HTTP の研修で教材にさせてもらってたサーバもなくなってしまった。
+
+そんな、刷新前の最後の姿がこれだ。(WebArchive はタイムスタンプの最後に `id_` を追加すると埋め込みを外せる。)
+
+-   Example Domain
+    -   [https://web.archive.org/web/20260928015257id\_/https://example.com/](https://web.archive.org/web/20260928015257id_/https://example.com/)
+
+記念として、この HTML を `example.jxck.io` でサーブすることにした。
+
+`http://` をデプロイし、リダイレクトもなし。JS もなく、テキストとリンクと最小のスタイルだけ。
+
+今後は `e` とブラウザに入れたら、このドメインが開くようにしておく。
+
+## [Outro](#outro)
+
+[http://example.jxck.io](http://example.jxck.io/) をデプロイした。
