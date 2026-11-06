@@ -23,6 +23,7 @@ pnpm run fetch-rss    # 記事取得の本番実行
 pnpm run send-newsletter <file>  # ニュースレターをメール送信
 pnpm run podcast <script> [--dry-run]  # 台本から MP3 を作る（予算を超えるなら止まる）
 pnpm run podcast:usage           # 今月の TTS 使用額
+pnpm run podcast:check <script>  # 3行まとめの技術名・固有名が台本から抜けていないか
 ```
 
 ## ディレクトリ構成
