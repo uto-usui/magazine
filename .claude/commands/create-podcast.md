@@ -26,7 +26,7 @@ EPISODE=$(basename "$NEWSLETTER" .md)
 SCRIPT="podcasts/scripts/${EPISODE}.json"
 ```
 
-`podcasts/audio/${EPISODE}.mp3` がすでにあれば、台本と生成は飛ばして手順7のカバー画像とアップロードだけ行う（Release に MP3 とカバー画像がもうあれば何もせず終える）。
+`podcasts/audio/${EPISODE}.mp3` がすでにあれば、台本と生成は飛ばして手順7だけ行う（Release に MP3 がもうあれば、カバー画像だけ作って終える）。
 
 ## 2. 台本を書く
 
@@ -142,15 +142,17 @@ pnpm run podcast "$SCRIPT"
 pnpm run podcast:cover "$SCRIPT"
 ```
 
-MP3 とカバー画像はリポジトリに入れず、GitHub の Release `podcast` に置く。公開リポジトリなので、誰でもダウンロードできる。
+カバー画像はスタイルを試している途中なので、手元（`podcasts/audio/`）に置くだけにして、Release には上げない。
+
+MP3 はリポジトリに入れず、GitHub の Release `podcast` に置く。公開リポジトリなので、誰でもダウンロードできる。
 
 ```bash
-gh release upload podcast "podcasts/audio/${EPISODE}.mp3" "podcasts/audio/${EPISODE}.jpg" --clobber
+gh release upload podcast "podcasts/audio/${EPISODE}.mp3" --clobber
 ```
 
 ## 8. 報告
 
-- MP3 の長さと公開 URL（`https://github.com/uto-usui/magazine/releases/download/podcast/${EPISODE}.mp3`、カバー画像は同じ場所の `.jpg`）
+- MP3 の長さと公開 URL（`https://github.com/uto-usui/magazine/releases/download/podcast/${EPISODE}.mp3`）と、カバー画像のパス（`podcasts/audio/${EPISODE}.jpg`）
 - この回の料金と、今月の使用額（`pnpm run podcast:usage` の出力）
 - 手順3のチェックで直した箇所と、足さないと決めた名前
 - 手順4で直した日本語（元の文 → 直した文）
