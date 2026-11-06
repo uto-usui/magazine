@@ -24,6 +24,7 @@ flowchart TB
         PULL["⬇️ git pull<br/>最新masterを取得"]
         CLAUDE["🤖 Claude Code<br/>/create-newsletter-auto"]
         COMMIT["📤 commit → rebase pull → push<br/>newsletters/*.md"]
+        PODCAST["🎧 create-podcast.sh<br/>音声バージョン → Release / push"]
     end
 
     subgraph Obsidian_Vault["📓 Obsidian Vault"]
@@ -49,6 +50,7 @@ flowchart TB
     POLLER -->|"新しいマージ検知"| PULL
     PULL --> CLAUDE
     CLAUDE --> COMMIT
+    COMMIT -->|"push 成功後"| PODCAST
 
     %% 送信トリガー
     COMMIT -->|"newsletters/*.md<br/>がmasterにpush"| SEND_MAIL
@@ -68,7 +70,7 @@ flowchart TB
     classDef obsidian fill:#7c3aed,stroke:#6d28d9,color:#fff
 
     class CRON,FETCH,CREATE_PR,SEND_MAIL,SYNC_OBS action
-    class LAUNCHD,POLLER,PULL,CLAUDE,COMMIT local
+    class LAUNCHD,POLLER,PULL,CLAUDE,COMMIT,PODCAST local
     class RSS,RESEND external
     class ARTICLES_OBS,TAGGING,LINKING,NOTES obsidian
 ```
@@ -158,6 +160,7 @@ tail -f ~/Library/Logs/newsletter-poller.log
 | **コマンド** | `/create-newsletter-auto`（非対話バージョン） |
 | **処理内容** | 記事を読み込み → 要約生成 → ニュースレター作成 → commit & push |
 | **出力** | `newsletters/YYYY-MM-DD-HHmmss.md` |
+| **続けて** | push に成功したら `scripts/create-podcast.sh` で音声バージョンを作り、MP3 を Release `podcast` に上げて台本と使用額を push（失敗してもニュースレターには影響しない） |
 
 **Claude Code スキル（カスタムコマンド）**:
 - `/create-newsletter` - 対話バージョン（記事選択可能）

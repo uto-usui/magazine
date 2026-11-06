@@ -57,7 +57,7 @@ launch_newsletter() {
   osascript -e "
     tell application \"Terminal\"
       activate
-      do script \"cd $PROJECT_DIR && claude -p '/create-newsletter-auto $target_date' --dangerously-skip-permissions && git pull --rebase origin master && git push origin master; echo 'Done - press any key to close'; read\"
+      do script \"cd $PROJECT_DIR && claude -p '/create-newsletter-auto $target_date' --dangerously-skip-permissions && git pull --rebase origin master && git push origin master && ./scripts/create-podcast.sh $target_date; echo 'Done - press any key to close'; read\"
     end tell
   " >> "$LOG_FILE" 2>&1
 }
