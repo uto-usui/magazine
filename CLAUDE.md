@@ -52,7 +52,7 @@ src/
 │   ├── template.ts           # HTMLメールテンプレート
 │   ├── inline-css.ts         # CSSインライン化 (juice)
 │   └── sender.ts             # Resendでメール送信
-├── podcast/                  # 音声版（Gemini TTS）と予算の判定
+├── podcast/                  # 音声バージョン（Gemini TTS）と予算の判定
 └── utils/
     └── logger.ts             # ロガー
 
@@ -69,7 +69,7 @@ state/
 └── tts-usage.json            # TTS の使用額。`pnpm run podcast` 以外の Gemini 利用は入らない
 
 podcasts/
-├── scripts/                  # 音声版の会話台本
+├── scripts/                  # 音声バージョンの会話台本
 └── audio/                    # MP3（git に入れず、GitHub Release `podcast` に置く）
 
 articles/
@@ -340,4 +340,4 @@ RESEND_API_KEY=re_xxxxxxxx
 
 - `/create-newsletter` - ニュースレター作成
 - `/send-newsletter <file>` - メール送信
-- `/create-podcast [file]` - 音声版（MP3）作成
+- `/create-podcast [file]` - 音声バージョン（MP3）作成

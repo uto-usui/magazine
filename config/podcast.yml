@@ -1,4 +1,4 @@
-# 音声版（Gemini TTS で作る MP3）の設定
+# 音声バージョン（Gemini TTS で作る MP3）の設定
 
 model: gemini-3.8-flash-lite-tts
 

@@ -3,9 +3,9 @@ allowed-tools: [Read, Write, Glob, Bash]
 description: キュレーション（ピックアップ）を非対話で自動作成し、コミットまで行うコマンド
 ---
 
-# キュレーション自動作成（非対話版）
+# キュレーション自動作成（非対話バージョン）
 
-このコマンドは `/curate-articles` の非対話版です。
+このコマンドは `/curate-articles` の非対話バージョンです。
 ユーザー確認なしで `newsletters/pickup/YYYY-MM-DD-HHmmss.md` を生成し、コミットまで行います。push は呼び出し元が担当します。
 
 ## 処理手順

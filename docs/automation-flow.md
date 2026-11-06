@@ -84,7 +84,7 @@ GitHub が提供する CI/CD サービス。リポジトリに `.github/workflow
 Anthropic が提供する CLI ツール。ターミナルから Claude AI を呼び出し、コード生成・編集・ファイル操作などを自然言語で指示できる。`/create-newsletter` のようなカスタムコマンド（スキル）を定義可能。
 
 ### launchd（macOS）
-macOS のシステムサービス管理デーモン。`~/Library/LaunchAgents/` に plist ファイルを配置することで、定期実行やログイン時の自動起動を設定できる。cron の macOS 版と考えてよい。
+macOS のシステムサービス管理デーモン。`~/Library/LaunchAgents/` に plist ファイルを配置することで、定期実行やログイン時の自動起動を設定できる。cron の macOS バージョンと考えてよい。
 
 ### gh CLI（GitHub CLI）
 GitHub 公式の CLI ツール。`gh pr list`、`gh issue create` などでターミナルから GitHub を操作できる。本システムでは PR のマージ状態監視に使用。
@@ -155,13 +155,13 @@ tail -f ~/Library/Logs/newsletter-poller.log
 |------|------|
 | **トリガー** | poller がマージを検知すると Terminal.app を開いて実行 |
 | **ツール** | Claude Code |
-| **コマンド** | `/create-newsletter-auto`（非対話版） |
+| **コマンド** | `/create-newsletter-auto`（非対話バージョン） |
 | **処理内容** | 記事を読み込み → 要約生成 → ニュースレター作成 → commit & push |
 | **出力** | `newsletters/YYYY-MM-DD-HHmmss.md` |
 
 **Claude Code スキル（カスタムコマンド）**:
-- `/create-newsletter` - 対話版（記事選択可能）
-- `/create-newsletter-auto` - 非対話版（自動選定）
+- `/create-newsletter` - 対話バージョン（記事選択可能）
+- `/create-newsletter-auto` - 非対話バージョン（自動選定）
 - `/send-newsletter <file>` - 手動送信用
 
 ### 5️⃣ ニュースレター送信（GitHub Actions / 自動）

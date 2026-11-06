@@ -26,7 +26,7 @@ flowchart TD
 |---------|------|
 | `scripts/newsletter-poller.sh` | GitHub をポーリングしてマージを検出 |
 | `scripts/create-newsletter.sh` | 手動実行用ワンタッチスクリプト |
-| `.claude/commands/create-newsletter-auto.md` | Claude Code 非対話版コマンド |
+| `.claude/commands/create-newsletter-auto.md` | Claude Code 非対話バージョンコマンド |
 | `~/Library/LaunchAgents/<label>.plist` | launchd 設定 |
 
 ## 手動実行

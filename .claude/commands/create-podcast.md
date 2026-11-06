@@ -1,9 +1,9 @@
 ---
 allowed-tools: [Read, Write, Glob, Bash]
-description: ニュースレターから15分の音声版（会話台本 → Gemini TTS → MP3）を作る
+description: ニュースレターから15分の音声バージョン（会話台本 → Gemini TTS → MP3）を作る
 ---
 
-# 音声版の作成
+# 音声バージョンの作成
 
 **引数**: $ARGUMENTS（オプション: ニュースレターのファイル。省略時は `newsletters/` の最新）
 
