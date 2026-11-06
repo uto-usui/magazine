@@ -10,7 +10,9 @@
     "fetch-rss": "node --import tsx src/index.ts",
     "send-newsletter": "node --import tsx src/send-newsletter.ts",
     "sync-to-obsidian": "node --import tsx src/sync-to-obsidian.ts",
-    "feed-quality": "node --import tsx src/feed-quality.ts"
+    "feed-quality": "node --import tsx src/feed-quality.ts",
+    "podcast": "node --import tsx src/generate-podcast.ts",
+    "podcast:usage": "node --import tsx src/podcast-usage.ts"
   },
   "dependencies": {
     "@mozilla/readability": "^0.6.0",
