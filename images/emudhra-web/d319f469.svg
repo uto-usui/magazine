@@ -1,0 +1,53 @@
+<svg width="768" height="763" viewBox="0 0 768 763" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="768" height="763" fill="white"/>
+<path d="M252.625 608V678" stroke-width="1.5" stroke="#333333"/>
+<text fill="#1F5FBF" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="13" letter-spacing="0em"><tspan x="335.625" y="121.804">Chrome / Mozilla / Apple &#x306f; Distrust &#x6e08;&#x307f;</tspan></text>
+<text fill="#1F5FBF" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="13" letter-spacing="0em"><tspan x="525.375" y="469.804">Chrome: CRLSet &#x3067; SPKI &#x3092;&#x30d6;&#x30ed;&#x30c3;&#x30af;</tspan></text>
+<text fill="#1F5FBF" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="13" letter-spacing="0em"><tspan x="525.375" y="495.804">Firefox: OneCRL &#x3067;&#x30d6;&#x30ed;&#x30c3;&#x30af;</tspan></text>
+<text fill="#1F5FBF" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="13" letter-spacing="0em"><tspan x="525.375" y="521.804">Apple: &#x30d6;&#x30ed;&#x30c3;&#x30af;</tspan></text>
+<text fill="#1F5FBF" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="13" letter-spacing="0em"><tspan x="525.375" y="547.804">Microsoft: &#x30d6;&#x30ed;&#x30c3;&#x30af;</tspan></text>
+<text fill="#1F5FBF" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="13" letter-spacing="0em"><tspan x="525.375" y="573.804">CT Log: &#x53d7;&#x4ed8;&#x62d2;&#x5426;</tspan></text>
+<text fill="#1F5FBF" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="13" letter-spacing="0em"><tspan x="525.375" y="599.804">eMudhra / Comodo: &#x5931;&#x52b9;&#x6e08;&#x307f;</tspan></text>
+<rect x="18.625" y="450" width="490" height="159" fill="white"/>
+<rect x="18.625" y="450" width="490" height="159" stroke="#C0392B" stroke-width="2"/>
+<text fill="#222222" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="15" font-weight="bold" letter-spacing="0em"><tspan x="34.625" y="478.685">&#x554f;&#x984c;&#x306e;&#x4e2d;&#x9593; CA (TLS &#x7528; 6 &#x3064;)</tspan></text>
+<text fill="#FA053E" style="white-space: pre" xml:space="preserve" font-family="Helvetica" font-size="12" letter-spacing="0em"><tspan x="159.184" y="515.64">d=156</tspan></text>
+<text fill="#222222" style="white-space: pre" xml:space="preserve" font-family="Helvetica" font-size="12" letter-spacing="0em"><tspan x="34.625" y="515.64">EM DV TLS CA - G3B (</tspan><tspan x="192.91" y="515.64">)</tspan></text>
+<text fill="#FA053E" style="white-space: pre" xml:space="preserve" font-family="Helvetica" font-size="12" letter-spacing="0em"><tspan x="395.852" y="515.64">d=230</tspan></text>
+<text fill="#222222" style="white-space: pre" xml:space="preserve" font-family="Helvetica" font-size="12" letter-spacing="0em"><tspan x="270.625" y="515.64">EM DV TLS CA - G3C (</tspan><tspan x="429.578" y="515.64">)</tspan></text>
+<text fill="#FA053E" style="white-space: pre" xml:space="preserve" font-family="Helvetica" font-size="12" letter-spacing="0em"><tspan x="159.852" y="535.64">d=155</tspan></text>
+<text fill="#222222" style="white-space: pre" xml:space="preserve" font-family="Helvetica" font-size="12" letter-spacing="0em"><tspan x="34.625" y="535.64">EM OV TLS CA - G3B (</tspan><tspan x="193.578" y="535.64">)</tspan></text>
+<text fill="#FA053E" style="white-space: pre" xml:space="preserve" font-family="Helvetica" font-size="12" letter-spacing="0em"><tspan x="396.52" y="535.64">d=4</tspan></text>
+<text fill="#222222" style="white-space: pre" xml:space="preserve" font-family="Helvetica" font-size="12" letter-spacing="0em"><tspan x="270.625" y="535.64">EM OV TLS CA - G3C (</tspan><tspan x="416.887" y="535.64">)</tspan></text>
+<text fill="#FA053E" style="white-space: pre" xml:space="preserve" font-family="Helvetica" font-size="12" letter-spacing="0em"><tspan x="158.516" y="555.64">d=115</tspan></text>
+<text fill="#222222" style="white-space: pre" xml:space="preserve" font-family="Helvetica" font-size="12" letter-spacing="0em"><tspan x="34.625" y="555.64">EM EV TLS CA - G3B (</tspan><tspan x="191.363" y="555.64">)</tspan></text>
+<text fill="#FA053E" style="white-space: pre" xml:space="preserve" font-family="Helvetica" font-size="12" letter-spacing="0em"><tspan x="395.184" y="555.64">d=56</tspan></text>
+<text fill="#222222" style="white-space: pre" xml:space="preserve" font-family="Helvetica" font-size="12" letter-spacing="0em"><tspan x="270.625" y="555.64">EM EV TLS CA - G3C (</tspan><tspan x="422.23" y="555.64">)</tspan></text>
+<text fill="#222222" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="12" letter-spacing="0em"><tspan x="34.625" y="592.434">eMudhra &#x3068; Comodo &#x304c;&#x305d;&#x308c;&#x305e;&#x308c;&#x7f72;&#x540d;&#x3057;&#x3066;&#x3044;&#x308b;&#x306e;&#x3067;&#x3001;TLS &#x8a3c;&#x660e;&#x66f8;&#x306f; 6x2 = 12 &#x679a;</tspan></text>
+<text fill="#1F5FBF" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="13" letter-spacing="0em"><tspan x="408.625" y="351.804">Chrome / Mozilla &#x306f; Distrust &#x6e08;&#x307f;</tspan></text>
+<path d="M396.625 329V449" stroke-width="1.5" stroke="#333333"/>
+<text fill="#222222" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="13" letter-spacing="0em"><tspan x="408.625" y="429.804">&#x30af;&#x30ed;&#x30b9;&#x7f72;&#x540d;</tspan></text>
+<rect x="360.625" y="269" width="300" height="60" fill="white"/>
+<rect x="360.625" y="269" width="300" height="60" stroke="#333333" stroke-width="1.5"/>
+<text fill="#222222" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="16" font-weight="bold" letter-spacing="0em"><tspan x="380.625" y="295.064">AAA Certificate Services</tspan></text>
+<text fill="#666666" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="13" letter-spacing="0em"><tspan x="380.625" y="315.804">(Comodo CA Limited / Sectigo)</tspan></text>
+<text fill="#666666" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="13" letter-spacing="0em"><tspan x="360.625" y="260.804">&#x53ce;&#x9332;: Apple / Microsoft</tspan></text>
+<path d="M58.625 330V450" stroke-width="1.5" stroke="#333333"/>
+<text fill="#222222" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="13" letter-spacing="0em"><tspan x="69.625" y="429.804">&#x767a;&#x884c;</tspan></text>
+<text fill="#666666" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="13" letter-spacing="0em"><tspan x="18.625" y="260.804">&#x53ce;&#x9332;: Microsoft </tspan></text>
+<rect x="18.625" y="269" width="300" height="60" fill="white"/>
+<rect x="18.625" y="269" width="300" height="60" stroke="#333333" stroke-width="1.5"/>
+<text fill="#222222" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="16" font-weight="bold" letter-spacing="0em"><tspan x="38.625" y="295.064">emSign Root TLS CA - G3</tspan></text>
+<text fill="#666666" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="13" letter-spacing="0em"><tspan x="38.625" y="315.804">(eMudhra Technologies Limited)</tspan></text>
+<path d="M58.625 147V237" stroke-width="1.5" stroke="#333333"/>
+<text fill="#222222" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="13" letter-spacing="0em"><tspan x="66.625" y="225.804">&#x30af;&#x30ed;&#x30b9;&#x7f72;&#x540d;</tspan></text>
+<rect x="18.625" y="87" width="300" height="60" fill="white"/>
+<rect x="18.625" y="87" width="300" height="60" stroke="#333333" stroke-width="1.5"/>
+<text fill="#222222" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="16" font-weight="bold" letter-spacing="0em"><tspan x="38.625" y="113.064">emSign ECC Root CA - G3</tspan></text>
+<text fill="#666666" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="13" letter-spacing="0em"><tspan x="38.625" y="133.804">(eMudhra Technologies Limited)</tspan></text>
+<text fill="#666666" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="13" letter-spacing="0em"><tspan x="18.625" y="78.8035">&#x53ce;&#x9332;: Apple / Chrome / Microsoft / Mozilla</tspan></text>
+<rect x="83.625" y="679" width="337" height="63" stroke="#333333" stroke-width="2"/>
+<text fill="#666666" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="14" font-weight="bold" letter-spacing="0em"><tspan x="185.125" y="703.806">&#x30b5;&#x30fc;&#x30d0;&#x8a3c;&#x660e;&#x66f8;: &#x672a;&#x767a;&#x884c;</tspan></text>
+<text fill="#666666" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="12" letter-spacing="0em"><tspan x="191.68" y="728.434">(CT Log &#x306b;&#x3082;&#x8a18;&#x9332;&#x306a;&#x3057;)</tspan></text>
+<text fill="#222222" style="white-space: pre" xml:space="preserve" font-family="Helvetica Neue" font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="18.625" y="39.58">eMudhra &#x8a3c;&#x660e;&#x66f8;&#x30c1;&#x30a7;&#x30fc;&#x30f3;</tspan></text>
+</svg>

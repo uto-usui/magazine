@@ -38355,7 +38355,95 @@
     "https://developers.cyberagent.co.jp/blog/archives/67267/": {
       "contentHash": "679f1d70cd925fce7a206a4a68e596f2c14dc8701ae7a970829a1f27e64fc437",
       "processedAt": "2026-11-05T05:42:12.749Z"
+    },
+    "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/": {
+      "contentHash": "c97b917bf618b948acf3141879ff7c82dd4ded6e6c658ab7314a1d794e1cb1af",
+      "processedAt": "2026-11-06T05:38:26.637Z"
+    },
+    "https://uxdesign.cc/your-ai-is-non-deterministic-but-your-product-cant-be-3ec2a0cf870c": {
+      "contentHash": "a55bb6830ee14babac1fab45610ad7ffd84c4a4cf49f14b8e790bd68ae79b602",
+      "processedAt": "2026-11-06T05:38:33.371Z"
+    },
+    "https://the-brandidentity.com/typeface/superior-types-heaven-is-a-sans-serif-built-on-oversized-round-shapes": {
+      "contentHash": "006fd25655c482f6dfaf65e1c69351ca777408d8228eb6bc1209c7671ec80936",
+      "processedAt": "2026-11-06T05:38:40.175Z"
+    },
+    "https://george.mand.is/2026/11/the-tokenizer-font/": {
+      "contentHash": "b193928b403bdd67e883892e040160afdbc71cb3891c5626551c3da12f8c8ee4",
+      "processedAt": "2026-11-06T05:38:40.763Z"
+    },
+    "https://longnow.org/ideas/attention-ai-pace-layers/": {
+      "contentHash": "daa5adfee410ee65b565185179617ada0757fea19452281b9b9ba21651c54799",
+      "processedAt": "2026-11-06T05:38:41.144Z"
+    },
+    "https://aframe.io/": {
+      "contentHash": "3f0c610739d4fa3fd5e0cb0db6f39a549dc3e4586e6ce1a2bbb376918f5fee38",
+      "processedAt": "2026-11-06T05:38:41.932Z"
+    },
+    "https://www.lesswrong.com/posts/KThSe2vPZw4zn7f8W/great-but-painful": {
+      "contentHash": "df6c47c36d426018aaed4f1f4b5dd7348dcc76a643dd71015a492ed3e7b4ad16",
+      "processedAt": "2026-11-06T05:38:46.342Z"
+    },
+    "https://mean.app/": {
+      "contentHash": "f6059ce666597e0fe01b66ea583736a31c8946d9d72d6e694981ac5fc9036278",
+      "processedAt": "2026-11-06T05:38:46.607Z"
+    },
+    "https://iamnoman.com/writing/designing-a-skill": {
+      "contentHash": "55b07ee4364c2a4356a2299e258d9c0f318dac1325e7acdc9d9ac23a00e6830c",
+      "processedAt": "2026-11-06T05:38:47.775Z"
+    },
+    "https://koto.com/projects/nubank": {
+      "contentHash": "4a94d58dd00738885ad20163eeda5612f5c3a97d9c7dadfbb384af19d80c5c29",
+      "processedAt": "2026-11-06T05:38:49.087Z"
+    },
+    "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html": {
+      "contentHash": "8a33378904953c64865ba850bd28c61d5a580853fa6269649dc04bf5df2579ae",
+      "processedAt": "2026-11-06T05:38:50.176Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/scaling-slack-and-github-with-maude": {
+      "contentHash": "ede3ed7336f949098de05cc8482448c5cd2ff6c665628647625938bb27df982b",
+      "processedAt": "2026-11-06T05:38:50.621Z"
+    },
+    "https://smashingmagazine.com/2026/11/making-immersive-llm-chat-experiences-more-accessible/": {
+      "contentHash": "ccad24efd28b15a8f01c8ecf333956b09d38f823cd122b349be1b62ee2080afd",
+      "processedAt": "2026-11-06T05:38:51.583Z"
+    },
+    "https://css-tricks.com/taming-typography-modern-css-reset/": {
+      "contentHash": "bdf0b0d1be5aa0b94760d21dfeca85a6f065bf5b89549202ae20f658bc288fd1",
+      "processedAt": "2026-11-06T05:38:51.917Z"
+    },
+    "https://ishadeed.com/article/beyond-the-viewport/": {
+      "contentHash": "925c811e9d2b3a27d67c301566860c4e567d42be81e3017efac2a83ff5f6b315",
+      "processedAt": "2026-11-06T05:38:52.473Z"
+    },
+    "https://vercel.com/blog/introducing-vercel-schedules": {
+      "contentHash": "ae00937f21ba8094f88694a21080bf0f7ddcc39323a72c5fdec7062de4d14c99",
+      "processedAt": "2026-11-06T05:38:52.938Z"
+    },
+    "https://stripe.com/blog/analyze-your-stripe-data-directly-with-your-agent": {
+      "contentHash": "9fb93a2c6e197222f65d7020ba5813aabef847b14b77866408610b446b590d96",
+      "processedAt": "2026-11-06T05:38:53.320Z"
+    },
+    "https://blog.jxck.io/entries/2026-11-04/stand-up-tech-talk.html": {
+      "contentHash": "fd7ef02b221e5d39a0f20967d634efc0550f19860fa13746a5efb67973035b33",
+      "processedAt": "2026-11-06T05:38:53.759Z"
+    },
+    "https://blog.jxck.io/entries/2026-10-25/emudhra.html": {
+      "contentHash": "16423cfbafaedce11ffab99ab1c603fd0672c0badca2629ad9abf008f8776166",
+      "processedAt": "2026-11-06T05:38:54.084Z"
+    },
+    "https://blog.jxck.io/entries/2026-10-17/example.com.html": {
+      "contentHash": "28637a0980ad3d3a467070dd850ccee8e79fa64b9a1d0bdbbb8ae4a89cda4f7b",
+      "processedAt": "2026-11-06T05:38:55.063Z"
+    },
+    "https://zenn.dev/hakaru_design/articles/b934c2a1a54ae6": {
+      "contentHash": "191b0d1888f5fcb93e332a25c4cfead36a2aa875930565744a6875b3c12e283d",
+      "processedAt": "2026-11-06T05:38:56.311Z"
+    },
+    "https://developers.cyberagent.co.jp/blog/archives/67259/": {
+      "contentHash": "35031b2d46475f212fe3da9fbd2bed949782662d25ae125e3712ba1978776fba",
+      "processedAt": "2026-11-06T05:38:58.857Z"
     }
   },
-  "lastRun": "2026-11-05T05:42:12.749Z"
+  "lastRun": "2026-11-06T05:38:58.858Z"
 }
