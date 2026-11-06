@@ -53,6 +53,26 @@ function latinWords(text: string): Set<string> {
   return new Set(text.toLowerCase().match(/[a-z0-9]+/g) ?? [])
 }
 
+/**
+ * スタイルガイドの「絶対に使わない表現」の表から、使ってはいけない語を取り出す。
+ * 「多用」が問題の語は1回使うだけなら構わないので除く
+ */
+export function bannedWords(styleGuide: string): string[] {
+  const section = styleGuide.split('### 絶対に使わない表現')[1]?.split(/^### /m)[0] ?? ''
+  return section
+    .split('\n')
+    .filter((row) => row.startsWith('| 「'))
+    .map((row) => row.split('|')[1])
+    .filter((cell) => !cell.includes('多用'))
+    .flatMap((cell) => [...cell.matchAll(/「([^」]+)」/g)].map((m) => m[1].replace(/^〜/, '')))
+}
+
+export function findBanned(script: Script, words: string[]): { segmentId: string; word: string; text: string }[] {
+  return script.segments.flatMap((s) =>
+    s.lines.flatMap((l) => words.filter((w) => l.text.includes(w)).map((word) => ({ segmentId: s.id, word, text: l.text })))
+  )
+}
+
 /** 記事セグメント（a01, a02, ...）を順にハイライトの記事と対応させ、台本に出てこない名前を挙げる */
 export function checkScript(script: Script, articles: Article[]): SegmentFinding[] {
   const segments = script.segments.filter((s) => /^a\d+$/.test(s.id))

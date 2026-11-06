@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { checkScript, parseHighlights, techTokens } from '../src/podcast/check'
+import { bannedWords, checkScript, findBanned, parseHighlights, techTokens } from '../src/podcast/check'
 import type { Script } from '../src/podcast/schema'
 
 const NEWSLETTER = `# ニュースレター
@@ -80,5 +80,35 @@ describe('checkScript', () => {
     )
     expect(first.missingTech).toEqual([])
     expect(first.missingNames).toEqual([])
+  })
+})
+
+describe('bannedWords / findBanned', () => {
+  const GUIDE = `## 5. NGワード・禁止表現
+
+### 絶対に使わない表現
+
+| NGワード | 理由 | 代替表現 |
+|----------|------|----------|
+| 「革命的」「画期的」 | 大げさ | 「新しいアプローチ」 |
+| 「いわゆる」の多用 | 冗長 | 必要なときのみ使用 |
+| 「〜すべき」 | 押しつけがましい | 「〜するとよい」 |
+| 「版」（「新しい版」「ベータ版」など） | 硬い | 「バージョン」 |
+
+### 避けなければいけない表現
+
+| 「〜することができます」 | 冗長 | 「〜できます」 |
+`
+
+  it('「絶対に使わない表現」の表から、多用が問題の語を除いて取り出す', () => {
+    expect(bannedWords(GUIDE)).toEqual(['革命的', '画期的', 'すべき', '版', '新しい版', 'ベータ版'])
+  })
+
+  it('台本の中の禁止語を、セグメントと行ごとに挙げる', () => {
+    const found = findBanned(scriptWith('Safari のベータ版に入りました。'), bannedWords(GUIDE))
+    expect(found.map((f) => [f.segmentId, f.word])).toEqual([
+      ['a01', '版'],
+      ['a01', 'ベータ版'],
+    ])
   })
 })
