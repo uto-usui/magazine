@@ -1,0 +1,59 @@
+articles_dir=2026-11-06
+exit_code=0
+timestamp_utc=2026-11-06T05:38:59Z
+
+---- issue lines ----
+9:❌ Playwright failed for Mercari Engineering: HTTP 403
+10:Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+
+---- tail (last 50 lines) ----
+✅ Playwright successfully fetched: https://the-brandidentity.com/typeface/superior-types-heaven-is-a-sans-serif-built-on-oversized-round-shapes
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-06/a-sans-serif-built-on-oversized-round-shapes.md
+📥 Processing: Tokenizer Mono
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-06/tokenizer-mono.md
+📥 Processing: Attention is all you need
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-06/attention-is-all-you-need.md
+📥 Processing: A-Frame
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-06/a-frame.md
+📥 Processing: Great but painful
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://www.lesswrong.com/posts/KThSe2vPZw4zn7f8W/great-but-painful
+✅ Playwright successfully fetched: https://www.lesswrong.com/posts/KThSe2vPZw4zn7f8W/great-but-painful
+⚠️ Content too short (88 chars < 200): https://www.lesswrong.com/posts/KThSe2vPZw4zn7f8W/great-but-painful
+⚠️ Using RSS content as fallback for: https://www.lesswrong.com/posts/KThSe2vPZw4zn7f8W/great-but-painful
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-06/great-but-painful.md
+📥 Processing: Mean
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-06/mean.md
+📥 Processing: Designing a skill
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-06/designing-a-skill.md
+📥 Processing: Nubank: Rebrand
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-06/nubank-rebrand.md
+📥 Processing: Digital minimalism
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-06/digital-minimalism.md
+📥 Processing: Scaling Slack and GitHub with Maude Lemaire
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-06/scaling-slack-and-github-with-maude-lemaire.md
+📥 Processing: Making Immersive LLM Chat Experiences More Accessible
+Image too large, skipping: https://files.smashing.media/articles/making-immersive-llm-chat-experiences-more-accessible/loading-no-text-live-message.webp
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-06/making-immersive-llm-chat-experiences-more-accessible.md
+📥 Processing: Taming Typography: Building a Modern CSS Reset
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-06/taming-typography-building-a-modern-css-reset.md
+📥 Processing: Beyond the viewport: Introducing Site Seeing
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-06/beyond-the-viewport-introducing-site-seeing.md
+📥 Processing: Introducing Vercel Schedules
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-06/introducing-vercel-schedules.md
+📥 Processing: Analyze your Stripe data directly with your agent 
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-06/analyze-your-stripe-data-directly-with-your-agent.md
+📥 Processing: Stand-Up Tech Talk: エコシステム三部作
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-06/stand-up-tech-talk.md
+📥 Processing: eMudhra のインシデントは Web にとって何を意味するのか
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-06/emudhra-web.md
+📥 Processing: example.com が刷新された話
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-06/examplecom.md
+📥 Processing: DESIGN.md が古いと AI は「正確に間違える」— 同じ課題を 6 回やらせて採点した
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-06/designmd-ai-6.md
+📥 Processing: Knowledge Catalog で AI エージェントに社内の知識を渡す基盤づくり – ミッション型インターン体験記
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-06/knowledge-catalog-ai.md
+
+📊 Summary:
+   ✅ Success: 22
+   ❌ Errors: 0
+🏁 Done!
