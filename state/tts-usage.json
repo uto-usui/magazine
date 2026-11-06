@@ -318,6 +318,28 @@
       "outputTokens": 403,
       "audioSec": 16.1,
       "usd": 0.002445
+    },
+    {
+      "at": "2026-11-06T13:40:01.644Z",
+      "date": "2026-11-06",
+      "episode": "2026-11-05-145838",
+      "segment": "ending",
+      "model": "gemini-3.8-flash-lite-tts",
+      "inputTokens": 54,
+      "outputTokens": 412,
+      "audioSec": 16.5,
+      "usd": 0.002499
+    },
+    {
+      "at": "2026-11-06T13:40:18.759Z",
+      "date": "2026-11-06",
+      "episode": "2026-11-05-145838",
+      "segment": "ending",
+      "model": "gemini-3.8-flash-lite-tts",
+      "inputTokens": 54,
+      "outputTokens": 364,
+      "audioSec": 14.6,
+      "usd": 0.002211
     }
   ]
 }
