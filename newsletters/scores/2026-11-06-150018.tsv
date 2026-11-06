@@ -1,0 +1,23 @@
+url	feed	lang	A	B	C	D	total	selected	note
+https://zenn.dev/hakaru_design/articles/b934c2a1a54ae6	Zenn designsystem	ja	2	2	2	2	8	yes	6回の観察だが、採点項目を先に固定した比較と実測値、限界の明記があるのでC=2。前号のDESIGN.md検証記事とは著者も実験も別なので重複にしない
+https://smashingmagazine.com/2026/11/making-immersive-llm-chat-experiences-more-accessible/	Smashing Magazine	en	2	2	2	2	8	yes	複数の製品での改善経験と包括的なユーザー調査にもとづくのでC=2
+https://uxdesign.cc/your-ai-is-non-deterministic-but-your-product-cant-be-3ec2a0cf870c	Sidebar	en	2	2	1	1	6	yes	事例は公開情報にもとづき検証はしていないと断りがあるのでC=1。境界の考え方は既知の話に近いのでD=1
+https://george.mand.is/2026/11/the-tokenizer-font/	Sidebar	en	1	1	2	2	6	yes	フォント技術としては深いが、読者の仕事への持ち帰りは間接的なのでB=1
+https://ishadeed.com/article/beyond-the-viewport/	Ahmad Shadeed	en	2	1	1	1	5	yes	ツール紹介が中心で本文は短いが、ビューポート幅以外の閲覧状況という視点があるので採点に回した
+https://iamnoman.com/writing/designing-a-skill	Sidebar	en	1	2	1	1	5	yes	スキルの使い手を人とエージェントの2者として見る視点でB=2。出力のUI設計にも触れるのでA=2と迷ったので低いほう
+https://css-tricks.com/taming-typography-modern-css-reset/	css-tricks	en	1	2	1	1	5	yes	新しいプロパティを含むが、既存の機能をまとめた記事なのでD=1
+https://the-brandidentity.com/typeface/superior-types-heaven-is-a-sans-serif-built-on-oversized-round-shapes	Sidebar	en	1	0	1	1	3	yes	書体の紹介。字形の考え方はあるが、読者が使えるものは少ない
+https://koto.com/projects/nubank	Sidebar	en	1	0	1	1	3	yes	制作会社の事例紹介。設計の理由はあるが抽象的
+https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/	GitHub Engineering	en	0	2	2	2	6	no	Gitのストレージ設計でバックエンドの話なのでA=0
+https://longnow.org/ideas/attention-ai-pace-layers/	Sidebar	en	0	1	1	2	4	no	AIと社会の変化の速さについてのエッセイ。読者の仕事との接点がない
+https://blog.jxck.io/entries/2026-10-25/emudhra.html	blog.jxck.io	ja	0	1	1	2	4	no	PKIと認証局の運用の話でA=0。Electronアプリが証明書ストアを同梱している点はアプリ開発者にも関係する
+https://developers.cyberagent.co.jp/blog/archives/67259/	CyberAgent Developers Blog	ja	0	2	1	1	4	no	データ基盤とIAMの設計が中心でA=0。分離の境界は検索クエリではなくIAMと検索範囲の固定で作る、という知見はある
+https://newsletter.pragmaticengineer.com/p/scaling-slack-and-github-with-maude	The Pragmatic Engineer	en	0	1	2	1	4	no	ポッドキャストの要約。中心はインフラのスケーリング
+https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html	Sidebar	en	0	1	1	1	3	no	個人のデジタル習慣についてのエッセイ
+https://blog.jxck.io/entries/2026-10-17/example.com.html	blog.jxck.io	ja	0	1	1	1	3	no	example.comの刷新についての随筆。ネットワークと開発環境の話でA=0
+https://aframe.io/	Sidebar	en	-	-	-	-	-	no	足切り: 本文が取れていない（トップページのみ）
+https://www.lesswrong.com/posts/KThSe2vPZw4zn7f8W/great-but-painful	Sidebar	en	-	-	-	-	-	no	足切り: 本文が取れていない
+https://stripe.com/blog/analyze-your-stripe-data-directly-with-your-agent	Stripe Blog	en	-	-	-	-	-	no	足切り: 製品の機能紹介
+https://vercel.com/blog/introducing-vercel-schedules	Vercel	en	-	-	-	-	-	no	足切り: 新機能の紹介
+https://mean.app/	Sidebar	en	-	-	-	-	-	no	足切り: 製品の紹介ページ（FAQのみ）
+https://blog.jxck.io/entries/2026-11-04/stand-up-tech-talk.html	blog.jxck.io	ja	-	-	-	-	-	no	足切り: 登壇の公開告知で本文が短い
