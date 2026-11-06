@@ -1,10 +1,10 @@
 import { createHash } from 'node:crypto'
-import { access, mkdir, writeFile } from 'node:fs/promises'
+import { access, mkdir, rename, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import { buildEpisodeMp3, durationSec, joinWavChunks } from './audio'
 import { costUsd, estimate, jstDate, preflight, scriptChars, summarizeMonth, yen } from './budget'
 import type { PodcastConfig, Script } from './schema'
-import { appendLedger, loadLedger } from './store'
+import { acquireLock, appendLedger, loadLedger } from './store'
 import { synthesizeSegment, TtsHttpError } from './tts'
 
 export const AUDIO_DIR = join(process.cwd(), 'podcasts', 'audio')
@@ -28,7 +28,7 @@ export type GenerateResult =
   | { status: 'done'; mp3: string; audioSec: number; usd: number }
 
 export async function generateEpisode(opts: GenerateOptions): Promise<GenerateResult> {
-  const { config, script, apiKey } = opts
+  const { config, script } = opts
   const now = opts.now ?? (() => new Date())
   const log = opts.log ?? console.log
   const mp3 = join(AUDIO_DIR, `${script.episode}.mp3`)
@@ -47,11 +47,31 @@ export async function generateEpisode(opts: GenerateOptions): Promise<GenerateRe
       ` / 今月 ${yen(before.jpy)} / 予算 ${yen(config.budget.monthlyJpy)}`
   )
 
-  const problems = preflight({ config, ledger: await loadLedger(), script, now: now() })
   if (opts.dryRun) {
+    const problems = preflight({ config, ledger: await loadLedger(), script, now: now() })
     for (const p of problems) log(`NG: ${p}`)
     return { status: 'dry-run', problems }
   }
+
+  // 定期実行と手動実行が重なると、同じ残額を見て両方が生成してしまう。判定から記録までを1本ずつにする
+  await mkdir(AUDIO_DIR, { recursive: true })
+  const release = await acquireLock(join(AUDIO_DIR, '.lock'))
+  if (!release) return { status: 'refused', problems: ['別の音声の生成が動いています。終わってから実行してください'] }
+  try {
+    return await generateLocked(opts, mp3, now, log)
+  } finally {
+    await release()
+  }
+}
+
+async function generateLocked(
+  opts: GenerateOptions,
+  mp3: string,
+  now: () => Date,
+  log: (msg: string) => void
+): Promise<GenerateResult> {
+  const { config, script, apiKey } = opts
+  const problems = preflight({ config, ledger: await loadLedger(), script, now: now() })
   if (problems.length > 0) return { status: 'refused', problems }
 
   const workDir = join(AUDIO_DIR, script.episode)
@@ -82,25 +102,37 @@ export async function generateEpisode(opts: GenerateOptions): Promise<GenerateRe
     }
 
     const result = await withRetry(() => synthesizeSegment(config, segment, apiKey), log)
-    await joinWavChunks(result.wavChunks, workDir, wav)
-    const audioSec = await durationSec(wav)
-    // usage が返らなかったときは、音声の長さから出力トークンを計算して記録する
-    const tokens = {
-      inputTokens: result.inputTokens || segChars,
-      outputTokens: result.outputTokens || Math.ceil(audioSec * config.speech.audioTokensPerSecond),
+    const record = async (tokens: { inputTokens: number; outputTokens: number }, audioSec: number) => {
+      const usd = costUsd(config, date, tokens)
+      spentUsd += usd
+      await appendLedger({
+        at: now().toISOString(),
+        date,
+        episode: script.episode,
+        segment: segment.id,
+        model: config.model,
+        ...tokens,
+        audioSec: Math.round(audioSec * 10) / 10,
+        usd,
+      })
+      return usd
     }
-    const usd = costUsd(config, date, tokens)
-    spentUsd += usd
-    await appendLedger({
-      at: now().toISOString(),
-      date,
-      episode: script.episode,
-      segment: segment.id,
-      model: config.model,
-      ...tokens,
-      audioSec: Math.round(audioSec * 10) / 10,
-      usd,
-    })
+
+    // 払った分を、音声の保存より先に記録する。保存で落ちても記録は残り、作り直した分も数えられる
+    const aps = config.speech.audioTokensPerSecond
+    let usd: number | null = null
+    if (result.outputTokens > 0) {
+      usd = await record({ inputTokens: result.inputTokens || segChars, outputTokens: result.outputTokens }, result.outputTokens / aps)
+    }
+    // .part に書いてから名前を変える。キャッシュとして使うのは、記録まで終わったセグメントだけにする
+    const part = wav.replace(/\.wav$/, '.part.wav') // ffmpeg は拡張子で出力形式を決めるので .wav で終える
+    await joinWavChunks(result.wavChunks, workDir, part)
+    const audioSec = await durationSec(part)
+    if (usd === null) {
+      // usage が返らなかったときは、音声の長さから出力トークンを出す（料金は 1 秒 = 25 トークンで決まる）
+      usd = await record({ inputTokens: segChars, outputTokens: Math.ceil(audioSec * aps) }, audioSec)
+    }
+    await rename(part, wav)
     log(`  [${i + 1}/${script.segments.length}] ${segment.title} ${audioSec.toFixed(0)}秒 ${yen(usd * config.budget.usdJpy)}`)
   }
 
