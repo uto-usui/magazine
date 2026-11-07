@@ -6,6 +6,7 @@ import { chromium } from 'playwright'
 import { AUDIO_DIR } from './podcast/index'
 import { TimelineSchema } from './podcast/schema'
 import { issueNumber } from './podcast/cover'
+import { releaseTag } from './podcast/release'
 import { loadPodcastConfig, loadScript, loadTrackedEpisodes } from './podcast/store'
 import { buildClipUrl, clipAction, estimateMb, planProblems, postText, probe, renderClip, selectTargets, validateProbe } from './podcast/video'
 
@@ -60,10 +61,10 @@ async function main() {
 
   const mp3 = join(AUDIO_DIR, `${episode}.mp3`)
   if (!(await exists(mp3))) {
-    console.log(`${rel(mp3)} がないので Release から取ってきます`)
+    console.log(`${rel(mp3)} がないので号の Release から取ってきます`)
     // gh は GITHUB_TOKEN を gh auth login のアカウントより優先する。シェルの gh 関数と同じく外して、ログイン中のアカウントで取る
     const { GITHUB_TOKEN: _, ...env } = process.env
-    await promisify(execFile)('gh', ['release', 'download', 'podcast', '-p', `${episode}.mp3`, '-D', AUDIO_DIR], { env })
+    await promisify(execFile)('gh', ['release', 'download', releaseTag(episode), '-p', `${episode}.mp3`, '-D', AUDIO_DIR], { env })
   }
 
   const sourcesMtimeMs = [(await stat(mp3)).mtimeMs, (await stat(timelinePath)).mtimeMs]
