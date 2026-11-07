@@ -42,8 +42,7 @@ async function main() {
   const clips = args.includes('--clips')
   const segments = selectTargets(timeline, { only, clips })
   if (clips && !only && segments.length === 1) {
-    console.error(`${rel(timelinePath)} に記事のセグメント（a01, a02, ...）がありません`)
-    process.exit(1)
+    console.warn(`${rel(timelinePath)} に記事のセグメント（a01, a02, ...）がないので、全編だけ作ります`)
   }
 
   for (const s of segments) {

@@ -37,6 +37,7 @@ export function articleSegments(timeline: Timeline, only?: string[]): TimelineSe
 
 /** 号の全編。タイムラインの最後のセグメントの終わりが MP3 の長さになる */
 export function fullSegment(timeline: Timeline): TimelineSegment {
+  if (timeline.segments.length === 0) throw new Error('タイムラインにセグメントがないので、全編の長さが分かりません')
   const end = Math.max(...timeline.segments.map((s) => s.start + s.duration))
   return { id: FULL_ID, title: '全編', start: 0, duration: end }
 }
@@ -48,7 +49,9 @@ export function fullSegment(timeline: Timeline): TimelineSegment {
 export function selectTargets(timeline: Timeline, opts: { only?: string[]; clips?: boolean }): TimelineSegment[] {
   const full = fullSegment(timeline)
   if (opts.only && opts.only.length > 0) {
-    const articles = articleSegments(timeline, opts.only.filter((id) => id !== FULL_ID))
+    // articleSegments は空の only を「絞らない」と読むので、記事の id がないときは呼ばない
+    const ids = [...new Set(opts.only.filter((id) => id !== FULL_ID))]
+    const articles = ids.length > 0 ? articleSegments(timeline, ids) : []
     return opts.only.includes(FULL_ID) ? [full, ...articles] : articles
   }
   return opts.clips ? [full, ...articleSegments(timeline)] : [full]

@@ -70,6 +70,20 @@ describe('fullSegment / selectTargets', () => {
     expect(selectTargets(timeline, { only: ['full', 'a01'] }).map((s) => s.id)).toEqual(['full', 'a01'])
     expect(() => selectTargets(timeline, { only: ['a09'] })).toThrow('a09')
   })
+
+  it('only が full だけなら記事のクリップは作らない（重ねて書いても1本）', () => {
+    expect(selectTargets(timeline, { only: ['full'] }).map((s) => s.id)).toEqual(['full'])
+    expect(selectTargets(timeline, { only: ['full', 'full'] }).map((s) => s.id)).toEqual(['full'])
+  })
+
+  it('記事のない号で clips を付けても全編は作る', () => {
+    const noArticles = { ...timeline, segments: timeline.segments.filter((s) => !/^a\d+$/.test(s.id)) }
+    expect(selectTargets(noArticles, { clips: true }).map((s) => s.id)).toEqual(['full'])
+  })
+
+  it('セグメントのないタイムラインはエラーにする', () => {
+    expect(() => fullSegment({ ...timeline, segments: [] })).toThrow('全編の長さ')
+  })
 })
 
 describe('planProblems', () => {
