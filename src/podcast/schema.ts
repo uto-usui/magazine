@@ -61,6 +61,8 @@ export const ScriptSchema = z.object({
       z.object({
         id: z.string().regex(/^[a-z0-9-]+$/),
         title: z.string().min(1),
+        // 記事のセグメントが紹介している元記事。Show Notes で、ニュースレターの記事との対応を確かめるのに使う
+        url: z.url().optional(),
         lines: z
           .array(z.object({ speaker: z.enum(['A', 'B']), text: z.string().min(1) }))
           .min(1),

@@ -78,6 +78,12 @@ describe('buildShowNotes', () => {
     )
   })
 
+  it('台本の url があれば、順番で対応させた記事と同じかを確かめる', () => {
+    const base = { title: 't', timeline, articles: newsletterArticles(newsletter), newsletterUrl: 'u' }
+    expect(() => buildShowNotes({ ...base, scriptUrls: { a01: 'https://zenn.dev/a', a02: 'https://george.mand.is/b' } })).not.toThrow()
+    expect(() => buildShowNotes({ ...base, scriptUrls: { a01: 'https://george.mand.is/b' } })).toThrow('a01')
+  })
+
   it('記事の本数がタイムラインと合わなければ、推測でつながずにエラーにする', () => {
     const one = newsletterArticles(newsletter).slice(0, 1)
     expect(() => buildShowNotes({ title: 't', timeline, articles: one, newsletterUrl: 'u' })).toThrow('数が合いません')

@@ -21,7 +21,13 @@ export function shouldBeLatest(episode: string, existingEpisodes: string[]): boo
   return existingEpisodes.every((e) => e <= episode)
 }
 
-/** 同じ名前で同じ大きさのファイルがもう上がっていれば、上げ直さない（MP4 は 1 本 300MB を超える） */
-export function needsUpload(local: { name: string; size: number }, assets: Array<{ name: string; size: number }>): boolean {
-  return !assets.some((a) => a.name === local.name && a.size === local.size)
+/**
+ * 同じ名前で同じ中身のファイルがもう上がっていれば、上げ直さない（MP4 は 1 本 300MB を超える）。
+ * 中身は GitHub が返す sha256 で比べる。大きさが同じでも、作り直した MP3 は上げ直す
+ */
+export function needsUpload(
+  local: { name: string; sha256: string },
+  assets: Array<{ name: string; digest?: string | null }>
+): boolean {
+  return !assets.some((a) => a.name === local.name && a.digest === `sha256:${local.sha256}`)
 }

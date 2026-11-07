@@ -23,6 +23,11 @@ export async function loadScript(path: string): Promise<Script> {
   return ScriptSchema.parse(JSON.parse(await readFile(path, 'utf-8')))
 }
 
+/** 台本のセグメントに書いた元記事の URL（id → URL） */
+export function scriptUrlsOf(script: Script): Record<string, string | undefined> {
+  return Object.fromEntries(script.segments.map((s) => [s.id, s.url]))
+}
+
 /**
  * git で管理しているニュースレターの号（通し番号を数えるもと）。
  * 手元に未追跡のニュースレターがあっても番号がずれないように、git に入っているものだけで数える

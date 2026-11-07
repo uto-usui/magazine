@@ -17,14 +17,18 @@ describe('shouldBeLatest', () => {
 })
 
 describe('needsUpload', () => {
-  const assets = [{ name: '2026-11-06-150018.mp3', size: 100 }]
+  const assets = [{ name: '2026-11-06-150018.mp3', digest: 'sha256:aaa' }]
 
-  it('同じ名前で同じ大きさのものが上がっていれば上げない', () => {
-    expect(needsUpload({ name: '2026-11-06-150018.mp3', size: 100 }, assets)).toBe(false)
+  it('同じ名前で同じ中身のものが上がっていれば上げない', () => {
+    expect(needsUpload({ name: '2026-11-06-150018.mp3', sha256: 'aaa' }, assets)).toBe(false)
   })
 
-  it('ないか、大きさが違えば上げる', () => {
-    expect(needsUpload({ name: '2026-11-06-150018.mp4', size: 100 }, assets)).toBe(true)
-    expect(needsUpload({ name: '2026-11-06-150018.mp3', size: 101 }, assets)).toBe(true)
+  it('ないか、中身が違えば（大きさが同じでも）上げる', () => {
+    expect(needsUpload({ name: '2026-11-06-150018.mp4', sha256: 'aaa' }, assets)).toBe(true)
+    expect(needsUpload({ name: '2026-11-06-150018.mp3', sha256: 'bbb' }, assets)).toBe(true)
+  })
+
+  it('GitHub がハッシュを返さないファイルは上げ直す', () => {
+    expect(needsUpload({ name: '2026-11-06-150018.mp3', sha256: 'aaa' }, [{ name: '2026-11-06-150018.mp3', digest: null }])).toBe(true)
   })
 })

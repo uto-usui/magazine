@@ -40,12 +40,26 @@ export function chapterTime(sec: number): string {
 
 /**
  * 号の Show Notes（Markdown）。チャプターの時刻・話題・元記事のリンクと、ニュースレターへのリンク。
- * 記事の本数がタイムラインと合わないときは、どれがどれか分からないので推測でつながずにエラーにする
+ * 記事の本数がタイムラインと合わないときや、台本の url と違うときは、推測でつながずにエラーにする
  */
-export function buildShowNotes(opts: { title: string; timeline: Timeline; articles: NewsletterArticle[]; newsletterUrl: string }): string {
+export function buildShowNotes(opts: {
+  title: string
+  timeline: Timeline
+  articles: NewsletterArticle[]
+  newsletterUrl: string
+  /** 台本の記事のセグメントに書いた元記事の URL（id → URL）。あれば、順番で対応させた記事と同じかを確かめる */
+  scriptUrls?: Record<string, string | undefined>
+}): string {
   const segments = articleSegments(opts.timeline)
   if (segments.length !== opts.articles.length) {
     throw new Error(`タイムラインの記事は ${segments.length} 本、ニュースレターの詳細掲載の記事は ${opts.articles.length} 本で、数が合いません`)
+  }
+  const mismatched = segments.filter((s, i) => {
+    const url = opts.scriptUrls?.[s.id]
+    return url !== undefined && url !== opts.articles[i]!.url
+  })
+  if (mismatched.length > 0) {
+    throw new Error(`台本の ${mismatched.map((s) => s.id).join(', ')} の url が、ニュースレターの同じ順番の記事と違います。記事の順番がずれています`)
   }
   const lines = [`${opts.title}の音声版です。`, '']
   for (const s of opts.timeline.segments) {
@@ -70,6 +84,7 @@ export async function ensureShowNotes(opts: {
   title: string
   timeline: Timeline
   repoUrl: string
+  scriptUrls?: Record<string, string | undefined>
   force?: boolean
 }): Promise<{ path: string; text: string; created: boolean }> {
   const path = join(SHOWNOTES_DIR, `${opts.episode}.md`)
@@ -83,6 +98,7 @@ export async function ensureShowNotes(opts: {
     timeline: opts.timeline,
     articles: newsletterArticles(markdown),
     newsletterUrl: `${opts.repoUrl}/blob/master/newsletters/${opts.episode}.md`,
+    scriptUrls: opts.scriptUrls,
   })
   await mkdir(SHOWNOTES_DIR, { recursive: true })
   await writeFile(path, text)
