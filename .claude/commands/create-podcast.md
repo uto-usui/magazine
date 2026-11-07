@@ -1,6 +1,6 @@
 ---
 allowed-tools: [Read, Write, Glob, Bash, Agent]
-description: ニュースレターから15分の音声バージョン（会話台本 → Gemini TTS → MP3）を作る
+description: ニュースレターから15分の音声バージョン（会話台本 → Gemini TTS → MP3）と、記事ごとの X 投稿用 MP4 を作る
 ---
 
 # 音声バージョンの作成
@@ -26,7 +26,7 @@ EPISODE=$(basename "$NEWSLETTER" .md)
 SCRIPT="podcasts/scripts/${EPISODE}.json"
 ```
 
-`podcasts/audio/${EPISODE}.mp3` がすでにあれば、台本と生成は飛ばして手順7だけ行う（Release に MP3 がもうあれば、カバー画像だけ作って終える）。
+`podcasts/audio/${EPISODE}.mp3` がすでにあれば、台本と生成は飛ばして手順7から行う（Release に MP3 がもうあれば、Release へのアップロードは飛ばして、カバー画像と手順8の動画を作る）。
 
 ## 2. 台本を書く
 
@@ -89,7 +89,7 @@ pnpm run podcast:check "$SCRIPT"
 3. **正しさ**: 3行まとめや詳細解説と食い違う内容、言いすぎがないか
 4. **読み**: 耳で聞いて読めるか（記号、URL、カラーコード、読みが分かれる漢字、1文字ずつ読まれる名前が残っていないか）
 
-直したら `pnpm run podcast:check` をもう一度実行する。直した箇所と、足さないと決めた名前は手順8の報告に書く。
+直したら `pnpm run podcast:check` をもう一度実行する。直した箇所と、足さないと決めた名前は手順9の報告に書く。
 
 ## 4. 日本語を見直す
 
@@ -116,7 +116,7 @@ python3 -I -c "import json,sys; d=json.load(open(sys.argv[1])); [print(f\"[{s['i
 出力: 1件ずつ「[セグメントid] 元の文の該当部分 → 言い換え案（なぜ不自然か）」の形で。言い換え案は、技術名と意味を変えないこと。不自然なところがなければ「なし」とだけ書く。
 ```
 
-返ってきた候補は、1つずつ読んで判断する。もっともだと思うものは直し、技術名が消える・意味が変わる言い換えは採らない。直したら `pnpm run podcast:check` をもう一度実行する。直した箇所は手順8の報告に書く。
+返ってきた候補は、1つずつ読んで判断する。もっともだと思うものは直し、技術名が消える・意味が変わる言い換えは採らない。直したら `pnpm run podcast:check` をもう一度実行する。直した箇所は手順9の報告に書く。
 
 ## 5. 字数と予算を確かめる
 
@@ -150,11 +150,25 @@ MP3 はリポジトリに入れず、GitHub の Release `podcast` に置く。�
 gh release upload podcast "podcasts/audio/${EPISODE}.mp3" --clobber
 ```
 
-## 8. 報告
+## 8. 記事ごとの動画を作る
+
+X には音声だけでは投稿できないので、記事のセグメントごとに MP4 を作る。エンコードは reel の talk-lab（`config/podcast.yml` の `video.appUrl`）がブラウザの中で行い、このコマンドはヘッドレスブラウザで MP3 を渡して書き出された MP4 を受け取る。
+
+```bash
+pnpm run podcast:video "$SCRIPT"
+```
+
+- `podcasts/video/${EPISODE}/a01.mp4` のように記事ごとに書き出す。h264 + aac か、長さがタイムラインと 0.2 秒以内で合うか、X の上限（140 秒・512 MB）に収まるかを ffprobe で確かめ、外れたら止まる
+- 作り終えた MP4 は飛ばすので、途中で止まっても同じコマンドで続きから作れる。1本だけ作り直すなら `--only a03`
+- タイムライン（`podcasts/audio/${EPISODE}.timeline.json`）は `pnpm run podcast` で MP3 を作ったときにだけ書き出される。ない場合は動画を作らずに、そのことを報告する
+- 動画は git にも Release にも入れない。X への投稿は手で行う
+
+## 9. 報告
 
 - MP3 の長さと公開 URL（`https://github.com/uto-usui/magazine/releases/download/podcast/${EPISODE}.mp3`）と、カバー画像のパス（`podcasts/audio/${EPISODE}.jpg`）
+- 動画の本数と、1本ずつのパス・長さ・大きさ（`pnpm run podcast:video` の最後に出る一覧）
 - この回の料金と、今月の使用額（`pnpm run podcast:usage` の出力）
 - 手順3のチェックで直した箇所と、足さないと決めた名前
 - 手順4で直した日本語（元の文 → 直した文）
 
-コミットはしない。台本（`podcasts/scripts/`）と使用量の記録（`state/tts-usage.json`）はコミット対象、MP3 は `.gitignore` 済み。
+コミットはしない。台本（`podcasts/scripts/`）と使用量の記録（`state/tts-usage.json`）はコミット対象、MP3 と MP4 は `.gitignore` 済み。

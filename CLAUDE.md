@@ -25,6 +25,7 @@ pnpm run podcast <script> [--dry-run]  # 台本から MP3 を作る（予算を�
 pnpm run podcast:usage           # 今月の TTS 使用額
 pnpm run podcast:check <script>  # 3行まとめの技術名・固有名が台本から抜けていないか
 pnpm run podcast:cover <script>  # 号ごとのカバー画像（手元の podcasts/audio/ に書き出す）
+pnpm run podcast:video <script> [--app <url>] [--only a01,a03] [--dry-run]  # 記事ごとの MP4（X 投稿用、手元の podcasts/video/ に書き出す）
 ```
 
 ## ディレクトリ構成
@@ -64,7 +65,7 @@ config/
 ├── feeds.yml                 # フィード定義 (enabled: true/false/'local' で制御)
 ├── categories.yml            # カテゴリマスター
 ├── recipients.yml            # メール受信者設定
-└── podcast.yml               # TTS のモデル・声・月の予算・料金表
+└── podcast.yml               # TTS のモデル・声・月の予算・料金表、MP4 を作る talk-lab の設定
 
 state/
 ├── processed.json            # 処理済み記事のID・ハッシュ (重複排除用、gitで管理)
@@ -72,7 +73,8 @@ state/
 
 podcasts/
 ├── scripts/                  # 音声バージョンの会話台本
-└── audio/                    # MP3（git に入れず、GitHub Release `podcast` に置く）
+├── audio/                    # MP3（git に入れず、GitHub Release `podcast` に置く）
+└── video/                    # 記事ごとの MP4（X 投稿用。git にも Release にも入れない）
 
 articles/
 └── YYYY-MM-DD/               # 取得日ごとのディレクトリ
@@ -342,4 +344,4 @@ RESEND_API_KEY=re_xxxxxxxx
 
 - `/create-newsletter` - ニュースレター作成
 - `/send-newsletter <file>` - メール送信
-- `/create-podcast [file]` - 音声バージョン（MP3）作成
+- `/create-podcast [file]` - 音声バージョン（MP3）と記事ごとの MP4 の作成
