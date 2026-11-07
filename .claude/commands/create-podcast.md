@@ -167,7 +167,9 @@ MP3 と全編の MP4 はリポジトリに入れず、号ごとの GitHub Releas
 pnpm run podcast:release "$SCRIPT"
 ```
 
-- Release の題は投稿用のタイトル（「UXエンジニアリング・マガジン 11月6日号（No.151）」の形）、本文は記事の話題の一覧とニュースレターへのリンクになる
+- Release の題は投稿用のタイトル（「UXエンジニアリング・マガジン 11月6日号（No.151）」の形）、本文は Show Notes（`podcasts/shownotes/${EPISODE}.md`）になる
+- Show Notes は、チャプターの時刻（0:00 から。YouTube の説明欄に貼ってもチャプターになる）・話題・元記事の題と出典と URL、ニュースレターへのリンク。なければこのコマンドが作る。中身を先に見る・直すなら `pnpm run podcast:shownotes "$SCRIPT"` で作ってから手で直す（すでにあるファイルは上書きしないので、直した内容が Release の本文になる。作り直すなら `--force`）
+- 台本の記事の本数とニュースレターの詳細掲載の記事の本数が合わないと、どれがどれか分からないので Show Notes を作らずに止まる
 - タグは、その号の台本が入ったコミットに付ける。台本がまだ GitHub になければ master の先頭に付ける
 - いちばん新しい号のときだけ Latest にする。古い号を作り直しても Latest は動かない
 - もう Release があれば題と本文をそろえ、大きさが変わったファイルだけ上げ直す
@@ -182,4 +184,4 @@ pnpm run podcast:release "$SCRIPT"
 - 手順3のチェックで直した箇所と、足さないと決めた名前
 - 手順4で直した日本語（元の文 → 直した文）
 
-コミットはしない。台本（`podcasts/scripts/`）と使用量の記録（`state/tts-usage.json`）はコミット対象、MP3 と MP4 は `.gitignore` 済み。
+コミットはしない。台本（`podcasts/scripts/`）と Show Notes（`podcasts/shownotes/`）と使用量の記録（`state/tts-usage.json`）はコミット対象、MP3 と MP4 は `.gitignore` 済み。
