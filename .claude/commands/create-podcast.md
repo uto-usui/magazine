@@ -5,7 +5,9 @@ description: ニュースレターから15分の音声バージョン（会話�
 
 # 音声バージョンの作成
 
-**引数**: $ARGUMENTS（オプション: ニュースレターのファイル。省略時は `newsletters/` の最新）
+**引数**: $ARGUMENTS（オプション: ニュースレターのファイル。省略時は `newsletters/` の最新。`--content-only` を付けると手順8と9を飛ばす）
+
+`--content-only` は、ニュースレターの配信のあとに自動で動く `scripts/create-podcast.sh` が付ける。動画・Show Notes・Release は、台本をコミットして push したあとにこのスクリプトが行う（タグを台本のコミットに付けるため）。
 
 ## この番組について
 
@@ -21,7 +23,8 @@ CSS のプロパティ名や製品名などの技術名は、英字のまま読�
 ## 1. 対象を決める
 
 ```bash
-NEWSLETTER=${ARGUMENTS:-$(ls newsletters/[0-9]*.md | sort | tail -1)}
+NEWSLETTER=$(echo "$ARGUMENTS" | tr ' ' '\n' | grep -v '^--' | head -1)
+NEWSLETTER=${NEWSLETTER:-$(ls newsletters/[0-9]*.md | sort | tail -1)}
 EPISODE=$(basename "$NEWSLETTER" .md)
 SCRIPT="podcasts/scripts/${EPISODE}.json"
 ```
@@ -145,6 +148,8 @@ pnpm run podcast:cover "$SCRIPT"
 カバー画像はスタイルを試している途中なので、手元（`podcasts/audio/`）に置くだけにして、Release には上げない。
 
 ## 8. 動画を作る
+
+`--content-only` のときは、手順8と9を飛ばして手順10の報告に進む（動画と Release の行は書かない）。
 
 X には音声だけでは投稿できないので、全編を1本の MP4 にする。エンコードは reel の talk-lab（`config/podcast.yml` の `video.appUrl`）がブラウザの中で行い、このコマンドはヘッドレスブラウザで MP3 を渡して書き出された MP4 を受け取る。
 

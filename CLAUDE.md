@@ -240,6 +240,15 @@ feeds:
 - **手動実行**: workflow_dispatchで可能
 - **自動コミット**: `articles/`, `images/`, `state/` の変更を自動プッシュ
 
+## 配信の自動の流れ
+
+1. GitHub Actions（毎朝 9 時）が新着記事の PR を作る。20 件以上なら自動マージ、未満なら通知が来るので手でマージする
+2. Mac の launchd（`com.uto.newsletter-poller`、1 時間ごと）が `scripts/newsletter-poller.sh` でマージを見つけ、Terminal で `/create-newsletter-auto` を実行して push する。push で `send-newsletter.yml` がメールを送る
+3. 続けて `scripts/create-podcast.sh` が、`/create-podcast --content-only`（台本・音声・カバー画像）→ `podcast:video` → `podcast:shownotes` → 台本・Show Notes・使用額のコミットと push → `podcast:release` の順に進め、「投稿できます」と通知する
+4. 通知が来たら、Release の本文（Show Notes）と全編の MP4 で X に投稿する（ここだけ手で行う）
+
+通知は Moshi に届く（`MOSHI_TOKEN` は `.env`）。途中で止まったときは、止まった手順の名前が通知に入る。
+
 ## Git Hooks (lefthook)
 
 - **pre-commit**: `pnpm run type-check` 実行
