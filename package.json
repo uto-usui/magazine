@@ -16,7 +16,8 @@
     "podcast:check": "node --import tsx src/check-podcast-script.ts",
     "podcast:cover": "node --import tsx src/podcast-cover.ts",
     "podcast:video": "node --import tsx src/podcast-video.ts",
-    "podcast:release": "node --import tsx src/podcast-release.ts"
+    "podcast:release": "node --import tsx src/podcast-release.ts",
+    "podcast:shownotes": "node --import tsx src/podcast-shownotes.ts"
   },
   "dependencies": {
     "@mozilla/readability": "^0.6.0",

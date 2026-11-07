@@ -1,6 +1,3 @@
-import type { Timeline } from './schema'
-import { articleSegments } from './video'
-
 /** 号ごとの Release のタグ。スラッシュで区切るとダウンロードの URL が読みにくくなるのでハイフンにする */
 export const TAG_PREFIX = 'podcast-'
 
@@ -22,11 +19,6 @@ export function episodesFromTags(tags: string[]): string[] {
  */
 export function shouldBeLatest(episode: string, existingEpisodes: string[]): boolean {
   return existingEpisodes.every((e) => e <= episode)
-}
-
-export function releaseNotes(opts: { title: string; timeline: Timeline; newsletterUrl: string }): string {
-  const topics = articleSegments(opts.timeline).map((s) => `- ${s.title}`)
-  return [`${opts.title}の音声版です。`, '', '話題:', ...topics, '', `ニュースレター: ${opts.newsletterUrl}`, ''].join('\n')
 }
 
 /** 同じ名前で同じ大きさのファイルがもう上がっていれば、上げ直さない（MP4 は 1 本 300MB を超える） */

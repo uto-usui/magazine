@@ -4,8 +4,9 @@ import { join } from 'node:path'
 import { promisify } from 'node:util'
 import { issueNumber } from './podcast/cover'
 import { AUDIO_DIR } from './podcast/index'
-import { episodesFromTags, needsUpload, releaseNotes, releaseTag, shouldBeLatest } from './podcast/release'
+import { episodesFromTags, needsUpload, releaseTag, shouldBeLatest } from './podcast/release'
 import { TimelineSchema } from './podcast/schema'
+import { ensureShowNotes } from './podcast/shownotes'
 import { loadPodcastConfig, loadScript, loadTrackedEpisodes } from './podcast/store'
 import { fullSegment, postText, probe, validateProbe } from './podcast/video'
 
@@ -17,7 +18,7 @@ const { GITHUB_TOKEN: _, ...ghEnv } = process.env
 const gh = (args: string[]) => run('gh', args, { env: ghEnv, maxBuffer: 16 * 1024 * 1024 })
 
 /**
- * 号ごとの GitHub Release（タグ podcast-<episode>）を作り、MP3 と全編の MP4 を置く。
+ * 号ごとの GitHub Release（タグ podcast-<episode>）を作り、MP3 と全編の MP4 を置く。本文は Show Notes。
  * もう Release があれば題と本文をそろえ、変わったファイルだけ上げ直すので、何度実行してもよい
  */
 async function main() {
@@ -52,7 +53,10 @@ async function main() {
   const issueNo = issueNumber(episode, await loadTrackedEpisodes())
   const { title } = postText(timeline, issueNo)
   const repoUrl = (await gh(['repo', 'view', '--json', 'url', '-q', '.url'])).stdout.trim()
-  const notes = releaseNotes({ title, timeline, newsletterUrl: `${repoUrl}/blob/master/newsletters/${episode}.md` })
+  // Release の本文は Show Notes のファイル。手で直したものもそのまま使う
+  const shownotes = await ensureShowNotes({ episode, title, timeline, repoUrl })
+  if (shownotes.created) console.log(`${rel(shownotes.path)} を作りました`)
+  const notes = shownotes.text
 
   const tags = JSON.parse((await gh(['release', 'list', '--limit', '1000', '--json', 'tagName'])).stdout) as Array<{ tagName: string }>
   const exists_ = tags.some((t) => t.tagName === tag)
