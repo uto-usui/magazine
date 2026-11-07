@@ -1,0 +1,120 @@
+import { execFile } from 'node:child_process'
+import { access, mkdir, readFile, rename, rm } from 'node:fs/promises'
+import { join } from 'node:path'
+import { promisify } from 'node:util'
+import { chromium } from 'playwright'
+import { AUDIO_DIR } from './podcast/index'
+import { TimelineSchema } from './podcast/schema'
+import { loadPodcastConfig, loadScript } from './podcast/store'
+import { articleSegments, buildClipUrl, estimateMb, planProblems, probe, renderClip, validateProbe } from './podcast/video'
+
+const VIDEO_DIR = join(process.cwd(), 'podcasts', 'video')
+
+/**
+ * 号の MP3 から、記事ごとの MP4（X に投稿する用）を podcasts/video/<episode>/ に書き出す。
+ * エンコードは reel の talk-lab がブラウザ内で行うので、ここでは MP3 を渡して結果を受け取るだけ
+ */
+async function main() {
+  const args = process.argv.slice(2)
+  const scriptPath = args.find((a, i) => !a.startsWith('--') && !['--app', '--only'].includes(args[i - 1]))
+  if (!scriptPath) {
+    console.error('Usage: pnpm run podcast:video <podcasts/scripts/xxx.json> [--app <url>] [--only a01,a03] [--dry-run]')
+    process.exit(1)
+  }
+  const option = (name: string) => {
+    const i = args.indexOf(name)
+    return i === -1 ? undefined : args[i + 1]
+  }
+  const dryRun = args.includes('--dry-run')
+  const only = option('--only')?.split(',').map((s) => s.trim()).filter(Boolean)
+
+  const config = await loadPodcastConfig()
+  const appUrl = option('--app') ?? config.video.appUrl
+  const { episode } = await loadScript(scriptPath)
+
+  const timelinePath = join(AUDIO_DIR, `${episode}.timeline.json`)
+  if (!(await exists(timelinePath))) {
+    console.error(`${rel(timelinePath)} がありません。タイムラインは pnpm run podcast で MP3 を作ったときにだけ書き出されます`)
+    process.exit(1)
+  }
+  const timeline = TimelineSchema.parse(JSON.parse(await readFile(timelinePath, 'utf-8')))
+  const segments = articleSegments(timeline, only)
+
+  for (const s of segments) {
+    const mb = estimateMb(s.duration, config.video.bitrateMbps)
+    console.log(`${s.id}  開始 ${s.start.toFixed(2)}s  長さ ${s.duration.toFixed(2)}s  約${mb.toFixed(1)}MB  ${s.title}`)
+  }
+  const problems = planProblems(segments)
+  for (const p of problems) console.error(`NG: ${p}`)
+  if (problems.length > 0) process.exit(1)
+  if (dryRun) {
+    console.log(`${segments.length} 本 / ${appUrl} / ${config.video.bitrateMbps}Mbps`)
+    return
+  }
+
+  const mp3 = join(AUDIO_DIR, `${episode}.mp3`)
+  if (!(await exists(mp3))) {
+    console.log(`${rel(mp3)} がないので Release から取ってきます`)
+    // gh は GITHUB_TOKEN を gh auth login のアカウントより優先する。シェルの gh 関数と同じく外して、ログイン中のアカウントで取る
+    const { GITHUB_TOKEN: _, ...env } = process.env
+    await promisify(execFile)('gh', ['release', 'download', 'podcast', '-p', `${episode}.mp3`, '-D', AUDIO_DIR], { env })
+  }
+
+  const outDir = join(VIDEO_DIR, episode)
+  await mkdir(outDir, { recursive: true })
+  // 既定の headless shell は H.264 のハードウェアエンコーダを作れず talk-lab が止まる。バンドル版のフル Chromium なら作れる
+  const browser = await chromium.launch({ channel: 'chromium' })
+  const results: string[] = []
+  try {
+    for (const [i, s] of segments.entries()) {
+      const out = join(outDir, `${s.id}.mp4`)
+      const head = `[${i + 1}/${segments.length}] ${s.id} ${s.title}`
+      if ((await exists(out)) && validateProbe(await probe(out), s.duration).length === 0) {
+        console.log(`${head}（作成済み）`)
+        results.push(await summary(out))
+        continue
+      }
+      console.log(head)
+      const part = join(outDir, `${s.id}.part.mp4`)
+      await renderClip({
+        browser,
+        url: buildClipUrl(appUrl, config.video, s),
+        mp3,
+        durationSec: s.duration,
+        outPath: part,
+        log: console.log,
+      })
+      const bad = validateProbe(await probe(part), s.duration)
+      if (bad.length > 0) throw new Error(`${rel(part)} が X の条件を満たしません:\n  ${bad.join('\n  ')}`)
+      await rm(out, { force: true })
+      await rename(part, out)
+      results.push(await summary(out))
+    }
+  } finally {
+    await browser.close()
+  }
+  console.log(`\n${results.join('\n')}`)
+}
+
+async function summary(path: string) {
+  const p = await probe(path)
+  const codecs = (p.streams ?? []).map((s) => s.codec_name).join('+')
+  const mb = Number(p.format?.size) / 1024 / 1024
+  return `${rel(path)}  ${Number(p.format?.duration).toFixed(2)}s  ${mb.toFixed(1)}MB  ${codecs}`
+}
+
+async function exists(path: string) {
+  return access(path).then(
+    () => true,
+    () => false
+  )
+}
+
+function rel(path: string) {
+  return path.replace(process.cwd() + '/', '')
+}
+
+main().catch((error) => {
+  console.error(error instanceof Error ? error.message : error)
+  process.exit(1)
+})

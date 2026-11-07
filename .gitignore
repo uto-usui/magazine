@@ -23,3 +23,5 @@ yarn-error.log*
 
 # 音声バージョンの生成物（MP3 は公開リポジトリに入れない）
 /podcasts/audio/
+# X に投稿する記事ごとの MP4。手元にだけ置く
+/podcasts/video/

@@ -42,3 +42,10 @@ pricing:
     - from: '2027-01-01'
       inputPerM: 1
       outputPerM: 12
+
+# X に投稿する記事ごとの MP4。reel の talk-lab がブラウザ内（WebCodecs）でエンコードする
+video:
+  appUrl: https://uto-reel.me-e6a.workers.dev/talk-lab
+  style: flame
+  preset: x-landscape
+  bitrateMbps: 4

@@ -38,6 +38,12 @@ export const PodcastConfigSchema = z
         )
         .min(1),
     }),
+    video: z.object({
+      appUrl: z.url(),
+      style: z.string().min(1),
+      preset: z.string().min(1),
+      bitrateMbps: z.number().positive(),
+    }),
   })
   .refine((c) => c.pricing.model === c.model, {
     message: 'pricing.model が model と一致しません。料金表を使うモデルのものに差し替えてください',
@@ -79,3 +85,19 @@ export const LedgerSchema = z.object({ entries: z.array(LedgerEntrySchema) })
 
 export type LedgerEntry = z.infer<typeof LedgerEntrySchema>
 export type Ledger = z.infer<typeof LedgerSchema>
+
+/** pnpm run podcast が MP3 と一緒に書き出す、セグメントごとの開始位置と長さ（秒） */
+export const TimelineSchema = z.object({
+  episode: z.string(),
+  segments: z.array(
+    z.object({
+      id: z.string(),
+      title: z.string(),
+      start: z.number().nonnegative(),
+      duration: z.number().positive(),
+    })
+  ),
+})
+
+export type Timeline = z.infer<typeof TimelineSchema>
+export type TimelineSegment = Timeline['segments'][number]
