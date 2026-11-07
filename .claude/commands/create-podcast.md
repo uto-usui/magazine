@@ -26,7 +26,7 @@ EPISODE=$(basename "$NEWSLETTER" .md)
 SCRIPT="podcasts/scripts/${EPISODE}.json"
 ```
 
-`podcasts/audio/${EPISODE}.mp3` がすでにあれば、台本と生成は飛ばして手順7から行う（Release に MP3 がもうあれば、Release へのアップロードは飛ばして、カバー画像と手順8の動画を作る）。
+`podcasts/audio/${EPISODE}.mp3` がすでにあれば、台本と生成は飛ばして手順7から行う。手順8と9は作り終えたものや上げ終えたものを飛ばすので、そのまま実行してよい。
 
 ## 2. 台本を書く
 
@@ -89,7 +89,7 @@ pnpm run podcast:check "$SCRIPT"
 3. **正しさ**: 3行まとめや詳細解説と食い違う内容、言いすぎがないか
 4. **読み**: 耳で聞いて読めるか（記号、URL、カラーコード、読みが分かれる漢字、1文字ずつ読まれる名前が残っていないか）
 
-直したら `pnpm run podcast:check` をもう一度実行する。直した箇所と、足さないと決めた名前は手順9の報告に書く。
+直したら `pnpm run podcast:check` をもう一度実行する。直した箇所と、足さないと決めた名前は手順10の報告に書く。
 
 ## 4. 日本語を見直す
 
@@ -116,7 +116,7 @@ python3 -I -c "import json,sys; d=json.load(open(sys.argv[1])); [print(f\"[{s['i
 出力: 1件ずつ「[セグメントid] 元の文の該当部分 → 言い換え案（なぜ不自然か）」の形で。言い換え案は、技術名と意味を変えないこと。不自然なところがなければ「なし」とだけ書く。
 ```
 
-返ってきた候補は、1つずつ読んで判断する。もっともだと思うものは直し、技術名が消える・意味が変わる言い換えは採らない。直したら `pnpm run podcast:check` をもう一度実行する。直した箇所は手順9の報告に書く。
+返ってきた候補は、1つずつ読んで判断する。もっともだと思うものは直し、技術名が消える・意味が変わる言い換えは採らない。直したら `pnpm run podcast:check` をもう一度実行する。直した箇所は手順10の報告に書く。
 
 ## 5. 字数と予算を確かめる
 
@@ -134,7 +134,7 @@ pnpm run podcast "$SCRIPT"
 
 途中で失敗しても、作り終えたセグメントは `podcasts/audio/${EPISODE}/` に残っているので、同じコマンドで続きから作れる（二重に払わない）。
 
-## 7. カバー画像を作って Release に上げる
+## 7. カバー画像を作る
 
 号ごとのカバー画像（3000×3000 の JPEG）を作る。通し番号・日付・記事の本数が入る:
 
@@ -143,12 +143,6 @@ pnpm run podcast:cover "$SCRIPT"
 ```
 
 カバー画像はスタイルを試している途中なので、手元（`podcasts/audio/`）に置くだけにして、Release には上げない。
-
-MP3 はリポジトリに入れず、GitHub の Release `podcast` に置く。公開リポジトリなので、誰でもダウンロードできる。
-
-```bash
-gh release upload podcast "podcasts/audio/${EPISODE}.mp3" --clobber
-```
 
 ## 8. 動画を作る
 
@@ -163,11 +157,25 @@ pnpm run podcast:video "$SCRIPT"
 - h264 + aac か、長さがタイムラインと 0.2 秒以内で合うか、X の上限（`config/podcast.yml` の `video.maxDurationSec` / `maxSizeMb`。X Premium に合わせてある）に収まるかを ffprobe で確かめ、外れたら止まる
 - 作り終えた MP4 は飛ばすので、途中で止まっても同じコマンドで続きから作れる。MP3 かタイムラインのほうが新しい MP4 は作り直す。`--only` で挙げたものは必ず作り直し、全部作り直すなら `--force`
 - タイムライン（`podcasts/audio/${EPISODE}.timeline.json`）は `pnpm run podcast` で MP3 を作ったときにだけ書き出される。ない場合は動画を作らずに、そのことを報告する
-- 動画は git にも Release にも入れない。X への投稿は手で行う
+- 動画は git に入れない。全編の MP4 は手順9で Release に置き、記事ごとのクリップは手元に置くだけにする。X への投稿は手で行う
 
-## 9. 報告
+## 9. Release に置く
 
-- MP3 の長さと公開 URL（`https://github.com/uto-usui/magazine/releases/download/podcast/${EPISODE}.mp3`）と、カバー画像のパス（`podcasts/audio/${EPISODE}.jpg`）
+MP3 と全編の MP4 はリポジトリに入れず、号ごとの GitHub Release（タグ `podcast-${EPISODE}`）に置く。公開リポジトリなので、誰でもダウンロードできる。
+
+```bash
+pnpm run podcast:release "$SCRIPT"
+```
+
+- Release の題は投稿用のタイトル（「UXエンジニアリング・マガジン 11月6日号（No.151）」の形）、本文は記事の話題の一覧とニュースレターへのリンクになる
+- タグは、その号の台本が入ったコミットに付ける。台本がまだ GitHub になければ master の先頭に付ける
+- いちばん新しい号のときだけ Latest にする。古い号を作り直しても Latest は動かない
+- もう Release があれば題と本文をそろえ、大きさが変わったファイルだけ上げ直す
+- 動画を作っていない号で MP3 だけ置くときは `--no-video`。何をするかだけ見るなら `--dry-run`
+
+## 10. 報告
+
+- MP3 の長さと、Release の URL（`https://github.com/uto-usui/magazine/releases/tag/podcast-${EPISODE}`）と、カバー画像のパス（`podcasts/audio/${EPISODE}.jpg`）
 - 動画の本数と、1本ずつのパス・長さ・大きさ（`pnpm run podcast:video` の最後に出る一覧）
 - X に投稿するときのタイトルと話題の一覧（`pnpm run podcast:video` の最後に「投稿用:」として出る）
 - この回の料金と、今月の使用額（`pnpm run podcast:usage` の出力）

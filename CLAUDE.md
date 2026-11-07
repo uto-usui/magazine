@@ -26,6 +26,7 @@ pnpm run podcast:usage           # 今月の TTS 使用額
 pnpm run podcast:check <script>  # 3行まとめの技術名・固有名が台本から抜けていないか
 pnpm run podcast:cover <script>  # 号ごとのカバー画像（手元の podcasts/audio/ に書き出す）
 pnpm run podcast:video <script> [--clips] [--only full,a01] [--app <url>] [--force] [--dry-run]  # X 投稿用の MP4（既定は全編の1本。手元の podcasts/video/ に書き出す）
+pnpm run podcast:release <script> [--no-video] [--dry-run]  # 号ごとの GitHub Release（タグ podcast-<episode>）に MP3 と全編の MP4 を置く
 ```
 
 ## ディレクトリ構成
@@ -73,8 +74,8 @@ state/
 
 podcasts/
 ├── scripts/                  # 音声バージョンの会話台本
-├── audio/                    # MP3（git に入れず、GitHub Release `podcast` に置く）
-└── video/                    # X 投稿用の MP4（全編と、--clips なら記事ごと。git にも Release にも入れない）
+├── audio/                    # MP3（git に入れず、号ごとの GitHub Release `podcast-<episode>` に置く）
+└── video/                    # X 投稿用の MP4（git に入れない。全編だけ号の Release にも置く）
 
 articles/
 └── YYYY-MM-DD/               # 取得日ごとのディレクトリ
