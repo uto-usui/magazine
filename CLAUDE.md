@@ -25,7 +25,7 @@ pnpm run podcast <script> [--dry-run]  # 台本から MP3 を作る（予算を�
 pnpm run podcast:usage           # 今月の TTS 使用額
 pnpm run podcast:check <script>  # 3行まとめの技術名・固有名が台本から抜けていないか
 pnpm run podcast:cover <script>  # 号ごとのカバー画像（手元の podcasts/audio/ に書き出す）
-pnpm run podcast:video <script> [--app <url>] [--only a01,a03] [--dry-run]  # 記事ごとの MP4（X 投稿用、手元の podcasts/video/ に書き出す）
+pnpm run podcast:video <script> [--app <url>] [--only a01,a03] [--force] [--dry-run]  # 記事ごとの MP4（X 投稿用、手元の podcasts/video/ に書き出す）
 ```
 
 ## ディレクトリ構成

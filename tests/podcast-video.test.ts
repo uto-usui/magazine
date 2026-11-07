@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import type { Timeline } from '../src/podcast/schema'
-import { articleSegments, buildClipUrl, estimateMb, exportTimeoutMs, planProblems, validateProbe } from '../src/podcast/video'
+import { articleSegments, buildClipUrl, clipAction, estimateMb, exportTimeoutMs, planProblems, validateProbe } from '../src/podcast/video'
 
 const VIDEO = { style: 'flame', preset: 'x-landscape', bitrateMbps: 4 }
 
@@ -72,40 +72,76 @@ describe('exportTimeoutMs', () => {
 })
 
 describe('validateProbe', () => {
+  // 実際に talk-lab で書き出した a05（タイムラインでは 53.48 秒）の ffprobe の値
   const ok = {
     streams: [
-      { codec_type: 'video', codec_name: 'h264' },
-      { codec_type: 'audio', codec_name: 'aac' },
+      { codec_type: 'video', codec_name: 'h264', duration: '53.466667' },
+      { codec_type: 'audio', codec_name: 'aac', duration: '53.546667' },
     ],
-    format: { duration: '77.500000', size: String(40 * 1024 * 1024) },
+    format: { duration: '53.546667', size: '27666965' },
   }
+  const withDurations = (video: string, audio: string) => ({
+    ...ok,
+    streams: [
+      { ...ok.streams[0], duration: video },
+      { ...ok.streams[1], duration: audio },
+    ],
+  })
 
-  it('h264 + aac で長さが合っていれば問題なし', () => {
-    expect(validateProbe(ok, 77.48)).toEqual([])
+  it('実際の書き出し（AAC が 0.07 秒ほど長い）は問題なし', () => {
+    expect(validateProbe(ok, 53.48)).toEqual([])
   })
 
   it('コーデックが違えば挙げる', () => {
-    const vp9 = { ...ok, streams: [{ codec_type: 'video', codec_name: 'vp9' }] }
-    const problems = validateProbe(vp9, 77.48)
+    const vp9 = { ...ok, streams: [{ codec_type: 'video', codec_name: 'vp9', duration: '53.48' }] }
+    const problems = validateProbe(vp9, 53.48)
     expect(problems).toHaveLength(2)
     expect(problems[0]).toContain('vp9')
     expect(problems[1]).toContain('aac')
   })
 
-  it('長さが 0.2 秒より大きくずれたら挙げる', () => {
-    expect(validateProbe({ ...ok, format: { ...ok.format, duration: '77.65' } }, 77.48)).toEqual([])
-    expect(validateProbe({ ...ok, format: { ...ok.format, duration: '77.30' } }, 77.48)).toEqual([])
-    expect(validateProbe({ ...ok, format: { ...ok.format, duration: '77.75' } }, 77.48)).toEqual([expect.stringContaining('ずれ')])
-    expect(validateProbe({ ...ok, format: { ...ok.format, duration: '77.20' } }, 77.48)).toEqual([expect.stringContaining('ずれ')])
+  it('映像と音声の長さを、それぞれタイムラインと比べる', () => {
+    expect(validateProbe(withDurations('53.65', '53.30'), 53.48)).toEqual([])
+    expect(validateProbe(withDurations('53.75', '53.48'), 53.48)).toEqual([expect.stringContaining('映像の長さ')])
+    expect(validateProbe(withDurations('53.48', '53.20'), 53.48)).toEqual([expect.stringContaining('音声の長さ')])
+  })
+
+  it('映像だけ途中で切れていれば、全体の長さが合っていても挙げる', () => {
+    expect(validateProbe(withDurations('1.0', '77.5'), 77.48)).toEqual([expect.stringContaining('映像の長さが 1.00 秒')])
   })
 
   it('140 秒・512 MB を超えたら挙げる', () => {
-    const long = { ...ok, format: { duration: '141', size: String(600 * 1024 * 1024) } }
-    const problems = validateProbe(long, 141)
-    expect(problems).toEqual([expect.stringContaining('140'), expect.stringContaining('512')])
+    const long = { ...withDurations('141', '141'), format: { duration: '141', size: String(600 * 1024 * 1024) } }
+    expect(validateProbe(long, 141)).toEqual([expect.stringContaining('140'), expect.stringContaining('512')])
   })
 
-  it('長さが読めなければ挙げる', () => {
-    expect(validateProbe({ streams: ok.streams, format: {} }, 10)).toEqual(['長さを読めません'])
+  it('ストリームの長さが読めなければ挙げる', () => {
+    expect(validateProbe(withDurations('N/A', '53.5'), 53.48)).toEqual(['映像の長さを読めません'])
+  })
+})
+
+describe('clipAction', () => {
+  const sourcesMtimeMs = [1_000, 2_000]
+  const fresh = { mtimeMs: 3_000, problems: [] }
+
+  it('MP3 とタイムラインより新しく、条件を満たす MP4 は使い回す', () => {
+    expect(clipAction({ forced: false, clip: fresh, sourcesMtimeMs })).toBe('reuse')
+  })
+
+  it('MP4 がなければ作る', () => {
+    expect(clipAction({ forced: false, clip: null, sourcesMtimeMs })).toBe('missing')
+  })
+
+  it('MP3 かタイムラインのほうが新しければ作り直す', () => {
+    expect(clipAction({ forced: false, clip: fresh, sourcesMtimeMs: [4_000, 2_000] })).toBe('stale')
+    expect(clipAction({ forced: false, clip: fresh, sourcesMtimeMs: [1_000, 3_000] })).toBe('stale')
+  })
+
+  it('条件を満たさない MP4 は作り直す', () => {
+    expect(clipAction({ forced: false, clip: { mtimeMs: 3_000, problems: ['x'] }, sourcesMtimeMs })).toBe('invalid')
+  })
+
+  it('--force や --only で指定したものは、新しくても作り直す', () => {
+    expect(clipAction({ forced: true, clip: fresh, sourcesMtimeMs })).toBe('forced')
   })
 })

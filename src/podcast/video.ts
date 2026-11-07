@@ -52,7 +52,7 @@ export function exportTimeoutMs(durationSec: number): number {
 }
 
 export interface ProbeResult {
-  streams?: Array<{ codec_type?: string; codec_name?: string }>
+  streams?: Array<{ codec_type?: string; codec_name?: string; duration?: string }>
   format?: { duration?: string; size?: string }
 }
 
@@ -64,19 +64,42 @@ export function validateProbe(probe: ProbeResult, expectedSec: number): string[]
   if (video?.codec_name !== 'h264') problems.push(`映像が h264 ではありません（${video?.codec_name ?? 'なし'}）`)
   if (audio?.codec_name !== 'aac') problems.push(`音声が aac ではありません（${audio?.codec_name ?? 'なし'}）`)
 
-  const duration = Number(probe.format?.duration)
-  if (!Number.isFinite(duration)) {
-    problems.push('長さを読めません')
-  } else {
-    if (Math.abs(duration - expectedSec) > DURATION_TOLERANCE_SEC) {
-      problems.push(`長さが ${duration.toFixed(2)} 秒で、タイムラインの ${expectedSec.toFixed(2)} 秒と ${DURATION_TOLERANCE_SEC} 秒より大きくずれています`)
+  // 映像だけ途中で切れたファイルも見つけられるよう、映像と音声をそれぞれ確かめる。
+  // AAC は先頭の詰め物の分だけ 0.07 秒ほど長くなるが、許容の 0.2 秒に収まる
+  for (const [label, stream] of [['映像', video], ['音声', audio]] as const) {
+    if (!stream) continue
+    const sec = Number(stream.duration)
+    if (!Number.isFinite(sec)) {
+      problems.push(`${label}の長さを読めません`)
+    } else if (Math.abs(sec - expectedSec) > DURATION_TOLERANCE_SEC) {
+      problems.push(`${label}の長さが ${sec.toFixed(2)} 秒で、タイムラインの ${expectedSec.toFixed(2)} 秒と ${DURATION_TOLERANCE_SEC} 秒より大きくずれています`)
     }
-    if (duration > X_MAX_SEC) problems.push(`長さが ${duration.toFixed(1)} 秒で、X の上限 ${X_MAX_SEC} 秒を超えます`)
   }
+
+  const duration = Number(probe.format?.duration)
+  if (Number.isFinite(duration) && duration > X_MAX_SEC) problems.push(`長さが ${duration.toFixed(1)} 秒で、X の上限 ${X_MAX_SEC} 秒を超えます`)
 
   const size = Number(probe.format?.size)
   if (Number.isFinite(size) && size > X_MAX_BYTES) problems.push(`大きさが ${(size / 1024 / 1024).toFixed(0)} MB で、X の上限 512 MB を超えます`)
   return problems
+}
+
+export type ClipAction = 'reuse' | 'missing' | 'forced' | 'stale' | 'invalid'
+
+/**
+ * 書き出し済みの MP4 を使い回すか。MP3 やタイムラインを作り直したあとの古い MP4 は使わない。
+ * clip は MP4 がなければ null、problems は validateProbe の結果
+ */
+export function clipAction(opts: {
+  forced: boolean
+  clip: { mtimeMs: number; problems: string[] } | null
+  sourcesMtimeMs: number[]
+}): ClipAction {
+  if (opts.forced) return 'forced'
+  if (!opts.clip) return 'missing'
+  if (opts.sourcesMtimeMs.some((t) => t >= opts.clip!.mtimeMs)) return 'stale'
+  if (opts.clip.problems.length > 0) return 'invalid'
+  return 'reuse'
 }
 
 export async function probe(path: string): Promise<ProbeResult> {
@@ -98,23 +121,23 @@ export async function renderClip(opts: {
 }) {
   const log = opts.log ?? (() => {})
   const context = await opts.browser.newContext({ acceptDownloads: true })
-  const page = await context.newPage()
-  const pageErrors: string[] = []
-  page.on('pageerror', (e) => pageErrors.push(e.message))
-  page.on('console', (m) => {
-    if (m.type() === 'error') pageErrors.push(m.text())
-  })
-
-  const failIfError = async () => {
-    const state = page.locator(STATE)
-    if ((await state.getAttribute('data-export-state')) !== 'error') return
-    // エラー文の場所は約束に入っていないので、それらしい要素から拾い、なければページの文を短く切って出す
-    const note = page.locator('[data-export-error], [role=alert], .note--error').first()
-    const text = ((await note.count()) > 0 ? await note.innerText() : (await state.innerText()).slice(-300)).trim()
-    throw new Error(`talk-lab がエラーになりました: ${text || '（エラー文なし）'}${pageErrors.length ? `\n${pageErrors.join('\n')}` : ''}`)
-  }
-
   try {
+    const page = await context.newPage()
+    const pageErrors: string[] = []
+    page.on('pageerror', (e) => pageErrors.push(e.message))
+    page.on('console', (m) => {
+      if (m.type() === 'error') pageErrors.push(m.text())
+    })
+
+    const failIfError = async () => {
+      const state = page.locator(STATE)
+      if ((await state.getAttribute('data-export-state')) !== 'error') return
+      // エラー文の場所は約束に入っていないので、それらしい要素から拾い、なければページの文を短く切って出す
+      const note = page.locator('[data-export-error], [role=alert], .note--error').first()
+      const text = ((await note.count()) > 0 ? await note.innerText() : (await state.innerText()).slice(-300)).trim()
+      throw new Error(`talk-lab がエラーになりました: ${text || '（エラー文なし）'}${pageErrors.length ? `\n${pageErrors.join('\n')}` : ''}`)
+    }
+
     await page.goto(opts.url, { waitUntil: 'networkidle' })
     // React の島が描画し終わる前に入れたファイルは拾われないことがあるので、状態が idle から動くまで入れ直す
     const input = page.locator('input[type=file][accept^="audio"]')

@@ -1,12 +1,12 @@
 import { execFile } from 'node:child_process'
-import { access, mkdir, readFile, rename, rm } from 'node:fs/promises'
+import { access, mkdir, readFile, rename, stat } from 'node:fs/promises'
 import { join } from 'node:path'
 import { promisify } from 'node:util'
 import { chromium } from 'playwright'
 import { AUDIO_DIR } from './podcast/index'
 import { TimelineSchema } from './podcast/schema'
 import { loadPodcastConfig, loadScript } from './podcast/store'
-import { articleSegments, buildClipUrl, estimateMb, planProblems, probe, renderClip, validateProbe } from './podcast/video'
+import { articleSegments, buildClipUrl, clipAction, estimateMb, planProblems, probe, renderClip, validateProbe } from './podcast/video'
 
 const VIDEO_DIR = join(process.cwd(), 'podcasts', 'video')
 
@@ -18,7 +18,7 @@ async function main() {
   const args = process.argv.slice(2)
   const scriptPath = args.find((a, i) => !a.startsWith('--') && !['--app', '--only'].includes(args[i - 1]))
   if (!scriptPath) {
-    console.error('Usage: pnpm run podcast:video <podcasts/scripts/xxx.json> [--app <url>] [--only a01,a03] [--dry-run]')
+    console.error('Usage: pnpm run podcast:video <podcasts/scripts/xxx.json> [--app <url>] [--only a01,a03] [--force] [--dry-run]')
     process.exit(1)
   }
   const option = (name: string) => {
@@ -39,6 +39,10 @@ async function main() {
   }
   const timeline = TimelineSchema.parse(JSON.parse(await readFile(timelinePath, 'utf-8')))
   const segments = articleSegments(timeline, only)
+  if (segments.length === 0) {
+    console.error(`${rel(timelinePath)} に記事のセグメント（a01, a02, ...）がありません`)
+    process.exit(1)
+  }
 
   for (const s of segments) {
     const mb = estimateMb(s.duration, config.video.bitrateMbps)
@@ -60,6 +64,9 @@ async function main() {
     await promisify(execFile)('gh', ['release', 'download', 'podcast', '-p', `${episode}.mp3`, '-D', AUDIO_DIR], { env })
   }
 
+  const sourcesMtimeMs = [(await stat(mp3)).mtimeMs, (await stat(timelinePath)).mtimeMs]
+  const force = args.includes('--force')
+
   const outDir = join(VIDEO_DIR, episode)
   await mkdir(outDir, { recursive: true })
   // 既定の headless shell は H.264 のハードウェアエンコーダを作れず talk-lab が止まる。バンドル版のフル Chromium なら作れる
@@ -69,12 +76,17 @@ async function main() {
     for (const [i, s] of segments.entries()) {
       const out = join(outDir, `${s.id}.mp4`)
       const head = `[${i + 1}/${segments.length}] ${s.id} ${s.title}`
-      if ((await exists(out)) && validateProbe(await probe(out), s.duration).length === 0) {
+      // --only で名前を挙げたものは、作り直したくて指定しているので必ず作る
+      const forced = force || (only?.includes(s.id) ?? false)
+      const clip = !forced && (await exists(out)) ? { mtimeMs: (await stat(out)).mtimeMs, problems: await probe(out).then((p) => validateProbe(p, s.duration), () => ['ffprobe で読めません']) } : null
+      const action = clipAction({ forced, clip, sourcesMtimeMs })
+      if (action === 'reuse') {
         console.log(`${head}（作成済み）`)
         results.push(await summary(out))
         continue
       }
-      console.log(head)
+      const why = { forced: '作り直し', stale: 'MP3 かタイムラインのほうが新しいので作り直し', invalid: '前の MP4 が条件を満たさないので作り直し', missing: '' }[action]
+      console.log(why ? `${head}（${why}）` : head)
       const part = join(outDir, `${s.id}.part.mp4`)
       await renderClip({
         browser,
@@ -86,7 +98,6 @@ async function main() {
       })
       const bad = validateProbe(await probe(part), s.duration)
       if (bad.length > 0) throw new Error(`${rel(part)} が X の条件を満たしません:\n  ${bad.join('\n  ')}`)
-      await rm(out, { force: true })
       await rename(part, out)
       results.push(await summary(out))
     }
