@@ -6,19 +6,20 @@ import { chromium } from 'playwright'
 import { AUDIO_DIR } from './podcast/index'
 import { TimelineSchema } from './podcast/schema'
 import { loadPodcastConfig, loadScript } from './podcast/store'
-import { articleSegments, buildClipUrl, clipAction, estimateMb, planProblems, probe, renderClip, validateProbe } from './podcast/video'
+import { buildClipUrl, clipAction, estimateMb, planProblems, probe, renderClip, selectTargets, validateProbe } from './podcast/video'
 
 const VIDEO_DIR = join(process.cwd(), 'podcasts', 'video')
 
 /**
- * 号の MP3 から、記事ごとの MP4（X に投稿する用）を podcasts/video/<episode>/ に書き出す。
+ * 号の MP3 から、X に投稿する MP4 を podcasts/video/<episode>/ に書き出す。既定は全編の full.mp4 で、
+ * --clips で記事ごとの a01.mp4 なども作る。
  * エンコードは reel の talk-lab がブラウザ内で行うので、ここでは MP3 を渡して結果を受け取るだけ
  */
 async function main() {
   const args = process.argv.slice(2)
   const scriptPath = args.find((a, i) => !a.startsWith('--') && !['--app', '--only'].includes(args[i - 1]))
   if (!scriptPath) {
-    console.error('Usage: pnpm run podcast:video <podcasts/scripts/xxx.json> [--app <url>] [--only a01,a03] [--force] [--dry-run]')
+    console.error('Usage: pnpm run podcast:video <podcasts/scripts/xxx.json> [--clips] [--only full,a01] [--app <url>] [--force] [--dry-run]')
     process.exit(1)
   }
   const option = (name: string) => {
@@ -38,8 +39,9 @@ async function main() {
     process.exit(1)
   }
   const timeline = TimelineSchema.parse(JSON.parse(await readFile(timelinePath, 'utf-8')))
-  const segments = articleSegments(timeline, only)
-  if (segments.length === 0) {
+  const clips = args.includes('--clips')
+  const segments = selectTargets(timeline, { only, clips })
+  if (clips && !only && segments.length === 1) {
     console.error(`${rel(timelinePath)} に記事のセグメント（a01, a02, ...）がありません`)
     process.exit(1)
   }
@@ -48,7 +50,7 @@ async function main() {
     const mb = estimateMb(s.duration, config.video.bitrateMbps)
     console.log(`${s.id}  開始 ${s.start.toFixed(2)}s  長さ ${s.duration.toFixed(2)}s  約${mb.toFixed(1)}MB  ${s.title}`)
   }
-  const problems = planProblems(segments)
+  const problems = planProblems(segments, config.video)
   for (const p of problems) console.error(`NG: ${p}`)
   if (problems.length > 0) process.exit(1)
   if (dryRun) {
@@ -78,7 +80,7 @@ async function main() {
       const head = `[${i + 1}/${segments.length}] ${s.id} ${s.title}`
       // --only で名前を挙げたものは、作り直したくて指定しているので必ず作る
       const forced = force || (only?.includes(s.id) ?? false)
-      const clip = !forced && (await exists(out)) ? { mtimeMs: (await stat(out)).mtimeMs, problems: await probe(out).then((p) => validateProbe(p, s.duration), () => ['ffprobe で読めません']) } : null
+      const clip = !forced && (await exists(out)) ? { mtimeMs: (await stat(out)).mtimeMs, problems: await probe(out).then((p) => validateProbe(p, s.duration, config.video), () => ['ffprobe で読めません']) } : null
       const action = clipAction({ forced, clip, sourcesMtimeMs })
       if (action === 'reuse') {
         console.log(`${head}（作成済み）`)
@@ -96,7 +98,7 @@ async function main() {
         outPath: part,
         log: console.log,
       })
-      const bad = validateProbe(await probe(part), s.duration)
+      const bad = validateProbe(await probe(part), s.duration, config.video)
       if (bad.length > 0) throw new Error(`${rel(part)} が X の条件を満たしません:\n  ${bad.join('\n  ')}`)
       await rename(part, out)
       results.push(await summary(out))

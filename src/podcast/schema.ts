@@ -43,6 +43,8 @@ export const PodcastConfigSchema = z
       style: z.string().min(1),
       preset: z.string().min(1),
       bitrateMbps: z.number().positive(),
+      maxDurationSec: z.number().positive(),
+      maxSizeMb: z.number().positive(),
     }),
   })
   .refine((c) => c.pricing.model === c.model, {

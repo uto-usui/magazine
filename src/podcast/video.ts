@@ -5,15 +5,16 @@ import type { PodcastConfig, Timeline, TimelineSegment } from './schema'
 
 const run = promisify(execFile)
 
-/** X の通常アカウントで投稿できる動画の上限 */
-export const X_MAX_SEC = 140
-export const X_MAX_BYTES = 512 * 1024 * 1024
 /** 書き出した MP4 の長さと、タイムラインの長さのずれの許容 */
 export const DURATION_TOLERANCE_SEC = 0.2
 
 export type VideoConfig = PodcastConfig['video']
+export type VideoLimits = Pick<VideoConfig, 'maxDurationSec' | 'maxSizeMb'>
 
-export function buildClipUrl(appUrl: string, video: Omit<VideoConfig, 'appUrl'>, segment: Pick<TimelineSegment, 'start' | 'duration'>): string {
+/** 号の全編を1本にするときの id。出力は podcasts/video/<episode>/full.mp4 */
+export const FULL_ID = 'full'
+
+export function buildClipUrl(appUrl: string, video: Pick<VideoConfig, 'style' | 'preset' | 'bitrateMbps'>, segment: Pick<TimelineSegment, 'start' | 'duration'>): string {
   const url = new URL(appUrl)
   url.searchParams.set('style', video.style)
   url.searchParams.set('preset', video.preset)
@@ -34,11 +35,30 @@ export function articleSegments(timeline: Timeline, only?: string[]): TimelineSe
   return articles.filter((s) => only.includes(s.id))
 }
 
+/** 号の全編。タイムラインの最後のセグメントの終わりが MP3 の長さになる */
+export function fullSegment(timeline: Timeline): TimelineSegment {
+  const end = Math.max(...timeline.segments.map((s) => s.start + s.duration))
+  return { id: FULL_ID, title: '全編', start: 0, duration: end }
+}
+
+/**
+ * 書き出す対象を決める。既定は全編の1本で、clips なら記事ごとのクリップも足す。
+ * only を渡したらその id（full か a01 など）だけにする
+ */
+export function selectTargets(timeline: Timeline, opts: { only?: string[]; clips?: boolean }): TimelineSegment[] {
+  const full = fullSegment(timeline)
+  if (opts.only && opts.only.length > 0) {
+    const articles = articleSegments(timeline, opts.only.filter((id) => id !== FULL_ID))
+    return opts.only.includes(FULL_ID) ? [full, ...articles] : articles
+  }
+  return opts.clips ? [full, ...articleSegments(timeline)] : [full]
+}
+
 /** エンコード前に分かる問題（X に上げられない長さ） */
-export function planProblems(segments: TimelineSegment[]): string[] {
+export function planProblems(segments: TimelineSegment[], limits: VideoLimits): string[] {
   return segments
-    .filter((s) => s.duration > X_MAX_SEC)
-    .map((s) => `${s.id} ${s.title} は ${s.duration.toFixed(1)} 秒で、X の上限 ${X_MAX_SEC} 秒を超えます`)
+    .filter((s) => s.duration > limits.maxDurationSec)
+    .map((s) => `${s.id} ${s.title} は ${s.duration.toFixed(1)} 秒で、X の上限 ${limits.maxDurationSec} 秒を超えます`)
 }
 
 /** 映像のビットレートだけで出した大きさの目安（MB） */
@@ -56,7 +76,7 @@ export interface ProbeResult {
   format?: { duration?: string; size?: string }
 }
 
-export function validateProbe(probe: ProbeResult, expectedSec: number): string[] {
+export function validateProbe(probe: ProbeResult, expectedSec: number, limits: VideoLimits): string[] {
   const problems: string[] = []
   const streams = probe.streams ?? []
   const video = streams.find((s) => s.codec_type === 'video')
@@ -77,10 +97,10 @@ export function validateProbe(probe: ProbeResult, expectedSec: number): string[]
   }
 
   const duration = Number(probe.format?.duration)
-  if (Number.isFinite(duration) && duration > X_MAX_SEC) problems.push(`長さが ${duration.toFixed(1)} 秒で、X の上限 ${X_MAX_SEC} 秒を超えます`)
+  if (Number.isFinite(duration) && duration > limits.maxDurationSec) problems.push(`長さが ${duration.toFixed(1)} 秒で、X の上限 ${limits.maxDurationSec} 秒を超えます`)
 
-  const size = Number(probe.format?.size)
-  if (Number.isFinite(size) && size > X_MAX_BYTES) problems.push(`大きさが ${(size / 1024 / 1024).toFixed(0)} MB で、X の上限 512 MB を超えます`)
+  const mb = Number(probe.format?.size) / 1024 / 1024
+  if (Number.isFinite(mb) && mb > limits.maxSizeMb) problems.push(`大きさが ${mb.toFixed(0)} MB で、X の上限 ${limits.maxSizeMb} MB を超えます`)
   return problems
 }
 

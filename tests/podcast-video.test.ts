@@ -1,8 +1,10 @@
 import { describe, it, expect } from 'vitest'
 import type { Timeline } from '../src/podcast/schema'
-import { articleSegments, buildClipUrl, clipAction, estimateMb, exportTimeoutMs, planProblems, validateProbe } from '../src/podcast/video'
+import { articleSegments, buildClipUrl, clipAction, estimateMb, exportTimeoutMs, fullSegment, planProblems, selectTargets, validateProbe } from '../src/podcast/video'
 
 const VIDEO = { style: 'flame', preset: 'x-landscape', bitrateMbps: 4 }
+// 通常アカウントの上限。テストでは境界を見やすい小さい値を使う
+const LIMITS = { maxDurationSec: 140, maxSizeMb: 512 }
 
 const timeline: Timeline = {
   episode: '2026-11-06-150018',
@@ -50,11 +52,35 @@ describe('articleSegments', () => {
   })
 })
 
+describe('fullSegment / selectTargets', () => {
+  it('全編は 0 秒からタイムラインの最後の終わりまで', () => {
+    expect(fullSegment(timeline)).toEqual({ id: 'full', title: '全編', start: 0, duration: 248.68 + 14.68 })
+  })
+
+  it('既定は全編の1本だけ', () => {
+    expect(selectTargets(timeline, {}).map((s) => s.id)).toEqual(['full'])
+  })
+
+  it('clips なら全編と記事ごと', () => {
+    expect(selectTargets(timeline, { clips: true }).map((s) => s.id)).toEqual(['full', 'a01', 'a02', 'a03'])
+  })
+
+  it('only で full や記事を選べる', () => {
+    expect(selectTargets(timeline, { only: ['a02'] }).map((s) => s.id)).toEqual(['a02'])
+    expect(selectTargets(timeline, { only: ['full', 'a01'] }).map((s) => s.id)).toEqual(['full', 'a01'])
+    expect(() => selectTargets(timeline, { only: ['a09'] })).toThrow('a09')
+  })
+})
+
 describe('planProblems', () => {
-  it('X の上限 140 秒を超えるセグメントを挙げる', () => {
+  it('上限の秒数を超えるセグメントを挙げる', () => {
     const long = { id: 'a04', title: '長い記事', start: 0, duration: 140.5 }
-    expect(planProblems([...timeline.segments.slice(1, 3), long])).toEqual([expect.stringContaining('a04')])
-    expect(planProblems([{ ...long, duration: 140 }])).toEqual([])
+    expect(planProblems([...timeline.segments.slice(1, 3), long], LIMITS)).toEqual([expect.stringContaining('a04')])
+    expect(planProblems([{ ...long, duration: 140 }], LIMITS)).toEqual([])
+  })
+
+  it('Premium の上限なら全編も通る', () => {
+    expect(planProblems([{ id: 'full', title: '全編', start: 0, duration: 631.04 }], { maxDurationSec: 7200, maxSizeMb: 8192 })).toEqual([])
   })
 })
 
@@ -89,34 +115,34 @@ describe('validateProbe', () => {
   })
 
   it('実際の書き出し（AAC が 0.07 秒ほど長い）は問題なし', () => {
-    expect(validateProbe(ok, 53.48)).toEqual([])
+    expect(validateProbe(ok, 53.48, LIMITS)).toEqual([])
   })
 
   it('コーデックが違えば挙げる', () => {
     const vp9 = { ...ok, streams: [{ codec_type: 'video', codec_name: 'vp9', duration: '53.48' }] }
-    const problems = validateProbe(vp9, 53.48)
+    const problems = validateProbe(vp9, 53.48, LIMITS)
     expect(problems).toHaveLength(2)
     expect(problems[0]).toContain('vp9')
     expect(problems[1]).toContain('aac')
   })
 
   it('映像と音声の長さを、それぞれタイムラインと比べる', () => {
-    expect(validateProbe(withDurations('53.65', '53.30'), 53.48)).toEqual([])
-    expect(validateProbe(withDurations('53.75', '53.48'), 53.48)).toEqual([expect.stringContaining('映像の長さ')])
-    expect(validateProbe(withDurations('53.48', '53.20'), 53.48)).toEqual([expect.stringContaining('音声の長さ')])
+    expect(validateProbe(withDurations('53.65', '53.30'), 53.48, LIMITS)).toEqual([])
+    expect(validateProbe(withDurations('53.75', '53.48'), 53.48, LIMITS)).toEqual([expect.stringContaining('映像の長さ')])
+    expect(validateProbe(withDurations('53.48', '53.20'), 53.48, LIMITS)).toEqual([expect.stringContaining('音声の長さ')])
   })
 
   it('映像だけ途中で切れていれば、全体の長さが合っていても挙げる', () => {
-    expect(validateProbe(withDurations('1.0', '77.5'), 77.48)).toEqual([expect.stringContaining('映像の長さが 1.00 秒')])
+    expect(validateProbe(withDurations('1.0', '77.5'), 77.48, LIMITS)).toEqual([expect.stringContaining('映像の長さが 1.00 秒')])
   })
 
-  it('140 秒・512 MB を超えたら挙げる', () => {
+  it('上限の秒数・MB を超えたら挙げる', () => {
     const long = { ...withDurations('141', '141'), format: { duration: '141', size: String(600 * 1024 * 1024) } }
-    expect(validateProbe(long, 141)).toEqual([expect.stringContaining('140'), expect.stringContaining('512')])
+    expect(validateProbe(long, 141, LIMITS)).toEqual([expect.stringContaining('140'), expect.stringContaining('512')])
   })
 
   it('ストリームの長さが読めなければ挙げる', () => {
-    expect(validateProbe(withDurations('N/A', '53.5'), 53.48)).toEqual(['映像の長さを読めません'])
+    expect(validateProbe(withDurations('N/A', '53.5'), 53.48, LIMITS)).toEqual(['映像の長さを読めません'])
   })
 })
 

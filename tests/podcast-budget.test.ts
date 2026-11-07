@@ -19,7 +19,7 @@ const config = PodcastConfigSchema.parse({
       { from: '2027-01-01', inputPerM: 1, outputPerM: 12 },
     ],
   },
-  video: { appUrl: 'https://example.com/talk-lab', style: 'flame', preset: 'x-landscape', bitrateMbps: 4 },
+  video: { appUrl: 'https://example.com/talk-lab', style: 'flame', preset: 'x-landscape', bitrateMbps: 4, maxDurationSec: 7200, maxSizeMb: 8192 },
 })
 
 function scriptOf(chars: number, episode = '2026-11-06-150018'): Script {
