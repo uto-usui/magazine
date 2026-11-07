@@ -1,54 +1,38 @@
 import { describe, it, expect } from 'vitest'
-import { contrast, coverDate, coverHtml, looksDifferent, paletteFor, pickPalette } from '../src/podcast/cover'
+import { coverDate, coverHtml, issueNumber } from '../src/podcast/cover'
 
-const EPISODES = Array.from({ length: 60 }, (_, i) => {
-  const d = new Date(Date.UTC(2026, 0, 1 + i * 3))
-  return `${d.toISOString().slice(0, 10)}-12${String(i % 60).padStart(2, '0')}00`
-})
+const FONTS = { leagueGothic: 'AAAA', spaceMonoBold: 'BBBB' }
 
-describe('contrast', () => {
-  it('WCAG のコントラスト比を返す', () => {
-    expect(contrast('#000000', '#FFFFFF')).toBeCloseTo(21)
-    expect(contrast('#FFFFFF', '#FFFFFF')).toBeCloseTo(1)
+describe('coverDate', () => {
+  it('エピソード ID を表示用の日付にする', () => {
+    expect(coverDate('2026-11-06-150018')).toBe('2026.11.06')
   })
 })
 
-describe('pickPalette', () => {
-  it('同じ号なら何度作っても同じ配色になる', () => {
-    expect(pickPalette('2026-11-06-150018')).toEqual(pickPalette('2026-11-06-150018'))
+describe('issueNumber', () => {
+  const tracked = ['2026-11-05-145838', '2026-01-08-211933', '2026-11-06-150018']
+
+  it('古い順に数えて何号目かを返す', () => {
+    expect(issueNumber('2026-01-08-211933', tracked)).toBe(1)
+    expect(issueNumber('2026-11-06-150018', tracked)).toBe(3)
   })
 
-  it('どの号でも、文字は 4.5:1、棒は 3:1、棒と円は 2:1 以上の差がある', () => {
-    for (const e of EPISODES) {
-      const p = pickPalette(e)
-      expect(contrast(p.text, p.background)).toBeGreaterThanOrEqual(4.5)
-      expect(contrast(p.accent, p.background)).toBeGreaterThanOrEqual(3)
-      expect(contrast(p.accent, p.second)).toBeGreaterThanOrEqual(2)
-    }
-  })
-})
-
-describe('paletteFor', () => {
-  it('続いた号どうしは、違う色に見える背景になる', () => {
-    const backgrounds = EPISODES.map((e) => paletteFor(e, EPISODES).background)
-    for (let i = 1; i < backgrounds.length; i++) {
-      expect(looksDifferent(backgrounds[i], backgrounds[i - 1])).toBe(true)
-    }
-  })
-
-  it('あとの号が増えても、それより前の号の配色は変わらない', () => {
-    const before = paletteFor(EPISODES[10], EPISODES.slice(0, 11))
-    expect(paletteFor(EPISODES[10], EPISODES)).toEqual(before)
+  it('git に入っていない号は null', () => {
+    expect(issueNumber('2026-09-09-230930', tracked)).toBeNull()
   })
 })
 
 describe('coverHtml', () => {
-  it('号の日付と、選んだ配色が入る', () => {
-    const p = pickPalette('2026-11-06-150018')
-    const html = coverHtml('2026-11-06-150018', p)
-    expect(coverDate('2026-11-06-150018')).toBe('2026/11/06')
-    expect(html).toContain('2026/11/06')
-    expect(html).toContain(p.background)
-    expect(html).toContain('音声：日本語')
+  it('号の情報と、埋め込んだ書体が入る', () => {
+    const html = coverHtml({ date: '2026.11.06', issueNo: 151, articleCount: 9 }, FONTS)
+    expect(html).toContain('NO. 151')
+    expect(html).toContain('2026.11.06')
+    expect(html).toContain('9 ARTICLES')
+    expect(html).toContain('JAPANESE AUDIO')
+    expect(html).toContain('base64,AAAA')
+  })
+
+  it('1本だけの号は単数形にする', () => {
+    expect(coverHtml({ date: '2026.11.06', issueNo: 1, articleCount: 1 }, FONTS)).toContain('1 ARTICLE<')
   })
 })

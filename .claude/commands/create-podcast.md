@@ -136,7 +136,7 @@ pnpm run podcast "$SCRIPT"
 
 ## 7. カバー画像を作って Release に上げる
 
-号ごとのカバー画像（3000×3000 の JPEG、日付入り）を作る。配色は号から決まり、前の号と違う色になる:
+号ごとのカバー画像（3000×3000 の JPEG）を作る。通し番号・日付・記事の本数が入る:
 
 ```bash
 pnpm run podcast:cover "$SCRIPT"

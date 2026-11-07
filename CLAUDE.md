@@ -24,7 +24,7 @@ pnpm run send-newsletter <file>  # ニュースレターをメール送信
 pnpm run podcast <script> [--dry-run]  # 台本から MP3 を作る（予算を超えるなら止まる）
 pnpm run podcast:usage           # 今月の TTS 使用額
 pnpm run podcast:check <script>  # 3行まとめの技術名・固有名が台本から抜けていないか
-pnpm run podcast:cover <script>  # 号ごとのカバー画像（配色は号から決まる）
+pnpm run podcast:cover <script>  # 号ごとのカバー画像（手元の podcasts/audio/ に書き出す）
 ```
 
 ## ディレクトリ構成
