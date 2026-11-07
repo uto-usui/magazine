@@ -60,13 +60,13 @@ SCRIPT="podcasts/scripts/${EPISODE}.json"
   "newsletter": "newsletters/2026-11-06-150018.md",
   "segments": [
     { "id": "opening", "title": "オープニング", "lines": [{ "speaker": "A", "text": "..." }] },
-    { "id": "a01", "title": "記事の短い題", "lines": [...] },
+    { "id": "a01", "title": "記事の短い題", "url": "https://example.com/article", "lines": [...] },
     { "id": "ending", "title": "エンディング", "lines": [...] }
   ]
 }
 ```
 
-記事のセグメントは `a01`, `a02`, ... と順に振る。1セグメントが1回の TTS リクエストになる。
+記事のセグメントは `a01`, `a02`, ... と、ニュースレターの詳細掲載の記事と同じ順に振る。1セグメントが1回の TTS リクエストになる。`url` にはその記事の見出しのリンク先をそのまま書く（Show Notes で、記事と元記事のリンクの対応を確かめるのに使う。読み上げはしない）。
 
 ## 3. 台本をチェックする
 
