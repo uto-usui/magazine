@@ -38443,7 +38443,55 @@
     "https://developers.cyberagent.co.jp/blog/archives/67259/": {
       "contentHash": "35031b2d46475f212fe3da9fbd2bed949782662d25ae125e3712ba1978776fba",
       "processedAt": "2026-11-06T05:38:58.857Z"
+    },
+    "https://hidde.blog/tpac-2026/": {
+      "contentHash": "ea2ca1802a3f3f574a01fa2f774eb78e64c404512537f0c551c8cb854771e8f4",
+      "processedAt": "2026-11-07T05:06:28.577Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pragmatic-summit-2027": {
+      "contentHash": "0a04805e589d202e0a84ab613fbbdeef8b92766d2a08b703065adaf1fe0db8e6",
+      "processedAt": "2026-11-07T05:06:29.027Z"
+    },
+    "https://smashingmagazine.com/2026/11/ux-insiders-community-in-house-ux-people/": {
+      "contentHash": "4fb5d5547b8bcc99ee1ed89bc4088a7c3810c44ac35fb300b81b137057e0b566",
+      "processedAt": "2026-11-07T05:06:29.754Z"
+    },
+    "https://css-tricks.com/css-tricks-redesign-preview/": {
+      "contentHash": "1f49da30a7aa06a163b182bed4b20fb83662bd0c27d814420822e2d2d6d4170d",
+      "processedAt": "2026-11-07T05:06:30.024Z"
+    },
+    "https://piccalil.li/the-index/205/": {
+      "contentHash": "6ac5cee1fa9715a40910061825913d2734fa6689ab82d94e229ee18633602dd5",
+      "processedAt": "2026-11-07T05:06:30.225Z"
+    },
+    "https://www.figma.com/blog/in-conversation-dylan-field-and-david-friedberg/": {
+      "contentHash": "83dbbd43287eb7b6f0c9a40982051934e4d052a0a556ec8b3f8e21bf9a6e07fc",
+      "processedAt": "2026-11-07T05:06:31.878Z"
+    },
+    "https://www.nngroup.com/articles/agent-harness/": {
+      "contentHash": "54c935db03b146269a5adc292dcfbb87b44168989b1dcec049cf534e593c2483",
+      "processedAt": "2026-11-07T05:06:32.532Z"
+    },
+    "https://www.nngroup.com/articles/usability-101-introduction-to-usability/": {
+      "contentHash": "c9840547765726257b8ef9d12f98d6aefa86cd70f638c81eb76ba94d01b7d01a",
+      "processedAt": "2026-11-07T05:06:32.953Z"
+    },
+    "https://www.nngroup.com/training/january/": {
+      "contentHash": "b11e7c10d7e21409cbc7c138b62a2f830adb0ccabebd3f9a8bb35190536141d1",
+      "processedAt": "2026-11-07T05:06:33.893Z"
+    },
+    "https://react.statuscode.com/issues/496": {
+      "contentHash": "fc0ca7616f04106b6bf7445ceeb01ab34068dba7681397da12da63ba4369d630",
+      "processedAt": "2026-11-07T05:06:34.563Z"
+    },
+    "https://blog.master.dev/true-or-false-in-css/": {
+      "contentHash": "fa9de3ffd263524f0288759c12e7f5a75dbeca79c2662ffe4a10922f3d3eef25",
+      "processedAt": "2026-11-07T05:06:34.790Z"
+    },
+    "https://glebbahmutov.com/blog/branded-phone-type/": {
+      "contentHash": "80614056f501142777655f1cf0f724aa6ed23810d70bc37d7401f1bddf6f1996",
+      "processedAt": "2026-11-07T05:06:35.272Z"
     }
   },
-  "lastRun": "2026-11-06T05:38:58.858Z"
+  "lastRun": "2026-11-07T05:06:35.272Z"
 }
