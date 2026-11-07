@@ -1,11 +1,9 @@
-import { execFile } from 'node:child_process'
 import { mkdir, readFile } from 'node:fs/promises'
 import { join } from 'node:path'
-import { promisify } from 'node:util'
 import { chromium } from 'playwright'
 import { coverDate, coverHtml, issueNumber } from './podcast/cover'
 import { AUDIO_DIR } from './podcast/index'
-import { loadScript } from './podcast/store'
+import { loadScript, loadTrackedEpisodes } from './podcast/store'
 
 const FONT_DIR = join(process.cwd(), 'assets', 'fonts')
 
@@ -21,13 +19,7 @@ async function main() {
   }
   const script = await loadScript(scriptPath)
 
-  // 通し番号は git で管理している号だけで数える。手元に未追跡のニュースレターがあっても番号がずれないように
-  const { stdout } = await promisify(execFile)('git', ['ls-files', 'newsletters'])
-  const tracked = stdout
-    .split('\n')
-    .map((f) => f.match(/^newsletters\/(\d{4}-\d{2}-\d{2}-\d{6})\.md$/)?.[1])
-    .filter((e): e is string => Boolean(e))
-  const issueNo = issueNumber(script.episode, tracked)
+  const issueNo = issueNumber(script.episode, await loadTrackedEpisodes())
   if (issueNo === null) {
     console.error(`${script.episode} のニュースレターが git に入っていないので、通し番号を決められません`)
     process.exit(1)

@@ -5,8 +5,9 @@ import { promisify } from 'node:util'
 import { chromium } from 'playwright'
 import { AUDIO_DIR } from './podcast/index'
 import { TimelineSchema } from './podcast/schema'
-import { loadPodcastConfig, loadScript } from './podcast/store'
-import { buildClipUrl, clipAction, estimateMb, planProblems, probe, renderClip, selectTargets, validateProbe } from './podcast/video'
+import { issueNumber } from './podcast/cover'
+import { loadPodcastConfig, loadScript, loadTrackedEpisodes } from './podcast/store'
+import { buildClipUrl, clipAction, estimateMb, planProblems, postText, probe, renderClip, selectTargets, validateProbe } from './podcast/video'
 
 const VIDEO_DIR = join(process.cwd(), 'podcasts', 'video')
 
@@ -106,6 +107,9 @@ async function main() {
     await browser.close()
   }
   console.log(`\n${results.join('\n')}`)
+
+  const post = postText(timeline, issueNumber(episode, await loadTrackedEpisodes()))
+  console.log(`\n投稿用:\n${post.title}\n${post.topics}`)
 }
 
 async function summary(path: string) {

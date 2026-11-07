@@ -1,5 +1,7 @@
+import { execFile } from 'node:child_process'
 import { mkdir, readFile, rename, rm, stat, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
+import { promisify } from 'node:util'
 import { load } from 'js-yaml'
 import {
   LedgerSchema,
@@ -19,6 +21,18 @@ export async function loadPodcastConfig(path = join(process.cwd(), 'config', 'po
 
 export async function loadScript(path: string): Promise<Script> {
   return ScriptSchema.parse(JSON.parse(await readFile(path, 'utf-8')))
+}
+
+/**
+ * git で管理しているニュースレターの号（通し番号を数えるもと）。
+ * 手元に未追跡のニュースレターがあっても番号がずれないように、git に入っているものだけで数える
+ */
+export async function loadTrackedEpisodes(): Promise<string[]> {
+  const { stdout } = await promisify(execFile)('git', ['ls-files', 'newsletters'])
+  return stdout
+    .split('\n')
+    .map((f) => f.match(/^newsletters\/(\d{4}-\d{2}-\d{2}-\d{6})\.md$/)?.[1])
+    .filter((e): e is string => Boolean(e))
 }
 
 export async function loadLedger(path = LEDGER_PATH): Promise<Ledger> {
