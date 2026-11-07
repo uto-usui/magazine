@@ -1,6 +1,6 @@
 ---
 allowed-tools: [Read, Write, Glob, Bash, Agent]
-description: ニュースレターから15分の音声バージョン（会話台本 → Gemini TTS → MP3）と、記事ごとの X 投稿用 MP4 を作る
+description: ニュースレターから15分の音声バージョン（会話台本 → Gemini TTS → MP3）と、X 投稿用の MP4 を作る
 ---
 
 # 音声バージョンの作成
@@ -150,16 +150,18 @@ MP3 はリポジトリに入れず、GitHub の Release `podcast` に置く。�
 gh release upload podcast "podcasts/audio/${EPISODE}.mp3" --clobber
 ```
 
-## 8. 記事ごとの動画を作る
+## 8. 動画を作る
 
-X には音声だけでは投稿できないので、記事のセグメントごとに MP4 を作る。エンコードは reel の talk-lab（`config/podcast.yml` の `video.appUrl`）がブラウザの中で行い、このコマンドはヘッドレスブラウザで MP3 を渡して書き出された MP4 を受け取る。
+X には音声だけでは投稿できないので、全編を1本の MP4 にする。エンコードは reel の talk-lab（`config/podcast.yml` の `video.appUrl`）がブラウザの中で行い、このコマンドはヘッドレスブラウザで MP3 を渡して書き出された MP4 を受け取る。
 
 ```bash
 pnpm run podcast:video "$SCRIPT"
 ```
 
-- `podcasts/video/${EPISODE}/a01.mp4` のように記事ごとに書き出す。h264 + aac か、長さがタイムラインと 0.2 秒以内で合うか、X の上限（140 秒・512 MB）に収まるかを ffprobe で確かめ、外れたら止まる
-- 作り終えた MP4 は飛ばすので、途中で止まっても同じコマンドで続きから作れる。MP3 かタイムラインのほうが新しい MP4 は作り直す。`--only a03` で挙げた記事は必ず作り直し、全部作り直すなら `--force`
+- `podcasts/video/${EPISODE}/full.mp4` に書き出す。10分ほどの号で、書き出しは2分弱、大きさは 300MB 前後になる
+- 記事ごとのクリップ（`a01.mp4` など）も欲しいときは `--clips` を付ける。特定のものだけなら `--only full,a03`
+- h264 + aac か、長さがタイムラインと 0.2 秒以内で合うか、X の上限（`config/podcast.yml` の `video.maxDurationSec` / `maxSizeMb`。X Premium に合わせてある）に収まるかを ffprobe で確かめ、外れたら止まる
+- 作り終えた MP4 は飛ばすので、途中で止まっても同じコマンドで続きから作れる。MP3 かタイムラインのほうが新しい MP4 は作り直す。`--only` で挙げたものは必ず作り直し、全部作り直すなら `--force`
 - タイムライン（`podcasts/audio/${EPISODE}.timeline.json`）は `pnpm run podcast` で MP3 を作ったときにだけ書き出される。ない場合は動画を作らずに、そのことを報告する
 - 動画は git にも Release にも入れない。X への投稿は手で行う
 
