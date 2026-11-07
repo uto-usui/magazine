@@ -31,3 +31,8 @@ export function needsUpload(
 ): boolean {
   return !assets.some((a) => a.name === local.name && a.digest === `sha256:${local.sha256}`)
 }
+
+/** X に投稿する文。Show Notes の末尾に、MP3 と MP4 を置いた Release へのリンクを足す */
+export function xPost(showNotes: string, releaseUrl: string): string {
+  return `${showNotes.trimEnd()}\n音声（MP3）と動画（MP4）: ${releaseUrl}\n`
+}

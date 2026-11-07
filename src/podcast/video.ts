@@ -58,16 +58,13 @@ export function selectTargets(timeline: Timeline, opts: { only?: string[]; clips
 }
 
 /**
- * X に投稿するときのタイトルと話題の一覧。タイトルは番組のオープニングで言う「番組名・何月何日号」に、
+ * 号のタイトル（X の投稿・Release の題）。番組のオープニングで言う「番組名・何月何日号」に、
  * カバー画像と同じ通し番号を足したもの。番号が決まらなければ付けない
  */
-export function postText(timeline: Timeline, issueNo: number | null): { title: string; topics: string } {
+export function episodeTitle(timeline: Timeline, issueNo: number | null): string {
   const [, month, day] = timeline.episode.slice(0, 10).split('-').map(Number)
   const no = issueNo === null ? '' : `（No.${issueNo}）`
-  return {
-    title: `UXエンジニアリング・マガジン ${month}月${day}日号${no}`,
-    topics: articleSegments(timeline).map((s) => s.title).join(' ／ '),
-  }
+  return `UXエンジニアリング・マガジン ${month}月${day}日号${no}`
 }
 
 /** エンコード前に分かる問題（X に上げられない長さ） */

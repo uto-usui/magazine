@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import type { Timeline } from '../src/podcast/schema'
-import { articleSegments, buildClipUrl, clipAction, estimateMb, exportTimeoutMs, fullSegment, planProblems, postText, selectTargets, validateProbe } from '../src/podcast/video'
+import { articleSegments, buildClipUrl, clipAction, estimateMb, exportTimeoutMs, fullSegment, planProblems, episodeTitle, selectTargets, validateProbe } from '../src/podcast/video'
 
 const VIDEO = { style: 'flame', preset: 'x-landscape', bitrateMbps: 4 }
 // 通常アカウントの上限。テストでは境界を見やすい小さい値を使う
@@ -186,15 +186,12 @@ describe('clipAction', () => {
   })
 })
 
-describe('postText', () => {
-  it('番組名・何月何日号・通し番号と、記事の題の一覧', () => {
-    expect(postText(timeline, 151)).toEqual({
-      title: 'UXエンジニアリング・マガジン 11月6日号（No.151）',
-      topics: '古い DESIGN.md と AI ／ AI チャットのアクセシビリティ ／ AI エージェントの止めどころ',
-    })
+describe('episodeTitle', () => {
+  it('番組名・何月何日号・通し番号', () => {
+    expect(episodeTitle(timeline, 151)).toBe('UXエンジニアリング・マガジン 11月6日号（No.151）')
   })
 
   it('通し番号が決まらなければ付けない', () => {
-    expect(postText(timeline, null).title).toBe('UXエンジニアリング・マガジン 11月6日号')
+    expect(episodeTitle(timeline, null)).toBe('UXエンジニアリング・マガジン 11月6日号')
   })
 })

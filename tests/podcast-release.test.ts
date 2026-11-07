@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { episodesFromTags, needsUpload, releaseTag, shouldBeLatest } from '../src/podcast/release'
+import { episodesFromTags, needsUpload, releaseTag, shouldBeLatest, xPost } from '../src/podcast/release'
 
 describe('releaseTag / episodesFromTags', () => {
   it('号の ID に podcast- を付けたタグにし、タグから号の ID に戻せる', () => {
@@ -30,5 +30,13 @@ describe('needsUpload', () => {
 
   it('GitHub がハッシュを返さないファイルは上げ直す', () => {
     expect(needsUpload({ name: '2026-11-06-150018.mp3', sha256: 'aaa' }, [{ name: '2026-11-06-150018.mp3', digest: null }])).toBe(true)
+  })
+})
+
+describe('xPost', () => {
+  it('Show Notes の末尾に Release へのリンクを足す', () => {
+    expect(xPost('題の音声版です。\n\n0:00 オープニング\n\nニュースレター: https://example.com/n.md\n', 'https://example.com/r')).toBe(
+      '題の音声版です。\n\n0:00 オープニング\n\nニュースレター: https://example.com/n.md\n音声（MP3）と動画（MP4）: https://example.com/r\n'
+    )
   })
 })

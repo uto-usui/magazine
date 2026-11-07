@@ -7,7 +7,7 @@ import { AUDIO_DIR } from './podcast/index'
 import { TimelineSchema } from './podcast/schema'
 import { ensureShowNotes } from './podcast/shownotes'
 import { loadScript, loadTrackedEpisodes, scriptUrlsOf } from './podcast/store'
-import { postText } from './podcast/video'
+import { episodeTitle } from './podcast/video'
 
 /**
  * 号の Show Notes を podcasts/shownotes/<episode>.md に書き出して表示する。
@@ -23,7 +23,7 @@ async function main() {
   const script = await loadScript(scriptPath)
   const { episode } = script
   const timeline = TimelineSchema.parse(JSON.parse(await readFile(join(AUDIO_DIR, `${episode}.timeline.json`), 'utf-8')))
-  const { title } = postText(timeline, issueNumber(episode, await loadTrackedEpisodes()))
+  const title = episodeTitle(timeline, issueNumber(episode, await loadTrackedEpisodes()))
   const { GITHUB_TOKEN: _, ...env } = process.env
   const repoUrl = (await promisify(execFile)('gh', ['repo', 'view', '--json', 'url', '-q', '.url'], { env })).stdout.trim()
 

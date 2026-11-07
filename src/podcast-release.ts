@@ -6,11 +6,11 @@ import { basename, join } from 'node:path'
 import { promisify } from 'node:util'
 import { issueNumber } from './podcast/cover'
 import { AUDIO_DIR } from './podcast/index'
-import { episodesFromTags, needsUpload, releaseTag, shouldBeLatest } from './podcast/release'
+import { episodesFromTags, needsUpload, releaseTag, shouldBeLatest, xPost } from './podcast/release'
 import { TimelineSchema } from './podcast/schema'
 import { ensureShowNotes } from './podcast/shownotes'
 import { loadPodcastConfig, loadScript, loadTrackedEpisodes, scriptUrlsOf } from './podcast/store'
-import { fullSegment, postText, probe, validateProbe } from './podcast/video'
+import { fullSegment, episodeTitle, probe, validateProbe } from './podcast/video'
 
 const run = promisify(execFile)
 const VIDEO_DIR = join(process.cwd(), 'podcasts', 'video')
@@ -54,7 +54,7 @@ async function main() {
   }
 
   const issueNo = issueNumber(episode, await loadTrackedEpisodes())
-  const { title } = postText(timeline, issueNo)
+  const title = episodeTitle(timeline, issueNo)
   const repoUrl = (await gh(['repo', 'view', '--json', 'url', '-q', '.url'])).stdout.trim()
   // Release の本文は Show Notes のファイル。手で直したものもそのまま使う
   const shownotes = await ensureShowNotes({ episode, title, timeline, repoUrl, scriptUrls: scriptUrlsOf(script) })
@@ -118,7 +118,9 @@ async function main() {
       await rm(dir, { recursive: true, force: true })
     }
   }
-  console.log(`${repoUrl}/releases/tag/${tag}`)
+  const releaseUrl = `${repoUrl}/releases/tag/${tag}`
+  console.log(releaseUrl)
+  console.log(`\nX 投稿用:\n${xPost(shownotes.text, releaseUrl)}`)
 }
 
 async function sha256(path: string): Promise<string> {

@@ -179,7 +179,7 @@ pnpm run podcast:release "$SCRIPT"
 
 - MP3 の長さと、Release の URL（`https://github.com/uto-usui/magazine/releases/tag/podcast-${EPISODE}`）と、カバー画像のパス（`podcasts/audio/${EPISODE}.jpg`）
 - 動画の本数と、1本ずつのパス・長さ・大きさ（`pnpm run podcast:video` の最後に出る一覧）
-- X に投稿するときのタイトルと話題の一覧（`pnpm run podcast:video` の最後に「投稿用:」として出る）
+- X に投稿する文（`pnpm run podcast:release` の最後に「X 投稿用:」として出る。Show Notes に Release へのリンクを足したもの）。投稿は全編の MP4 を付けて手で行う
 - この回の料金と、今月の使用額（`pnpm run podcast:usage` の出力）
 - 手順3のチェックで直した箇所と、足さないと決めた名前
 - 手順4で直した日本語（元の文 → 直した文）
