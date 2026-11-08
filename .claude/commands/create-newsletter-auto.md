@@ -127,7 +127,7 @@ git commit -m "docs: Add newsletter for ${TARGET_DATE}"
 
 ## 文体・表記ルール
 
-**書き始める前に `ai/docs/editor-voice.md`（書き手の声と感想の出どころ）を読み、感想・私見はその声で書くこと。**
+**書き始める前に `ai/docs/editor-voice.md`（編集部としての書き方と、解釈の着眼点）を読み、解釈はその書き方で書くこと。**
 
 **必ず `ai/docs/style-guide.md` を読み込み、スタイルガイドに従って文章を生成すること。**
 
