@@ -1,0 +1,57 @@
+articles_dir=2026-11-08
+exit_code=0
+timestamp_utc=2026-11-08T05:01:58Z
+
+---- issue lines ----
+9:Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+13:❌ Playwright failed for Mercari Engineering: HTTP 403
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 75 feeds
+📡 Fetching RSS feeds...
+🤖 Bot protection detected for Mercari Engineering, trying Playwright...
+Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+Line: 32
+Column: 133
+Char: =
+❌ Playwright failed for Mercari Engineering: HTTP 403
+📰 Found 5810 total articles
+✨ New articles: 13
+🗓️ Skipped (published more than 30 days ago): 389
+⏭️ Skipped (already processed): 561
+📥 Processing: Reflections from TPAC 2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-08/reflections-from-tpac-2026.md
+📥 Processing: The Pragmatic Summit 2027
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-08/the-pragmatic-summit-2027.md
+📥 Processing: A New Community For In-House UX People
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-08/a-new-community-for-in-house-ux-people.md
+📥 Processing: RSS Club: CSS-Tricks Redesign Preview
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-08/rss-club-css-tricks-redesign-preview.md
+📥 Processing: The Index: Issue #205
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-08/the-index-issue-205.md
+📥 Processing: In conversation: Dylan Field and David Friedberg on the human role in creating with AI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-08/in-conversation-dylan-field-and-david-friedberg-on-the-human-role-in-creating-with-ai.md
+📥 Processing: LDRライクなRSSリーダのIrodrをReact 19 + Vite+で書き直して、iPhone Duoにも対応した
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-08/ldrrssirodrreact-19-viteiphone-duo.md
+📥 Processing: Agent Harness: Definition
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-08/agent-harness-definition.md
+📥 Processing: Usability 101: Introduction to Usability
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-08/usability-101-introduction-to-usability.md
+📥 Processing: UX Conference January Announced (Jan 19 - Feb 1)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-08/ux-conference-january-announced-jan-19-feb-1.md
+📥 Processing: Redux Toolkit's road to 3.0
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-08/redux-toolkits-road-to-30.md
+📥 Processing: true or false in CSS
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-08/true-or-false-in-css.md
+📥 Processing: Branded Phone Type
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-08/branded-phone-type.md
+
+📊 Summary:
+   ✅ Success: 13
+   ❌ Errors: 0
+🏁 Done!
