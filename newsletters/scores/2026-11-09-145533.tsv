@@ -1,0 +1,24 @@
+url	feed	lang	A	B	C	D	total	selected	note
+https://efcl.info/2026/11/07/irodr-2/	Web Scratch	ja	2	2	2	2	8	yes	キー操作の応答とビルドサイズを同条件で計測、Viewport Segments API の実装まで書いてある
+https://seanvoisen.com/writing/design-system-ai-readiness/	Sidebar	en	2	2	1	2	7	yes	台帳の案は書き手自身が「試していない」と断っているのでC=1
+https://www.nngroup.com/articles/agent-harness/	Nielsen Norman Group	en	2	2	1	1	6	yes	定義の記事で計測はないのでC=1。概念自体はエンジニアには既知なのでD=1
+https://blog.master.dev/true-or-false-in-css/	Frontend Masters Blog	en	1	2	1	2	6	yes	@property の true/false キーワードと style query の組み合わせは新しいのでD=2
+https://glebbahmutov.com/blog/branded-phone-type/	Gleb Bahmutov	en	1	2	1	1	5	yes	前回の branded types 記事の続きなのでD=1
+https://uxdesign.cc/otherwise-youre-just-a-machine-a9d3b21179b5	Sidebar	en	1	2	1	1	5	yes	個々の助言は聞いた話に近いが、AI時代に何を鍛えるかの問いがあるのでB=2
+https://hidde.blog/tpac-2026/	Hidde de Vries	en	1	1	1	1	4	yes	参加報告で持ち帰れる手法は少ない。Agentic Web WG と W3C の AI ポリシー案の動きは読者に関係する
+https://www.nngroup.com/articles/usability-101-introduction-to-usability/	Nielsen Norman Group	en	1	1	2	0	4	yes	定番記事の書き直し。AI の節以外は既知なのでD=0
+https://www.figma.com/blog/in-conversation-dylan-field-and-david-friedberg/	Figma Blog	en	1	1	0	1	3	yes	対談の抜粋で製品の紹介も混じる。主張の裏づけがないのでC=0
+https://developers.cyberagent.co.jp/blog/archives/67361/	CyberAgent Developers Blog	ja	0	2	1	1	4	no	LLM の実行履歴を集める基盤の話で、読者の仕事との近さがないのでA=0
+https://edge-aura.js.org/	Sidebar	en	-	-	-	-	-	no	足切り: ライブラリのデモページで本文がない
+https://bradfrost.com/links/post/in-your-face-meeting-reminder-app-for-mac-windows-iphone-and-ipad-in-your-face/	Brad Frost	en	-	-	-	-	-	no	足切り: 本文が取れていない
+https://bradfrost.com/blog/post/playing-my-world-helsinki-cathedral/	Brad Frost	en	-	-	-	-	-	no	足切り: 本文が数行
+https://piccalil.li/the-index/205/	Piccalilli	en	-	-	-	-	-	no	足切り: リンク集
+https://newsletter.pragmaticengineer.com/p/the-pragmatic-summit-2027	The Pragmatic Engineer	en	-	-	-	-	-	no	足切り: イベント告知
+https://css-tricks.com/css-tricks-redesign-preview/	css-tricks	en	-	-	-	-	-	no	足切り: リニューアルの予告。本編は後日公開
+https://a11yweekly.com/issue/525/	Accessibility Weekly	en	-	-	-	-	-	no	足切り: ダイジェスト号。一次記事 https://heydonworks.com/article/i-am-not-an-accessibility-specialist-hire-me/
+https://react.statuscode.com/issues/496	React Status	en	-	-	-	-	-	no	足切り: ダイジェスト号。一次記事 https://github.com/reduxjs/redux-toolkit/discussions/5536
+https://stephaniewalter.design/blog/pixels-of-the-week-november-8-2026/	Stephanie Walter	en	-	-	-	-	-	no	足切り: ダイジェスト号。一次記事 https://adrianroselli.com/2026/08/should-a-dialog-close-when-clicked-outside.html
+https://tech.smarthr.jp/entry/2026/11/09/105636	SmartHR Tech Blog	ja	-	-	-	-	-	no	足切り: 登壇の告知。結果の数字は当日に持ち越し
+https://smashingmagazine.com/2026/11/ux-insiders-community-in-house-ux-people/	Smashing Magazine	en	-	-	-	-	-	no	足切り: 有料コミュニティの宣伝
+https://www.nngroup.com/training/january/	Nielsen Norman Group	en	-	-	-	-	-	no	足切り: 講座の告知
+https://bit.ly/side-mag5	Sidebar	en	-	-	-	-	-	no	足切り: 本文が取れていない（クッキー同意の表示だけ）
