@@ -1,0 +1,59 @@
+articles_dir=2026-11-09
+exit_code=0
+timestamp_utc=2026-11-09T05:11:33Z
+
+---- issue lines ----
+9:❌ Playwright failed for Mercari Engineering: HTTP 403
+10:Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-09/what-does-design-system-ai-readiness-mean-anyway.md
+📥 Processing: edge-aura
+🔄 Readability failed, trying Playwright: https://edge-aura.js.org/
+✅ Playwright successfully fetched: https://edge-aura.js.org/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-09/edge-aura.md
+📥 Processing: The Pragmatic Summit 2027
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-09/the-pragmatic-summit-2027.md
+📥 Processing: In Your Face - Meeting reminder app for Mac, Windows, iPhone, and iPad | In Your Face
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-09/in-your-face-meeting-reminder-app-for-mac-windows-iphone-and-ipad-in-your-face.md
+📥 Processing: Playing My World: Helsinki Cathedral
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-09/playing-my-world-helsinki-cathedral.md
+📥 Processing: A New Community For In-House UX People
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-09/a-new-community-for-in-house-ux-people.md
+📥 Processing: RSS Club: CSS-Tricks Redesign Preview
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-09/rss-club-css-tricks-redesign-preview.md
+📥 Processing: The Index: Issue #205
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-09/the-index-issue-205.md
+📥 Processing: In conversation: Dylan Field and David Friedberg on the human role in creating with AI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-09/in-conversation-dylan-field-and-david-friedberg-on-the-human-role-in-creating-with-ai.md
+📥 Processing: LDRライクなRSSリーダのIrodrをReact 19 + Vite+で書き直して、iPhone Duoにも対応した
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-09/ldrrssirodrreact-19-viteiphone-duo.md
+📥 Processing: SmartHRはTechRAMEN 2026 Conferenceに協賛し、1名が登壇します！ #techramen26conf
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.smarthr.jp/entry/2026/11/09/105636
+✅ Playwright successfully fetched: https://tech.smarthr.jp/entry/2026/11/09/105636
+⚠️ Content too short (16 chars < 200): https://tech.smarthr.jp/entry/2026/11/09/105636
+⚠️ Using RSS content as fallback for: https://tech.smarthr.jp/entry/2026/11/09/105636
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-09/smarthrtechramen-2026-conference1-techramen26conf.md
+📥 Processing: Agent Harness: Definition
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-09/agent-harness-definition.md
+📥 Processing: Usability 101: Introduction to Usability
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-09/usability-101-introduction-to-usability.md
+📥 Processing: UX Conference January Announced (Jan 19 - Feb 1)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-09/ux-conference-january-announced-jan-19-feb-1.md
+📥 Processing: Pixels of the Week – November 8, 2026
+Could not parse CSS stylesheet
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-09/pixels-of-the-week-november-8-2026.md
+📥 Processing: Redux Toolkit's road to 3.0
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-09/redux-toolkits-road-to-30.md
+📥 Processing: true or false in CSS
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-09/true-or-false-in-css.md
+📥 Processing: Branded Phone Type
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-09/branded-phone-type.md
+📥 Processing: 【LLMOps】FDEの開発を支えるトレーシング基盤の開発
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-09/llmopsfde.md
+
+📊 Summary:
+   ✅ Success: 23
+   ❌ Errors: 0
+🏁 Done!
