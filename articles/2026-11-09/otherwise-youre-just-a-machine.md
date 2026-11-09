@@ -1,0 +1,260 @@
+---
+title: "Otherwise you’re just a machine"
+source: "https://uxdesign.cc/otherwise-youre-just-a-machine-a9d3b21179b5"
+publishedDate: "2026-11-09"
+category: "design"
+feedName: "Sidebar"
+fetchedBy: "playwright"
+---
+
+## AI is getting better at design. Designers should too.
+
+[
+
+![Nil Thyrion](https://miro.medium.com/v2/resize:fill:64:64/1*QQltlfW64A66XCJVbxf7ow.png)
+
+
+
+](https://medium.com/@nil.thyrion?source=post_page---byline--a9d3b21179b5-----------------------------------------)
+
+19 min read
+
+1 day ago
+
+Press enter or click to view image in full size
+
+![Torn notebook paper listing eight design skills: Craft, Taste, Instinct, Creativity, System, Method, Ingenuity and Business.](https://miro.medium.com/v2/resize:fit:1000/1*DPDKtw_Qr-hC8-5aISbtwg.png)
+
+The skills behind the work.
+
+I spend a lot of time looking at design work. Reviewing portfolios. Hiring designers. Working with design leaders, seniors and juniors. Sitting in critiques. Watching people explain how they arrived at a solution. And over time, you start to notice what separates the really good ones.
+
+AI is making that difference both harder to see and more important. A designer can turn an idea into a polished prototype in minutes. They can generate interfaces, write copy, synthesise research, explore directions, vibe code a working experience, and iterate at a speed that would have been unimaginable only a few years ago. That is extraordinary. And to be clear: this is not an argument against any of it. AI literacy is indisputably part of the job.
+
+> But something has been bothering me. Recently, reviewing work with my own team, I found myself thinking: I would rather see a great idea drawn on a piece of paper than a beautifully vibe-coded prototype solving the wrong problem.
+
+One shows me how well you can produce. The other shows me how well you can think. And as the quality of what anyone can produce rises, that distinction matters more. The tool should accelerate your thinking. It shouldn’t replace it.
+
+Press enter or click to view image in full size
+
+![Close-up of María Lorena Ramírez’s feet in simple sandals on a dusty trail, beneath the hem of a red patterned skirt.](https://miro.medium.com/v2/resize:fit:1000/1*MKPB39_422qj0rmWtX503g.png)
+
+The sandals worn by María Lorena Ramírez during competition. Credit: Netflix.
+
+Strangely, one of the best illustrations of this has nothing to do with design. In 2017, María Lorena Ramírez, a Rarámuri runner from Mexico, won a 50-kilometre ultramarathon wearing traditional clothing and huarache sandals. Around her were runners equipped for modern endurance sport. Specialist shoes. Technical clothing. Equipment designed to improve performance. Lorena didn’t prove that those things were useless. She proved something much more interesting. The tools can improve the runner. They cannot make the runner.
+
+Underneath the equipment still has to be endurance. Judgement. Instinct. Discipline. Thousands of hours of capability built long before race day. I think design is similar. Our tools are getting extraordinarily good. We should get extraordinarily good at using them. But there still has to be a designer underneath. That is the designer I am interested in.
+
+## **Craft: Turning knowledge into mastery**
+
+I once worked with a designer who knew an extraordinary amount about design. He read constantly. He knew the latest books, frameworks, UX principles and human-centred design vocabulary. You could have a great conversation with him about almost anything in our field. But when it came to doing the work, something was missing. The depth of his knowledge simply wasn’t reflected in the quality of what he made.
+
+Knowing about design is not the same as being good at design. I think that difference gets to the heart of craft. For me, craft is literacy multiplied by dexterity. Literacy is knowing your discipline: its foundations, principles, rules, references and techniques. Dexterity is being able to put that knowledge into practice: to make decisions, solve problems and consistently produce quality. You need both.
+
+Press enter or click to view image in full size
+
+![The formula “Craft = Literacy × Dexterity” centered in black text on a light grey background.](https://miro.medium.com/v2/resize:fit:1000/1*N91Tz_EJRdONHVaP3_rYXA.png)
+
+Craft is what happens when knowledge becomes ability.
+
+There is a reason mastery takes time. In 1993, psychologist Anders Ericsson and his colleagues studied violin students at a music academy in Berlin. The strongest performers had accumulated thousands of hours of deliberate practice: playing, listening, correcting and playing again. The research would later inspire the famous “10,000-hour rule”, although Ericsson never claimed there was a magic number. What mattered was the practice.
+
+> Mastery is built over time, through repetition, correction and refinement. You can learn to read the notes relatively quickly. Making the violin sing is something else entirely.
+
+And that’s what was missing in the designer I worked with. He could read the score. He struggled to play the violin. You don’t develop craft by knowing more about design. You develop it by designing. By making something, looking critically at what you made, correcting it and making it again. By paying attention to the details nobody asked you to care about. By doing it often enough that knowledge starts becoming ability. The tools will change. They always have. And they will make it easier to produce things that look finished. But finished is not the same as good, and production is not the same as mastery. Know your craft. Then practise it until you master it.
+
+## **Taste: Knowing what good looks like here**
+
+Industrial designer Raymond Loewy spent his career trying to understand a contradiction in human behaviour: we are attracted to what is new, but suspicious of what is too new. He called his answer MAYA, Most Advanced Yet Acceptable. Push too little and the work feels familiar. Push too far and people reject it. Somewhere between the two is a moving line. That line, for me, is taste.
+
+Press enter or click to view image in full size
+
+![Collage of industrial designer Raymond Loewy surrounded by examples of his work, including locomotives, cars, a Greyhound bus, refrigerator, aircraft and brand identities.](https://miro.medium.com/v2/resize:fit:1000/1*Cp5ZcUv0cM4ifwpONSgZ3g.png)
+
+Raymond Loewy and a selection of his work. Image via Boris Popovschi / Medium. Original artwork credit unknown.
+
+I started developing mine very early in my career. My first design jobs were for small businesses around the village where I grew up: a logo, a brochure, whatever needed designing. I remember spending an entire day working on a logo, looking at it at the end of the day, then comparing it with the best work I knew. Mine wasn’t good enough. So I would go home and keep working. Nobody was asking me to compete with the best designers in the world. The client probably wasn’t expecting it either. But I was. I was training my eye before I really knew that was what I was doing.
+
+> You develop taste by feeding it. Great design. Bad design. Art, architecture, fashion, film, typography, products, interfaces.
+
+You look, compare, question and criticise. You benchmark yourself against the best. But exposure alone isn’t taste. Knowing what Apple does doesn’t mean copying Apple. Knowing what is trending doesn’t mean following the trend. Taste is knowing what good looks like here.
+
+I still experience that tension regularly when presenting work. Bring something too close to what people already know and the reaction is: _What’s new? We’ve seen this before_. Push it too far and you get the opposite: _No. This isn’t us_. The work is finding the cursor between the two. And that cursor moves with the audience, the culture, the product and the moment. That’s why taste isn’t simply preference. It is judgement. Knowing what good looks like, knowing what belongs, and knowing how far to push it.
+
+## Instinct: The judgement you can’t yet explain
+
+When I was studying for my master’s in graphic design, I attended a class with Olivier Nineuil, a French typographer who has created typefaces for major brands, including Air France. He told us that during a client briefing, while everyone was talking, he would sometimes make a tiny sketch in the corner of his notebook. Then came the real work: weeks of exploration, drawing, questioning and refining. And quite often, the final direction would end up remarkably close to that first little sketch. I remember finding that fascinating. How could someone see the answer before the process had even begun?
+
+Press enter or click to view image in full size
+
+![French typographer Olivier Nineuil presenting in front of enlarged sketches and construction drawings of letterforms.](https://miro.medium.com/v2/resize:fit:1000/1*kTVw0r8oNmLBR3KdrkqtWw.png)
+
+Olivier Nineuil and the craft behind type design. Credit: Olivier Nineuil / Typofacto.com.
+
+Years later, leading design teams, I sometimes see the opposite behaviour. “_But we haven’t done the research yet._” I hear it as though having an idea before interviewing users is somehow bad design practice. I categorically disagree. Of course, research is essential. Talk to users. Observe them. Challenge what you think you know. But don’t go to research empty-handed. Bring an idea. Bring a hypothesis. Bring a conviction worth testing. Evidence should challenge your judgement, not replace the responsibility to have one.
+
+> Somewhere along the way, I think parts of modern UX have taught designers to be suspicious of their own judgement.
+
+We have become so concerned with proving every decision that we sometimes forget we are also expected to make decisions. The point is not to be right from the beginning. The point is to have a point of view, and the humility to change it when the evidence tells you otherwise. And not every gut feeling deserves the same trust. Instinct develops through practice, exposure, mistakes, feedback and years of making decisions. Instinct is experience operating faster than explanation. Trust your gut. But listen to users.
+
+Which brings me back to Olivier Nineuil and that little sketch. What looked almost magical to me as a student was not magic. It was a lifetime of looking, drawing, questioning and learning, compressed into a few pencil strokes. The first sketch wasn’t the product of a few minutes. It was the product of all the years that came before it.
+
+## **Creativity: Making unexpected connections**
+
+In 1995, Pixar released Toy Story, the world’s first fully computer-animated feature film. It brought together two worlds that had largely developed separately: computer graphics and the art of storytelling. Pixar’s achievement wasn’t simply a better tool. It was a new way to make films. And I think that’s a useful way to understand creativity. We often talk about creativity as inventing something from nothing. But many of the most original ideas come from connecting things that already exist in ways nobody had thought to connect before.
+
+Press enter or click to view image in full size
+
+![Woody and Buzz Lightyear standing together in Andy’s bedroom in Pixar’s Toy Story.](https://miro.medium.com/v2/resize:fit:1000/1*thBjkGAt4oBZkrvNIOBh_A.png)
+
+Toy Story (1995), the world’s first fully computer-animated feature film. Credit: Pixar.com.
+
+Advertising executive James Webb Young described this decades ago: new ideas emerge from new combinations of existing elements. That has an important implication for designers. The quality of the connections we make depends on what we expose ourselves to. Yet when we’re asked to solve a problem, one of the first things we often do is benchmark competitors. We study similar products, familiar patterns and established solutions. There is value in that.
+
+> But if we all start with the same references, ask the same questions and look in the same places, we shouldn’t be surprised when we arrive at the same answers.
+
+I want designers to look elsewhere. If you’re working on a banking experience, perhaps the most interesting inspiration won’t come from another bank. It might come from a game, a museum, a restaurant or the way an airport manages complex journeys. The point isn’t to borrow something because it looks interesting. It’s to understand the principle behind it and ask whether it could solve a completely different problem. Sometimes the most creative contribution isn’t a new solution at all. It’s recognising that we’ve been asking the wrong question.
+
+Pixar didn’t invent computers. It didn’t invent animation or storytelling. It connected those things and helped create a new form of filmmaking. That’s what creativity needs: curiosity, different references and the willingness to look beyond the obvious. Don’t just become better at looking for answers. Become more curious about where you look. Because if you only look where everyone else is looking, don’t be surprised when you create what everyone else is creating.
+
+## **System: Seeing the whole, not just the screen**
+
+An old parable tells of three stonecutters working on the same building. A traveller asks the first what he is doing. “_I’m earning a living_,” he replies. The second takes pride in his workmanship: he wants to be the best stonecutter in the country. The third looks up and says, “_I’m building a cathedral_.” The story appears in Peter Drucker’s The Practice of Management. All three are doing essentially the same work. What changes is how much of the whole they can see.
+
+Press enter or click to view image in full size
+
+![Illustration of three stonecutters working on blocks of stone in front of a partially built cathedral.](https://miro.medium.com/v2/resize:fit:1000/1*dgqyGdlcvXxLBIhlrhX04w.png)
+
+Three stonecutters, three ways of seeing the same work. Credit: Unknown.
+
+I think about that story when I look at the work happening in a design team. Imagine a designer asked to create an icon. They explore a few directions, refine the details and deliver a beautiful icon. There is nothing wrong with that. I want designers who care about every curve, every proportion and every pixel. But I also want someone to stop and ask, “_Hang on. Why do we need this icon in the first place?_” Maybe it duplicates something that already exists. Maybe the problem is the way the experience has been organised. Maybe the iconography system itself needs to evolve. If all you ask is for a better icon, you may get a better icon. You may never discover that you didn’t need one.
+
+> A designer should be able to change altitude. At one level, there is the icon. Zoom out and you see the iconography system, then the design language, the product and the organisation behind it. Keep going and you find the technology, operations, policies and people that make the experience possible.
+
+But seeing the bigger picture isn’t enough. You have to question it. “_That’s how we’ve always done it_” is not an explanation. Neither is “_That’s what I was asked to design_.” Go and meet the people whose work connects to yours. Understand what happens before someone reaches your screen and what happens after they leave it. Learn which constraints are real and which ones have simply survived because nobody thought to question them.
+
+And that brings me back to the cathedral. I don’t want designers to stop caring about the brick. I want them to care deeply about the brick while understanding what they are building, how it all fits together and whether the wall should be there at all. The best designers can obsess over a detail without becoming trapped inside it. Lay the brick well. But know the cathedral you’re building.
+
+## **Method: Developing your own recipe**
+
+Chef Massimo Bottura once said, “_Recipes are not meant to be followed literally_.” I like that idea because it doesn’t reject technique. Quite the opposite. Before you can improvise in a kitchen, you need to understand ingredients, proportions, temperature, timing and technique. A recipe gives you a structure for learning those things. But knowing how to follow a recipe is not the same as knowing how to cook. At some point, you need to know what to change, what to leave out and what to substitute. You need to know when to follow the recipe exactly, and when what you are trying to create requires something completely different.
+
+Press enter or click to view image in full size
+
+![Black-and-white photograph of chef Massimo Bottura wearing glasses and a white chef’s jacket in a bright kitchen.](https://miro.medium.com/v2/resize:fit:1000/1*0pzHAoYEc-W3A-jEM6XMbg.png)
+
+Massimo Bottura. Photo: Marco Poderi. Source: MassimoBottura.it.
+
+I think about design methods in much the same way. Over the years, I have reviewed hundreds of portfolios, and after a while you start to notice something strange. Different designer. Different company. Different problem. Same case study. Here is the brief. Here are the personas. Here are the pain points. Here is the journey map. Then comes ideation, prioritisation, wireframes and, finally, the polished interface. There is nothing wrong with any of those tools. What bothers me is when I cannot understand why they were used.
+
+> Somewhere along the way, we started confusing knowing the design process with knowing how to design.
+
+We taught people the Double Diamond, Design Thinking, research methods, workshops, journey maps, prioritisation frameworks and countless other tools. All of them can be incredibly useful. But they are tools. Knowing the toolkit is literacy. Method is knowing what to pick, what to leave out, in what order, and why. Not every problem deserves the same process. Sometimes you know enough to go from A to B, execute it well and ship it. Sometimes the fastest way forward is to make something, test it, learn and try again. And sometimes you genuinely don’t understand the problem yet, and weeks or months of research may be exactly what is needed. The skill is not performing a prescribed process. It’s choosing the route the problem deserves, and being able to explain why.
+
+## Get Nil Thyrion’s stories in your inbox
+
+Join Medium for free to get updates from this writer.
+
+Remember me for faster sign in
+
+AI can now help us perform almost every step of that process faster. It can synthesise research, map journeys, generate concepts, prototype solutions and analyse feedback. But doing all of that faster doesn’t tell you whether you needed to do it in the first place. A beautifully generated journey map is still unnecessary if you never needed a journey map.
+
+> Method was never about producing the artefacts. It was about understanding what you need to learn next, and choosing the best way to learn it.
+
+So I don’t want designers to become experts at following a design process. I want them to build a repertoire. Learn the methods. Understand why they exist and what each one can reveal. Use them enough to know their strengths and limitations. Then develop the confidence to combine them, shorten them, extend them, reorder them or leave them out completely. A great chef doesn’t ignore the recipe because they never learned it. They can move beyond it because they understand it deeply enough to know what can change. Learn the process. Then develop your own recipe.
+
+## **Ingenuity: Finding a way when there is no obvious path**
+
+When Mathieu Kassovitz was making La Haine in 1995, he knew exactly how he wanted his film to look: black and white. There was just one problem. The television broadcasters financing it wanted colour. Without their financing, there might not be a film at all. So Kassovitz shot it in colour, but released it in cinemas in black and white. If it failed, broadcasters could still show it in colour on television. It didn’t. Kassovitz won Best Director at Cannes, and La Haine became one of the defining films of French cinema. He didn’t abandon his vision or ignore the constraint. He found a way through it. That’s ingenuity.
+
+Press enter or click to view image in full size
+
+![Black-and-white still from La Haine showing Vinz reaching towards the camera with his hand, staring intensely into the lens.](https://miro.medium.com/v2/resize:fit:1000/1*L4KvmgSS3Suhit6gI21QJA.png)
+
+Vincent Cassel as Vinz in La Haine (1995). Credit: Les Productions Lazennec / Le Studio Canal+.
+
+I sometimes tell people on my team something they don’t necessarily expect to hear from a design leader: “_You need to hustle._” I remember one project that wasn’t progressing. Stakeholders weren’t responding. Approvals were taking too long. There were dependencies everywhere. None of those problems was imaginary. But explaining why something couldn’t happen had started to replace figuring out how to make it happen. Hustle doesn’t mean ignoring the rules or working longer hours. It means finding another way. If the email isn’t working, have a conversation. If someone can’t make the decision, find out who can. If you don’t have everything you need, start with what you have.
+
+> I think there is a particular kind of productive stubbornness that separates people who consistently make things happen from those who wait for the circumstances to become favourable.
+
+Designers should be particularly good at this. We spend our careers solving problems, questioning assumptions and working through constraints. Yet sometimes we stop doing exactly that when the obstacle becomes organisational. There is a difference between recognising a dependency and becoming dependent on it. “_We don’t have clarity_,” I hear. “_I don’t have clarity either. Our job is to create it_.” Ask better questions. Bring the right people together. Make a recommendation. Put something tangible in front of people so they can react to it.
+
+> We are problem solvers. That includes solving the problems that prevent us from solving the problem.
+
+That’s the difference between creativity, method and ingenuity. Creativity helps us imagine possibilities. Method helps us choose a route. Ingenuity is what happens when the idea meets reality and the route is blocked. Kassovitz knew what he wanted to create. His ingenuity was finding a way to make it happen without pretending the constraints didn’t exist. Don’t just tell me why it can’t be done. Help me find a way.
+
+## **Business: Making design matter**
+
+> “Being good in business is the most fascinating kind of art. Making money is art and working is art and good business is the best art.” Andy Warhol
+
+Andy Warhol understood something that creatives sometimes struggle with: business and creativity are not enemies. He was one of the defining artists of the twentieth century, but he also understood business exceptionally well. He came from commercial illustration, built a studio around his practice, took commissions, published a magazine, produced films and music, and turned his own name into a brand. For Warhol, business wasn’t something happening around the art. Business was part of the art.
+
+Press enter or click to view image in full size
+
+![Andy Warhol’s Dollar Sign artwork featuring nine large dollar symbols arranged in a three-by-three grid, rendered in overlapping layers of red, blue, yellow, purple, green, orange and black on a white background.](https://miro.medium.com/v2/resize:fit:700/1*15eZrwT0K1tIb84q1dIipg.png)
+
+Dollar Sign, Andy Warhol, 1982. Credit: The Andy Warhol Foundation for the Visual Arts.
+
+There is something designers can learn from that. Great design doesn’t exist in isolation. It has to survive an organisation. It has to convince people. It has to operate within constraints, create value and ultimately produce an outcome. Yet there is one sentence I hear surprisingly often from designers, particularly design leaders: “_I don’t have a seat at the table_.” Ah, yes. The table. Designers really love the table. _Why am I not invited? Why was Design not involved? Why are they bringing us in now, when everything has already been decided?_ I hear it from my own team often enough that sometimes I wonder whether my job is to lead Design or manage seating arrangements.
+
+But then we finally get into the room, and immediately position ourselves on the other side of it. We arrive carrying the flag of user-centricity. “_But what about the user_?” And we should. The problem begins when being the voice of the user turns into believing we are the only people in the room with a legitimate point of view. We did the research. We spoke to the users. Therefore, we are right. Suddenly the conversation becomes Design versus Business. We talk constantly about empathy. Yet sometimes our empathy stops the moment the user does.
+
+> Empathy cannot stop with the user. Understand the business with the same curiosity you use to understand the people you design for.
+
+What is the organisation trying to achieve? How does it create value? What does this decision cost? What are the constraints? Who is accountable if it goes wrong? The person disagreeing with your beautiful idea may not hate good design. They may simply be accountable for something you haven’t taken the time to understand. That doesn’t mean surrendering the user perspective. Challenge the business. Debate it. Fight for the experience when it matters. But understand what you are challenging.
+
+> The best designers don’t choose between the user and the business. They understand both well enough to find a better answer.
+
+And that is also my answer to the famous seat at the table. Stop waiting for someone to give it to you. Earn it. Learn the business. Read the strategy. Understand the numbers, priorities and constraints. Spend time with people outside Design. Learn their language rather than expecting everyone to learn yours. And when you present design, don’t only explain why it is better for the user. Explain why it matters. What becomes easier? What becomes cheaper? What becomes faster? What risk disappears? What value does it create? The moment you can have that conversation, you are no longer the designer asking to be included in the business conversation. You are part of it.
+
+Which brings me back to Warhol. He didn’t become less of an artist because he understood business. His understanding of business helped his work travel further and become more consequential. The same is true for design. Mastering business doesn’t make you less of a designer. It gives your design a better chance of mattering.
+
+## **What happens when the machine learns?**
+
+There is an uncomfortable question hanging over everything I have just written. What happens when AI starts developing these skills too? And perhaps more importantly, what happens when it becomes better at some of them than we are?
+
+That question is becoming less hypothetical than it sounds. Google’s AI Co-Scientist, for example, has been designed to generate scientific hypotheses, evaluate competing explanations and make connections across large bodies of existing knowledge. In one case, it independently proposed a hypothesis that matched a mechanism researchers had spent years investigating. Creativity. Systems thinking. Method. Perhaps even something resembling instinct. I don’t know where that leads. And I wouldn’t be surprised if, in a few years, some of the things I have described throughout this article become capabilities we routinely expect from machines.
+
+Press enter or click to view image in full size
+
+![Stylised 3D illustration of microscopic molecular structures, with radiating blue stems and multicoloured nodes against a softly blurred background.](https://miro.medium.com/v2/resize:fit:1000/1*WRv8cklQmQtZGcD-UZIrsw.png)
+
+Google’s Co-Scientist explores how AI can help researchers generate and refine scientific hypotheses. Credit: Google DeepMind.
+
+But I don’t think that makes these skills any less important for us to practise. We shouldn’t develop creativity because machines cannot be creative. We shouldn’t develop taste because machines will never learn to judge. We shouldn’t practise our craft because AI will never master it. Those are increasingly dangerous assumptions to make.
+
+We should develop these skills because developing them develops us. Creativity makes us curious about where we look. Craft teaches us to care about what we make. Taste forces us to form a point of view. Instinct grows through experience. Systems thinking teaches us to look beyond what is immediately in front of us. Method teaches us to question the route. Ingenuity teaches us to find another one when it disappears. Business teaches us to understand the world our ideas have to survive in. These things are worth practising regardless of what a machine can eventually do.
+
+Because perhaps the real danger isn’t that machines become more like us. It’s that, as machines become more capable, we allow ourselves to become more like machines. Waiting for instructions. Accepting the first answer. Following the process without questioning it. Producing without thinking. Outsourcing our judgement because something else can do it faster.
+
+So use the tools. Learn them. Push them. Let them challenge you. Let them make you faster and extend what you are capable of doing. But keep training the runner underneath. Keep thinking. Keep questioning. Keep making unexpected connections. Keep developing your judgement.
+
+Because the machine will keep getting better. You should too. Otherwise, you’re just a machine.
+
+### Further reading and references
+
+If you’re curious to explore some of the ideas, conversations and projects mentioned in this article, here are a few useful links:
+
+**Lorena, Light-Footed Woman** — Juan Carlos Rulfo’s documentary about Rarámuri ultramarathon runner Lorena Ramírez: [https://www.netflix.com/title/80244683](https://www.netflix.com/title/80244683)
+
+**The Role of Deliberate Practice in the Acquisition of Expert Performance** — K. Anders Ericsson, Ralf Krampe and Clemens Tesch-Römer’s 1993 research on deliberate practice and expert performance: [https://graphics8.nytimes.com/images/blogs/freakonomics/pdf/DeliberatePractice(PsychologicalReview).pdf](https://graphics8.nytimes.com/images/blogs/freakonomics/pdf/DeliberatePractice\(PsychologicalReview\).pdf)
+
+**MAYA: Most Advanced Yet Acceptable** — Interaction Design Foundation on Raymond Loewy’s principle of balancing novelty with familiarity: [https://ixdf.org/literature/article/design-for-the-future-but-balance-it-with-your-users-present](https://ixdf.org/literature/article/design-for-the-future-but-balance-it-with-your-users-present)
+
+**Olivier Nineuil and Typofacto** — The work and practice of typographer Olivier Nineuil, founder of Typofacto: [https://typofacto.com/](https://typofacto.com/)
+
+**The Story of Pixar** — Pixar’s official history, including the 1995 release of _Toy Story_, the world’s first computer-animated feature film: [https://www.pixar.com/our-story](https://www.pixar.com/our-story)
+
+**Creativity, Inc.** — Ed Catmull and Amy Wallace on building and sustaining the creative culture behind Pixar: [https://www.penguin.co.uk/books/414896/creativity-inc-by-animation-ed-catmull-president-of-pixar-and-disney/9780593070093](https://www.penguin.co.uk/books/414896/creativity-inc-by-animation-ed-catmull-president-of-pixar-and-disney/9780593070093)
+
+**A Technique for Producing Ideas** — James Webb Young’s classic exploration of how new ideas emerge from new combinations of existing elements: [https://www.mheducation.com/highered/mhp/product/technique-producing-ideas.html?viewOption=student](https://www.mheducation.com/highered/mhp/product/technique-producing-ideas.html?viewOption=student)
+
+**The Practice of Management** — Peter Drucker’s management classic, which includes the story of the three stonecutters and the cathedral: [https://www.routledge.com/The-Practice-of-Management/Drucker/p/book/9780750685047](https://www.routledge.com/The-Practice-of-Management/Drucker/p/book/9780750685047)
+
+**Massimo Bottura on tradition, recipes and reinvention** — Bottura discusses “Tradition in Evolution” and why recipes are not meant to be followed literally: [https://www.duke.lu/massimobottura](https://www.duke.lu/massimobottura)
+
+**Mathieu Kassovitz on _La Haine_** — In his _Clique_ interview, Kassovitz explains why _La Haine_ was shot in colour despite being conceived and released theatrically in black and white: [https://www.dailymotion.com/video/x8q4v5z](https://www.dailymotion.com/video/x8q4v5z)
+
+**The Philosophy of Andy Warhol** — The source of Warhol’s observation that “making money is art and working is art and good business is the best art”: [https://www.penguin.co.uk/books/57558/the-philosophy-of-andy-warhol-by-warhol-andy/9780141189109](https://www.penguin.co.uk/books/57558/the-philosophy-of-andy-warhol-by-warhol-andy/9780141189109)
+
+**Co-Scientist: A Multi-Agent AI Partner to Accelerate Research** — Google DeepMind on its AI system for generating, debating and refining scientific hypotheses: [https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/](https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/)
