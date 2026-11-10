@@ -1,0 +1,59 @@
+articles_dir=2026-11-10
+exit_code=0
+timestamp_utc=2026-11-10T06:26:59Z
+
+---- issue lines ----
+9:Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+13:❌ Playwright failed for Mercari Engineering: HTTP 403
+
+---- tail (last 50 lines) ----
+📋 Loaded 75 feeds
+📡 Fetching RSS feeds...
+🤖 Bot protection detected for Mercari Engineering, trying Playwright...
+Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+Line: 32
+Column: 147
+Char: =
+❌ Playwright failed for Mercari Engineering: HTTP 403
+📰 Found 5195 total articles
+✨ New articles: 12
+🗓️ Skipped (published more than 30 days ago): 388
+⏭️ Skipped (already processed): 497
+📥 Processing: Fact-Checking at Scale: Building a More Accurate and Efficient Synopsis Factuality System
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808
+✅ Playwright successfully fetched: https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-10/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system.md
+📥 Processing: AI Product Management at Spotify: A View From Three Angles
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-10/ai-product-management-at-spotify-a-view-from-three-angles.md
+📥 Processing: Extending LLDB to Debug Applications That Span CPUs and GPUs
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-10/extending-lldb-to-debug-applications-that-span-cpus-and-gpus.md
+📥 Processing: Storybook 11 beta
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-10/storybook-11-beta.md
+📥 Processing: CSS-Tricks, Version 20
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-10/css-tricks-version-20.md
+📥 Processing: JavaScript for Everyone: New Game+
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-10/javascript-for-everyone-new-game.md
+📥 Processing: Decision models take 26% of requests; Anthropic now wins new teams 2:1
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-10/decision-models-take-26-of-requests-anthropic-now-wins-new-teams-21.md
+📥 Processing: 6 easy ways to use the Figma agent right now
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-10/6-easy-ways-to-use-the-figma-agent-right-now.md
+📥 Processing: チームをまたぐ開発で見直したプロダクトマネージャーの関わり方
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.smarthr.jp/entry/2026/11/10/140222
+✅ Playwright successfully fetched: https://tech.smarthr.jp/entry/2026/11/10/140222
+⚠️ Content too short (16 chars < 200): https://tech.smarthr.jp/entry/2026/11/10/140222
+⚠️ Using RSS content as fallback for: https://tech.smarthr.jp/entry/2026/11/10/140222
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-10/smarthr-11-10-140222.md
+📥 Processing: AI can generate the interface. What makes it worth caring about?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-10/ai-can-generate-the-interface-what-makes-it-worth-caring-about.md
+📥 Processing: Setting Up Your Research Panel
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://medium.com/researchops-community/setting-up-your-research-panel-2d0d2425a390
+✅ Playwright successfully fetched: https://medium.com/researchops-community/setting-up-your-research-panel-2d0d2425a390
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-10/setting-up-your-research-panel.md
+📥 Processing: TanStack AI’s Sandbox API
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-10/tanstack-ais-sandbox-api.md
+
+📊 Summary:
+   ✅ Success: 12
+   ❌ Errors: 0
+🏁 Done!
