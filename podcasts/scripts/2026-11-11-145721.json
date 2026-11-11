@@ -1,0 +1,185 @@
+{
+  "episode": "2026-11-11-145721",
+  "newsletter": "newsletters/2026-11-11-145721.md",
+  "segments": [
+    {
+      "id": "opening",
+      "title": "オープニング",
+      "lines": [
+        { "speaker": "A", "text": "おはようございます。UXエンジニアリング・マガジン、11月11日号です。" },
+        { "speaker": "B", "text": "おはようございます。今日は何本ですか？" },
+        { "speaker": "A", "text": "12本です。" },
+        { "speaker": "B", "text": "では、さっそくお願いします。" }
+      ]
+    },
+    {
+      "id": "a01",
+      "title": "Netflix の紹介文の事実確認",
+      "url": "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808",
+      "lines": [
+        { "speaker": "A", "text": "最初は Netflix Tech Blog の記事です。作品の紹介文が事実に合っているかを LLM で判定する仕組みを作り直し、1件あたりのコストを52.4%下げました。" },
+        { "speaker": "B", "text": "前はどうしていたんですか？" },
+        { "speaker": "A", "text": "同じ判定を5回くり返して、1回でも不合格なら落としていました。ただ、はっきりした文は5回とも同じ結論で、割れるのは微妙な文だけでした。そこで判定と一緒に確信度を出させて、低いものだけを追加の確認に回しています。" },
+        { "speaker": "B", "text": "判定の中身も変えたんですか？" },
+        { "speaker": "A", "text": "書いてあることが事実として正しいかと、作品を見ていない人が誤解しないかを、別々の判定役に見させています。どの文も正しいのに、作品の印象がずれる紹介文があるからです。不合格になるはずの紹介文を見逃さずに拾えた割合は、0.77から0.86に上がりました。" },
+        { "speaker": "B", "text": "LLM に書かせた UI の文言を確かめるときにも、使えそうですね。" },
+        { "speaker": "A", "text": "仕様と食い違っていないかと、読んだ人が誤解しないかを分けておけば、どちらで落ちたかがすぐわかりそうです。" }
+      ]
+    },
+    {
+      "id": "a02",
+      "title": "Adrian Roselli の Interop 2027 の投票",
+      "url": "https://adrianroselli.com/2026/11/my-interop-2027-picks.html",
+      "lines": [
+        { "speaker": "A", "text": "2本目と3本目は、ブラウザ間の互換性を上げる Interop 2027 の投票の話です。締め切りは11月19日です。まずは Adrian Roselli さんが選んだ15項目です。" },
+        { "speaker": "B", "text": "上位は何でしょう。" },
+        { "speaker": "A", "text": "1位は ariaNotify メソッド、2位は HTML の focusgroup 属性、3位は Shadow DOM の referenceTarget です。ライブリージョンを正しく実装できていない例が多いので、ariaNotify を1位にしています。referenceTarget は、Shadow DOM の境界をまたぐとラベルの関連づけが切れる問題を直すためのものです。" },
+        { "speaker": "B", "text": "どれも、スクリーンリーダーの利用者が困っているところですね。" },
+        { "speaker": "A", "text": "はい。デザインシステムに関わる項目では、Device Posture API と Viewport Segments API を選んでいます。画面サイズが決まっている前提で作ったデザインシステムでは、Apple の新しい端末で問題が出ているからです。" },
+        { "speaker": "B", "text": "票を入れた項目にも、気になる点はあるんですか？" },
+        { "speaker": "A", "text": "headingoffset 属性は、外部のコンテンツの見出しレベルを直せる一方で、見出しの構造を気にしない作り手が増えるおそれがある、と書き添えています。" }
+      ]
+    },
+    {
+      "id": "a03",
+      "title": "Chris Coyier の Interop 2027 の投票",
+      "url": "https://blog.master.dev/my-interop-2027-picks/",
+      "lines": [
+        { "speaker": "A", "text": "3本目は Frontend Masters Blog で、同じ Interop 2027 への Chris Coyier さんの投票です。こちらは CSS の3項目に絞っています。" },
+        { "speaker": "B", "text": "1位は何ですか？" },
+        { "speaker": "A", "text": "margin-trim です。パディングのあるコンテナで、最後の子要素の余分なマージンを、コンテナの側で切り落とせます。これまで last-child で子要素ごとに打ち消していたところが、1行で済みます。Safari と Chrome はもう対応していて、残るのは Firefox です。" },
+        { "speaker": "B", "text": "2位と3位は？" },
+        { "speaker": "A", "text": "2位は random 関数、3位は reading-flow と reading-order です。order プロパティで並べ替えると、見た目の順とタブの順がずれます。3位の2つは、それを直すためのものです。" },
+        { "speaker": "B", "text": "random 関数は、どこで使うんでしょう。" },
+        { "speaker": "A", "text": "飾りの位置や、アニメーションを始めるタイミングのように、厳密に決めなくていい値です。デザイナーと見た目を確かめるときは、位置そのものより、どこまでずらしてよいかを決めておくことになりそうです。" }
+      ]
+    },
+    {
+      "id": "a04",
+      "title": "CSS-Tricks のリデザイン",
+      "url": "https://css-tricks.com/css-tricks-version-20/",
+      "lines": [
+        { "speaker": "A", "text": "4本目は CSS-Tricks です。5年ぶりにデザインを新しくして、バージョン20として公開しました。" },
+        { "speaker": "B", "text": "一から作り直したんですか？" },
+        { "speaker": "A", "text": "いいえ、これまでの改善をまとめたものです。使っていない JavaScript や古いフォーラムを片づけて、散らばっていた色、フォント、余白を、セマンティックなデザイントークンにまとめています。" },
+        { "speaker": "B", "text": "数字にも出ていますか？" },
+        { "speaker": "A", "text": "Lighthouse のアクセシビリティは86から91に上がり、ページの総量は2.03メガバイトから1.24メガバイトに減りました。" },
+        { "speaker": "B", "text": "見た目で新しいところはありますか？" },
+        { "speaker": "A", "text": "テーマはシステム、ダーク、ライトの3つを1つのトグルで切り替え、切り替えには View Transition を使っています。トップページの丸い形は border-shape と shape 関数、random 関数で作っていて、今のところ Chrome でしか見られないようです。" }
+      ]
+    },
+    {
+      "id": "a05",
+      "title": "CSS の宣言をまとめる最適化の検証",
+      "url": "https://css-tricks.com/css-using-declarations-just-once/",
+      "lines": [
+        { "speaker": "A", "text": "5本目も CSS-Tricks です。18年前からある CSS の最適化手法、UDJO が今も効くかを確かめています。同じ宣言が何か所にもあるとき、セレクタを並べて1つのルールにまとめ、宣言を1回だけ書く手法です。" },
+        { "speaker": "B", "text": "結果はどうでしたか？" },
+        { "speaker": "A", "text": "自作のツール CSS Dedup を使って20サイトで試すと、どこも重複は減らせました。ただ、そのまままとめると、18サイトでファイルが大きくなりました。セレクタがくり返し書かれて、削った宣言より長くなるからです。" },
+        { "speaker": "B", "text": "それだと逆効果ですね。" },
+        { "speaker": "A", "text": "そこで、サイズが減るときだけまとめる設定にすると、すべてのサイトで重複を減らしながら、ファイルも小さくできました。" },
+        { "speaker": "B", "text": "デザインシステムの CSS にかけても大丈夫でしょうか。" },
+        { "speaker": "A", "text": "たまたま値が同じだけの宣言をまとめると、あとで片方だけ変えたいときに分け直すことになります。まずは安全なものだけをまとめる設定で、重複がどれくらいあるかを数えるところから始めると手軽です。" }
+      ]
+    },
+    {
+      "id": "a06",
+      "title": "リサーチパネルの立ち上げ方",
+      "url": "https://medium.com/researchops-community/setting-up-your-research-panel-2d0d2425a390",
+      "lines": [
+        { "speaker": "A", "text": "6本目は ResearchOps Community の記事です。ユーザーリサーチの協力者をあらかじめ集めておく、パネルの立ち上げ方をまとめた連載の3回目です。" },
+        { "speaker": "B", "text": "何人くらい集めればいいんでしょう。" },
+        { "speaker": "A", "text": "1調査で必要な回答数を回答率で割り、月の調査の回数を掛けて、10から20%の余裕を足す、という計算を示しています。1調査で20件ほしくて、回答率が40%、月に4回なら200人です。15%足すと、約230人になります。" },
+        { "speaker": "B", "text": "道具は何を使えばいいですか？" },
+        { "speaker": "A", "text": "スプレッドシートから始めて、数百人を超えたら専用のツールを考える、という順番です。法務や営業、マーケティングを早めに巻き込むことも勧めています。" },
+        { "speaker": "B", "text": "登録のときに聞いておくことはありますか？" },
+        { "speaker": "A", "text": "AI が書いた回答が混ざるようになったので、LinkedIn の URL のような本人確認の手がかりを、最初に集めておけばよかったという声が出ています。募集のメールや同意の文面も大事なので、コンテンツデザイナーを早めに加えるよう勧めています。" }
+      ]
+    },
+    {
+      "id": "a07",
+      "title": "Facebook の Your algorithm",
+      "url": "https://engineering.fb.com/2026/11/10/ml-applications/your-algorithm-giving-people-more-ways-to-personalize-facebook-recommendations/",
+      "lines": [
+        { "speaker": "A", "text": "7本目は Meta Engineering の記事です。Facebook のフィードとリールのおすすめを、利用者が自分の言葉で調整できる、Your algorithm の仕組みを解説しています。" },
+        { "speaker": "B", "text": "画面はどうなっているんですか？" },
+        { "speaker": "A", "text": "最近よく見ているものを1文でまとめた説明と、興味がある、興味がない、の2つのリストがあります。追加や移動、削除が、すぐにおすすめに反映されます。" },
+        { "speaker": "B", "text": "すぐ反映させるのは、難しそうですね。" },
+        { "speaker": "A", "text": "興味があるものを追加すると、いつもの取得とは別に、おすすめをもう1回取りに行きます。興味がないものを追加すると、端末に取り込み済みの候補から、その話題のものを表示する前に取り除きます。設定を変えたのに一覧が前のままだと、操作が効いていないように見えるからです。" },
+        { "speaker": "B", "text": "絞り込みの設定を作るときにも、同じことが起きそうです。" },
+        { "speaker": "A", "text": "キャッシュした一覧に効く設定なら、この2つのやり方をそのまま使えそうです。裏側では、役割ごとに LLM を使い分けています。" }
+      ]
+    },
+    {
+      "id": "a08",
+      "title": "チームをまたぐ開発での PM の関わり方",
+      "url": "https://tech.smarthr.jp/entry/2026/11/10/140222",
+      "lines": [
+        { "speaker": "A", "text": "8本目は SmartHR Tech Blog です。ホーム画面を担当する PM が、ほかのチームに関わる機能を、リリース直前に止めた経験を振り返っています。" },
+        { "speaker": "B", "text": "どうして止めたんですか？" },
+        { "speaker": "A", "text": "開発はエンジニアが主導して、相手チームへの説明は、相手の PM に頼んでいました。でも PM 自身が関係者に直接説明して、反応を確かめることはしていなかったんです。改善の意図や制約が伝わっておらず、直前になって、仕様の受け止め方や使い勝手について気になる点が出ました。" },
+        { "speaker": "B", "text": "エンジニア主導がよくなかった、ということですか？" },
+        { "speaker": "A", "text": "そこは問題ではなかったとしています。抜けていたのは、誰に、どの段階で確認してもらうかという段取りです。次のプロジェクトでは、関わるチームを洗い出してキックオフを開き、お願いしたい作業と工数の見込みを、相手の PM とエンジニアに直接相談しています。" }
+      ]
+    },
+    {
+      "id": "a09",
+      "title": "SmartHR のサマーインターン",
+      "url": "https://tech.smarthr.jp/entry/2026/11/11/105338",
+      "lines": [
+        { "speaker": "A", "text": "9本目も SmartHR Tech Blog で、プロダクトエンジニア職のサマーインターンで最優秀賞をとったチームの振り返りです。" },
+        { "speaker": "B", "text": "何を作ったんですか？" },
+        { "speaker": "A", "text": "社内公募のマッチングアプリです。ヒアリングと要件の整理に時間を使い、バックエンドの実装を始めたのは、5日間のうち4日目でした。" },
+        { "speaker": "B", "text": "ずいぶん遅いですね。" },
+        { "speaker": "A", "text": "要件が固まっていれば AI でまとめて実装できる、と見込んで動き、ぎりぎり間に合いました。スプリントレビューでは、少し違うと言われた点をその場で AI を使って直し、すぐにもう一度見てもらっています。この進め方は、メンターのチームでも取り入れることになりました。" }
+      ]
+    },
+    {
+      "id": "a10",
+      "title": "Spotify の AI プロダクトマネジメント",
+      "url": "https://engineering.atspotify.com/2026/11/ai-product-management-at-spotify-a-view-from-three-angles/",
+      "lines": [
+        { "speaker": "A", "text": "10本目は Spotify Engineering の記事です。AI に関わる3人の PM が、研究、モデル、利用者向けの体験という層ごとに、仕事の違いを書いています。" },
+        { "speaker": "B", "text": "層によって、そんなに違うんですか？" },
+        { "speaker": "A", "text": "モデルの層では、振る舞いを仕様で決められません。何を学ばせるかと、ちゃんと学べたかをどう確かめるか。つまり、PM が手を入れられるのは、おもにデータと評価です。" },
+        { "speaker": "B", "text": "体験の層はどうでしょう。" },
+        { "speaker": "A", "text": "利用者が何を入力してくるかが決まっていないので、すべての場面を前もって試せません。そこで評価の仕組みも、作って終わりにせず、プロダクトと同じように作り続けています。実際の利用から作ったデータセットや、この製品の会話に合わせた LLM の判定役を用意して、変更で良くなったのか、ただ変わっただけなのかを見分けます。" },
+        { "speaker": "B", "text": "UI の話も出てきますか？" },
+        { "speaker": "A", "text": "キーワード検索なら待てない時間でも、会話だと利用者は待ってくれる、とわかったそうです。難しいことを頼んだと、利用者がわかっているからです。" }
+      ]
+    },
+    {
+      "id": "a11",
+      "title": "TanStack AI の Sandbox API",
+      "url": "https://blog.master.dev/tanstack-ai-sandbox-api/",
+      "lines": [
+        { "speaker": "A", "text": "11本目は Frontend Masters Blog で、TanStack AI の Sandbox API の紹介です。クラウドのサンドボックスで Claude Code を動かして、GitHub のリポジトリを変更し、プルリクエストまで作れます。" },
+        { "speaker": "B", "text": "パソコンを開いていなくても、頼めるということですか？" },
+        { "speaker": "A", "text": "はい、外出先から機能の追加を頼めるのがねらいです。chat の呼び出しに、withSandbox というミドルウェアを1つ足すだけで、これまでの会話の保存や再開の仕組みはそのまま使えます。例は Vercel と Railway のサンドボックスです。" },
+        { "speaker": "B", "text": "気をつけるところはありますか？" },
+        { "speaker": "A", "text": "後片付けです。執筆時点では、Vercel 用のパッケージの destroy は、サンドボックスを止めるだけで削除せず、ディスクのスナップショットも残ります。Vercel の API で消すスクリプトを用意するよう勧めています。" }
+      ]
+    },
+    {
+      "id": "a12",
+      "title": "Vite プラス入門",
+      "url": "https://ics.media/entry/261111/",
+      "lines": [
+        { "speaker": "A", "text": "最後の12本目は ICS MEDIA の記事で、VoidZero の Vite プラスの入門です。Vite、Vitest、Oxlint、Oxfmt を個別に入れる構成と比べながら紹介しています。" },
+        { "speaker": "B", "text": "1つにまとめると、何が楽になるんでしょう。" },
+        { "speaker": "A", "text": "vp コマンドで、プロジェクトの作成から開発サーバー、整形、リント、型チェック、テスト、ビルドまで実行できます。リントと整形の設定も、Vite の設定ファイルの lint と fmt に書きます。含まれるツールのバージョンは vite-plus のバージョンで決まるので、組み合わせを選ぶ手間も減ります。" },
+        { "speaker": "B", "text": "間違えやすいところはありますか？" },
+        { "speaker": "A", "text": "vp build は組み込みのビルドだけを実行します。package.json の build スクリプトを実行したいときは、vpr build を使います。" }
+      ]
+    },
+    {
+      "id": "ending",
+      "title": "エンディング",
+      "lines": [
+        { "speaker": "A", "text": "今日の記事は、以上の12本でした。くわしい解説は、ニュースレターの本文で読めます。" },
+        { "speaker": "B", "text": "Interop の投票は19日までなので、自分が困っている項目を探してみたくなりました。" },
+        { "speaker": "A", "text": "ぜひ。では、また次の号でお会いしましょう。" }
+      ]
+    }
+  ]
+}
