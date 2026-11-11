@@ -1,0 +1,31 @@
+url	feed	lang	A	B	C	D	total	selected	note
+https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808	Netflix Tech Blog	en	1	2	2	2	7	yes	ML の評価基盤の話だが、AI の出力をどう確かめるかの組み方として A=1
+https://adrianroselli.com/2026/11/my-interop-2027-picks.html	Adrian Roselli	en	2	1	1	2	6	yes	理由は各項目1〜2文なので B=1
+https://css-tricks.com/css-tricks-version-20/	css-tricks	en	2	1	2	1	6	yes	デザイントークン・リンクのアクセシビリティ・テーマ切り替えで A=2。Lighthouse の前後比較で C=2
+https://css-tricks.com/css-using-declarations-just-once/	css-tricks	en	1	2	2	1	6	yes	古い手法に新しい計測を足したので D=1
+https://medium.com/researchops-community/setting-up-your-research-panel-2d0d2425a390	ResearchOps Community	en	1	2	2	1	6	yes	実務者へのインタビューと事例が多いので C=2
+https://engineering.fb.com/2026/11/10/ml-applications/your-algorithm-giving-people-more-ways-to-personalize-facebook-recommendations/	Meta Engineering	en	1	1	2	2	6	yes	大半はランキングの話。設定変更を端末のキャッシュにすぐ効かせる部分で A=1
+https://blog.master.dev/my-interop-2027-picks/	Frontend Masters Blog	en	1	1	1	2	5	yes	Roselli の記事と同じ Interop の投票だが、別の書き手の別の選択なので重複にしない
+https://tech.smarthr.jp/entry/2026/11/10/140222	SmartHR Tech Blog	ja	1	1	2	1	5	yes	PM の進め方の話だが、エンジニア主導の開発での失敗談なので A=1。失敗の事例で C=2
+https://tech.smarthr.jp/entry/2026/11/11/105338	SmartHR Tech Blog	ja	1	1	1	1	4	yes	採用向けの座談会だが、レビュー中に AI で直す進め方が書いてあるので採点に回した
+https://engineering.atspotify.com/2026/11/ai-product-management-at-spotify-a-view-from-three-angles/	Spotify Engineering	en	1	1	1	1	4	yes	体験の層の節（入力に終わりがない、評価をプロダクトとして作る）で A=1
+https://blog.master.dev/tanstack-ai-sandbox-api/	Frontend Masters Blog	en	1	1	1	1	4	yes	設定手順が中心だが、後片付けの不具合など書き手の経験がある
+https://ics.media/entry/261111/	ICS MEDIA	ja	1	1	1	1	4	yes	入門の手順が中心。従来の構成との比較表があるので足切りにはしなかった
+https://engineering.fb.com/2026/11/10/open-source/tlx-a-hardware-native-gpu-compiler-for-production-ml/	Meta Engineering	en	0	1	2	2	5	no	GPU コンパイラの話で A=0
+https://vercel.com/blog/ai-gateway-production-index-november-2026	Vercel	en	0	1	2	2	5	no	AI の利用動向の集計で、読者の仕事に直接はつながらないので A=0
+https://engineering.fb.com/2026/11/09/developer-tools/extending-lldb-to-debug-applications-that-span-cpus-and-gpus/	Meta Engineering	en	0	1	1	2	4	no	CPU と GPU をまたぐデバッガの話で A=0
+https://medium.com/airbnb-engineering/skipper-airbnbs-embedded-workflow-engine-is-now-open-source-78dd354f472b	Airbnb Engineering	en	0	1	2	1	4	no	バックエンドのワークフローエンジンで A=0
+https://newsletter.pragmaticengineer.com/p/software-correctness	The Pragmatic Engineer	en	0	2	1	1	4	no	正しさとテストの考え方は B=2 だが、言語設計とバックエンドが中心で A=0
+https://developers.cyberagent.co.jp/blog/archives/66422/	CyberAgent Developers Blog	ja	0	1	2	1	4	no	インフラの研修で A=0
+https://lea.verou.me/blog/2026/tag/	Lea Verou	en	0	1	1	1	3	no	W3C TAG 選挙の所信表明で A=0。AI エージェントが Web のコードを書く時代の設計の話は少しある
+https://blog.jxck.io/entries/2026-11-11/vivant.html	blog.jxck.io	ja	0	1	1	1	3	no	ドラマを題材にしたデータの長期保存と暗号化の話で A=0
+https://www.davesresearch.com/product-strategy/	Sidebar	en	0	1	1	1	3	no	プロダクト戦略の一般論で A=0
+https://customerorproduct.org/	Sidebar	en	0	1	1	1	3	no	アプリの広告・AI 学習の扱いを調べる診断サイト。利用者向けで A=0
+https://tech.smarthr.jp/entry/2026/11/11/120000	SmartHR Tech Blog	ja	-	-	-	-	-	no	足切り: 同じサマーインターンの最優秀賞チーム座談会が同日に2本。レビュー中に直す進め方が書かれた 105338 を残した
+https://www.figma.com/blog/6-easy-ways-to-use-the-figma-agent-right-now/	Figma Blog	en	-	-	-	-	-	no	足切り: 製品の機能の使い方の紹介
+https://newsletter.uxdesign.cc/p/ai-can-generate-the-interface-what	UX Collective	en	-	-	-	-	-	no	足切り: ダイジェスト号。一次記事 https://uxdesign.cc/ai-can-generate-the-interface-what-makes-it-worth-caring-about-a5f3a3e81986
+https://developers.cyberagent.co.jp/blog/archives/67318/	CyberAgent Developers Blog	ja	-	-	-	-	-	no	足切り: 書籍の公開のお知らせ（Unity のパフォーマンスチューニング）
+https://piccalil.li/links/javascript-for-everyone-new-game-plus/	Piccalilli	en	-	-	-	-	-	no	足切り: 講座の宣伝
+https://blossom-carousel.com/	Sidebar	en	-	-	-	-	-	no	足切り: ライブラリの紹介ページ
+https://tk.xyz/	Sidebar	en	-	-	-	-	-	no	足切り: 製品の紹介ページ（Medium の TK）
+https://shawnsmucker.substack.com/p/please-use-ai	Sidebar	en	-	-	-	-	-	no	足切り: 本文が取れていない
