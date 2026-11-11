@@ -38535,7 +38535,127 @@
     "https://developers.cyberagent.co.jp/blog/archives/67361/": {
       "contentHash": "19fa2b7b4d84402e51489b8219dad863b3867d7602c3bace66c58eeb5c93db46",
       "processedAt": "2026-11-09T05:11:33.240Z"
+    },
+    "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808": {
+      "contentHash": "108dabc51abe877e3903132dd12e4e690ea15ad7cf8ad5fdc65fd13376eab482",
+      "processedAt": "2026-11-11T05:11:59.808Z"
+    },
+    "https://engineering.atspotify.com/2026/11/ai-product-management-at-spotify-a-view-from-three-angles/": {
+      "contentHash": "8c0d61e5a0ea1357c2eb1dd168d7c8760291cbb877b8648e087c918bc5f19c58",
+      "processedAt": "2026-11-11T05:12:00.225Z"
+    },
+    "https://medium.com/airbnb-engineering/skipper-airbnbs-embedded-workflow-engine-is-now-open-source-78dd354f472b": {
+      "contentHash": "6e38961a60ab07431f6916d5c11757508841cc29aac56764165117569c154e48",
+      "processedAt": "2026-11-11T05:12:05.098Z"
+    },
+    "https://engineering.fb.com/2026/11/10/ml-applications/your-algorithm-giving-people-more-ways-to-personalize-facebook-recommendations/": {
+      "contentHash": "bb9d3d37ed789aef8be2768763284a79308dfd37e3ffa6f1d66c8fa8840f8588",
+      "processedAt": "2026-11-11T05:12:05.419Z"
+    },
+    "https://engineering.fb.com/2026/11/10/open-source/tlx-a-hardware-native-gpu-compiler-for-production-ml/": {
+      "contentHash": "0d2634f4c1b80f6818db11e2b1f50630f5a85ded7d87b420247b98f08a5307fc",
+      "processedAt": "2026-11-11T05:12:05.707Z"
+    },
+    "https://engineering.fb.com/2026/11/09/developer-tools/extending-lldb-to-debug-applications-that-span-cpus-and-gpus/": {
+      "contentHash": "76f6faa3e9a46c5e33e4812d36c5c331de5b10476d5763d62fcfa75f2d0f5012",
+      "processedAt": "2026-11-11T05:12:05.894Z"
+    },
+    "https://adrianroselli.com/2026/11/my-interop-2027-picks.html": {
+      "contentHash": "f5a19b91f34e32ffd03092ba771c846067e18112c16ddc6caa0db30b2c07604b",
+      "processedAt": "2026-11-11T05:12:06.260Z"
+    },
+    "https://shawnsmucker.substack.com/p/please-use-ai": {
+      "contentHash": "f056401d4f52344cfb8c68d0a5afb2147bd9a792431429ed7bd662810ac3ae1f",
+      "processedAt": "2026-11-11T05:12:10.623Z"
+    },
+    "https://tk.xyz/": {
+      "contentHash": "23f1e57d379144c3850b08f877fadf28d5055b82a6001dd694ff828311557c99",
+      "processedAt": "2026-11-11T05:12:15.238Z"
+    },
+    "https://blossom-carousel.com/": {
+      "contentHash": "f08576ea79b0e95d94abe27cd3f4d9ba86ea0b2236c874f1c437ff86f7ce1023",
+      "processedAt": "2026-11-11T05:12:15.582Z"
+    },
+    "https://www.davesresearch.com/product-strategy/": {
+      "contentHash": "35830fda1e2b3545af71cbf93899f4f05e173f5d75028e14348d5425837b3cdd",
+      "processedAt": "2026-11-11T05:12:15.973Z"
+    },
+    "https://customerorproduct.org/": {
+      "contentHash": "b91000bbbfe4bcf87d089784058ffb73c6f511b3e36b9877cd5d145ba181d175",
+      "processedAt": "2026-11-11T05:12:16.135Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/software-correctness": {
+      "contentHash": "6e465e56fa43027d6cb6dd98041eae8e0b6aca82ebe545643e38ef8ad521803b",
+      "processedAt": "2026-11-11T05:12:16.480Z"
+    },
+    "https://lea.verou.me/blog/2026/tag/": {
+      "contentHash": "a5b59a7869ca88e5d5261f67cfd7da73ef932a76907628b5e60dfe18a3601885",
+      "processedAt": "2026-11-11T05:12:16.615Z"
+    },
+    "https://ics.media/entry/261111/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-11-11T05:12:17.135Z"
+    },
+    "https://css-tricks.com/css-using-declarations-just-once/": {
+      "contentHash": "b1d668c6551c7bdb6403046ba3a0e2cb10a69730097c3b18ca2fee26e15e57e4",
+      "processedAt": "2026-11-11T05:12:17.351Z"
+    },
+    "https://css-tricks.com/css-tricks-version-20/": {
+      "contentHash": "cccad8542cee1b3da3d497b1c30060c72d039340c2fe856f1b6b42fd0ed36d6a",
+      "processedAt": "2026-11-11T05:12:17.714Z"
+    },
+    "https://piccalil.li/links/javascript-for-everyone-new-game-plus/": {
+      "contentHash": "fe1a5a58d25a669b7126d43444bdcbed28acb27a800f0f34aafc4cdbc971ad2d",
+      "processedAt": "2026-11-11T05:12:17.999Z"
+    },
+    "https://vercel.com/blog/ai-gateway-production-index-november-2026": {
+      "contentHash": "104ec78f6f920923fb6861edae867979d4cce1da97727e0ddc67ae5265bc6477",
+      "processedAt": "2026-11-11T05:12:18.819Z"
+    },
+    "https://www.figma.com/blog/6-easy-ways-to-use-the-figma-agent-right-now/": {
+      "contentHash": "82c0aa212fbd79e8c18bfc21c82ef3125bf51e2ee6bef4460cb7ba64a6c89c69",
+      "processedAt": "2026-11-11T05:12:20.114Z"
+    },
+    "https://blog.jxck.io/entries/2026-11-11/vivant.html": {
+      "contentHash": "bf35b8006b10971a4c9341a6f07bfa1a13ccba09d57609ca8dc5fc09246b9327",
+      "processedAt": "2026-11-11T05:12:22.362Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/11/120000": {
+      "contentHash": "9ff01f08d834603ba59be49af4d659555b6feb7dbd660fcb62eb846da4d2a2d7",
+      "processedAt": "2026-11-11T05:12:27.346Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/11/105338": {
+      "contentHash": "5b19236cb80c675609b7f0567ad7fb459c11214fd7fc5c862cd14ebd7a82f0e5",
+      "processedAt": "2026-11-11T05:12:31.893Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/10/140222": {
+      "contentHash": "3c2fa32f9237f909606ead7a38087e8fdcf7500f265e551212ae617083595de6",
+      "processedAt": "2026-11-11T05:12:36.460Z"
+    },
+    "https://newsletter.uxdesign.cc/p/ai-can-generate-the-interface-what": {
+      "contentHash": "d4bc29592df195fea662f8d0afd5182cec8def38c895dac3b32cc739636f6972",
+      "processedAt": "2026-11-11T05:12:36.872Z"
+    },
+    "https://medium.com/researchops-community/setting-up-your-research-panel-2d0d2425a390": {
+      "contentHash": "423fa0f677527ebcf0570d643835496c480a005423baba769dbdc8ad6d8995c4",
+      "processedAt": "2026-11-11T05:12:41.833Z"
+    },
+    "https://blog.master.dev/my-interop-2027-picks/": {
+      "contentHash": "7f8401609583f0e8ae91576e854149b2a00ab9e6dfdec7dda428273a735e9ec7",
+      "processedAt": "2026-11-11T05:12:42.033Z"
+    },
+    "https://blog.master.dev/tanstack-ai-sandbox-api/": {
+      "contentHash": "d6965a17b3d7e377f47e026a25b976ef1a900548ae26de4f651a7c7a30eb14c6",
+      "processedAt": "2026-11-11T05:12:42.198Z"
+    },
+    "https://developers.cyberagent.co.jp/blog/archives/67318/": {
+      "contentHash": "1f03c69fb3bf1aec4c6abdc96f451b083b81bfc2c838942b5dccef5fd4d6029b",
+      "processedAt": "2026-11-11T05:12:47.283Z"
+    },
+    "https://developers.cyberagent.co.jp/blog/archives/66422/": {
+      "contentHash": "1cc1ea0a026e1eefd5984475da9ded33cc6f928e6c0f4a303ec8728aa7c093c0",
+      "processedAt": "2026-11-11T05:12:51.810Z"
     }
   },
-  "lastRun": "2026-11-09T05:11:33.240Z"
+  "lastRun": "2026-11-11T05:12:51.810Z"
 }
