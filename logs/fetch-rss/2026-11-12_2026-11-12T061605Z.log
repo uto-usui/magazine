@@ -1,0 +1,60 @@
+articles_dir=2026-11-12
+exit_code=0
+timestamp_utc=2026-11-12T06:16:05Z
+
+---- issue lines ----
+9:Failed to fetch feed blog.jxck.io: 
+10:Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+14:❌ Playwright failed for Mercari Engineering: HTTP 403
+
+---- tail (last 50 lines) ----
+Column: 145
+Char: =
+❌ Playwright failed for Mercari Engineering: HTTP 403
+📰 Found 4916 total articles
+✨ New articles: 15
+🗓️ Skipped (published more than 30 days ago): 365
+⏭️ Skipped (already processed): 491
+📥 Processing: Intelligent Delivery: Making Every Unit of Compute Serve Better Ads
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-12/intelligent-delivery-making-every-unit-of-compute-serve-better-ads.md
+📥 Processing: Web-Perf Wednesday 017 – Prebid Stops Re-downloading Its Manifest
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-12/web-perf-wednesday-017-prebid-stops-re-downloading-its-manifest.md
+📥 Processing: Don’t make a human do what AI is amazing at
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-12/dont-make-a-human-do-what-ai-is-amazing-at.md
+📥 Processing: 1 in 8 billion
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-12/1-in-8-billion.md
+📥 Processing: A family tree of software job titles
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-12/a-family-tree-of-software-job-titles.md
+📥 Processing: The components of agent memory
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-12/the-components-of-agent-memory.md
+📥 Processing: There’s no better name for design systems
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-12/theres-no-better-name-for-design-systems.md
+📥 Processing: Responsive design is more than resizing a window
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-12/responsive-design-is-more-than-resizing-a-window.md
+📥 Processing: フラットに話せる文化、ユーザーと共に育てるサービス —— 新卒エンジニアが見たSmartHR
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.smarthr.jp/entry/2026/11/12/120303
+✅ Playwright successfully fetched: https://tech.smarthr.jp/entry/2026/11/12/120303
+⚠️ Content too short (16 chars < 200): https://tech.smarthr.jp/entry/2026/11/12/120303
+⚠️ Using RSS content as fallback for: https://tech.smarthr.jp/entry/2026/11/12/120303
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-12/smarthr.md
+📥 Processing: 北陸Ruby会議02にydahが登壇します —— みんなが「発見」したRubyの世界
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.smarthr.jp/entry/2026/11/12/110000
+✅ Playwright successfully fetched: https://tech.smarthr.jp/entry/2026/11/12/110000
+⚠️ Content too short (16 chars < 200): https://tech.smarthr.jp/entry/2026/11/12/110000
+⚠️ Using RSS content as fallback for: https://tech.smarthr.jp/entry/2026/11/12/110000
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-12/ruby02ydah-ruby.md
+📥 Processing: This Week In React #305: X, Forms, e18e, Next.js, TanStack Start, Storybook, MobX, Zustand, XState | Exact, Discord, Shopify, Expo Modules, Audio API, Bottom Sheet, Keychain, Gesture Handler | Node.js, Safari, Rolldown, Playwright
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-12/this-week-in-react-305-x-forms-e18e-nextjs-tanstack-start-storybook-mobx-zustand-xstate-exact-discor.md
+📥 Processing: Pew Research Finds the Same Problem We Did with Digital Twins
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-12/pew-research-finds-the-same-problem-we-did-with-digital-twins.md
+📥 Processing: Ask LukeW: in Your AI Tools
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-12/ask-lukew-in-your-ai-tools.md
+📥 Processing: Creating Diagrams and Graphs Using Modern CSS
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-12/creating-diagrams-and-graphs-using-modern-css.md
+📥 Processing: Google Cloud知識0から1ヶ月でインフラ移行に挑んだ話
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-12/google-cloud01.md
+
+📊 Summary:
+   ✅ Success: 15
+   ❌ Errors: 0
+🏁 Done!
