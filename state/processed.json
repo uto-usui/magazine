@@ -38655,7 +38655,67 @@
     "https://developers.cyberagent.co.jp/blog/archives/66422/": {
       "contentHash": "1cc1ea0a026e1eefd5984475da9ded33cc6f928e6c0f4a303ec8728aa7c093c0",
       "processedAt": "2026-11-11T05:12:51.810Z"
+    },
+    "https://engineering.fb.com/2026/11/11/ml-applications/intelligent-delivery-serve-better-ads/": {
+      "contentHash": "67803d3e896d7772bc78fdf5f19c50f9d017d4743a2e436e4b53f0de21159cf4",
+      "processedAt": "2026-11-12T06:15:47.636Z"
+    },
+    "https://csswizardry.com/2026/11/web-perf-wednesday-017-prebid-stops-redownloading-its-manifest/": {
+      "contentHash": "3855738f094da6f0220ed3324ac6aa527dc77a5a7f59bc6dde28550d189cc244",
+      "processedAt": "2026-11-12T06:15:47.908Z"
+    },
+    "https://www.johnnunemaker.com/dont-make-a-human-do-what-ai-is-amazing-at/": {
+      "contentHash": "ad1bbdeb94357b18026e3f3158fc3f9ad914f081aeb02d03bd7c8d68254af5f3",
+      "processedAt": "2026-11-12T06:15:48.194Z"
+    },
+    "https://1in8b.life/en/": {
+      "contentHash": "77a236c772aaf0f4328e8787483db5079a9993472b3068764812b4c95583ba69",
+      "processedAt": "2026-11-12T06:15:48.581Z"
+    },
+    "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/": {
+      "contentHash": "77fe03e73e6d7e4248757d3ed68bae23a1fd1ddcb6525803c8bff7c07739bd53",
+      "processedAt": "2026-11-12T06:15:49.375Z"
+    },
+    "https://www.anthropic.com/research/components-of-agent-memory": {
+      "contentHash": "ae9326d8fdbc03d3b3bf217a768897fb938199f439154b28e1ed15a14fad83b2",
+      "processedAt": "2026-11-12T06:15:49.633Z"
+    },
+    "https://karolinaszczur.com/journal/translation-not-rebranding/": {
+      "contentHash": "ee0030c273b47efad6e542a3ad39c0cfead922ca258e44e9f3563f8d4bba9ad6",
+      "processedAt": "2026-11-12T06:15:49.755Z"
+    },
+    "https://frontendfoc.us/issues/766": {
+      "contentHash": "115a7718fc10271c4c0e2c4d9673bd40d7c54866fbb4371b96aad0b4cca843ca",
+      "processedAt": "2026-11-12T06:15:50.336Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/12/120303": {
+      "contentHash": "36b86ec767a899124e119ea1ff53da33dc4a7074e28e9aee1b63e1ef10c7ae6f",
+      "processedAt": "2026-11-12T06:15:55.163Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/12/110000": {
+      "contentHash": "9dc62b275b6557c6143a35f1828f5dc4977d8401b042096a543f6bff3c82457a",
+      "processedAt": "2026-11-12T06:15:59.669Z"
+    },
+    "https://thisweekinreact.com/newsletter/305": {
+      "contentHash": "0a0ab24021afd67356e5635689be0069a8d334c017a905c03580b2bdc5164909",
+      "processedAt": "2026-11-12T06:16:00.085Z"
+    },
+    "https://measuringu.com/pew-research-finds-the-same-problem-we-did-with-digital-twins/": {
+      "contentHash": "65e61f277e0887b152b65bdaf9f34cea95fb7ccd22461c9a00023c3d6bf55dc4",
+      "processedAt": "2026-11-12T06:16:00.505Z"
+    },
+    "https://www.lukew.com/ff/2171/ask-lukew-in-your-ai-tools": {
+      "contentHash": "bd0d03d13cd9f3bd83d6714eeb27094427c6fc8500474aa158f02abfad46899b",
+      "processedAt": "2026-11-12T06:16:00.889Z"
+    },
+    "https://blog.master.dev/creating-diagrams-and-graphs-using-modern-css/": {
+      "contentHash": "6ab636f198ec3a2bb31c09d37826f0e01c96e54adcc66458c48f0cf2f6ecc89b",
+      "processedAt": "2026-11-12T06:16:01.317Z"
+    },
+    "https://developers.cyberagent.co.jp/blog/archives/67406/": {
+      "contentHash": "e440967d972b467a3b96c0c040ea5040f1090edeee643f77f8c4c991f3c8c486",
+      "processedAt": "2026-11-12T06:16:05.049Z"
     }
   },
-  "lastRun": "2026-11-11T05:12:51.810Z"
+  "lastRun": "2026-11-12T06:16:05.049Z"
 }
