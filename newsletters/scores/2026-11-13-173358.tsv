@@ -1,0 +1,37 @@
+url	feed	lang	A	B	C	D	total	selected	note
+https://www.hipuku.dev/writing/where-the-disabled-button-got-its-rule	Sidebar	en	2	2	2	2	8	yes	8つのデザインシステムを npm の値から測った比較で C=2
+https://agustinbarrientos.com/writing/senior-eye/interfaces-that-understand-what-we-want	Sidebar	en	2	2	2	2	8	yes	判断モデルを UI に組み込む実装と、しきい値の決め方を自前の計測で示す
+https://www.anthropic.com/research/components-of-agent-memory	Sidebar	en	1	2	2	2	7	yes	AI との働き方（指示ファイルの書き方）につながるので A=1
+https://measuringu.com/pew-research-finds-the-same-problem-we-did-with-digital-twins/	MeasuringU	en	1	2	2	2	7	yes
+https://www.johnnunemaker.com/dont-make-a-human-do-what-ai-is-amazing-at/	Sidebar	en	1	2	2	2	7	yes
+https://karolinaszczur.com/journal/translation-not-rebranding/	Sidebar	en	2	2	1	1	6	yes	デザインシステムの運用（関係者への説明）で A=2
+https://smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/	Smashing Magazine	en	1	2	2	1	6	yes	事例は説明用だが、引いている研究に数字があるので C=2。実装には踏み込まないので A=1
+https://tech.layerx.co.jp/entry/qa-jev-study	LayerX エンジニアブログ	ja	1	2	2	1	6	yes
+https://developers.cyberagent.co.jp/blog/archives/67436/	CyberAgent Developers Blog	ja	1	2	2	1	6	yes	モバイルアプリの実装側に深い。起動時間・サイズの計測あり
+https://uxcontent.com/scaling-ai-content-tooling-from-1-designer-to-32/	UX Content Collective	en	1	2	2	1	6	yes	コンテンツの運用でデザインシステムに近いが、実装には触れないので A=1
+https://csswizardry.com/2026/11/web-perf-wednesday-017-prebid-stops-redownloading-its-manifest/	CSS Wizardry	en	1	2	2	1	6	yes	広告を載せるサイトに限られるので A=1
+https://haydenbleasel.com/taking-away	Sidebar	en	1	2	1	2	6	yes
+https://uxmovement.medium.com/the-best-bulk-edit-ui-for-data-tables-756676f8eeeb	UX Movement	en	2	2	0	1	5	yes	画像は取れていないが本文は読める。比較や検証がないので C=0
+https://css-tricks.com/beyond-12-columns/	css-tricks	en	1	2	1	1	5	yes	5点が4本並び、A の高い bulk edit の次は、少ないカテゴリ（css）を優先
+https://blog.master.dev/creating-diagrams-and-graphs-using-modern-css/	Frontend Masters Blog	en	1	1	1	2	5	yes	同上
+https://mattstromawn.com/writing/design-is-a-search-problem/	Sidebar	en	1	2	1	1	5	no	同点4本の同点決着で外れた（design カテゴリが多いため）
+https://www.lukew.com/ff/2171/ask-lukew-in-your-ai-tools	LukeW	en	1	1	1	1	4	no	自分の MCP サーバーの紹介が中心
+https://www.figma.com/blog/how-3d-transforms-and-figmas-agent-brought-a-launch-video-to-life/	Figma Blog	en	1	1	1	1	4	no	製品の紹介を兼ねた制作事例
+https://cdevroe.com/2026/11/05/if-x-then-y/	Sidebar	en	1	1	1	1	4	no
+https://engineering.fb.com/2026/11/11/ml-applications/intelligent-delivery-serve-better-ads/	Meta Engineering	en	0	1	2	2	5	no	広告配信の計算資源の配分で、読者の仕事に当たらない
+https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/	Sidebar	en	0	1	1	1	3	no	職種名の歴史
+https://developers.cyberagent.co.jp/blog/archives/67406/	CyberAgent Developers Blog	ja	0	1	1	0	2	no	インフラ移行
+https://www.logohistories.com/p/airline-logos	Sidebar	en	0	1	1	0	2	no	ロゴの歴史。購読の案内も兼ねる
+https://1in8b.life/en/	Sidebar	en	0	0	1	1	2	no	人生シミュレーションのサイトそのもの
+https://tech.smarthr.jp/entry/2026/11/12/120303	SmartHR Tech Blog	ja	0	1	1	0	2	no	新卒エンジニアの入社半年の振り返り
+https://bodegacatsofnewyork.com/	Sidebar	en	0	0	1	0	1	no	写真とストーリーのサイト
+https://tech.smarthr.jp/entry/2026/11/13/121354	SmartHR Tech Blog	ja	0	0	1	0	1	no	カンファレンスの協賛・参加報告
+https://tech.smarthr.jp/entry/2026/11/13/102559	SmartHR Tech Blog	ja	0	0	1	0	1	no	カンファレンスの協賛・参加報告
+https://belowthesurface.amsterdam/en/vondsten	Sidebar	en	-	-	-	-	-	no	足切り: 本文が取れていない
+https://www.youtube.com/watch?v=sz_vI8V_k1E	Sidebar	en	-	-	-	-	-	no	足切り: 本文が取れていない（動画）
+https://survey.devographics.com/en-US/survey/state-of-js/2026	Sidebar	en	-	-	-	-	-	no	足切り: 調査への回答の呼びかけ
+https://newsletter.pragmaticengineer.com/p/the-pulse-what-can-we-learn-from-114	The Pragmatic Engineer	en	-	-	-	-	-	no	足切り: 有料部分で切れている
+https://tech.smarthr.jp/entry/2026/11/12/110000	SmartHR Tech Blog	ja	-	-	-	-	-	no	足切り: 登壇の告知
+https://tech.layerx.co.jp/entry/yapc-tokyo-2026-sponsor	LayerX エンジニアブログ	ja	-	-	-	-	-	no	足切り: 協賛・登壇の告知
+https://frontendfoc.us/issues/766	Frontend Focus	en	-	-	-	-	-	no	足切り: ダイジェスト号。気になる一次記事: https://ishadeed.com/article/beyond-the-viewport/ https://www.aaron-gustafson.com/notebook/system-colors-need-to-work-together/
+https://thisweekinreact.com/newsletter/305	This Week In React	en	-	-	-	-	-	no	足切り: ダイジェスト号
