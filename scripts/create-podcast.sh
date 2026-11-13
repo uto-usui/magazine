@@ -62,12 +62,14 @@ STEP="Show Notes"
 pnpm run podcast:shownotes "$SCRIPT"
 
 STEP="コミットと push"
-git add state/tts-usage.json
-[ -f "$SCRIPT" ] && git add "$SCRIPT"
-[ -f "podcasts/shownotes/${EPISODE}.md" ] && git add "podcasts/shownotes/${EPISODE}.md"
-if ! git diff --cached --quiet; then
-  git commit -m "chore(podcast): add script, show notes and usage for ${TARGET_DATE}"
-  git pull --rebase origin master
+# 手元で別の作業をステージしていても混ざらないよう、コミットはこの3つに絞る
+PATHS=(state/tts-usage.json)
+[ -f "$SCRIPT" ] && PATHS+=("$SCRIPT")
+[ -f "podcasts/shownotes/${EPISODE}.md" ] && PATHS+=("podcasts/shownotes/${EPISODE}.md")
+git add "${PATHS[@]}"
+if ! git diff --cached --quiet -- "${PATHS[@]}"; then
+  git commit -m "chore(podcast): add script, show notes and usage for ${TARGET_DATE}" -- "${PATHS[@]}"
+  git pull --rebase --autostash origin master
   git push origin master
 fi
 

@@ -93,7 +93,7 @@ if ! git checkout master >> "$LOG_FILE" 2>&1; then
   notify "Pickup ❌" "git checkout master に失敗しました"
   exit 1
 fi
-if ! git pull --rebase origin master >> "$LOG_FILE" 2>&1; then
+if ! git pull --rebase --autostash origin master >> "$LOG_FILE" 2>&1; then
   log "ERROR: git pull --rebase origin master failed"
   notify "Pickup ❌" "git pull --rebase origin master に失敗しました"
   exit 1
@@ -122,7 +122,7 @@ log "Launching Terminal for curate-articles-auto"
 osascript -e "
   tell application \"Terminal\"
     activate
-    do script \"cd $PROJECT_DIR && claude -p '/curate-articles-auto 今週' --dangerously-skip-permissions && git pull --rebase origin master && git push origin master; echo 'Done - press any key to close'; read\"
+    do script \"cd $PROJECT_DIR && claude -p '/curate-articles-auto 今週' --dangerously-skip-permissions && git pull --rebase --autostash origin master && git push origin master; echo 'Done - press any key to close'; read\"
   end tell
 " >> "$LOG_FILE" 2>&1
 

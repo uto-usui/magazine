@@ -116,7 +116,7 @@ SCORES_FILE="newsletters/scores/$(basename "$NEWSLETTER_FILE" .md).tsv"
 
 ```bash
 git add "$NEWSLETTER_FILE" "$SCORES_FILE"
-git commit -m "docs: Add newsletter for ${TARGET_DATE}"
+git commit -m "docs: Add newsletter for ${TARGET_DATE}" -- "$NEWSLETTER_FILE" "$SCORES_FILE"
 ```
 
 ### 8. 完了報告

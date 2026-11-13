@@ -49,11 +49,17 @@ checkout_master() {
   fi
 }
 
-# 未コミットの変更があると pull --rebase が失敗する。set -e で黙って終わらないよう通知する
+# 手元の作業が残っていても止まらないよう --autostash で退避して戻す。
+# 戻すときに衝突すると pull は 0 で終わり、衝突したファイルが残るので、それも通知して止める
 pull_master() {
-  if ! git -C "$PROJECT_DIR" pull --rebase origin master >> "$LOG_FILE" 2>&1; then
+  if ! git -C "$PROJECT_DIR" pull --rebase --autostash origin master >> "$LOG_FILE" 2>&1; then
     log "ERROR: git pull --rebase failed"
-    notify "Newsletter ❌" "git pull に失敗しました。未コミットの変更を確認してください"
+    notify "Newsletter ❌" "git pull に失敗しました。Terminal で状態を確認してください"
+    exit 1
+  fi
+  if [ -n "$(git -C "$PROJECT_DIR" diff --name-only --diff-filter=U)" ]; then
+    log "ERROR: local changes conflicted after autostash"
+    notify "Newsletter ❌" "手元の変更が最新の master と衝突しました。衝突を解いてください（変更は git stash にも残っています）"
     exit 1
   fi
   log "Git pull completed"
@@ -75,7 +81,7 @@ launch_newsletter() {
   osascript -e "
     tell application \"Terminal\"
       activate
-      do script \"cd $PROJECT_DIR && claude -p '/create-newsletter-auto $target_date' --dangerously-skip-permissions && git pull --rebase origin master && git push origin master && ./scripts/create-podcast.sh $target_date; echo 'Done - press any key to close'; read\"
+      do script \"cd $PROJECT_DIR && claude -p '/create-newsletter-auto $target_date' --dangerously-skip-permissions && git pull --rebase --autostash origin master && git push origin master && ./scripts/create-podcast.sh $target_date; echo 'Done - press any key to close'; read\"
     end tell
   " >> "$LOG_FILE" 2>&1
 }

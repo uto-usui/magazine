@@ -42,7 +42,7 @@ ls newsletters/pickup/$(date "+%Y-%m-%d")-*.md 2>/dev/null
 
 ```bash
 git add newsletters/pickup/YYYY-MM-DD-HHmmss.md
-git commit -m "docs: Add pickup for YYYY-MM-DD"
+git commit -m "docs: Add pickup for YYYY-MM-DD" -- newsletters/pickup/YYYY-MM-DD-HHmmss.md
 ```
 
 ### 3. Notion へ保存
