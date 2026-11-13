@@ -38655,7 +38655,151 @@
     "https://developers.cyberagent.co.jp/blog/archives/66422/": {
       "contentHash": "1cc1ea0a026e1eefd5984475da9ded33cc6f928e6c0f4a303ec8728aa7c093c0",
       "processedAt": "2026-11-11T05:12:51.810Z"
+    },
+    "https://engineering.fb.com/2026/11/11/ml-applications/intelligent-delivery-serve-better-ads/": {
+      "contentHash": "67803d3e896d7772bc78fdf5f19c50f9d017d4743a2e436e4b53f0de21159cf4",
+      "processedAt": "2026-11-13T05:39:02.001Z"
+    },
+    "https://csswizardry.com/2026/11/web-perf-wednesday-017-prebid-stops-redownloading-its-manifest/": {
+      "contentHash": "3855738f094da6f0220ed3324ac6aa527dc77a5a7f59bc6dde28550d189cc244",
+      "processedAt": "2026-11-13T05:39:02.507Z"
+    },
+    "https://agustinbarrientos.com/writing/senior-eye/interfaces-that-understand-what-we-want": {
+      "contentHash": "7d339ce307bf957d90054dc354957b5db30eaf3388bfb172858657c7ace8cf5a",
+      "processedAt": "2026-11-13T05:39:03.782Z"
+    },
+    "https://belowthesurface.amsterdam/en/vondsten": {
+      "contentHash": "241bafe58026a6321073b1e6e138aa8dbcafadb6f0951763b71095ac8572292c",
+      "processedAt": "2026-11-13T05:39:08.419Z"
+    },
+    "https://cdevroe.com/2026/11/05/if-x-then-y/": {
+      "contentHash": "628e2914635ea38dd353c84300abebbb822f24baf79160969742c40ae9fa046a",
+      "processedAt": "2026-11-13T05:39:08.922Z"
+    },
+    "https://bodegacatsofnewyork.com/": {
+      "contentHash": "ada3c06f805392880fcdf01ee69c0baf3246762427f024e895dd5126c64bc2ce",
+      "processedAt": "2026-11-13T05:39:10.460Z"
+    },
+    "https://www.hipuku.dev/writing/where-the-disabled-button-got-its-rule": {
+      "contentHash": "a9fd2a929e15d097ff62b3bbfc32e9d1dc4acf2f2244b30208c51a028aad0a75",
+      "processedAt": "2026-11-13T05:39:10.968Z"
+    },
+    "https://mattstromawn.com/writing/design-is-a-search-problem/": {
+      "contentHash": "a94782f39036234fabf60d36807b3c0367eeb263a4727378090d62533ef13e35",
+      "processedAt": "2026-11-13T05:39:11.413Z"
+    },
+    "https://www.logohistories.com/p/airline-logos": {
+      "contentHash": "cf6628ba4dd52226b54d5aa3bd1842e519d511e5ea23b73187dc45a1d44b8598",
+      "processedAt": "2026-11-13T05:39:11.894Z"
+    },
+    "https://www.youtube.com/watch?v=sz_vI8V_k1E": {
+      "contentHash": "83ca3445fdb8070bf44d5b204205553993a65060eaacd7380343d4a0b57fdc31",
+      "processedAt": "2026-11-13T05:39:19.957Z"
+    },
+    "https://survey.devographics.com/en-US/survey/state-of-js/2026": {
+      "contentHash": "e83911beaa0acd4d3d0d6c2282458f92f8914561a14dae705d3f40c566bfa3f4",
+      "processedAt": "2026-11-13T05:39:26.514Z"
+    },
+    "https://haydenbleasel.com/taking-away": {
+      "contentHash": "ab7fb965e65dbfbe0f8a7b20a456d6ce3710c4ab9c8da199664bc6dc976929d0",
+      "processedAt": "2026-11-13T05:39:26.776Z"
+    },
+    "https://www.johnnunemaker.com/dont-make-a-human-do-what-ai-is-amazing-at/": {
+      "contentHash": "ad1bbdeb94357b18026e3f3158fc3f9ad914f081aeb02d03bd7c8d68254af5f3",
+      "processedAt": "2026-11-13T05:39:27.031Z"
+    },
+    "https://1in8b.life/en/": {
+      "contentHash": "77a236c772aaf0f4328e8787483db5079a9993472b3068764812b4c95583ba69",
+      "processedAt": "2026-11-13T05:39:27.154Z"
+    },
+    "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/": {
+      "contentHash": "77fe03e73e6d7e4248757d3ed68bae23a1fd1ddcb6525803c8bff7c07739bd53",
+      "processedAt": "2026-11-13T05:39:28.115Z"
+    },
+    "https://www.anthropic.com/research/components-of-agent-memory": {
+      "contentHash": "ae9326d8fdbc03d3b3bf217a768897fb938199f439154b28e1ed15a14fad83b2",
+      "processedAt": "2026-11-13T05:39:28.467Z"
+    },
+    "https://karolinaszczur.com/journal/translation-not-rebranding/": {
+      "contentHash": "ee0030c273b47efad6e542a3ad39c0cfead922ca258e44e9f3563f8d4bba9ad6",
+      "processedAt": "2026-11-13T05:39:28.743Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-what-can-we-learn-from-114": {
+      "contentHash": "440d53a6f8faf92e7fa4b0e37727959135b8a0d87727b268dda755920a9e79b0",
+      "processedAt": "2026-11-13T05:39:28.909Z"
+    },
+    "https://smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/": {
+      "contentHash": "915d8e06686e35acfc47349fa2151e18400daa0c78b300b6be649d9cf3acc58c",
+      "processedAt": "2026-11-13T05:39:29.523Z"
+    },
+    "https://css-tricks.com/beyond-12-columns/": {
+      "contentHash": "889a326412a2764c439526932f1c72568dd9f69c2065eef3c4fae28a51964ea5",
+      "processedAt": "2026-11-13T05:39:29.957Z"
+    },
+    "https://www.figma.com/blog/how-3d-transforms-and-figmas-agent-brought-a-launch-video-to-life/": {
+      "contentHash": "34be4e3c5c6a95c20422977f2caa084049726df34ffe6db0384d865356e2386c",
+      "processedAt": "2026-11-13T05:39:31.019Z"
+    },
+    "https://frontendfoc.us/issues/766": {
+      "contentHash": "115a7718fc10271c4c0e2c4d9673bd40d7c54866fbb4371b96aad0b4cca843ca",
+      "processedAt": "2026-11-13T05:39:31.438Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/13/121354": {
+      "contentHash": "6f07f0d6ee79e503ccb56bc0fa892e046c3088c77770bad1fbbd5102da3509bd",
+      "processedAt": "2026-11-13T05:39:36.078Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/13/102559": {
+      "contentHash": "830cbb50cfc66d8503e4da1300d3c724ac4210c19925e4409d0fbd33fdb1257c",
+      "processedAt": "2026-11-13T05:39:40.472Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/12/120303": {
+      "contentHash": "36b86ec767a899124e119ea1ff53da33dc4a7074e28e9aee1b63e1ef10c7ae6f",
+      "processedAt": "2026-11-13T05:39:44.862Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/12/110000": {
+      "contentHash": "9dc62b275b6557c6143a35f1828f5dc4977d8401b042096a543f6bff3c82457a",
+      "processedAt": "2026-11-13T05:39:49.272Z"
+    },
+    "https://tech.layerx.co.jp/entry/yapc-tokyo-2026-sponsor": {
+      "contentHash": "c898e2d2c77fdfba25fc02fec0e57e6666a404a123d5011e8e011cb621688085",
+      "processedAt": "2026-11-13T05:39:54.658Z"
+    },
+    "https://tech.layerx.co.jp/entry/qa-jev-study": {
+      "contentHash": "4edd717eabcacca63e0eed03c937a775674b8aa99b47561e2d284769fafacf47",
+      "processedAt": "2026-11-13T05:39:55.268Z"
+    },
+    "https://uxcontent.com/scaling-ai-content-tooling-from-1-designer-to-32/": {
+      "contentHash": "823b9466c8429780f9a3c6a102e61e1edf9add103f10dae0570c8718d6a7891d",
+      "processedAt": "2026-11-13T05:39:56.032Z"
+    },
+    "https://uxmovement.medium.com/the-best-bulk-edit-ui-for-data-tables-756676f8eeeb": {
+      "contentHash": "1696ba25994d31f07a3e876cae6180aa30ee5fe270adffd1bb132ac8619a39d7",
+      "processedAt": "2026-11-13T05:40:00.367Z"
+    },
+    "https://thisweekinreact.com/newsletter/305": {
+      "contentHash": "0a0ab24021afd67356e5635689be0069a8d334c017a905c03580b2bdc5164909",
+      "processedAt": "2026-11-13T05:40:00.797Z"
+    },
+    "https://measuringu.com/pew-research-finds-the-same-problem-we-did-with-digital-twins/": {
+      "contentHash": "65e61f277e0887b152b65bdaf9f34cea95fb7ccd22461c9a00023c3d6bf55dc4",
+      "processedAt": "2026-11-13T05:40:01.252Z"
+    },
+    "https://www.lukew.com/ff/2171/ask-lukew-in-your-ai-tools": {
+      "contentHash": "bd0d03d13cd9f3bd83d6714eeb27094427c6fc8500474aa158f02abfad46899b",
+      "processedAt": "2026-11-13T05:40:01.684Z"
+    },
+    "https://blog.master.dev/creating-diagrams-and-graphs-using-modern-css/": {
+      "contentHash": "6ab636f198ec3a2bb31c09d37826f0e01c96e54adcc66458c48f0cf2f6ecc89b",
+      "processedAt": "2026-11-13T05:40:02.281Z"
+    },
+    "https://developers.cyberagent.co.jp/blog/archives/67436/": {
+      "contentHash": "f783ed7ad41945f05b6940cae8af56bfadac0cf78c2738abfc71d1d279e01304",
+      "processedAt": "2026-11-13T05:40:04.899Z"
+    },
+    "https://developers.cyberagent.co.jp/blog/archives/67406/": {
+      "contentHash": "e440967d972b467a3b96c0c040ea5040f1090edeee643f77f8c4c991f3c8c486",
+      "processedAt": "2026-11-13T05:40:07.277Z"
     }
   },
-  "lastRun": "2026-11-11T05:12:51.810Z"
+  "lastRun": "2026-11-13T05:40:07.277Z"
 }
