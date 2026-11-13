@@ -49,6 +49,16 @@ checkout_master() {
   fi
 }
 
+# 未コミットの変更があると pull --rebase が失敗する。set -e で黙って終わらないよう通知する
+pull_master() {
+  if ! git -C "$PROJECT_DIR" pull --rebase origin master >> "$LOG_FILE" 2>&1; then
+    log "ERROR: git pull --rebase failed"
+    notify "Newsletter ❌" "git pull に失敗しました。未コミットの変更を確認してください"
+    exit 1
+  fi
+  log "Git pull completed"
+}
+
 # 対象日付のニュースレター commit があれば subject を返す（無ければ空）
 find_newsletter_commit() {
   git -C "$PROJECT_DIR" log --grep="^docs: Add newsletter for $1\$" --format=%s -1 2>/dev/null || true
@@ -60,8 +70,7 @@ launch_newsletter() {
 
   cd "$PROJECT_DIR"
   checkout_master
-  git pull --rebase origin master >> "$LOG_FILE" 2>&1
-  log "Git pull completed"
+  pull_master
 
   osascript -e "
     tell application \"Terminal\"
@@ -177,8 +186,7 @@ if [[ "$NEW_MERGED" > "$LAST_MERGED" ]]; then
 
   cd "$PROJECT_DIR"
   checkout_master
-  git pull --rebase origin master >> "$LOG_FILE" 2>&1
-  log "Git pull completed"
+  pull_master
 
   LATEST_ARTICLES=$(ls -d "$PROJECT_DIR/articles/"[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9] 2>/dev/null | sort -r | head -1)
   if [ -z "$LATEST_ARTICLES" ]; then
