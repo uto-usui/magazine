@@ -8,7 +8,7 @@
 #
 # 1. claude -p で台本・音声・カバー画像を作る（/create-podcast --content-only）
 # 2. 動画と Show Notes を作り、台本・Show Notes・使用額をコミットして push する
-# 3. 号の Release を作って MP3 と MP4 を置き、「X に投稿できます」と通知する
+# 3. 号の Release を作って MP3・カバー画像・MP4 を置き、「X に投稿できます」と通知する
 #
 # Release は push のあとに作る。タグを台本のコミットに付けるため。
 # ここで失敗しても、ニュースレターはすでに push 済みなので影響しない。

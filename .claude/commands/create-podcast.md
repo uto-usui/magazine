@@ -145,7 +145,7 @@ pnpm run podcast "$SCRIPT"
 pnpm run podcast:cover "$SCRIPT"
 ```
 
-カバー画像はスタイルを試している途中なので、手元（`podcasts/audio/`）に置くだけにして、Release には上げない。
+`podcasts/audio/${EPISODE}.jpg` に書き出す。git には入れず、手順9で MP3 と一緒に Release に置く。
 
 ## 8. 動画を作る
 
@@ -166,7 +166,7 @@ pnpm run podcast:video "$SCRIPT"
 
 ## 9. Release に置く
 
-MP3 と全編の MP4 はリポジトリに入れず、号ごとの GitHub Release（タグ `podcast-${EPISODE}`）に置く。公開リポジトリなので、誰でもダウンロードできる。
+MP3・カバー画像・全編の MP4 はリポジトリに入れず、号ごとの GitHub Release（タグ `podcast-${EPISODE}`）に置く。公開リポジトリなので、誰でもダウンロードできる。
 
 ```bash
 pnpm run podcast:release "$SCRIPT"

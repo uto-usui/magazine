@@ -20,7 +20,7 @@ const { GITHUB_TOKEN: _, ...ghEnv } = process.env
 const gh = (args: string[]) => run('gh', args, { env: ghEnv, maxBuffer: 16 * 1024 * 1024 })
 
 /**
- * 号ごとの GitHub Release（タグ podcast-<episode>）を作り、MP3 と全編の MP4 を置く。本文は Show Notes。
+ * 号ごとの GitHub Release（タグ podcast-<episode>）を作り、MP3・カバー画像・全編の MP4 を置く。本文は Show Notes。
  * もう Release があれば題と本文をそろえ、変わったファイルだけ上げ直すので、何度実行してもよい
  */
 async function main() {
@@ -45,6 +45,9 @@ async function main() {
   const mp3 = join(AUDIO_DIR, `${episode}.mp3`)
   if (!(await exists(mp3))) fail(`${rel(mp3)} がありません`)
   const files = [{ path: mp3, name: `${episode}.mp3` }]
+  const cover = join(AUDIO_DIR, `${episode}.jpg`)
+  if (await exists(cover)) files.push({ path: cover, name: `${episode}.jpg` })
+  else console.log(`${rel(cover)} がないので、カバー画像は置きません（pnpm run podcast:cover で作れます）`)
   if (withVideo) {
     const mp4 = join(VIDEO_DIR, episode, 'full.mp4')
     if (!(await exists(mp4))) fail(`${rel(mp4)} がありません。先に pnpm run podcast:video を実行するか、MP3 だけなら --no-video を付けてください`)
