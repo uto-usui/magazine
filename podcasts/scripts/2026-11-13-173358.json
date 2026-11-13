@@ -1,0 +1,207 @@
+{
+  "episode": "2026-11-13-173358",
+  "newsletter": "newsletters/2026-11-13-173358.md",
+  "segments": [
+    {
+      "id": "opening",
+      "title": "オープニング",
+      "lines": [
+        { "speaker": "A", "text": "おはようございます。UXエンジニアリング・マガジン、11月13日号です。" },
+        { "speaker": "B", "text": "おはようございます。今日は何本ですか？" },
+        { "speaker": "A", "text": "15本です。" },
+        { "speaker": "B", "text": "多いですね。さっそくお願いします。" }
+      ]
+    },
+    {
+      "id": "a01",
+      "title": "無効なボタンの決まりはどこから来たか",
+      "url": "https://www.hipuku.dev/writing/where-the-disabled-button-got-its-rule",
+      "lines": [
+        { "speaker": "A", "text": "最初は、無効なボタンの決まりがどこから来たかを調べた記事です。Material、Carbon、Polaris、Primer など8つのデザインシステムを比べています。" },
+        { "speaker": "B", "text": "何が分かったんですか？" },
+        { "speaker": "A", "text": "無効なボタンの文字のコントラストは1.36対1から3.35対1で、どれも Tab キーで移動できません。無効な項目は選べない、という決まりは、1983年の Apple Lisa のメニューにさかのぼります。" },
+        { "speaker": "B", "text": "最近は変わってきているんですか？" },
+        { "speaker": "A", "text": "Material の softDisabled や Primer の inactive のように、見た目は無効でも Tab で移動でき、使えない理由を伝えられる状態を用意するデザインシステムも出てきています。W3C の ARIA Authoring Practices では、まわりを見れば理由がわかるものは disabled 属性、メニューやタブは aria-disabled 属性にする、という目安です。" },
+        { "speaker": "B", "text": "自分の画面でも確かめたくなります。" },
+        { "speaker": "A", "text": "送信ボタンを無効にしている画面で、足りない入力がボタンの近くに表示されているかを見れば、どちらを使うか決められます。" }
+      ]
+    },
+    {
+      "id": "a02",
+      "title": "利用者のしたいことを判断する UI",
+      "url": "https://agustinbarrientos.com/writing/senior-eye/interfaces-that-understand-what-we-want",
+      "lines": [
+        { "speaker": "A", "text": "2本目は、判断モデルを UI に組み込む方法の記事です。決まった選択肢から1つを選び、選択肢ごとの確率を返すモデルで、デモとコードが付いています。" },
+        { "speaker": "B", "text": "生成 AI とは違うんですか？" },
+        { "speaker": "A", "text": "多くの判断には生成 AI は重すぎる、という立場です。Claude Haiku 5.5 は判断モデルの Jev より、約5倍の時間と約3倍の費用がかかりました。Chrome の Decisions API なら、ブラウザのなかで無料かつオフラインで判断できます。ただ、まだフラグが要る実験段階です。" },
+        { "speaker": "B", "text": "確信度がどれくらいあれば反応させるんでしょう。" },
+        { "speaker": "A", "text": "しきい値は、間違えたときの損の大きさで決めるよう勧めています。外れても困らない提案は50%で出し、チャットの警告は98%まで上げています。デザインでは、確信度が足りないときの画面も1つ描いておくとよさそうです。" }
+      ]
+    },
+    {
+      "id": "a03",
+      "title": "QA チームの Jev 勉強会",
+      "url": "https://tech.layerx.co.jp/entry/qa-jev-study",
+      "lines": [
+        { "speaker": "A", "text": "3本目は LayerX のエンジニアブログです。QA エンジニア16人が、判断に特化した AI の Jev について勉強会を開き、20分で78枚の使いどころのアイデアを出しました。" },
+        { "speaker": "B", "text": "実際に使っている例もあるんですか？" },
+        { "speaker": "A", "text": "チケットにプラットフォームのラベルを自動で付ける仕組みです。ルールで判定して、Jev が確かめ、食い違うか確信度が低いものだけを Claude に回します。224件で、人が付けたラベルとの一致率は94.6%でした。" },
+        { "speaker": "B", "text": "任せる範囲はどう決めているんですか？" },
+        { "speaker": "A", "text": "誤っていたとき気づけるか、正しいかどうかを決めるのに理由が要るか、の2つの問いです。リグレッションテストの範囲選びは、漏れた箇所がテストされず誤りが表に出にくいので、任せにくいと整理しています。" }
+      ]
+    },
+    {
+      "id": "a04",
+      "title": "データテーブルの一括編集の UI",
+      "url": "https://uxmovement.medium.com/the-best-bulk-edit-ui-for-data-tables-756676f8eeeb",
+      "lines": [
+        { "speaker": "A", "text": "4本目は UX Movement の記事です。データテーブルで、複数の行をまとめて編集する UI の提案です。" },
+        { "speaker": "B", "text": "どんな形なんですか？" },
+        { "speaker": "A", "text": "画面の下に出る一括操作バー、右から開く幅広のパネル、行ごとに畳めるアコーディオンの組み合わせです。パネルは画面の約半分の幅で、2列のフォームにします。" },
+        { "speaker": "B", "text": "うっかり操作への備えはありますか？" },
+        { "speaker": "A", "text": "編集したあとにキャンセルを押したときだけ確認を出します。保存後は編集した行に一時的な印を付けて、同じ行を二度編集しないようにしています。ただ、利用者に試してもらった結果や、ほかの案との比較は載っていません。" }
+      ]
+    },
+    {
+      "id": "a05",
+      "title": "AI のデジタルツインは利用者の代わりになるか",
+      "url": "https://measuringu.com/pew-research-finds-the-same-problem-we-did-with-digital-twins/",
+      "lines": [
+        { "speaker": "A", "text": "5本目は MeasuringU の記事です。実在の人のデータから作った AI のデジタルツインにアンケートへ答えさせた、Pew Research Center の研究を、自分たちの実験と比べています。" },
+        { "speaker": "B", "text": "結果はどうでしたか？" },
+        { "speaker": "A", "text": "Pew の研究でいちばん成績がよかったのは、Claude Opus 4.6 に詳しいプロフィールを渡した設定です。それでも約300問の平均誤差は12ポイントありました。MeasuringU の実験でも、ツインは使いやすさのアンケート SUS の点数を、約10.5点高く見積もっていました。" },
+        { "speaker": "B", "text": "ツインの数を増やせば、ならされるのでは？" },
+        { "speaker": "A", "text": "誤差が決まった方向にかたよるので、数を増やしても打ち消し合いません。製品の順位はおおむね合っても、点数の水準がずれるので、実在の利用者の代わりにはならないと結論づけています。" }
+      ]
+    },
+    {
+      "id": "a06",
+      "title": "エージェントの記憶の作り方",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "lines": [
+        { "speaker": "A", "text": "6本目は Anthropic の記事です。AI エージェントの記憶の作り方を、CL-Bench やポケモン赤のプレイなどの評価から整理しています。" },
+        { "speaker": "B", "text": "ポケモンの話、気になります。" },
+        { "speaker": "A", "text": "Claude Sonnet 3.7 は413ファイルを書いてバッジ1個。Claude Fable 5 は9ファイルほどで、バッジは4個でした。書き残さないと忘れてしまうことだけを、メモに残していたそうです。" },
+        { "speaker": "B", "text": "細かく指示したほうがいいわけではないんですね。" },
+        { "speaker": "A", "text": "新しいモデルには、記憶が何のためにあるかだけを伝えたほうが成績が上がり、失敗だけを記録する規則を足すと、記憶で上がった分の多くがなくなりました。作業の合間に記録を読み直す dreaming では、誤ったメモを直せると報告しています。" }
+      ]
+    },
+    {
+      "id": "a07",
+      "title": "デザインシステムの呼び名",
+      "url": "https://karolinaszczur.com/journal/translation-not-rebranding/",
+      "lines": [
+        { "speaker": "A", "text": "7本目は、デザインシステムに代わるよい呼び名はない、という記事です。Karolina Szczur さんは、名前を探すのをやめて、相手の職種に合わせて言い換える翻訳の問題として扱うよう勧めています。" },
+        { "speaker": "B", "text": "どう言い換えるんですか？" },
+        { "speaker": "A", "text": "プロダクトという呼び方はマネージャーに、方法論はデザイナーやエンジニアに、インフラは経営や財務の人に伝わりやすい、としています。ただ、どの呼び方にも弱いところがあります。" },
+        { "speaker": "B", "text": "ほかの部署の人と話すときに使えそうです。" },
+        { "speaker": "A", "text": "Figma やトークンといった中身を並べず、何ができるようになるかを話すよう勧めています。本人がふだん使うのは、インフラという呼び方です。" }
+      ]
+    },
+    {
+      "id": "a08",
+      "title": "小さな改善の PR を出し続ける Nunebot",
+      "url": "https://www.johnnunemaker.com/dont-make-a-human-do-what-ai-is-amazing-at/",
+      "lines": [
+        { "speaker": "A", "text": "8本目は John Nunemaker さんの記事です。20のリポジトリに小さな改善の PR を出し続けるプロンプト、Nunebot の作り方です。12日間で269件の PR を出し、250件をマージしました。" },
+        { "speaker": "B", "text": "そんなにマージして大丈夫なんですか？" },
+        { "speaker": "A", "text": "1回に1つ、読んですぐマージできる変更だけを選ばせていて、変更行数の中央値は43行です。作ったあとは simplify、qa、codex review の順に通し、2回目からのレビューは直した部分だけに絞っています。" },
+        { "speaker": "B", "text": "断った PR はどうなるんですか？" },
+        { "speaker": "A", "text": "閉じた PR の理由は taste というファイルに規則として書き足され、11日で107個になりました。" }
+      ]
+    },
+    {
+      "id": "a09",
+      "title": "12カラムに頼らないレイアウト",
+      "url": "https://css-tricks.com/beyond-12-columns/",
+      "lines": [
+        { "speaker": "A", "text": "9本目は CSS-Tricks です。12カラムのグリッドを最初に敷かず、ブランドの個性と、載せる内容どうしの関係からレイアウトを決める方法を、Andy Clarke さんが紹介しています。" },
+        { "speaker": "B", "text": "具体的にはどう組むんですか？" },
+        { "speaker": "A", "text": "縦横に区切ったモジュラーグリッドでは、4かける4の16マスを全部は埋めず、見出しと商品画像に4マス、商品情報と購入の操作に1マスずつを当てて、強弱をつけています。" },
+        { "speaker": "B", "text": "ページごとに変えると、ばらばらになりませんか？" },
+        { "speaker": "A", "text": "2カラムと3カラムのグリッドを重ねると幅の違う4つの列ができ、同じ構造の上で組み合わせを変えられます。CSS なら grid-template-columns で、2対1対1対2の比率に書けます。" }
+      ]
+    },
+    {
+      "id": "a10",
+      "title": "AI を足す前の4つの問い",
+      "url": "https://smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/",
+      "lines": [
+        { "speaker": "A", "text": "10本目は Smashing Magazine の記事です。AI 機能を足す前の4つの問いです。利用者の手間は減るか、今のやり方よりよくなるか、誤りに気づけるか、1年後も誤りを見抜けるか、です。" },
+        { "speaker": "B", "text": "手間が増える例もあるんですか？" },
+        { "speaker": "A", "text": "保険の不服申し立ての判定文を AI に書かせると、責任を持って署名できるまで読み込むと、自分で書くのと同じだけ時間がかかりました。関係する規定と過去の判断を探す部分だけに絞り直すと、確認の時間が減っています。" },
+        { "speaker": "B", "text": "誤りに気づけるか、はどう判断するんでしょう。" },
+        { "speaker": "A", "text": "4つの答えはデザインの条件として指示書に書き込みます。誤りが見えにくく影響の大きい機能には、出典の表示と確認を求める表示を付けるとしています。デザインシステムの部品にあれば、機能ごとに作り直さずに済みそうです。" }
+      ]
+    },
+    {
+      "id": "a11",
+      "title": "KMP から撤退した判断",
+      "url": "https://developers.cyberagent.co.jp/blog/archives/67436/",
+      "lines": [
+        { "speaker": "A", "text": "11本目は CyberAgent の開発者ブログです。iOS と Android でロジックを共通化する Kotlin Multiplatform、KMP から撤退した判断を説明しています。" },
+        { "speaker": "B", "text": "どんな困りごとがあったんですか？" },
+        { "speaker": "A", "text": "Swift 6 に上げると KMP 側でクラッシュする問題があり、約1年、対応を進められませんでした。共通化していたのは一部なのに、制約はアプリ全体にかかっていたそうです。" },
+        { "speaker": "B", "text": "撤退して何が変わりましたか？" },
+        { "speaker": "A", "text": "インストールサイズは40メガバイト、ダウンロードサイズは4.7メガバイト減り、起動時間は50ミリ秒短くなりました。両方の OS のずれは、OpenAPI の定義からのコード生成などで防いでいます。" }
+      ]
+    },
+    {
+      "id": "a12",
+      "title": "AI の文言アシスタントを32人に広げる",
+      "url": "https://uxcontent.com/scaling-ai-content-tooling-from-1-designer-to-32/",
+      "lines": [
+        { "speaker": "A", "text": "12本目は UX Content Collective の記事です。Clover でただ1人のコンテンツアーキテクトが作った UX ライティングの AI アシスタントを、32人のプロダクトデザイナーに広げた経過です。" },
+        { "speaker": "B", "text": "どうやって使ってもらったんですか？" },
+        { "speaker": "A", "text": "Google の Gem で作ったもので、デザインの完了の定義に、Gem で文言を確かめたこと、を入れました。デザインリーダーには、文言の違和感に気づいたら知らせてもらう役を頼んでいます。" },
+        { "speaker": "B", "text": "効果はどうでしたか？" },
+        { "speaker": "A", "text": "アンケートでは、1画面あたり30分から60分短くなったと答えた人が多くいました。利用ログは、15分以内に続けて送ったプロンプトは、まとめて1回の作業として数えています。不満はタブの切り替えのような手間で、Figma のなかで使いたいという声が出ています。" }
+      ]
+    },
+    {
+      "id": "a13",
+      "title": "Prebid のマニフェストがキャッシュされるように",
+      "url": "https://csswizardry.com/2026/11/web-perf-wednesday-017-prebid-stops-redownloading-its-manifest/",
+      "lines": [
+        { "speaker": "A", "text": "13本目は CSS Wizardry の記事です。広告の入札ライブラリ Prebid.js のアップデートで、マニフェストがキャッシュされない問題が直りました。" },
+        { "speaker": "B", "text": "何が原因だったんですか？" },
+        { "speaker": "A", "text": "jsDelivr の bundle.js ローダーが、URL のクエリに毎回ランダムな値を入れていて、ブラウザが使い回せませんでした。マニフェストは67キロバイトあり、半分近くは storageControl モジュールを使うサイトでしか要らない中身でした。" },
+        { "speaker": "B", "text": "自分のサイトでも起きていそうです。" },
+        { "speaker": "A", "text": "DevTools の Disable cache のチェックを外して、1回目と2回目の表示を比べるよう勧めています。自前のスクリプトでも、毎回取り直しているファイルを同じ方法で探せます。" }
+      ]
+    },
+    {
+      "id": "a14",
+      "title": "削り出すプロダクト",
+      "url": "https://haydenbleasel.com/taking-away",
+      "lines": [
+        { "speaker": "A", "text": "14本目は Hayden Bleasel さんの記事です。作るのが安くなった今、プロダクトは足していくものから、削り出すものに変わった、と見ています。" },
+        { "speaker": "B", "text": "どれくらい安くなったんですか？" },
+        { "speaker": "A", "text": "Blume では10個のマイルストーンを並べた計画を、エージェントが63分ですべて作りました。それでも、ミケランジェロが彫る前に小さな模型を作ったように、学ぶための MVP は今も要るとしています。" },
+        { "speaker": "B", "text": "全部作ってから削るのではないんですね。" },
+        { "speaker": "A", "text": "一度に作らせる前に完成形を思い描いて説明し、最初に入れるものを絞るよう勧めています。連携先を20作れるとしても、よく使われる3つに絞って出し、早く改良するほうがよい、という考えです。" }
+      ]
+    },
+    {
+      "id": "a15",
+      "title": "CSS だけで要素を線でつなぐ",
+      "url": "https://blog.master.dev/creating-diagrams-and-graphs-using-modern-css/",
+      "lines": [
+        { "speaker": "A", "text": "最後は Frontend Masters Blog の記事です。CSS で図やグラフを描く連載の3本目で、2つの要素を、CSS だけで線でつないでいます。" },
+        { "speaker": "B", "text": "何を使うんですか？" },
+        { "speaker": "A", "text": "アンカー位置指定、border-shape、shape 関数、if 関数の組み合わせです。2つの要素が近いときは中心どうし、縦の距離が小さいときは左右の辺どうしをつなぐように、if 関数の条件で線の形を切り替えています。" },
+        { "speaker": "B", "text": "もう本番で使えますか？" },
+        { "speaker": "A", "text": "すべての機能に対応しているのは、今は Chrome と Edge だけです。本番向けではなく、新しい機能を理解するための実験だと断っています。" }
+      ]
+    },
+    {
+      "id": "ending",
+      "title": "エンディング",
+      "lines": [
+        { "speaker": "A", "text": "今日の記事は、以上の15本でした。くわしい解説は、ニュースレターの本文で読めます。" },
+        { "speaker": "B", "text": "無効なボタンの話を聞いて、自分の画面の送信ボタンを見直したくなりました。" },
+        { "speaker": "A", "text": "ぜひ。では、また次の号でお会いしましょう。" }
+      ]
+    }
+  ]
+}
