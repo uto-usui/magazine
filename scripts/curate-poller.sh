@@ -122,7 +122,7 @@ log "Launching Terminal for curate-articles-auto"
 osascript -e "
   tell application \"Terminal\"
     activate
-    do script \"cd $PROJECT_DIR && claude -p '/curate-articles-auto 今週' --dangerously-skip-permissions && git pull --rebase --autostash origin master && git push origin master; echo 'Done - press any key to close'; read\"
+    do script \"cd $PROJECT_DIR && CLAUDE_PROFILE=${CLAUDE_PROFILE:-} claude -p '/curate-articles-auto 今週' --dangerously-skip-permissions && git pull --rebase --autostash origin master && git push origin master; echo 'Done - press any key to close'; read\"
   end tell
 " >> "$LOG_FILE" 2>&1
 
