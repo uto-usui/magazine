@@ -38799,7 +38799,47 @@
     "https://developers.cyberagent.co.jp/blog/archives/67406/": {
       "contentHash": "e440967d972b467a3b96c0c040ea5040f1090edeee643f77f8c4c991f3c8c486",
       "processedAt": "2026-11-13T05:40:07.277Z"
+    },
+    "https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac/": {
+      "contentHash": "8b369ba820fed78a6ef777640f5b6369178375489cfdfe4eba5afb749264e111",
+      "processedAt": "2026-11-14T05:28:41.587Z"
+    },
+    "https://css-tricks.com/2027-front-end-black-friday-deals/": {
+      "contentHash": "28f26ddd49c719f7d8e7b751024c7a0348f4b74fefaca88a4313ae5694adeee0",
+      "processedAt": "2026-11-14T05:28:41.871Z"
+    },
+    "https://piccalil.li/the-index/206/": {
+      "contentHash": "f92d428644df0b2f24cc0b8263fcc422288025e7b70e23a72c371528206e4fcc",
+      "processedAt": "2026-11-14T05:28:42.184Z"
+    },
+    "https://vercel.com/blog/workflow-sdk-5": {
+      "contentHash": "5f909bb76f181f657053eb88b480c4655104cc76db114c6ff295600180235319",
+      "processedAt": "2026-11-14T05:28:42.913Z"
+    },
+    "https://www.figma.com/blog/ai-role-in-the-creative-process/": {
+      "contentHash": "1ec7320db11a3877609319d576f8ec7dbf40172aba692ee5100105caec7a9abb",
+      "processedAt": "2026-11-14T05:28:44.805Z"
+    },
+    "https://zenn.dev/uhyo/articles/react-profession-bench-21": {
+      "contentHash": "2f49104cdadbbc0556df6d2d1ab735860d3beeb496537d3347fd94fdc478a362",
+      "processedAt": "2026-11-14T05:28:45.309Z"
+    },
+    "https://www.nngroup.com/articles/research-in-the-loop/": {
+      "contentHash": "92fc1db25a27c6103478ea7688b8b53f363eb0e7eb1cf6a061d97a40f1a52372",
+      "processedAt": "2026-11-14T05:28:46.291Z"
+    },
+    "https://www.nngroup.com/articles/journey-mapping-101/": {
+      "contentHash": "a5cf9858c1e843ba5f615b1973c03c872243ce0b68a428bf68c7b873512dfca4",
+      "processedAt": "2026-11-14T05:28:47.064Z"
+    },
+    "https://react.statuscode.com/issues/497": {
+      "contentHash": "ddc67868b2d8f7f2a038e3ecc41dd7c9fe9f645767dd971bbb0fab22cd363090",
+      "processedAt": "2026-11-14T05:28:47.655Z"
+    },
+    "https://webkit.org/blog/18608/safari-on-apple-homeview/": {
+      "contentHash": "a3c070de0574055dfd13805ac240c012b749352c68fe3dc52c5e7c8b0e166fe9",
+      "processedAt": "2026-11-14T05:28:49.244Z"
     }
   },
-  "lastRun": "2026-11-13T05:40:07.277Z"
+  "lastRun": "2026-11-14T05:28:49.244Z"
 }
