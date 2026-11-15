@@ -1,0 +1,53 @@
+articles_dir=2026-11-15
+exit_code=0
+timestamp_utc=2026-11-15T05:25:32Z
+
+---- issue lines ----
+9:❌ Playwright failed for Mercari Engineering: HTTP 403
+10:Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 75 feeds
+📡 Fetching RSS feeds...
+🤖 Bot protection detected for Mercari Engineering, trying Playwright...
+❌ Playwright failed for Mercari Engineering: HTTP 403
+Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+Line: 32
+Column: 136
+Char: =
+📰 Found 5200 total articles
+✨ New articles: 11
+🗓️ Skipped (published more than 30 days ago): 380
+⏭️ Skipped (already processed): 504
+📥 Processing: Cuttlefish on Mac: Running Android’s Virtual Device Framework Natively on Apple Silicon
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-15/cuttlefish-on-mac-running-androids-virtual-device-framework-natively-on-apple-silicon.md
+📥 Processing: 10 Big Ol’ 2027 Black Friday Deals
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-15/10-big-ol-2027-black-friday-deals.md
+📥 Processing: The Index: Issue #206
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-15/the-index-issue-206.md
+📥 Processing: Workflow SDK 5: built for production
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-15/workflow-sdk-5-built-for-production.md
+📥 Processing: AI’s role in the creative process
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-15/ais-role-in-the-creative-process.md
+📥 Processing: Terraさん何しに来たの？　シーズン2（React習熟度ベンチマーク）
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-15/terra-2react.md
+📥 Processing: Research-In-The-Loop: How UXR Adapts to Development at AI Speed
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-15/research-in-the-loop-how-uxr-adapts-to-development-at-ai-speed.md
+📥 Processing: Journey Mapping 101
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-15/journey-mapping-101.md
+📥 Processing: shadcn's next thing: UI SDK
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-15/shadcns-next-thing-ui-sdk.md
+📥 Processing: Safari on Apple HomeView
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-15/safari-on-apple-homeview.md
+📥 Processing: 【Claude Design】デザインシステムを作って資料のデザインの一貫性を保つ。組織利用にあたって実践した流れ
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-15/claude-design.md
+
+📊 Summary:
+   ✅ Success: 11
+   ❌ Errors: 0
+🏁 Done!
