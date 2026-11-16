@@ -1,0 +1,59 @@
+articles_dir=2026-11-16
+exit_code=0
+timestamp_utc=2026-11-16T05:24:47Z
+
+---- issue lines ----
+9:Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+13:❌ Playwright failed for Mercari Engineering: HTTP 403
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-16/band-aid-accessibility.md
+📥 Processing: Send and sign agreements from Claude with Lumin
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-16/send-and-sign-agreements-from-claude-with-lumin.md
+📥 Processing: Slop is moving up the stack
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-16/slop-is-moving-up-the-stack.md
+📥 Processing: Iconden
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-16/iconden.md
+📥 Processing: Guess the Year
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-16/guess-the-year.md
+📥 Processing: Glue work is still harmful in the age of AI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-16/glue-work-is-still-harmful-in-the-age-of-ai.md
+📥 Processing: 10 Big Ol’ 2027 Black Friday Deals
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-16/10-big-ol-2027-black-friday-deals.md
+📥 Processing: The Index: Issue #206
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-16/the-index-issue-206.md
+📥 Processing: Workflow SDK 5: built for production
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-16/workflow-sdk-5-built-for-production.md
+📥 Processing: AI’s role in the creative process
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-16/ais-role-in-the-creative-process.md
+📥 Processing: Terraさん何しに来たの？　シーズン2（React習熟度ベンチマーク）
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-16/terra-2react.md
+📥 Processing: 1人PMでも悩まない！SmartHRのサービス開発——入社半年で感じた、PMを支える3つの仕組み
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.smarthr.jp/entry/2026/11/16/140258
+✅ Playwright successfully fetched: https://tech.smarthr.jp/entry/2026/11/16/140258
+⚠️ Content too short (16 chars < 200): https://tech.smarthr.jp/entry/2026/11/16/140258
+⚠️ Using RSS content as fallback for: https://tech.smarthr.jp/entry/2026/11/16/140258
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-16/1pmsmarthrpm3.md
+📥 Processing: 内製 Coding Agent "haro" と社内 GPU で、探索的テスト AI Agent をぶん回している
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.layerx.co.jp/entry/haro-et-agent
+✅ Playwright successfully fetched: https://tech.layerx.co.jp/entry/haro-et-agent
+⚠️ Content too short (16 chars < 200): https://tech.layerx.co.jp/entry/haro-et-agent
+⚠️ Using RSS content as fallback for: https://tech.layerx.co.jp/entry/haro-et-agent
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-16/coding-agent-haro-gpu-ai-agent.md
+📥 Processing: Research-In-The-Loop: How UXR Adapts to Development at AI Speed
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-16/research-in-the-loop-how-uxr-adapts-to-development-at-ai-speed.md
+📥 Processing: Journey Mapping 101
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-16/journey-mapping-101.md
+📥 Processing: shadcn's next thing: UI SDK
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-16/shadcns-next-thing-ui-sdk.md
+📥 Processing: Safari on Apple HomeView
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-16/safari-on-apple-homeview.md
+📥 Processing: 【Claude Design】デザインシステムを作って資料のデザインの一貫性を保つ。組織利用にあたって実践した流れ
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-16/claude-design.md
+📥 Processing: タップルのiPhone Duo発売日対応：限られた時間での判断と実装
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-16/iphone-duo.md
+
+📊 Summary:
+   ✅ Success: 20
+   ❌ Errors: 0
+🏁 Done!
