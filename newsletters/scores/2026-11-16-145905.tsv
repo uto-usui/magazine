@@ -1,0 +1,21 @@
+url	feed	lang	A	B	C	D	total	selected	note
+https://developers.cyberagent.co.jp/blog/archives/67216/	CyberAgent Developers Blog	ja	2	2	2	2	8	yes	発売日に向けた範囲の決め方と実装を、本番の事例で示す
+https://webkit.org/blog/18608/safari-on-apple-homeview/	WebKit Blog	en	2	2	1	2	7	yes	新しい端末の告知だが、確かめ方と直し方（448×364、短い高さ、UA 判定）が主なので採点に回した
+https://www.nngroup.com/articles/research-in-the-loop/	Nielsen Norman Group	en	2	2	1	2	7	yes	仕様書にリサーチの節を書き、計測を機能と一緒に作る提案。例は仮想なので C=1
+https://tech.layerx.co.jp/entry/haro-et-agent	LayerX エンジニアブログ	ja	1	2	2	2	7	yes	UI のテストの道具で A=1。取得失敗の注記があるが本文は最後まで取れている
+https://gabeorlanski.github.io/posts/slop-moves-up/	Sidebar	en	1	2	2	2	7	yes	AI との働き方（AI が書いたコードの見方）で A=1
+https://zenn.dev/yoss_k3/articles/a3dbdfbac43b21	Zenn designsystem	ja	2	1	1	1	5	yes
+https://zenn.dev/uhyo/articles/react-profession-bench-21	uhyo	ja	1	1	2	1	5	yes	シリーズの続き。持ち帰れるのはモデル選びの材料まで
+https://www.figma.com/blog/ai-role-in-the-creative-process/	Figma Blog	en	1	1	1	1	4	yes
+https://www.nngroup.com/articles/journey-mapping-101/	Nielsen Norman Group	en	1	1	1	1	4	yes	定番の解説。AI エージェントを登場人物にする節で D=1
+https://www.seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/	Sidebar	en	1	1	1	1	4	yes	組織論寄りだが、AI に任せない連絡の線引きで A=1
+https://tech.smarthr.jp/entry/2026/11/16/140258	SmartHR Tech Blog	ja	1	1	1	0	3	yes	PM の職場紹介。リリース前の CS レビューや分析用スキルなど進め方の具体があるので A=1。取得失敗の注記があるが本文は最後まで取れている
+https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac/	Meta Engineering	en	0	1	2	1	4	no	Android のエミュレーター基盤で A=0
+https://vercel.com/blog/workflow-sdk-5	Vercel	en	0	1	2	1	4	no	バックエンドの実行基盤。計測はあるが A=0
+https://css-tricks.com/2027-front-end-black-friday-deals/	css-tricks	en	-	-	-	-	-	no	足切り: 講座のセール情報
+https://a11yweekly.com/issue/526/	Accessibility Weekly	en	-	-	-	-	-	no	足切り: ダイジェスト号。一次記事は https://yatil.net/blog/band-aid-accessibility
+https://react.statuscode.com/issues/497	React Status	en	-	-	-	-	-	no	足切り: ダイジェスト号。一次記事は https://blog.x.com/en/engineering/rebuilding-the-global-town-square-from-scratch など
+https://piccalil.li/the-index/206/	Piccalilli	en	-	-	-	-	-	no	足切り: リンク集
+https://iconden.com/	Sidebar	en	-	-	-	-	-	no	足切り: 本文が取れていない（アイコンの一覧）
+https://chronologygame.com/guess-the-year	Sidebar	en	-	-	-	-	-	no	足切り: ゲームの紹介ページ
+https://bit.ly/side-lum1	Sidebar	en	-	-	-	-	-	no	足切り: 製品の宣伝（Lumin の Claude 連携）
