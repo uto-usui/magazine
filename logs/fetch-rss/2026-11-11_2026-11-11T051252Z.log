@@ -1,0 +1,59 @@
+articles_dir=2026-11-11
+exit_code=0
+timestamp_utc=2026-11-11T05:12:52Z
+
+---- issue lines ----
+9:Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+13:❌ Playwright failed for Mercari Engineering: HTTP 403
+
+---- tail (last 50 lines) ----
+📥 Processing: CSS Optimization: Is Using Declarations Just Once (UDJO) Still Effective Today?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-11/css-optimization-is-using-declarations-just-once-udjo-still-effective-today.md
+📥 Processing: CSS-Tricks, Version 20
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-11/css-tricks-version-20.md
+📥 Processing: JavaScript for Everyone: New Game+
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-11/javascript-for-everyone-new-game.md
+📥 Processing: Decision models take 26% of requests; Anthropic now wins new teams 2:1
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-11/decision-models-take-26-of-requests-anthropic-now-wins-new-teams-21.md
+📥 Processing: 6 easy ways to use the Figma agent right now
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-11/6-easy-ways-to-use-the-figma-agent-right-now.md
+📥 Processing: 核融合データの正しい隠し方
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-11/jxck-entries-2026-11-11-vivant-html.md
+📥 Processing: 【28卒】2026年サマーインターンシップ──AIで開発し、チームで考えた5日間
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.smarthr.jp/entry/2026/11/11/120000
+✅ Playwright successfully fetched: https://tech.smarthr.jp/entry/2026/11/11/120000
+⚠️ Content too short (16 chars < 200): https://tech.smarthr.jp/entry/2026/11/11/120000
+⚠️ Using RSS content as fallback for: https://tech.smarthr.jp/entry/2026/11/11/120000
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-11/282026ai5.md
+📥 Processing: 【28卒】2026年サマーインターンシップ —— 最優秀賞チームが語るユーザー視点の開発と学び
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.smarthr.jp/entry/2026/11/11/105338
+✅ Playwright successfully fetched: https://tech.smarthr.jp/entry/2026/11/11/105338
+⚠️ Content too short (16 chars < 200): https://tech.smarthr.jp/entry/2026/11/11/105338
+⚠️ Using RSS content as fallback for: https://tech.smarthr.jp/entry/2026/11/11/105338
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-11/smarthr-11-11-105338.md
+📥 Processing: チームをまたぐ開発で見直したプロダクトマネージャーの関わり方
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.smarthr.jp/entry/2026/11/10/140222
+✅ Playwright successfully fetched: https://tech.smarthr.jp/entry/2026/11/10/140222
+⚠️ Content too short (16 chars < 200): https://tech.smarthr.jp/entry/2026/11/10/140222
+⚠️ Using RSS content as fallback for: https://tech.smarthr.jp/entry/2026/11/10/140222
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-11/smarthr-11-10-140222.md
+📥 Processing: AI can generate the interface. What makes it worth caring about?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-11/ai-can-generate-the-interface-what-makes-it-worth-caring-about.md
+📥 Processing: Setting Up Your Research Panel
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://medium.com/researchops-community/setting-up-your-research-panel-2d0d2425a390
+✅ Playwright successfully fetched: https://medium.com/researchops-community/setting-up-your-research-panel-2d0d2425a390
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-11/setting-up-your-research-panel.md
+📥 Processing: My Interop 2027 Picks
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-11/my-interop-2027-picks-1.md
+📥 Processing: TanStack AI’s Sandbox API
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-11/tanstack-ais-sandbox-api.md
+📥 Processing: 『Unity パフォーマンスチューニング バイブル』の続編『Unity パフォーマンスチューニング ティップス 2026』を無料公開しました
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-11/unity-unity-2026.md
+📥 Processing: 2026年度 新卒研修『AWS インフラハンズオン』の資料を公開します
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-11/2026-aws.md
+
+📊 Summary:
+   ✅ Success: 30
+   ❌ Errors: 0
+🏁 Done!
