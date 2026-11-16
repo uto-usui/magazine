@@ -1,0 +1,59 @@
+articles_dir=2026-11-13
+exit_code=0
+timestamp_utc=2026-11-13T05:40:07Z
+
+---- issue lines ----
+9:❌ Playwright failed for Mercari Engineering: HTTP 403
+10:Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+
+---- tail (last 50 lines) ----
+📥 Processing: PicoRubyKaigi 2026 Assembleレポート —— 展示、登壇、運営
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.smarthr.jp/entry/2026/11/13/102559
+✅ Playwright successfully fetched: https://tech.smarthr.jp/entry/2026/11/13/102559
+⚠️ Content too short (16 chars < 200): https://tech.smarthr.jp/entry/2026/11/13/102559
+⚠️ Using RSS content as fallback for: https://tech.smarthr.jp/entry/2026/11/13/102559
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-13/picorubykaigi-2026-assemble.md
+📥 Processing: フラットに話せる文化、ユーザーと共に育てるサービス —— 新卒エンジニアが見たSmartHR
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.smarthr.jp/entry/2026/11/12/120303
+✅ Playwright successfully fetched: https://tech.smarthr.jp/entry/2026/11/12/120303
+⚠️ Content too short (16 chars < 200): https://tech.smarthr.jp/entry/2026/11/12/120303
+⚠️ Using RSS content as fallback for: https://tech.smarthr.jp/entry/2026/11/12/120303
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-13/smarthr.md
+📥 Processing: 北陸Ruby会議02にydahが登壇します —— みんなが「発見」したRubyの世界
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.smarthr.jp/entry/2026/11/12/110000
+✅ Playwright successfully fetched: https://tech.smarthr.jp/entry/2026/11/12/110000
+⚠️ Content too short (16 chars < 200): https://tech.smarthr.jp/entry/2026/11/12/110000
+⚠️ Using RSS content as fallback for: https://tech.smarthr.jp/entry/2026/11/12/110000
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-13/ruby02ydah-ruby.md
+📥 Processing: YAPC::Tokyo 2026 にスポンサー＆4名が登壇します！
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.layerx.co.jp/entry/yapc-tokyo-2026-sponsor
+✅ Playwright successfully fetched: https://tech.layerx.co.jp/entry/yapc-tokyo-2026-sponsor
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-13/yapctokyo-2026-4.md
+📥 Processing: QA チームで Jev 勉強会を開いたら、AI に任せる範囲と人に残したい範囲が見えてきた
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-13/qa-jev-ai.md
+📥 Processing: Scaling AI content tooling from 1 designer to 32
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-13/scaling-ai-content-tooling-from-1-designer-to-32.md
+📥 Processing: The Best Bulk Edit UI for Data Tables
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxmovement.medium.com/the-best-bulk-edit-ui-for-data-tables-756676f8eeeb
+✅ Playwright successfully fetched: https://uxmovement.medium.com/the-best-bulk-edit-ui-for-data-tables-756676f8eeeb
+⚠️ Content too short (193 chars < 200): https://uxmovement.medium.com/the-best-bulk-edit-ui-for-data-tables-756676f8eeeb
+⚠️ Using RSS content as fallback for: https://uxmovement.medium.com/the-best-bulk-edit-ui-for-data-tables-756676f8eeeb
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-13/the-best-bulk-edit-ui-for-data-tables.md
+📥 Processing: This Week In React #305: X, Forms, e18e, Next.js, TanStack Start, Storybook, MobX, Zustand, XState | Exact, Discord, Shopify, Expo Modules, Audio API, Bottom Sheet, Keychain, Gesture Handler | Node.js, Safari, Rolldown, Playwright
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-13/this-week-in-react-305-x-forms-e18e-nextjs-tanstack-start-storybook-mobx-zustand-xstate-exact-discor.md
+📥 Processing: Pew Research Finds the Same Problem We Did with Digital Twins
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-13/pew-research-finds-the-same-problem-we-did-with-digital-twins.md
+📥 Processing: Ask LukeW: in Your AI Tools
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-13/ask-lukew-in-your-ai-tools.md
+📥 Processing: Creating Diagrams and Graphs Using Modern CSS
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-13/creating-diagrams-and-graphs-using-modern-css.md
+📥 Processing: KMP撤退の意思決定と得られたもの
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-13/kmp.md
+📥 Processing: Google Cloud知識0から1ヶ月でインフラ移行に挑んだ話
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-13/google-cloud01.md
+
+📊 Summary:
+   ✅ Success: 36
+   ❌ Errors: 0
+🏁 Done!
