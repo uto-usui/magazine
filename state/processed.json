@@ -38799,7 +38799,87 @@
     "https://developers.cyberagent.co.jp/blog/archives/67406/": {
       "contentHash": "e440967d972b467a3b96c0c040ea5040f1090edeee643f77f8c4c991f3c8c486",
       "processedAt": "2026-11-13T05:40:07.277Z"
+    },
+    "https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac/": {
+      "contentHash": "8b369ba820fed78a6ef777640f5b6369178375489cfdfe4eba5afb749264e111",
+      "processedAt": "2026-11-16T05:24:21.363Z"
+    },
+    "https://a11yweekly.com/issue/526/": {
+      "contentHash": "254c4bb6f43433f9b1a7ab4a1ffc98a1492fa5f6df0f2bc6a6c863644dc30b2a",
+      "processedAt": "2026-11-16T05:24:21.585Z"
+    },
+    "https://bit.ly/side-lum1": {
+      "contentHash": "db2cf3c858aa36ce45c86f17a7bdc4815b13ac3c849d440ce7c700c37a6753e5",
+      "processedAt": "2026-11-16T05:24:22.653Z"
+    },
+    "https://gabeorlanski.github.io/posts/slop-moves-up/": {
+      "contentHash": "7e067419c27882d8d467657e14861b4549ce9c00fd962543444b00ee5203cc74",
+      "processedAt": "2026-11-16T05:24:23.775Z"
+    },
+    "https://iconden.com/": {
+      "contentHash": "a40f7c3dab24fd8e545d92e6a5ddd2601c652394eb33fd3ee320dec324fbb9c9",
+      "processedAt": "2026-11-16T05:24:25.918Z"
+    },
+    "https://chronologygame.com/guess-the-year": {
+      "contentHash": "7601ce81aedae3f766c20f41e9158d80adb8e4ba1391083d6d0bf4d920c8914a",
+      "processedAt": "2026-11-16T05:24:26.066Z"
+    },
+    "https://www.seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/": {
+      "contentHash": "076f2e1d05ac4d948f6da1370ba085e26275bc1d16966d0a3e434dc31879476c",
+      "processedAt": "2026-11-16T05:24:26.183Z"
+    },
+    "https://css-tricks.com/2027-front-end-black-friday-deals/": {
+      "contentHash": "28f26ddd49c719f7d8e7b751024c7a0348f4b74fefaca88a4313ae5694adeee0",
+      "processedAt": "2026-11-16T05:24:26.454Z"
+    },
+    "https://piccalil.li/the-index/206/": {
+      "contentHash": "f92d428644df0b2f24cc0b8263fcc422288025e7b70e23a72c371528206e4fcc",
+      "processedAt": "2026-11-16T05:24:26.734Z"
+    },
+    "https://vercel.com/blog/workflow-sdk-5": {
+      "contentHash": "5f909bb76f181f657053eb88b480c4655104cc76db114c6ff295600180235319",
+      "processedAt": "2026-11-16T05:24:27.578Z"
+    },
+    "https://www.figma.com/blog/ai-role-in-the-creative-process/": {
+      "contentHash": "1ec7320db11a3877609319d576f8ec7dbf40172aba692ee5100105caec7a9abb",
+      "processedAt": "2026-11-16T05:24:28.574Z"
+    },
+    "https://zenn.dev/uhyo/articles/react-profession-bench-21": {
+      "contentHash": "2f49104cdadbbc0556df6d2d1ab735860d3beeb496537d3347fd94fdc478a362",
+      "processedAt": "2026-11-16T05:24:29.106Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/16/140258": {
+      "contentHash": "6ce4cf37c7396a44ae6a143c32a2369e4f40ee54161987c0f1bc85dd64bbff9d",
+      "processedAt": "2026-11-16T05:24:33.740Z"
+    },
+    "https://tech.layerx.co.jp/entry/haro-et-agent": {
+      "contentHash": "2e7467a33743a3ef1b17d80ee1c7c4a2975cd78db9e606a0bdd3f03caaa05734",
+      "processedAt": "2026-11-16T05:24:38.374Z"
+    },
+    "https://www.nngroup.com/articles/research-in-the-loop/": {
+      "contentHash": "92fc1db25a27c6103478ea7688b8b53f363eb0e7eb1cf6a061d97a40f1a52372",
+      "processedAt": "2026-11-16T05:24:39.064Z"
+    },
+    "https://www.nngroup.com/articles/journey-mapping-101/": {
+      "contentHash": "a5cf9858c1e843ba5f615b1973c03c872243ce0b68a428bf68c7b873512dfca4",
+      "processedAt": "2026-11-16T05:24:39.233Z"
+    },
+    "https://react.statuscode.com/issues/497": {
+      "contentHash": "ddc67868b2d8f7f2a038e3ecc41dd7c9fe9f645767dd971bbb0fab22cd363090",
+      "processedAt": "2026-11-16T05:24:39.747Z"
+    },
+    "https://webkit.org/blog/18608/safari-on-apple-homeview/": {
+      "contentHash": "a3c070de0574055dfd13805ac240c012b749352c68fe3dc52c5e7c8b0e166fe9",
+      "processedAt": "2026-11-16T05:24:41.343Z"
+    },
+    "https://zenn.dev/yoss_k3/articles/a3dbdfbac43b21": {
+      "contentHash": "0a003568ea0181072cb04e7e5ff805ce3c17070744337a8fa55c7aaa089183f6",
+      "processedAt": "2026-11-16T05:24:42.611Z"
+    },
+    "https://developers.cyberagent.co.jp/blog/archives/67216/": {
+      "contentHash": "868ac978d6c51b3be5caf170996248268c33dbb62a43154553571a43ab17acc4",
+      "processedAt": "2026-11-16T05:24:46.483Z"
     }
   },
-  "lastRun": "2026-11-13T05:40:07.277Z"
+  "lastRun": "2026-11-16T05:24:46.483Z"
 }
