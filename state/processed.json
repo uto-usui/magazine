@@ -38879,7 +38879,63 @@
     "https://developers.cyberagent.co.jp/blog/archives/67216/": {
       "contentHash": "868ac978d6c51b3be5caf170996248268c33dbb62a43154553571a43ab17acc4",
       "processedAt": "2026-11-16T05:24:46.483Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/software-engineering-after-code-becomes": {
+      "contentHash": "3409b9dc657e3e8374b5e1823203835a691938eaa31b22045dc7a4e9b612d937",
+      "processedAt": "2026-11-17T07:02:39.981Z"
+    },
+    "https://bradfrost.com/blog/post/foundations-matter-more-than-ever/": {
+      "contentHash": "6e8c4323d913df8d5da723ab4cc2cc8dc650988433888859a45b809347a6bf58",
+      "processedAt": "2026-11-17T07:02:40.581Z"
+    },
+    "https://storybook.js.org/blog/storybook-11-beta/": {
+      "contentHash": "72e4755654226ceef14cf8ee22226c1dbd6d30364a52ccb4a49f3716b5e32757",
+      "processedAt": "2026-11-17T07:02:41.040Z"
+    },
+    "https://www.sarasoueidan.com/blog/caret-styling-accessibility/": {
+      "contentHash": "0abf3e8cf1617d33f0809029c2dcd93816602954ed25d0f7c93ee78491200486",
+      "processedAt": "2026-11-17T07:02:41.442Z"
+    },
+    "https://css-tricks.com/staggering-scroll-driven-animations-with-animation-range-start/": {
+      "contentHash": "be1e05292ca00cc875ad6046e0693933ee50b56e5ab6393e424783fe5f08d4c9",
+      "processedAt": "2026-11-17T07:02:41.725Z"
+    },
+    "https://vercel.com/blog/agent-evals": {
+      "contentHash": "eed8dbf6b4678d1e93af9c5c8bc2060c93fd2c5a0830f21f82f04d2c09ef23c4",
+      "processedAt": "2026-11-17T07:02:42.748Z"
+    },
+    "https://www.figma.com/blog/1password-figma-make/": {
+      "contentHash": "729970087b5a1d358d992a85f1717850ed56ad1db04561bac553e55683f31e4a",
+      "processedAt": "2026-11-17T07:02:44.108Z"
+    },
+    "https://efcl.info/2026/11/16/secretlint-v14/": {
+      "contentHash": "84d425109744d01057a03f67b169d241edcd8711edae5377ed4afb2500ad1f1a",
+      "processedAt": "2026-11-17T07:02:44.466Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/17/114939": {
+      "contentHash": "241256d4f00e40ee5a6d78652a78a52ded6d4eb1ace5da25006fb479a1a18b68",
+      "processedAt": "2026-11-17T07:02:49.352Z"
+    },
+    "https://tech.layerx.co.jp/entry/haro-alert-loop": {
+      "contentHash": "20b337c28f4759812cb42b577deca71bf5b08f1c23f3daabd23150cfde80b2d0",
+      "processedAt": "2026-11-17T07:02:50.414Z"
+    },
+    "https://newsletter.uxdesign.cc/p/every-new-medium-gets-called-cheating-a3c": {
+      "contentHash": "04d6674bd8a49dfbf7c3ba67854d11ab9039e379acf2447082502b04b83ca8c5",
+      "processedAt": "2026-11-17T07:02:50.592Z"
+    },
+    "https://medium.com/researchops-community/managing-and-maintaining-a-healthy-research-panel-cc63af0b2a1f": {
+      "contentHash": "fc35ff66bffde70edbc83a3d5c53890250bf85cbbb66bb4ab6521b2f88e89964",
+      "processedAt": "2026-11-17T07:02:54.956Z"
+    },
+    "https://webkit.org/blog/18621/introducing-spatial-css-a-developer-preview/": {
+      "contentHash": "c43b9e10debc72d6fc22054e607e5c6e6a8bdf98cdbb00ead508ec7fca671c63",
+      "processedAt": "2026-11-17T07:02:57.555Z"
+    },
+    "https://blog.master.dev/browsers-to-try-if-youre-being-forced-off-arc/": {
+      "contentHash": "0bd7502ef95d29a01e0e20a29d33021080434b41c74237199a2a9e518e9780b7",
+      "processedAt": "2026-11-17T07:02:57.812Z"
     }
   },
-  "lastRun": "2026-11-16T05:24:46.483Z"
+  "lastRun": "2026-11-17T07:02:57.812Z"
 }
