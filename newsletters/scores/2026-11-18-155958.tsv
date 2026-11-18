@@ -1,0 +1,34 @@
+url	feed	lang	A	B	C	D	total	selected	note
+https://www.sarasoueidan.com/blog/caret-styling-accessibility/	Sara Soueidan	en	2	2	2	2	8	yes	OS 設定と各ブラウザの挙動を実際に確かめて比べているので C=2
+https://declarative-dragging.github.io/	Sidebar	en	2	2	1	2	7	yes	研究の紹介ページで計測は載っていないので C=1
+https://smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/	Smashing Magazine	en	2	2	2	1	7	yes	Level Access の自社製品の宣伝を含むが、調査データと手順が中心
+https://measuringu.com/do-ai-and-human-moderators-uncover-the-same-facts/	MeasuringU	en	1	2	2	2	7	yes
+https://storybook.js.org/blog/storybook-11-beta/	Storybook Blog	en	2	1	1	2	6	yes	リリースの告知だが、スキルを MCP より勧める理由と速度の計測があるので採点に回した
+https://www.figma.com/blog/1password-figma-make/	Figma Blog	en	2	1	2	1	6	yes	ベンダーの事例紹介。本番の運用の事例として C=2
+https://zenn.dev/mizchi/articles/mutation-test-quality	mizchi	ja	1	2	2	1	6	yes	フロントエンドのテストの道具で A=1
+https://nextjs.org/blog/how-were-using-ai-to-make-nextjs-more-secure	Next.js Blog	en	1	1	2	2	6	yes
+https://tech.layerx.co.jp/entry/haro-alert-loop	LayerX エンジニアブログ	ja	1	2	2	1	6	yes	AI との働き方の具体例で A=1。取得失敗の注記があるが本文は最後まで取れている
+https://netflixtechblog.com/engineering-ai-discover-e244944cdc38	Netflix Tech Blog	en	1	2	2	1	6	yes	大半はバックエンドだが、TV の待ち状態とフォールバックの設計があるので A=1。数字はない
+https://medium.com/researchops-community/managing-and-maintaining-a-healthy-research-panel-cc63af0b2a1f	ResearchOps Community	en	1	2	2	1	6	yes	取得失敗の注記があるが本文は取れている
+https://shieldfont.org/	Sidebar	en	1	1	2	2	6	yes	製品ページだが、計測とアクセシビリティの扱いが書かれている
+https://css-tricks.com/staggering-scroll-driven-animations-with-animation-range-start/	css-tricks	en	1	2	1	1	5	yes	5点の同点は A も同じなので、選んだ記事の少ないカテゴリ（css）を優先
+https://webkit.org/blog/18621/introducing-spatial-css-a-developer-preview/	WebKit Blog	en	1	1	1	2	5	yes	5点の同点は A も同じなので、選んだ記事の少ないカテゴリ（web-standards）を優先
+https://vercel.com/blog/agent-evals	Vercel	en	1	2	1	1	5	yes	表の数字は例示なので C=1。5点の同点のなかで frontend の記事が少ないので選んだ
+https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/	GitHub Engineering	en	1	1	1	2	5	no	同点で、engineering はすでに2本選んでいる
+https://yatil.net/blog/band-aid-accessibility	Sidebar	en	1	1	1	2	5	no	短いエッセイ。同点で、design はすでに多い
+https://research.nvidia.com/labs/sil/projects/birddreams/	Sidebar	en	0	1	2	2	5	no	自動運転の世界モデルの研究で A=0
+https://tech.layerx.co.jp/entry/haro-readteam	LayerX エンジニアブログ	ja	0	2	1	2	5	no	LLM 機能のセキュリティ検査の基盤で、UI にも体験にも当たらないので A=0
+https://medium.com/airbnb-engineering/de-identifying-text-at-scale-how-airbnb-protects-personal-data-in-ai-training-32f3ff8ff7d0	Airbnb Engineering	en	0	2	2	1	5	no	学習データの個人情報の除去で A=0
+https://efcl.info/2026/11/16/secretlint-v14/	Web Scratch	ja	0	2	2	1	5	no	リリースの告知だが設計の理由と計測があるので採点。機密情報の検査の道具で UI の品質とは別なので A=0
+https://vercel.com/blog/eve-is-now-generally-available	Vercel	en	0	1	2	1	4	no	エージェントのフレームワークのリリース。計測があるので採点に回したが A=0
+https://www.human-md.ai/	Sidebar	en	1	1	1	1	4	no
+https://newsletter.pragmaticengineer.com/p/software-engineering-after-code-becomes	The Pragmatic Engineer	en	1	1	1	1	4	no	ポッドキャストの要約
+https://newsletter.pragmaticengineer.com/p/inference-engineering-for-software-engineers	The Pragmatic Engineer	en	0	2	1	1	4	no	推論基盤の話で A=0
+https://developers.cyberagent.co.jp/blog/archives/67465/	CyberAgent Developers Blog	ja	0	1	2	1	4	no	広告配信の ML パイプラインで A=0
+https://tech.layerx.co.jp/entry/snowflake-parquet-direct	LayerX エンジニアブログ	ja	0	1	2	1	4	no	データ基盤の話で A=0
+https://blog.master.dev/browsers-to-try-if-youre-being-forced-off-arc/	Frontend Masters Blog	en	0	1	1	1	3	no	ブラウザの乗り換えの個人的なメモ
+https://bradfrost.com/blog/post/foundations-matter-more-than-ever/	Brad Frost	en	-	-	-	-	-	no	足切り: 講座のセールの告知
+https://feeds.baymard.com/link/9825/17526172/health-and-beauty-ux-benchmark-2026	Baymard Institute	en	-	-	-	-	-	no	足切り: 有料のベンチマークの告知で本文は抜粋だけ
+https://smashingmagazine.com/2026/11/online-smashingconf-ai-2027/	Smashing Magazine	en	-	-	-	-	-	no	足切り: イベント告知
+https://newsletter.uxdesign.cc/p/every-new-medium-gets-called-cheating-a3c	UX Collective	en	-	-	-	-	-	no	足切り: ダイジェスト号。一次記事は https://uxdesign.cc/every-new-medium-gets-called-cheating-b990d7d53c0e
+https://tech.smarthr.jp/entry/2026/11/17/114939	SmartHR Tech Blog	ja	-	-	-	-	-	no	足切り: イベントの協賛と登壇の告知
