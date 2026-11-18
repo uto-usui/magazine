@@ -38879,7 +38879,139 @@
     "https://developers.cyberagent.co.jp/blog/archives/67216/": {
       "contentHash": "868ac978d6c51b3be5caf170996248268c33dbb62a43154553571a43ab17acc4",
       "processedAt": "2026-11-16T05:24:46.483Z"
+    },
+    "https://netflixtechblog.com/engineering-ai-discover-e244944cdc38": {
+      "contentHash": "d31c4766e45744d7f0b1be93f27be8ffa294418e0593a9dc91bddf0a9ecd0d07",
+      "processedAt": "2026-11-18T06:26:36.459Z"
+    },
+    "https://medium.com/airbnb-engineering/de-identifying-text-at-scale-how-airbnb-protects-personal-data-in-ai-training-32f3ff8ff7d0": {
+      "contentHash": "d37fd46017aa91802c2ffb79b7760f8d75cc598088a5a7655a19c7103c61869a",
+      "processedAt": "2026-11-18T06:26:40.773Z"
+    },
+    "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/": {
+      "contentHash": "6cdb3bc460fcb85349198007675c8fc86d24c4e3e07cd691e3b766e8cdc4cc5b",
+      "processedAt": "2026-11-18T06:26:41.723Z"
+    },
+    "https://yatil.net/blog/band-aid-accessibility": {
+      "contentHash": "057c6d09b981b11a3a9ce9918cc7c951d62a860466bdf7e67fb6582bcc9ca971",
+      "processedAt": "2026-11-18T06:26:42.322Z"
+    },
+    "https://www.human-md.ai/": {
+      "contentHash": "c4f2f5b0bdac45bf780e637c47071109e86e38aa446a10bd53c24c1aba7da12c",
+      "processedAt": "2026-11-18T06:26:42.398Z"
+    },
+    "https://declarative-dragging.github.io/": {
+      "contentHash": "6ff641a7edcb7f28a110094bd0bfb08357346a6ac22d5e6b3417e2beb9bb1a5e",
+      "processedAt": "2026-11-18T06:26:42.608Z"
+    },
+    "https://shieldfont.org/": {
+      "contentHash": "cef7d6707b73b2f6424cbe6f5e29081449b657dee1cf2e311deb66d573452125",
+      "processedAt": "2026-11-18T06:26:43.092Z"
+    },
+    "https://research.nvidia.com/labs/sil/projects/birddreams/": {
+      "contentHash": "ed1da524329a6a6e3ddf7bb57163fa73461c763063c5c7cf62e00fc416453bf0",
+      "processedAt": "2026-11-18T06:26:43.405Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/inference-engineering-for-software-engineers": {
+      "contentHash": "2fcfb566c11c831effc77e7a8a469e87308715ad469a700cf0eaceb46a9c258c",
+      "processedAt": "2026-11-18T06:26:43.645Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/software-engineering-after-code-becomes": {
+      "contentHash": "3409b9dc657e3e8374b5e1823203835a691938eaa31b22045dc7a4e9b612d937",
+      "processedAt": "2026-11-18T06:26:43.871Z"
+    },
+    "https://bradfrost.com/blog/post/foundations-matter-more-than-ever/": {
+      "contentHash": "6e8c4323d913df8d5da723ab4cc2cc8dc650988433888859a45b809347a6bf58",
+      "processedAt": "2026-11-18T06:26:44.310Z"
+    },
+    "https://storybook.js.org/blog/storybook-11-beta/": {
+      "contentHash": "72e4755654226ceef14cf8ee22226c1dbd6d30364a52ccb4a49f3716b5e32757",
+      "processedAt": "2026-11-18T06:26:44.627Z"
+    },
+    "https://smashingmagazine.com/2026/11/online-smashingconf-ai-2027/": {
+      "contentHash": "ff5c3eea86257add1591aa5081b9e0e47e5672b8b60e0cf9442643f3a72ce3d4",
+      "processedAt": "2026-11-18T06:26:45.074Z"
+    },
+    "https://smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/": {
+      "contentHash": "792a2278ff8a4fbe2feb8f4cd074c86a2b2c406e1e3b23f1e5e6e8b7a5add5c6",
+      "processedAt": "2026-11-18T06:26:45.245Z"
+    },
+    "https://www.sarasoueidan.com/blog/caret-styling-accessibility/": {
+      "contentHash": "0abf3e8cf1617d33f0809029c2dcd93816602954ed25d0f7c93ee78491200486",
+      "processedAt": "2026-11-18T06:26:45.665Z"
+    },
+    "https://css-tricks.com/staggering-scroll-driven-animations-with-animation-range-start/": {
+      "contentHash": "be1e05292ca00cc875ad6046e0693933ee50b56e5ab6393e424783fe5f08d4c9",
+      "processedAt": "2026-11-18T06:26:45.939Z"
+    },
+    "https://vercel.com/blog/eve-is-now-generally-available": {
+      "contentHash": "5cd90b19097f4d3be974a48c271a178013d6b1bc10ca51d3bb668ddf0527e17b",
+      "processedAt": "2026-11-18T06:26:46.505Z"
+    },
+    "https://vercel.com/blog/agent-evals": {
+      "contentHash": "eed8dbf6b4678d1e93af9c5c8bc2060c93fd2c5a0830f21f82f04d2c09ef23c4",
+      "processedAt": "2026-11-18T06:26:47.255Z"
+    },
+    "https://www.figma.com/blog/1password-figma-make/": {
+      "contentHash": "729970087b5a1d358d992a85f1717850ed56ad1db04561bac553e55683f31e4a",
+      "processedAt": "2026-11-18T06:26:48.112Z"
+    },
+    "https://efcl.info/2026/11/16/secretlint-v14/": {
+      "contentHash": "84d425109744d01057a03f67b169d241edcd8711edae5377ed4afb2500ad1f1a",
+      "processedAt": "2026-11-18T06:26:48.523Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/17/114939": {
+      "contentHash": "241256d4f00e40ee5a6d78652a78a52ded6d4eb1ace5da25006fb479a1a18b68",
+      "processedAt": "2026-11-18T06:26:53.303Z"
+    },
+    "https://tech.layerx.co.jp/entry/haro-readteam": {
+      "contentHash": "b6087440d04463653f3caf7d7bd7ffd88a8003a5b09807ff5c79febd6c8a04b1",
+      "processedAt": "2026-11-18T06:26:58.088Z"
+    },
+    "https://tech.layerx.co.jp/entry/snowflake-parquet-direct": {
+      "contentHash": "6745ef0ae8d933f41695f373c40ea34467f201b7fed9b36f2af87401abcea294",
+      "processedAt": "2026-11-18T06:27:02.612Z"
+    },
+    "https://tech.layerx.co.jp/entry/haro-alert-loop": {
+      "contentHash": "20b337c28f4759812cb42b577deca71bf5b08f1c23f3daabd23150cfde80b2d0",
+      "processedAt": "2026-11-18T06:27:07.104Z"
+    },
+    "https://newsletter.uxdesign.cc/p/every-new-medium-gets-called-cheating-a3c": {
+      "contentHash": "04d6674bd8a49dfbf7c3ba67854d11ab9039e379acf2447082502b04b83ca8c5",
+      "processedAt": "2026-11-18T06:27:07.434Z"
+    },
+    "https://feeds.baymard.com/link/9825/17526172/health-and-beauty-ux-benchmark-2026": {
+      "contentHash": "6b3313b47d18fc226a3b719bf52c73c536a89dd1fafb25fdc181ee61aa119f2b",
+      "processedAt": "2026-11-18T06:27:08.162Z"
+    },
+    "https://medium.com/researchops-community/managing-and-maintaining-a-healthy-research-panel-cc63af0b2a1f": {
+      "contentHash": "fc35ff66bffde70edbc83a3d5c53890250bf85cbbb66bb4ab6521b2f88e89964",
+      "processedAt": "2026-11-18T06:27:12.463Z"
+    },
+    "https://nextjs.org/blog/how-were-using-ai-to-make-nextjs-more-secure": {
+      "contentHash": "a4d315d6e8f683c8ef0a570c25b706876608560c74988dcfe82f7b9c3bce7823",
+      "processedAt": "2026-11-18T06:27:12.794Z"
+    },
+    "https://measuringu.com/do-ai-and-human-moderators-uncover-the-same-facts/": {
+      "contentHash": "e16c62462de953f59dbe868f62f76b055b3d7a4672e7f7d4f87e86d0d523f1e3",
+      "processedAt": "2026-11-18T06:27:13.302Z"
+    },
+    "https://webkit.org/blog/18621/introducing-spatial-css-a-developer-preview/": {
+      "contentHash": "c43b9e10debc72d6fc22054e607e5c6e6a8bdf98cdbb00ead508ec7fca671c63",
+      "processedAt": "2026-11-18T06:27:16.022Z"
+    },
+    "https://blog.master.dev/browsers-to-try-if-youre-being-forced-off-arc/": {
+      "contentHash": "0bd7502ef95d29a01e0e20a29d33021080434b41c74237199a2a9e518e9780b7",
+      "processedAt": "2026-11-18T06:27:16.212Z"
+    },
+    "https://developers.cyberagent.co.jp/blog/archives/67465/": {
+      "contentHash": "1900adb6ccc0e1e729e2bc5dc6354d5ae66ee518fbd498b1dbc26f8fa46ce11c",
+      "processedAt": "2026-11-18T06:27:20.737Z"
+    },
+    "https://zenn.dev/mizchi/articles/mutation-test-quality": {
+      "contentHash": "9a362f91c0e83dcf141bf78cb17510c3f93d973315e6625a4be02dd9e8551d90",
+      "processedAt": "2026-11-18T06:27:21.180Z"
     }
   },
-  "lastRun": "2026-11-16T05:24:46.483Z"
+  "lastRun": "2026-11-18T06:27:21.180Z"
 }
