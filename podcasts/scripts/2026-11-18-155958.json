@@ -1,0 +1,447 @@
+{
+  "episode": "2026-11-18-155958",
+  "newsletter": "newsletters/2026-11-18-155958.md",
+  "segments": [
+    {
+      "id": "opening",
+      "title": "オープニング",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "おはようございます。UXエンジニアリング・マガジン、11月18日号です。"
+        },
+        {
+          "speaker": "B",
+          "text": "おはようございます。今日は何本ですか？"
+        },
+        {
+          "speaker": "A",
+          "text": "15本です。"
+        },
+        {
+          "speaker": "B",
+          "text": "では、さっそくお願いします。"
+        }
+      ]
+    },
+    {
+      "id": "a01",
+      "title": "キャレットの見た目とアクセシビリティ",
+      "url": "https://www.sarasoueidan.com/blog/caret-styling-accessibility/",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "最初は Sara Soueidan さんの記事です。入力欄で点滅するキャレットの見た目を、CSS の caret-color、caret-shape、caret-animation で変えるときの注意をまとめています。"
+        },
+        {
+          "speaker": "B",
+          "text": "キャレットの色にも気をつけることがあるんですか？"
+        },
+        {
+          "speaker": "A",
+          "text": "WCAG では、キャレットも、フォーカスの位置を示すしるしの1つです。caret-color は、F7 キーで使えるキャレットブラウズにも効くので、ページ上のすべての背景に対して、3対1のコントラストが要ります。"
+        },
+        {
+          "speaker": "B",
+          "text": "点滅のほうはどうですか？"
+        },
+        {
+          "speaker": "A",
+          "text": "caret-animation を manual にすると標準の点滅が止まり、keyframes で動かせます。ただ、今は Chromium だけです。ユーザーが OS で点滅を止めているかは CSS では分からないので、独自に動かすなら、サイトのなかに止めるスイッチを用意するよう勧めています。"
+        }
+      ]
+    },
+    {
+      "id": "a02",
+      "title": "宣言的なドラッグ操作 Dragology",
+      "url": "https://declarative-dragging.github.io/",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "2本目は、UIST 2026 で最優秀論文賞を受けた、ドラッグ操作の作り方の研究です。要素ごとに、ドラッグするとどの状態に移れるかを宣言するだけで、ドラッグ・アンド・ドロップができあがります。"
+        },
+        {
+          "speaker": "B",
+          "text": "座標の計算は書かなくていいんですか？"
+        },
+        {
+          "speaker": "A",
+          "text": "はい。エンジンが移り先の状態を先に描画してみて、要素がそれぞれどこに来るかを取り出し、その位置をもとに、ドラッグ中のなめらかな動きを作ります。"
+        },
+        {
+          "speaker": "B",
+          "text": "手元で試せますか？"
+        },
+        {
+          "speaker": "A",
+          "text": "SVG 向けのライブラリ Dragology として npm で公開されていて、数式のツリーやトランプの山、ベジェ曲線のデモがあります。"
+        }
+      ]
+    },
+    {
+      "id": "a03",
+      "title": "AI 時代のアクセシビリティのテスト",
+      "url": "https://smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "3本目は Smashing Magazine の記事です。AI で作るのは速くなったのに、アクセシビリティのテストが追いついていない、という問題を扱っています。"
+        },
+        {
+          "speaker": "B",
+          "text": "数字もあるんですか？"
+        },
+        {
+          "speaker": "A",
+          "text": "Level Access が2,500人以上に聞いた調査では、AI で速くなったという答えは、設計で61パーセント、開発で51パーセント、QA とテストでは30パーセントでした。"
+        },
+        {
+          "speaker": "B",
+          "text": "どうすればいいんでしょう。"
+        },
+        {
+          "speaker": "A",
+          "text": "見つける、直す、証拠を残す、の3つの場面で、人が判断するよう提案しています。フォーカスの順番やアクセシブルな名前は、デザインを開発に渡す時点で決め、AI が読むルールファイルにも書いておきます。AI の修正案は下書きとして扱います。div に role で button を指定するような、チェックは通っても正しくない直し方があるからです。"
+        }
+      ]
+    },
+    {
+      "id": "a04",
+      "title": "AI の司会と人の司会の比較",
+      "url": "https://measuringu.com/do-ai-and-human-moderators-uncover-the-same-facts/",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "4本目は MeasuringU の記事です。インタビュアーが AI のときと人のときで、同じ事実を聞き出せるかを比べました。"
+        },
+        {
+          "speaker": "B",
+          "text": "どうやって比べたんですか？"
+        },
+        {
+          "speaker": "A",
+          "text": "睡眠についてのインタビューで、20人をランダムに分けました。AI のインタビュアーは Gemini 3 Flash で動かし、研究者と同じ見た目と声のアバターにしています。事前のアンケートで先に聞いた事実が、会話にどれだけ出てくるかを数えています。"
+        },
+        {
+          "speaker": "B",
+          "text": "結果は？"
+        },
+        {
+          "speaker": "A",
+          "text": "出てきた割合は、人が35パーセント、AI が21パーセントでした。差がついたのは主に、聞かれていないのに参加者が自分から話した事実の数です。ただ、条件ごとに10人だけの小さな調査なので、まだ探索的な結果だとしています。"
+        }
+      ]
+    },
+    {
+      "id": "a05",
+      "title": "Storybook 11 のベータ",
+      "url": "https://storybook.js.org/blog/storybook-11-beta/",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "5本目は Storybook 11 のベータバージョンです。"
+        },
+        {
+          "speaker": "B",
+          "text": "何が変わるんですか？"
+        },
+        {
+          "speaker": "A",
+          "text": "中心は、コーディングエージェントに既存の部品やストーリーを使わせる、公式のスキルと CLI です。スキルは4つで、部品のドキュメントを調べる component-docs、ストーリーを書く write-stories、アクセシビリティのチェックと一緒にテストする test-stories、変えた部品と、その影響を受ける画面を人に見せる ui-review です。"
+        },
+        {
+          "speaker": "B",
+          "text": "Storybook を起動しておく必要はありますか？"
+        },
+        {
+          "speaker": "A",
+          "text": "ありません。新しい storybook tools コマンドは、ブラウザが要る処理のときだけ開発サーバーにつなぎます。ストーリーの書き方の CSF 4 は型安全になり、codemod で移行できます。"
+        }
+      ]
+    },
+    {
+      "id": "a06",
+      "title": "animation-range-start で文字をずらす",
+      "url": "https://css-tricks.com/staggering-scroll-driven-animations-with-animation-range-start/",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "6本目は css-tricks の記事です。スクロールに合わせて文字を1つずつずらして出すアニメーションを、animation-range-start の1行で書き直しています。"
+        },
+        {
+          "speaker": "B",
+          "text": "もとはどう作っていたんですか？"
+        },
+        {
+          "speaker": "A",
+          "text": "Frontend Masters の記事で、独自の CSS 関数と長い数式を使って作っていました。animation-delay は時間で進むアニメーションにしか効きませんが、スクロールで進むアニメーションでは、animation-range-start で開始を遅らせます。sibling-index 関数で、文字ごとに2.5パーセントずつずらしています。"
+        },
+        {
+          "speaker": "B",
+          "text": "イージングはどうなりますか？"
+        },
+        {
+          "speaker": "A",
+          "text": "animation-timing-function もそのまま文字ごとにかかるので、作り直す必要はありません。"
+        }
+      ]
+    },
+    {
+      "id": "a07",
+      "title": "1Password の Figma Make の使い方",
+      "url": "https://www.figma.com/blog/1password-figma-make/",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "7本目は Figma のブログから、1Password のデザインチームが Figma Make で試作している事例です。"
+        },
+        {
+          "speaker": "B",
+          "text": "どんなふうに使っているんですか？"
+        },
+        {
+          "speaker": "A",
+          "text": "製品のコードのテンプレートを集めた、プロトタイプ用のリポジトリを作り、Figma Make で開いて試作しています。約20年分のデザインの指針も、AI のツールが使える形に書き直しました。Code Connect を設定しているので、ボタンの種類もドロップダウンで切り替えられます。"
+        },
+        {
+          "speaker": "B",
+          "text": "ユーザーテストは変わりましたか？"
+        },
+        {
+          "speaker": "A",
+          "text": "コードのプロトタイプでテストするようになり、参加者が途中で先に進めなくなって、用意した流れに戻される、ということがなくなりました。"
+        }
+      ]
+    },
+    {
+      "id": "a08",
+      "title": "ミューテーションテストのすすめ",
+      "url": "https://zenn.dev/mizchi/articles/mutation-test-quality",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "8本目は mizchi さんの Zenn の記事で、ミューテーションテストを勧めています。"
+        },
+        {
+          "speaker": "B",
+          "text": "カバレッジでは足りないんですか？"
+        },
+        {
+          "speaker": "A",
+          "text": "AI でカバレッジは簡単に上がりますが、テストが振る舞いの変化を見つけられるかは分かりません。ミューテーションテストでは、比較演算子や戻り値をわざと書き換えたミュータントでテストを回します。生き残ったミュータントから、検査の足りないところや、デッドコードの候補が見つかります。"
+        },
+        {
+          "speaker": "B",
+          "text": "使える道具はありますか？"
+        },
+        {
+          "speaker": "A",
+          "text": "Vitest 向けに作られた mutator です。型チェックが通らないミュータントを先に除き、Git の差分とキャッシュで回す量を減らしています。速いユニットテスト向きで、リファクタリングのときに使う指標という位置づけです。"
+        }
+      ]
+    },
+    {
+      "id": "a09",
+      "title": "リサーチパネルを保つ",
+      "url": "https://medium.com/researchops-community/managing-and-maintaining-a-healthy-research-panel-cc63af0b2a1f",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "9本目は ResearchOps Community の記事です。調査に協力してくれる人の名簿、参加者パネルを、立ち上げたあとにどう運用していくかをまとめた連載の最終回です。"
+        },
+        {
+          "speaker": "B",
+          "text": "どんなことに気をつけるんですか？"
+        },
+        {
+          "speaker": "A",
+          "text": "参加者が疲れないように、連絡の間隔を自動で90日空ける、招待する人を順番に入れ替える、インタビューを20分までにする、といったやり方が挙がっています。"
+        },
+        {
+          "speaker": "B",
+          "text": "ほかには？"
+        },
+        {
+          "speaker": "A",
+          "text": "同意していない人が、システムどうしでデータを合わせるときに紛れ込む問題です。データチームが Snowflake のデータベースをパネルのツールに直接つなぎ、同意のない数千人を取り込みそうになった例があります。配信停止の申し出を、ほかのシステムにも自動で反映させる仕組みを勧めています。"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "title": "AI で Next.js をより安全に",
+      "url": "https://nextjs.org/blog/how-were-using-ai-to-make-nextjs-more-secure",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "10本目は Next.js のブログです。セキュリティ勧告は、2025年の14件から、2026年は51件に増えました。"
+        },
+        {
+          "speaker": "B",
+          "text": "そんなに増えたんですか。"
+        },
+        {
+          "speaker": "A",
+          "text": "AI で古いバグを手軽に見つけられるようになったためで、51件の70パーセントは、1年以上前のコードにありました。新しいコードには、Vercel Agent の Security Review をすべてのプルリクエストで走らせ、攻撃者の立場で実際に攻撃を試させています。"
+        },
+        {
+          "speaker": "B",
+          "text": "使う側にも変化はありますか？"
+        },
+        {
+          "speaker": "A",
+          "text": "Next.js 16.4 から、next dev と next build が、既知の脆弱性のあるバージョンを使っていると知らせます。"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "title": "haro にアラート対応を任せる",
+      "url": "https://tech.layerx.co.jp/entry/haro-alert-loop",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "11本目は LayerX のエンジニアブログです。バクラク勤怠のアラートの確認を、社内の Background Coding Agent の haro に、平日に1時間おきに任せています。"
+        },
+        {
+          "speaker": "B",
+          "text": "どこまで任せているんですか？"
+        },
+        {
+          "speaker": "A",
+          "text": "振り分けと調査から、draft の PR を作るまでです。約3週間半で修正 PR は29本、そのうち18本が merge されました。"
+        },
+        {
+          "speaker": "B",
+          "text": "回すたびに賢くなった、というのは？"
+        },
+        {
+          "speaker": "A",
+          "text": "つまずくたびに改善記録に1行書かせ、同じつまずきが2回出たらルールに格上げしています。エージェントが自分で変えてよいことと、提案だけにとどめることは、Wiki の表で分けています。"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "title": "spatial CSS の開発者向けプレビュー",
+      "url": "https://webkit.org/blog/18621/introducing-spatial-css-a-developer-preview/",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "12本目は WebKit Blog です。visionOS 27.3 の Safari で、提案中の spatial CSS を試せる、開発者向けのプレビューが始まりました。"
+        },
+        {
+          "speaker": "B",
+          "text": "何ができるんですか？"
+        },
+        {
+          "speaker": "A",
+          "text": "中心は、model 要素の3Dオブジェクトを扱う機能です。spatial の portal を付けた要素のなかでは、モデルが同じ空間に置かれ、いつもの transform で、立体のまま動かせます。"
+        },
+        {
+          "speaker": "B",
+          "text": "新しく覚える書き方は多いですか？"
+        },
+        {
+          "speaker": "A",
+          "text": "多くは今ある CSS の延長です。モデルどうしをはめ合わせるのは position-anchor で、照明は environment-map という at ルールで定義します。"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "title": "Netflix の AI Discover の作り方",
+      "url": "https://netflixtechblog.com/engineering-ai-discover-e244944cdc38",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "13本目は Netflix Tech Blog です。TV アプリに、テーマを選んで作品を探す AI Discover のタブを、一部の会員向けに出しました。"
+        },
+        {
+          "speaker": "B",
+          "text": "LLM はどう組み込んでいるんですか？"
+        },
+        {
+          "speaker": "A",
+          "text": "リクエストごとに先に計画を立て、検証してから実行します。LLM が計画を作ることもありますが、実行してよいかはコードが決めます。遅いときや検証を通らないときは、前もって確かめた計画を使います。年齢制限のように必ず守らないといけないルールは、プロンプトではなくコードで守らせています。"
+        },
+        {
+          "speaker": "B",
+          "text": "待ち時間はどう見せているんですか？"
+        },
+        {
+          "speaker": "A",
+          "text": "生成に数秒かかるので、画面には、いま何を準備しているかの説明が出ます。できあがると、サーバーから通知が届きます。"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "title": "スクレイピングから文章を守る Shield Font",
+      "url": "https://shieldfont.org/",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "14本目は Shield Font です。AI の学習用に文章を勝手に集められないようにする、オープンソースのフォントです。"
+        },
+        {
+          "speaker": "B",
+          "text": "フォントでどうやって守るんですか？"
+        },
+        {
+          "speaker": "A",
+          "text": "HTML には別の単語を入れておき、フォントの置き換えで、画面には元の単語を表示します。約25パーセントの単語を替えただけで、半分の文章で元の主張が読み取れなくなりました。"
+        },
+        {
+          "speaker": "B",
+          "text": "スクリーンリーダーは大丈夫ですか？"
+        },
+        {
+          "speaker": "A",
+          "text": "置き換えた文は aria-hidden で読み上げから外し、元の文を出すボタンを置いています。React では Shield コンポーネントで囲みますが、use client のファイルに入れると、エラーにならずに元の文が漏れます。検索エンジンも置き換えた単語を読むので、検索で見つけてほしいページには使えません。"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "title": "エージェントのための eval",
+      "url": "https://vercel.com/blog/agent-evals",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "最後は Vercel のブログです。エージェントも人の代わりにソフトウェアを使う利用者なので、API や CLI、MCP サーバーを作る側は、エージェントがタスクをやり遂げられるかを eval で測りましょう、という記事です。"
+        },
+        {
+          "speaker": "B",
+          "text": "eval はどう作るんですか？"
+        },
+        {
+          "speaker": "A",
+          "text": "LLM を呼ばないテスト、1回呼ぶ eval、2回以上呼ぶ E2E の eval の3段に分け、見つけたい問題を見つけられる、いちばん下の段を選びます。例では、コーヒーを注文する架空の CLI を、オープンソースの Harbor で測っています。"
+        },
+        {
+          "speaker": "B",
+          "text": "結果はどう読めばいいでしょう。"
+        },
+        {
+          "speaker": "A",
+          "text": "5回中3回成功するなら、5回で少なくとも1回成功する確率は約99パーセントですが、5回続けて成功する確率は約8パーセントです。どちらを見るかは、失敗したときにユーザーがどれだけ困るかで決めます。"
+        }
+      ]
+    },
+    {
+      "id": "ending",
+      "title": "エンディング",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "今日は15本を紹介しました。元の記事へのリンクは、ニュースレターに載せています。"
+        },
+        {
+          "speaker": "B",
+          "text": "ありがとうございました。また次の号で。"
+        }
+      ]
+    }
+  ]
+}
