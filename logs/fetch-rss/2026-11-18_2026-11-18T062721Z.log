@@ -1,0 +1,59 @@
+articles_dir=2026-11-18
+exit_code=0
+timestamp_utc=2026-11-18T06:27:21Z
+
+---- issue lines ----
+9:❌ Playwright failed for Mercari Engineering: HTTP 403
+10:Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+
+---- tail (last 50 lines) ----
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.smarthr.jp/entry/2026/11/17/114939
+✅ Playwright successfully fetched: https://tech.smarthr.jp/entry/2026/11/17/114939
+⚠️ Content too short (16 chars < 200): https://tech.smarthr.jp/entry/2026/11/17/114939
+⚠️ Using RSS content as fallback for: https://tech.smarthr.jp/entry/2026/11/17/114939
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-18/smarthrrubyworld-conference-20261.md
+📥 Processing: 内製 Coding Agent "haro" を使った全サービス横断レッドチーミング基盤
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.layerx.co.jp/entry/haro-readteam
+✅ Playwright successfully fetched: https://tech.layerx.co.jp/entry/haro-readteam
+⚠️ Content too short (16 chars < 200): https://tech.layerx.co.jp/entry/haro-readteam
+⚠️ Using RSS content as fallback for: https://tech.layerx.co.jp/entry/haro-readteam
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-18/coding-agent-haro.md
+📥 Processing: Snowflake Parquet Direct の仕様をドキュメントと実測から理解する
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.layerx.co.jp/entry/snowflake-parquet-direct
+✅ Playwright successfully fetched: https://tech.layerx.co.jp/entry/snowflake-parquet-direct
+⚠️ Content too short (16 chars < 200): https://tech.layerx.co.jp/entry/snowflake-parquet-direct
+⚠️ Using RSS content as fallback for: https://tech.layerx.co.jp/entry/snowflake-parquet-direct
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-18/snowflake-parquet-direct.md
+📥 Processing: 内製 Background Agent “haro”に アラート対応を任せたら 回すたびに賢くなっていった
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.layerx.co.jp/entry/haro-alert-loop
+✅ Playwright successfully fetched: https://tech.layerx.co.jp/entry/haro-alert-loop
+⚠️ Content too short (16 chars < 200): https://tech.layerx.co.jp/entry/haro-alert-loop
+⚠️ Using RSS content as fallback for: https://tech.layerx.co.jp/entry/haro-alert-loop
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-18/background-agent-haro.md
+📥 Processing: Every new medium gets called cheating
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-18/every-new-medium-gets-called-cheating.md
+📥 Processing: Health & Beauty UX Benchmark: 6,000+ Performance Scores and 4,500+ Best Practice Examples
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-18/health-beauty-ux-benchmark-6000-performance-scores-and-4500-best-practice-examples.md
+📥 Processing: Managing and Maintaining a Healthy Research Panel
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://medium.com/researchops-community/managing-and-maintaining-a-healthy-research-panel-cc63af0b2a1f
+✅ Playwright successfully fetched: https://medium.com/researchops-community/managing-and-maintaining-a-healthy-research-panel-cc63af0b2a1f
+⚠️ Content too short (182 chars < 200): https://medium.com/researchops-community/managing-and-maintaining-a-healthy-research-panel-cc63af0b2a1f
+⚠️ Using RSS content as fallback for: https://medium.com/researchops-community/managing-and-maintaining-a-healthy-research-panel-cc63af0b2a1f
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-18/managing-and-maintaining-a-healthy-research-panel.md
+📥 Processing: How we're using AI to make Next.js more secure
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-18/how-were-using-ai-to-make-nextjs-more-secure.md
+📥 Processing: Do AI and Human Moderators Uncover the Same Facts?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-18/do-ai-and-human-moderators-uncover-the-same-facts.md
+📥 Processing: Introducing spatial CSS: A developer preview
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-18/introducing-spatial-css-a-developer-preview.md
+📥 Processing: Browsers To Try If You’re Being Forced Off Arc
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-18/browsers-to-try-if-youre-being-forced-off-arc.md
+📥 Processing: 動画広告の予算消化不足を防ぐ ─ 配信リストのサイズを毎時自動で調整するパイプラインの構築
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-18/co-blog-archives-67465.md
+📥 Processing: おい、 Mutation Test をやれ。テスト品質を、測るために
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-18/mutation-test.md
+
+📊 Summary:
+   ✅ Success: 33
+   ❌ Errors: 0
+🏁 Done!
