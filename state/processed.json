@@ -39011,7 +39011,123 @@
     "https://zenn.dev/mizchi/articles/mutation-test-quality": {
       "contentHash": "9a362f91c0e83dcf141bf78cb17510c3f93d973315e6625a4be02dd9e8551d90",
       "processedAt": "2026-11-18T06:27:21.180Z"
+    },
+    "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/": {
+      "contentHash": "842aa13f83f617102f696d07eb39921b022e3ee38d816af49275a865213ca2e8",
+      "processedAt": "2026-11-19T06:32:59.304Z"
+    },
+    "https://engineering.fb.com/2026/11/18/ml-applications/design-once-deploy-at-scale-template-driven-ml-ecosystem/": {
+      "contentHash": "cddfe3eefd9f36efffda100f9853434068453d317800eadbcc7bc0836828ee60",
+      "processedAt": "2026-11-19T06:32:59.466Z"
+    },
+    "https://csswizardry.com/2026/11/web-perf-wednesday-018-soft-navigations-lift-the-crux-pass-rate/": {
+      "contentHash": "50856124d8e1ab697995a3a29fdf7e5b325825506af7ed6f3c3a5c56eb3f0a90",
+      "processedAt": "2026-11-19T06:32:59.783Z"
+    },
+    "https://www.tomjohn.design/content/tomjohnville": {
+      "contentHash": "83c797e16a25871ffa2f37e1f2fa6d68af19ba41fdf90a66a2d20f91b189ea58",
+      "processedAt": "2026-11-19T06:33:00.913Z"
+    },
+    "https://www.kooslooijesteijn.net/blog/alcohol-markers": {
+      "contentHash": "9a8c2a07331234881c1b7a2e2f13aa08b60721217ffd7bb5287659bc74df713a",
+      "processedAt": "2026-11-19T06:33:02.970Z"
+    },
+    "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/": {
+      "contentHash": "dd12d5e83c5f10802fb8ea0c4cf393a4ff07f63cb3fedb720bcdbbef6dd3798c",
+      "processedAt": "2026-11-19T06:33:03.251Z"
+    },
+    "https://glimm.dev/": {
+      "contentHash": "d82d2c8ad26d6c83ac1f06030b92e7d87815612d1badc7f6e0683e262ec21d17",
+      "processedAt": "2026-11-19T06:33:03.823Z"
+    },
+    "https://shiftnudge.com/archive/26905760": {
+      "contentHash": "1a538fcb02c4b84e8c9b92ad53d0323348d04f4d2c43806c7c6ff60cfeabfac0",
+      "processedAt": "2026-11-19T06:33:04.265Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews": {
+      "contentHash": "3a0bd13ff257d8b08bc463479a02d9446f5e989bb88d88dda0a29d635853b034",
+      "processedAt": "2026-11-19T06:33:04.776Z"
+    },
+    "https://lea.verou.me/blog/2026/nudeps/": {
+      "contentHash": "1f994ded0ae718d4d65df957a7b0c56a8621f4338a9d530404251850d1f6b38c",
+      "processedAt": "2026-11-19T06:33:05.138Z"
+    },
+    "https://bradfrost.com/blog/post/skills-to-pay-the-bills/": {
+      "contentHash": "95fd6ad19dc9438d9f78ea4669dda7880e7e9afd1c3924ccd0ec931e32bff57f",
+      "processedAt": "2026-11-19T06:33:05.656Z"
+    },
+    "https://kilianvalkhof.com/2026/css-html/state-of-html-results/": {
+      "contentHash": "58b9ee9bcd15c3791aad50fd9194614d5571e6b270f99ef91180b3ba96287836",
+      "processedAt": "2026-11-19T06:33:05.917Z"
+    },
+    "https://css-tricks.com/when-everything-has-changed/": {
+      "contentHash": "6996cca42a9e34a219c2c0ea6490d4ebca9e620eaae3dbd1ca590fd5da9b8db1",
+      "processedAt": "2026-11-19T06:33:07.030Z"
+    },
+    "https://piccalil.li/blog/understanding-css-random/": {
+      "contentHash": "acbdc7e9383b841b67d37111214d581debfbd6eb4890fa7d4a5ebf031d5fcb42",
+      "processedAt": "2026-11-19T06:33:08.150Z"
+    },
+    "https://vercel.com/blog/introducing-vercel-board": {
+      "contentHash": "69869a909b0d87d1db87ab224f42e92c3a7f8be6e078a167682afaa14044923d",
+      "processedAt": "2026-11-19T06:33:08.840Z"
+    },
+    "https://vercel.com/blog/vercel-x": {
+      "contentHash": "0cd533a741c382bfe2e26fb98b6b2f0dfba1354699358bff3ba46c5dea31f85e",
+      "processedAt": "2026-11-19T06:33:09.340Z"
+    },
+    "https://www.figma.com/blog/source-material-chase-rutherford/": {
+      "contentHash": "e32fb3b517db9b8bfc66bf00994e13a7305654d85f1ac66364c288fc19b5e709",
+      "processedAt": "2026-11-19T06:33:10.730Z"
+    },
+    "https://frontendfoc.us/issues/767": {
+      "contentHash": "9b80c5f6bee01661c809c2dc558dbd3821a5d9721d4f8942d3e49324671f9b7a",
+      "processedAt": "2026-11-19T06:33:11.245Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/19/144258": {
+      "contentHash": "ca2d58181a01a92dea176b9406a83bd8aa1639302af54312acb527d34c754683",
+      "processedAt": "2026-11-19T06:33:12.655Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/19/134254": {
+      "contentHash": "48d968f26ad66c8fcf2a79909708f0473a5b45f3ec3d1adc0025fdab34661396",
+      "processedAt": "2026-11-19T06:33:17.204Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/19/132918": {
+      "contentHash": "ca0c5befd00059ec4c14454caed4ef745bde79a5ac01c8578d857261b80b02e7",
+      "processedAt": "2026-11-19T06:33:22.006Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/19/113553": {
+      "contentHash": "8a532c8dffb82bb26dc86acdc69ab0e3be75cb6a22add26f1af92adfb1527aea",
+      "processedAt": "2026-11-19T06:33:26.823Z"
+    },
+    "https://tech.layerx.co.jp/entry/bakuraku-monorepo-and-frontend-enabling": {
+      "contentHash": "4640da038cd7fcde050c896badf38fbc825bcaf7ad6038e0991f92d408d87968",
+      "processedAt": "2026-11-19T06:33:31.767Z"
+    },
+    "https://thisweekinreact.com/newsletter/306": {
+      "contentHash": "b521a0f73c47e981c2c9dcf4ebf61353fed0dccb7edcc38c6aae13f7556dc985",
+      "processedAt": "2026-11-19T06:33:32.352Z"
+    },
+    "https://webkit.org/blog/18646/global-privacy-control-gpc-webkit-api/": {
+      "contentHash": "a24092be92273789a4c879b653e643bc2f89ed63caadc71fea5e047403e86def",
+      "processedAt": "2026-11-19T06:33:32.901Z"
+    },
+    "https://webkit.org/blog/18652/release-notes-for-safari-technology-preview-257/": {
+      "contentHash": "dcd017c7a1234b6dc00ae067d0fc9b4bdf8ebd293128c58b3c0a7b9f56697c2d",
+      "processedAt": "2026-11-19T06:33:33.404Z"
+    },
+    "https://blog.master.dev/5-css-values-for-easier-text-styling/": {
+      "contentHash": "071ab03e50d9d9fc13aff31849138792c2e3b527907c704611deb73c58650f12",
+      "processedAt": "2026-11-19T06:33:33.618Z"
+    },
+    "https://zenn.dev/t_shamoji/articles/a6bae7436c3f54": {
+      "contentHash": "b433919f6ed7e16d921a6fbc96f7bc543cf502189689f5f01ef45b9b943f8144",
+      "processedAt": "2026-11-19T06:33:34.224Z"
+    },
+    "https://zenn.dev/mizchi/articles/odin-introduction-guide": {
+      "contentHash": "2365d625bec9d9b10b1a5fb9e53dd6234a3f41b851c5045c9223bc7e0ab5496d",
+      "processedAt": "2026-11-19T06:33:34.921Z"
     }
   },
-  "lastRun": "2026-11-18T06:27:21.180Z"
+  "lastRun": "2026-11-19T06:33:34.921Z"
 }
