@@ -1,0 +1,30 @@
+url	feed	lang	A	B	C	D	total	selected	note
+https://csswizardry.com/2026/11/web-perf-wednesday-018-soft-navigations-lift-the-crux-pass-rate/	CSS Wizardry	en	2	2	2	2	8	yes	週刊だが他サイトの要約ではなく本人の分析なのでダイジェスト扱いにしない
+https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/	Sidebar	en	2	2	2	1	7	yes	スキル自体の効果はまだ測っていないが、外部の調査の数字が根拠
+https://shiftnudge.com/archive/26905760	Sidebar	en	2	2	1	1	6	yes	講座の宣伝を含むが制作の記録が中心
+https://glimm.dev/	Sidebar	en	2	2	0	2	6	yes	ライブラリのドキュメント。使う場面・使わない場面と設計の理由があるので採点に回した
+https://lea.verou.me/blog/2026/nudeps/	Lea Verou	en	1	2	1	2	6	yes	ベンチマークはまだないので C=1
+https://piccalil.li/blog/understanding-css-random/	Piccalilli	en	1	2	1	2	6	yes
+https://tech.smarthr.jp/entry/2026/11/19/113553	SmartHR Tech Blog	ja	1	2	2	1	6	yes	取得時に「全文を取得できなかった」と出たが本文は最後まで入っている
+https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews	The Pragmatic Engineer	en	1	1	2	2	6	yes	インフラの話が多く B は低いほうにした
+https://blog.master.dev/5-css-values-for-easier-text-styling/	Frontend Masters Blog	en	1	2	1	1	5	yes
+https://tech.layerx.co.jp/entry/bakuraku-monorepo-and-frontend-enabling	LayerX エンジニアブログ	ja	1	1	2	1	5	yes	採用の記事だが、計測の結果（CI・型チェックの短縮）があるので採点に回した
+https://www.tomjohn.design/content/tomjohnville	Sidebar	en	1	1	1	1	4	yes
+https://css-tricks.com/when-everything-has-changed/	css-tricks	en	1	1	1	1	4	yes	AI 業界の経済の話が半分。A は学び方の話として 1
+https://zenn.dev/t_shamoji/articles/a6bae7436c3f54	Zenn designsystem	ja	1	1	1	0	3	yes	後半は自作ツールの宣伝。式は既知のもの
+https://tech.smarthr.jp/entry/2026/11/19/144258	SmartHR Tech Blog	ja	1	1	1	0	3	yes	イベントのレポート。デザイナーの実装の話で A=1
+https://engineering.fb.com/2026/11/18/ml-applications/design-once-deploy-at-scale-template-driven-ml-ecosystem/	Meta Engineering	en	0	2	2	1	5	no	A=0: 広告ランキングの ML 基盤
+https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/	Meta Engineering	en	0	1	2	2	5	no	A=0: 広告ランキングの ML 基盤
+https://vercel.com/blog/introducing-vercel-board	Vercel	en	0	1	1	2	4	no	A=0: エージェントの協調の基盤。製品の発表だが社内での使い方があるので採点に回した
+https://zenn.dev/mizchi/articles/odin-introduction-guide	mizchi	ja	0	1	1	1	3	no	A=0: システムプログラミング言語の入門
+https://www.kooslooijesteijn.net/blog/alcohol-markers	Sidebar	en	0	1	1	1	3	no	A=0: 画材のマーカーの色選び
+https://www.figma.com/blog/source-material-chase-rutherford/	Figma Blog	en	0	0	1	0	1	no	A=0: クリエイティブディレクターへの一問一答
+https://bradfrost.com/blog/post/skills-to-pay-the-bills/	Brad Frost	en	-	-	-	-	-	no	足切り: 宣伝（スキルの紹介と講座のセール。設計の理由や計測はない）
+https://webkit.org/blog/18646/global-privacy-control-gpc-webkit-api/	WebKit Blog	en	-	-	-	-	-	no	足切り: 新しい API の紹介だけ
+https://webkit.org/blog/18652/release-notes-for-safari-technology-preview-257/	WebKit Blog	en	-	-	-	-	-	no	足切り: リリースノート
+https://vercel.com/blog/vercel-x	Vercel	en	-	-	-	-	-	no	足切り: アクセラレーターの募集
+https://tech.smarthr.jp/entry/2026/11/19/134254	SmartHR Tech Blog	ja	-	-	-	-	-	no	足切り: 協賛とイベントの告知
+https://tech.smarthr.jp/entry/2026/11/19/132918	SmartHR Tech Blog	ja	-	-	-	-	-	no	足切り: 協賛とイベントの告知
+https://kilianvalkhof.com/2026/css-html/state-of-html-results/	Kilian Valkhof	en	-	-	-	-	-	no	足切り: 本文が数行。調査の結果は https://2026.stateofhtml.com/
+https://frontendfoc.us/issues/767	Frontend Focus	en	-	-	-	-	-	no	足切り: ダイジェスト号。気になる一次記事: https://k9l.io/htmlcharts
+https://thisweekinreact.com/newsletter/306	This Week In React	en	-	-	-	-	-	no	足切り: ダイジェスト号。気になる一次記事: https://ui-sdk.dev/docs/core/changelog/introducing-ui-sdk https://sorenblank.com/craft/the-invisible-shape
