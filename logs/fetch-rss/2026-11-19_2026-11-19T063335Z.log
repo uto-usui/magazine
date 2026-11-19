@@ -1,0 +1,60 @@
+articles_dir=2026-11-19
+exit_code=0
+timestamp_utc=2026-11-19T06:33:35Z
+
+---- issue lines ----
+9:Failed to fetch feed blog.jxck.io: 
+10:Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+14:❌ Playwright failed for Mercari Engineering: HTTP 403
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-19/introducing-vercel-board.md
+📥 Processing: Introducing Vercel X
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-19/introducing-vercel-x.md
+📥 Processing: Source material: Creative Director Chase Rutherford on what makes something iconic
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-19/source-material-creative-director-chase-rutherford-on-what-makes-something-iconic.md
+📥 Processing: What developers think of HTML right now
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-19/what-developers-think-of-html-right-now.md
+📥 Processing: KomeKaigi 2026レポート —— プロダクトエンジニア、デザイナー、DevRelがそれぞれのおむすびを結んだ一日
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-19/komekaigi-2026-devrel.md
+📥 Processing: 「第16回 中高生Rubyプログラミングコンテスト 2026」にSmartHRが協賛します
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.smarthr.jp/entry/2026/11/19/134254
+✅ Playwright successfully fetched: https://tech.smarthr.jp/entry/2026/11/19/134254
+⚠️ Content too short (16 chars < 200): https://tech.smarthr.jp/entry/2026/11/19/134254
+⚠️ Using RSS content as fallback for: https://tech.smarthr.jp/entry/2026/11/19/134254
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-19/16-ruby-2026smarthr.md
+📥 Processing: SmartHRはYAPC::Tokyo 2026に協賛し、12名が参加、2名が登壇します！ そして、ランチセッションと事後勉強会も開催します!! Let's “Glue”vy & Patchworks!!!
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.smarthr.jp/entry/2026/11/19/132918
+✅ Playwright successfully fetched: https://tech.smarthr.jp/entry/2026/11/19/132918
+⚠️ Content too short (16 chars < 200): https://tech.smarthr.jp/entry/2026/11/19/132918
+⚠️ Using RSS content as fallback for: https://tech.smarthr.jp/entry/2026/11/19/132918
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-19/smarthryapctokyo-2026122-lets-gluevy-patchworks.md
+📥 Processing: 漠然とした不安を見える形に —— System Risk Recordsを導入して得た3つの安心
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.smarthr.jp/entry/2026/11/19/113553
+✅ Playwright successfully fetched: https://tech.smarthr.jp/entry/2026/11/19/113553
+⚠️ Content too short (16 chars < 200): https://tech.smarthr.jp/entry/2026/11/19/113553
+⚠️ Using RSS content as fallback for: https://tech.smarthr.jp/entry/2026/11/19/113553
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-19/system-risk-records3.md
+📥 Processing: PR が1年で5倍になった monorepo で、フロントエンドの基盤をつくる — バクラク Frontend Enabling を募集しています
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.layerx.co.jp/entry/bakuraku-monorepo-and-frontend-enabling
+✅ Playwright successfully fetched: https://tech.layerx.co.jp/entry/bakuraku-monorepo-and-frontend-enabling
+⚠️ Content too short (16 chars < 200): https://tech.layerx.co.jp/entry/bakuraku-monorepo-and-frontend-enabling
+⚠️ Using RSS content as fallback for: https://tech.layerx.co.jp/entry/bakuraku-monorepo-and-frontend-enabling
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-19/pr-15-monorepo-frontend-enabling.md
+📥 Processing: This Week In React #306: UI SDK, Fate, RSC, Next.js, Dragology, Helmet, React Flow, Virtualized, Anatomy | Expo Simulators, Exact, Bottom Sheet, Node-API, Graphite, Navigation, Nitro SQLite, Trading Charts | Solid, webpack, Node.js, Oxlint, npm, pnpm
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-19/this-week-in-react-306-ui-sdk-fate-rsc-nextjs-dragology-helmet-react-flow-virtualized-anatomy-expo-s.md
+📥 Processing: Global Privacy Control (GPC) WebKit API
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-19/global-privacy-control-gpc-webkit-api.md
+📥 Processing: Release Notes for Safari Technology Preview 257
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-19/release-notes-for-safari-technology-preview-257.md
+📥 Processing: 5 CSS Values for Easier Text Styling
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-19/5-css-values-for-easier-text-styling.md
+📥 Processing: CSSの「oklch()」と色差ΔE (CIEDE2000)・WCAGコントラスト比をTypeScriptで厳密計算するカラーサイエンス実装
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-19/cssoklche-ciede2000wcagtypescript.md
+📥 Processing: Odin に賭けたい人向けの Odin 言語入門ガイド
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-19/odin-odin.md
+
+📊 Summary:
+   ✅ Success: 29
+   ❌ Errors: 0
+🏁 Done!
