@@ -39127,7 +39127,79 @@
     "https://zenn.dev/mizchi/articles/odin-introduction-guide": {
       "contentHash": "2365d625bec9d9b10b1a5fb9e53dd6234a3f41b851c5045c9223bc7e0ab5496d",
       "processedAt": "2026-11-19T06:33:34.921Z"
+    },
+    "https://engineering.atspotify.com/2026/11/when-can-you-ship-on-offline-evals-alone/": {
+      "contentHash": "5cf79d4a1736227f2899be9b84dab202316937f2c92156513980789ef9883c94",
+      "processedAt": "2026-11-20T06:13:30.000Z"
+    },
+    "https://blog.jim-nielsen.com/2026/making-websites-in-2026/": {
+      "contentHash": "d1d480d40e521a020fa79d120bb4ad186e7b894cabff7fd361f40af97efabaa1",
+      "processedAt": "2026-11-20T06:13:30.145Z"
+    },
+    "https://exactitudes.com/collectie/": {
+      "contentHash": "07d0674c4423e2ee81f5be54575d19cdde9037ea74b811cbf3e8d925afed763f",
+      "processedAt": "2026-11-20T06:13:31.329Z"
+    },
+    "https://www.baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers/": {
+      "contentHash": "15ea063a7bd00c17697029b8827da112cc81e4c5831668b44da9cd51513df9ca",
+      "processedAt": "2026-11-20T06:13:31.540Z"
+    },
+    "https://deimos.evilrabbit.com/": {
+      "contentHash": "319dfe657f4d680814cfef43c6caaca3e0f32e6eabb3c808202242db23cddba0",
+      "processedAt": "2026-11-20T06:13:37.699Z"
+    },
+    "https://jespervos.com/craft/squircles": {
+      "contentHash": "e02466f10103016862e7442da6760b702ab4c5bf6a9ef1c3ff1e60945fa1ad92",
+      "processedAt": "2026-11-20T06:13:39.550Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-is-amazons-writing-culture": {
+      "contentHash": "395f4aefa7bcb34687e88063e3a7f862cdc189953e5479f9649821be95686fd2",
+      "processedAt": "2026-11-20T06:13:39.799Z"
+    },
+    "https://bradfrost.com/links/post/manuela-costa-design-systems-ai/": {
+      "contentHash": "6b204ed9499366da9d716e8df12e4603a8a9ab648f61edf77c9cd2ebcef91b74",
+      "processedAt": "2026-11-20T06:13:40.427Z"
+    },
+    "https://css-tricks.com/almanac/functions/s/scroll-state/": {
+      "contentHash": "cde05a14268c342fde2b0479dafd7132726762a94a4309b24e60ae6cbfc02004",
+      "processedAt": "2026-11-20T06:13:40.821Z"
+    },
+    "https://stripe.com/blog/give-your-agents-controlled-access-to-analyze-your-data-and-move-funds": {
+      "contentHash": "d14c54a9f292bf4f617e2720459d01af14167c2ddda32fb7737eb0b0f26c8b32",
+      "processedAt": "2026-11-20T06:13:41.253Z"
+    },
+    "https://blog.jxck.io/entries/2026-11-19/cyber-security-emergency-package.html": {
+      "contentHash": "1acc397fa98159051b3fe9640dec6a4cd3e7cb75f0b276e1dbe003ec4117ea69",
+      "processedAt": "2026-11-20T06:13:42.179Z"
+    },
+    "https://blog.jxck.io/entries/2026-11-18/active-cyber-defense.html": {
+      "contentHash": "b1609e388dd895f382ef6a1703437e67b07784b6ded9883dbdaca12a9251626d",
+      "processedAt": "2026-11-20T06:13:42.865Z"
+    },
+    "https://tech.smarthr.jp/entry/lt18": {
+      "contentHash": "51876cdc0bce6f78ef80379531d1fa8bafe3cceeb4dd52aac948af6dc6cbc455",
+      "processedAt": "2026-11-20T06:13:47.529Z"
+    },
+    "https://tech.layerx.co.jp/entry/haro-in-haro": {
+      "contentHash": "adb62f64a0907e6c28e14d4093abfbddc93eec8adc156f3325c89419847e9bae",
+      "processedAt": "2026-11-20T06:13:52.192Z"
+    },
+    "https://uxcontent.com/the-future-of-content-design-revisited/": {
+      "contentHash": "2a693d22a90b8a5f94aa6650ea6cdba38f577b27048c53fd1eaeaec548f62f61",
+      "processedAt": "2026-11-20T06:13:52.868Z"
+    },
+    "https://www.nngroup.com/training/february/": {
+      "contentHash": "43b59505710f6bd58ccced968c7146ad83732d27376460db5c7082bcd17bb054",
+      "processedAt": "2026-11-20T06:13:54.518Z"
+    },
+    "https://www.lukew.com/ff/2172/design-by-playground": {
+      "contentHash": "bd08be9a3b2fa82440980ec8addf6f96c4d75a631cdfe0191ca97eca010b1863",
+      "processedAt": "2026-11-20T06:13:55.085Z"
+    },
+    "https://developers.cyberagent.co.jp/blog/archives/67518/": {
+      "contentHash": "6e2db18320faf4f6dbee530a974764f8a7b62abe2851e7710bd9ebd4bc2a8522",
+      "processedAt": "2026-11-20T06:13:57.192Z"
     }
   },
-  "lastRun": "2026-11-19T06:33:34.921Z"
+  "lastRun": "2026-11-20T06:13:57.192Z"
 }
