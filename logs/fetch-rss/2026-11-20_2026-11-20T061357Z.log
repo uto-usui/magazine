@@ -1,0 +1,59 @@
+articles_dir=2026-11-20
+exit_code=0
+timestamp_utc=2026-11-20T06:13:57Z
+
+---- issue lines ----
+9:❌ Playwright failed for Mercari Engineering: HTTP 403
+10:Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-20/exactitudes.md
+📥 Processing: ‘AI’ might be the end of our careers
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-20/ai-might-be-the-end-of-our-careers.md
+📥 Processing: Design Zeitgeist
+⚠️ Content too short (83 chars < 200): https://deimos.evilrabbit.com/
+🔄 Readability failed, trying Playwright: https://deimos.evilrabbit.com/
+✅ Playwright successfully fetched: https://deimos.evilrabbit.com/
+⚠️ Content too short (68 chars < 200): https://deimos.evilrabbit.com/
+⚠️ Using RSS content as fallback for: https://deimos.evilrabbit.com/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-20/design-zeitgeist.md
+📥 Processing: Squircles
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-20/squircles.md
+📥 Processing: The Pulse: Is Amazon’s writing culture collapsing because of AI?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-20/the-pulse-is-amazons-writing-culture-collapsing-because-of-ai.md
+📥 Processing: Manuela Costa · Design Systems & AI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-20/manuela-costa-design-systems-ai.md
+📥 Processing: scroll-state()
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-20/scroll-state.md
+📥 Processing: Give your agents controlled access to analyze your data and move funds
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-20/give-your-agents-controlled-access-to-analyze-your-data-and-move-funds.md
+📥 Processing: 「サイバーセキュリティ緊急対策パッケージ」の中身
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-20/jxck-entries-2026-11-19-cyber-security-emergency-package-html.md
+📥 Processing: 「能動的サイバー防御」と「サイバー対処能力強化法」は何であって・何でないか
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-20/jxck-entries-2026-11-18-active-cyber-defense-html.md
+📥 Processing: 第18回SmartHR LT大会レポート —— 毎年恒例の夏の自由研究発表！
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.smarthr.jp/entry/lt18
+✅ Playwright successfully fetched: https://tech.smarthr.jp/entry/lt18
+⚠️ Content too short (22 chars < 200): https://tech.smarthr.jp/entry/lt18
+⚠️ Using RSS content as fallback for: https://tech.smarthr.jp/entry/lt18
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-20/18smarthr-lt.md
+📥 Processing: 内製 Background Agent "haro" を "haro" の中で開発しターミナルを捨てる
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.layerx.co.jp/entry/haro-in-haro
+✅ Playwright successfully fetched: https://tech.layerx.co.jp/entry/haro-in-haro
+⚠️ Content too short (22 chars < 200): https://tech.layerx.co.jp/entry/haro-in-haro
+⚠️ Using RSS content as fallback for: https://tech.layerx.co.jp/entry/haro-in-haro
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-20/background-agent-haro-haro.md
+📥 Processing: The future of content design, revisited
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-20/the-future-of-content-design-revisited.md
+📥 Processing: UX Conference February Announced (Feb 22 - Feb 26)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-20/ux-conference-february-announced-feb-22-feb-26.md
+📥 Processing: Design by Playground
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-20/design-by-playground.md
+📥 Processing: Kubernetes におけるアプリケーションの負荷予測に基づいたスケーリングツールを拡張する
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-20/kubernetes.md
+
+📊 Summary:
+   ✅ Success: 18
+   ❌ Errors: 0
+🏁 Done!
