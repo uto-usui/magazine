@@ -1,0 +1,32 @@
+url	feed	lang	A	B	C	D	total	selected	note
+https://www.nngroup.com/articles/raw-data-vs-synthesized-data/	Nielsen Norman Group	en	2	2	2	2	8	yes	AI に UI を作らせるときの入力の話なので体験と実装の両方にまたがると判断
+https://jespervos.com/craft/squircles	Sidebar	en	2	2	2	2	8	yes	C は計算による比較（面積・対角線の距離・入れ子の隙間）で 2
+https://tcosta.com/impermanence/	Sidebar	en	2	2	2	1	7	yes	エージェントで600回のプレイテスト。エッセイの部分もあるが制作の判断と数字が中心
+https://www.lukew.com/ff/2173/crazy-agent-scale-companies-all-in-on-ai	LukeW	en	1	2	2	2	7	yes	イベントのメモ。他サイトの要約ではなく登壇の記録なのでダイジェスト扱いにしない
+https://itsmeduncan.com/2026/11/17/only-the-human-merges/	Sidebar	en	1	2	2	2	7	yes
+https://engineering.atspotify.com/2026/11/when-can-you-ship-on-offline-evals-alone/	Spotify Engineering	en	1	2	2	2	7	yes	AI 機能の評価の話。A は品質を守る道具として 1
+https://www.lukew.com/ff/2172/design-by-playground	LukeW	en	2	2	1	1	6	yes
+https://uxcontent.com/the-future-of-content-design-revisited/	UX Content Collective	en	1	2	2	1	6	yes	調査の数字（77%、73%）と求人の比較がある
+https://blog.master.dev/apps-ive-vibe-coded-lately-that-are-pretty-damn-useful-to-me-actually/	Frontend Masters Blog	en	1	1	2	1	5	yes	取得失敗の注記があるが本文はほぼ取れている（リンクチェックの節で1文切れているだけ）
+https://blog.jim-nielsen.com/2026/making-websites-in-2026/	Sidebar	en	1	1	1	2	5	yes
+https://css-tricks.com/almanac/functions/s/scroll-state/	css-tricks	en	1	2	1	1	5	yes	ブラウザ対応の節は本文が取れていない
+https://linebender.org/wiki/curves/squircle/	Sidebar	en	1	1	2	1	5	yes	jespervos.com の Squircles とは別の記事（同じ出来事の重複ではない）
+https://www.baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers/	Sidebar	en	1	1	1	1	4	yes	職業の経済の話に寄るが、AI とフロントエンドの仕事の分担を具体的な場面から論じているので A=1
+https://justinjay.wang/in-making-things-we-make-ourselves/	Sidebar	en	1	1	1	1	4	yes	短いエッセイ
+https://www.nngroup.com/articles/qual-research-methods/	Nielsen Norman Group	en	1	2	1	0	4	yes	手法の選び方は条件まで書いてあるが、定番の知識のまとめ
+https://tech.smarthr.jp/entry/lt18	SmartHR Tech Blog	ja	1	0	1	1	3	no	LT のレポート。23区の代替テキスト調査は結果が書かれていない
+https://css-tricks.com/andy-clarke-standout-designs-for-the-web-interview/	css-tricks	en	1	1	1	0	3	no	電子書籍の宣伝を兼ねたインタビュー
+https://tech.layerx.co.jp/entry/haro-in-haro	LayerX エンジニアブログ	ja	0	2	2	1	5	no	コーディングエージェントの開発環境を Kubernetes で作る話。インフラなので A=0
+https://developers.cyberagent.co.jp/blog/archives/67518/	CyberAgent Developers Blog	ja	0	1	1	1	3	no	Kubernetes のインターン体験記
+https://www.thehowpage.com/economics/billionaire-wealth	Sidebar	en	0	1	1	1	3	no	スクロールで見せるデータの読み物だが、本文は富の大きさの話で作り方には触れていない
+https://deimos.evilrabbit.com/	Sidebar	en	-	-	-	-	-	no	足切り: 本文が取れていない
+https://exactitudes.com/collectie/	Sidebar	en	-	-	-	-	-	no	足切り: 本文が取れていない
+https://bradfrost.com/links/post/manuela-costa-design-systems-ai/	Brad Frost	en	-	-	-	-	-	no	足切り: 本文が取れていない（ニュースレター登録の文だけ）
+https://newsletter.pragmaticengineer.com/p/the-pulse-is-amazons-writing-culture	The Pragmatic Engineer	en	-	-	-	-	-	no	足切り: 有料部分で切れている
+https://piccalil.li/the-index/207/	Piccalilli	en	-	-	-	-	-	no	足切り: リンク集。CSS random() の解説と、スクリーンリーダーが使うキーボードショートカットを調べるアプリが気になるが URL は本文にない
+https://react.statuscode.com/issues/498	React Status	en	-	-	-	-	-	no	足切り: ダイジェスト号。一次記事は https://nextjs.org/blog/how-were-using-ai-to-make-nextjs-more-secure
+https://www.nngroup.com/training/february/	Nielsen Norman Group	en	-	-	-	-	-	no	足切り: イベント告知
+https://vercel.com/blog/vercel-completes-iso-iec-42001-2023-certification	Vercel	en	-	-	-	-	-	no	足切り: 認証取得のお知らせ
+https://stripe.com/blog/give-your-agents-controlled-access-to-analyze-your-data-and-move-funds	Stripe Blog	en	-	-	-	-	-	no	足切り: 製品の機能紹介
+https://bradfrost.com/blog/post/making-better-products-with-design-systems/	Brad Frost	en	-	-	-	-	-	no	足切り: 宣伝（動画とスキルの紹介と講座のセール）
+https://www.figma.com/blog/workflow-lab-specs-and-the-figma-agent/	Figma Blog	en	-	-	-	-	-	no	足切り: 製品機能の使い方の紹介。架空のチームの例で、設計理由や計測はない
