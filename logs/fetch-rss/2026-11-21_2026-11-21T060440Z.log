@@ -1,0 +1,60 @@
+articles_dir=2026-11-21
+exit_code=0
+timestamp_utc=2026-11-21T06:04:40Z
+
+---- issue lines ----
+9:Failed to fetch feed blog.jxck.io: 
+10:Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+14:❌ Playwright failed for Mercari Engineering: HTTP 403
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-21/manuela-costa-design-systems-ai.md
+📥 Processing: Andy Clarke answers six questions about Standout Designs for the Web
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-21/andy-clarke-answers-six-questions-about-standout-designs-for-the-web.md
+📥 Processing: scroll-state()
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-21/scroll-state.md
+📥 Processing: The Index: Issue #207
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-21/the-index-issue-207.md
+📥 Processing: Vercel completes ISO/IEC 42001:2023 certification
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-21/vercel-completes-isoiec-420012023-certification.md
+📥 Processing: Give your agents controlled access to analyze your data and move funds
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-21/give-your-agents-controlled-access-to-analyze-your-data-and-move-funds.md
+📥 Processing: Workflow lab: Turning context into a plan with Specs and the Figma agent
+Image too large, skipping: https://cdn.sanity.io/images/599r6htc/regionalized/e45f20141c28283bd8a1a0a1889c5f8e9befd922-7680x4320.png?w=7680&h=4320&q=75&fit=crop&crop=focalpoint&auto=format
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-21/workflow-lab-turning-context-into-a-plan-with-specs-and-the-figma-agent.md
+📥 Processing: 第18回SmartHR LT大会レポート —— 毎年恒例の夏の自由研究発表！
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.smarthr.jp/entry/lt18
+✅ Playwright successfully fetched: https://tech.smarthr.jp/entry/lt18
+⚠️ Content too short (22 chars < 200): https://tech.smarthr.jp/entry/lt18
+⚠️ Using RSS content as fallback for: https://tech.smarthr.jp/entry/lt18
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-21/18smarthr-lt.md
+📥 Processing: 内製 Background Agent "haro" を "haro" の中で開発しターミナルを捨てる
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-21/background-agent-haro-haro.md
+📥 Processing: The future of content design, revisited
+Could not parse CSS stylesheet
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-21/the-future-of-content-design-revisited.md
+📥 Processing: Qualitative User-Research Methods: An Overview
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-21/qualitative-user-research-methods-an-overview.md
+📥 Processing: Can AI Generate Good Designs from Raw User Data?
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-21/can-ai-generate-good-designs-from-raw-user-data.md
+📥 Processing: UX Conference February Announced (Feb 22 - Feb 26)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-21/ux-conference-february-announced-feb-22-feb-26.md
+📥 Processing: Why Next.js has had so many security advisories
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-21/why-nextjs-has-had-so-many-security-advisories.md
+📥 Processing: Crazy Agent Scale: Companies All-in on AI
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-21/crazy-agent-scale-companies-all-in-on-ai.md
+📥 Processing: Design by Playground
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-21/design-by-playground.md
+📥 Processing: Apps I’ve Vibe-Coded Lately That Are Pretty Damn Useful To Me, Actually
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://blog.master.dev/apps-ive-vibe-coded-lately-that-are-pretty-damn-useful-to-me-actually/
+✅ Playwright successfully fetched: https://blog.master.dev/apps-ive-vibe-coded-lately-that-are-pretty-damn-useful-to-me-actually/
+⚠️ Content too short (167 chars < 200): https://blog.master.dev/apps-ive-vibe-coded-lately-that-are-pretty-damn-useful-to-me-actually/
+⚠️ Using RSS content as fallback for: https://blog.master.dev/apps-ive-vibe-coded-lately-that-are-pretty-damn-useful-to-me-actually/
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-21/apps-ive-vibe-coded-lately-that-are-pretty-damn-useful-to-me-actually.md
+📥 Processing: Kubernetes におけるアプリケーションの負荷予測に基づいたスケーリングツールを拡張する
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-21/kubernetes.md
+
+📊 Summary:
+   ✅ Success: 31
+   ❌ Errors: 0
+🏁 Done!
