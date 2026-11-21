@@ -39127,7 +39127,131 @@
     "https://zenn.dev/mizchi/articles/odin-introduction-guide": {
       "contentHash": "2365d625bec9d9b10b1a5fb9e53dd6234a3f41b851c5045c9223bc7e0ab5496d",
       "processedAt": "2026-11-19T06:33:34.921Z"
+    },
+    "https://engineering.atspotify.com/2026/11/when-can-you-ship-on-offline-evals-alone/": {
+      "contentHash": "5cf79d4a1736227f2899be9b84dab202316937f2c92156513980789ef9883c94",
+      "processedAt": "2026-11-21T06:04:01.121Z"
+    },
+    "https://tcosta.com/impermanence/": {
+      "contentHash": "08bbdef5fbd820f7fcea5d95c87aacb1437968d0272edd53cc86e4e173e8bd22",
+      "processedAt": "2026-11-21T06:04:01.858Z"
+    },
+    "https://www.thehowpage.com/economics/billionaire-wealth": {
+      "contentHash": "508bd77af337a9a2252a182e0f133be05eab1ee2a73d74517ae11eec2b63df8b",
+      "processedAt": "2026-11-21T06:04:02.248Z"
+    },
+    "https://justinjay.wang/in-making-things-we-make-ourselves/": {
+      "contentHash": "33daa27f15dbef5402db6222b4b506774d734f831f25460672ca79b81ecde572",
+      "processedAt": "2026-11-21T06:04:02.573Z"
+    },
+    "https://linebender.org/wiki/curves/squircle/": {
+      "contentHash": "f05b76ec22e07177c48fdce84682b62a64a78d3d4ca89eea5417edd4b3e83cb6",
+      "processedAt": "2026-11-21T06:04:02.875Z"
+    },
+    "https://itsmeduncan.com/2026/11/17/only-the-human-merges/": {
+      "contentHash": "b7564fc2bc6d2a9b6e64bf8cdacd747a3713c2f04ea9bc2593b72a660fd3ae69",
+      "processedAt": "2026-11-21T06:04:03.175Z"
+    },
+    "https://blog.jim-nielsen.com/2026/making-websites-in-2026/": {
+      "contentHash": "d1d480d40e521a020fa79d120bb4ad186e7b894cabff7fd361f40af97efabaa1",
+      "processedAt": "2026-11-21T06:04:03.367Z"
+    },
+    "https://exactitudes.com/collectie/": {
+      "contentHash": "07d0674c4423e2ee81f5be54575d19cdde9037ea74b811cbf3e8d925afed763f",
+      "processedAt": "2026-11-21T06:04:05.902Z"
+    },
+    "https://www.baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers/": {
+      "contentHash": "15ea063a7bd00c17697029b8827da112cc81e4c5831668b44da9cd51513df9ca",
+      "processedAt": "2026-11-21T06:04:06.218Z"
+    },
+    "https://deimos.evilrabbit.com/": {
+      "contentHash": "319dfe657f4d680814cfef43c6caaca3e0f32e6eabb3c808202242db23cddba0",
+      "processedAt": "2026-11-21T06:04:12.872Z"
+    },
+    "https://jespervos.com/craft/squircles": {
+      "contentHash": "e02466f10103016862e7442da6760b702ab4c5bf6a9ef1c3ff1e60945fa1ad92",
+      "processedAt": "2026-11-21T06:04:14.232Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pulse-is-amazons-writing-culture": {
+      "contentHash": "395f4aefa7bcb34687e88063e3a7f862cdc189953e5479f9649821be95686fd2",
+      "processedAt": "2026-11-21T06:04:14.563Z"
+    },
+    "https://bradfrost.com/blog/post/making-better-products-with-design-systems/": {
+      "contentHash": "5066fb35ee78b68e0725092c6eb6d3fd56aea24707ab0f5c01a5360bdc8be483",
+      "processedAt": "2026-11-21T06:04:15.046Z"
+    },
+    "https://bradfrost.com/links/post/manuela-costa-design-systems-ai/": {
+      "contentHash": "6b204ed9499366da9d716e8df12e4603a8a9ab648f61edf77c9cd2ebcef91b74",
+      "processedAt": "2026-11-21T06:04:15.361Z"
+    },
+    "https://css-tricks.com/andy-clarke-standout-designs-for-the-web-interview/": {
+      "contentHash": "53ea1d03aecd09fd164940fecb0224ff812c75d1f017fa992730a25daab4a72a",
+      "processedAt": "2026-11-21T06:04:15.594Z"
+    },
+    "https://css-tricks.com/almanac/functions/s/scroll-state/": {
+      "contentHash": "cde05a14268c342fde2b0479dafd7132726762a94a4309b24e60ae6cbfc02004",
+      "processedAt": "2026-11-21T06:04:16.036Z"
+    },
+    "https://piccalil.li/the-index/207/": {
+      "contentHash": "689074a9a8456d95624156532eae4b01bf2e5c8ecfd30bcdb9a78ea03b2eba5b",
+      "processedAt": "2026-11-21T06:04:16.347Z"
+    },
+    "https://vercel.com/blog/vercel-completes-iso-iec-42001-2023-certification": {
+      "contentHash": "d23a3c4487c244f85b3ed30d3d8e657f69e5244171d320d61ac907145b485894",
+      "processedAt": "2026-11-21T06:04:17.104Z"
+    },
+    "https://stripe.com/blog/give-your-agents-controlled-access-to-analyze-your-data-and-move-funds": {
+      "contentHash": "d14c54a9f292bf4f617e2720459d01af14167c2ddda32fb7737eb0b0f26c8b32",
+      "processedAt": "2026-11-21T06:04:17.713Z"
+    },
+    "https://www.figma.com/blog/workflow-lab-specs-and-the-figma-agent/": {
+      "contentHash": "20b310d53e5f6529eec8084ef93f42155e4ed4adc76d8bbef97cdc17210fe099",
+      "processedAt": "2026-11-21T06:04:19.906Z"
+    },
+    "https://tech.smarthr.jp/entry/lt18": {
+      "contentHash": "51876cdc0bce6f78ef80379531d1fa8bafe3cceeb4dd52aac948af6dc6cbc455",
+      "processedAt": "2026-11-21T06:04:24.932Z"
+    },
+    "https://tech.layerx.co.jp/entry/haro-in-haro": {
+      "contentHash": "adb62f64a0907e6c28e14d4093abfbddc93eec8adc156f3325c89419847e9bae",
+      "processedAt": "2026-11-21T06:04:26.400Z"
+    },
+    "https://uxcontent.com/the-future-of-content-design-revisited/": {
+      "contentHash": "2a693d22a90b8a5f94aa6650ea6cdba38f577b27048c53fd1eaeaec548f62f61",
+      "processedAt": "2026-11-21T06:04:27.027Z"
+    },
+    "https://www.nngroup.com/articles/qual-research-methods/": {
+      "contentHash": "ef99a9c9cfe8ef31fae4fae4e2e16932f13a1a786558d725cc782a5b38d6d8e5",
+      "processedAt": "2026-11-21T06:04:27.761Z"
+    },
+    "https://www.nngroup.com/articles/raw-data-vs-synthesized-data/": {
+      "contentHash": "1ea54003364d59f096f233bc924d0a7711c6690f1e38b81b1a132eaece9ecb2b",
+      "processedAt": "2026-11-21T06:04:28.154Z"
+    },
+    "https://www.nngroup.com/training/february/": {
+      "contentHash": "43b59505710f6bd58ccced968c7146ad83732d27376460db5c7082bcd17bb054",
+      "processedAt": "2026-11-21T06:04:29.689Z"
+    },
+    "https://react.statuscode.com/issues/498": {
+      "contentHash": "798bc46fe30d606aed9714dd3b0b026fb35c75e0b9891015d3de5f5bddcc84a1",
+      "processedAt": "2026-11-21T06:04:30.250Z"
+    },
+    "https://www.lukew.com/ff/2173/crazy-agent-scale-companies-all-in-on-ai": {
+      "contentHash": "ba88568d74eb53b9376c16ec01ac90360851d1b2a9eb8baec2962dff4bc0c1fc",
+      "processedAt": "2026-11-21T06:04:30.813Z"
+    },
+    "https://www.lukew.com/ff/2172/design-by-playground": {
+      "contentHash": "bd08be9a3b2fa82440980ec8addf6f96c4d75a631cdfe0191ca97eca010b1863",
+      "processedAt": "2026-11-21T06:04:31.064Z"
+    },
+    "https://blog.master.dev/apps-ive-vibe-coded-lately-that-are-pretty-damn-useful-to-me-actually/": {
+      "contentHash": "faf7660f9a966aa26cf4561c74b0c5ac2d15cccd1dea8f1814c844104d31c6ba",
+      "processedAt": "2026-11-21T06:04:35.518Z"
+    },
+    "https://developers.cyberagent.co.jp/blog/archives/67518/": {
+      "contentHash": "6e2db18320faf4f6dbee530a974764f8a7b62abe2851e7710bd9ebd4bc2a8522",
+      "processedAt": "2026-11-21T06:04:40.255Z"
     }
   },
-  "lastRun": "2026-11-19T06:33:34.921Z"
+  "lastRun": "2026-11-21T06:04:40.255Z"
 }
