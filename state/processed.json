@@ -39251,7 +39251,15 @@
     "https://developers.cyberagent.co.jp/blog/archives/67518/": {
       "contentHash": "6e2db18320faf4f6dbee530a974764f8a7b62abe2851e7710bd9ebd4bc2a8522",
       "processedAt": "2026-11-21T06:04:40.255Z"
+    },
+    "https://blog.jxck.io/entries/2026-11-19/cyber-security-emergency-package.html": {
+      "contentHash": "1acc397fa98159051b3fe9640dec6a4cd3e7cb75f0b276e1dbe003ec4117ea69",
+      "processedAt": "2026-11-22T05:40:39.018Z"
+    },
+    "https://blog.jxck.io/entries/2026-11-18/active-cyber-defense.html": {
+      "contentHash": "b1609e388dd895f382ef6a1703437e67b07784b6ded9883dbdaca12a9251626d",
+      "processedAt": "2026-11-22T05:40:40.016Z"
     }
   },
-  "lastRun": "2026-11-21T06:04:40.255Z"
+  "lastRun": "2026-11-22T05:40:40.017Z"
 }
