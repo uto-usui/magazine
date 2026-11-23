@@ -1,0 +1,38 @@
+articles_dir=2026-11-23
+exit_code=0
+timestamp_utc=2026-11-23T06:23:06Z
+
+---- issue lines ----
+9:❌ Playwright failed for Mercari Engineering: HTTP 403
+10:Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 75 feeds
+📡 Fetching RSS feeds...
+🤖 Bot protection detected for Mercari Engineering, trying Playwright...
+❌ Playwright failed for Mercari Engineering: HTTP 403
+Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+Line: 32
+Column: 135
+Char: =
+⏳ Retry feed fetch 1/3 for Adrian Roselli after transient error: Request timed out after 15000ms
+📰 Found 5211 total articles
+✨ New articles: 3
+🗓️ Skipped (published more than 30 days ago): 369
+⏭️ Skipped (already processed): 505
+📥 Processing: The CSS Caret-* Properties and Custom Caret Accessibility
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-23/the-css-caret-properties-and-custom-caret-accessibility.md
+📥 Processing: 「サイバーセキュリティ緊急対策パッケージ」の中身
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-23/jxck-entries-2026-11-19-cyber-security-emergency-package-html.md
+📥 Processing: 「能動的サイバー防御」と「サイバー対処能力強化法」は何であって・何でないか
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-23/jxck-entries-2026-11-18-active-cyber-defense-html.md
+
+📊 Summary:
+   ✅ Success: 3
+   ❌ Errors: 0
+🏁 Done!
