@@ -1,0 +1,60 @@
+articles_dir=2026-11-24
+exit_code=0
+timestamp_utc=2026-11-24T08:57:39Z
+
+---- issue lines ----
+9:Failed to fetch feed blog.jxck.io: 
+10:❌ Playwright failed for Mercari Engineering: HTTP 403
+11:Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-24/ui-feed.md
+📥 Processing: Strategic building blocks
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-24/strategic-building-blocks.md
+📥 Processing: WordPress forms that look clean before you style them, up to 50% off
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-24/wordpress-forms-that-look-clean-before-you-style-them-up-to-50-off.md
+📥 Processing: The era of personal software
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-24/the-era-of-personal-software.md
+📥 Processing: The answer to slop is accountability
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-24/the-answer-to-slop-is-accountability.md
+📥 Processing:  AI, consciousness and the future of humanity
+🔄 Readability failed, trying Playwright: https://www.youtube.com/watch?v=H43e72-2aAs
+✅ Playwright successfully fetched: https://www.youtube.com/watch?v=H43e72-2aAs
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-24/ai-consciousness-and-the-future-of-humanity.md
+📥 Processing: Computing with CSS Layout
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-24/computing-with-css-layout.md
+📥 Processing: Reactはここまで変わった！ メモ化・Effect・アニメーションの最新事情
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-24/react-effect.md
+📥 Processing: Using Fallbacks for a Robust Front-End
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-24/using-fallbacks-for-a-robust-front-end.md
+📥 Processing: Dev Material Archive
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-24/dev-material-archive.md
+📥 Processing: Our Black Friday deal is here!
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-24/our-black-friday-deal-is-here.md
+📥 Processing: Kazunari Hanao joins Vercel as Country Manager, Japan
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-24/kazunari-hanao-joins-vercel-as-country-manager-japan.md
+📥 Processing: Vercel日本法人の代表に花尾和成が就任いたしました
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-24/vercel.md
+📥 Processing: Introducing Audited ZDR on AI Gateway
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-24/introducing-audited-zdr-on-ai-gateway.md
+📥 Processing: Custom software, specialized workflows, and other new growth paths from SaaS Platform Summit
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-24/custom-software-specialized-workflows-and-other-new-growth-paths-from-saas-platform-summit.md
+📥 Processing: Claude Projectsを使って、複数のリポジトリにまたがるtextlintとルールのパフォーマンスを改善した
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-24/claude-projectstextlint.md
+📥 Processing: YAPC::Tokyo 2026の「踊り場」にSmartHRから2名がオーナーとして参加し、「Perl Hackers Hub」と「Parser蠱毒」を実施します！
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-24/yapctokyo-2026smarthr2perl-hackers-hubparser.md
+📥 Processing: 「開発者コミュニティとの関係発展モデル」を公開します
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.smarthr.jp/entry/2026/11/24/101808
+✅ Playwright successfully fetched: https://tech.smarthr.jp/entry/2026/11/24/101808
+⚠️ Content too short (22 chars < 200): https://tech.smarthr.jp/entry/2026/11/24/101808
+⚠️ Using RSS content as fallback for: https://tech.smarthr.jp/entry/2026/11/24/101808
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-24/smarthr-11-24-101808.md
+📥 Processing: The Discipline of Hesitation
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-24/the-discipline-of-hesitation.md
+📥 Processing: The Compacting Sidebar Blues
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-24/the-compacting-sidebar-blues.md
+
+📊 Summary:
+   ✅ Success: 24
+   ❌ Errors: 0
+🏁 Done!
