@@ -1792,6 +1792,116 @@
       "outputTokens": 231,
       "audioSec": 9.2,
       "usd": 0.0014005
+    },
+    {
+      "at": "2026-11-24T09:21:38.718Z",
+      "date": "2026-11-24",
+      "episode": "2026-11-24-181124",
+      "segment": "opening",
+      "model": "gemini-3.8-flash-lite-tts",
+      "inputTokens": 41,
+      "outputTokens": 307,
+      "audioSec": 12.3,
+      "usd": 0.0018625
+    },
+    {
+      "at": "2026-11-24T09:21:51.570Z",
+      "date": "2026-11-24",
+      "episode": "2026-11-24-181124",
+      "segment": "a01",
+      "model": "gemini-3.8-flash-lite-tts",
+      "inputTokens": 258,
+      "outputTokens": 1988,
+      "audioSec": 79.5,
+      "usd": 0.012057
+    },
+    {
+      "at": "2026-11-24T09:22:04.513Z",
+      "date": "2026-11-24",
+      "episode": "2026-11-24-181124",
+      "segment": "a02",
+      "model": "gemini-3.8-flash-lite-tts",
+      "inputTokens": 236,
+      "outputTokens": 1854,
+      "audioSec": 74.2,
+      "usd": 0.011242
+    },
+    {
+      "at": "2026-11-24T09:22:17.825Z",
+      "date": "2026-11-24",
+      "episode": "2026-11-24-181124",
+      "segment": "a03",
+      "model": "gemini-3.8-flash-lite-tts",
+      "inputTokens": 261,
+      "outputTokens": 1974,
+      "audioSec": 79,
+      "usd": 0.0119745
+    },
+    {
+      "at": "2026-11-24T09:22:31.246Z",
+      "date": "2026-11-24",
+      "episode": "2026-11-24-181124",
+      "segment": "a04",
+      "model": "gemini-3.8-flash-lite-tts",
+      "inputTokens": 245,
+      "outputTokens": 1937,
+      "audioSec": 77.5,
+      "usd": 0.0117445
+    },
+    {
+      "at": "2026-11-24T09:22:45.016Z",
+      "date": "2026-11-24",
+      "episode": "2026-11-24-181124",
+      "segment": "a05",
+      "model": "gemini-3.8-flash-lite-tts",
+      "inputTokens": 255,
+      "outputTokens": 1957,
+      "audioSec": 78.3,
+      "usd": 0.0118695
+    },
+    {
+      "at": "2026-11-24T09:22:57.461Z",
+      "date": "2026-11-24",
+      "episode": "2026-11-24-181124",
+      "segment": "a06",
+      "model": "gemini-3.8-flash-lite-tts",
+      "inputTokens": 190,
+      "outputTokens": 1457,
+      "audioSec": 58.3,
+      "usd": 0.008837
+    },
+    {
+      "at": "2026-11-24T09:23:11.486Z",
+      "date": "2026-11-24",
+      "episode": "2026-11-24-181124",
+      "segment": "a07",
+      "model": "gemini-3.8-flash-lite-tts",
+      "inputTokens": 219,
+      "outputTokens": 1695,
+      "audioSec": 67.8,
+      "usd": 0.0102795
+    },
+    {
+      "at": "2026-11-24T09:23:23.647Z",
+      "date": "2026-11-24",
+      "episode": "2026-11-24-181124",
+      "segment": "a08",
+      "model": "gemini-3.8-flash-lite-tts",
+      "inputTokens": 218,
+      "outputTokens": 1706,
+      "audioSec": 68.2,
+      "usd": 0.010345
+    },
+    {
+      "at": "2026-11-24T09:23:28.943Z",
+      "date": "2026-11-24",
+      "episode": "2026-11-24-181124",
+      "segment": "ending",
+      "model": "gemini-3.8-flash-lite-tts",
+      "inputTokens": 28,
+      "outputTokens": 204,
+      "audioSec": 8.2,
+      "usd": 0.001238
     }
   ]
 }
