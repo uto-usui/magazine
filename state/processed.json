@@ -39251,7 +39251,103 @@
     "https://developers.cyberagent.co.jp/blog/archives/67518/": {
       "contentHash": "6e2db18320faf4f6dbee530a974764f8a7b62abe2851e7710bd9ebd4bc2a8522",
       "processedAt": "2026-11-21T06:04:40.255Z"
+    },
+    "https://a11yweekly.com/issue/527/": {
+      "contentHash": "a32f6a2e203f577b63e8dd9629b40f5479362f7a4733f1460986b1de0b247fe3",
+      "processedAt": "2026-11-24T08:57:00.571Z"
+    },
+    "https://medium.com/design-bootcamp/are-we-actually-building-better-things-the-great-software-bazaar-c2494d208934": {
+      "contentHash": "7f1846a85d4cd4a6ee29bf1025ac5b8eef39829da2243ee6178788df5587b039",
+      "processedAt": "2026-11-24T08:57:06.000Z"
+    },
+    "https://www.chimera.audio/": {
+      "contentHash": "95becee0a2ad0461a2403eff13fbb1dfe957e2d38e0cc15daa7735276a3fbdc9",
+      "processedAt": "2026-11-24T08:57:11.061Z"
+    },
+    "https://pierre.computer/writing/on-drawing-icons": {
+      "contentHash": "cdd955733c66247391e948eb95b3fce4681701bfb3d77b07854aaf9c6fca7727",
+      "processedAt": "2026-11-24T08:57:12.438Z"
+    },
+    "https://ui-feed.dev/": {
+      "contentHash": "ffebf992a0c6fa27677f007f025d0161da8b89fd2e884cbe1ebc903abba9fd93",
+      "processedAt": "2026-11-24T08:57:13.578Z"
+    },
+    "https://www.davesresearch.com/strategic-building-blocks/": {
+      "contentHash": "2dabab12e6cbfe2fe99aefce437ea83337a7373f92b3d1403dbd758d8563c585",
+      "processedAt": "2026-11-24T08:57:14.188Z"
+    },
+    "https://bit.ly/side-ivy1": {
+      "contentHash": "e375761e56d379a3d34d0b37e919987e2b6230745b5f232033bf44054828ffc6",
+      "processedAt": "2026-11-24T08:57:16.357Z"
+    },
+    "https://jakub.kr/writing/the-era-of-personal-software": {
+      "contentHash": "effbad7b45f058188507dee1945e9fb4c16908ea55c829744a493c66f8eb6550",
+      "processedAt": "2026-11-24T08:57:17.461Z"
+    },
+    "https://naildrivin5.com/blog/2026/11/18/the-answer-to-slop-is-accountability.html": {
+      "contentHash": "037e50e5c6c5f3acdf620579067f1bc1dafbc8831dd2969807f4d88eaa76a630",
+      "processedAt": "2026-11-24T08:57:17.996Z"
+    },
+    "https://www.youtube.com/watch?v=H43e72-2aAs": {
+      "contentHash": "9f744d152eca78f2a92b1a8837585a7430b97cd0b95bd90a84b056fc16a95d55",
+      "processedAt": "2026-11-24T08:57:26.502Z"
+    },
+    "https://noscript.ing/compute": {
+      "contentHash": "050230d03d098e7b2f4af2263b4f01300f877b270429679ab3e1db9d7dd95f57",
+      "processedAt": "2026-11-24T08:57:27.299Z"
+    },
+    "https://ics.media/entry/261119/": {
+      "contentHash": "8affb322ccbf3fcd92181f9f14d7bb2e709e6aaf49ec216b524be94dc2928cd0",
+      "processedAt": "2026-11-24T08:57:28.645Z"
+    },
+    "https://css-tricks.com/using-frontend-fallbacks/": {
+      "contentHash": "a50a33d218864a9eab5b56469e1e57cb96dfd806e48644b9b690ab0a6a9ec131",
+      "processedAt": "2026-11-24T08:57:28.902Z"
+    },
+    "https://css-tricks.com/dev-material-archive/": {
+      "contentHash": "7e42ccabc6dd3e05543c09990755ee5d6ceea0a9e530e275868e3f2ccf4d22fa",
+      "processedAt": "2026-11-24T08:57:29.135Z"
+    },
+    "https://piccalil.li/links/black-friday-2026-is-live/": {
+      "contentHash": "8ce68f54ca3f39255e1964236505a469dd9a889ab16dbbc480be08fc55be6756",
+      "processedAt": "2026-11-24T08:57:29.940Z"
+    },
+    "https://vercel.com/blog/kazunari-hanao-joins-vercel-as-country-manager-japan": {
+      "contentHash": "32417e58c913ba8c1166bad1ee5940e8d08ed0aa577b226ace13c15089422271",
+      "processedAt": "2026-11-24T08:57:30.637Z"
+    },
+    "https://vercel.com/blog/ja-kazunari-hanao-joins-vercel-as-country-manager-japan": {
+      "contentHash": "4e372a49603e610821e0c600c4bcf557c75b497a5f7dc24401484194da8756f3",
+      "processedAt": "2026-11-24T08:57:31.032Z"
+    },
+    "https://vercel.com/blog/introducing-audited-zdr-on-ai-gateway": {
+      "contentHash": "9e81dfbd772c75aac7c89908b9477cc5652f94d7ac3bc224be37518409234763",
+      "processedAt": "2026-11-24T08:57:31.372Z"
+    },
+    "https://stripe.com/blog/custom-software-specialized-workflows-and-other-new-growth-paths-from-saas-platform-summit": {
+      "contentHash": "df7f59dc4780e171a049235a72a6ec29ec72035b723c9b36acfb94ddf3f9a00c",
+      "processedAt": "2026-11-24T08:57:31.989Z"
+    },
+    "https://efcl.info/2026/11/24/textlint-performance/": {
+      "contentHash": "7ef88979c659c0cc0bb1d6e0918a728fdc3e4f8d23a52373558f6eda73ad2926",
+      "processedAt": "2026-11-24T08:57:32.726Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/24/160000": {
+      "contentHash": "6ad0d2cf99c8b56eb8107b979d8b305de4252144e45d8ce494743877f4b7b6dd",
+      "processedAt": "2026-11-24T08:57:33.483Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/24/101808": {
+      "contentHash": "aa9bf5330300a5147684ad901f02ee040b85b84d2342c1b84cd285e86dcae019",
+      "processedAt": "2026-11-24T08:57:37.999Z"
+    },
+    "https://newsletter.uxdesign.cc/p/the-discipline-of-hesitation": {
+      "contentHash": "828a9b06cf6f8d09acfe30db8934bf56aded9750013f4ee604ace00a251af3d2",
+      "processedAt": "2026-11-24T08:57:38.362Z"
+    },
+    "https://blog.master.dev/the-compacting-sidebar-blues/": {
+      "contentHash": "b15e379089ad9dea97764ba206596833adce8d2b90110e53fb8ed693dba35bca",
+      "processedAt": "2026-11-24T08:57:38.864Z"
     }
   },
-  "lastRun": "2026-11-21T06:04:40.255Z"
+  "lastRun": "2026-11-24T08:57:38.865Z"
 }
