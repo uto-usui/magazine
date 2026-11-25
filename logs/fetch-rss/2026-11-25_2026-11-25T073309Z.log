@@ -1,0 +1,48 @@
+articles_dir=2026-11-25
+exit_code=0
+timestamp_utc=2026-11-25T07:33:09Z
+
+---- issue lines ----
+8:Failed to fetch feed Mercari Engineering: Status code 503
+9:Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 75 feeds
+📡 Fetching RSS feeds...
+Failed to fetch feed Mercari Engineering: Status code 503
+Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+Line: 32
+Column: 246
+Char: =
+📰 Found 5216 total articles
+✨ New articles: 7
+🗓️ Skipped (published more than 30 days ago): 369
+⏭️ Skipped (already processed): 528
+📥 Processing: The Pragmatic Engineer Essay Challenge: Category Winners (Part 1)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-25/the-pragmatic-engineer-essay-challenge-category-winners-part-1.md
+📥 Processing: Community matters more than ever
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-25/community-matters-more-than-ever.md
+📥 Processing: The Figma agent is now available in FigJam and Slides
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-25/the-figma-agent-is-now-available-in-figjam-and-slides.md
+📥 Processing: 「サイバーセキュリティ緊急対策パッケージ」の中身
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-25/jxck-entries-2026-11-19-cyber-security-emergency-package-html.md
+📥 Processing: 「能動的サイバー防御」と「サイバー対処能力強化法」は何であって・何でないか
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-25/jxck-entries-2026-11-18-active-cyber-defense-html.md
+📥 Processing: JSConf JP 2026にプレミアムスポンサーとして参加しました #jsconfjp
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.layerx.co.jp/entry/jsconf-jp-2026
+✅ Playwright successfully fetched: https://tech.layerx.co.jp/entry/jsconf-jp-2026
+⚠️ Content too short (22 chars < 200): https://tech.layerx.co.jp/entry/jsconf-jp-2026
+⚠️ Using RSS content as fallback for: https://tech.layerx.co.jp/entry/jsconf-jp-2026
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-25/jsconf-jp-2026-jsconfjp.md
+📥 Processing: Ladybird Alpha
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-25/ladybird-alpha.md
+
+📊 Summary:
+   ✅ Success: 7
+   ❌ Errors: 0
+🏁 Done!
