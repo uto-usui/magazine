@@ -39347,7 +39347,35 @@
     "https://blog.master.dev/the-compacting-sidebar-blues/": {
       "contentHash": "b15e379089ad9dea97764ba206596833adce8d2b90110e53fb8ed693dba35bca",
       "processedAt": "2026-11-24T08:57:38.864Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-essay-challenge": {
+      "contentHash": "1de3faffad3104cbb0a6a408f9efa4e92ec478fabf90e4d8d4c244a88ac34cd0",
+      "processedAt": "2026-11-25T07:33:01.680Z"
+    },
+    "https://bradfrost.com/blog/post/navigating-this-moment-together/": {
+      "contentHash": "25bcc5537a6525f2ca4b96f557baab9054d37e860aeed753f5a9c6384e53e545",
+      "processedAt": "2026-11-25T07:33:02.154Z"
+    },
+    "https://www.figma.com/blog/introducing-figma-agent-in-figjam-and-slides/": {
+      "contentHash": "259044bc43ca298900c08188eef0cdfcceafd9b8993613a34e6b52fd06766fb8",
+      "processedAt": "2026-11-25T07:33:03.416Z"
+    },
+    "https://blog.jxck.io/entries/2026-11-19/cyber-security-emergency-package.html": {
+      "contentHash": "1acc397fa98159051b3fe9640dec6a4cd3e7cb75f0b276e1dbe003ec4117ea69",
+      "processedAt": "2026-11-25T07:33:04.117Z"
+    },
+    "https://blog.jxck.io/entries/2026-11-18/active-cyber-defense.html": {
+      "contentHash": "b1609e388dd895f382ef6a1703437e67b07784b6ded9883dbdaca12a9251626d",
+      "processedAt": "2026-11-25T07:33:04.823Z"
+    },
+    "https://tech.layerx.co.jp/entry/jsconf-jp-2026": {
+      "contentHash": "2d121f54f353bf8b3d269300c7ffca244b56dae2249857e10650afdd69e512a3",
+      "processedAt": "2026-11-25T07:33:09.435Z"
+    },
+    "https://blog.master.dev/ladybird-alpha/": {
+      "contentHash": "01b6a24a51e8f9504c970d2783e56ebddd92bc71483910300369867f21561965",
+      "processedAt": "2026-11-25T07:33:09.606Z"
     }
   },
-  "lastRun": "2026-11-24T08:57:38.865Z"
+  "lastRun": "2026-11-25T07:33:09.606Z"
 }
