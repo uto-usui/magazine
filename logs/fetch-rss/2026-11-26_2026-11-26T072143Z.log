@@ -1,0 +1,59 @@
+articles_dir=2026-11-26
+exit_code=0
+timestamp_utc=2026-11-26T07:21:43Z
+
+---- issue lines ----
+9:Failed to fetch feed Mercari Engineering: Status code 503
+10:Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-26/generative-loaders.md
+📥 Processing: The Slopnami is an accessibility problem
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-26/the-slopnami-is-an-accessibility-problem.md
+📥 Processing: How Anthropic builds software in 2026 with Katelyn Lesse
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-26/how-anthropic-builds-software-in-2026-with-katelyn-lesse.md
+📥 Processing: The Pragmatic Engineer Essay Challenge: Category Winners (Part 1)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-26/the-pragmatic-engineer-essay-challenge-category-winners-part-1.md
+📥 Processing: ❂ PSYCHOSCRᚺᛊᛞ
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-26/psychoscr.md
+📥 Processing: Community matters more than ever
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-26/community-matters-more-than-ever.md
+📥 Processing: RSS Club: Preview Art-Directed Scrollytelling Article
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-26/rss-club-preview-art-directed-scrollytelling-article.md
+📥 Processing: Style Queries as Conditional Modifiers
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-26/style-queries-as-conditional-modifiers.md
+📥 Processing: As the credits roll on the AI industry, now is the time re-evaluate its use in your organisation
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-26/as-the-credits-roll-on-the-ai-industry-now-is-the-time-re-evaluate-its-use-in-your-organisation.md
+📥 Processing: How Cozey turns its operators into software builders on Vercel
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-26/how-cozey-turns-its-operators-into-software-builders-on-vercel.md
+📥 Processing: The Figma agent is now available in FigJam and Slides
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-26/the-figma-agent-is-now-available-in-figjam-and-slides.md
+📥 Processing: The things you can now do directly in the browser
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-26/the-things-you-can-now-do-directly-in-the-browser.md
+📥 Processing: タイムズはどうすべきだったのか、JPKI を用いた eKYC の今後
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-26/jpki-ekyc.md
+📥 Processing: 「サイバーセキュリティ緊急対策パッケージ」の中身
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-26/jxck-entries-2026-11-19-cyber-security-emergency-package-html.md
+📥 Processing: 「能動的サイバー防御」と「サイバー対処能力強化法」は何であって・何でないか
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-26/jxck-entries-2026-11-18-active-cyber-defense-html.md
+📥 Processing: AIが速く作っても人の待ちが残っていた —— 開発プロセス全体で減らした合意と、残した確認
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.smarthr.jp/entry/2026/11/25/182704
+✅ Playwright successfully fetched: https://tech.smarthr.jp/entry/2026/11/25/182704
+⚠️ Content too short (22 chars < 200): https://tech.smarthr.jp/entry/2026/11/25/182704
+⚠️ Using RSS content as fallback for: https://tech.smarthr.jp/entry/2026/11/25/182704
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-26/ai.md
+📥 Processing: JSConf JP 2026にプレミアムスポンサーとして参加しました #jsconfjp
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-26/jsconf-jp-2026-jsconfjp.md
+📥 Processing: Food Delivery & Takeout Quantitative UX: 3 High-Level Takeaways from 40+ Charts 
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-26/food-delivery-takeout-quantitative-ux-3-high-level-takeaways-from-40-charts.md
+📥 Processing: This Week In React #307: Security, React Router, Next.js, TanStack Query, RTL, RTK, Styled Components, Talata, Pierre | Reanimated, Worklets, Expo, Skia, WebGPU, Unistyles, Legend List | TC39, Node.js, Parcel, Firefox, webpack, Nudeps
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-26/this-week-in-react-307-security-react-router-nextjs-tanstack-query-rtl-rtk-styled-components-talata-.md
+📥 Processing: Motion Design with CSS Anchors
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-26/motion-design-with-css-anchors.md
+📥 Processing: Ladybird Alpha
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-26/ladybird-alpha.md
+
+📊 Summary:
+   ✅ Success: 25
+   ❌ Errors: 0
+🏁 Done!
