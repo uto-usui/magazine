@@ -1,0 +1,26 @@
+url	feed	lang	A	B	C	D	total	selected	note
+https://www.soren.work/writing/the-slopnami-is-an-accessibility-problem/	Sidebar	en	2	2	2	2	8	yes	AI 生成物とアクセシビリティ。WebAIM Million 2026 の数字と研究の引用あり
+https://mattstromawn.com/writing/mirror-mode/	Sidebar	en	2	2	1	2	7	yes	デザイナーが本番のコピーのブランチで作業する方法。書き手の実務の経験から
+https://csswizardry.com/2026/11/web-perf-wednesday-019-firefox-ships-dictionary-compression/	CSS Wizardry	en	1	2	2	2	7	yes	週刊だが書き手自身の解説なのでダイジェスト扱いにしない。表示速度の話なので A=1
+https://blog.jxck.io/entries/2026-11-25/ekyc-over-jpki.html	blog.jxck.io	ja	1	2	2	2	7	yes	eKYC と登録フォームで集める情報の見直し。法令の話が中心なので A=1
+https://tech.smarthr.jp/entry/2026/11/25/182704	SmartHR Tech Blog	ja	1	2	2	1	6	yes	AI との働き方（開発プロセス）なので A=1。取得時に注記が付いたが本文は最後まで取れている
+https://feeds.baymard.com/link/9825/17540170/food-delivery-and-takeout-quantitative-ux-insights-2026	Baymard Institute	en	1	2	2	1	6	yes	ユーザーリサーチ。1,113 人の調査
+https://css-tricks.com/css-style-queries-as-conditional-modifiers/	css-tricks	en	1	2	1	2	6	yes	部品の設計に関わるが CSS の機能の解説が中心なので迷って A=1
+https://blog.master.dev/motion-design-with-css-anchors/	Frontend Masters Blog	en	1	2	1	2	6	yes
+https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in	The Pragmatic Engineer	en	1	1	2	2	6	yes	AI との働き方なので A=1。Rust の書き直しはバックエンドの話
+https://the-brandidentity.com/project/studio-kiln-designs-an-identity-for-reset-that-adapts-like-its-app	Sidebar	en	1	1	1	1	4	yes	ブランドとモーションの制作事例
+https://piccalil.li/blog/as-the-credits-roll/	Piccalilli	en	0	1	0	1	2	no	AI の義務化を見直すよう経営層に勧める意見。組織論なので A=0
+https://blog.jxck.io/entries/2026-11-18/active-cyber-defense.html	blog.jxck.io	ja	0	1	2	2	5	no	法制度の解説。A=0
+https://blog.jxck.io/entries/2026-11-19/cyber-security-emergency-package.html	blog.jxck.io	ja	0	1	2	2	5	no	政府の対策パッケージの解説。A=0
+https://bradfrost.com/blog/post/navigating-this-moment-together/	Brad Frost	en	-	-	-	-	-	no	足切り: 講座のセールの告知
+https://tech.layerx.co.jp/entry/jsconf-jp-2026	LayerX エンジニアブログ	ja	-	-	-	-	-	no	足切り: スポンサー参加の報告。登壇は数行ずつの紹介。ariaNotify の LT: https://kazhiro999.github.io/jsconf-arianotify/#/1
+https://vercel.com/blog/how-cozey-turns-its-operators-into-software-builders-on-vercel	Vercel	en	-	-	-	-	-	no	足切り: 製品の導入事例（宣伝）
+https://www.figma.com/blog/introducing-figma-agent-in-figjam-and-slides/	Figma Blog	en	-	-	-	-	-	no	足切り: 新機能の紹介
+https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-essay-challenge	The Pragmatic Engineer	en	-	-	-	-	-	no	足切り: 受賞エッセイの要約集（ダイジェスト）
+https://frontendfoc.us/issues/768	Frontend Focus	en	-	-	-	-	-	no	足切り: ダイジェスト号。気になる一次記事: https://github.com/luruke/browser-2027 https://lea.verou.me/blog/2026/nudeps/
+https://thisweekinreact.com/newsletter/307	This Week In React	en	-	-	-	-	-	no	足切り: ダイジェスト号
+https://blog.master.dev/ladybird-alpha/	Frontend Masters Blog	en	-	-	-	-	-	no	足切り: 本文が数行
+https://generativeloaders.com/	Sidebar	en	-	-	-	-	-	no	足切り: 本文が取れていない（ローダーの名前の一覧だけ）
+https://bradfrost.com/links/post/psychoscr/	Brad Frost	en	-	-	-	-	-	no	足切り: 本文が取れていない
+https://css-tricks.com/rss-club-preview-art-directed-scrollytelling-article/	css-tricks	en	-	-	-	-	-	no	足切り: 本文が数行の予告
+https://uxdesign.cc/the-attack-of-the-giant-ai-design-slop-monster-a-survivors-guide-55f5918f78f4	Sidebar	en	-	-	-	-	-	no	足切り: 本文が取れていない
