@@ -9,13 +9,12 @@ export const SHOW_NAME = 'UXエンジニアリング・マガジン'
 
 /**
  * ミュージックに入れるときの ID3 タグ。アルバムを番組 1 つにまとめ、トラック番号に通し番号を入れて号の順に並べる。
- * 曲名に年が入らないので、年をまたいだ順はトラック番号で決まる
+ * 曲名は桁が固定の日付から始め、「曲」一覧を名前順にしても年をまたいで号の順に並ぶようにする
  */
 export function musicTags(episode: string, issueNo: number | null, releaseUrl?: string): Record<string, string> {
-  const [, month, day] = episode.slice(0, 10).split('-').map(Number)
-  const no = issueNo === null ? '' : `（No.${issueNo}）`
+  const date = episode.slice(0, 10).replaceAll('-', '.')
   return {
-    title: `${month}月${day}日号${no}`,
+    title: issueNo === null ? date : `${date} No.${issueNo}`,
     artist: SHOW_NAME,
     album_artist: SHOW_NAME,
     album: SHOW_NAME,
