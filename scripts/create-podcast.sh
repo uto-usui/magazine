@@ -9,6 +9,7 @@
 # 1. claude -p で台本・音声・カバー画像を作る（/create-podcast --content-only）
 # 2. 動画と Show Notes を作り、台本・Show Notes・使用額をコミットして push する
 # 3. 号の Release を作って MP3・カバー画像・MP4 を置き、「X に投稿できます」と通知する
+# 4. MP3 にタグとカバー画像を付けてミュージック（Music.app）に入れる
 #
 # Release は push のあとに作る。タグを台本のコミットに付けるため。
 # ここで失敗しても、ニュースレターはすでに push 済みなので影響しない。
@@ -79,3 +80,7 @@ RELEASE_URL=$(echo "$OUT" | grep -oE 'https://github.com/[^ ]+/releases/tag/[^ ]
 TITLE=$(echo "$OUT" | grep -m1 -oE 'UXエンジニアリング・マガジン [0-9]+月[0-9]+日号(（No\.[0-9]+）)?')
 
 notify "Podcast 📣 投稿できます" "${TITLE}: Release の本文と動画で X に投稿してください ${RELEASE_URL}"
+
+# 投稿の通知のあとに回す。ここで止まっても X への投稿には響かない
+STEP="ミュージックに入れる"
+pnpm run podcast:music "$SCRIPT"
