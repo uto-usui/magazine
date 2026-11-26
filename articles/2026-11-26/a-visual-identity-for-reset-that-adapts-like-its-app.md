@@ -1,0 +1,28 @@
+---
+title: "A visual identity for Reset that adapts like its app"
+source: "https://the-brandidentity.com/project/studio-kiln-designs-an-identity-for-reset-that-adapts-like-its-app"
+publishedDate: "2026-11-25"
+category: "design"
+feedName: "Sidebar"
+fetchedBy: "playwright"
+---
+
+## [Reset](https://www.reset.com/) is a weight-loss app for people who would rather not count every calorie. A 30-second face scan, read alongside a person’s answers about their habits and where they have struggled to lose weight, places them in one of five Reset types. Ester, Reset’s guide inside the app, then asks questions, learns from the answers and builds a person’s meals around that type – taking the effort out of deciding what and when to eat.
+
+Before its rebrand, Reset had grown mainly through performance marketing, and its website and app “felt dated and conventional for the category,” CEO Bryan Cartwright tells us. The company asked British design agency [Studio Kiln](https://t-bi.link/studio-kiln) to “turn a functional weight-loss business into a brand people could genuinely connect with” and to give it “the sensibility of a lifestyle brand that understands design, culture and how people live.” Reset’s team had already defined the brand’s beliefs, character and emotional territory, and wanted to give the studio that strategic foundation “without prescribing the solution,” Cartwright adds. Studio Kiln developed Ester as the character at the centre of an identity that is live on Reset’s website and in its iOS and Android apps.
+
+“The product is defined by its ability to adapt, so the brand had to carry that same quality,” explains Studio Kiln’s Designer Edoardo Albertini. Some people want reassurance and others prefer practical advice, so the studio explored how Ester could respond to each of them. “Reset was about letting the little things go: giving people the freedom to live life as it comes, knowing they can always reset to the beginning,” Designer Archie Paxton notes. That thinking led to an idea that he explains through a Rubik’s Cube, where “things can revolve and twist into a complicated mess, but Reset lets them be pulled back into a simpler structure.” The idea became the starting point for building Ester from blocks that revolve, shift and rearrange, and the blocks let Ester express emotions and states through change. Studio Kiln kept Ester abstract and free from human expressions, leaving room for people to recognise their own feelings in the character.
+
+Ester’s blocks come in three shapes that together form an ‘R.’ “On their own, they are simple and flexible; together, they unlock an expressive range far greater than the sum of their parts, giving Ester a vocabulary of poses, moods and gestures to react, celebrate and encourage alongside you,” Albertini details. The blocks cascade and shuffle to show the uncertainty, encouragement and small victories that come with losing weight. “Ester’s motion was built to champion feeling rather than the literal. We used metaphor to allude to phrases and feelings that create a smile-in-the-mind moment and bring out more of Ester’s personality, while keeping the character out of the uncanny valley,” Paxton explains.
+
+The hero typeface is Type Department’s geometric sans Arkive, whose letterforms feel assembled, much like Ester’s blocks. It keeps the app clear, from onboarding flows to daily check-ins, alongside Matter of Sorts’ Quadrant, with its soft shapes and characterful serifs, for headlines, encouragement and small moments worth celebrating. “The pairing mirrors Ester’s role: steady enough to trust, warm enough to feel like company,” Albertini notes. The wordmark is drawn in Arkive too, with its letterforms reworked around a more modular construction, with geometric strokes and squared terminals that follow the shapes of Ester’s blocks. The wordmark is deliberately restrained, leaving Ester as the identity’s central point of expression. “Where Ester revolves and rearranges freely, the wordmark moves with greater control, its individual elements slotting gently into place,” he adds.
+
+ 
+
+“We wanted Ester to feel like a companion woven into the experience, rather than something users have to open in a chat window,” explains Designer Claudia Aggett. Ester appears throughout the app, from the welcome moment to the dashboard, daily guidance and nudges. The character’s appearance and behaviour can shift with a person’s mood, activity and rhythm, but the interface still has to keep the clarity and scientific grounding that a useful product needs. “We didn’t want copywriting to be the only way to show how Ester adapts. We embedded adaptability throughout the Reset identity, starting with Ester’s block-built anatomy and the motion system and body language it makes possible,” she continues.
+
+Like Ester, the tone of voice is modular, written in short, snappy lines that are clear and honest. “Weight loss is a noisy space, with many brands shouting or overcomplicating an already overwhelming experience. From the start, we wanted Reset to do the opposite: say less and mean it,” Designer Meg Mardon tells us. “Directness doesn’t mean sounding the same all the time, though. We defined four sides of Ester’s tone: Protective, which helps people feel safe enough to be honest; Explanative, which makes things easier to understand; Intentional, which gives people space to listen to their intuition; and Gossipy, which puts someone’s experience in context so they know they’re not alone,” she concludes.
+
+[Studio Kiln](https://t-bi.link/studio-kiln)
+
+[Reset](https://www.reset.com/)
