@@ -39347,7 +39347,107 @@
     "https://blog.master.dev/the-compacting-sidebar-blues/": {
       "contentHash": "b15e379089ad9dea97764ba206596833adce8d2b90110e53fb8ed693dba35bca",
       "processedAt": "2026-11-24T08:57:38.864Z"
+    },
+    "https://csswizardry.com/2026/11/web-perf-wednesday-019-firefox-ships-dictionary-compression/": {
+      "contentHash": "7da069024ffa02e44299729dfbf06512f8639600aeda08ace5cd8e72165d7f30",
+      "processedAt": "2026-11-26T07:21:14.363Z"
+    },
+    "https://mattstromawn.com/writing/mirror-mode/": {
+      "contentHash": "42cbdd9fd304925e0fa58a2780e7aeb468d4618a2dcf782bd4803c698108a8eb",
+      "processedAt": "2026-11-26T07:21:14.684Z"
+    },
+    "https://the-brandidentity.com/project/studio-kiln-designs-an-identity-for-reset-that-adapts-like-its-app": {
+      "contentHash": "fb29755256912ea7b60f9183eeea48e61e2489ee6320668d3cae0f5533ff0a27",
+      "processedAt": "2026-11-26T07:21:21.853Z"
+    },
+    "https://uxdesign.cc/the-attack-of-the-giant-ai-design-slop-monster-a-survivors-guide-55f5918f78f4": {
+      "contentHash": "d5e288ae32c9c84ee435f56d34186b554336d9f8b331810b92e55572f2aef9fc",
+      "processedAt": "2026-11-26T07:21:26.299Z"
+    },
+    "https://generativeloaders.com/": {
+      "contentHash": "90a7b5b2db341f4379faebda33c42c01217f3aa0ebd83e4a7799476fcb542168",
+      "processedAt": "2026-11-26T07:21:26.976Z"
+    },
+    "https://www.soren.work/writing/the-slopnami-is-an-accessibility-problem/": {
+      "contentHash": "0ee2b16fe5670f6f5a06df4d8ebb82c693ac6abcfbddb77742d6141616d60677",
+      "processedAt": "2026-11-26T07:21:27.180Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in": {
+      "contentHash": "44ad7aae1365095cad0270ec84d3ca9423dceee3683beb23315c5d5de4790401",
+      "processedAt": "2026-11-26T07:21:27.505Z"
+    },
+    "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-essay-challenge": {
+      "contentHash": "1de3faffad3104cbb0a6a408f9efa4e92ec478fabf90e4d8d4c244a88ac34cd0",
+      "processedAt": "2026-11-26T07:21:27.830Z"
+    },
+    "https://bradfrost.com/links/post/psychoscr/": {
+      "contentHash": "8d5b1703f000f80625a32734336b6afad9ce5ac3e55f0d69dc4e1a08a48b6414",
+      "processedAt": "2026-11-26T07:21:28.179Z"
+    },
+    "https://bradfrost.com/blog/post/navigating-this-moment-together/": {
+      "contentHash": "25bcc5537a6525f2ca4b96f557baab9054d37e860aeed753f5a9c6384e53e545",
+      "processedAt": "2026-11-26T07:21:28.470Z"
+    },
+    "https://css-tricks.com/rss-club-preview-art-directed-scrollytelling-article/": {
+      "contentHash": "c03b9903944c6cf39fa535fb516517a16bee8cb95b07972b85f43852f9902926",
+      "processedAt": "2026-11-26T07:21:28.737Z"
+    },
+    "https://css-tricks.com/css-style-queries-as-conditional-modifiers/": {
+      "contentHash": "e238fcf1ed19ece6780629db12340618e0ec8ffad8e19e74cdb4b8162935573a",
+      "processedAt": "2026-11-26T07:21:28.983Z"
+    },
+    "https://piccalil.li/blog/as-the-credits-roll/": {
+      "contentHash": "4881a4fc1718f39a6cdcb3ba1c3e5802201c0aefbb48c4fe1f667960456a8722",
+      "processedAt": "2026-11-26T07:21:29.809Z"
+    },
+    "https://vercel.com/blog/how-cozey-turns-its-operators-into-software-builders-on-vercel": {
+      "contentHash": "dddb87fd1eb6800a4a797a5cdd088c810d1ef5add2dd25386e4385fc986e9972",
+      "processedAt": "2026-11-26T07:21:30.370Z"
+    },
+    "https://www.figma.com/blog/introducing-figma-agent-in-figjam-and-slides/": {
+      "contentHash": "259044bc43ca298900c08188eef0cdfcceafd9b8993613a34e6b52fd06766fb8",
+      "processedAt": "2026-11-26T07:21:31.626Z"
+    },
+    "https://frontendfoc.us/issues/768": {
+      "contentHash": "53559c7fd005a5289cf2843aa9c0ed5f5ade3cdb2bb65aae14c80a0d411a8f09",
+      "processedAt": "2026-11-26T07:21:32.235Z"
+    },
+    "https://blog.jxck.io/entries/2026-11-25/ekyc-over-jpki.html": {
+      "contentHash": "7f76c3a21e4872ca01c6ec7ce07b1883c14c8b8e86c57df70b5b4a2a0d8cc785",
+      "processedAt": "2026-11-26T07:21:34.165Z"
+    },
+    "https://blog.jxck.io/entries/2026-11-19/cyber-security-emergency-package.html": {
+      "contentHash": "1acc397fa98159051b3fe9640dec6a4cd3e7cb75f0b276e1dbe003ec4117ea69",
+      "processedAt": "2026-11-26T07:21:34.552Z"
+    },
+    "https://blog.jxck.io/entries/2026-11-18/active-cyber-defense.html": {
+      "contentHash": "b1609e388dd895f382ef6a1703437e67b07784b6ded9883dbdaca12a9251626d",
+      "processedAt": "2026-11-26T07:21:35.290Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/25/182704": {
+      "contentHash": "8a6cd2ec13731d647a382bbdd171036159cd3d76f6aa23baf1680d6dd29cf180",
+      "processedAt": "2026-11-26T07:21:40.102Z"
+    },
+    "https://tech.layerx.co.jp/entry/jsconf-jp-2026": {
+      "contentHash": "2d121f54f353bf8b3d269300c7ffca244b56dae2249857e10650afdd69e512a3",
+      "processedAt": "2026-11-26T07:21:41.149Z"
+    },
+    "https://feeds.baymard.com/link/9825/17540170/food-delivery-and-takeout-quantitative-ux-insights-2026": {
+      "contentHash": "7a92e015ca3fa84611f1b41962370f329700df3de2626f3104c6c0d9adbad606",
+      "processedAt": "2026-11-26T07:21:42.160Z"
+    },
+    "https://thisweekinreact.com/newsletter/307": {
+      "contentHash": "5c8d236349ac384c01b93abcb1356d543914b8529a270bae9983c12ac5391a70",
+      "processedAt": "2026-11-26T07:21:42.526Z"
+    },
+    "https://blog.master.dev/motion-design-with-css-anchors/": {
+      "contentHash": "40a93b3ad4fae984438ca23ed1e80d2e8478e258552428d9faf9c3ed5d2a5602",
+      "processedAt": "2026-11-26T07:21:42.728Z"
+    },
+    "https://blog.master.dev/ladybird-alpha/": {
+      "contentHash": "01b6a24a51e8f9504c970d2783e56ebddd92bc71483910300369867f21561965",
+      "processedAt": "2026-11-26T07:21:43.374Z"
     }
   },
-  "lastRun": "2026-11-24T08:57:38.865Z"
+  "lastRun": "2026-11-26T07:21:43.374Z"
 }
