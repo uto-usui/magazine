@@ -39447,7 +39447,59 @@
     "https://blog.master.dev/ladybird-alpha/": {
       "contentHash": "01b6a24a51e8f9504c970d2783e56ebddd92bc71483910300369867f21561965",
       "processedAt": "2026-11-26T07:21:43.374Z"
+    },
+    "https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?sk=e8c664d3852c69ce41f28a0f997a2a71": {
+      "contentHash": "af4e46f236a8594c3d5ef06f243fc3975c780f97eb2325036f9d950ad57f1cc7",
+      "processedAt": "2026-11-27T07:20:26.167Z"
+    },
+    "https://mouthprint.com/e/worn-into-shape": {
+      "contentHash": "b8fce86d2e885914eb376866c4104a0c12272f1700bdda1b3b45c1e1fdf7877a",
+      "processedAt": "2026-11-27T07:20:27.512Z"
+    },
+    "https://dbushell.com/2026/11/25/web-industry/": {
+      "contentHash": "6104b20957ed7e593c4c4a61052c0978f18aa6724ad6489124665413969ad595",
+      "processedAt": "2026-11-27T07:20:27.835Z"
+    },
+    "https://veszelovszki.com/a/tpe/": {
+      "contentHash": "82f5919ba0dad9d62590977f24ecdb84ec625f4a4038c2966da5d6153b30c310",
+      "processedAt": "2026-11-27T07:20:28.230Z"
+    },
+    "https://christianoliff.com/blog/design-md-vs-code-extension/": {
+      "contentHash": "88516e6d2eb3f52231326620d709360d1ce19521f71dff7e76d502acba93b901",
+      "processedAt": "2026-11-27T07:20:28.454Z"
+    },
+    "https://blog.maximeheckel.com/posts/lighting-that-feels-just-right/": {
+      "contentHash": "2cc3e36fecc39b56acd366a73ecb4f77aeddef824e7553c6b9a903a7ac641d74",
+      "processedAt": "2026-11-27T07:20:30.210Z"
+    },
+    "https://12ft.studio/lab/": {
+      "contentHash": "b5a88848c82617b3c1b6b52848baa2dc0da3986741505a424434d6a7e4635cb2",
+      "processedAt": "2026-11-27T07:20:31.972Z"
+    },
+    "https://www.seangood.win/articles/high-fidelity-low-definition": {
+      "contentHash": "aba1f6e1b1995484dcd015f0c3cca6d9d827d738b78397a1308e6d0d72b9cf6c",
+      "processedAt": "2026-11-27T07:20:32.163Z"
+    },
+    "https://blog.ronbronson.com/forward-deployed-design-as-plumbing": {
+      "contentHash": "86b8588cdaf2de656271713cc55fdb0c43dbb9217b1028364d2fb47a0c2a5f1b",
+      "processedAt": "2026-11-27T07:20:32.597Z"
+    },
+    "https://tegaki.ink/": {
+      "contentHash": "fa007149d63970c65b83c93695cedf25fa664045fc4ce1f97f3922788898e887",
+      "processedAt": "2026-11-27T07:20:32.958Z"
+    },
+    "https://ishadeed.com/article/web-personality/": {
+      "contentHash": "bb7e82c16ee09f729c5a441005c0d17c432007f03565a77e9f3cf7f91955fa65",
+      "processedAt": "2026-11-27T07:20:33.745Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/27/120641": {
+      "contentHash": "febe570783d515f6a7ac22c97107652802d1fd0746eb769d06b3de1de91c1f9e",
+      "processedAt": "2026-11-27T07:20:34.390Z"
+    },
+    "https://glebbahmutov.com/blog/freeze-network-calls/": {
+      "contentHash": "09cd3c5213caa931ac825b7c7d4f13dd1adead72973b3e6cb311f38abc1a7d16",
+      "processedAt": "2026-11-27T07:20:35.239Z"
     }
   },
-  "lastRun": "2026-11-26T07:21:43.374Z"
+  "lastRun": "2026-11-27T07:20:35.239Z"
 }
