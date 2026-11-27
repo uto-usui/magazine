@@ -1,0 +1,58 @@
+articles_dir=2026-11-27
+exit_code=0
+timestamp_utc=2026-11-27T07:20:36Z
+
+---- issue lines ----
+8:Failed to fetch feed Mercari Engineering: Status code 503
+9:Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+
+---- tail (last 50 lines) ----
+
+> ux-eng-magazine@1.0.0 fetch-rss /home/runner/work/magazine/magazine
+> node --import tsx src/index.ts
+
+🚀 Starting RSS feed fetch...
+📋 Loaded 75 feeds
+📡 Fetching RSS feeds...
+Failed to fetch feed Mercari Engineering: Status code 503
+Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+Line: 32
+Column: 166
+Char: =
+📰 Found 5218 total articles
+✨ New articles: 13
+🗓️ Skipped (published more than 30 days ago): 368
+⏭️ Skipped (already processed): 555
+📥 Processing: The judge used to be the user
+🤖 Bot protection detected (HTTP 403), trying Playwright: https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?sk=e8c664d3852c69ce41f28a0f997a2a71
+✅ Playwright successfully fetched: https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?sk=e8c664d3852c69ce41f28a0f997a2a71
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-27/the-judge-used-to-be-the-user.md
+📥 Processing: Worn into shape
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-27/worn-into-shape.md
+📥 Processing: The year the web industry gave up
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-27/the-year-the-web-industry-gave-up.md
+📥 Processing: I’m a 100x engineer now
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-27/im-a-100x-engineer-now.md
+📥 Processing: Design.md VS Code Extension
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-27/designmd-vs-code-extension.md
+📥 Processing: Lighting that feels just right
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-27/lighting-that-feels-just-right.md
+📥 Processing: 12ft Lab
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-27/12ft-lab.md
+📥 Processing: High fidelity, low definition
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-27/high-fidelity-low-definition.md
+📥 Processing: Forward-deployed design as plumbing
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-27/forward-deployed-design-as-plumbing.md
+📥 Processing: Tegaki
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-27/tegaki.md
+📥 Processing: The web is losing its personality
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-27/the-web-is-losing-its-personality.md
+📥 Processing: SmartHRの「フロントシステム」の品質保証は、なぜ一言で語れないのか —— むずかしさに向き合う現場の取り組み
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-27/smarthr.md
+📥 Processing: Freeze And Resume Network Calls In Cypress
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-27/freeze-and-resume-network-calls-in-cypress.md
+
+📊 Summary:
+   ✅ Success: 13
+   ❌ Errors: 0
+🏁 Done!
