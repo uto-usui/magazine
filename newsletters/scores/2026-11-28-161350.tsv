@@ -1,0 +1,23 @@
+url	feed	lang	A	B	C	D	total	selected	note
+https://zenn.dev/suwash/articles/digital-agency-go-jp-2026-p9_20261127	Zenn designsystem	ja	2	2	2	1	7	yes	公式文書を突き合わせた調査なので C=2。新しい仕様ではないので D=1
+https://ishadeed.com/article/web-personality/	Ahmad Shadeed	en	2	2	1	1	6	yes	似たデザインの議論は 2015 年からあるので D=1
+https://veszelovszki.com/a/tpe/	Sidebar	en	1	2	2	1	6	yes	AI との働き方なので A=1。行数・チェック数などの数字あり
+https://blog.jxck.io/entries/2026-11-27/verifiable-credentials.html	blog.jxck.io	ja	1	2	1	2	6	yes	登録フォームで集める情報の最小化。仕組みの解説が中心なので A=1
+https://www.seangood.win/articles/high-fidelity-low-definition	Sidebar	en	1	2	1	1	5	yes	デザインの進め方の話なので A=1
+https://glebbahmutov.com/blog/freeze-network-calls/	Gleb Bahmutov	en	1	2	1	1	5	yes	フロントエンドのテスト。2 秒→96ms は手元の一例なので C=1
+https://blog.master.dev/confetti-shapes-random-a-fun-combination/	Frontend Masters Blog	en	1	1	1	2	5	yes	CSS の新機能（random()）
+https://tegaki.ink/	Sidebar	en	1	1	1	2	5	yes	ライブラリの紹介ページだが、DOM テキストに重ねる理由など設計の説明があるので採点に回した
+https://blog.maximeheckel.com/posts/lighting-that-feels-just-right/	Sidebar	en	1	2	1	1	5	yes	3D の描画。実装側に深いので A=1
+https://tech.smarthr.jp/entry/2026/11/27/120641	SmartHR Tech Blog	ja	1	1	1	1	4	yes	QA の組織づくり。取得時に注記が付いたが本文は最後まで取れている
+https://www.nngroup.com/articles/usability-testing-101/	Nielsen Norman Group	en	1	2	1	0	4	yes	入門記事なので D=0
+https://dbushell.com/2026/11/25/web-industry/	Sidebar	en	0	1	1	0	2	no	AI を推す業界への批判。具体的な仕事の場面がない業界論なので A=0
+https://blog.ronbronson.com/forward-deployed-design-as-plumbing	Sidebar	en	0	1	1	1	3	no	行政サービスとデザイナーの役割の議論。組織論なので A=0
+https://engineering.atspotify.com/2026/11/september-29-outage-incident-report-what-we-learnt/	Spotify Engineering	en	0	1	2	1	4	no	インフラの障害報告。A=0
+https://christianoliff.com/blog/design-md-vs-code-extension/	Sidebar	en	-	-	-	-	-	no	足切り: 自作の拡張機能の機能紹介だけ
+https://react.statuscode.com/issues/499	React Status	en	-	-	-	-	-	no	足切り: ダイジェスト号。気になる一次記事: https://www.gmoniava.com/blog/react-forms-beyond-onsubmit https://www.zachleat.com/web/npm-audit-report/
+https://piccalil.li/the-index/208/	Piccalilli	en	-	-	-	-	-	no	足切り: ダイジェスト号
+https://piccalil.li/links/black-friday-deals-2026/	Piccalilli	en	-	-	-	-	-	no	足切り: セールのリンク集
+https://blog.master.dev/button-sounds/	Frontend Masters Blog	en	-	-	-	-	-	no	足切り: 本文が取れていない（コメント欄だけ）
+https://12ft.studio/lab/	Sidebar	en	-	-	-	-	-	no	足切り: ツールの一覧ページ
+https://mouthprint.com/e/worn-into-shape	Sidebar	en	-	-	-	-	-	no	足切り: 展示ページで本文が数行
+https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?sk=e8c664d3852c69ce41f28a0f997a2a71	Sidebar	en	-	-	-	-	-	no	足切り: 本文が取れていない
