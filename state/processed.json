@@ -39447,7 +39447,95 @@
     "https://blog.master.dev/ladybird-alpha/": {
       "contentHash": "01b6a24a51e8f9504c970d2783e56ebddd92bc71483910300369867f21561965",
       "processedAt": "2026-11-26T07:21:43.374Z"
+    },
+    "https://engineering.atspotify.com/2026/11/september-29-outage-incident-report-what-we-learnt/": {
+      "contentHash": "42b4ee05a812d3e7f5094db865d086192a0c838ab76f265dadaa47d9a0287322",
+      "processedAt": "2026-11-28T06:52:08.814Z"
+    },
+    "https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?sk=e8c664d3852c69ce41f28a0f997a2a71": {
+      "contentHash": "af4e46f236a8594c3d5ef06f243fc3975c780f97eb2325036f9d950ad57f1cc7",
+      "processedAt": "2026-11-28T06:52:15.185Z"
+    },
+    "https://mouthprint.com/e/worn-into-shape": {
+      "contentHash": "b8fce86d2e885914eb376866c4104a0c12272f1700bdda1b3b45c1e1fdf7877a",
+      "processedAt": "2026-11-28T06:52:16.841Z"
+    },
+    "https://dbushell.com/2026/11/25/web-industry/": {
+      "contentHash": "6104b20957ed7e593c4c4a61052c0978f18aa6724ad6489124665413969ad595",
+      "processedAt": "2026-11-28T06:52:17.201Z"
+    },
+    "https://veszelovszki.com/a/tpe/": {
+      "contentHash": "82f5919ba0dad9d62590977f24ecdb84ec625f4a4038c2966da5d6153b30c310",
+      "processedAt": "2026-11-28T06:52:17.567Z"
+    },
+    "https://christianoliff.com/blog/design-md-vs-code-extension/": {
+      "contentHash": "88516e6d2eb3f52231326620d709360d1ce19521f71dff7e76d502acba93b901",
+      "processedAt": "2026-11-28T06:52:17.841Z"
+    },
+    "https://blog.maximeheckel.com/posts/lighting-that-feels-just-right/": {
+      "contentHash": "2cc3e36fecc39b56acd366a73ecb4f77aeddef824e7553c6b9a903a7ac641d74",
+      "processedAt": "2026-11-28T06:52:19.602Z"
+    },
+    "https://12ft.studio/lab/": {
+      "contentHash": "b5a88848c82617b3c1b6b52848baa2dc0da3986741505a424434d6a7e4635cb2",
+      "processedAt": "2026-11-28T06:52:21.411Z"
+    },
+    "https://www.seangood.win/articles/high-fidelity-low-definition": {
+      "contentHash": "aba1f6e1b1995484dcd015f0c3cca6d9d827d738b78397a1308e6d0d72b9cf6c",
+      "processedAt": "2026-11-28T06:52:21.585Z"
+    },
+    "https://blog.ronbronson.com/forward-deployed-design-as-plumbing": {
+      "contentHash": "86b8588cdaf2de656271713cc55fdb0c43dbb9217b1028364d2fb47a0c2a5f1b",
+      "processedAt": "2026-11-28T06:52:22.106Z"
+    },
+    "https://tegaki.ink/": {
+      "contentHash": "fa007149d63970c65b83c93695cedf25fa664045fc4ce1f97f3922788898e887",
+      "processedAt": "2026-11-28T06:52:22.404Z"
+    },
+    "https://ishadeed.com/article/web-personality/": {
+      "contentHash": "bb7e82c16ee09f729c5a441005c0d17c432007f03565a77e9f3cf7f91955fa65",
+      "processedAt": "2026-11-28T06:52:22.946Z"
+    },
+    "https://piccalil.li/the-index/208/": {
+      "contentHash": "a405cfd79b6066189ae3679dd61cb20ce9cd1ce17d23723ae9c08e34c5de552f",
+      "processedAt": "2026-11-28T06:52:23.284Z"
+    },
+    "https://piccalil.li/links/black-friday-deals-2026/": {
+      "contentHash": "0e7dd4c728fa3ee8333db6c860623db290e34ae172d4a3d7e2b7119b6f257202",
+      "processedAt": "2026-11-28T06:52:23.613Z"
+    },
+    "https://blog.jxck.io/entries/2026-11-27/verifiable-credentials.html": {
+      "contentHash": "616e9b20dff82025ae407899b73d9e3a09512617c0276af492aef5aa8425a903",
+      "processedAt": "2026-11-28T06:52:24.037Z"
+    },
+    "https://tech.smarthr.jp/entry/2026/11/27/120641": {
+      "contentHash": "febe570783d515f6a7ac22c97107652802d1fd0746eb769d06b3de1de91c1f9e",
+      "processedAt": "2026-11-28T06:52:28.620Z"
+    },
+    "https://www.nngroup.com/articles/usability-testing-101/": {
+      "contentHash": "87a869e3484c74fe528aff14ea9363c09fd29cf4b9242be7ddda775c03d5bce4",
+      "processedAt": "2026-11-28T06:52:29.440Z"
+    },
+    "https://react.statuscode.com/issues/499": {
+      "contentHash": "186d937edb97cf4ddcdfedfa47e099422b413c076ebc4f879edcfe8ed42ecaee",
+      "processedAt": "2026-11-28T06:52:29.940Z"
+    },
+    "https://blog.master.dev/button-sounds/": {
+      "contentHash": "aa2ddd05132f2222e7470350243c28fcea62f588ad17c1f785c13897d1b86be2",
+      "processedAt": "2026-11-28T06:52:30.053Z"
+    },
+    "https://blog.master.dev/confetti-shapes-random-a-fun-combination/": {
+      "contentHash": "ebcfc706e978e2b3058eeaa4d8b16c054bbfa45af71fd18519c2106e81d40669",
+      "processedAt": "2026-11-28T06:52:30.299Z"
+    },
+    "https://glebbahmutov.com/blog/freeze-network-calls/": {
+      "contentHash": "09cd3c5213caa931ac825b7c7d4f13dd1adead72973b3e6cb311f38abc1a7d16",
+      "processedAt": "2026-11-28T06:52:31.170Z"
+    },
+    "https://zenn.dev/suwash/articles/digital-agency-go-jp-2026-p9_20261127": {
+      "contentHash": "aa4b39fafe46d6f80a84070170a1f331843acd72e5e3d1938a48e3b82a17ecb8",
+      "processedAt": "2026-11-28T06:52:31.672Z"
     }
   },
-  "lastRun": "2026-11-26T07:21:43.374Z"
+  "lastRun": "2026-11-28T06:52:31.672Z"
 }
