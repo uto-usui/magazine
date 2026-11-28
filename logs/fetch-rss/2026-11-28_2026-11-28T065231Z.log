@@ -1,0 +1,62 @@
+articles_dir=2026-11-28
+exit_code=0
+timestamp_utc=2026-11-28T06:52:31Z
+
+---- issue lines ----
+8:Failed to fetch feed web.dev: 
+9:Failed to fetch feed css-tricks: Status code 415
+10:Failed to fetch feed Mercari Engineering: Status code 503
+11:Failed to fetch feed MeasuringU: Status code 415
+12:Failed to fetch feed Goodpatch Blog: Invalid character in entity name
+
+---- tail (last 50 lines) ----
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-28/the-judge-used-to-be-the-user.md
+📥 Processing: Worn into shape
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-28/worn-into-shape.md
+📥 Processing: The year the web industry gave up
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-28/the-year-the-web-industry-gave-up.md
+📥 Processing: I’m a 100x engineer now
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-28/im-a-100x-engineer-now.md
+📥 Processing: Design.md VS Code Extension
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-28/designmd-vs-code-extension.md
+📥 Processing: Lighting that feels just right
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-28/lighting-that-feels-just-right.md
+📥 Processing: 12ft Lab
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-28/12ft-lab.md
+📥 Processing: High fidelity, low definition
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-28/high-fidelity-low-definition.md
+📥 Processing: Forward-deployed design as plumbing
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-28/forward-deployed-design-as-plumbing.md
+📥 Processing: Tegaki
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-28/tegaki.md
+📥 Processing: The web is losing its personality
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-28/the-web-is-losing-its-personality.md
+📥 Processing: The Index: Issue #208
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-28/the-index-issue-208.md
+📥 Processing: A round-up of round-ups of Black Friday deals
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-28/a-round-up-of-round-ups-of-black-friday-deals.md
+📥 Processing: Verifiable Credentials による個人情報収集の最小化
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-28/verifiable-credentials.md
+📥 Processing: SmartHRの「フロントシステム」の品質保証は、なぜ一言で語れないのか —— むずかしさに向き合う現場の取り組み
+🤖 Bot protection detected (HTTP 429), trying Playwright: https://tech.smarthr.jp/entry/2026/11/27/120641
+✅ Playwright successfully fetched: https://tech.smarthr.jp/entry/2026/11/27/120641
+⚠️ Content too short (22 chars < 200): https://tech.smarthr.jp/entry/2026/11/27/120641
+⚠️ Using RSS content as fallback for: https://tech.smarthr.jp/entry/2026/11/27/120641
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-28/smarthr.md
+📥 Processing: Usability Testing 101
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-28/usability-testing-101.md
+📥 Processing: Ricky Hanlon leaves Meta (but not React)
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-28/ricky-hanlon-leaves-meta-but-not-react.md
+📥 Processing: Button Sounds
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-28/button-sounds.md
+📥 Processing: Confetti + Shapes + random(): A Fun Combination!
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-28/confetti-shapes-random-a-fun-combination.md
+📥 Processing: Freeze And Resume Network Calls In Cypress
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-28/freeze-and-resume-network-calls-in-cypress.md
+📥 Processing: デジタル庁デザインシステムは導入先のローカル仕様を定義してから使う
+✅ Saved: /home/runner/work/magazine/magazine/articles/2026-11-28/zenn-dev-suwash-articles-digital-agency-go-jp-2026-p9-20261127.md
+
+📊 Summary:
+   ✅ Success: 22
+   ❌ Errors: 0
+🏁 Done!
